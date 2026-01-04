@@ -111,13 +111,17 @@ function Test-FoodChanged {
     <#
     .SYNOPSIS
         Check if a food item has changes compared to existing data
+    .PARAMETER ResolvedLabelId
+        The resolved labelId from the import data (after name lookup)
     #>
     param(
         [Parameter(Mandatory)]
         [object]$Existing,
         
         [Parameter(Mandatory)]
-        [object]$New
+        [object]$New,
+        
+        [string]$ResolvedLabelId
     )
     
     # Compare name
@@ -128,6 +132,9 @@ function Test-FoodChanged {
     
     # Compare description
     if (-not (Compare-StringValue $Existing.description $New.description)) { return $true }
+    
+    # Compare labelId (existing labelId vs resolved labelId from import)
+    if (-not (Compare-StringValue $Existing.labelId $ResolvedLabelId)) { return $true }
     
     # Compare aliases
     if (-not (Compare-Aliases $Existing.aliases $New.aliases)) { return $true }
@@ -516,6 +523,9 @@ function Import-MealieFoods {
         Milliseconds to wait between API calls (default: 100)
     .PARAMETER WhatIf
         Show what would happen without making changes
+    .NOTES
+        Supports 'label' field in JSON (label name). The label must already exist in Mealie.
+        If a label name is not found, a warning is shown and the food is imported without label.
     #>
     [CmdletBinding(SupportsShouldProcess)]
     param(
@@ -534,18 +544,26 @@ function Import-MealieFoods {
     $importData = Get-Content $Path -Raw -Encoding UTF8 | ConvertFrom-Json
     $existingFoods = Get-MealieFoods -All
     
-    # Create lookup by name (lowercase for case-insensitive matching)
+    # Fetch labels and create lookup by name (case-insensitive)
+    $existingLabels = Get-MealieLabels -All
+    $labelsByName = @{}
+    foreach ($label in $existingLabels) {
+        $labelsByName[$label.name.ToLower().Trim()] = $label
+    }
+    
+    # Create food lookup by name (lowercase for case-insensitive matching)
     $existingByName = @{}
     foreach ($food in $existingFoods) {
         $existingByName[$food.name.ToLower().Trim()] = $food
     }
     
     $stats = @{
-        Created   = 0
-        Updated   = 0
-        Unchanged = 0
-        Skipped   = 0
-        Errors    = 0
+        Created       = 0
+        Updated       = 0
+        Unchanged     = 0
+        Skipped       = 0
+        Errors        = 0
+        LabelWarnings = 0
     }
     
     $total = @($importData).Count
@@ -560,11 +578,24 @@ function Import-MealieFoods {
         $percentComplete = [math]::Round(($current / $total) * 100)
         Write-Progress -Activity "Importing Foods" -Status "$current of $total - $itemName" -PercentComplete $percentComplete
         
+        # Resolve label name to labelId
+        $resolvedLabelId = $null
+        if (![string]::IsNullOrEmpty($item.label)) {
+            $labelLookup = $labelsByName[$item.label.ToLower().Trim()]
+            if ($labelLookup) {
+                $resolvedLabelId = $labelLookup.id
+            }
+            else {
+                Write-Warning "  [$current/$total] Label not found: '$($item.label)' for food '$itemName'"
+                $stats.LabelWarnings++
+            }
+        }
+        
         try {
             if ($existingFood) {
                 if ($UpdateExisting) {
-                    # Check if anything actually changed
-                    if (-not (Test-FoodChanged -Existing $existingFood -New $item)) {
+                    # Check if anything actually changed (including label)
+                    if (-not (Test-FoodChanged -Existing $existingFood -New $item -ResolvedLabelId $resolvedLabelId)) {
                         Write-Verbose "  [$current/$total] Unchanged: $itemName"
                         $stats.Unchanged++
                         continue
@@ -590,6 +621,9 @@ function Import-MealieFoods {
                         }
                         if ($aliases.Count -gt 0) {
                             $updateData.aliases = $aliases
+                        }
+                        if ($resolvedLabelId) {
+                            $updateData.labelId = $resolvedLabelId
                         }
                         
                         Update-MealieFood -Id $existingFood.id -Data $updateData | Out-Null
@@ -623,6 +657,9 @@ function Import-MealieFoods {
                     if ($aliasNames.Count -gt 0) {
                         $params.Aliases = $aliasNames
                     }
+                    if ($resolvedLabelId) {
+                        $params.LabelId = $resolvedLabelId
+                    }
                     
                     New-MealieFood @params | Out-Null
                     Write-Host "  [$current/$total] Created: $itemName" -ForegroundColor Green
@@ -641,11 +678,14 @@ function Import-MealieFoods {
     Write-Progress -Activity "Importing Foods" -Completed
     
     Write-Host "`nImport Summary:" -ForegroundColor Cyan
-    Write-Host "  Created:   $($stats.Created)"
-    Write-Host "  Updated:   $($stats.Updated)"
-    Write-Host "  Unchanged: $($stats.Unchanged)"
-    Write-Host "  Skipped:   $($stats.Skipped)"
-    Write-Host "  Errors:    $($stats.Errors)"
+    Write-Host "  Created:       $($stats.Created)"
+    Write-Host "  Updated:       $($stats.Updated)"
+    Write-Host "  Unchanged:     $($stats.Unchanged)"
+    Write-Host "  Skipped:       $($stats.Skipped)"
+    Write-Host "  Errors:        $($stats.Errors)"
+    if ($stats.LabelWarnings -gt 0) {
+        Write-Host "  LabelWarnings: $($stats.LabelWarnings)" -ForegroundColor Yellow
+    }
     
     return $stats
 }
@@ -1469,6 +1509,8 @@ function Export-MealieFoods {
     <#
     .SYNOPSIS
         Export all foods to a JSON file
+    .NOTES
+        Adds 'label' field (label name) for roundtrip compatibility with Import-MealieFoods
     #>
     [CmdletBinding()]
     param(
@@ -1477,7 +1519,33 @@ function Export-MealieFoods {
     )
     
     $foods = Get-MealieFoods -All
-    $foods | ConvertTo-Json -Depth 10 | Set-Content $Path -Encoding UTF8
+    
+    # Transform to include label name for import compatibility
+    $exportData = $foods | ForEach-Object {
+        $food = $_
+        $result = [ordered]@{
+            name        = $food.name
+            pluralName  = $food.pluralName
+            description = $food.description
+        }
+        
+        # Add label name (not the full object) for import compatibility
+        if ($food.label -and $food.label.name) {
+            $result.label = $food.label.name
+        }
+        
+        # Add aliases
+        if ($food.aliases -and $food.aliases.Count -gt 0) {
+            $result.aliases = @($food.aliases | ForEach-Object { @{ name = $_.name } })
+        }
+        else {
+            $result.aliases = @()
+        }
+        
+        [PSCustomObject]$result
+    }
+    
+    $exportData | ConvertTo-Json -Depth 10 | Set-Content $Path -Encoding UTF8
     Write-Host "Exported $($foods.Count) foods to: $Path" -ForegroundColor Green
 }
 

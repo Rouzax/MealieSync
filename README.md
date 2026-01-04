@@ -105,14 +105,30 @@ The import compares all relevant fields (name, pluralName, aliases, fraction, et
 
 ```
 Import Summary:
-  Created:   5
-  Updated:   3    ← Only items that actually changed
-  Unchanged: 42   ← Items that matched exactly
-  Skipped:   0
-  Errors:    0
+  Created:       5
+  Updated:       3    ← Only items that actually changed
+  Unchanged:     42   ← Items that matched exactly
+  Skipped:       0
+  Errors:        0
+  LabelWarnings: 2    ← Labels not found (foods imported without label)
 ```
 
 Use `-UpdateExisting` when you want to enrich existing entries with aliases, plural names, or other data.
+
+### Recommended Import Order
+
+When using labels on foods, import in this order:
+
+1. **Labels first** — So they exist when foods reference them
+2. **Foods second** — Can now link to labels by name
+
+```powershell
+# 1. Import labels
+.\Invoke-MealieSync.ps1 -Action Import -Type Labels -JsonPath .\Dutch_Labels.json
+
+# 2. Import foods (with label references)
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Dutch_Foods_Extended.json
+```
 
 ## Using the Module Directly
 
@@ -157,6 +173,11 @@ New-MealieTool -Name "Airfryer"
 - French/Italian ingredients with Dutch names
 - Common aliases and spelling variations
 
+### Example_Foods_With_Labels.json
+Example file demonstrating label assignment:
+- Shows how to link foods to existing labels
+- Includes test case for non-existent label (shows warning behavior)
+
 ### Dutch_Units_Extended.json
 ~45 Dutch measurement units:
 - Metric units (gram, liter, ml, kg)
@@ -191,11 +212,15 @@ New-MealieTool -Name "Airfryer"
   "name": "tomaat",
   "pluralName": "tomaten",
   "description": "",
+  "label": "Groente",
   "aliases": [
     {"name": "trostomaat"},
     {"name": "vleestomaat"}
   ]
 }
+```
+
+**Note:** The `label` field should contain the **name** of an existing label. If the label doesn't exist, a warning is shown and the food is imported without label. This prevents accidental creation of labels with typos.
 ```
 
 ### Unit
