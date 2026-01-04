@@ -1,0 +1,4 @@
+  {
+    "BaseUrl": "http://your-mealie-server:9000",
+    "Token": "your-api-token-here"
+  }

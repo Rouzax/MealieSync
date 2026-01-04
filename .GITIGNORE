@@ -1,0 +1,33 @@
+# Configuration with secrets
+mealie-config.json
+
+# Backup files
+Backup_*.json
+*_backup.json
+*.bak
+
+# Exported data (may contain personal recipes)
+Export_*.json
+
+# PowerShell
+*.ps1xml
+*.psd1.bak
+
+# IDE / Editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~

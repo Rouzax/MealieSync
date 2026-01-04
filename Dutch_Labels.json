@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Groente",
+    "color": "#43A047"
+  },
+  {
+    "name": "Fruit",
+    "color": "#7CB342"
+  },
+  {
+    "name": "Aardappelen & Knollen",
+    "color": "#8D6E63"
+  },
+  {
+    "name": "Verse kruiden",
+    "color": "#2E7D32"
+  },
+  {
+    "name": "Vlees",
+    "color": "#E53935"
+  },
+  {
+    "name": "Gevogelte",
+    "color": "#FB8C00"
+  },
+  {
+    "name": "Vis & Zeevruchten",
+    "color": "#1E88E5"
+  },
+  {
+    "name": "Vleeswaren",
+    "color": "#C62828"
+  },
+  {
+    "name": "Zuivel",
+    "color": "#FDD835"
+  },
+  {
+    "name": "Kaas",
+    "color": "#F9A825"
+  },
+  {
+    "name": "Eieren",
+    "color": "#FFF176"
+  },
+  {
+    "name": "Brood & Gebak",
+    "color": "#A1887F"
+  },
+  {
+    "name": "Beleg",
+    "color": "#6D4C41"
+  },
+  {
+    "name": "Ontbijtgranen",
+    "color": "#FFB300"
+  },
+  {
+    "name": "Pasta, Rijst & Noedels",
+    "color": "#FFCA28"
+  },
+  {
+    "name": "Peulvruchten",
+    "color": "#546E7A"
+  },
+  {
+    "name": "Noten & Zaden",
+    "color": "#9E9D24"
+  },
+  {
+    "name": "Conserven",
+    "color": "#00897B"
+  },
+  {
+    "name": "Kruiden & Specerijen",
+    "color": "#8E24AA"
+  },
+  {
+    "name": "Olie, Azijn & Vet",
+    "color": "#F4511E"
+  },
+  {
+    "name": "Sauzen & Condimenten",
+    "color": "#D81B60"
+  },
+  {
+    "name": "Bouillon & Smaakmakers",
+    "color": "#5E35B1"
+  },
+  {
+    "name": "Snacks & Chips",
+    "color": "#F06292"
+  },
+  {
+    "name": "Zoetwaren",
+    "color": "#EC407A"
+  },
+  {
+    "name": "Dranken",
+    "color": "#3949AB"
+  },
+  {
+    "name": "Koffie & Thee",
+    "color": "#4E342E"
+  },
+  {
+    "name": "Diepvries",
+    "color": "#00ACC1"
+  },
+  {
+    "name": "Toko / Aziatisch",
+    "color": "#00BFA5"
+  },
+  {
+    "name": "Mexicaans",
+    "color": "#C0CA33"
+  },
+  {
+    "name": "Italiaans",
+    "color": "#7E57C2"
+  },
+  {
+    "name": "Frans",
+    "color": "#26A69A"
+  },
+  {
+    "name": "Slager",
+    "color": "#B71C1C"
+  },
+  {
+    "name": "Visboer",
+    "color": "#1565C0"
+  },
+  {
+    "name": "Speciaalzaak",
+    "color": "#6A1B9A"
+  },
+  {
+    "name": "Dieet - Vegan",
+    "color": "#2E7D32"
+  },
+  {
+    "name": "Dieet - Glutenvrij",
+    "color": "#00838F"
+  },
+  {
+    "name": "Dieet - Lactosevrij",
+    "color": "#0277BD"
+  },
+  {
+    "name": "Dieet - Biologisch",
+    "color": "#558B2F"
+  },
+  {
+    "name": "Overig",
+    "color": "#959595"
+  }
+]
