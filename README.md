@@ -78,6 +78,27 @@ Always backup before making changes:
 .\Invoke-MealieSync.ps1 -Action Export -Type Tools -JsonPath .\Backup_Tools.json
 ```
 
+### Advanced Export Options (Foods)
+
+Export only foods with a specific label:
+```powershell
+.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Groente.json -Label "Groente"
+.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Vlees.json -Label "Vlees"
+```
+
+Export all foods to separate files per label:
+```powershell
+.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\FoodsExport -SplitByLabel
+```
+This creates a folder with:
+```
+FoodsExport/
+  Groente.json
+  Vlees.json
+  Zuivel.json
+  _Geen_Label.json   (foods without a label)
+```
+
 ### Import Data
 
 ```powershell

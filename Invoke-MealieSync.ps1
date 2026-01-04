@@ -18,6 +18,14 @@
     Export all units to JSON file
 
 .EXAMPLE
+    .\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Groente.json -Label "Groente"
+    Export only foods with label "Groente"
+
+.EXAMPLE
+    .\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\FoodsExport -SplitByLabel
+    Export foods to separate files per label (Groente.json, Vlees.json, etc.)
+
+.EXAMPLE
     .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -WhatIf
     Preview what would happen without making changes
 #>
@@ -34,6 +42,11 @@ param(
     [string]$JsonPath,
     
     [switch]$UpdateExisting,
+    
+    # Export options for Foods
+    [string]$Label,
+    
+    [switch]$SplitByLabel,
     
     [string]$ConfigPath = ".\mealie-config.json"
 )
@@ -149,10 +162,23 @@ try {
                 Join-Path (Get-Location) $JsonPath
             }
             
-            Write-Host "`nExporting $Type to: $fullPath" -ForegroundColor Cyan
+            if ($SplitByLabel) {
+                Write-Host "`nExporting $Type to folder: $fullPath (split by label)" -ForegroundColor Cyan
+            }
+            elseif ($Label) {
+                Write-Host "`nExporting $Type with label '$Label' to: $fullPath" -ForegroundColor Cyan
+            }
+            else {
+                Write-Host "`nExporting $Type to: $fullPath" -ForegroundColor Cyan
+            }
             
             switch ($Type) {
-                'Foods' { Export-MealieFoods -Path $fullPath }
+                'Foods' {
+                    $exportParams = @{ Path = $fullPath }
+                    if ($Label) { $exportParams.Label = $Label }
+                    if ($SplitByLabel) { $exportParams.SplitByLabel = $true }
+                    Export-MealieFoods @exportParams
+                }
                 'Units' { Export-MealieUnits -Path $fullPath }
                 'Labels' { Export-MealieLabels -Path $fullPath }
                 'Categories' { Export-MealieCategories -Path $fullPath }
@@ -167,7 +193,7 @@ try {
             switch ($Type) {
                 'Foods' {
                     $items = Get-MealieFoods -All
-                    $items | Select-Object name, pluralName, @{N = 'aliases'; E = { ($_.aliases.name -join ', ') } } | 
+                    $items | Select-Object name, pluralName, @{N = 'label'; E = { $_.label.name } }, @{N = 'aliases'; E = { ($_.aliases.name -join ', ') } } | 
                         Sort-Object name |
                         Format-Table -AutoSize
                     Write-Host "Total: $($items.Count) foods"

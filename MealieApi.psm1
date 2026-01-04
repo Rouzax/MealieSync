@@ -1508,33 +1508,50 @@ function Export-MealieTools {
 function Export-MealieFoods {
     <#
     .SYNOPSIS
-        Export all foods to a JSON file
+        Export foods to JSON file(s)
+    .PARAMETER Path
+        Path to the JSON file (or folder when using -SplitByLabel)
+    .PARAMETER Label
+        Export only foods with this label name
+    .PARAMETER SplitByLabel
+        Export to separate files per label. Path should be a folder.
     .NOTES
         Adds 'label' field (label name) for roundtrip compatibility with Import-MealieFoods
+    .EXAMPLE
+        Export-MealieFoods -Path .\Foods.json
+        # Exports all foods to single file
+    .EXAMPLE
+        Export-MealieFoods -Path .\Foods.json -Label "Groente"
+        # Exports only foods with label "Groente"
+    .EXAMPLE
+        Export-MealieFoods -Path .\FoodsExport -SplitByLabel
+        # Exports to FoodsExport\Groente.json, FoodsExport\Vlees.json, etc.
     #>
     [CmdletBinding()]
     param(
         [Parameter(Mandatory)]
-        [string]$Path
+        [string]$Path,
+        
+        [string]$Label,
+        
+        [switch]$SplitByLabel
     )
     
     $foods = Get-MealieFoods -All
     
-    # Transform to include label name for import compatibility
-    $exportData = $foods | ForEach-Object {
-        $food = $_
+    # Helper function to transform food for export
+    $transformFood = {
+        param($food)
         $result = [ordered]@{
             name        = $food.name
             pluralName  = $food.pluralName
             description = $food.description
         }
         
-        # Add label name (not the full object) for import compatibility
         if ($food.label -and $food.label.name) {
             $result.label = $food.label.name
         }
         
-        # Add aliases
         if ($food.aliases -and $food.aliases.Count -gt 0) {
             $result.aliases = @($food.aliases | ForEach-Object { @{ name = $_.name } })
         }
@@ -1545,8 +1562,49 @@ function Export-MealieFoods {
         [PSCustomObject]$result
     }
     
-    $exportData | ConvertTo-Json -Depth 10 | Set-Content $Path -Encoding UTF8
-    Write-Host "Exported $($foods.Count) foods to: $Path" -ForegroundColor Green
+    if ($SplitByLabel) {
+        # Create output folder if needed
+        if (-not (Test-Path $Path)) {
+            New-Item -ItemType Directory -Path $Path -Force | Out-Null
+        }
+        
+        # Group foods by label
+        $grouped = $foods | Group-Object { if ($_.label) { $_.label.name } else { "_Geen_Label" } }
+        
+        $totalExported = 0
+        foreach ($group in $grouped) {
+            # Sanitize filename (remove invalid characters)
+            $safeName = $group.Name -replace '[\\/:*?"<>|]', '_'
+            $filePath = Join-Path $Path "$safeName.json"
+            
+            $exportData = $group.Group | ForEach-Object { & $transformFood $_ }
+            $exportData | ConvertTo-Json -Depth 10 | Set-Content $filePath -Encoding UTF8
+            
+            Write-Host "  Exported $($group.Count) foods to: $filePath" -ForegroundColor Green
+            $totalExported += $group.Count
+        }
+        
+        Write-Host "`nTotal: $totalExported foods exported to $($grouped.Count) files in: $Path" -ForegroundColor Cyan
+    }
+    elseif ($Label) {
+        # Filter by specific label
+        $filtered = $foods | Where-Object { $_.label -and $_.label.name -eq $Label }
+        
+        if ($filtered.Count -eq 0) {
+            Write-Warning "No foods found with label: $Label"
+            return
+        }
+        
+        $exportData = $filtered | ForEach-Object { & $transformFood $_ }
+        $exportData | ConvertTo-Json -Depth 10 | Set-Content $Path -Encoding UTF8
+        Write-Host "Exported $($filtered.Count) foods with label '$Label' to: $Path" -ForegroundColor Green
+    }
+    else {
+        # Export all to single file
+        $exportData = $foods | ForEach-Object { & $transformFood $_ }
+        $exportData | ConvertTo-Json -Depth 10 | Set-Content $Path -Encoding UTF8
+        Write-Host "Exported $($foods.Count) foods to: $Path" -ForegroundColor Green
+    }
 }
 
 function Export-MealieUnits {
