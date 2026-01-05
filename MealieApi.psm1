@@ -1260,7 +1260,10 @@ function Import-MealieLabels {
                     }
                     
                     if ($PSCmdlet.ShouldProcess($itemName, "Update Label")) {
-                        $updateData = @{ name = $itemName }
+                        $updateData = @{
+                            name    = $itemName
+                            groupId = $existingItem.groupId  # Required by API
+                        }
                         if (![string]::IsNullOrEmpty($item.color)) {
                             $updateData.color = $item.color
                         }
@@ -1401,7 +1404,10 @@ function Import-MealieOrganizers {
                     }
                     
                     if ($PSCmdlet.ShouldProcess($itemName, "Update $Type")) {
-                        $updateData = @{ name = $itemName }
+                        $updateData = @{
+                            name    = $itemName
+                            groupId = $existingItem.groupId  # Required by API
+                        }
                         
                         switch ($Type) {
                             'Categories' { Update-MealieCategory -Id $existingItem.id -Data $updateData | Out-Null }

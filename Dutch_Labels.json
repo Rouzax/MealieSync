@@ -108,12 +108,24 @@
     "color": "#5C6BC0"
   },
   {
+    "name": "Wijn",
+    "color": "#AD1457"
+  },
+  {
+    "name": "Bier",
+    "color": "#FF8F00"
+  },
+  {
+    "name": "Sterke drank & Likeuren",
+    "color": "#4A148C"
+  },
+  {
     "name": "Koffie & Thee",
     "color": "#4E342E"
   },
   {
     "name": "Diepvries",
-    "color": "#00ACC1"
+    "color": "#29B6F6"
   },
   {
     "name": "Toko / Aziatisch",
