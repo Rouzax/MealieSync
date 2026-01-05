@@ -1,0 +1,69 @@
+[
+  {
+    "name": "aspic",
+    "pluralName": "aspic",
+    "description": "Hartige gelei (van bouillon met gelatine); gebruikt om voedsel in te kapselen.",
+    "aliases": [],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "bouillon",
+    "pluralName": "bouillon",
+    "description": "Getrokken soepbasis van vlees, vis of groenten; gebruikt als basis voor soepen en sauzen.",
+    "aliases": [
+      {
+        "name": "stock"
+      }
+    ],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "consommé",
+    "pluralName": "consommé",
+    "description": "Heldere bouillon (geclarificeerd); krachtig voorgerecht of basis voor gelei.",
+    "aliases": [],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "fond",
+    "pluralName": "fond",
+    "description": "Ingekookte bouillon (basis voor sauzen); geconcentreerde smaakmaker.",
+    "aliases": [],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "maggi",
+    "pluralName": "Maggi",
+    "description": "Maggi aroma; hartige vloeibare smaakmaker voor soepen en sauzen.",
+    "aliases": [],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "mirin",
+    "pluralName": "mirin",
+    "description": "Japanse rijstwijn; zoet, voor marinades en sauzen.",
+    "aliases": [],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "oxo",
+    "pluralName": "oxo",
+    "description": "Bovril/OXO-blokje (runderbouillonconcentraat); opgelost als drank of in jus voor hartigheid.",
+    "aliases": [],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "smaakversterker",
+    "pluralName": "smaakversterker",
+    "description": "Additief (zoals MSG/E621); verhoogt umami-smaak, veel gebruikt in Aziatische keuken.",
+    "aliases": [],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "visbouillon",
+    "pluralName": "visbouillon",
+    "description": "Bouillon getrokken van visgraten en groenten; basis voor vissoep en sauzen.",
+    "aliases": [],
+    "label": "Bouillon & Smaakmakers"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "name": "eend",
+    "pluralName": "eend",
+    "description": "Gevogelte; vetrijk vlees met rijke smaak.",
+    "aliases": [
+      {
+        "name": "hele eend"
+      }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "eendenborst",
+    "pluralName": "eendenborsten",
+    "description": "Gevogelte; magere borst met vetlaag, kort gebakken.",
+    "aliases": [
+      {
+        "name": "magret de canard"
+      }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "eendenbout",
+    "pluralName": "eendenbouten",
+    "description": "Gevogelte; sappige bout, ideaal voor confit.",
+    "aliases": [
+      {
+        "name": "confit de canard"
+      }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "gans",
+    "pluralName": "gans",
+    "description": "Gevogelte; feestelijk vlees, vaak gevuld gebraden.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kalkoen",
+    "pluralName": "kalkoen",
+    "description": "Gevogelte; groot vlees, hele kalkoen of in delen.",
+    "aliases": [
+      {
+        "name": "hele kalkoen"
+      }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kalkoenfilet",
+    "pluralName": "kalkoenfilets",
+    "description": "Gevogelte; mager borstvlees van kalkoen.",
+    "aliases": [
+      {
+        "name": "kalkoenborst"
+      }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kip",
+    "pluralName": "kip",
+    "description": "Gevogelte; veelzijdig vlees, hele kip of in delen.",
+    "aliases": [
+      {
+        "name": "hele kip"
+      }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kipfilet",
+    "pluralName": "kipfilets",
+    "description": "Gevogelte; mager borstvlees van kip, snel te bereiden.",
+    "aliases": [
+      {
+        "name": "kippenborst"
+      },
+      {
+        "name": "kipborst"
+      }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kipgehakt",
+    "pluralName": "kipgehakt",
+    "description": "Gevogelte; gemalen kipvlees, voor gehaktballen of burgers.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kippenbout",
+    "pluralName": "kippenbouten",
+    "description": "Gevogelte; dij en drumstick aan elkaar, sappig donker vlees.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kippendij",
+    "pluralName": "kippendijen",
+    "description": "Gevogelte; sappig donker vlees, ideaal voor stoven of grillen.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kippenpoot",
+    "pluralName": "kippenpoten",
+    "description": "Gevogelte; drumstick, populair gegrild of gefrituurd.",
+    "aliases": [
+      {
+        "name": "kipdrumstick"
+      },
+      {
+        "name": "drumstick"
+      }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kippenvleugel",
+    "pluralName": "kippenvleugels",
+    "description": "Gevogelte; kleine vleugels, vaak als snack (buffalo wings).",
+    "aliases": [
+      {
+        "name": "chicken wings"
+      }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kipschnitzel",
+    "pluralName": "kipschnitzels",
+    "description": "Gepaneerde kipfilet; gebakken of in de oven.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kuikenvlees",
+    "pluralName": "kuikenvlees",
+    "description": "Jonge kip (kuikenvlees); mals gevogelte, snel bereid als poussin of piepkuiken.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "parelhoen",
+    "pluralName": "parelhoen",
+    "description": "Gevogelte; wildachtige smaak, gebakken of gestoofd.",
+    "aliases": [],
+    "label": "Gevogelte"
+  }
+]

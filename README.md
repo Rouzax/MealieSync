@@ -6,11 +6,35 @@ PowerShell module and scripts for managing data in [Mealie](https://mealie.io) v
 
 - **Import & Export** — Sync data from JSON files to your Mealie instance
 - **Multiple data types** — Foods, Units, Labels, Categories, Tags, Tools
-- **Smart updates** — Create new items or update existing ones
+- **Smart updates** — Create new items or update existing ones (with change detection)
+- **Label support** — Link foods to labels by name
 - **Progress tracking** — Visual progress bar during imports
 - **Rate limiting** — Configurable throttling to avoid API overload
 - **WhatIf support** — Preview changes before applying
 - **Dutch data included** — Extended Dutch ingredient, unit, and category lists
+
+## Folder Structure
+
+```
+MealieSync/
+├── Data/                        # Source files for import
+│   ├── Labels/                  # Foods organized by label (optional)
+│   │   ├── Groente.json
+│   │   ├── Vlees.json
+│   │   └── ...
+│   ├── Dutch_Categories.json
+│   ├── Dutch_Foods.json         # Or all foods in one file
+│   ├── Dutch_Labels.json
+│   ├── Dutch_Tools.json
+│   └── Dutch_Units.json
+├── Exports/                     # Backups and exports (gitignored)
+├── .gitignore
+├── Invoke-MealieSync.ps1        # Main CLI script
+├── MealieApi.psm1               # PowerShell module
+├── mealie-config.json           # Your config (gitignored)
+├── mealie-config-sample.json    # Config template
+└── README.md
+```
 
 ## Supported Data Types
 
@@ -70,29 +94,36 @@ PowerShell module and scripts for managing data in [Mealie](https://mealie.io) v
 Always backup before making changes:
 
 ```powershell
-.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Backup_Foods.json
-.\Invoke-MealieSync.ps1 -Action Export -Type Units -JsonPath .\Backup_Units.json
-.\Invoke-MealieSync.ps1 -Action Export -Type Labels -JsonPath .\Backup_Labels.json
-.\Invoke-MealieSync.ps1 -Action Export -Type Categories -JsonPath .\Backup_Categories.json
-.\Invoke-MealieSync.ps1 -Action Export -Type Tags -JsonPath .\Backup_Tags.json
-.\Invoke-MealieSync.ps1 -Action Export -Type Tools -JsonPath .\Backup_Tools.json
+# Create Exports folder if it doesn't exist
+New-Item -ItemType Directory -Path .\Exports -Force
+
+.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Exports\Backup_Foods.json
+.\Invoke-MealieSync.ps1 -Action Export -Type Units -JsonPath .\Exports\Backup_Units.json
+.\Invoke-MealieSync.ps1 -Action Export -Type Labels -JsonPath .\Exports\Backup_Labels.json
+.\Invoke-MealieSync.ps1 -Action Export -Type Categories -JsonPath .\Exports\Backup_Categories.json
+.\Invoke-MealieSync.ps1 -Action Export -Type Tags -JsonPath .\Exports\Backup_Tags.json
+.\Invoke-MealieSync.ps1 -Action Export -Type Tools -JsonPath .\Exports\Backup_Tools.json
 ```
 
 ### Advanced Export Options (Foods)
 
 Export only foods with a specific label:
 ```powershell
-.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Groente.json -Label "Groente"
-.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Vlees.json -Label "Vlees"
+.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Exports\Groente.json -Label "Groente"
+.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Exports\Vlees.json -Label "Vlees"
 ```
 
 Export all foods to separate files per label:
 ```powershell
-.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\FoodsExport -SplitByLabel
+# Export to Data/Labels for source control
+.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Data\Labels -SplitByLabel
+
+# Or export to Exports folder for backups
+.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Exports\ByLabel -SplitByLabel
 ```
 This creates a folder with:
 ```
-FoodsExport/
+Data/Labels/
   Groente.json
   Vlees.json
   Zuivel.json
@@ -103,13 +134,50 @@ FoodsExport/
 
 ```powershell
 # Preview what would happen (dry run)
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Dutch_Foods_Extended.json -WhatIf
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json -WhatIf
 
 # Import new items only (skip existing)
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Dutch_Foods_Extended.json
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json
 
 # Import and update existing items
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Dutch_Foods_Extended.json -UpdateExisting
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json -UpdateExisting
+```
+
+### Import from Folder
+
+Import all JSON files from a folder at once:
+
+```powershell
+# Import all foods from Data/Labels folder
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -Folder .\Data\Labels
+
+# With update existing
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -Folder .\Data\Labels -UpdateExisting
+```
+
+Output:
+```
+Importing Foods from folder: D:\GitHub\MealieSync\Data\Labels
+Found 5 JSON file(s)
+
+── Groente.json ──
+  [1/45] Created: tomaat
+  ...
+
+Import Summary:
+  Created:   45
+  ...
+
+── Vlees.json ──
+  ...
+
+═══════════════════════════════════
+Combined Totals (5 files):
+  Created:       120
+  Updated:       0
+  Unchanged:     0
+  Skipped:       0
+  Errors:        0
 ```
 
 ### Understanding -UpdateExisting
@@ -145,10 +213,12 @@ When using labels on foods, import in this order:
 
 ```powershell
 # 1. Import labels
-.\Invoke-MealieSync.ps1 -Action Import -Type Labels -JsonPath .\Dutch_Labels.json
+.\Invoke-MealieSync.ps1 -Action Import -Type Labels -JsonPath .\Data\Dutch_Labels.json
 
-# 2. Import foods (with label references)
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Dutch_Foods_Extended.json
+# 2. Import foods - either single file or folder
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json
+# OR
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -Folder .\Data\Labels
 ```
 
 ## Using the Module Directly
@@ -187,19 +257,17 @@ New-MealieTool -Name "Airfryer"
 
 ## Included Dutch Data Files
 
-### Dutch_Foods_Extended.json
+All data files are in the `Data/` folder:
+
+### Dutch_Foods.json
 ~200 Dutch ingredient names with aliases:
 - Dutch vegetables, fruits, meats
 - Indonesian/Asian ingredients (trassi, sambal, ketjap, tempe, etc.)
 - French/Italian ingredients with Dutch names
 - Common aliases and spelling variations
+- Supports `label` field to link to existing labels
 
-### Example_Foods_With_Labels.json
-Example file demonstrating label assignment:
-- Shows how to link foods to existing labels
-- Includes test case for non-existent label (shows warning behavior)
-
-### Dutch_Units_Extended.json
+### Dutch_Units.json
 ~45 Dutch measurement units:
 - Metric units (gram, liter, ml, kg)
 - Dutch cooking measurements (eetlepel, theelepel, snufje, scheutje)
@@ -207,20 +275,21 @@ Example file demonstrating label assignment:
 - Abbreviations and aliases (el, tl, EL, TL)
 
 ### Dutch_Labels.json
-25 color-coded labels for ingredient categorization:
-- Groente, Fruit, Vlees, Vis, Gevogelte
-- Zuivel, Kruiden & Specerijen, Bakproducten
-- Vegan, Biologisch, Glutenvrij, Lactosevrij
+Color-coded labels for ingredient categorization:
+- Groente, Fruit, Vlees, Vis & Zeevruchten, Gevogelte
+- Zuivel, Kaas, Kruiden & Specerijen
+- Toko / Aziatisch, Mexicaans, Italiaans
+- And more...
 
 ### Dutch_Categories.json
-32 recipe categories:
+Recipe categories:
 - Hoofdgerecht, Voorgerecht, Nagerecht, Bijgerecht
 - Ontbijt, Lunch, Brunch, Snack
-- Vegetarisch, Veganistisch, Glutenvrij
-- BBQ, Feestelijk, Snel & Makkelijk
+- Saus, Dressing, Marinade
+- BBQ, Meal Prep
 
 ### Dutch_Tools.json
-60 kitchen tools and equipment:
+Kitchen tools and equipment:
 - Appliances (Oven, Airfryer, Blender, Thermomix)
 - Cookware (Koekenpan, Wok, Braadpan)
 - Utensils (Garde, Spatel, Rasp, Vergiet)

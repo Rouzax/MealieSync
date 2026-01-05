@@ -1,0 +1,120 @@
+[
+  {
+    "name": "bier",
+    "pluralName": "bier",
+    "description": "Alcoholische drank (gegist graanbeslag); ook gebruikt in marinades en beslag.",
+    "aliases": [
+      {
+        "name": "beer"
+      }
+    ],
+    "label": "Bier"
+  },
+  {
+    "name": "blond bier",
+    "pluralName": "blond bier",
+    "description": "Licht bier; mild en fris van smaak.",
+    "aliases": [],
+    "label": "Bier"
+  },
+  {
+    "name": "bockbier",
+    "pluralName": "bockbier",
+    "description": "Donker seizoensbier; vol en zoet van smaak.",
+    "aliases": [],
+    "label": "Bier"
+  },
+  {
+    "name": "bruinbier",
+    "pluralName": "bruinbier",
+    "description": "Donker bier; moutig en zoetig van smaak, gebruikt in stoofgerechten.",
+    "aliases": [],
+    "label": "Bier"
+  },
+  {
+    "name": "dubbel",
+    "pluralName": "dubbel",
+    "description": "Belgisch donker abdijbier; moutig met karamel- en pruimsmaak.",
+    "aliases": [],
+    "label": "Bier"
+  },
+  {
+    "name": "geuze",
+    "pluralName": "geuze",
+    "description": "Belgisch spontaan gegist bier; zuur en complex.",
+    "aliases": [
+      {
+        "name": "lambiek"
+      }
+    ],
+    "label": "Bier"
+  },
+  {
+    "name": "herfstbock",
+    "pluralName": "herfstbock",
+    "description": "Herfstbier; moutig en kruidig.",
+    "aliases": [],
+    "label": "Bier"
+  },
+  {
+    "name": "IPA",
+    "pluralName": "IPA",
+    "description": "India Pale Ale; hoprijk bier met bittere en fruitige smaak.",
+    "aliases": [
+      {
+        "name": "india pale ale"
+      }
+    ],
+    "label": "Bier"
+  },
+  {
+    "name": "kriek",
+    "pluralName": "kriek",
+    "description": "Belgisch kersenbier; zoetzuur fruitbier.",
+    "aliases": [],
+    "label": "Bier"
+  },
+  {
+    "name": "pils",
+    "pluralName": "pils",
+    "description": "Blonde lager; helder en verfrissend, meest gedronken biersoort.",
+    "aliases": [
+      {
+        "name": "pilsener"
+      },
+      {
+        "name": "lager"
+      }
+    ],
+    "label": "Bier"
+  },
+  {
+    "name": "stout",
+    "pluralName": "stout",
+    "description": "Donker bier met gebrande mout; koffie- en chocoladesmaak.",
+    "aliases": [
+      {
+        "name": "porter"
+      }
+    ],
+    "label": "Bier"
+  },
+  {
+    "name": "tripel",
+    "pluralName": "tripel",
+    "description": "Belgisch sterk blond bier; fruitig en kruidig.",
+    "aliases": [],
+    "label": "Bier"
+  },
+  {
+    "name": "witbier",
+    "pluralName": "witbier",
+    "description": "Belgisch tarwebier; troebel, fris en licht kruidig.",
+    "aliases": [
+      {
+        "name": "wheat beer"
+      }
+    ],
+    "label": "Bier"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "chocolade",
+    "pluralName": "chocolade",
+    "description": "Zoetwaar van cacao; puur, melk of wit.",
+    "aliases": [],
+    "label": "Zoetwaren"
+  },
+  {
+    "name": "chocoladedruppels",
+    "pluralName": "chocoladedruppels",
+    "description": "Kleine stukjes chocolade; voor koekjes.",
+    "aliases": [
+      {
+        "name": "chocolate chips"
+      }
+    ],
+    "label": "Zoetwaren"
+  },
+  {
+    "name": "marsepein",
+    "pluralName": "marsepein",
+    "description": "Zoete amandelpasta (marsepein); modelleren tot figuren of als vulling in banket.",
+    "aliases": [],
+    "label": "Zoetwaren"
+  },
+  {
+    "name": "melkchocolade",
+    "pluralName": "melkchocolade",
+    "description": "Chocolade met melk; zoet, voor snoepen en bakken.",
+    "aliases": [],
+    "label": "Zoetwaren"
+  },
+  {
+    "name": "pure chocolade",
+    "pluralName": "pure chocolade",
+    "description": "Donkere chocolade; hoog cacaogehalte, voor bakken.",
+    "aliases": [
+      {
+        "name": "puur"
+      }
+    ],
+    "label": "Zoetwaren"
+  },
+  {
+    "name": "witte chocolade",
+    "pluralName": "witte chocolade",
+    "description": "Chocolade zonder cacao; zoet en romig.",
+    "aliases": [],
+    "label": "Zoetwaren"
+  }
+]

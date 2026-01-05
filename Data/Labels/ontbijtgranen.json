@@ -1,0 +1,23 @@
+[
+  {
+    "name": "gerstevlokken",
+    "pluralName": "gerstevlokken",
+    "description": "Geplette gerstekorrels; kookt tot pap of gebruikt in muesli.",
+    "aliases": [],
+    "label": "Ontbijtgranen"
+  },
+  {
+    "name": "havermout",
+    "pluralName": "havermout",
+    "description": "Geplet haverzaad; voor pap en bakken.",
+    "aliases": [
+      {
+        "name": "havervlokken"
+      },
+      {
+        "name": "oats"
+      }
+    ],
+    "label": "Ontbijtgranen"
+  }
+]

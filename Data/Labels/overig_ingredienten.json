@@ -1,0 +1,16 @@
+[
+  {
+    "name": "havermoutvlees",
+    "pluralName": "havermoutvlees",
+    "description": "Vleesvervanger van havervezels; draderige structuur, als pulled pork alternatief.",
+    "aliases": [
+      {
+        "name": "pulled oats"
+      },
+      {
+        "name": "havervezel"
+      }
+    ],
+    "label": "Overige Ingrediënten"
+  }
+]

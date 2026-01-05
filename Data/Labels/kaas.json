@@ -1,0 +1,203 @@
+[
+  {
+    "name": "belegen kaas",
+    "pluralName": "belegen kaas",
+    "description": "Langer gerijpte kaas; meer smaak.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "blauwschimmelkaas",
+    "pluralName": "blauwschimmelkaas",
+    "description": "Kaas met blauwschimmel (bijv. Roquefort); pittig van smaak, voor salades of saus.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "buffelmozzarella",
+    "pluralName": "buffelmozzarella",
+    "description": "Mozzarella van buffelmelk; romiger en rijker dan gewone mozzarella.",
+    "aliases": [
+      {
+        "name": "mozzarella di bufala"
+      }
+    ],
+    "label": "Kaas"
+  },
+  {
+    "name": "burrata",
+    "pluralName": "burrata",
+    "description": "Italiaanse kaas; romige mozzarella met room.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "camembert",
+    "pluralName": "camembert",
+    "description": "Franse zachte kaas; romig met witte korst.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "cheddar",
+    "pluralName": "cheddar",
+    "description": "Cheddarkaas; gele harde kaas met scherpe smaak, vaak gesmolten op burgers.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "emmentaler",
+    "pluralName": "emmentaler",
+    "description": "Zwitserse kaas met gaten; mild nootachtig.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "feta",
+    "pluralName": "feta",
+    "description": "Griekse witte geiten-/schapenkaas in pekel; bros en zout, voor salades (bijv. Griekse).",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "geitenkaas",
+    "pluralName": "geitenkaas",
+    "description": "Kaas van geitenmelk; fris en pittig.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "geraspte kaas",
+    "pluralName": "geraspte kaas",
+    "description": "Voorgeraspte kaas; handig voor gratineren.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "gorgonzola",
+    "pluralName": "gorgonzola",
+    "description": "Italiaanse blauwschimmelkaas (koemelk); pittig, romig, gebruikt op pizza of in saus.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "grana padano",
+    "pluralName": "grana padano",
+    "description": "Italiaanse harde kaas; zoals parmezaan.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "gruyère",
+    "pluralName": "gruyère",
+    "description": "Zwitserse kaas; nootachtig, in fondue of gratins.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "halloumi",
+    "pluralName": "halloumi",
+    "description": "Cypriotische kaas; kan gebakken worden.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "hüttenkäse",
+    "pluralName": "hüttenkäse",
+    "description": "Verse korrelige kaas; mager en zacht, voor salades of als spread.",
+    "aliases": [
+      {
+        "name": "cottage cheese"
+      }
+    ],
+    "label": "Kaas"
+  },
+  {
+    "name": "jonge kaas",
+    "pluralName": "jonge kaas",
+    "description": "Kort gerijpte kaas; mild van smaak.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "kaas",
+    "pluralName": "kaas",
+    "description": "Zuivelproduct; gerijpte of verse melkproducten.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "kruidenkaas",
+    "pluralName": "kruidenkaas",
+    "description": "Kaas met kruiden; diverse smaken.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "mascarpone",
+    "pluralName": "mascarpone",
+    "description": "Verse roomkaas uit Italië; romig en mild, hoofdingrediënt in tiramisu.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "mozzarella",
+    "pluralName": "mozzarella",
+    "description": "Italiaanse verse kaas; zacht en romig, op pizza of in salades.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "paneer",
+    "pluralName": "paneer",
+    "description": "Verse ongerijpte kaas (Indiase paneer); vast, in blokjes gebakken in curry’s.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "parmigiano reggiano",
+    "pluralName": "parmigiano reggiano",
+    "description": "Parmezaanse kaas (Parmigiano Reggiano); harde Italiaanse kaas, geraspt over pasta.",
+    "aliases": [
+      {
+        "name": "parmezaan"
+      }
+    ],
+    "label": "Kaas"
+  },
+  {
+    "name": "pecorino",
+    "pluralName": "pecorino",
+    "description": "Italiaanse schapenkaas; pittig, geraspt over pasta.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "ricotta",
+    "pluralName": "ricotta",
+    "description": "Italiaanse wei-kaas; zachte korrelige verse kaas, in vulling voor pasta of taart.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "roomkaas",
+    "pluralName": "roomkaas",
+    "description": "Zachte verse kaas (cream cheese); smeerbaar, gebruikt in cheesecake of op toast.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "sage derby",
+    "pluralName": "sage derby",
+    "description": "Engelse kaas met salie; groen gemarmerd, halfhard, kruidig van smaak.",
+    "aliases": [],
+    "label": "Kaas"
+  },
+  {
+    "name": "smeerkaas",
+    "pluralName": "smeerkaas",
+    "description": "Zachte smeerbare kaas; voor op brood.",
+    "aliases": [],
+    "label": "Kaas"
+  }
+]

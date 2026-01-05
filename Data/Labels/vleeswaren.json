@@ -1,0 +1,227 @@
+[
+  {
+    "name": "achterham",
+    "pluralName": "achterham",
+    "description": "Gekookte ham; voor op brood.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "bacon",
+    "pluralName": "bacon",
+    "description": "Gerookt en gezouten spek; dun gesneden en gebakken als ontbijtspek.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "beenham",
+    "pluralName": "beenham",
+    "description": "Ham van het been; voor broodjes.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "bierworstje",
+    "pluralName": "bierworstjes",
+    "description": "Gedroogd gekruid worstje (snack); vaak geserveerd bij bier.",
+    "aliases": [
+      {
+        "name": "droge worst"
+      }
+    ],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "bockworst",
+    "pluralName": "bockworsten",
+    "description": "Duitse gekookte worst; mild.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "cervelaat",
+    "pluralName": "cervelaat",
+    "description": "Droge worst (cervelaat); koud beleg of borrelhapje met kruidige smaak.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "chipolata",
+    "pluralName": "chipolataworstjes",
+    "description": "Dunne worstjes; voor BBQ.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "chorizo",
+    "pluralName": "chorizo",
+    "description": "Spaanse worst; paprika en knoflook.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "coburgerham",
+    "pluralName": "coburgerham",
+    "description": "Duitse ham; gerookt.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "filet americain",
+    "pluralName": "filet americain",
+    "description": "Smeerbare tartaar met mayonaise en kruiden; broodbeleg.",
+    "aliases": [
+      {
+        "name": "martino"
+      }
+    ],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "gedroogde ham",
+    "pluralName": "gedroogde ham",
+    "description": "Luchtgedroogde ham; dun gesneden.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "gerookte kalkoenreepjes",
+    "pluralName": "gerookte kalkoenreepjes",
+    "description": "Gerookte kalkoen in reepjes; voor salades.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "gerookte kipfilet",
+    "pluralName": "gerookte kipfilet",
+    "description": "Gerookte kippenborst; voor salades en broodjes.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "grilworst",
+    "pluralName": "grilworst",
+    "description": "Gegaarde en gegrilde vleesworst (vaak met kaas); koud gesneden als broodbeleg.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "ham",
+    "pluralName": "ham",
+    "description": "Gaar of gerookt varkensvlees (ham); dun gesneden als broodbeleg of bij vleesgerechten.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "hamlap",
+    "pluralName": "hamlappen",
+    "description": "Grotere plakken ham; voor bakken.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "hamreepje",
+    "pluralName": "hamreepjes",
+    "description": "Gesneden ham; voor salades.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "ibérico ham",
+    "pluralName": "ibérico ham",
+    "description": "Spaanse ham van het Iberico-varken; gedroogd, dun gesneden delicatesse.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "kipreepje",
+    "pluralName": "kipreepjes",
+    "description": "Gesneden kipvlees; voor roerbak.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "leverpastei",
+    "pluralName": "leverpastei",
+    "description": "Smeuïge pasta van lever en kruiden; koud broodbeleg of paté.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "merguez",
+    "pluralName": "merguez",
+    "description": "Noord-Afrikaanse lamsworst; pittig.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "ontbijtspek",
+    "pluralName": "ontbijtspek",
+    "description": "Dun gesneden buikspek; gezouten en gerookt, knapperig uitgebakken bij ontbijt.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "pepperoni",
+    "pluralName": "pepperoni",
+    "description": "Pittige worst; voor pizza.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "plaatham",
+    "pluralName": "plaatham",
+    "description": "Grote platte ham (beenham) in plak; vaak gemarineerd en gegrild, geserveerd warm.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "rauwe ham",
+    "pluralName": "rauwe ham",
+    "description": "Gedroogde ongekookte ham (Parma, Serrano); dun gesneden als antipasti of broodbeleg.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "salami",
+    "pluralName": "salami",
+    "description": "Droge worst; gekruid gefermenteerd vlees, dun gesneden op brood of pizza.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "schouderham",
+    "pluralName": "schouderham",
+    "description": "Ham van de schouder; voor op brood.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "shoarmareepje",
+    "pluralName": "shoarmareepjes",
+    "description": "Gekruid vlees in reepjes; voor wraps.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "snijworst",
+    "pluralName": "snijworst",
+    "description": "Goedkope vleeswarenworst (lever/pezen) in plakjes; op brood.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "spek",
+    "pluralName": "spek",
+    "description": "Varkensspek; doorregen vet vlees, vers als buikspek of verwerkt (gerookt spekjes).",
+    "aliases": [],
+    "label": "Vleeswaren"
+  },
+  {
+    "name": "yorkham",
+    "pluralName": "yorkham",
+    "description": "Engelse ham; mild gerookt.",
+    "aliases": [],
+    "label": "Vleeswaren"
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "name": "aziatische basilicum",
+    "pluralName": "aziatische basilicum",
+    "description": "Thaise basilicum; anijsachtige variant van basilicum voor Aziatische gerechten.",
+    "aliases": [
+      {
+        "name": "Thaise basilicum"
+      }
+    ],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "basilicum",
+    "pluralName": "basilicum",
+    "description": "Keukenkruid; aromatisch groen blad, vers gebruikt in pesto en salades.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "bernagie",
+    "pluralName": "bernagie",
+    "description": "Keukenkruid (komkommerkruid); aromatisch blad voor salades en dranken.",
+    "aliases": [
+      {
+        "name": "borage"
+      }
+    ],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "bieslook",
+    "pluralName": "bieslook",
+    "description": "Keukenkruid; fijne uiensmaak, vers gehakt over salades en gerechten.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "bladpeterselie",
+    "pluralName": "bladpeterselie",
+    "description": "Platte peterselie; keukenkruid met fris aromatisch blad, gebruikt als garnering.",
+    "aliases": [
+      {
+        "name": "platte peterselie"
+      }
+    ],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "bladselderij",
+    "pluralName": "bladselderij",
+    "description": "Selderijgroen; aromatische bladeren van selderij, gebruikt in soepen en stoof.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "bonenkruid",
+    "pluralName": "bonenkruid",
+    "description": "Keukenkruid; kruidig blad, vaak meegekookt met bonen en peulvruchten.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "brandnetel",
+    "pluralName": "brandnetels",
+    "description": "Eetbare wilde plant; jonge bladeren gebruikt in soep of thee.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "citroengras",
+    "pluralName": "citroengras",
+    "description": "Specerijkruid (sereh); aromatische stengel gebruikt in Aziatische gerechten.",
+    "aliases": [
+      {
+        "name": "sereh"
+      }
+    ],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "citroenkruid",
+    "pluralName": "citroenkruid",
+    "description": "Keukenkruid; aromatisch kruid met citroengeur, gebruikt in likeur.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "citroenmelisse",
+    "pluralName": "citroenmelisse",
+    "description": "Keukenkruid; fris citroenachtig blad, gebruikt in thee, salades.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "citroenverbena",
+    "pluralName": "citroenverbena",
+    "description": "Keukenkruid (verbena); blad met intense citroengeur, gebruikt in thee en desserts.",
+    "aliases": [
+      {
+        "name": "verveine"
+      }
+    ],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "dille",
+    "pluralName": "dille",
+    "description": "Vers kruid; anijsachtig, bij vis en komkommer.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "dragon",
+    "pluralName": "dragon",
+    "description": "Keukenkruid; anijsachtig blad, gebruikt in sauzen (bérnaise) en bij vis.",
+    "aliases": [
+      {
+        "name": "tarragon"
+      }
+    ],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "kervel",
+    "pluralName": "kervel",
+    "description": "Keukenkruid; anijsachtig fris groen, gebruikt in soepen (kervelsoep) en sauzen.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "koriander",
+    "pluralName": "koriander",
+    "description": "Keukenkruid; aromatisch blad (vers korianderblad) of specerij (korianderzaad).",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "korianderzaad",
+    "pluralName": "korianderzaad",
+    "description": "Specerij; gedroogde korianderkorrels, gemalen of heel gebruikt in curry’s en marinades.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "kruizemunt",
+    "pluralName": "kruizemunt",
+    "description": "Keukenkruid; variant van munt (spearmint), fris aromatisch blad.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "lavas",
+    "pluralName": "lavas",
+    "description": "Keukenkruid (maggikruid); selderijachtig blad, geeft hartige smaak aan soep.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "lievevrouwebedstro",
+    "pluralName": "lievevrouwebedstro",
+    "description": "Wild kruid; zoet geurend kruid gebruikt in dranken (zoals May-wijn).",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "limoenblad",
+    "pluralName": "limoenblad",
+    "description": "Blad van de kaffir limoen (djeroek poeroet); aromatisch, gebruikt in Thaise curry’s.",
+    "aliases": [
+      {
+        "name": "djeroek poeroet"
+      }
+    ],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "maggikruid",
+    "pluralName": "maggikruid",
+    "description": "Lavas; selderijachtig kruid, geeft hartige smaak aan soepen (lijkt op Maggi-aroma).",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "majoraan",
+    "pluralName": "majoraan",
+    "description": "Keukenkruid (marjolein); mild zoetig kruid verwant aan oregano, in worst en stoof.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "marjolein",
+    "pluralName": "marjolein",
+    "description": "Keukenkruid; zachte oregano-achtige smaak, vers of gedroogd in worsten en stoofpotten.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "munt",
+    "pluralName": "munt",
+    "description": "Keukenkruid; fris aromatisch blad, in thee, desserts en als garnering.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "oregano",
+    "pluralName": "oregano",
+    "description": "Keukenkruid (wilde marjolein); aromatisch blad, gedroogd op pizza en in pasta.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "peterselie",
+    "pluralName": "peterselie",
+    "description": "Keukenkruid; fris groen blad (krul- of platte peterselie), fijngehakt als garnering.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "peterseliewortel",
+    "pluralName": "peterseliewortels",
+    "description": "Wortelpeterselie; witte wortelgroente met peterseliesmaak, gebruikt in soepgroenten.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "rozemarijn",
+    "pluralName": "rozemarijn",
+    "description": "Keukenkruid; aromatisch naaldvormig blad, vers of gedroogd bij vlees of aardappels.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "salie",
+    "pluralName": "salie",
+    "description": "Keukenkruid; grijs-groen blad, sterk aromatisch, gebruikt bij vlees (saltimbocca).",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "selderij",
+    "pluralName": "selderij",
+    "description": "Bleekselderij (stengel) of bladselderij; aromatisch als groente of kruid in soepen.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "selderijzout",
+    "pluralName": "selderijzout",
+    "description": "Kruidenzout; zout vermengd met selderij voor extra smaak.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "snijselderij",
+    "pluralName": "snijselderij",
+    "description": "Keukenkruid; selderijblad voor soep en gerechten.",
+    "aliases": [
+      {
+        "name": "selderijblad"
+      }
+    ],
+    "label": "Verse Kruiden"
+  },
+  {
+    "name": "tijm",
+    "pluralName": "tijm",
+    "description": "Keukenkruid; klein aromatisch blaadje aan takje, vers of gedroogd in vleesgerechten.",
+    "aliases": [],
+    "label": "Verse Kruiden"
+  }
+]

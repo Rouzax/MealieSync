@@ -1,0 +1,90 @@
+[
+  {
+    "name": "aardappel",
+    "pluralName": "aardappelen",
+    "description": "Knolgroente; veelzijdig: koken, bakken, pureren of frituren.",
+    "aliases": [
+      {
+        "name": "pieper"
+      },
+      {
+        "name": "piepers"
+      }
+    ],
+    "label": "Aardappelen & Knollen"
+  },
+  {
+    "name": "aardpeer",
+    "pluralName": "aardperen",
+    "description": "Knolgewas; zoete, nootachtige smaak, rauw of gekookt.",
+    "aliases": [],
+    "label": "Aardappelen & Knollen"
+  },
+  {
+    "name": "bataat",
+    "pluralName": "bataten",
+    "description": "Zoete aardappel; oranje vruchtvlees, gebakken of gepureerd.",
+    "aliases": [
+      {
+        "name": "zoete aardappel"
+      }
+    ],
+    "label": "Aardappelen & Knollen"
+  },
+  {
+    "name": "knolselderij",
+    "pluralName": "knolselderij",
+    "description": "Knolgroente; witte knol met selderijsmaak, gebruikt in erwtensoep en puree.",
+    "aliases": [],
+    "label": "Aardappelen & Knollen"
+  },
+  {
+    "name": "koolrabi",
+    "pluralName": "koolrabi",
+    "description": "Knolgroente; knolvormige stengel, mild zoet, rauw of gekookt gegeten.",
+    "aliases": [],
+    "label": "Aardappelen & Knollen"
+  },
+  {
+    "name": "krieltje",
+    "pluralName": "krieltjes",
+    "description": "Kleine aardappeltjes; in schil gebakken of gekookt.",
+    "aliases": [],
+    "label": "Aardappelen & Knollen"
+  },
+  {
+    "name": "meiraap",
+    "pluralName": "meirapen",
+    "description": "Voorjaarsknol; mild van smaak, gestoofd of rauw.",
+    "aliases": [],
+    "label": "Aardappelen & Knollen"
+  },
+  {
+    "name": "raap",
+    "pluralName": "rapen",
+    "description": "Knolgroente; witgele koolraap, gekookt of gestoofd als bijgerecht.",
+    "aliases": [],
+    "label": "Aardappelen & Knollen"
+  },
+  {
+    "name": "radijs",
+    "pluralName": "radijzen",
+    "description": "Knolgewas; pittige kleine rode knolletjes, rauw in salades of als garnering.",
+    "aliases": [],
+    "label": "Aardappelen & Knollen"
+  },
+  {
+    "name": "venkel",
+    "pluralName": "venkel",
+    "description": "Knolgroente; anijssmaak, witgroene knol rauw of gestoofd gegeten, ook zaad gebruikt als specerij.",
+    "aliases": [],
+    "label": "Aardappelen & Knollen"
+  },
+  {
+    "name": "waterkastanje",
+    "pluralName": "waterkastanjes",
+    "description": "Knol (Chinese waterkastanje); knapperig wit, gebruikt in roerbakgerechten en salades.",
+    "aliases": [],
+    "label": "Aardappelen & Knollen"
+  }
+]

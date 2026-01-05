@@ -1,0 +1,836 @@
+[
+  {
+    "name": "achiote",
+    "pluralName": "achiote",
+    "description": "Annatto/achiote; rode specerij voor adobo en Yucatán-gerechten.",
+    "aliases": [
+      {
+        "name": "annatto"
+      },
+      {
+        "name": "achiote pasta"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "amchoor",
+    "pluralName": "amchoor",
+    "description": "Mangopoeder (Indiase keuken); zure specerij van gedroogde onrijpe mango.",
+    "aliases": [
+      {
+        "name": "amchur"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "anijs",
+    "pluralName": "anijs",
+    "description": "Specerij; zoet aromatisch zaad, heel of gemalen gebruikt in dranken en gebak.",
+    "aliases": [
+      {
+        "name": "anijszaad"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "bamikruiden",
+    "pluralName": "bamikruiden",
+    "description": "Kruidenmix; specerijenmix voor bami gerechten.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "berbere",
+    "pluralName": "berbere",
+    "description": "Ethiopische specerijenmix; pittige kruidenmengeling voor stoofschotels.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "bouquet garni",
+    "pluralName": "bouquet garni",
+    "description": "Bundel kruiden (tijm, laurier, peterselie) meegetrokken voor smaak in soep of stoof.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "burrito kruidenmix",
+    "pluralName": "burrito kruidenmix",
+    "description": "Specerijenmix voor burrito vulling; vaak komijn, paprika, chili, knoflook.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "cajunkruiden",
+    "pluralName": "cajunkruiden",
+    "description": "Kruidenmix; pikante specerijenmix uit de Cajun-keuken.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "cappuccino kruiden",
+    "pluralName": "cappuccino kruiden",
+    "description": "Specerijenmix (kaneel, nootmuskaat, cacao) voor cappuccino of latte.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "caribische kruidenmix",
+    "pluralName": "caribische kruidenmix",
+    "description": "Kruidenmix (jerk seasoning); pittige specerijenmengeling uit Caribische keuken.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "chermoula kruiden",
+    "pluralName": "chermoula kruiden",
+    "description": "Kruidenmix voor chermoula marinade; bevat o.a. komijn, paprikapoeder, knoflook.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "chili con carne kruiden",
+    "pluralName": "chili con carne kruiden",
+    "description": "Specerijenmix voor chili con carne; bevat chili, komijn, oregano, knoflook.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "chilipeper",
+    "pluralName": "chilipepers",
+    "description": "Specerij/kruid; scherp hete peper, vers of gedroogd gebruikt.",
+    "aliases": [
+      {
+        "name": "chilipepertje"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "chilipoeder",
+    "pluralName": "chilipoeder",
+    "description": "Specerijenmix van gemalen chili, komijn, oregano etc.; pittig poeder.",
+    "aliases": [
+      {
+        "name": "cayennepeper"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "chilivlokken",
+    "pluralName": "chilivlokken",
+    "description": "Gedroogde gemalen chilipeper; pittig strooisel.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "curry",
+    "pluralName": "curry",
+    "description": "Specerijenmengsel (kerrie); geel poeder voor Indische/Nederlandse gerechten.",
+    "aliases": [
+      {
+        "name": "kerrie"
+      },
+      {
+        "name": "currypoeder"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "enchiladakruiden",
+    "pluralName": "enchiladakruiden",
+    "description": "Kruidenmix voor enchiladas; chili en komijn.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "fajita kruidenmix",
+    "pluralName": "fajita kruidenmix",
+    "description": "Specerijenmix voor fajita's; bevat o.a. chili, komijn, knoflook, oregano.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "farina",
+    "pluralName": "farina",
+    "description": "Tarwegries (farina); fijngemalen tarwe, gebruikt voor pap of pudding.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "fijnkeuken",
+    "pluralName": "fijnkeuken",
+    "description": "Fijne kruidenmix (bijv. tuinkruidenmix); gedroogd mengsel voor soepen en sauzen.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "franse kruidenmix",
+    "pluralName": "franse kruidenmix",
+    "description": "Provençaalse kruiden (herbes de Provence); mix o.a. tijm, rozemarijn, oregano.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "garam masala",
+    "pluralName": "garam masala",
+    "description": "Indiase kruidenmix (koriander, komijn, kardemom, kruidnagel); aromatische specerijenmengeling.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "gartner",
+    "pluralName": "gartner",
+    "description": "Duits marinade-conservenkruiden; voor het inmaken van groenten (atzijn, suiker, kruiden).",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "gedroogde dille",
+    "pluralName": "gedroogde dille",
+    "description": "Gedroogde dille; anijsachtig aroma.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "gedroogde munt",
+    "pluralName": "gedroogde munt",
+    "description": "Gedroogde munt; voor thee en gerechten.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "gedroogde peterselie",
+    "pluralName": "gedroogde peterselie",
+    "description": "Gedroogde peterselie; kruidig.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "gehaktkruiden",
+    "pluralName": "gehaktkruiden",
+    "description": "Kruidenmix voor gehakt; paprika, nootmuskaat.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "gemalen peper",
+    "pluralName": "gemalen peper",
+    "description": "Voorgemalen peper; handig maar minder aromatisch.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "gember",
+    "pluralName": "gember",
+    "description": "Specerij; scherpe aromatische wortel, vers of gekonfijt gebruikt.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "gemberpoeder",
+    "pluralName": "gemberpoeder",
+    "description": "Specerij; gemalen gedroogde gemberwortel, gebruikt in koek en curry.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "glühwein kruiden",
+    "pluralName": "glühwein kruiden",
+    "description": "Specerijenmix voor glühwein; bevat kaneel, kruidnagel, steranijs, citrusschil.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "grillkruiden",
+    "pluralName": "grillkruiden",
+    "description": "Kruidenmix; specerijenmengsel voor te grillen vlees (paprika, zout, peper).",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "guacamole kruidenmix",
+    "pluralName": "guacamole kruidenmix",
+    "description": "Specerijenmix voor guacamole; bevat o.a. knoflookpoeder, komijn, chili.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "gyroskruiden",
+    "pluralName": "gyroskruiden",
+    "description": "Kruidenmix; Griekse specerijenmengeling voor gyrosvlees (o.a. oregano, tijm, knoflook).",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "herbamare",
+    "pluralName": "herbamare",
+    "description": "Kruidenzout (merk Herbamare); zeezout gemengd met kruiden en groentenextracten.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "italiaanse kruiden",
+    "pluralName": "italiaanse kruiden",
+    "description": "Kruidenmix; oregano, basilicum, tijm.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "jagerkruid",
+    "pluralName": "jagerkruid",
+    "description": "Kruidenmix (provencaals), in Duitsland 'Jäger Kräuter'; voor wildgerechten.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "jeneverbes",
+    "pluralName": "jeneverbes",
+    "description": "Specerij; gedroogde bes (jeneverbes), aromatisch bitter, voor wild en zuurkool.",
+    "aliases": [
+      {
+        "name": "juniper berry"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "juffertje in 't groen",
+    "pluralName": "juffertje in 't groen",
+    "description": "Specerij (Nigella zaad); aromatisch zaad gebruikt op brood en in curry’s.",
+    "aliases": [
+      {
+        "name": "nigellazaad"
+      },
+      {
+        "name": "zwart komijnzaad"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "kaneel",
+    "pluralName": "kaneel",
+    "description": "Specerij; aromatische bast, heel of gemalen gebruikt in zoete en hartige gerechten.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "kaneelstokje",
+    "pluralName": "kaneelstokjes",
+    "description": "Hele pijpjes gedroogde kaneelbast; trekken mee in stoof of drank voor aroma.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "kardemom",
+    "pluralName": "kardemom",
+    "description": "Specerij; aromatische peulen, in desserts en curry.",
+    "aliases": [
+      {
+        "name": "kardemompeulen"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "karwijzaad",
+    "pluralName": "karwijzaad",
+    "description": "Specerij; aromatische zaadjes, gebruikt in brood en koolgerechten.",
+    "aliases": [
+      {
+        "name": "karwij"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "kerrieblad",
+    "pluralName": "kerrieblad",
+    "description": "Bladeren van de kerrieboom; aromatisch kruid in Zuid-Indiase gerechten (niet gelijk aan kerriepoeder).",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "kiptandoori kruiden",
+    "pluralName": "kiptandoori kruiden",
+    "description": "Specerijenmix voor tandoori kip; bevat o.a. komijn, koriander, gember, paprika.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "knoflook",
+    "pluralName": "knoflook",
+    "description": "Bolgewas; pittige smaakmaker in talloze hartige gerechten.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "knoflookpoeder",
+    "pluralName": "knoflookpoeder",
+    "description": "Specerij; gedroogde gemalen knoflook, gemakskruid voor marinades en rubs.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "koekkruiden",
+    "pluralName": "koekkruiden",
+    "description": "Kruidenmix voor ontbijtkoek; kaneel, gember, kruidnagel.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "komijn",
+    "pluralName": "komijn",
+    "description": "Specerij; aromatisch zaad, heel of gemalen in curry’s, kaas (komijnekaas).",
+    "aliases": [
+      {
+        "name": "gemalen komijn"
+      },
+      {
+        "name": "komijnzaad"
+      },
+      {
+        "name": "djinten"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "komijnpoeder",
+    "pluralName": "komijnpoeder",
+    "description": "Gemalen komijn; warm en aards.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "korsikaanse kruiden",
+    "pluralName": "korsikaanse kruiden",
+    "description": "Kruidenmix uit Corsica; vergelijkbaar met Provençaalse kruiden, incl. helicryse (kerrieplant).",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "kruidemix",
+    "pluralName": "kruidemix",
+    "description": "Kruidenmix (algemeen); gedroogde specerijencombinatie voor divers gebruik.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "kruidenmengsel voor hollandse groente",
+    "pluralName": "kruidenmengsels voor hollandse groente",
+    "description": "Kruidenmix; gedroogde kruidenmix speciaal voor groenten.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "kruidenmix",
+    "pluralName": "kruidenmix",
+    "description": "Mengsel van verschillende gedroogde kruiden; gebruikt om gerechten op smaak te brengen.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "kruidnagel",
+    "pluralName": "kruidnagel",
+    "description": "Specerij; gedroogde bloemknop, sterk aromatisch, gebruikt in stoofgerechten en gebak.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "kruidnagelpoeder",
+    "pluralName": "kruidnagelpoeder",
+    "description": "Gemalen kruidnagel; warm en zoet.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "kurkuma",
+    "pluralName": "kurkuma",
+    "description": "Specerij; gele wortel, geeft kleur aan curry.",
+    "aliases": [
+      {
+        "name": "geelwortel"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "laos",
+    "pluralName": "laos",
+    "description": "Specerij; galanga-wortel, verwant aan gember, gebruikt in Indonesische keuken.",
+    "aliases": [
+      {
+        "name": "galanga"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "laurier",
+    "pluralName": "laurier",
+    "description": "Keukenkruid; gedroogd blad (laurierblad), meegetrokken in soepen en stoof.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "mace",
+    "pluralName": "mace",
+    "description": "Foelie (nootmuskaatbloem); aromatisch omhulsel van nootmuskaat, specerij in o.a. worst en koek.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "mosterdzaad",
+    "pluralName": "mosterdzaad",
+    "description": "Specerij; zaad van mosterdplant, heel of gemalen gebruikt voor mosterd en pickles.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "nasi kruidenmix",
+    "pluralName": "nasi kruidenmix",
+    "description": "Kruidenmix; specerijenmix voor nasi goreng gerechten.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "nootmuskaat",
+    "pluralName": "nootmuskaat",
+    "description": "Specerij; harde bruine noot, vers geraspt voor aromatische smaak in puree of koek.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "nootmuskaatbloem",
+    "pluralName": "nootmuskaatbloem",
+    "description": "Foelie; het omhulsel van de nootmuskaat, specerij met mild nootmuskaataroma.",
+    "aliases": [
+      {
+        "name": "foelie"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "nootmuskaatvlies",
+    "pluralName": "nootmuskaatvlies",
+    "description": "Foelie (specerij); gedroogd oranje vlies van de nootmuskaat, milder van smaak dan de noot.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "ossa buco kruiden",
+    "pluralName": "ossa buco kruiden",
+    "description": "Kruidenmix voor ossobuco; bevat o.a. citroenrasp, knoflook, peterselie (gremolata).",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "paella kruiden",
+    "pluralName": "paella kruiden",
+    "description": "Specerijenmix voor paella; bevat o.a. saffraan, paprika en knoflook.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "paprika gerookt",
+    "pluralName": "paprika gerookt",
+    "description": "Gerookte paprikapoeder; Spaans, rokerig.",
+    "aliases": [
+      {
+        "name": "pimentón"
+      },
+      {
+        "name": "smoked paprika"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "paprikapoeder",
+    "pluralName": "paprikapoeder",
+    "description": "Specerij; gemalen gedroogde paprika, mild zoetig (edelsüß) of pikant (hot).",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "pastis kruidenmix",
+    "pluralName": "pastis kruidenmix",
+    "description": "Specerijenmix (steranijs, venkel, zoethout) voor zelf likeur te maken zoals pastis.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "peper",
+    "pluralName": "peper",
+    "description": "Peper (zwart/wit); pittige smaakmaker als korrel of gemalen.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "piment",
+    "pluralName": "piment",
+    "description": "Specerij (Allspice); gedroogde bes met smaak van kruidnagel, kaneel en nootmuskaat.",
+    "aliases": [
+      {
+        "name": "allspice"
+      },
+      {
+        "name": "jamaicapeper"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "piment d'espelette",
+    "pluralName": "piment d'espelette",
+    "description": "Baskische chilipeper (Espelette); mild pittig en rokerig, gedroogd gemalen gebruikt.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "pizza kruiden",
+    "pluralName": "pizza kruiden",
+    "description": "Kruidenmix voor pizza; o.a. oregano, basilicum, tijm, knoflook, chili.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "provençaalse kruiden",
+    "pluralName": "provençaalse kruiden",
+    "description": "Kruidenmix uit Provence; lavendel, tijm.",
+    "aliases": [
+      {
+        "name": "herbes de provence"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "ras el hanout",
+    "pluralName": "ras el hanout",
+    "description": "Marokkaanse kruidenmix; 'het beste van de winkel' met >10 specerijen, voor stoof en couscous.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "rogan josh kruiden",
+    "pluralName": "rogan josh kruiden",
+    "description": "Specerijenmix voor rogan josh curry; bevat o.a. komijn, paprika, kardemom, kaneel.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "roze peper",
+    "pluralName": "roze peper",
+    "description": "Milde peperbes; fruitig en mild.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "rundvleeskruiden",
+    "pluralName": "rundvleeskruiden",
+    "description": "Kruidenmix voor runderstoof (peper, kruidnagel, laurier); geeft diepe smaak.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "rāyu",
+    "pluralName": "rāyu",
+    "description": "Japanse chili-olie (rayu); pikante sesamolie met chili, over ramen of dumplings.",
+    "aliases": [
+      {
+        "name": "chili-olie"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "saffraan",
+    "pluralName": "saffraan",
+    "description": "Specerij; duurste kruid, gedroogde stampers, geel kleurend en aromatisch (paella).",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "shoarmakruiden",
+    "pluralName": "shoarmakruiden",
+    "description": "Kruidenmix; specerijenmengsel voor shoarma en gegrild vlees.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "speculaaskruiden",
+    "pluralName": "speculaaskruiden",
+    "description": "Kruidenmix voor speculaas; kaneel, nootmuskaat, kruidnagel.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "spekkruid",
+    "pluralName": "spekkruid",
+    "description": "Historische term voor kruidenmengsel om spek in te leggen (zout, peper, kruidnagel).",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "spirulina",
+    "pluralName": "spirulina",
+    "description": "Blauwgroene micro-alg (poeder/tablet); gebruikt als voedingssupplement, eiwitrijk.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "steranijs",
+    "pluralName": "steranijs",
+    "description": "Gedroogde stervormige vrucht; specerij met anijssmaak, gebruikt in stoof en thee.",
+    "label": "Kruiden & Specerijen",
+    "aliases": [
+      {
+        "name": "star anise"
+      }
+    ]
+  },
+  {
+    "name": "stroganoff kruidenmix",
+    "pluralName": "stroganoff kruidenmix",
+    "description": "Specerijenmix voor stroganoffsaus; bevat paprika, peper, mosterdzaad, knoflook.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "sumak",
+    "pluralName": "sumak",
+    "description": "Specerij; gemalen rode sumakbesjes, zuur aromatisch poeder in Midden-Oosterse keuken.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "tandoori kruiden",
+    "pluralName": "tandoori kruiden",
+    "description": "Specerijenmix (tandoori); rood-oranje mix voor gemarineerde gegrilde gerechten (Tandoori).",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "tex mex kruiden",
+    "pluralName": "tex mex kruiden",
+    "description": "Mexicaanse kruidenmix; pittig.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "tex mex kruidenmix",
+    "pluralName": "tex mex kruidenmix",
+    "description": "Kruidenmix; specerijenmengsel voor Tex-Mexgerechten.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "uienpoeder",
+    "pluralName": "uienpoeder",
+    "description": "Specerij; gemalen gedroogde ui, snel alternatief voor verse ui in marinades en rubs.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "vanille",
+    "pluralName": "vanille",
+    "description": "Specerij; stokjes van vanille-orchidee, zaadjes schrapen voor aroma in desserts.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "venkelzaad",
+    "pluralName": "venkelzaad",
+    "description": "Specerij; aromatisch zaad, anijsachtig, gebruikt in worst, brood en thee.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "vijfkruidenpoeder",
+    "pluralName": "vijfkruidenpoeder",
+    "description": "Chinese kruidenmix; steranijs, kaneel, kruidnagel.",
+    "aliases": [
+      {
+        "name": "five spice"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "viskruiden",
+    "pluralName": "viskruiden",
+    "description": "Kruidenmix voor vis; vaak dille, citroenrasp, peterselie, witte peper, zout.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "whisky kruiden",
+    "pluralName": "whisky kruiden",
+    "description": "Kruidenmix voor marinades; specerijen voor whiskey-honing marinade.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "witte peper",
+    "pluralName": "witte peper",
+    "description": "Specerij; mildere peper, voor lichte sauzen.",
+    "aliases": [
+      {
+        "name": "white pepper"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "za'atar",
+    "pluralName": "za'atar",
+    "description": "Midden-Oosterse kruidenmix met sumak en sesam.",
+    "aliases": [
+      {
+        "name": "zaatar"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "zout",
+    "pluralName": "zout",
+    "description": "Natriumchloride; belangrijkste smaakversterker, conserveringsmiddel.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "zwarte kardemom",
+    "pluralName": "zwarte kardemom",
+    "description": "Specerij; grote gerookte kardemompeul, rokerig en aards, gebruikt in hartige stoofschotels.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "zwarte peper",
+    "pluralName": "zwarte peper",
+    "description": "Specerij; gedroogde peperkorrels, versgemalen voor beste smaak.",
+    "aliases": [
+      {
+        "name": "black pepper"
+      }
+    ],
+    "label": "Kruiden & Specerijen"
+  },
+  {
+    "name": "zwarte peperkorrels",
+    "pluralName": "zwarte peperkorrels",
+    "description": "Hele zwarte peper; voor malen.",
+    "aliases": [],
+    "label": "Kruiden & Specerijen"
+  }
+]

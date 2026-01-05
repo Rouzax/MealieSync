@@ -1,0 +1,147 @@
+[
+  {
+    "name": "appelsap",
+    "pluralName": "appelsap",
+    "description": "Sap van geperste appels; helder of troebel.",
+    "aliases": [],
+    "label": "Dranken"
+  },
+  {
+    "name": "bitter lemon",
+    "pluralName": "bitter lemon",
+    "description": "Koolzuurhoudende citroendrank; bitter en verfrissend.",
+    "aliases": [],
+    "label": "Dranken"
+  },
+  {
+    "name": "bruiswater",
+    "pluralName": "bruiswater",
+    "description": "Bruisend mineraalwater.",
+    "aliases": [
+      {
+        "name": "spa rood"
+      },
+      {
+        "name": "sparkling water"
+      }
+    ],
+    "label": "Dranken"
+  },
+  {
+    "name": "cassis",
+    "pluralName": "cassis",
+    "description": "Zwarte bessensiroop of -limonade.",
+    "aliases": [
+      {
+        "name": "zwarte bessen siroop"
+      }
+    ],
+    "label": "Dranken"
+  },
+  {
+    "name": "citroensap",
+    "pluralName": "citroensap",
+    "description": "Sap van citroen; zure smaakmaker in dranken, marinades en dressings.",
+    "aliases": [],
+    "label": "Dranken"
+  },
+  {
+    "name": "cola",
+    "pluralName": "cola",
+    "description": "Koolzuurhoudende frisdrank; zoet met karamel- en kruidensmaak.",
+    "aliases": [
+      {
+        "name": "coca cola"
+      }
+    ],
+    "label": "Dranken"
+  },
+  {
+    "name": "cranberrysap",
+    "pluralName": "cranberrysap",
+    "description": "Sap van veenbessen; zuur-zoet, vaak in cocktails.",
+    "aliases": [],
+    "label": "Dranken"
+  },
+  {
+    "name": "ginger ale",
+    "pluralName": "ginger ale",
+    "description": "Koolzuurhoudende gemberdrank; zoet en licht pittig.",
+    "aliases": [],
+    "label": "Dranken"
+  },
+  {
+    "name": "ginger beer",
+    "pluralName": "ginger beer",
+    "description": "Sterk gefermenteerde gemberdrank; pittiger dan ginger ale.",
+    "aliases": [],
+    "label": "Dranken"
+  },
+  {
+    "name": "grenadine",
+    "pluralName": "grenadine",
+    "description": "Rode granaatappelsiroop; zoet, voor cocktails en limonade.",
+    "aliases": [],
+    "label": "Dranken"
+  },
+  {
+    "name": "kokoswater",
+    "pluralName": "kokoswater",
+    "description": "Helder vocht uit jonge kokosnoot; verfrissend en licht zoet.",
+    "aliases": [],
+    "label": "Dranken"
+  },
+  {
+    "name": "limoensap",
+    "pluralName": "limoensap",
+    "description": "Geperst sap van limoen; zuur, voor cocktails en dressings.",
+    "aliases": [],
+    "label": "Dranken"
+  },
+  {
+    "name": "limonade",
+    "pluralName": "limonade",
+    "description": "Verfrissende citroendrank; zelfgemaakt of kant-en-klaar.",
+    "aliases": [],
+    "label": "Dranken"
+  },
+  {
+    "name": "mineraalwater",
+    "pluralName": "mineraalwater",
+    "description": "Plat mineraalwater.",
+    "aliases": [
+      {
+        "name": "spa blauw"
+      },
+      {
+        "name": "still water"
+      }
+    ],
+    "label": "Dranken"
+  },
+  {
+    "name": "sinaasappelsap",
+    "pluralName": "sinaasappelsap",
+    "description": "Sinaasappelsap; vers geperst of uit pak.",
+    "aliases": [
+      {
+        "name": "jus d'orange"
+      }
+    ],
+    "label": "Dranken"
+  },
+  {
+    "name": "tomatensap",
+    "pluralName": "tomatensap",
+    "description": "Sap van tomaten; hartig, voor bloody mary of als drank.",
+    "aliases": [],
+    "label": "Dranken"
+  },
+  {
+    "name": "tonic",
+    "pluralName": "tonic",
+    "description": "Koolzuurhoudende frisdrank (kininehoudend); bitter, gemengd met gin of als alcoholvrij aperitief.",
+    "aliases": [],
+    "label": "Dranken"
+  }
+]

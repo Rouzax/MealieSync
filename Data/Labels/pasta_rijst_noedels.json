@@ -1,0 +1,334 @@
+[
+  {
+    "name": "basmatirijst",
+    "pluralName": "basmatirijst",
+    "description": "Lange korrel aromatische rijst.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "boekweit",
+    "pluralName": "boekweiten",
+    "description": "Graanachtige zaadjes; glutenvrij alternatief voor meel en pap.",
+    "aliases": [
+      {
+        "name": "boekweitmeel"
+      }
+    ],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "bulgur",
+    "pluralName": "bulgur",
+    "description": "Gebroken tarwe; basis voor tabouleh.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "couscous",
+    "pluralName": "couscous",
+    "description": "Noord-Afrikaans graanproduct; snel gestoomd.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "eiermie",
+    "pluralName": "eiermie",
+    "description": "Dunne noedels op basis van tarwe en ei; kort gekookt in Oosterse gerechten.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "farfalle",
+    "pluralName": "farfalle",
+    "description": "Vlinderdas-pasta; korte strikvormige pasta, gekookt al dente in salades of sauzen.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "fettuccine",
+    "pluralName": "fettuccine",
+    "description": "Lintpasta (platte banden); Italiaanse pasta, vaak geserveerd met roomsaus (alfredo).",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "fusilli",
+    "pluralName": "fusilli",
+    "description": "Spiraalvormige pasta.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "glasnoedels",
+    "pluralName": "glasnoedels",
+    "description": "Transparante noedels van mungbonen.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "gnocchi",
+    "pluralName": "gnocchi",
+    "description": "Italiaanse aardappel-deegballetjes; gekookt als pasta en geserveerd met saus.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "graan",
+    "pluralName": "granen",
+    "description": "Graan; verzamelnaam voor zaden zoals tarwe, rijst, haver, gebruikt voor meel en pap.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "griesmeel",
+    "pluralName": "griesmeel",
+    "description": "Grof gemalen tarwe; gebruikt voor pap, pudding of griesmeelpap.",
+    "aliases": [
+      {
+        "name": "semolina"
+      }
+    ],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "lasagnebladen",
+    "pluralName": "lasagnebladen",
+    "description": "Platte pastabladen voor lasagne.",
+    "aliases": [
+      {
+        "name": "lasagne"
+      }
+    ],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "macaroni",
+    "pluralName": "macaroni",
+    "description": "Korte gebogen buisjespasta.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "norivellen",
+    "pluralName": "norivellen",
+    "description": "Gedroogd zeewier; voor sushi.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "orzo",
+    "pluralName": "orzo",
+    "description": "Pastasoort in rijstkorrelvorm (orzo); gebruikt in soep of als bijgerecht (Grieks).",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "pappardelle",
+    "pluralName": "pappardelle",
+    "description": "Brede Italiaanse pasta; voor ragù.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "parelcouscous",
+    "pluralName": "parelcouscous",
+    "description": "Grote couscouskorrels; Israëlische couscous.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "pasta",
+    "pluralName": "pasta",
+    "description": "Italiaanse deegwaren; komt in vormen (spaghetti, penne) en wordt al dente gekookt.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "penne",
+    "pluralName": "penne",
+    "description": "Buisvormige pasta met schuine uiteinden.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "pho",
+    "pluralName": "pho",
+    "description": "Vietnamese noedelsoep (Phở); bevat rijstnoedels, bouillon, vlees en kruiden.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "pipe rigate",
+    "pluralName": "pipe rigate",
+    "description": "Buisvormige pasta; voor sauzen.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "polenta",
+    "pluralName": "polenta",
+    "description": "Maïsbloem pap (polenta); gekookt tot dikke pap, dan gegrild of gebakken.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "quinoa",
+    "pluralName": "quinoa",
+    "description": "Zaad (pseudo-graan) uit Andes; rijk aan eiwit, gekookt als rijstvervanger of in salade.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "ramen",
+    "pluralName": "ramen",
+    "description": "Dunne Japanse tarwenoedels voor soep.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "ravioli",
+    "pluralName": "ravioli",
+    "description": "Gevulde pasta (kussentjes); met ricotta, spinazie of vlees, geserveerd met saus.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "rijst",
+    "pluralName": "rijst",
+    "description": "Graan (rijstkorrels); basisvoedsel, gekookt of gestoomd geserveerd bij hoofdgerechten.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "rijstmeel",
+    "pluralName": "rijstmeel",
+    "description": "Fijn gemalen rijst; glutenvrij meel, gebruikt in noodles, pap of om te paneren.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "rijstnoedels",
+    "pluralName": "rijstnoedels",
+    "description": "Noedels gemaakt van rijstmeel; glasnoedels of platte rijstlinten, kort geweekt/kookt.",
+    "aliases": [
+      {
+        "name": "mihoen"
+      }
+    ],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "risottorijst",
+    "pluralName": "risottorijst",
+    "description": "Korte korrel rijst; voor romige risotto.",
+    "aliases": [
+      {
+        "name": "arborio"
+      },
+      {
+        "name": "carnaroli"
+      }
+    ],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "soba noedels",
+    "pluralName": "soba noedels",
+    "description": "Japanse boekweitnoedels (soba); bruin-grijs, koud in salade of warm in bouillon.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "sorghum",
+    "pluralName": "sorghum",
+    "description": "Graansoort (sorgho); gebruikt als meel (glutenvrij) of graankorrels gekookt als couscous.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "spaghetti",
+    "pluralName": "spaghetti",
+    "description": "Lange dunne pasta; klassiek met tomatensaus.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "spelt",
+    "pluralName": "spelt",
+    "description": "Graansoort (spelt); oergraan verwant aan tarwe, gebruikt voor brood en bier.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "spelt spaghetti",
+    "pluralName": "spelt spaghetti",
+    "description": "Spaghetti van speltmeel; nootachtig.",
+    "aliases": [
+      {
+        "name": "speltspaghetti"
+      }
+    ],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "sushirijst",
+    "pluralName": "sushirijst",
+    "description": "Japanse kleefrijst; voor sushi.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "tagliatelle",
+    "pluralName": "tagliatelle",
+    "description": "Brede lintpasta; vaak met roomsaus.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "tapioca",
+    "pluralName": "tapioca",
+    "description": "Zetmeelkorrels uit cassave; transparante parels, gebruikt voor pudding of bindmiddel.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "udon",
+    "pluralName": "udon",
+    "description": "Dikke Japanse tarwenoedels.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "vermicelli",
+    "pluralName": "vermicelli",
+    "description": "Dunne pasta sliertjes (vermicelli); in soep of als basis zoete gerechten (vermicellipap).",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "wilde rijst",
+    "pluralName": "wilde rijst",
+    "description": "Zaad van watergras (wilde rijst); lang donker korrel, nootachtig, gemengd met gewone rijst.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "zilvervliesrijst",
+    "pluralName": "zilvervliesrijst",
+    "description": "Volkorenrijst met zemelen; nootachtig.",
+    "aliases": [
+      {
+        "name": "bruine rijst"
+      }
+    ],
+    "label": "Pasta, Rijst & Noedels"
+  },
+  {
+    "name": "zwarte rijst",
+    "pluralName": "zwarte rijst",
+    "description": "Volkorenrijst met zwartpaarse kleur (bv. Thaise zwarte rijst); nootachtige smaak, voor bijzondere gerechten.",
+    "aliases": [],
+    "label": "Pasta, Rijst & Noedels"
+  }
+]

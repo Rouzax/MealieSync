@@ -1,0 +1,31 @@
+[
+  {
+    "name": "ei",
+    "pluralName": "eieren",
+    "description": "Ei; bindmiddel en eiwitbron voor bakken en koken.",
+    "aliases": [
+      {
+        "name": "eitje"
+      }
+    ],
+    "label": "Eieren"
+  },
+  {
+    "name": "eidooier",
+    "pluralName": "eidooiers",
+    "description": "Dooier van ei; geel deel, bindmiddel en emulgator.",
+    "aliases": [
+      {
+        "name": "eigeel"
+      }
+    ],
+    "label": "Eieren"
+  },
+  {
+    "name": "eiwit",
+    "pluralName": "eiwitten",
+    "description": "Wit van ei; opgeklopt voor schuim of meringue.",
+    "aliases": [],
+    "label": "Eieren"
+  }
+]

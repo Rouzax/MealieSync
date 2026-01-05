@@ -6,23 +6,27 @@
     Main script to import, export, and synchronize Foods and Units with your Mealie instance.
     
 .EXAMPLE
-    .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json
+    .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json
     Import foods from JSON file (create only, skip existing)
+
+.EXAMPLE
+    .\Invoke-MealieSync.ps1 -Action Import -Type Foods -Folder .\Data\Labels
+    Import all JSON files from a folder
 
 .EXAMPLE
     .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -UpdateExisting
     Import foods and update any existing entries
 
 .EXAMPLE
-    .\Invoke-MealieSync.ps1 -Action Export -Type Units -JsonPath .\Units_backup.json
+    .\Invoke-MealieSync.ps1 -Action Export -Type Units -JsonPath .\Exports\Units_backup.json
     Export all units to JSON file
 
 .EXAMPLE
-    .\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Groente.json -Label "Groente"
+    .\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Exports\Groente.json -Label "Groente"
     Export only foods with label "Groente"
 
 .EXAMPLE
-    .\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\FoodsExport -SplitByLabel
+    .\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Data\Labels -SplitByLabel
     Export foods to separate files per label (Groente.json, Vlees.json, etc.)
 
 .EXAMPLE
@@ -40,6 +44,9 @@ param(
     [string]$Type,
     
     [string]$JsonPath,
+    
+    # Import option: import all JSON files from a folder
+    [string]$Folder,
     
     [switch]$UpdateExisting,
     
@@ -115,22 +122,16 @@ try {
     # Execute action
     switch ($Action) {
         'Import' {
-            if (-not $JsonPath) {
-                throw "JsonPath is required for Import action"
+            # Validate: need either JsonPath or Folder
+            if (-not $JsonPath -and -not $Folder) {
+                throw "Either -JsonPath or -Folder is required for Import action"
             }
             
-            $fullPath = if ([System.IO.Path]::IsPathRooted($JsonPath)) {
-                $JsonPath
-            }
-            else {
-                Join-Path (Get-Location) $JsonPath
+            if ($JsonPath -and $Folder) {
+                throw "Use either -JsonPath or -Folder, not both"
             }
             
-            Write-Host "`nImporting $Type from: $fullPath" -ForegroundColor Cyan
-            
-            $importParams = @{
-                Path = $fullPath
-            }
+            $importParams = @{}
             
             if ($UpdateExisting) {
                 $importParams.UpdateExisting = $true
@@ -140,13 +141,100 @@ try {
                 $importParams.WhatIf = $true
             }
             
-            switch ($Type) {
-                'Foods' { Import-MealieFoods @importParams }
-                'Units' { Import-MealieUnits @importParams }
-                'Labels' { Import-MealieLabels @importParams }
-                'Categories' { Import-MealieOrganizers @importParams -Type 'Categories' }
-                'Tags' { Import-MealieOrganizers @importParams -Type 'Tags' }
-                'Tools' { Import-MealieOrganizers @importParams -Type 'Tools' }
+            if ($Folder) {
+                # Import all JSON files from folder
+                $folderPath = if ([System.IO.Path]::IsPathRooted($Folder)) {
+                    $Folder
+                }
+                else {
+                    Join-Path (Get-Location) $Folder
+                }
+                
+                if (-not (Test-Path $folderPath -PathType Container)) {
+                    throw "Folder not found: $folderPath"
+                }
+                
+                $jsonFiles = Get-ChildItem -Path $folderPath -Filter "*.json" | Sort-Object Name
+                
+                if ($jsonFiles.Count -eq 0) {
+                    Write-Warning "No JSON files found in: $folderPath"
+                    return
+                }
+                
+                Write-Host "`nImporting $Type from folder: $folderPath" -ForegroundColor Cyan
+                Write-Host "Found $($jsonFiles.Count) JSON file(s)`n" -ForegroundColor Cyan
+                
+                # Combined stats
+                $totalStats = @{
+                    Created       = 0
+                    Updated       = 0
+                    Unchanged     = 0
+                    Skipped       = 0
+                    Errors        = 0
+                    LabelWarnings = 0
+                }
+                
+                foreach ($file in $jsonFiles) {
+                    Write-Host "── $($file.Name) ──" -ForegroundColor White
+                    $importParams.Path = $file.FullName
+                    
+                    $result = switch ($Type) {
+                        'Foods' { Import-MealieFoods @importParams }
+                        'Units' { Import-MealieUnits @importParams }
+                        'Labels' { Import-MealieLabels @importParams }
+                        'Categories' { Import-MealieOrganizers @importParams -Type 'Categories' }
+                        'Tags' { Import-MealieOrganizers @importParams -Type 'Tags' }
+                        'Tools' { Import-MealieOrganizers @importParams -Type 'Tools' }
+                    }
+                    
+                    # Aggregate stats
+                    if ($result) {
+                        $totalStats.Created += $result.Created
+                        $totalStats.Updated += $result.Updated
+                        $totalStats.Unchanged += $result.Unchanged
+                        $totalStats.Skipped += $result.Skipped
+                        $totalStats.Errors += $result.Errors
+                        if ($result.LabelWarnings) {
+                            $totalStats.LabelWarnings += $result.LabelWarnings
+                        }
+                    }
+                    
+                    Write-Host ""
+                }
+                
+                # Show combined totals
+                Write-Host "═══════════════════════════════════" -ForegroundColor Cyan
+                Write-Host "Combined Totals ($($jsonFiles.Count) files):" -ForegroundColor Cyan
+                Write-Host "  Created:       $($totalStats.Created)"
+                Write-Host "  Updated:       $($totalStats.Updated)"
+                Write-Host "  Unchanged:     $($totalStats.Unchanged)"
+                Write-Host "  Skipped:       $($totalStats.Skipped)"
+                Write-Host "  Errors:        $($totalStats.Errors)"
+                if ($totalStats.LabelWarnings -gt 0) {
+                    Write-Host "  LabelWarnings: $($totalStats.LabelWarnings)" -ForegroundColor Yellow
+                }
+            }
+            else {
+                # Import single file (existing behavior)
+                $fullPath = if ([System.IO.Path]::IsPathRooted($JsonPath)) {
+                    $JsonPath
+                }
+                else {
+                    Join-Path (Get-Location) $JsonPath
+                }
+                
+                Write-Host "`nImporting $Type from: $fullPath" -ForegroundColor Cyan
+                
+                $importParams.Path = $fullPath
+                
+                switch ($Type) {
+                    'Foods' { Import-MealieFoods @importParams }
+                    'Units' { Import-MealieUnits @importParams }
+                    'Labels' { Import-MealieLabels @importParams }
+                    'Categories' { Import-MealieOrganizers @importParams -Type 'Categories' }
+                    'Tags' { Import-MealieOrganizers @importParams -Type 'Tags' }
+                    'Tools' { Import-MealieOrganizers @importParams -Type 'Tools' }
+                }
             }
         }
         

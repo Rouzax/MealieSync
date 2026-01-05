@@ -1,0 +1,62 @@
+[
+  {
+    "name": "cappuccinopoeder",
+    "pluralName": "cappuccinopoeder",
+    "description": "Instant cappuccino mix (koffie, melkpoeder, suiker); oplosbaar in heet water.",
+    "aliases": [],
+    "label": "Koffie & Thee"
+  },
+  {
+    "name": "caro",
+    "pluralName": "caro",
+    "description": "Graan-koffiesurrogaat (merk Caro); cafeïnevrije drank op basis van granen.",
+    "aliases": [],
+    "label": "Koffie & Thee"
+  },
+  {
+    "name": "groene thee",
+    "pluralName": "groene thee",
+    "description": "Ongefermenteerde thee; mild, gezond.",
+    "aliases": [],
+    "label": "Koffie & Thee"
+  },
+  {
+    "name": "kakao",
+    "pluralName": "kakao",
+    "description": "Cacaodrank (cacao met melk); warme chocolademelk, zoete drank.",
+    "aliases": [],
+    "label": "Koffie & Thee"
+  },
+  {
+    "name": "kamille",
+    "pluralName": "kamille",
+    "description": "Kruideninfusie; kalmerend, cafeïnevrij.",
+    "aliases": [
+      {
+        "name": "kamillethee"
+      }
+    ],
+    "label": "Koffie & Thee"
+  },
+  {
+    "name": "koffie",
+    "pluralName": "koffie",
+    "description": "Drank van koffiebonen; warm of koud.",
+    "aliases": [],
+    "label": "Koffie & Thee"
+  },
+  {
+    "name": "rooibos",
+    "pluralName": "rooibos",
+    "description": "Zuid-Afrikaanse kruidenthee; cafeïnevrij.",
+    "aliases": [],
+    "label": "Koffie & Thee"
+  },
+  {
+    "name": "zwarte thee",
+    "pluralName": "zwarte thee",
+    "description": "Gefermenteerde thee; sterk aroma, bevat cafeïne, gedronken warm of koud.",
+    "aliases": [],
+    "label": "Koffie & Thee"
+  }
+]

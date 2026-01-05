@@ -1,0 +1,255 @@
+[
+  {
+    "name": "amandelmelk",
+    "pluralName": "amandelmelk",
+    "description": "Plantaardige melk van amandelen; zuivelalternatief voor drank en pap.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "bakboter",
+    "pluralName": "bakboter",
+    "description": "Zuivelproduct; voor koken, bakken, sauzen en desserts.",
+    "aliases": [
+      {
+        "name": "bak- en braadboter"
+      }
+    ],
+    "label": "Zuivel"
+  },
+  {
+    "name": "boter",
+    "pluralName": "boter",
+    "description": "Zuivelproduct; vet van koemelk, voor bakken en smeren.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "braadboter",
+    "pluralName": "braadboter",
+    "description": "Boter of margarine speciaal voor braden; hoog verhitbaar vet.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "crème fraîche",
+    "pluralName": "crème fraîche",
+    "description": "Lichte verzuurde room; als topping of in sauzen (schift niet bij verhitting).",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "dulce de leche",
+    "pluralName": "dulce de leche",
+    "description": "Dulce de leche; ingekookte gezoete melk, Latijns-Amerikaanse karamelspread.",
+    "aliases": [
+      {
+        "name": "manjar"
+      },
+      {
+        "name": "karamelmelk"
+      }
+    ],
+    "label": "Zuivel"
+  },
+  {
+    "name": "gezouten boter",
+    "pluralName": "gezouten boter",
+    "description": "Boter met zout; voor op brood.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "ghee",
+    "pluralName": "ghee",
+    "description": "Geklaarde boter (Indiase keuken); zuiver vet, hoog verhitbaar bakmedium.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "Griekse yoghurt",
+    "pluralName": "Griekse yoghurt",
+    "description": "Dikke romige yoghurt; voor dips en desserts.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "halfvolle melk",
+    "pluralName": "halfvolle melk",
+    "description": "Melk met verminderd vetgehalte.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "karnemelk",
+    "pluralName": "karnemelk",
+    "description": "Zuiveldrank; lichtzure melk overgebleven na boterkarnen, fris en mager.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "koffiemelk",
+    "pluralName": "koffiemelk",
+    "description": "Geconcentreerde melk (geëvaporeerd); houdbare melk, in kleine cupjes voor bij koffie.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "kokosmelk",
+    "pluralName": "kokosmelk",
+    "description": "Roomwitte melk van geraspte kokos; basis voor curry’s, soepen en desserts.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "kookroom",
+    "pluralName": "kookroom",
+    "description": "Room voor koken; schift niet bij verhitting.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "kruidenboter",
+    "pluralName": "kruidenboter",
+    "description": "Boter gemengd met kruiden (knoflook, peterselie); gesmolten op vlees of stokbrood.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "kwark",
+    "pluralName": "kwark",
+    "description": "Verse zuivelproduct; zacht en romig, voor desserts of als basis voor sauzen.",
+    "label": "Zuivel",
+    "aliases": []
+  },
+  {
+    "name": "magere melk",
+    "pluralName": "magere melk",
+    "description": "Melk zonder vet.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "margarine",
+    "pluralName": "margarine",
+    "description": "Smeerbaar vet (plantaardig); botervervanger voor op brood of in baksel.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "melk",
+    "pluralName": "melk",
+    "description": "Zuivel; koemelk, basis voor drinken en koken.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "melkpoeder",
+    "pluralName": "melkpoeder",
+    "description": "Gedroogde melk (poeder); gebruikt in babyvoeding, instantdrank en bakkerij.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "niter kibbeh",
+    "pluralName": "niter kibbeh",
+    "description": "Geklaarde gekruide boter uit de Ethiopische keuken; gebruikt als bakvet.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "ongezouten boter",
+    "pluralName": "ongezouten boter",
+    "description": "Boter zonder zout; voor bakken en patisserie.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "room",
+    "pluralName": "room",
+    "description": "Zuivel; vette melkroom, gebruikt om te kloppen (slagroom) of te verrijken in sauzen.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "roomboter",
+    "pluralName": "roomboter",
+    "description": "Boter van koemelk; volle smaak, gebruikt als broodbeleg en in bakken.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "santen",
+    "pluralName": "santen",
+    "description": "Kokosblok (geperste kokoscreme); opgelost in water als kokosmelk voor curry’s.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "skyr",
+    "pluralName": "skyr",
+    "description": "IJslandse zuivel; dik en eiwitrijk.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "slagroom",
+    "pluralName": "slagroom",
+    "description": "Opgeklopte gezoete room; luchtige topping op desserts en gebak.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "sojamelk",
+    "pluralName": "sojamelk",
+    "description": "Plantaardige melk van soja; zuivelalternatief in drank of gerecht.",
+    "aliases": [
+      {
+        "name": "soja drink"
+      }
+    ],
+    "label": "Zuivel"
+  },
+  {
+    "name": "turkse yoghurt",
+    "pluralName": "turkse yoghurt",
+    "description": "Dikke yoghurt; romig en zuur.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "volle kwark",
+    "pluralName": "volle kwark",
+    "description": "Verse kaas; romig, voor desserts.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "volle melk",
+    "pluralName": "volle melk",
+    "description": "Melk met volledig vetgehalte.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "volle yoghurt",
+    "pluralName": "volle yoghurt",
+    "description": "Romige yoghurt; hoger vetgehalte.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "yoghurt",
+    "pluralName": "yoghurt",
+    "description": "Gefermenteerde melk; friszuur, nature of gezoet, ontbijt of verwerkt in tzatziki.",
+    "aliases": [],
+    "label": "Zuivel"
+  },
+  {
+    "name": "zure room",
+    "pluralName": "zure room",
+    "description": "Verzuurde room (sour cream); 20% vet, zurig, gebruikt als topping (taco's, borsjtsj).",
+    "aliases": [],
+    "label": "Zuivel"
+  }
+]

@@ -1,7 +1,10 @@
 # Configuration with secrets
 mealie-config.json
 
-# Backup files
+# Exports folder (backups, personal data)
+Exports/
+
+# Backup files (legacy, in root)
 Backup_*.json
 *_backup.json
 *.bak

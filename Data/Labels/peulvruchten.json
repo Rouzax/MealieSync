@@ -1,0 +1,205 @@
+[
+  {
+    "name": "beluga linzen",
+    "pluralName": "beluga linzen",
+    "description": "Kleine zwarte linzen; behouden vorm, voor salades.",
+    "aliases": [
+      {
+        "name": "zwarte linzen"
+      }
+    ],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "borlottiboon",
+    "pluralName": "borlottibonen",
+    "description": "Italiaanse bonensoort (rood-wit gespikkeld); gebruikt in soepen en stoofschotels.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "bruine bonen",
+    "pluralName": "bruine bonen",
+    "description": "Droge peulvrucht; na weken gekookt in Hollandse pot of chili.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "cannelliniboon",
+    "pluralName": "cannellinibonen",
+    "description": "Witte boon (cannellini); mild van smaak, in Italiaanse soepen en salades.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "doperwt",
+    "pluralName": "doperwten",
+    "description": "Jonge erwten; zoet en fris.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "edamame",
+    "pluralName": "edamame",
+    "description": "Jonge sojabonen in peul; kort gekookt als snack of in salades.",
+    "aliases": [
+      {
+        "name": "sojaboon"
+      }
+    ],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "erwten",
+    "pluralName": "erwten",
+    "description": "Groene erwten (dop- of velderwten); vers of gedroogd gebruikt in soep en puree.",
+    "aliases": [
+      {
+        "name": "erwt"
+      }
+    ],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "groene linzen",
+    "pluralName": "groene linzen",
+    "description": "Linzen met schil; steviger, voor salades en stoofpotten.",
+    "aliases": [
+      {
+        "name": "puy linzen"
+      }
+    ],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "kapucijner",
+    "pluralName": "kapucijners",
+    "description": "Nederlandse peulvruchten; voor stamppot.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "kidneyboon",
+    "pluralName": "kidneybonen",
+    "description": "Rode niervormige bonen; voor chili.",
+    "aliases": [
+      {
+        "name": "rode bonen"
+      }
+    ],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "kikkererwt",
+    "pluralName": "kikkererwten",
+    "description": "Peulvrucht; harde gele erwt, geweekt en gekookt in hummus, curry of falafel.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "lima boon",
+    "pluralName": "lima bonen",
+    "description": "Grote witte bonen; romig.",
+    "aliases": [
+      {
+        "name": "boterboon"
+      }
+    ],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "linzen",
+    "pluralName": "linzen",
+    "description": "Peulvrucht; eiwitrijk ingrediënt voor soepen, stoof en salades.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "quorn",
+    "pluralName": "quorn",
+    "description": "Vleesvervanger op basis van schimmelproteïne; in diverse vormen beschikbaar.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "rode linzen",
+    "pluralName": "rode linzen",
+    "description": "Gepelde linzen; snel gaar, voor soep en dhal.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "seitan",
+    "pluralName": "seitan",
+    "description": "Vleesvervanger van tarwegluten; stevige structuur, verwerkt in roerbak of stoof.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "soja",
+    "pluralName": "soja",
+    "description": "Sojabonen en afgeleiden; basis voor tofu, tempé, sojasaus, gebruikt als eiwitrijke vervanger.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "sojascheuten",
+    "pluralName": "sojascheuten",
+    "description": "Taugé (sojascheuten); knapperige witte kiemen, kort gewokt of rauw in salade.",
+    "aliases": [
+      {
+        "name": "taugé"
+      }
+    ],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "spliterwt",
+    "pluralName": "spliterwten",
+    "description": "Gehalveerde erwten; voor soep.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "tempeh",
+    "pluralName": "tempeh",
+    "description": "Gefermenteerde sojakoek; vleesvervanger in plakjes of blokjes.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "tofu",
+    "pluralName": "tofu",
+    "description": "Gestremde sojamelk; witte blok, neemt smaken op, veelzijdige eiwitbron.",
+    "aliases": [
+      {
+        "name": "tofoe"
+      },
+      {
+        "name": "tahoe"
+      }
+    ],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "tuinboon",
+    "pluralName": "tuinbonen",
+    "description": "Peulvrucht; jonge tuinbonen gekookt als groente of in puree.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "witte boon",
+    "pluralName": "witte bonen",
+    "description": "Witte bonen; voor cassoulet en soepen.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  },
+  {
+    "name": "zwarte boon",
+    "pluralName": "zwarte bonen",
+    "description": "Zwarte bonen; Mexicaans en Braziliaans.",
+    "aliases": [],
+    "label": "Peulvruchten"
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "name": "amontillado",
+    "pluralName": "amontillado",
+    "description": "Soort sherry (Spaans versterkte wijn); amberkleurig, medium droog.",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "madeira",
+    "pluralName": "madeira",
+    "description": "Versterkte wijn van Madeira (eiland); zoetig, gebruikt in sauzen (madeirasaus).",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "marsala",
+    "pluralName": "marsala",
+    "description": "Italiaanse versterkte wijn (Marsala); gebruikt in tiramisu en sauzen (kip Marsala).",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "muskaatwijn",
+    "pluralName": "muskaatwijn",
+    "description": "Wijn van muskaatdruiven (zoet, geparfumeerd); dessertwijn of smaakmaker in gebak.",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "noilly prat",
+    "pluralName": "noilly prat",
+    "description": "Droge Franse vermout (Noilly Prat); gebruikt in cocktails en visgerechten.",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "pineau de charentes",
+    "pluralName": "pineau de charentes",
+    "description": "Franse aperitiefwijn (Pineau); mengsel van druivensap en cognac, zoet, koud geserveerd.",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "port",
+    "pluralName": "port",
+    "description": "Portwijn; zoete versterkte wijn uit Portugal, gedronken als aperitief of digestief.",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "rijstwijn",
+    "pluralName": "rijstwijn",
+    "description": "Fermentatiedrank van rijst (sake of Chinese rijstwijn); gebruikt als kookwijn of gedronken.",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "saké",
+    "pluralName": "saké",
+    "description": "Japanse rijstwijn (sake); helder, warm of koud gedronken, ook gebruikt in marinades.",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "sangria",
+    "pluralName": "sangria",
+    "description": "Spaanse wijnbowl; rode wijn met fruit en likeur, koud geserveerd als zomerdrank.",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "schuimwijn",
+    "pluralName": "schuimwijn",
+    "description": "Mousserende wijn; koolzuurhoudende wijn (Champagne, Cava, Prosecco), feestelijk aperitief.",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "sherry",
+    "pluralName": "sherry",
+    "description": "Versterkte Spaanse wijn; droog (fino) of zoet (oloroso), gebruikt in koken en als aperitief.",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "wijn",
+    "pluralName": "wijn",
+    "description": "Alcoholische drank van gegist druivensap; wit, rood of rosé, gedronken of in gerechten.",
+    "aliases": [],
+    "label": "Wijn"
+  },
+  {
+    "name": "witte wijn",
+    "pluralName": "witte wijn",
+    "description": "Wijn van witte druiven; droog of zoet, gedronken of gebruikt in koken (sauzen, risotto).",
+    "aliases": [],
+    "label": "Wijn"
+  }
+]
