@@ -1,9 +1,10 @@
-#Requires -Version 5.1
+#Requires -Version 7.0
 <#
 .SYNOPSIS
     Sync Foods and Units data with Mealie
 .DESCRIPTION
     Main script to import, export, and synchronize Foods and Units with your Mealie instance.
+    Requires PowerShell 7.0 or later (PowerShell Core).
     
 .EXAMPLE
     .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json
@@ -175,7 +176,7 @@ try {
                     Conflicts     = 0
                 }
                 
-                # Shared MatchedIds for cross-file conflict detection (Foods only)
+                # Shared MatchedIds for cross-file conflict detection (Foods and Units)
                 $sharedMatchedIds = @{}
                 
                 foreach ($file in $jsonFiles) {
@@ -184,7 +185,7 @@ try {
                     
                     $result = switch ($Type) {
                         'Foods' { Import-MealieFoods @importParams -MatchedIds $sharedMatchedIds }
-                        'Units' { Import-MealieUnits @importParams }
+                        'Units' { Import-MealieUnits @importParams -MatchedIds $sharedMatchedIds }
                         'Labels' { Import-MealieLabels @importParams }
                         'Categories' { Import-MealieOrganizers @importParams -Type 'Categories' }
                         'Tags' { Import-MealieOrganizers @importParams -Type 'Tags' }

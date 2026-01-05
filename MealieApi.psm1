@@ -1,4 +1,4 @@
-#Requires -Version 5.1
+#Requires -Version 7.0
 <#
 .SYNOPSIS
     Mealie API Module for Foods and Units management
@@ -44,7 +44,7 @@ function Initialize-MealieApi {
     # Test connection
     try {
         $response = Invoke-MealieRequest -Endpoint '/api/users/self' -Method 'GET'
-        Write-Host "✓ Connected to Mealie as: $($response.username)" -ForegroundColor Green
+        Write-Host "OK: Connected to Mealie as: $($response.username)" -ForegroundColor Green
         return $true
     }
     catch {
@@ -164,13 +164,17 @@ function Test-UnitChanged {
     <#
     .SYNOPSIS
         Check if a unit item has changes compared to existing data
+    .PARAMETER MergedAliases
+        Pre-computed merged aliases array (existing + new, deduplicated)
     #>
     param(
         [Parameter(Mandatory)]
         [object]$Existing,
         
         [Parameter(Mandatory)]
-        [object]$New
+        [object]$New,
+        
+        [array]$MergedAliases
     )
     
     # Compare string fields
@@ -189,8 +193,20 @@ function Test-UnitChanged {
     $newFraction = if ($null -eq $New.fraction) { $true } else { [bool]$New.fraction }
     if ($existingFraction -ne $newFraction) { return $true }
     
-    # Compare aliases
-    if (-not (Compare-Aliases $Existing.aliases $New.aliases)) { return $true }
+    # Compare aliases using merge logic
+    $existingAliasNames = @()
+    if ($Existing.aliases -and $Existing.aliases.Count -gt 0) {
+        $existingAliasNames = @($Existing.aliases | ForEach-Object { $_.name.ToLower().Trim() }) | Sort-Object
+    }
+    
+    $mergedAliasLower = @()
+    if ($MergedAliases -and $MergedAliases.Count -gt 0) {
+        $mergedAliasLower = @($MergedAliases | ForEach-Object { $_.ToLower().Trim() }) | Sort-Object
+    }
+    
+    $existingStr = $existingAliasNames -join ","
+    $mergedStr = $mergedAliasLower -join ","
+    if ($existingStr -ne $mergedStr) { return $true }
     
     return $false
 }
@@ -265,7 +281,6 @@ function Invoke-MealieRequest {
     
     if ($Body -and $Method -in @('POST', 'PUT')) {
         $jsonBody = $Body | ConvertTo-Json -Depth 10 -Compress
-        $params.Body = $jsonBody
         # Ensure UTF-8 encoding
         $params.Body = [System.Text.Encoding]::UTF8.GetBytes($jsonBody)
     }
@@ -327,7 +342,7 @@ function Get-MealieFoods {
     $perPage = 100
     
     do {
-        $response = Invoke-MealieRequest -Endpoint "/api/foods?page=$page&perPage=$perPage" -Method 'GET'
+        $response = Invoke-MealieRequest -Endpoint "/api/foods?page=$page`&perPage=$perPage" -Method 'GET'
         $foods += $response.items
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
@@ -432,7 +447,7 @@ function Get-MealieUnits {
     $perPage = 100
     
     do {
-        $response = Invoke-MealieRequest -Endpoint "/api/units?page=$page&perPage=$perPage" -Method 'GET'
+        $response = Invoke-MealieRequest -Endpoint "/api/units?page=$page`&perPage=$perPage" -Method 'GET'
         $units += $response.items
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
@@ -547,7 +562,7 @@ function Import-MealieFoods {
         Matching order (prevents duplicates when renaming):
         1) id
         2) name/pluralName (all cross-combinations)
-        3) alias (all cross-combinations including alias→alias)
+        3) alias (all cross-combinations including alias->alias)
         
         Supports 'label' field in JSON (label name). The label must already exist in Mealie.
         If a label name is not found, a warning is shown and the food is imported without label.
@@ -590,7 +605,7 @@ function Import-MealieFoods {
         # Lookup by name (case-insensitive)
         $existingByName[$food.name.ToLower().Trim()] = $food
         
-        # Lookup by pluralName (case-insensitive) - enables matching "braam" → "bramen"
+        # Lookup by pluralName (case-insensitive) - enables matching "braam" -> "bramen"
         if (![string]::IsNullOrEmpty($food.pluralName)) {
             $pluralKey = $food.pluralName.ToLower().Trim()
             if (-not $existingByName.ContainsKey($pluralKey)) {
@@ -637,7 +652,7 @@ function Import-MealieFoods {
         $percentComplete = [math]::Round(($current / $total) * 100)
         Write-Progress -Activity "Importing Foods" -Status "$current of $total - $itemName" -PercentComplete $percentComplete
         
-        # Matching order: id → name/pluralName (all combos) → alias (all combos)
+        # Matching order: id -> name/pluralName (all combos) -> alias (all combos)
         $existingFood = $null
         $matchMethod = $null
         
@@ -658,7 +673,7 @@ function Import-MealieFoods {
                     $matchMethod = "name"
                 }
                 else {
-                    $matchMethod = "name→pluralName"
+                    $matchMethod = "name->pluralName"
                 }
             }
         }
@@ -670,7 +685,7 @@ function Import-MealieFoods {
                 $existingFood = $existingByName[$pluralKey]
                 # Check if it matched on name or pluralName
                 if ($existingFood.name.ToLower().Trim() -eq $pluralKey) {
-                    $matchMethod = "pluralName→name"
+                    $matchMethod = "pluralName->name"
                 }
                 else {
                     $matchMethod = "pluralName"
@@ -683,20 +698,20 @@ function Import-MealieFoods {
             $pluralKey = $item.pluralName.ToLower().Trim()
             if ($existingByAlias.ContainsKey($pluralKey)) {
                 $existingFood = $existingByAlias[$pluralKey]
-                $matchMethod = "pluralName→alias"
+                $matchMethod = "pluralName->alias"
             }
         }
         
         # 3. Try match by alias (all directions):
-        #    - import.name → existing.alias
-        #    - import.alias → existing.name/pluralName
-        #    - import.alias → existing.alias
+        #    - import.name -> existing.alias
+        #    - import.alias -> existing.name/pluralName
+        #    - import.alias -> existing.alias
         if (-not $existingFood) {
             # Check if new name is an existing alias
             $nameKey = $itemName.ToLower()
             if ($existingByAlias.ContainsKey($nameKey)) {
                 $existingFood = $existingByAlias[$nameKey]
-                $matchMethod = "name→alias"
+                $matchMethod = "name->alias"
             }
             
             # Check if any new aliases match existing names, pluralNames, or aliases
@@ -708,10 +723,10 @@ function Import-MealieFoods {
                     if ($existingByName.ContainsKey($aliasKey)) {
                         $existingFood = $existingByName[$aliasKey]
                         if ($existingFood.name.ToLower().Trim() -eq $aliasKey) {
-                            $matchMethod = "alias→name"
+                            $matchMethod = "alias->name"
                         }
                         else {
-                            $matchMethod = "alias→pluralName"
+                            $matchMethod = "alias->pluralName"
                         }
                         break
                     }
@@ -719,7 +734,7 @@ function Import-MealieFoods {
                     # Check against existing aliases
                     if ($existingByAlias.ContainsKey($aliasKey)) {
                         $existingFood = $existingByAlias[$aliasKey]
-                        $matchMethod = "alias→alias"
+                        $matchMethod = "alias->alias"
                         break
                     }
                 }
@@ -819,7 +834,7 @@ function Import-MealieFoods {
                             $newVal = if ([string]::IsNullOrEmpty($change.New)) { "(empty)" } else { $change.New }
                             Write-Host "          $($change.Field.PadRight(12)): " -NoNewline
                             Write-Host "'$oldVal'" -ForegroundColor Red -NoNewline
-                            Write-Host " → " -NoNewline
+                            Write-Host " -> " -NoNewline
                             Write-Host "'$newVal'" -ForegroundColor Green
                         }
                         $stats.Updated++
@@ -946,11 +961,18 @@ function Import-MealieUnits {
     .PARAMETER Path
         Path to the JSON file containing unit data
     .PARAMETER UpdateExisting
-        Update units that already exist (matched by name or id)
+        Update units that already exist (matched by id, name, pluralName, abbreviation, or alias)
     .PARAMETER ThrottleMs
         Milliseconds to wait between API calls (default: 100)
+    .PARAMETER MatchedIds
+        Hashtable tracking already-matched item IDs (for cross-file conflict detection)
     .PARAMETER WhatIf
         Show what would happen without making changes
+    .NOTES
+        Matching order (prevents duplicates when renaming):
+        1) id
+        2) name/pluralName/abbreviation/pluralAbbreviation (all cross-combinations)
+        3) alias (all cross-combinations)
     #>
     [CmdletBinding(SupportsShouldProcess)]
     param(
@@ -959,7 +981,9 @@ function Import-MealieUnits {
         
         [switch]$UpdateExisting,
         
-        [int]$ThrottleMs = 100
+        [int]$ThrottleMs = 100,
+        
+        [hashtable]$MatchedIds
     )
     
     if (-not (Test-Path $Path)) {
@@ -969,10 +993,51 @@ function Import-MealieUnits {
     $importData = Get-Content $Path -Raw -Encoding UTF8 | ConvertFrom-Json
     $existingUnits = Get-MealieUnits -All
     
-    # Create lookup by name
-    $existingByName = @{}
+    # Create multiple lookups for matching
+    $existingById = @{}
+    $existingByName = @{}      # name, pluralName, abbreviation, pluralAbbreviation
+    $existingByAlias = @{}
+    
     foreach ($unit in $existingUnits) {
+        # Lookup by id
+        $existingById[$unit.id] = $unit
+        
+        # Lookup by name (case-insensitive)
         $existingByName[$unit.name.ToLower().Trim()] = $unit
+        
+        # Lookup by pluralName
+        if (![string]::IsNullOrEmpty($unit.pluralName)) {
+            $pluralKey = $unit.pluralName.ToLower().Trim()
+            if (-not $existingByName.ContainsKey($pluralKey)) {
+                $existingByName[$pluralKey] = $unit
+            }
+        }
+        
+        # Lookup by abbreviation
+        if (![string]::IsNullOrEmpty($unit.abbreviation)) {
+            $abbrevKey = $unit.abbreviation.ToLower().Trim()
+            if (-not $existingByName.ContainsKey($abbrevKey)) {
+                $existingByName[$abbrevKey] = $unit
+            }
+        }
+        
+        # Lookup by pluralAbbreviation
+        if (![string]::IsNullOrEmpty($unit.pluralAbbreviation)) {
+            $pluralAbbrevKey = $unit.pluralAbbreviation.ToLower().Trim()
+            if (-not $existingByName.ContainsKey($pluralAbbrevKey)) {
+                $existingByName[$pluralAbbrevKey] = $unit
+            }
+        }
+        
+        # Lookup by aliases
+        if ($unit.aliases -and $unit.aliases.Count -gt 0) {
+            foreach ($alias in $unit.aliases) {
+                $aliasKey = $alias.name.ToLower().Trim()
+                if (-not $existingByAlias.ContainsKey($aliasKey)) {
+                    $existingByAlias[$aliasKey] = $unit
+                }
+            }
+        }
     }
     
     $stats = @{
@@ -981,40 +1046,183 @@ function Import-MealieUnits {
         Unchanged = 0
         Skipped   = 0
         Errors    = 0
+        Conflicts = 0
     }
     
     $total = @($importData).Count
     $padWidth = $total.ToString().Length
     $current = 0
     
+    # Use provided MatchedIds or create new
+    if (-not $MatchedIds) {
+        $MatchedIds = @{}
+    }
+    
     foreach ($item in $importData) {
         $current++
         $counter = "[$($current.ToString().PadLeft($padWidth))/$total]"
         $itemName = $item.name.Trim()
-        $existingUnit = $existingByName[$itemName.ToLower()]
         
         # Progress indicator
         $percentComplete = [math]::Round(($current / $total) * 100)
         Write-Progress -Activity "Importing Units" -Status "$current of $total - $itemName" -PercentComplete $percentComplete
         
+        # Matching order: id -> name/pluralName/abbreviation -> alias
+        $existingUnit = $null
+        $matchMethod = $null
+        
+        # 1. Try match by id
+        if ($item.id -and $existingById.ContainsKey($item.id)) {
+            $existingUnit = $existingById[$item.id]
+            $matchMethod = "id"
+        }
+        
+        # 2. Try match by name
+        if (-not $existingUnit) {
+            $nameKey = $itemName.ToLower()
+            if ($existingByName.ContainsKey($nameKey)) {
+                $existingUnit = $existingByName[$nameKey]
+                $matchMethod = "name"
+            }
+        }
+        
+        # 2b. Try match by import pluralName
+        if (-not $existingUnit -and ![string]::IsNullOrEmpty($item.pluralName)) {
+            $pluralKey = $item.pluralName.ToLower().Trim()
+            if ($existingByName.ContainsKey($pluralKey)) {
+                $existingUnit = $existingByName[$pluralKey]
+                $matchMethod = "pluralName"
+            }
+        }
+        
+        # 2c. Try match by import abbreviation
+        if (-not $existingUnit -and ![string]::IsNullOrEmpty($item.abbreviation)) {
+            $abbrevKey = $item.abbreviation.ToLower().Trim()
+            if ($existingByName.ContainsKey($abbrevKey)) {
+                $existingUnit = $existingByName[$abbrevKey]
+                $matchMethod = "abbreviation"
+            }
+        }
+        
+        # 2d. Try match by import pluralAbbreviation
+        if (-not $existingUnit -and ![string]::IsNullOrEmpty($item.pluralAbbreviation)) {
+            $pluralAbbrevKey = $item.pluralAbbreviation.ToLower().Trim()
+            if ($existingByName.ContainsKey($pluralAbbrevKey)) {
+                $existingUnit = $existingByName[$pluralAbbrevKey]
+                $matchMethod = "pluralAbbreviation"
+            }
+        }
+        
+        # 3. Try match by alias
+        if (-not $existingUnit) {
+            # Check if import name is an existing alias
+            $nameKey = $itemName.ToLower()
+            if ($existingByAlias.ContainsKey($nameKey)) {
+                $existingUnit = $existingByAlias[$nameKey]
+                $matchMethod = "name->alias"
+            }
+            
+            # Check if any import aliases match existing
+            if (-not $existingUnit -and $item.aliases -and $item.aliases.Count -gt 0) {
+                foreach ($alias in $item.aliases) {
+                    $aliasKey = $alias.name.ToLower().Trim()
+                    if ($existingByName.ContainsKey($aliasKey)) {
+                        $existingUnit = $existingByName[$aliasKey]
+                        $matchMethod = "alias->name"
+                        break
+                    }
+                    if ($existingByAlias.ContainsKey($aliasKey)) {
+                        $existingUnit = $existingByAlias[$aliasKey]
+                        $matchMethod = "alias->alias"
+                        break
+                    }
+                }
+            }
+        }
+        
+        # Check for conflict
+        if ($existingUnit -and $MatchedIds.ContainsKey($existingUnit.id)) {
+            $previousMatch = $MatchedIds[$existingUnit.id]
+            Write-Warning "  $counter CONFLICT: '$itemName' matches existing '$($existingUnit.name)' (via $matchMethod), but it was already matched by '$previousMatch'"
+            $stats.Conflicts++
+            continue
+        }
+        
+        # Track this match
+        if ($existingUnit) {
+            $MatchedIds[$existingUnit.id] = $itemName
+        }
+        
         try {
             if ($existingUnit) {
                 if ($UpdateExisting) {
+                    # Merge aliases
+                    $existingAliasNames = @()
+                    if ($existingUnit.aliases -and $existingUnit.aliases.Count -gt 0) {
+                        $existingAliasNames = @($existingUnit.aliases | ForEach-Object { $_.name })
+                    }
+                    $newAliasNames = @()
+                    if ($item.aliases -and $item.aliases.Count -gt 0) {
+                        $newAliasNames = @($item.aliases | ForEach-Object { $_.name })
+                    }
+                    
+                    # Merge and deduplicate
+                    $mergedAliases = @()
+                    $seenLower = @{}
+                    foreach ($alias in ($existingAliasNames + $newAliasNames)) {
+                        $lowerAlias = $alias.ToLower().Trim()
+                        if (-not $seenLower.ContainsKey($lowerAlias)) {
+                            $seenLower[$lowerAlias] = $true
+                            $mergedAliases += $alias
+                        }
+                    }
+                    
                     # Check if anything actually changed
-                    if (-not (Test-UnitChanged -Existing $existingUnit -New $item)) {
+                    if (-not (Test-UnitChanged -Existing $existingUnit -New $item -MergedAliases $mergedAliases)) {
                         Write-Verbose "  $counter Unchanged: $itemName"
                         $stats.Unchanged++
                         continue
                     }
                     
-                    if ($PSCmdlet.ShouldProcess($itemName, "Update unit")) {
-                        # Prepare aliases array - only if aliases exist
-                        $aliases = @()
-                        if ($item.aliases -and @($item.aliases).Count -gt 0) {
-                            $aliases = @($item.aliases | ForEach-Object { @{ name = $_.name } })
+                    # Build change list for WhatIf
+                    $changes = @()
+                    if ($existingUnit.name -ne $itemName) {
+                        $changes += @{ Field = "name"; Old = $existingUnit.name; New = $itemName }
+                    }
+                    if ($existingUnit.pluralName -ne $item.pluralName -and ![string]::IsNullOrEmpty($item.pluralName)) {
+                        $changes += @{ Field = "pluralName"; Old = $existingUnit.pluralName; New = $item.pluralName }
+                    }
+                    if ($existingUnit.abbreviation -ne $item.abbreviation -and ![string]::IsNullOrEmpty($item.abbreviation)) {
+                        $changes += @{ Field = "abbreviation"; Old = $existingUnit.abbreviation; New = $item.abbreviation }
+                    }
+                    if ($existingUnit.description -ne $item.description -and ![string]::IsNullOrEmpty($item.description)) {
+                        $descPreview = if ($item.description.Length -gt 40) { $item.description.Substring(0,40) + "..." } else { $item.description }
+                        $changes += @{ Field = "description"; Old = ""; New = $descPreview }
+                    }
+                    $existingAliasStr = ($existingAliasNames | Sort-Object) -join ", "
+                    $mergedAliasStr = ($mergedAliases | Sort-Object) -join ", "
+                    if ($existingAliasStr -ne $mergedAliasStr) {
+                        $changes += @{ Field = "aliases"; Old = ($existingAliasNames -join ", "); New = ($mergedAliases -join ", ") }
+                    }
+                    
+                    if ($WhatIfPreference) {
+                        Write-Host "  $counter " -NoNewline
+                        Write-Host "Would UPDATE " -ForegroundColor Yellow -NoNewline
+                        Write-Host "(matched by $matchMethod): " -NoNewline
+                        Write-Host "$itemName" -ForegroundColor Cyan
+                        foreach ($change in $changes) {
+                            $oldVal = if ([string]::IsNullOrEmpty($change.Old)) { "(empty)" } else { $change.Old }
+                            $newVal = if ([string]::IsNullOrEmpty($change.New)) { "(empty)" } else { $change.New }
+                            Write-Host "          $($change.Field.PadRight(12)): " -NoNewline
+                            Write-Host "'$oldVal'" -ForegroundColor Red -NoNewline
+                            Write-Host " -> " -NoNewline
+                            Write-Host "'$newVal'" -ForegroundColor Green
                         }
+                        $stats.Updated++
+                    }
+                    elseif ($PSCmdlet.ShouldProcess($itemName, "Update unit")) {
+                        $aliases = @($mergedAliases | ForEach-Object { @{ name = $_ } })
                         
-                        # Only include non-null, non-empty values
                         $updateData = @{
                             name = $itemName
                         }
@@ -1042,19 +1250,39 @@ function Import-MealieUnits {
                         }
                         
                         Update-MealieUnit -Id $existingUnit.id -Data $updateData | Out-Null
-                        Write-Host "  $counter Updated: $itemName" -ForegroundColor Yellow
+                        Write-Host "  $counter Updated (matched by $matchMethod): $itemName" -ForegroundColor Yellow
                         $stats.Updated++
                         
                         if ($ThrottleMs -gt 0) { Start-Sleep -Milliseconds $ThrottleMs }
                     }
                 }
                 else {
-                    Write-Verbose "  $counter Skipped (exists): $itemName"
+                    Write-Verbose "  $counter Skipped (exists, matched by $matchMethod): $itemName"
                     $stats.Skipped++
                 }
             }
             else {
-                if ($PSCmdlet.ShouldProcess($itemName, "Create unit")) {
+                if ($WhatIfPreference) {
+                    Write-Host "  $counter " -NoNewline
+                    Write-Host "Would CREATE" -ForegroundColor Green -NoNewline
+                    Write-Host ": " -NoNewline
+                    Write-Host "$itemName" -ForegroundColor Cyan
+                    if (![string]::IsNullOrEmpty($item.pluralName)) {
+                        Write-Host "          pluralName   : " -NoNewline
+                        Write-Host "'$($item.pluralName)'" -ForegroundColor Green
+                    }
+                    if (![string]::IsNullOrEmpty($item.abbreviation)) {
+                        Write-Host "          abbreviation : " -NoNewline
+                        Write-Host "'$($item.abbreviation)'" -ForegroundColor Green
+                    }
+                    if ($item.aliases -and $item.aliases.Count -gt 0) {
+                        $aliasStr = ($item.aliases | ForEach-Object { $_.name }) -join ", "
+                        Write-Host "          aliases      : " -NoNewline
+                        Write-Host "'$aliasStr'" -ForegroundColor Green
+                    }
+                    $stats.Created++
+                }
+                elseif ($PSCmdlet.ShouldProcess($itemName, "Create unit")) {
                     $aliasNames = @()
                     if ($item.aliases -and @($item.aliases).Count -gt 0) {
                         $aliasNames = @($item.aliases | ForEach-Object { $_.name })
@@ -1107,6 +1335,9 @@ function Import-MealieUnits {
     Write-Host "  Unchanged: $($stats.Unchanged)"
     Write-Host "  Skipped:   $($stats.Skipped)"
     Write-Host "  Errors:    $($stats.Errors)"
+    if ($stats.Conflicts -gt 0) {
+        Write-Host "  Conflicts: $($stats.Conflicts)" -ForegroundColor Red
+    }
     
     return $stats
 }
@@ -1128,7 +1359,7 @@ function Get-MealieCategories {
     $perPage = 100
     
     do {
-        $response = Invoke-MealieRequest -Endpoint "/api/organizers/categories?page=$page&perPage=$perPage" -Method 'GET'
+        $response = Invoke-MealieRequest -Endpoint "/api/organizers/categories?page=$page`&perPage=$perPage" -Method 'GET'
         $items += $response.items
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
@@ -1210,7 +1441,7 @@ function Get-MealieTags {
     $perPage = 100
     
     do {
-        $response = Invoke-MealieRequest -Endpoint "/api/organizers/tags?page=$page&perPage=$perPage" -Method 'GET'
+        $response = Invoke-MealieRequest -Endpoint "/api/organizers/tags?page=$page`&perPage=$perPage" -Method 'GET'
         $items += $response.items
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
@@ -1292,7 +1523,7 @@ function Get-MealieTools {
     $perPage = 100
     
     do {
-        $response = Invoke-MealieRequest -Endpoint "/api/organizers/tools?page=$page&perPage=$perPage" -Method 'GET'
+        $response = Invoke-MealieRequest -Endpoint "/api/organizers/tools?page=$page`&perPage=$perPage" -Method 'GET'
         $items += $response.items
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
@@ -1378,7 +1609,7 @@ function Get-MealieLabels {
     $perPage = 100
     
     do {
-        $response = Invoke-MealieRequest -Endpoint "/api/groups/labels?page=$page&perPage=$perPage" -Method 'GET'
+        $response = Invoke-MealieRequest -Endpoint "/api/groups/labels?page=$page`&perPage=$perPage" -Method 'GET'
         $items += $response.items
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
@@ -1892,7 +2123,37 @@ function Export-MealieUnits {
     )
     
     $units = Get-MealieUnits -All
-    $units | ConvertTo-Json -Depth 10 | Set-Content $Path -Encoding UTF8
+    
+    # Ensure parent directory exists
+    $parentDir = Split-Path -Parent $Path
+    if ($parentDir -and -not (Test-Path $parentDir)) {
+        New-Item -ItemType Directory -Path $parentDir -Force | Out-Null
+    }
+    
+    # Transform for cleaner export (include id for matching)
+    $exportData = $units | ForEach-Object {
+        $result = [ordered]@{
+            id                  = $_.id
+            name                = $_.name
+            pluralName          = $_.pluralName
+            description         = $_.description
+            abbreviation        = $_.abbreviation
+            pluralAbbreviation  = $_.pluralAbbreviation
+            useAbbreviation     = $_.useAbbreviation
+            fraction            = $_.fraction
+        }
+        
+        if ($_.aliases -and $_.aliases.Count -gt 0) {
+            $result.aliases = @($_.aliases | ForEach-Object { @{ name = $_.name } })
+        }
+        else {
+            $result.aliases = @()
+        }
+        
+        [PSCustomObject]$result
+    }
+    
+    $exportData | ConvertTo-Json -Depth 10 | Set-Content $Path -Encoding UTF8
     Write-Host "Exported $($units.Count) units to: $Path" -ForegroundColor Green
 }
 
