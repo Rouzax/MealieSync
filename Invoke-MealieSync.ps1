@@ -172,14 +172,18 @@ try {
                     Skipped       = 0
                     Errors        = 0
                     LabelWarnings = 0
+                    Conflicts     = 0
                 }
+                
+                # Shared MatchedIds for cross-file conflict detection (Foods only)
+                $sharedMatchedIds = @{}
                 
                 foreach ($file in $jsonFiles) {
                     Write-Host "── $($file.Name) ──" -ForegroundColor White
                     $importParams.Path = $file.FullName
                     
                     $result = switch ($Type) {
-                        'Foods' { Import-MealieFoods @importParams }
+                        'Foods' { Import-MealieFoods @importParams -MatchedIds $sharedMatchedIds }
                         'Units' { Import-MealieUnits @importParams }
                         'Labels' { Import-MealieLabels @importParams }
                         'Categories' { Import-MealieOrganizers @importParams -Type 'Categories' }
@@ -197,6 +201,9 @@ try {
                         if ($result.LabelWarnings) {
                             $totalStats.LabelWarnings += $result.LabelWarnings
                         }
+                        if ($result.Conflicts) {
+                            $totalStats.Conflicts += $result.Conflicts
+                        }
                     }
                     
                     Write-Host ""
@@ -212,6 +219,9 @@ try {
                 Write-Host "  Errors:        $($totalStats.Errors)"
                 if ($totalStats.LabelWarnings -gt 0) {
                     Write-Host "  LabelWarnings: $($totalStats.LabelWarnings)" -ForegroundColor Yellow
+                }
+                if ($totalStats.Conflicts -gt 0) {
+                    Write-Host "  Conflicts:     $($totalStats.Conflicts)" -ForegroundColor Red
                 }
             }
             else {

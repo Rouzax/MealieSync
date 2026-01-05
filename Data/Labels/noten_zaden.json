@@ -2,24 +2,54 @@
   {
     "name": "amandel",
     "pluralName": "amandelen",
-    "description": "Amandelnoot; gebroken of gemalen gebruikt in bakken en desserts.",
+    "description": "Ovale noot met milde smaak; in gebak, desserts en als snack.",
     "aliases": [],
+    "label": "Noten & Zaden"
+  },
+  {
+    "name": "amandelmeel",
+    "pluralName": "amandelmeel",
+    "description": "Fijngemalen amandelen; glutenvrij alternatief voor bloem in gebak.",
+    "aliases": [
+      {
+        "name": "gemalen amandelen"
+      },
+      {
+        "name": "amandelpoeder"
+      }
+    ],
     "label": "Noten & Zaden"
   },
   {
     "name": "amandelschaafsel",
     "pluralName": "amandelschaafsel",
-    "description": "Geschaafde amandelen; voor garnering.",
-    "aliases": [],
+    "description": "Dun geschaafde amandelen; voor garnering van gebak en desserts.",
+    "aliases": [
+      {
+        "name": "geschaafde amandelen"
+      }
+    ],
     "label": "Noten & Zaden"
   },
   {
     "name": "cashewnoot",
     "pluralName": "cashewnoten",
-    "description": "Noot; zacht romig, in wok en als snack.",
+    "description": "Niervormige noot met zachte, romige smaak; in roerbak en als snack.",
     "aliases": [
       {
         "name": "cashew"
+      },
+      {
+        "name": "cashews"
+      },
+      {
+        "name": "ongezouten cashewnoten"
+      },
+      {
+        "name": "ongebrande cashewnoten"
+      },
+      {
+        "name": "rauwe cashewnoten"
       }
     ],
     "label": "Noten & Zaden"
@@ -27,81 +57,114 @@
   {
     "name": "chiazaad",
     "pluralName": "chiazaad",
-    "description": "Zaad; absorbeert vocht, in pudding en smoothies.",
+    "description": "Klein zwart zaad dat vocht absorbeert; in pudding, smoothies en ontbijt.",
     "aliases": [
       {
         "name": "chia"
+      },
+      {
+        "name": "chiazaden"
       }
     ],
     "label": "Noten & Zaden"
   },
   {
-    "name": "gemalen kokos",
-    "pluralName": "gemalen kokos",
-    "description": "Geraspte kokos; voor Aziatische gerechten.",
-    "aliases": [],
-    "label": "Noten & Zaden"
-  },
-  {
     "name": "geroosterde amandel",
     "pluralName": "geroosterde amandelen",
-    "description": "Geroosterde amandelen; als snack.",
+    "description": "Geroosterde amandelen; als snack of garnering.",
     "aliases": [],
     "label": "Noten & Zaden"
   },
   {
     "name": "hazelnoot",
     "pluralName": "hazelnoten",
-    "description": "Noot; aromatisch en zoet, geroosterd gebruikt in gebak en praliné.",
+    "description": "Ronde noot met zoete, aromatische smaak; in praline, gebak en chocolade.",
     "aliases": [],
     "label": "Noten & Zaden"
   },
   {
     "name": "hennepzaad",
     "pluralName": "hennepzaad",
-    "description": "Eetbare hennepzaden; nootachtige smaak, gebruikt in muesli en smoothies.",
-    "aliases": [],
+    "description": "Eetbaar zaad met nootachtige smaak; in muesli, smoothies en salades.",
+    "aliases": [
+      {
+        "name": "hennepzaden"
+      }
+    ],
     "label": "Noten & Zaden"
   },
   {
     "name": "kastanje",
     "pluralName": "kastanjes",
-    "description": "Eetbare tamme kastanje; nootachtig, gepoft of gepureerd gebruikt in gerechten.",
-    "aliases": [],
+    "description": "Eetbare tamme kastanje; gepoft, gekookt of gepureerd in hartige en zoete gerechten.",
+    "aliases": [
+      {
+        "name": "tamme kastanje"
+      }
+    ],
     "label": "Noten & Zaden"
   },
   {
     "name": "kokosrasp",
     "pluralName": "kokosrasp",
-    "description": "Gedroogde geraspte kokos; garnering en ingrediënt in koekjes en desserts.",
+    "description": "Gedroogde geraspte kokos; in gebak, desserts en Aziatische curries.",
+    "aliases": [
+      {
+        "name": "geraspte kokos"
+      },
+      {
+        "name": "kokosnootrasp"
+      }
+    ],
+    "label": "Noten & Zaden"
+  },
+  {
+    "name": "kokosvlok",
+    "pluralName": "kokosvlokken",
+    "description": "Grove gedroogde kokossnippers; voor garnering en in muesli.",
     "aliases": [],
     "label": "Noten & Zaden"
   },
   {
     "name": "lijnzaad",
     "pluralName": "lijnzaad",
-    "description": "Zaad; rijk aan omega-3, in brood en smoothies.",
-    "aliases": [],
+    "description": "Glanzend bruin zaad rijk aan omega-3; in brood, smoothies en ontbijt.",
+    "aliases": [
+      {
+        "name": "lijnzaden"
+      },
+      {
+        "name": "vlaszaad"
+      }
+    ],
     "label": "Noten & Zaden"
   },
   {
-    "name": "macadamia",
-    "pluralName": "macadamia",
-    "description": "Macadamianoot; ronde vette noot, knapperig, gebruikt in koekjes en salades.",
-    "aliases": [],
+    "name": "macadamianoot",
+    "pluralName": "macadamianoten",
+    "description": "Ronde, romige noot met milde smaak; in koekjes, salades en als snack.",
+    "aliases": [
+      {
+        "name": "macadamia"
+      }
+    ],
     "label": "Noten & Zaden"
   },
   {
     "name": "notenmix",
     "pluralName": "notenmix",
-    "description": "Mengsel van verschillende noten (gezouten/ongezouten); snack of saladetopping.",
-    "aliases": [],
+    "description": "Mengsel van diverse noten; als snack of over salades.",
+    "aliases": [
+      {
+        "name": "gemengde noten"
+      }
+    ],
     "label": "Noten & Zaden"
   },
   {
     "name": "papaverzaad",
     "pluralName": "papaverzaad",
-    "description": "Maanzaad (papaverzaad); klein blauw zaad, strooivulling op brood en in gebak.",
+    "description": "Klein blauwgrijs zaad met nootachtige smaak; op brood en in gebak.",
     "aliases": [
       {
         "name": "maanzaad"
@@ -112,21 +175,25 @@
   {
     "name": "paranoot",
     "pluralName": "paranoten",
-    "description": "Paranoot; grote vette noot uit Brazilië, mild zoet, in notenmix of gebak.",
+    "description": "Grote, vette noot uit Brazilië; mild zoet, in notenmix of gebak.",
     "aliases": [],
     "label": "Noten & Zaden"
   },
   {
     "name": "pecannoot",
     "pluralName": "pecannoten",
-    "description": "Pecannoot; zoete boterige noot, vaak gebruikt in pecantaart of door muesli.",
-    "aliases": [],
+    "description": "Zoete, boterachtige noot; in pecantaart, brownies en muesli.",
+    "aliases": [
+      {
+        "name": "pecan"
+      }
+    ],
     "label": "Noten & Zaden"
   },
   {
-    "name": "pijnboompitten",
+    "name": "pijnboompit",
     "pluralName": "pijnboompitten",
-    "description": "Ingrediënt; gebruikt in koken en/of bakken.",
+    "description": "Langwerpig zaad van de pijnboom; in pesto, salades en Mediterrane gerechten.",
     "aliases": [
       {
         "name": "pijnboompitjes"
@@ -137,10 +204,13 @@
   {
     "name": "pinda",
     "pluralName": "pinda's",
-    "description": "Peulvrucht (pinda); vaak geroosterd en gezouten als nootje of gemalen in pindakaas.",
+    "description": "Peulvrucht die als noot wordt gegeten; geroosterd als snack of gemalen in sauzen.",
     "aliases": [
       {
         "name": "aardnoot"
+      },
+      {
+        "name": "aardnoten"
       }
     ],
     "label": "Noten & Zaden"
@@ -148,10 +218,13 @@
   {
     "name": "pistachenoot",
     "pluralName": "pistachenoten",
-    "description": "Groene noot; als snack of in desserts.",
+    "description": "Groene noot met karakteristieke smaak; als snack of in desserts en ijs.",
     "aliases": [
       {
         "name": "pistache"
+      },
+      {
+        "name": "pistaches"
       }
     ],
     "label": "Noten & Zaden"
@@ -159,17 +232,27 @@
   {
     "name": "pompoenpit",
     "pluralName": "pompoenpitten",
-    "description": "Zaad van pompoen; geroosterd als snack of garnering op brood en salade.",
-    "aliases": [],
+    "description": "Groen zaad van pompoen; geroosterd als snack of garnering op brood en salade.",
+    "aliases": [
+      {
+        "name": "pompoenzaad"
+      }
+    ],
     "label": "Noten & Zaden"
   },
   {
     "name": "sesamzaad",
     "pluralName": "sesamzaad",
-    "description": "Zaad; nootachtig, op brood en in Aziatische keuken.",
+    "description": "Klein wit zaad met nootachtige smaak; op brood en in Aziatische gerechten.",
     "aliases": [
       {
         "name": "sesam"
+      },
+      {
+        "name": "sesamzaden"
+      },
+      {
+        "name": "sesamzaadjes"
       }
     ],
     "label": "Noten & Zaden"
@@ -177,22 +260,45 @@
   {
     "name": "walnoot",
     "pluralName": "walnoten",
-    "description": "Noot; nootachtig bitter, in salades en gebak.",
-    "aliases": [],
+    "description": "Hersenvormige noot met licht bittere smaak; in salades, gebak en kaasplanken.",
+    "aliases": [
+      {
+        "name": "okkernoot"
+      }
+    ],
+    "label": "Noten & Zaden"
+  },
+  {
+    "name": "wit papaverzaad",
+    "pluralName": "wit papaverzaad",
+    "description": "Witte variant van maanzaad; milder van smaak, in Indiase keuken.",
+    "aliases": [
+      {
+        "name": "wit maanzaad"
+      }
+    ],
     "label": "Noten & Zaden"
   },
   {
     "name": "zonnebloempit",
     "pluralName": "zonnebloempitten",
-    "description": "Zaad; nootachtig, als snack of in salades.",
-    "aliases": [],
+    "description": "Zaad van de zonnebloem; als snack, in brood en over salades.",
+    "aliases": [
+      {
+        "name": "zonnebloemzaad"
+      }
+    ],
     "label": "Noten & Zaden"
   },
   {
-    "name": "zwarte sesam",
-    "pluralName": "zwarte sesam",
-    "description": "Sesamzaad variant (zwart); intensere nootachtige smaak, gebruikt in sushi of desserts.",
-    "aliases": [],
+    "name": "zwart sesamzaad",
+    "pluralName": "zwart sesamzaad",
+    "description": "Zwarte sesamvariant met intensere, nootachtige smaak; in sushi en Aziatische desserts.",
+    "aliases": [
+      {
+        "name": "zwarte sesam"
+      }
+    ],
     "label": "Noten & Zaden"
   }
 ]

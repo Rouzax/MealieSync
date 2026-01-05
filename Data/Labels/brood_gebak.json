@@ -1,23 +1,5 @@
 [
   {
-    "name": "bakmeel",
-    "pluralName": "bakmeel",
-    "description": "Bloem met rijsmiddel (zelfrijzend bakmeel); gebruikt in cakes en beslag.",
-    "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "bakpoeder",
-    "pluralName": "bakpoeder",
-    "description": "Rijsmiddel (baking powder); mengsel van soda en zuur, laat deeg rijzen.",
-    "aliases": [
-      {
-        "name": "backin"
-      }
-    ],
-    "label": "Brood & Gebak"
-  },
-  {
     "name": "beschuit",
     "pluralName": "beschuiten",
     "description": "Dubbelgebakken broodproduct; licht en bros, vaak belegd.",
@@ -27,40 +9,15 @@
   {
     "name": "bladerdeeg",
     "pluralName": "bladerdeeg",
-    "description": "Gelaagd deeg; voor hartige en zoete gebakjes.",
-    "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "bloem",
-    "pluralName": "bloem",
-    "description": "Tarwebloem; fijngemalen graanpoeder, basis voor brood, gebak en sauzen.",
-    "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "bloemmengsel",
-    "pluralName": "bloemmengsels",
-    "description": "Mix van bloemsoorten (bijv. tarwe+rogge); gebruikt voor speciaal brood of gebak.",
+    "description": "Gelaagd boterdeeg; voor hartige en zoete gebakjes.",
     "aliases": [],
     "label": "Brood & Gebak"
   },
   {
     "name": "brood",
-    "pluralName": "brood",
-    "description": "Gebakken deegwaar van meel, water en gist; basisvoedsel in vele culturen.",
+    "pluralName": "broden",
+    "description": "Gebakken deegwaar van meel, water en gist; basisvoedsel.",
     "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "broodkruim",
-    "pluralName": "broodkruim",
-    "description": "Fijn verkruimeld droog brood (paneermeel); gebruikt voor paneren.",
-    "aliases": [
-      {
-        "name": "paneermeel"
-      }
-    ],
     "label": "Brood & Gebak"
   },
   {
@@ -73,7 +30,7 @@
   {
     "name": "croissant",
     "pluralName": "croissants",
-    "description": "Frans bladerdeeggebak; boterzacht.",
+    "description": "Frans bladerdeeggebak; boterig en gelaagd.",
     "aliases": [],
     "label": "Brood & Gebak"
   },
@@ -87,28 +44,20 @@
   {
     "name": "eierkoek",
     "pluralName": "eierkoeken",
-    "description": "Luchtig plat cakeje met eieren; zacht en licht, vaak als tussendoortje.",
+    "description": "Luchtig plat cakeje met eieren; zacht, vaak als tussendoortje.",
     "aliases": [],
     "label": "Brood & Gebak"
   },
   {
     "name": "filodeeg",
     "pluralName": "filodeeg",
-    "description": "Zeer dun deegvel; gebruikt in Balkangebak (baklava) of hartige pasteitjes.",
+    "description": "Zeer dun deegvel; voor baklava en hartige pasteitjes.",
     "aliases": [
       {
         "name": "filobladerdeeg"
-      }
-    ],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "gist",
-    "pluralName": "gist",
-    "description": "Levende rijsmiddel (bakkersgist); laat deeg rijzen door CO₂-productie.",
-    "aliases": [
+      },
       {
-        "name": "bakkersgist"
+        "name": "filo"
       }
     ],
     "label": "Brood & Gebak"
@@ -116,43 +65,22 @@
   {
     "name": "hamburgerbroodje",
     "pluralName": "hamburgerbroodjes",
-    "description": "Ronde zachte broodjes; voor burgers.",
-    "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "invertsuiker",
-    "pluralName": "invertsuiker",
-    "description": "Omgekeerde suiker (glucose-fructosestroop); vochtig zoetmiddel voor gebak en sorbets.",
-    "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "johannesbroodpitmeel",
-    "pluralName": "johannesbroodpitmeel",
-    "description": "Verdikkingsmiddel (E410) uit johannesbroodpit; gebruikt in babyvoeding, pudding.",
-    "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "kastanjemeel",
-    "pluralName": "kastanjemeel",
-    "description": "Meel van gedroogde kastanjes; glutenvrij, zoetig meel voor pannenkoeken of brood.",
+    "description": "Rond zacht broodje; voor burgers.",
     "aliases": [],
     "label": "Brood & Gebak"
   },
   {
     "name": "knäckebröd",
     "pluralName": "knäckebröd",
-    "description": "Zweeds knäckebröd; knapperig roggebrood.",
-    "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "kruimelsuiker",
-    "pluralName": "kruimelsuiker",
-    "description": "Grove kristalsuiker (parelsuiker); gebruikt in suikerbrood of op Deense broodjes.",
-    "aliases": [],
+    "description": "Zweeds knapperbrood; krokant roggebrood.",
+    "aliases": [
+      {
+        "name": "knackebrod"
+      },
+      {
+        "name": "crackers"
+      }
+    ],
     "label": "Brood & Gebak"
   },
   {
@@ -163,19 +91,29 @@
     "label": "Brood & Gebak"
   },
   {
-    "name": "loempia vel",
-    "pluralName": "loempia vellen",
-    "description": "Dunne deegvellen voor loempia’s; gevuld met groente/vlees en gefrituurd.",
-    "aliases": [],
+    "name": "loempiavel",
+    "pluralName": "loempiavellen",
+    "description": "Dunne deegvellen voor loempia's; gevuld en gefrituurd.",
+    "aliases": [
+      {
+        "name": "loempia vel"
+      },
+      {
+        "name": "loempia vellen"
+      }
+    ],
     "label": "Brood & Gebak"
   },
   {
     "name": "matze",
     "pluralName": "matzes",
-    "description": "Ongerezen platbrood (matse); Joods paasbrood, dun en knapperig.",
+    "description": "Ongerezen Joods platbrood; dun en knapperig.",
     "aliases": [
       {
         "name": "matzo"
+      },
+      {
+        "name": "matzot"
       }
     ],
     "label": "Brood & Gebak"
@@ -194,46 +132,38 @@
   {
     "name": "ontbijtkoek",
     "pluralName": "ontbijtkoeken",
-    "description": "Kruidkoek; zoet stevig cakebrood met o.a. roggebloem en specerijen, gesneden bij ontbijt.",
-    "aliases": [],
+    "description": "Nederlandse kruidkoek; zoet met roggebloem en specerijen.",
+    "aliases": [
+      {
+        "name": "peperkoek"
+      }
+    ],
     "label": "Brood & Gebak"
   },
   {
     "name": "pitabrood",
     "pluralName": "pitabroodjes",
-    "description": "Rond hol Midden-Oosters brood.",
+    "description": "Rond hol Midden-Oosters brood; opent als zakje.",
     "aliases": [
       {
         "name": "pita"
+      },
+      {
+        "name": "pita's"
       }
     ],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "red velvet mix",
-    "pluralName": "red velvet mix",
-    "description": "Bakmix voor red velvet cake; chocoladecake met rode kleurstof.",
-    "aliases": [],
     "label": "Brood & Gebak"
   },
   {
     "name": "stokbrood",
     "pluralName": "stokbroden",
-    "description": "Frans brood; knapperige korst.",
+    "description": "Frans lang brood; knapperige korst.",
     "aliases": [
       {
         "name": "baguette"
-      }
-    ],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "tarwebloem",
-    "pluralName": "tarwebloem",
-    "description": "Standaard bloem; voor bakken en binden.",
-    "aliases": [
+      },
       {
-        "name": "patentbloem"
+        "name": "baguettes"
       }
     ],
     "label": "Brood & Gebak"
@@ -244,7 +174,16 @@
     "description": "Mexicaans platbrood; van tarwe of maïs.",
     "aliases": [
       {
+        "name": "wrap"
+      },
+      {
         "name": "wraps"
+      },
+      {
+        "name": "mini tortilla"
+      },
+      {
+        "name": "maïstortillawraps"
       }
     ],
     "label": "Brood & Gebak"
@@ -252,36 +191,12 @@
   {
     "name": "turks brood",
     "pluralName": "turks brood",
-    "description": "Plat brood; zacht, voor wraps en kebab.",
-    "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "vanillesuiker",
-    "pluralName": "vanillesuiker",
-    "description": "Suiker gearomatiseerd met vanille; zoetmiddel voor desserts en gebak.",
-    "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "volkoren broodmix",
-    "pluralName": "volkoren broodmix",
-    "description": "Bloemmix voor volkorenbrood; bevat volkorenmeel, gist, zout, evt. mout, toe te voegen water.",
-    "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "volkorenmeel",
-    "pluralName": "volkorenmeel",
-    "description": "Gemalen volkoren graan (incl. zemel en kiem); gebruikt voor bruin brood en deegwaren.",
-    "aliases": [],
-    "label": "Brood & Gebak"
-  },
-  {
-    "name": "zelfrijzend bakmeel",
-    "pluralName": "zelfrijzend bakmeel",
-    "description": "Bloem met rijsmiddel; voor cakes.",
-    "aliases": [],
+    "description": "Groot plat brood; zacht, voor kebab en wraps.",
+    "aliases": [
+      {
+        "name": "pide"
+      }
+    ],
     "label": "Brood & Gebak"
   }
 ]

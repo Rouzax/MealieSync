@@ -1,194 +1,231 @@
 [
   {
-    "name": "anijsdrank",
-    "pluralName": "anijsdrank",
-    "description": "Alcoholische drank op basis van anijs (bijv. pastis, ouzo); aperitief.",
+    "name": "absint",
+    "pluralName": "absint",
+    "description": "Groene anijslikeur met alsem; sterke drank uit Zwitserland/Frankrijk.",
+    "aliases": [
+      {
+        "name": "absinthe"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
+  },
+  {
+    "name": "amaretto",
+    "pluralName": "amaretto",
+    "description": "Italiaanse amandellikeur; zoet, voor cocktails en desserts.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "anisette",
     "pluralName": "anisette",
-    "description": "Likeur met anijssmaak; zoete drank, gebruikt als digestief of in cocktails.",
+    "description": "Zoete anijslikeur; digestief of in cocktails.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "arak",
     "pluralName": "arak",
-    "description": "Sterke alcoholische drank (anijslikeur uit Midden-Oosten of Indonesië).",
+    "description": "Anijsdrank uit het Midden-Oosten; sterke drank met drogende smaak.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "blauwe curaçao",
     "pluralName": "blauwe curaçao",
-    "description": "Felblauwe likeur met sinaasappelsmaak; gebruikt in cocktails.",
+    "description": "Felblauwe sinaasappellikeur; voor cocktails.",
     "aliases": [
       {
-        "name": "blue curaçao"
+        "name": "blue curacao"
       }
     ],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "brandewijn",
     "pluralName": "brandewijn",
-    "description": "Gedistilleerde wijn (cognac/brandewijn); gebruikt in cocktails en nagerechten.",
+    "description": "Gedistilleerde wijn; voor cocktails en desserts.",
     "aliases": [
       {
         "name": "brandy"
       }
     ],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "bruine rum",
     "pluralName": "bruine rum",
-    "description": "Donkere rum (gerijpt op vat); sterkedrank gebruikt in cocktails en desserts.",
+    "description": "Donkere gerijpte rum; voor cocktails en desserts.",
+    "aliases": [
+      {
+        "name": "dark rum"
+      },
+      {
+        "name": "donkere rum"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
+  },
+  {
+    "name": "calvados",
+    "pluralName": "calvados",
+    "description": "Franse appelbrandewijn uit Normandië; voor sauzen en desserts.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "cognac",
     "pluralName": "cognac",
-    "description": "Franse wijnbrandewijn (cognac); gebruikt in sauzen, desserts of als digestief.",
+    "description": "Franse druivenbrandewijn; voor sauzen, desserts of als digestief.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
-  },
-  {
-    "name": "cointreau",
-    "pluralName": "cointreau",
-    "description": "Franse sinaasappellikeur (triple sec); gebruikt in cocktails en desserts.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
-  },
-  {
-    "name": "coñac",
-    "pluralName": "coñac",
-    "description": "Spaanse term voor cognac; gebruikt in cocktails of als digestief.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "crème de cassis",
     "pluralName": "crème de cassis",
-    "description": "Zwartebessenlikeur; zoete paarse likeur gebruikt in cocktails (bijv. kir).",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "description": "Zwartebessenlikeur; voor cocktails zoals kir.",
+    "aliases": [
+      {
+        "name": "cassis"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
+  },
+  {
+    "name": "crème de menthe",
+    "pluralName": "crème de menthe",
+    "description": "Pepermuntlikeur; groen of wit, voor cocktails en desserts.",
+    "aliases": [
+      {
+        "name": "pepermuntlikeur"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "falernum",
     "pluralName": "falernum",
-    "description": "Zoete likeur/siroop uit Caraïben (limoen, amandel, kruidnagel); gebruikt in tiki-cocktails.",
+    "description": "Caribische likeur met limoen, amandel en kruidnagel; voor tiki-cocktails.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
-    "name": "graanjenever",
-    "pluralName": "graanjenever",
-    "description": "Jenever gestookt uit graan; sterke drank, puur gedronken of in cocktails.",
+    "name": "gin",
+    "pluralName": "gin",
+    "description": "Gedistilleerde graandrank met jeneverbes; voor cocktails.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
-    "name": "ierse whisky",
-    "pluralName": "ierse whisky",
-    "description": "Ierse whiskey; zacht en fruitig.",
-    "aliases": [
-      {
-        "name": "irish whiskey"
-      }
-    ],
-    "label": "Sterke Drank & Likeuren"
-  },
-  {
-    "name": "jagermeester",
-    "pluralName": "jagermeester",
-    "description": "Kruidenlikeur (Jägermeister); bitterzoet digestief, ook in cocktails.",
-    "aliases": [
-      {
-        "name": "Jägermeister"
-      }
-    ],
-    "label": "Sterke Drank & Likeuren"
+    "name": "grappa",
+    "pluralName": "grappa",
+    "description": "Italiaanse druivendraf-brandewijn; digestief.",
+    "aliases": [],
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "jenever",
     "pluralName": "jenever",
-    "description": "Nederlands jeneverdestillaat; sterke drank op smaak van jeneverbes, puur of in cocktails.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
-  },
-  {
-    "name": "joransborgert",
-    "pluralName": "joransborgert",
-    "description": "Scandinavische likeur (bitterkruid), vergelijkbaar met Beerenburg; digestief.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "description": "Nederlands graandistillaat met jeneverbes; puur of in cocktails.",
+    "aliases": [
+      {
+        "name": "graanjenever"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "kirsch",
     "pluralName": "kirsch",
-    "description": "Kersenlikeur; gebruikt in desserts (fondue, taart) en cocktails.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "description": "Kersenbrandewijn; voor fondue, taart en cocktails.",
+    "aliases": [
+      {
+        "name": "kirschwasser"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
   },
   {
-    "name": "kirschwasser",
-    "pluralName": "kirschwasser",
-    "description": "Duitse kersenbrandewijn (kirsch); helder distillaat, gebruikt in fondue en taart.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "name": "kruidenbitter",
+    "pluralName": "kruidenbitter",
+    "description": "Bitterzoete kruidenlikeur; digestief.",
+    "aliases": [
+      {
+        "name": "Jägermeister"
+      },
+      {
+        "name": "jagermeister"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "limoncello",
     "pluralName": "limoncello",
-    "description": "Italiaanse citroenlikeur; felgeel, zoet en sterk, geserveerd ijskoud als digestief.",
+    "description": "Italiaanse citroenlikeur; ijskoud als digestief.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "maraschino",
     "pluralName": "maraschino",
-    "description": "Likeur van Maraska-kersen (Italië/Kroatië); zoet, gebruikt in cocktails en gebak.",
+    "description": "Italiaanse kersenlikeur; voor cocktails en gebak.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
-    "name": "minderi",
-    "pluralName": "minderi",
-    "description": "Zoetstof (Japanse origine); calorie-arm zoetmiddel op basis van aminozuren.",
+    "name": "ouzo",
+    "pluralName": "ouzo",
+    "description": "Griekse anijsdrank; aperitief, wordt troebel met water.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
-    "name": "passoa",
-    "pluralName": "passoa",
-    "description": "Passievrucht-likeur (Passoã); fel oranje-roze zoete likeur, gebruikt in cocktails.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "name": "passievruchtlikeur",
+    "pluralName": "passievruchtlikeur",
+    "description": "Zoete likeur van passievrucht; voor cocktails.",
+    "aliases": [
+      {
+        "name": "Passoa"
+      },
+      {
+        "name": "passoa"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "pastis",
     "pluralName": "pastis",
-    "description": "Franse anijsdrank (pastis); troebele aperitief als aangelengde longdrink.",
+    "description": "Franse anijsdrank; aperitief, aangelengd met water.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
-    "name": "pepermuntlikeur",
-    "pluralName": "pepermuntlikeur",
-    "description": "Likeur met pepermuntolie (Crème de menthe); groene zoete drank, gebruikt in cocktails.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "name": "roomlikeur",
+    "pluralName": "roomlikeur",
+    "description": "Romige whiskylikeur; voor cocktails en desserts.",
+    "aliases": [
+      {
+        "name": "Baileys"
+      },
+      {
+        "name": "baileys"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "rum",
     "pluralName": "rum",
-    "description": "Gedistilleerde drank van suikerriet; wit (licht) of donker, gebruikt in cocktails en gebak.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "description": "Gedistilleerd van suikerriet; voor cocktails en gebak.",
+    "aliases": [
+      {
+        "name": "witte rum"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "sake",
@@ -196,76 +233,73 @@
     "description": "Japanse rijstwijn; voor koken en drinken.",
     "aliases": [
       {
-        "name": "sakè"
+        "name": "saké"
       }
     ],
-    "label": "Sterke Drank & Likeuren"
-  },
-  {
-    "name": "schrobbeler",
-    "pluralName": "schrobbeler",
-    "description": "Kruidige likeur (Schrobbelèr); zachte Brabantse kruidenbitter, warm of koud gedronken.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "tequila",
     "pluralName": "tequila",
-    "description": "Mexicaanse distillaat uit agave; gedronken puur (met zout/citroen) of in cocktails (Margarita).",
+    "description": "Mexicaans agavedistillaat; voor cocktails of puur met zout en limoen.",
     "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "triple sec",
     "pluralName": "triple sec",
-    "description": "Sinaasappellikeur (triple sec, bijv. Cointreau); zoet en sterk, gebruikt in cocktails.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
-  },
-  {
-    "name": "uitmeester",
-    "pluralName": "uitmeester",
-    "description": "Kruidenlikeur (Uitvlugt of Beerenburg-type); bitterdrank, genuttigd als digestief.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "description": "Sinaasappellikeur; voor cocktails.",
+    "aliases": [
+      {
+        "name": "Cointreau"
+      },
+      {
+        "name": "cointreau"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "vermouth",
     "pluralName": "vermouth",
-    "description": "Aromatische versterkte wijn met kruiden (vermouth); gebruikt als aperitief of in cocktails (Martini).",
+    "description": "Versterkte kruidenwijn; voor cocktails zoals Martini.",
     "aliases": [
       {
         "name": "vermout"
       }
     ],
-    "label": "Sterke Drank & Likeuren"
+    "label": "Sterke drank & Likeuren"
+  },
+  {
+    "name": "vodka",
+    "pluralName": "vodka",
+    "description": "Neutraal graandistillaat; voor cocktails.",
+    "aliases": [],
+    "label": "Sterke drank & Likeuren"
   },
   {
     "name": "whisky",
     "pluralName": "whisky",
-    "description": "Gedistilleerde graandrank (whisky/whiskey); gerijpt op eiken, puur of in cocktails gebruikt.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "description": "Gedistilleerde graandrank, gerijpt op eiken; puur of in cocktails.",
+    "aliases": [
+      {
+        "name": "whiskey"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
   },
   {
-    "name": "whisky likeur",
-    "pluralName": "whisky likeur",
-    "description": "Whiskylikeur (bv. Drambuie, Glayva); zoete kruidenlikeur op basis van whisky.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
-  },
-  {
-    "name": "woudschat",
-    "pluralName": "woudschat",
-    "description": "Kruidenlikeur (Beerenburg type); bitterzoet, vaak huisgemaakt met kruiden op jenever.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
-  },
-  {
-    "name": "zorgvliet likeur",
-    "pluralName": "zorgvliet likeur",
-    "description": "Antwerpse kruidenlikeur (Zorgvliet); karamel-vanillelikeur, geserveerd als digestief.",
-    "aliases": [],
-    "label": "Sterke Drank & Likeuren"
+    "name": "whiskylikeur",
+    "pluralName": "whiskylikeur",
+    "description": "Zoete kruidenlikeur op basis van whisky; digestief.",
+    "aliases": [
+      {
+        "name": "whisky likeur"
+      },
+      {
+        "name": "Drambuie"
+      }
+    ],
+    "label": "Sterke drank & Likeuren"
   }
 ]

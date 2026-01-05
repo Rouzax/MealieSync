@@ -6,11 +6,12 @@ PowerShell module and scripts for managing data in [Mealie](https://mealie.io) v
 
 - **Import & Export** — Sync data from JSON files to your Mealie instance
 - **Multiple data types** — Foods, Units, Labels, Categories, Tags, Tools
-- **Smart updates** — Create new items or update existing ones (with change detection)
+- **Smart matching** — Matches by id, name, pluralName, or alias (prevents duplicates)
+- **Change detection** — Only updates items that actually changed
 - **Label support** — Link foods to labels by name
 - **Progress tracking** — Visual progress bar during imports
 - **Rate limiting** — Configurable throttling to avoid API overload
-- **WhatIf support** — Preview changes before applying
+- **WhatIf support** — Detailed preview showing exactly what would change
 - **Dutch data included** — Extended Dutch ingredient, unit, and category lists
 
 ## Folder Structure
@@ -143,6 +144,33 @@ Data/Labels/
 .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json -UpdateExisting
 ```
 
+### Preview Changes with -WhatIf
+
+The `-WhatIf` flag shows detailed information about what would change:
+
+**Update preview:**
+```
+  [1/1] Would UPDATE (matched by pluralName→name): braam
+          name        : 'bramen' → 'braam'
+          pluralName  : '(empty)' → 'bramen'
+          description : '(empty)' → 'Zacht fruit; donkerpaarse bessen...'
+          label       : '(none)' → 'Fruit'
+```
+
+**Create preview:**
+```
+  [1/3] Would CREATE: sriracha
+          pluralName   : 'srirachas'
+          description  : 'Pittige Thaise chilisaus'
+          label        : 'Sauzen'
+          aliases      : 'sriracha saus, rooster sauce'
+```
+
+The preview shows:
+- Match method used (id, name, pluralName, alias, or combinations)
+- All field changes with old → new values
+- Stats are counted even in WhatIf mode
+
 ### Import from Folder
 
 Import all JSON files from a folder at once:
@@ -202,7 +230,52 @@ Import Summary:
   LabelWarnings: 2    ← Labels not found (foods imported without label)
 ```
 
+Update output shows which matching method was used:
+```
+  [1/50] Updated (matched by id): pomodoro
+  [2/50] Updated (matched by name): ui
+  [3/50] Updated (matched by pluralName→name): braam
+  [4/50] Updated (matched by alias): mozzarella
+  [5/50] Created: sriracha
+```
+
 Use `-UpdateExisting` when you want to enrich existing entries with aliases, plural names, or other data.
+
+### Alias Merge Behavior
+
+When using `-UpdateExisting`, aliases are **merged** (not replaced):
+
+```
+Existing in Mealie:  aliases = ["Braampjes"]
+Import file:         aliases = []
+Result:              aliases = ["Braampjes"]  ← kept!
+
+Existing in Mealie:  aliases = ["Braampjes"]
+Import file:         aliases = ["bramenbessen"]
+Result:              aliases = ["Braampjes", "bramenbessen"]  ← merged!
+```
+
+This prevents accidental data loss when importing files without aliases. Duplicates are automatically removed (case-insensitive).
+
+### Conflict Detection
+
+When multiple import items would match the same existing item, a conflict is detected and skipped:
+
+```
+  [40/101] Would UPDATE (matched by name): kaneel
+          ...
+  [41/101] CONFLICT: 'kaneelstokje' matches existing 'kaneel' (via name→alias), but it was already matched by 'kaneel'
+
+Import Summary:
+  ...
+  Conflicts:     1    ← Items skipped due to conflict
+```
+
+This works both within a single file and across multiple files in a folder import. When importing a folder, conflicts are tracked across all files.
+
+This happens when an alias in Mealie is also a separate item in your import file. Review your data and either:
+- Remove the alias from the existing item, or
+- Remove the duplicate from your import file
 
 ### Recommended Import Order
 
@@ -266,6 +339,7 @@ All data files are in the `Data/` folder:
 - French/Italian ingredients with Dutch names
 - Common aliases and spelling variations
 - Supports `label` field to link to existing labels
+- Exports include `id` field for safe re-import after edits
 
 ### Dutch_Units.json
 ~45 Dutch measurement units:
@@ -299,6 +373,7 @@ Kitchen tools and equipment:
 ### Food
 ```json
 {
+  "id": "b9dc4c47-c569-4630-846f-1f4b4fbda3c1",
   "name": "tomaat",
   "pluralName": "tomaten",
   "description": "",
@@ -310,7 +385,31 @@ Kitchen tools and equipment:
 }
 ```
 
-**Note:** The `label` field should contain the **name** of an existing label. If the label doesn't exist, a warning is shown and the food is imported without label. This prevents accidental creation of labels with typos.
+**Field notes:**
+- `id` — Optional. UUID from Mealie. Used for matching existing items during import.
+- `label` — Optional. Name of an existing label. If not found, a warning is shown.
+- `aliases` — Optional. Alternative names for the ingredient. When updating, aliases are **merged** (not replaced).
+
+**Import matching order:**
+1. **id** — If present, matches by UUID (safest for renames)
+2. **name/pluralName** — Cross-matches in all directions:
+   - import.name → existing.name
+   - import.name → existing.pluralName
+   - import.pluralName → existing.name
+   - import.pluralName → existing.pluralName
+   - import.pluralName → existing.alias
+3. **alias** — Cross-matches in all directions:
+   - import.name → existing.alias
+   - import.alias → existing.name
+   - import.alias → existing.pluralName
+   - import.alias → existing.alias
+
+This prevents duplicates when renaming ingredients. Example:
+```
+Existing: name="bramen", pluralName=null
+Import:   name="braam", pluralName="bramen"
+Result:   ✓ Match via pluralName→name (import.pluralName matches existing.name)
+```
 ```
 
 ### Unit

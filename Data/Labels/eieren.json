@@ -2,10 +2,16 @@
   {
     "name": "ei",
     "pluralName": "eieren",
-    "description": "Ei; bindmiddel en eiwitbron voor bakken en koken.",
+    "description": "Kippenei; bindmiddel en eiwitbron voor bakken en koken.",
     "aliases": [
       {
         "name": "eitje"
+      },
+      {
+        "name": "eitjes"
+      },
+      {
+        "name": "kippenei"
       }
     ],
     "label": "Eieren"
@@ -13,10 +19,16 @@
   {
     "name": "eidooier",
     "pluralName": "eidooiers",
-    "description": "Dooier van ei; geel deel, bindmiddel en emulgator.",
+    "description": "Geel deel van ei; bindmiddel en emulgator voor sauzen en gebak.",
     "aliases": [
       {
         "name": "eigeel"
+      },
+      {
+        "name": "dooier"
+      },
+      {
+        "name": "dooiers"
       }
     ],
     "label": "Eieren"
@@ -24,7 +36,18 @@
   {
     "name": "eiwit",
     "pluralName": "eiwitten",
-    "description": "Wit van ei; opgeklopt voor schuim of meringue.",
+    "description": "Wit deel van ei; opgeklopt voor schuim of meringue.",
+    "aliases": [
+      {
+        "name": "eiklaar"
+      }
+    ],
+    "label": "Eieren"
+  },
+  {
+    "name": "kwartelei",
+    "pluralName": "kwarteleieren",
+    "description": "Klein gespikkeld ei van kwartel; decoratief, zacht van smaak.",
     "aliases": [],
     "label": "Eieren"
   }

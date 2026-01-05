@@ -1,15 +1,19 @@
 [
   {
-    "name": "aspic",
-    "pluralName": "aspic",
-    "description": "Hartige gelei (van bouillon met gelatine); gebruikt om voedsel in te kapselen.",
-    "aliases": [],
+    "name": "aroma",
+    "pluralName": "aroma",
+    "description": "Vloeibare hartige smaakmaker; kruidig umami-aroma voor soepen en sauzen.",
+    "aliases": [
+      {
+        "name": "vloeibare smaakmaker"
+      }
+    ],
     "label": "Bouillon & Smaakmakers"
   },
   {
     "name": "bouillon",
     "pluralName": "bouillon",
-    "description": "Getrokken soepbasis van vlees, vis of groenten; gebruikt als basis voor soepen en sauzen.",
+    "description": "Getrokken soepbasis; voor soepen en sauzen.",
     "aliases": [
       {
         "name": "stock"
@@ -18,52 +22,194 @@
     "label": "Bouillon & Smaakmakers"
   },
   {
+    "name": "bouillonblokje",
+    "pluralName": "bouillonblokjes",
+    "description": "Geconcentreerde bouillon in blokvorm; oplossen in water.",
+    "aliases": [
+      {
+        "name": "bouillon blokje"
+      },
+      {
+        "name": "bouillontablet"
+      }
+    ],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "bouillonpoeder",
+    "pluralName": "bouillonpoeder",
+    "description": "Gedroogde bouillon in poedervorm; oplossen in water.",
+    "aliases": [
+      {
+        "name": "bouillon poeder"
+      }
+    ],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
     "name": "consommé",
     "pluralName": "consommé",
-    "description": "Heldere bouillon (geclarificeerd); krachtig voorgerecht of basis voor gelei.",
+    "description": "Heldere geclarificeerde bouillon; krachtig en helder.",
+    "aliases": [
+      {
+        "name": "consomme"
+      }
+    ],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "dashi",
+    "pluralName": "dashi",
+    "description": "Japanse bouillon van kombu en bonito; basis voor misosoep en noedelgerechten.",
     "aliases": [],
     "label": "Bouillon & Smaakmakers"
   },
   {
     "name": "fond",
     "pluralName": "fond",
-    "description": "Ingekookte bouillon (basis voor sauzen); geconcentreerde smaakmaker.",
+    "description": "Ingekookte bouillon; geconcentreerde basis voor sauzen.",
+    "aliases": [
+      {
+        "name": "jus"
+      }
+    ],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "groentebouillon",
+    "pluralName": "groentebouillon",
+    "description": "Bouillon van groenten; vegetarische basis voor soepen en sauzen.",
     "aliases": [],
     "label": "Bouillon & Smaakmakers"
   },
   {
-    "name": "maggi",
-    "pluralName": "Maggi",
-    "description": "Maggi aroma; hartige vloeibare smaakmaker voor soepen en sauzen.",
+    "name": "groentebouillonblokje",
+    "pluralName": "groentebouillonblokjes",
+    "description": "Geconcentreerde groentebouillon in blokvorm.",
+    "aliases": [
+      {
+        "name": "groentebouillon blokje"
+      }
+    ],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "kalfsfond",
+    "pluralName": "kalfsfond",
+    "description": "Fond van kalfsbotten; rijke basis voor klassieke sauzen.",
+    "aliases": [
+      {
+        "name": "kalfsbouillon"
+      }
+    ],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "kippenbouillon",
+    "pluralName": "kippenbouillon",
+    "description": "Bouillon van kip; veelzijdige basis voor soepen en risotto.",
     "aliases": [],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "kippenbouillonblokje",
+    "pluralName": "kippenbouillonblokjes",
+    "description": "Geconcentreerde kippenbouillon in blokvorm.",
+    "aliases": [
+      {
+        "name": "kippenbouillon blokje"
+      }
+    ],
     "label": "Bouillon & Smaakmakers"
   },
   {
     "name": "mirin",
     "pluralName": "mirin",
-    "description": "Japanse rijstwijn; zoet, voor marinades en sauzen.",
+    "description": "Japanse zoete rijstwijn; voor teriyaki, marinades en sauzen.",
     "aliases": [],
     "label": "Bouillon & Smaakmakers"
   },
   {
-    "name": "oxo",
-    "pluralName": "oxo",
-    "description": "Bovril/OXO-blokje (runderbouillonconcentraat); opgelost als drank of in jus voor hartigheid.",
-    "aliases": [],
+    "name": "miso",
+    "pluralName": "miso",
+    "description": "Japanse gefermenteerde sojapasta; umami-rijk voor soep en marinades.",
+    "aliases": [
+      {
+        "name": "misopasta"
+      }
+    ],
     "label": "Bouillon & Smaakmakers"
   },
   {
-    "name": "smaakversterker",
-    "pluralName": "smaakversterker",
-    "description": "Additief (zoals MSG/E621); verhoogt umami-smaak, veel gebruikt in Aziatische keuken.",
-    "aliases": [],
+    "name": "MSG",
+    "pluralName": "MSG",
+    "description": "Mononatriumglutamaat; smaakversterker voor umami.",
+    "aliases": [
+      {
+        "name": "ve-tsin"
+      },
+      {
+        "name": "E621"
+      }
+    ],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "paddenstoelenbouillonblokje",
+    "pluralName": "paddenstoelenbouillonblokjes",
+    "description": "Bouillonblokje met paddenstoelensmaak; umami-rijk.",
+    "aliases": [
+      {
+        "name": "paddenstoelenbouillon blokje"
+      }
+    ],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "runderbouillon",
+    "pluralName": "runderbouillon",
+    "description": "Bouillon van rundvlees; krachtige basis voor jus en stoofpotten.",
+    "aliases": [
+      {
+        "name": "rundvleesbouillon"
+      }
+    ],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "runderbouillonblokje",
+    "pluralName": "runderbouillonblokjes",
+    "description": "Geconcentreerde runderbouillon in blokvorm.",
+    "aliases": [
+      {
+        "name": "runderbouillon blokje"
+      }
+    ],
+    "label": "Bouillon & Smaakmakers"
+  },
+  {
+    "name": "shaoxing",
+    "pluralName": "shaoxing",
+    "description": "Chinese rijstwijn; voor roerbakgerechten en marinades.",
+    "aliases": [
+      {
+        "name": "shaoxing wijn"
+      },
+      {
+        "name": "Chinese rijstwijn"
+      }
+    ],
     "label": "Bouillon & Smaakmakers"
   },
   {
     "name": "visbouillon",
     "pluralName": "visbouillon",
-    "description": "Bouillon getrokken van visgraten en groenten; basis voor vissoep en sauzen.",
-    "aliases": [],
+    "description": "Bouillon van visgraten; basis voor vissoep en sauzen.",
+    "aliases": [
+      {
+        "name": "visfumet"
+      }
+    ],
     "label": "Bouillon & Smaakmakers"
   }
 ]

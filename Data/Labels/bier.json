@@ -1,8 +1,19 @@
 [
   {
+    "name": "alcoholvrij bier",
+    "pluralName": "alcoholvrij bier",
+    "description": "Bier zonder alcohol; voor marinades en beslag zonder alcohol.",
+    "aliases": [
+      {
+        "name": "0.0 bier"
+      }
+    ],
+    "label": "Bier"
+  },
+  {
     "name": "bier",
     "pluralName": "bier",
-    "description": "Alcoholische drank (gegist graanbeslag); ook gebruikt in marinades en beslag.",
+    "description": "Alcoholische drank van gegist graan; voor marinades, beslag en stoofpotten.",
     "aliases": [
       {
         "name": "beer"
@@ -20,21 +31,32 @@
   {
     "name": "bockbier",
     "pluralName": "bockbier",
-    "description": "Donker seizoensbier; vol en zoet van smaak.",
-    "aliases": [],
+    "description": "Donker seizoensbier; vol en zoet, voor stoofvlees.",
+    "aliases": [
+      {
+        "name": "herfstbock"
+      },
+      {
+        "name": "bok"
+      }
+    ],
     "label": "Bier"
   },
   {
     "name": "bruinbier",
     "pluralName": "bruinbier",
-    "description": "Donker bier; moutig en zoetig van smaak, gebruikt in stoofgerechten.",
-    "aliases": [],
+    "description": "Donker bier; moutig en zoetig, klassiek voor stoofvlees.",
+    "aliases": [
+      {
+        "name": "bruin bier"
+      }
+    ],
     "label": "Bier"
   },
   {
     "name": "dubbel",
     "pluralName": "dubbel",
-    "description": "Belgisch donker abdijbier; moutig met karamel- en pruimsmaak.",
+    "description": "Belgisch donker abdijbier; moutig met karamel- en pruimensmaak.",
     "aliases": [],
     "label": "Bier"
   },
@@ -45,15 +67,11 @@
     "aliases": [
       {
         "name": "lambiek"
+      },
+      {
+        "name": "lambic"
       }
     ],
-    "label": "Bier"
-  },
-  {
-    "name": "herfstbock",
-    "pluralName": "herfstbock",
-    "description": "Herfstbier; moutig en kruidig.",
-    "aliases": [],
     "label": "Bier"
   },
   {
@@ -71,7 +89,11 @@
     "name": "kriek",
     "pluralName": "kriek",
     "description": "Belgisch kersenbier; zoetzuur fruitbier.",
-    "aliases": [],
+    "aliases": [
+      {
+        "name": "kriekbier"
+      }
+    ],
     "label": "Bier"
   },
   {
@@ -109,10 +131,13 @@
   {
     "name": "witbier",
     "pluralName": "witbier",
-    "description": "Belgisch tarwebier; troebel, fris en licht kruidig.",
+    "description": "Belgisch tarwebier; troebel, fris met koriander en sinaasappelschil.",
     "aliases": [
       {
         "name": "wheat beer"
+      },
+      {
+        "name": "tarwebier"
       }
     ],
     "label": "Bier"

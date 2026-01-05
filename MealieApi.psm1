@@ -113,6 +113,9 @@ function Test-FoodChanged {
         Check if a food item has changes compared to existing data
     .PARAMETER ResolvedLabelId
         The resolved labelId from the import data (after name lookup)
+    .NOTES
+        For aliases, we compare the MERGED result (existing + new) against existing.
+        This means if import has empty aliases, nothing changes (existing aliases are kept).
     #>
     param(
         [Parameter(Mandatory)]
@@ -136,8 +139,23 @@ function Test-FoodChanged {
     # Compare labelId (existing labelId vs resolved labelId from import)
     if (-not (Compare-StringValue $Existing.labelId $ResolvedLabelId)) { return $true }
     
-    # Compare aliases
-    if (-not (Compare-Aliases $Existing.aliases $New.aliases)) { return $true }
+    # Compare aliases using merge logic (existing + new, deduplicated)
+    $existingAliasNames = @()
+    if ($Existing.aliases -and $Existing.aliases.Count -gt 0) {
+        $existingAliasNames = @($Existing.aliases | ForEach-Object { $_.name.ToLower().Trim() }) | Sort-Object
+    }
+    $newAliasNames = @()
+    if ($New.aliases -and $New.aliases.Count -gt 0) {
+        $newAliasNames = @($New.aliases | ForEach-Object { $_.name.ToLower().Trim() })
+    }
+    
+    # Merge and deduplicate
+    $mergedAliases = @($existingAliasNames + $newAliasNames | Select-Object -Unique | Sort-Object)
+    
+    # If merged result differs from existing, there's a change
+    $existingStr = $existingAliasNames -join ","
+    $mergedStr = $mergedAliases -join ","
+    if ($existingStr -ne $mergedStr) { return $true }
     
     return $false
 }
@@ -518,12 +536,19 @@ function Import-MealieFoods {
     .PARAMETER Path
         Path to the JSON file containing food data
     .PARAMETER UpdateExisting
-        Update foods that already exist (matched by name or id)
+        Update foods that already exist (matched by id, name, pluralName, or alias)
     .PARAMETER ThrottleMs
         Milliseconds to wait between API calls (default: 100)
+    .PARAMETER MatchedIds
+        Hashtable tracking already-matched item IDs (for cross-file conflict detection in folder imports)
     .PARAMETER WhatIf
         Show what would happen without making changes
     .NOTES
+        Matching order (prevents duplicates when renaming):
+        1) id
+        2) name/pluralName (all cross-combinations)
+        3) alias (all cross-combinations including alias→alias)
+        
         Supports 'label' field in JSON (label name). The label must already exist in Mealie.
         If a label name is not found, a warning is shown and the food is imported without label.
     #>
@@ -534,7 +559,9 @@ function Import-MealieFoods {
         
         [switch]$UpdateExisting,
         
-        [int]$ThrottleMs = 100
+        [int]$ThrottleMs = 100,
+        
+        [hashtable]$MatchedIds
     )
     
     if (-not (Test-Path $Path)) {
@@ -551,10 +578,35 @@ function Import-MealieFoods {
         $labelsByName[$label.name.ToLower().Trim()] = $label
     }
     
-    # Create food lookup by name (lowercase for case-insensitive matching)
-    $existingByName = @{}
+    # Create multiple lookups for Optie C matching
+    $existingById = @{}
+    $existingByName = @{}      # Also includes pluralName
+    $existingByAlias = @{}
+    
     foreach ($food in $existingFoods) {
+        # Lookup by id
+        $existingById[$food.id] = $food
+        
+        # Lookup by name (case-insensitive)
         $existingByName[$food.name.ToLower().Trim()] = $food
+        
+        # Lookup by pluralName (case-insensitive) - enables matching "braam" → "bramen"
+        if (![string]::IsNullOrEmpty($food.pluralName)) {
+            $pluralKey = $food.pluralName.ToLower().Trim()
+            if (-not $existingByName.ContainsKey($pluralKey)) {
+                $existingByName[$pluralKey] = $food
+            }
+        }
+        
+        # Lookup by alias (case-insensitive)
+        if ($food.aliases -and $food.aliases.Count -gt 0) {
+            foreach ($alias in $food.aliases) {
+                $aliasKey = $alias.name.ToLower().Trim()
+                if (-not $existingByAlias.ContainsKey($aliasKey)) {
+                    $existingByAlias[$aliasKey] = $food
+                }
+            }
+        }
     }
     
     $stats = @{
@@ -564,19 +616,128 @@ function Import-MealieFoods {
         Skipped       = 0
         Errors        = 0
         LabelWarnings = 0
+        Conflicts     = 0
     }
     
     $total = @($importData).Count
+    $padWidth = $total.ToString().Length
     $current = 0
+    
+    # Use provided MatchedIds or create new (for cross-file conflict detection)
+    if (-not $MatchedIds) {
+        $MatchedIds = @{}
+    }
     
     foreach ($item in $importData) {
         $current++
+        $counter = "[$($current.ToString().PadLeft($padWidth))/$total]"
         $itemName = $item.name.Trim()
-        $existingFood = $existingByName[$itemName.ToLower()]
         
         # Progress indicator
         $percentComplete = [math]::Round(($current / $total) * 100)
         Write-Progress -Activity "Importing Foods" -Status "$current of $total - $itemName" -PercentComplete $percentComplete
+        
+        # Matching order: id → name/pluralName (all combos) → alias (all combos)
+        $existingFood = $null
+        $matchMethod = $null
+        
+        # 1. Try match by id (if present in import data)
+        if ($item.id -and $existingById.ContainsKey($item.id)) {
+            $existingFood = $existingById[$item.id]
+            $matchMethod = "id"
+        }
+        
+        # 2. Try match by name or pluralName (both directions)
+        if (-not $existingFood) {
+            # Check import.name against existing name/pluralName
+            $nameKey = $itemName.ToLower()
+            if ($existingByName.ContainsKey($nameKey)) {
+                $existingFood = $existingByName[$nameKey]
+                # Check if it matched on name or pluralName
+                if ($existingFood.name.ToLower().Trim() -eq $nameKey) {
+                    $matchMethod = "name"
+                }
+                else {
+                    $matchMethod = "name→pluralName"
+                }
+            }
+        }
+        
+        # 2b. Check import.pluralName against existing name/pluralName
+        if (-not $existingFood -and ![string]::IsNullOrEmpty($item.pluralName)) {
+            $pluralKey = $item.pluralName.ToLower().Trim()
+            if ($existingByName.ContainsKey($pluralKey)) {
+                $existingFood = $existingByName[$pluralKey]
+                # Check if it matched on name or pluralName
+                if ($existingFood.name.ToLower().Trim() -eq $pluralKey) {
+                    $matchMethod = "pluralName→name"
+                }
+                else {
+                    $matchMethod = "pluralName"
+                }
+            }
+        }
+        
+        # 2c. Check import.pluralName against existing aliases
+        if (-not $existingFood -and ![string]::IsNullOrEmpty($item.pluralName)) {
+            $pluralKey = $item.pluralName.ToLower().Trim()
+            if ($existingByAlias.ContainsKey($pluralKey)) {
+                $existingFood = $existingByAlias[$pluralKey]
+                $matchMethod = "pluralName→alias"
+            }
+        }
+        
+        # 3. Try match by alias (all directions):
+        #    - import.name → existing.alias
+        #    - import.alias → existing.name/pluralName
+        #    - import.alias → existing.alias
+        if (-not $existingFood) {
+            # Check if new name is an existing alias
+            $nameKey = $itemName.ToLower()
+            if ($existingByAlias.ContainsKey($nameKey)) {
+                $existingFood = $existingByAlias[$nameKey]
+                $matchMethod = "name→alias"
+            }
+            
+            # Check if any new aliases match existing names, pluralNames, or aliases
+            if (-not $existingFood -and $item.aliases -and $item.aliases.Count -gt 0) {
+                foreach ($alias in $item.aliases) {
+                    $aliasKey = $alias.name.ToLower().Trim()
+                    
+                    # Check against existing name/pluralName
+                    if ($existingByName.ContainsKey($aliasKey)) {
+                        $existingFood = $existingByName[$aliasKey]
+                        if ($existingFood.name.ToLower().Trim() -eq $aliasKey) {
+                            $matchMethod = "alias→name"
+                        }
+                        else {
+                            $matchMethod = "alias→pluralName"
+                        }
+                        break
+                    }
+                    
+                    # Check against existing aliases
+                    if ($existingByAlias.ContainsKey($aliasKey)) {
+                        $existingFood = $existingByAlias[$aliasKey]
+                        $matchMethod = "alias→alias"
+                        break
+                    }
+                }
+            }
+        }
+        
+        # Check for conflict: has this existing item already been matched by another import item?
+        if ($existingFood -and $MatchedIds.ContainsKey($existingFood.id)) {
+            $previousMatch = $MatchedIds[$existingFood.id]
+            Write-Warning "  $counter CONFLICT: '$itemName' matches existing '$($existingFood.name)' (via $matchMethod), but it was already matched by '$previousMatch'"
+            $stats.Conflicts++
+            continue
+        }
+        
+        # Track this match
+        if ($existingFood) {
+            $MatchedIds[$existingFood.id] = $itemName
+        }
         
         # Resolve label name to labelId
         $resolvedLabelId = $null
@@ -586,7 +747,7 @@ function Import-MealieFoods {
                 $resolvedLabelId = $labelLookup.id
             }
             else {
-                Write-Warning "  [$current/$total] Label not found: '$($item.label)' for food '$itemName'"
+                Write-Warning "  $counter Label not found: '$($item.label)' for food '$itemName'"
                 $stats.LabelWarnings++
             }
         }
@@ -596,17 +757,76 @@ function Import-MealieFoods {
                 if ($UpdateExisting) {
                     # Check if anything actually changed (including label)
                     if (-not (Test-FoodChanged -Existing $existingFood -New $item -ResolvedLabelId $resolvedLabelId)) {
-                        Write-Verbose "  [$current/$total] Unchanged: $itemName"
+                        Write-Verbose "  $counter Unchanged: $itemName"
                         $stats.Unchanged++
                         continue
                     }
                     
-                    if ($PSCmdlet.ShouldProcess($itemName, "Update food")) {
-                        # Prepare aliases array - only if aliases exist in source
-                        $aliases = @()
-                        if ($item.aliases -and @($item.aliases).Count -gt 0) {
-                            $aliases = @($item.aliases | ForEach-Object { @{ name = $_.name } })
+                    # Build change list for display
+                    $changes = @()
+                    if ($existingFood.name -ne $itemName) {
+                        $changes += @{ Field = "name"; Old = $existingFood.name; New = $itemName }
+                    }
+                    if ($existingFood.pluralName -ne $item.pluralName) {
+                        $changes += @{ Field = "pluralName"; Old = $existingFood.pluralName; New = $item.pluralName }
+                    }
+                    if ($existingFood.description -ne $item.description -and ![string]::IsNullOrEmpty($item.description)) {
+                        $descPreview = if ($item.description.Length -gt 40) { $item.description.Substring(0,40) + "..." } else { $item.description }
+                        $changes += @{ Field = "description"; Old = ""; New = $descPreview }
+                    }
+                    if ($existingFood.labelId -ne $resolvedLabelId) {
+                        $oldLabel = if ($existingFood.label) { $existingFood.label.name } else { "(none)" }
+                        $newLabel = if ($item.label) { $item.label } else { "(none)" }
+                        $changes += @{ Field = "label"; Old = $oldLabel; New = $newLabel }
+                    }
+                    
+                    # Merge aliases: combine existing + new, deduplicate (case-insensitive)
+                    $existingAliasNames = @()
+                    if ($existingFood.aliases -and $existingFood.aliases.Count -gt 0) {
+                        $existingAliasNames = @($existingFood.aliases | ForEach-Object { $_.name })
+                    }
+                    $newAliasNames = @()
+                    if ($item.aliases -and $item.aliases.Count -gt 0) {
+                        $newAliasNames = @($item.aliases | ForEach-Object { $_.name })
+                    }
+                    
+                    # Merge and deduplicate (case-insensitive, preserve first occurrence's casing)
+                    $mergedAliases = @()
+                    $seenLower = @{}
+                    foreach ($alias in ($existingAliasNames + $newAliasNames)) {
+                        $lowerAlias = $alias.ToLower().Trim()
+                        if (-not $seenLower.ContainsKey($lowerAlias)) {
+                            $seenLower[$lowerAlias] = $true
+                            $mergedAliases += $alias
                         }
+                    }
+                    
+                    # Check if merged result differs from existing
+                    $existingAliasStr = ($existingAliasNames | Sort-Object) -join ", "
+                    $mergedAliasStr = ($mergedAliases | Sort-Object) -join ", "
+                    if ($existingAliasStr -ne $mergedAliasStr) {
+                        $changes += @{ Field = "aliases"; Old = ($existingAliasNames -join ", "); New = ($mergedAliases -join ", ") }
+                    }
+                    
+                    if ($WhatIfPreference) {
+                        # Custom formatted WhatIf output
+                        Write-Host "  $counter " -NoNewline
+                        Write-Host "Would UPDATE " -ForegroundColor Yellow -NoNewline
+                        Write-Host "(matched by $matchMethod): " -NoNewline
+                        Write-Host "$itemName" -ForegroundColor Cyan
+                        foreach ($change in $changes) {
+                            $oldVal = if ([string]::IsNullOrEmpty($change.Old)) { "(empty)" } else { $change.Old }
+                            $newVal = if ([string]::IsNullOrEmpty($change.New)) { "(empty)" } else { $change.New }
+                            Write-Host "          $($change.Field.PadRight(12)): " -NoNewline
+                            Write-Host "'$oldVal'" -ForegroundColor Red -NoNewline
+                            Write-Host " → " -NoNewline
+                            Write-Host "'$newVal'" -ForegroundColor Green
+                        }
+                        $stats.Updated++
+                    }
+                    elseif ($PSCmdlet.ShouldProcess($itemName, "Update food")) {
+                        # Use merged aliases
+                        $aliases = @($mergedAliases | ForEach-Object { @{ name = $_ } })
                         
                         # Only include non-null, non-empty values
                         $updateData = @{
@@ -627,19 +847,45 @@ function Import-MealieFoods {
                         }
                         
                         Update-MealieFood -Id $existingFood.id -Data $updateData | Out-Null
-                        Write-Host "  [$current/$total] Updated: $itemName" -ForegroundColor Yellow
+                        Write-Host "  $counter Updated (matched by $matchMethod): $itemName" -ForegroundColor Yellow
                         $stats.Updated++
                         
                         if ($ThrottleMs -gt 0) { Start-Sleep -Milliseconds $ThrottleMs }
                     }
                 }
                 else {
-                    Write-Verbose "  [$current/$total] Skipped (exists): $itemName"
+                    Write-Verbose "  $counter Skipped (exists, matched by $matchMethod): $itemName"
                     $stats.Skipped++
                 }
             }
             else {
-                if ($PSCmdlet.ShouldProcess($itemName, "Create food")) {
+                if ($WhatIfPreference) {
+                    # Custom formatted WhatIf output for Create
+                    Write-Host "  $counter " -NoNewline
+                    Write-Host "Would CREATE" -ForegroundColor Green -NoNewline
+                    Write-Host ": " -NoNewline
+                    Write-Host "$itemName" -ForegroundColor Cyan
+                    if (![string]::IsNullOrEmpty($item.pluralName)) {
+                        Write-Host "          pluralName   : " -NoNewline
+                        Write-Host "'$($item.pluralName)'" -ForegroundColor Green
+                    }
+                    if (![string]::IsNullOrEmpty($item.description)) {
+                        $descPreview = if ($item.description.Length -gt 40) { $item.description.Substring(0,40) + "..." } else { $item.description }
+                        Write-Host "          description  : " -NoNewline
+                        Write-Host "'$descPreview'" -ForegroundColor Green
+                    }
+                    if (![string]::IsNullOrEmpty($item.label)) {
+                        Write-Host "          label        : " -NoNewline
+                        Write-Host "'$($item.label)'" -ForegroundColor Green
+                    }
+                    if ($item.aliases -and $item.aliases.Count -gt 0) {
+                        $aliasStr = ($item.aliases | ForEach-Object { $_.name }) -join ", "
+                        Write-Host "          aliases      : " -NoNewline
+                        Write-Host "'$aliasStr'" -ForegroundColor Green
+                    }
+                    $stats.Created++
+                }
+                elseif ($PSCmdlet.ShouldProcess($itemName, "Create food")) {
                     $aliasNames = @()
                     if ($item.aliases -and @($item.aliases).Count -gt 0) {
                         $aliasNames = @($item.aliases | ForEach-Object { $_.name })
@@ -662,7 +908,7 @@ function Import-MealieFoods {
                     }
                     
                     New-MealieFood @params | Out-Null
-                    Write-Host "  [$current/$total] Created: $itemName" -ForegroundColor Green
+                    Write-Host "  $counter Created: $itemName" -ForegroundColor Green
                     $stats.Created++
                     
                     if ($ThrottleMs -gt 0) { Start-Sleep -Milliseconds $ThrottleMs }
@@ -670,7 +916,7 @@ function Import-MealieFoods {
             }
         }
         catch {
-            Write-Warning "  [$current/$total] Error processing '$itemName': $_"
+            Write-Warning "  $counter Error processing '$itemName': $_"
             $stats.Errors++
         }
     }
@@ -685,6 +931,9 @@ function Import-MealieFoods {
     Write-Host "  Errors:        $($stats.Errors)"
     if ($stats.LabelWarnings -gt 0) {
         Write-Host "  LabelWarnings: $($stats.LabelWarnings)" -ForegroundColor Yellow
+    }
+    if ($stats.Conflicts -gt 0) {
+        Write-Host "  Conflicts:     $($stats.Conflicts)" -ForegroundColor Red
     }
     
     return $stats
@@ -735,10 +984,12 @@ function Import-MealieUnits {
     }
     
     $total = @($importData).Count
+    $padWidth = $total.ToString().Length
     $current = 0
     
     foreach ($item in $importData) {
         $current++
+        $counter = "[$($current.ToString().PadLeft($padWidth))/$total]"
         $itemName = $item.name.Trim()
         $existingUnit = $existingByName[$itemName.ToLower()]
         
@@ -751,7 +1002,7 @@ function Import-MealieUnits {
                 if ($UpdateExisting) {
                     # Check if anything actually changed
                     if (-not (Test-UnitChanged -Existing $existingUnit -New $item)) {
-                        Write-Verbose "  [$current/$total] Unchanged: $itemName"
+                        Write-Verbose "  $counter Unchanged: $itemName"
                         $stats.Unchanged++
                         continue
                     }
@@ -791,14 +1042,14 @@ function Import-MealieUnits {
                         }
                         
                         Update-MealieUnit -Id $existingUnit.id -Data $updateData | Out-Null
-                        Write-Host "  [$current/$total] Updated: $itemName" -ForegroundColor Yellow
+                        Write-Host "  $counter Updated: $itemName" -ForegroundColor Yellow
                         $stats.Updated++
                         
                         if ($ThrottleMs -gt 0) { Start-Sleep -Milliseconds $ThrottleMs }
                     }
                 }
                 else {
-                    Write-Verbose "  [$current/$total] Skipped (exists): $itemName"
+                    Write-Verbose "  $counter Skipped (exists): $itemName"
                     $stats.Skipped++
                 }
             }
@@ -835,7 +1086,7 @@ function Import-MealieUnits {
                     }
                     
                     New-MealieUnit @params | Out-Null
-                    Write-Host "  [$current/$total] Created: $itemName" -ForegroundColor Green
+                    Write-Host "  $counter Created: $itemName" -ForegroundColor Green
                     $stats.Created++
                     
                     if ($ThrottleMs -gt 0) { Start-Sleep -Milliseconds $ThrottleMs }
@@ -843,7 +1094,7 @@ function Import-MealieUnits {
             }
         }
         catch {
-            Write-Warning "  [$current/$total] Error processing '$itemName': $_"
+            Write-Warning "  $counter Error processing '$itemName': $_"
             $stats.Errors++
         }
     }
@@ -1240,10 +1491,12 @@ function Import-MealieLabels {
     }
     
     $total = @($importData).Count
+    $padWidth = $total.ToString().Length
     $current = 0
     
     foreach ($item in $importData) {
         $current++
+        $counter = "[$($current.ToString().PadLeft($padWidth))/$total]"
         $itemName = $item.name.Trim()
         $existingItem = $existingByName[$itemName.ToLower()]
         
@@ -1254,7 +1507,7 @@ function Import-MealieLabels {
                 if ($UpdateExisting) {
                     # Check if anything actually changed
                     if (-not (Test-LabelChanged -Existing $existingItem -New $item)) {
-                        Write-Verbose "  [$current/$total] Unchanged: $itemName"
+                        Write-Verbose "  $counter Unchanged: $itemName"
                         $stats.Unchanged++
                         continue
                     }
@@ -1269,14 +1522,14 @@ function Import-MealieLabels {
                         }
                         
                         Update-MealieLabel -Id $existingItem.id -Data $updateData | Out-Null
-                        Write-Host "  [$current/$total] Updated: $itemName" -ForegroundColor Yellow
+                        Write-Host "  $counter Updated: $itemName" -ForegroundColor Yellow
                         $stats.Updated++
                         
                         if ($ThrottleMs -gt 0) { Start-Sleep -Milliseconds $ThrottleMs }
                     }
                 }
                 else {
-                    Write-Verbose "  [$current/$total] Skipped (exists): $itemName"
+                    Write-Verbose "  $counter Skipped (exists): $itemName"
                     $stats.Skipped++
                 }
             }
@@ -1284,7 +1537,7 @@ function Import-MealieLabels {
                 if ($PSCmdlet.ShouldProcess($itemName, "Create Label")) {
                     $color = if (![string]::IsNullOrEmpty($item.color)) { $item.color } else { "#1976D2" }
                     New-MealieLabel -Name $itemName -Color $color | Out-Null
-                    Write-Host "  [$current/$total] Created: $itemName" -ForegroundColor Green
+                    Write-Host "  $counter Created: $itemName" -ForegroundColor Green
                     $stats.Created++
                     
                     if ($ThrottleMs -gt 0) { Start-Sleep -Milliseconds $ThrottleMs }
@@ -1292,7 +1545,7 @@ function Import-MealieLabels {
             }
         }
         catch {
-            Write-Warning "  [$current/$total] Error processing '$itemName': $_"
+            Write-Warning "  $counter Error processing '$itemName': $_"
             $stats.Errors++
         }
     }
@@ -1384,10 +1637,12 @@ function Import-MealieOrganizers {
     }
     
     $total = @($importData).Count
+    $padWidth = $total.ToString().Length
     $current = 0
     
     foreach ($item in $importData) {
         $current++
+        $counter = "[$($current.ToString().PadLeft($padWidth))/$total]"
         $itemName = $item.name.Trim()
         $existingItem = $existingByName[$itemName.ToLower()]
         
@@ -1398,7 +1653,7 @@ function Import-MealieOrganizers {
                 if ($UpdateExisting) {
                     # Check if anything actually changed
                     if (-not (Test-OrganizerChanged -Existing $existingItem -New $item)) {
-                        Write-Verbose "  [$current/$total] Unchanged: $itemName"
+                        Write-Verbose "  $counter Unchanged: $itemName"
                         $stats.Unchanged++
                         continue
                     }
@@ -1415,14 +1670,14 @@ function Import-MealieOrganizers {
                             'Tools' { Update-MealieTool -Id $existingItem.id -Data $updateData | Out-Null }
                         }
                         
-                        Write-Host "  [$current/$total] Updated: $itemName" -ForegroundColor Yellow
+                        Write-Host "  $counter Updated: $itemName" -ForegroundColor Yellow
                         $stats.Updated++
                         
                         if ($ThrottleMs -gt 0) { Start-Sleep -Milliseconds $ThrottleMs }
                     }
                 }
                 else {
-                    Write-Verbose "  [$current/$total] Skipped (exists): $itemName"
+                    Write-Verbose "  $counter Skipped (exists): $itemName"
                     $stats.Skipped++
                 }
             }
@@ -1434,7 +1689,7 @@ function Import-MealieOrganizers {
                         'Tools' { New-MealieTool -Name $itemName | Out-Null }
                     }
                     
-                    Write-Host "  [$current/$total] Created: $itemName" -ForegroundColor Green
+                    Write-Host "  $counter Created: $itemName" -ForegroundColor Green
                     $stats.Created++
                     
                     if ($ThrottleMs -gt 0) { Start-Sleep -Milliseconds $ThrottleMs }
@@ -1442,7 +1697,7 @@ function Import-MealieOrganizers {
             }
         }
         catch {
-            Write-Warning "  [$current/$total] Error processing '$itemName': $_"
+            Write-Warning "  $counter Error processing '$itemName': $_"
             $stats.Errors++
         }
     }
@@ -1549,6 +1804,7 @@ function Export-MealieFoods {
     $transformFood = {
         param($food)
         $result = [ordered]@{
+            id          = $food.id
             name        = $food.name
             pluralName  = $food.pluralName
             description = $food.description
@@ -1566,6 +1822,15 @@ function Export-MealieFoods {
         }
         
         [PSCustomObject]$result
+    }
+    
+    # Helper to ensure parent directory exists
+    $ensureParentDir = {
+        param($filePath)
+        $parentDir = Split-Path -Parent $filePath
+        if ($parentDir -and -not (Test-Path $parentDir)) {
+            New-Item -ItemType Directory -Path $parentDir -Force | Out-Null
+        }
     }
     
     if ($SplitByLabel) {
@@ -1601,12 +1866,14 @@ function Export-MealieFoods {
             return
         }
         
+        & $ensureParentDir $Path
         $exportData = $filtered | ForEach-Object { & $transformFood $_ }
         $exportData | ConvertTo-Json -Depth 10 | Set-Content $Path -Encoding UTF8
         Write-Host "Exported $($filtered.Count) foods with label '$Label' to: $Path" -ForegroundColor Green
     }
     else {
         # Export all to single file
+        & $ensureParentDir $Path
         $exportData = $foods | ForEach-Object { & $transformFood $_ }
         $exportData | ConvertTo-Json -Depth 10 | Set-Content $Path -Encoding UTF8
         Write-Host "Exported $($foods.Count) foods to: $Path" -ForegroundColor Green

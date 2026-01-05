@@ -2,64 +2,130 @@
   {
     "name": "ansjovis",
     "pluralName": "ansjovis",
-    "description": "Kleine gezouten vis (ansjovis); sterk smakende vis, vaak in olie geconserveerd.",
+    "description": "Kleine gezouten vis in olie; sterke smaakmaker.",
     "aliases": [
       {
         "name": "anchovis"
+      },
+      {
+        "name": "anchovy"
       }
     ],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "dorade",
-    "pluralName": "dorade",
-    "description": "Witte vis; hele vis gebakken of gegrild.",
-    "aliases": [],
-    "label": "Vis & Zeevruchten"
-  },
-  {
-    "name": "escargot",
-    "pluralName": "escargots",
-    "description": "Slak (escargot); delicatesse, meestal gestoofd in kruidenboter.",
+    "pluralName": "dorades",
+    "description": "Witte zeevis; vaak heel gebakken of gegrild.",
     "aliases": [
       {
-        "name": "wijngaardslak"
+        "name": "goudbrasem"
       }
     ],
     "label": "Vis & Zeevruchten"
   },
   {
-    "name": "forel",
-    "pluralName": "forel",
-    "description": "Zoetwatervis (forel); blank visvlees, vaak heel gebakken of gerookt.",
+    "name": "doradefilet",
+    "pluralName": "doradefilets",
+    "description": "Filet van dorade; wit visvlees, gebakken of gestoomd.",
     "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "forel",
+    "pluralName": "forellen",
+    "description": "Zoetwatervis met blank vlees; vaak heel gebakken.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "gamba",
+    "pluralName": "gamba's",
+    "description": "Grote garnaal; gebakken of gegrild.",
+    "aliases": [
+      {
+        "name": "scampi"
+      },
+      {
+        "name": "scampi's"
+      }
+    ],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "garnaal",
     "pluralName": "garnalen",
-    "description": "Zeevrucht; kleine schaaldiertjes, gekookt of gebakken, gebruikt in cocktails of kroketten.",
+    "description": "Klein schaaldier; gekookt of gebakken, voor salades en gerechten.",
+    "aliases": [
+      {
+        "name": "shrimp"
+      }
+    ],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "gerookte forel",
+    "pluralName": "gerookte forel",
+    "description": "Gerookte zoetwatervis; voor salades en voorgerechten.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "gerookte heilbot",
+    "pluralName": "gerookte heilbot",
+    "description": "Gerookte platvis; dun gesneden voor toast en salades.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "gerookte makreel",
     "pluralName": "gerookte makreel",
-    "description": "Gerookte vette vis; voor salades.",
+    "description": "Gerookte vette vis; voor salades en op brood.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "gerookte paling",
+    "pluralName": "gerookte paling",
+    "description": "Gerookte paling; vette vis, klassiek Nederlands.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "gerookte zalm",
     "pluralName": "gerookte zalm",
-    "description": "Zalmfilet, gezouten en gerookt; dun gesneden op toast of in gerechten.",
+    "description": "Koud gerookte zalmfilet; dun gesneden op toast of in gerechten.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "haring",
-    "pluralName": "haring",
-    "description": "Vis; meestal gezouten (Hollandse nieuwe) of gerookt, gegeten rauw of op brood.",
+    "pluralName": "haringen",
+    "description": "Zeevis; gezouten (Hollandse nieuwe) of gerookt, rauw gegeten met uitjes.",
+    "aliases": [
+      {
+        "name": "Hollandse nieuwe"
+      },
+      {
+        "name": "maatjesharing"
+      },
+      {
+        "name": "zoute haring"
+      }
+    ],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "heek",
+    "pluralName": "heek",
+    "description": "Witte zeevis; mild van smaak, gebakken of gestoomd.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "heekfilet",
+    "pluralName": "heekfilets",
+    "description": "Filet van heek; wit visvlees, gebakken of gestoomd.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
@@ -71,9 +137,30 @@
     "label": "Vis & Zeevruchten"
   },
   {
+    "name": "heilbotfilet",
+    "pluralName": "heilbotfilets",
+    "description": "Filet van heilbot; stevig wit vlees, gebakken of gepocheerd.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "Hollandse garnalen",
+    "pluralName": "Hollandse garnalen",
+    "description": "Kleine Noordzeegarnalen; gepeld, voor garnalencocktail en kroketten.",
+    "aliases": [
+      {
+        "name": "Noordzeegarnalen"
+      },
+      {
+        "name": "grijze garnalen"
+      }
+    ],
+    "label": "Vis & Zeevruchten"
+  },
+  {
     "name": "inktvis",
-    "pluralName": "inktvis",
-    "description": "Weekdier; gefrituurd als calamares of in stoofgerecht.",
+    "pluralName": "inktvissen",
+    "description": "Weekdier; gefrituurd als calamares of in stoofgerechten.",
     "aliases": [
       {
         "name": "calamares"
@@ -85,30 +172,55 @@
     "label": "Vis & Zeevruchten"
   },
   {
+    "name": "inktvisringen",
+    "pluralName": "inktvisringen",
+    "description": "Gesneden inktvis in ringen; voor frituren.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
     "name": "kabeljauw",
     "pluralName": "kabeljauw",
-    "description": "Witte vis (kabeljauw); stevig en mild, gebakken, gestoomd of als kibbeling.",
+    "description": "Witte zeevis; stevig en mild, vaak als kibbeling.",
+    "aliases": [
+      {
+        "name": "cod"
+      }
+    ],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "kabeljauwfilet",
+    "pluralName": "kabeljauwfilets",
+    "description": "Filet van kabeljauw; stevig wit vlees, gebakken of gestoomd.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "kabeljauwhaas",
+    "pluralName": "kabeljauwhaasjes",
+    "description": "Dik stuk kabeljauwfilet; sappig middenstuk, gebakken of gepocheerd.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "kaviaar",
     "pluralName": "kaviaar",
-    "description": "Visrogen (met name steur); luxe delicatesse, zout van smaak, geserveerd op toast.",
+    "description": "Visrogen van steur; luxe delicatesse op toast.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
-    "name": "kornet",
-    "pluralName": "kornet",
-    "description": "Snoekbaars (Vis); zoetwatervis met stevig wit vlees, gebakken of gefileerd in gerechten.",
+    "name": "kokkel",
+    "pluralName": "kokkels",
+    "description": "Klein schelpdier; in pasta of soepen.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "krab",
     "pluralName": "krabben",
-    "description": "Zeevrucht; schaaldier met wit zoet vlees, gekookt of verwerkt in salades/kroketten.",
+    "description": "Schaaldier met wit zoet vlees; voor salades en kroketten.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
@@ -116,13 +228,17 @@
     "name": "kreeft",
     "pluralName": "kreeften",
     "description": "Luxe schaaldier; voor feestelijke gerechten.",
-    "aliases": [],
+    "aliases": [
+      {
+        "name": "lobster"
+      }
+    ],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "makreel",
-    "pluralName": "makreel",
-    "description": "Vette vis; sterk van smaak, vaak gerookt.",
+    "pluralName": "makrelen",
+    "description": "Vette zeevis; sterk van smaak, gegrild of gebakken.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
@@ -136,13 +252,13 @@
   {
     "name": "nori",
     "pluralName": "nori",
-    "description": "Gedroogd zeewierblad; gebruikt om sushi te rollen of als garnering (verkruimeld).",
+    "description": "Gedroogd zeewierblad; voor sushi en als garnering.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "octopus",
-    "pluralName": "octopus",
+    "pluralName": "octopussen",
     "description": "Weekdier; langzaam gestoofd of gegrild.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
@@ -150,47 +266,85 @@
   {
     "name": "oester",
     "pluralName": "oesters",
-    "description": "Zeevrucht; rauw levend opgediend met citroen of gegratineerd.",
+    "description": "Schelpdier; rauw met citroen of gegratineerd.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "paling",
+    "pluralName": "paling",
+    "description": "Langwerpige zoetwatervis; meestal gerookt gegeten.",
+    "aliases": [
+      {
+        "name": "aal"
+      }
+    ],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "pangasius",
+    "pluralName": "pangasius",
+    "description": "Witte zoetwatervis; mild van smaak, gebakken of gestoomd.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "pangasiusfilet",
+    "pluralName": "pangasiusfilets",
+    "description": "Filet van pangasius; mild wit vlees, gebakken of gestoomd.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "rivierkreeft",
     "pluralName": "rivierkreeften",
-    "description": "Kleine kreeft; gestoomd of gekookt, wit zoet vlees, gebruikt in salades en soepen.",
+    "description": "Kleine zoetwaterkreeft; gestoomd of gekookt, voor salades.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "roodbaars",
+    "pluralName": "roodbaarzen",
+    "description": "Roze-rode zeevis; stevig vlees, gebakken of gegrild.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "roodbaarsfilet",
+    "pluralName": "roodbaarsfilets",
+    "description": "Filet van roodbaars; stevig vlees, gebakken.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "sardine",
     "pluralName": "sardines",
-    "description": "Kleine vette vis; meestal in blik met olie, gegrild of op toast gegeten.",
+    "description": "Kleine vette vis; vers gegrild of ingeblikt in olie.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
-    "name": "scampi",
-    "pluralName": "scampi's",
-    "description": "Grote garnalen; gebakken of gegrild.",
-    "aliases": [
-      {
-        "name": "gamba's"
-      }
-    ],
+    "name": "schol",
+    "pluralName": "schollen",
+    "description": "Platvis; mild wit vlees, gebakken of gepocheerd.",
+    "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
-    "name": "schol",
-    "pluralName": "schol",
-    "description": "Platvis; mild wit vlees, gebakken of gepocheerd.",
+    "name": "scholfilet",
+    "pluralName": "scholfilets",
+    "description": "Filet van schol; dun wit visvlees, gebakken.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "sint-jakobsschelp",
     "pluralName": "sint-jakobsschelpen",
-    "description": "Schelpdier; delicaat vlees, kort gebakken.",
+    "description": "Schelpdier met delicaat vlees; kort gebakken.",
     "aliases": [
+      {
+        "name": "coquille"
+      },
       {
         "name": "coquilles"
       }
@@ -207,85 +361,209 @@
   {
     "name": "snoekbaars",
     "pluralName": "snoekbaarzen",
-    "description": "Zoetwatervis; blank stevig visvlees, gebakken als filet of gebruikt in vissoep.",
+    "description": "Zoetwatervis met blank stevig vlees; gebakken als filet.",
     "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "surimi",
+    "pluralName": "surimi",
+    "description": "Verwerkte vispasta; voor salades en sushi.",
+    "aliases": [
+      {
+        "name": "krabstick"
+      },
+      {
+        "name": "krabsticks"
+      }
+    ],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "tijgergarnaal",
     "pluralName": "tijgergarnalen",
-    "description": "Grote garnalen met strepen; voor grillen.",
+    "description": "Grote garnaal met strepen; voor grillen en wokken.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "tilapia",
+    "pluralName": "tilapia",
+    "description": "Witte zoetwatervis; mild van smaak, gebakken of gestoomd.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "tilapiafilet",
+    "pluralName": "tilapiafilets",
+    "description": "Filet van tilapia; mild wit vlees, gebakken of gestoomd.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "tong",
-    "pluralName": "tong",
-    "description": "Platvis; fijn wit vlees, luxe vis.",
+    "pluralName": "tongen",
+    "description": "Platvis met fijn wit vlees; luxe vis, heel gebakken.",
+    "aliases": [
+      {
+        "name": "zeetong"
+      }
+    ],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "tongfilet",
+    "pluralName": "tongfilets",
+    "description": "Filet van tong; fijn wit visvlees, gebakken.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "tonijn",
     "pluralName": "tonijn",
-    "description": "Zeevis; rood vlees, rauw als sashimi of gegrild, ook ingeblikt als beleg.",
-    "aliases": [],
-    "label": "Vis & Zeevruchten"
-  },
-  {
-    "name": "vis",
-    "pluralName": "vis",
-    "description": "Vis; verzamelnaam voor eetbare vissoorten, uit zee of zoet water, gebruikt in koken en bakken.",
-    "aliases": [],
-    "label": "Vis & Zeevruchten"
-  },
-  {
-    "name": "vongole",
-    "pluralName": "vongole",
-    "description": "Venusschelp (vongola); kleine eetbare schelp, klassiek in pasta vongole.",
+    "description": "Grote zeevis met rood vlees; rauw als sashimi of ingeblikt.",
     "aliases": [
       {
-        "name": "venusschelp"
+        "name": "tuna"
       }
     ],
     "label": "Vis & Zeevruchten"
   },
   {
+    "name": "tonijnsteak",
+    "pluralName": "tonijnsteaks",
+    "description": "Dikke plak verse tonijn; kort gegrild of gebakken.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "venusschelp",
+    "pluralName": "venusschelpen",
+    "description": "Kleine eetbare schelp; klassiek in pasta vongole.",
+    "aliases": [
+      {
+        "name": "vongole"
+      },
+      {
+        "name": "vongola"
+      }
+    ],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "victoriabaars",
+    "pluralName": "victoriabaarzen",
+    "description": "Witte zoetwatervis uit Afrika; mild van smaak.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "victoriabaarsfilet",
+    "pluralName": "victoriabaarsfilets",
+    "description": "Filet van victoriabaars; wit vlees, gebakken of gestoomd.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "wakame",
+    "pluralName": "wakame",
+    "description": "Eetbaar zeewier; voor salades en misosoep.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "warm gerookte zalm",
+    "pluralName": "warm gerookte zalm",
+    "description": "Warm gerookte zalmfilet; steviger textuur dan koud gerookt.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
     "name": "zalm",
     "pluralName": "zalm",
-    "description": "Vette vis; roze vlees, veelzijdig te bereiden.",
-    "aliases": [],
+    "description": "Vette vis met roze vlees; veelzijdig te bereiden.",
+    "aliases": [
+      {
+        "name": "salmon"
+      }
+    ],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "zalmfilet",
     "pluralName": "zalmfilets",
-    "description": "Vis; filet van zalm, gebakken of gegrilld.",
+    "description": "Filet van zalm; gebakken, gegrilld of gestoomd.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
-    "name": "zalmsteak",
-    "pluralName": "zalmsteaks",
-    "description": "Vis; dikke plak zalm met graat.",
+    "name": "zalmmoot",
+    "pluralName": "zalmmoten",
+    "description": "Dikke plak zalm met graat; gebakken of gegrild.",
     "aliases": [
       {
-        "name": "zalmmoot"
+        "name": "zalmsteak"
       }
     ],
     "label": "Vis & Zeevruchten"
   },
   {
     "name": "zeebaars",
-    "pluralName": "zeebaars",
-    "description": "Witte vis; fijn vlees, gebakken of in zoutkorst.",
+    "pluralName": "zeebaarzen",
+    "description": "Witte zeevis met fijn vlees; heel in zoutkorst of gefileerd.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   },
   {
-    "name": "zoute haring",
-    "pluralName": "zoute haring",
-    "description": "Gepekelde haring (Hollandse Nieuwe); rauw gegeten met uitjes, broodje haring.",
+    "name": "zeebaarsfilet",
+    "pluralName": "zeebaarsfilets",
+    "description": "Filet van zeebaars; fijn wit vlees, gebakken.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "zeeduivel",
+    "pluralName": "zeeduivels",
+    "description": "Zeevis met kreeftachtig vlees; stevig en zoet.",
+    "aliases": [
+      {
+        "name": "lotte"
+      }
+    ],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "zeeduivelstaart",
+    "pluralName": "zeeduivelstaarten",
+    "description": "Staart van zeeduivel; stevig vlees, gebakken of gegrild.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "zeewolf",
+    "pluralName": "zeewolven",
+    "description": "Zeevis met stevig wit vlees; gebakken of gestoomd.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "zeewolffilet",
+    "pluralName": "zeewolffilets",
+    "description": "Filet van zeewolf; stevig wit vlees, gebakken.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "zwaardvis",
+    "pluralName": "zwaardvis",
+    "description": "Grote zeevis met stevig vlees; gegrild als steak.",
+    "aliases": [],
+    "label": "Vis & Zeevruchten"
+  },
+  {
+    "name": "zwaardvissteak",
+    "pluralName": "zwaardvissteaks",
+    "description": "Dikke plak zwaardvis; gegrild of gebakken.",
     "aliases": [],
     "label": "Vis & Zeevruchten"
   }

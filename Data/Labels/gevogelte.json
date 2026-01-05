@@ -1,7 +1,14 @@
 [
   {
+    "name": "duif",
+    "pluralName": "duiven",
+    "description": "Gevogelte; klein wildvogel met donker, smaakrijk vlees.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
     "name": "eend",
-    "pluralName": "eend",
+    "pluralName": "eenden",
     "description": "Gevogelte; vetrijk vlees met rijke smaak.",
     "aliases": [
       {
@@ -24,30 +31,44 @@
   {
     "name": "eendenbout",
     "pluralName": "eendenbouten",
-    "description": "Gevogelte; sappige bout, ideaal voor confit.",
+    "description": "Gevogelte; sappige bout, ideaal voor langzaam garen.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "fazant",
+    "pluralName": "fazanten",
+    "description": "Gevogelte; wildvogel met magere, wildachtige smaak.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "gans",
+    "pluralName": "ganzen",
+    "description": "Gevogelte; feestelijk vlees, vaak gevuld gebraden.",
     "aliases": [
       {
-        "name": "confit de canard"
+        "name": "hele gans"
       }
     ],
     "label": "Gevogelte"
   },
   {
-    "name": "gans",
-    "pluralName": "gans",
-    "description": "Gevogelte; feestelijk vlees, vaak gevuld gebraden.",
-    "aliases": [],
-    "label": "Gevogelte"
-  },
-  {
     "name": "kalkoen",
-    "pluralName": "kalkoen",
+    "pluralName": "kalkoenen",
     "description": "Gevogelte; groot vlees, hele kalkoen of in delen.",
     "aliases": [
       {
         "name": "hele kalkoen"
       }
     ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kalkoendij",
+    "pluralName": "kalkoendijen",
+    "description": "Gevogelte; donker dijvlees van kalkoen, sappig gestoofd.",
+    "aliases": [],
     "label": "Gevogelte"
   },
   {
@@ -62,8 +83,15 @@
     "label": "Gevogelte"
   },
   {
+    "name": "kalkoengehakt",
+    "pluralName": "kalkoengehakt",
+    "description": "Gevogelte; gemalen kalkoenvlees, mager alternatief voor gehakt.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
     "name": "kip",
-    "pluralName": "kip",
+    "pluralName": "kippen",
     "description": "Gevogelte; veelzijdig vlees, hele kip of in delen.",
     "aliases": [
       {
@@ -104,7 +132,25 @@
     "name": "kippendij",
     "pluralName": "kippendijen",
     "description": "Gevogelte; sappig donker vlees, ideaal voor stoven of grillen.",
-    "aliases": [],
+    "aliases": [
+      {
+        "name": "kipdijfilet"
+      },
+      {
+        "name": "kipdijfilets"
+      }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kippenlever",
+    "pluralName": "kippenlevers",
+    "description": "Gevogelte; orgaanvlees van kip, voor paté of gebakken.",
+    "aliases": [
+      {
+        "name": "kiplever"
+      }
+    ],
     "label": "Gevogelte"
   },
   {
@@ -117,6 +163,9 @@
       },
       {
         "name": "drumstick"
+      },
+      {
+        "name": "drumsticks"
       }
     ],
     "label": "Gevogelte"
@@ -124,10 +173,16 @@
   {
     "name": "kippenvleugel",
     "pluralName": "kippenvleugels",
-    "description": "Gevogelte; kleine vleugels, vaak als snack (buffalo wings).",
+    "description": "Gevogelte; kleine vleugels, vaak als snack of fingerfood.",
     "aliases": [
       {
         "name": "chicken wings"
+      },
+      {
+        "name": "kipvleugel"
+      },
+      {
+        "name": "kipvleugels"
       }
     ],
     "label": "Gevogelte"
@@ -135,22 +190,40 @@
   {
     "name": "kipschnitzel",
     "pluralName": "kipschnitzels",
-    "description": "Gepaneerde kipfilet; gebakken of in de oven.",
+    "description": "Gepaneerde kipfilet; kant-en-klaar, gebakken of in de oven.",
     "aliases": [],
     "label": "Gevogelte"
   },
   {
-    "name": "kuikenvlees",
-    "pluralName": "kuikenvlees",
-    "description": "Jonge kip (kuikenvlees); mals gevogelte, snel bereid als poussin of piepkuiken.",
+    "name": "kuiken",
+    "pluralName": "kuikens",
+    "description": "Gevogelte; jonge kip, mals en snel bereid.",
+    "aliases": [
+      {
+        "name": "poussin"
+      },
+      {
+        "name": "piepkuiken"
+      }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kwartel",
+    "pluralName": "kwartels",
+    "description": "Gevogelte; kleine wildvogel met delicaat, donker vlees.",
     "aliases": [],
     "label": "Gevogelte"
   },
   {
     "name": "parelhoen",
-    "pluralName": "parelhoen",
+    "pluralName": "parelhoenders",
     "description": "Gevogelte; wildachtige smaak, gebakken of gestoofd.",
-    "aliases": [],
+    "aliases": [
+      {
+        "name": "parelhoentje"
+      }
+    ],
     "label": "Gevogelte"
   }
 ]
