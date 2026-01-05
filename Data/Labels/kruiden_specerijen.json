@@ -416,23 +416,9 @@
     "label": "Kruiden & Specerijen"
   },
   {
-    "name": "kruidemix",
-    "pluralName": "kruidemix",
-    "description": "Kruidenmix (algemeen); gedroogde specerijencombinatie voor divers gebruik.",
-    "aliases": [],
-    "label": "Kruiden & Specerijen"
-  },
-  {
     "name": "kruidenmengsel voor hollandse groente",
     "pluralName": "kruidenmengsels voor hollandse groente",
     "description": "Kruidenmix; gedroogde kruidenmix speciaal voor groenten.",
-    "aliases": [],
-    "label": "Kruiden & Specerijen"
-  },
-  {
-    "name": "kruidenmix",
-    "pluralName": "kruidenmix",
-    "description": "Mengsel van verschillende gedroogde kruiden; gebruikt om gerechten op smaak te brengen.",
     "aliases": [],
     "label": "Kruiden & Specerijen"
   },
