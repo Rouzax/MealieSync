@@ -1,11 +1,11 @@
 [
   {
     "name": "Groente",
-    "color": "#43A047"
+    "color": "#4CAF50"
   },
   {
     "name": "Fruit",
-    "color": "#66BB6A"
+    "color": "#8BC34A"
   },
   {
     "name": "Verse kruiden",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Gevogelte",
-    "color": "#FF7043"
+    "color": "#F48FB1"
   },
   {
     "name": "Vis & Zeevruchten",
@@ -32,12 +32,8 @@
     "color": "#C62828"
   },
   {
-    "name": "Koelvers & Delicatessen",
-    "color": "#26C6DA"
-  },
-  {
     "name": "Zuivel",
-    "color": "#FDD835"
+    "color": "#FFF9C4"
   },
   {
     "name": "Kaas",
@@ -57,35 +53,31 @@
   },
   {
     "name": "Bakproducten",
-    "color": "#BCAAA4"
-  },
-  {
-    "name": "Pasta, Rijst & Noedels",
-    "color": "#FFD54F"
+    "color": "#D7CCC8"
   },
   {
     "name": "Ontbijtgranen",
     "color": "#FFCA28"
   },
   {
+    "name": "Pasta, Rijst & Noedels",
+    "color": "#FFD54F"
+  },
+  {
     "name": "Peulvruchten",
-    "color": "#78909C"
+    "color": "#689F38"
   },
   {
     "name": "Noten & Zaden",
-    "color": "#9E9D24"
-  },
-  {
-    "name": "Conserven",
-    "color": "#00897B"
+    "color": "#827717"
   },
   {
     "name": "Kruiden & Specerijen",
-    "color": "#8E24AA"
+    "color": "#7B1FA2"
   },
   {
     "name": "Olie, Azijn & Vet",
-    "color": "#F4511E"
+    "color": "#F9A825"
   },
   {
     "name": "Sauzen & Condimenten",
@@ -97,7 +89,7 @@
   },
   {
     "name": "Snacks",
-    "color": "#F48FB1"
+    "color": "#FFAB91"
   },
   {
     "name": "Zoetwaren",
@@ -105,11 +97,11 @@
   },
   {
     "name": "Dranken",
-    "color": "#5C6BC0"
+    "color": "#29B6F6"
   },
   {
     "name": "Wijn",
-    "color": "#AD1457"
+    "color": "#880E4F"
   },
   {
     "name": "Bier",
@@ -122,26 +114,6 @@
   {
     "name": "Koffie & Thee",
     "color": "#4E342E"
-  },
-  {
-    "name": "Diepvries",
-    "color": "#29B6F6"
-  },
-  {
-    "name": "Toko / Aziatisch",
-    "color": "#26A69A"
-  },
-  {
-    "name": "Mexicaans",
-    "color": "#D4E157"
-  },
-  {
-    "name": "Italiaans",
-    "color": "#7E57C2"
-  },
-  {
-    "name": "Speciaalzaak",
-    "color": "#880E4F"
   },
   {
     "name": "Overig",
