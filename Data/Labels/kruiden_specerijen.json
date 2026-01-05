@@ -480,10 +480,14 @@
     "label": "Kruiden & Specerijen"
   },
   {
-    "name": "mace",
-    "pluralName": "mace",
-    "description": "Foelie (nootmuskaatbloem); aromatisch omhulsel van nootmuskaat, specerij in o.a. worst en koek.",
-    "aliases": [],
+    "name": "foelie",
+    "pluralName": "foelie",
+    "description": "Gedroogd oranje vlies van de nootmuskaat; milder en bloemiger dan de noot zelf.",
+    "aliases": [
+      {
+        "name": "mace"
+      }
+    ],
     "label": "Kruiden & Specerijen"
   },
   {
