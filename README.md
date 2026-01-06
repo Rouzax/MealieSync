@@ -50,9 +50,11 @@ MealieSync/
 
 ## Prerequisites
 
-- PowerShell 5.1 or later (Windows PowerShell or PowerShell Core)
+- **PowerShell 7.0 or later** (PowerShell Core) — [Download here](https://github.com/PowerShell/PowerShell/releases)
 - A running Mealie instance (v2.x+)
 - An API token from your Mealie instance
+
+> **Note:** Windows PowerShell 5.1 is not supported due to UTF-8 encoding issues with special characters.
 
 ## Getting Your API Token
 
@@ -415,6 +417,7 @@ Result:   ✓ Match via pluralName→name (import.pluralName matches existing.na
 ### Unit
 ```json
 {
+  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
   "name": "eetlepel",
   "pluralName": "eetlepels",
   "description": "15 ml",
@@ -428,6 +431,16 @@ Result:   ✓ Match via pluralName→name (import.pluralName matches existing.na
   ]
 }
 ```
+
+**Field notes:**
+- `id` — Optional. UUID from Mealie. Used for matching existing items during import.
+- `abbreviation` — Short form (e.g., "el" for "eetlepel").
+- `aliases` — Alternative names. When updating, aliases are **merged** (not replaced).
+
+**Import matching order:**
+1. **id** — If present, matches by UUID
+2. **name/pluralName/abbreviation/pluralAbbreviation** — Cross-matches all combinations
+3. **alias** — Cross-matches in all directions
 
 ### Label
 ```json
