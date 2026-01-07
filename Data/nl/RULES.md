@@ -1,52 +1,116 @@
-# Mealie Ingrediënten Database - Regels en Richtlijnen
+# Mealie Ingrediënten Database — RULES.md
 
-## Mealie Terminologie
+## Doel
+Een ingrediënten-database die **consistent, voorspelbaar en parse-vriendelijk** is:
+- eenduidige namen (NL, enkelvoud)
+- heldere splits-regels (vers/gedroogd, heel/gemalen, sap/rasp/schil, etc.)
+- aliases alleen voor echte synoniemen/spellingvarianten
+- labels altijd uit de vaste lijst
 
-| Term       | Gekoppeld aan | Voorbeeld                    |
-| ---------- | ------------- | ---------------------------- |
-| **Labels** | Ingrediënten  | "Groente", "Vlees", "Zuivel" |
-| **Tags**   | Recepten      | "Vegetarisch", "Snel klaar"  |
+---
 
-Dit document gaat over **Labels** voor ingrediënten.
+## Mealie terminologie
+
+| Term       | Gekoppeld aan | Voorbeeld               |
+| ---------- | ------------- | ----------------------- |
+| **Labels** | Ingrediënten  | Groente, Vlees, Kaas    |
+| **Tags**   | Recepten      | Vegetarisch, Snel klaar |
+
+Dit document gaat over **Labels** en modellering van **ingrediënten**.
+
+---
+
+## JSON-conventies (import-ready)
+Een ingrediënt-object bevat minimaal:
+- `name` (string) — canonieke naam (NL, enkelvoud)
+- `pluralName` (string) — gangbaar meervoud (of gelijk aan `name` bij mass nouns)
+- `description` (string) — kort: `definitie; gebruik/bereiding.`
+- `aliases` (array) — altijd aanwezig, minstens `[]`, items als `{ "name": "..." }`
+- `label` (string) — exact één van de labels in deze file
+
+**Normalisatie:**
+- `name`, `pluralName`, aliases: trim spaties; geen dubbele spaties
+- dedupe aliases **case-insensitive**
+- geen alias die exact gelijk is aan `name` of `pluralName` (case-insensitive)
+- voorkeur: **lowercase** voor ingrediënten (tenzij een ingeburgerde eigennaam echt nodig is)
 
 ---
 
 ## 1. Wat is een ingrediënt?
 
 ### Wel opnemen
-- Basis grondstoffen (groenten, fruit, vlees, kruiden, etc.)
-- Halffabrikaten die als ingrediënt worden gebruikt (bloem, pasta, bouillon)
-- Sauzen en condimenten die aan gerechten worden toegevoegd
-- **Voorbewerkte ingrediënten** - kant-en-klaar gekocht als basis voor gerechten:
+- Basisgrondstoffen (groenten, fruit, vlees, kruiden, etc.)
+- Halffabricaten die als ingrediënt gebruikt worden (bloem, pasta, bouillon, sauzen)
+- Condimenten/smaakmakers (sojasaus, mosterd, sambal)
+- Voorbewerkte ingrediënten die je koopt als basis:
   - gerookte makreel, kipschnitzel, shoarmareepjes, geroosterde amandelen
 
 ### Niet opnemen
-- **Bereidingen/eindproducten** - gerechten die je zelf maakt:
-  - aardappelpuree, kroket, overnight oats, soufflé, beslag
-- **Kant-en-klare gerechten**: parfait, sorbet, petit-four
-- **Merknamen**: Campina roomkaas, Kiri, Monchou, Grape-Nuts, Spa Blauw
-- **Te generieke termen**: sap, deeg
-- **Obscure/onbekende items**: haramaki, sampan saus, ravioles
+- Bereidingen/eindproducten die je zelf maakt:
+  - aardappelpuree, overnight oats, soufflé, beslag, zelfgemaakte pesto
+- Kant-en-klare gerechten (als “gerecht”):
+  - parfait, sorbet, petit-four
+- Merknamen:
+  - campina roomkaas, kiri, monchou, spa blauw, grape-nuts
+- Te generieke termen zonder productcontext:
+  - sap, deeg
+- Obscure/onbekende items (conservatief toevoegen)
 
 ---
 
 ## 2. Naamgeving
 
-### Primaire naam
+### 2.1 Primaire naam (`name`)
 - Altijd de **gangbare Nederlandse naam**
-- Altijd **enkelvoud** (aardappel, niet aardappels) - het `pluralName` veld is voor meervouden
-- Geen merknamen als primaire naam
-- Geen Engelse namen tenzij internationaal ingeburgerd (IPA, red velvet)
+- Altijd **enkelvoud**
+- Geen merknamen
+- Geen Engelse namen tenzij echt ingeburgerd als productnaam (conservatief)
 
-### Meervoud (pluralName)
-- Gebruik de gangbare Nederlandse meervoudsvorm
+### 2.2 Kwalificaties voor vorm/toestand
+Voor vormen/toestanden die anders ambigu zijn, gebruiken we een vaste notatie. Doel:
+- varianten zijn eenduidig
+- parsing is eenvoudig
+- namen blijven herkenbaar voor koks
 
-### Voorbeelden
+**Hoofdregel (suffix in haakjes):**
+`basisnaam (kwalificatie)`
+
+Gebruik dit voor duidelijke vormen/toestanden:
+- Toestand: `(vers)`, `(gedroogd)`
+- Maalvorm: `(heel)`, `(gemalen)`
+- Specifieke vorm: `(korrel)`, `(vlokken)`, `(stokje)`
+- Afgeleide vorm: `(sap)`, `(rasp)`, `(schil)`
+
+**Uitzondering (poeder als productnaam):**
+Als “Xpoeder” de gangbare en herkenbare productnaam is, kies dan die samenstelling als `name`
+(in plaats van `x (gemalen)`), bijvoorbeeld:
+- `knoflookpoeder`
+- `uienpoeder`
+- `gemberpoeder`
+- `kaneelpoeder`
+- `paprikapoeder`
+- `chilipoeder`
+
+Houd de alternatieve schrijfwijze als alias (zie Aliases).
+
+**Wanneer géén haakjes?**
+- Als de gangbare productnaam een vaste samenstelling is die géén vorm/toestand-kwalificatie is:
+  - `kipfilet`, `kippendij`, `eidooier`, `eiwit`, `hüttenkäse`, `filet americain`
+
+### 2.3 Meervoud (`pluralName`)
+- Gebruik de **gangbare meervoudsvorm**
+- Bij “mass nouns” (bijv. rijst, zout) mag: `pluralName == name`
+- Bij haakjes-varianten:
+  - vaak ook mass noun → `pluralName == name` (bv. `koriander (vers)`)
+  - telbaar in haakjes pluraliseren waar logisch:
+    - `zwarte peper (korrel)` → `zwarte peper (korrels)`
+    - `kaneel (stokje)` → `kaneel (stokjes)`
+
+### Naamvoorbeelden
 | ❌ Fout                   | ✅ Goed          |
 | ------------------------ | --------------- |
 | maple syrup              | ahornsiroop     |
-| sirop de Liège           | Luikse stroop   |
-| blue curaçao             | blauwe curaçao  |
+| sirop de Liège           | luikse stroop   |
 | thousand island dressing | cocktailsaus    |
 | nutritional yeast        | edelgistvlokken |
 | spa blauw                | mineraalwater   |
@@ -55,18 +119,18 @@ Dit document gaat over **Labels** voor ingrediënten.
 
 ---
 
-## 3. Aliassen
+## 3. Aliassen (`aliases`)
 
-### Wat is een alias?
-Een alias is een **alternatieve naam voor exact hetzelfde ingrediënt**.
+### 3.1 Wat is een alias?
+Een alias is een **alternatieve naam voor exact hetzelfde ingrediënt**:
+- synoniem, vertaling, spellingvariant, met/zonder diacritics, met/zonder spatie/koppelteken
 
-### Aliassen en meervouden
+### 3.2 Aliassen en meervouden
+Het meervoud van `name` hoort in `pluralName`, niet als alias.
 
-**Regel**: Het meervoud van `name` hoort in `pluralName`, niet in `aliases`.
+Aliassen mogen wél zowel enkelvoud als meervoud bevatten als dat in het wild voorkomt.
 
-Aliassen mogen wél in meervoudsvorm voorkomen — inclusief zowel enkelvoud als meervoud van dezelfde alias.
-
-**Voorbeeld**:
+Voorbeeld:
 ```json
 {
   "name": "aardappel",
@@ -78,96 +142,136 @@ Aliassen mogen wél in meervoudsvorm voorkomen — inclusief zowel enkelvoud als
 }
 ```
 
-| Veld         | Waarde          | Toelichting                          |
-| ------------ | --------------- | ------------------------------------ |
-| `name`       | aardappel       | Primaire naam (enkelvoud)            |
-| `pluralName` | aardappelen     | Meervoud van `name`                  |
-| `aliases`    | pieper, piepers | Synoniem + meervoud van dat synoniem |
+### 3.3 Niet als alias (altijd aparte entries)
 
-**Dus niet**:
-```json
-"aliases": [{ "name": "aardappelen" }]  ❌
-```
+* Variëteiten: elstar, conference, jonagold
+* Afgeleide producten/vormen: citroen (sap) ≠ citroen; limoen (rasp) ≠ limoen
+* Andere producten: krenten ≠ rozijnen
+* Bereidingen: espresso ≠ koffie; pulled pork ≠ varkensschouder
+* Varianten die echt ander product zijn: buffelmozzarella ≠ mozzarella
 
-### Niet als alias
-- **Variëteiten**: Elstar (appel), conference (peer), jonagold
-- **Afgeleide producten**: citroensap, limoenrasp, granaatappelpitten
-- **Andere producten**: paksoi ≠ chinese kool, krenten ≠ rozijnen
-- **Bereidingen**: espresso ≠ koffie, pulled pork ≠ varkensschouder
-- **Varianten**: buffelmozzarella, braadworst, chipolata
+### 3.4 Wel als alias
 
-### Wel als alias
-- **Synoniemen**: "pieper"/"piepers" voor aardappel, "kroot" voor biet
-- **Vertalingen**: "maizena" voor maïszetmeel, "tarragon" voor dragon
-- **Alternatieve spellingen**: "balsamico" voor aceto balsamico
-- **Spellingen zonder diakritische tekens**: "mais" voor maïs, "jalapeno" voor jalapeño
-- **Spellingen met spaties**: "kippenbouillon blokje" voor kippenbouillonblokje, "pinda kaas" voor pindakaas
+* Synoniemen: `kroot` voor biet
+* Vertalingen: `tarragon` voor dragon
+* Zonder diacritics: `mais` voor `maïs`, `jalapeno` voor `jalapeño`
+* Spatie-/koppeltekenvarianten: `kippenbouillon blokje` voor `kippenbouillonblokje`
 
-### Regel
-Als je twijfelt: **maak er een apart ingrediënt van**.
+**Poeder-varianten:**
 
----
+* Als `name` een poeder-samenstelling is, voeg veelvoorkomende varianten toe als alias:
 
-## 4. Splitsen van ingrediënten
+  * `knoflook poeder`, `knoflook-poeder`
+* Als `name` een haakjes-variant is, mag de poeder-samenstelling als alias waar gangbaar:
 
-### Regel
-**Altijd splitsen** bij:
-- Verschillende delen van hetzelfde dier/plant
-- Vers vs gedroogd
-- Heel vs gemalen
-- Rasp/sap/schil van fruit
+  * `kaneel (gemalen)` — alias: `kaneelpoeder` (als je niet voor `kaneelpoeder` als `name` kiest)
 
-Geen uitzonderingen. Dit houdt het simpel en voorspelbaar.
+**Samenstellingen die we als haakjes modelleren mogen als alias:**
 
-### Zaad / Gemalen / Gedroogd / Vers
+* `citroensap` → bij `citroen (sap)`
+* `citroenrasp` → bij `citroen (rasp)`
+* `zwarte peperkorrels` → bij `zwarte peper (korrel)`
 
-| Situatie                                     | Regel     | Voorbeeld                          |
-| -------------------------------------------- | --------- | ---------------------------------- |
-| Ander plantdeel (blad vs zaad, knol vs blad) | **Apart** | koriander + korianderzaad          |
-| Vers vs gedroogd                             | **Apart** | gember + gemberpoeder              |
-| Heel vs gemalen                              | **Apart** | nootmuskaat + gemalen nootmuskaat  |
-| Rasp/sap/schil van fruit                     | **Apart** | citroen + citroenrasp + citroensap |
-
-### Voorbeelden
-
-**Kruiden & specerijen:**
-- koriander ↔ korianderzaad
-- venkel ↔ venkelzaad
-- gember ↔ gemberpoeder
-- knoflook ↔ knoflookpoeder
-- ui ↔ uienpoeder
-- paprika ↔ paprikapoeder
-- kaneel ↔ kaneelstokje
-- nootmuskaat ↔ gemalen nootmuskaat
-- zwarte peper ↔ zwarte peperkorrels
-- witte peper ↔ witte peperkorrels
-- kardemom ↔ gemalen kardemom
-- kruidnagel ↔ gemalen kruidnagel
-
-**Fruit:**
-- citroen ↔ citroenrasp ↔ citroensap
-- limoen ↔ limoenrasp ↔ limoensap
-- sinaasappel ↔ sinaasappelrasp ↔ sinaasappelsap
-
-**Gevogelte:**
-- kip → kip, kipfilet, kippendij, kippenpoot, kippenvleugel, kipgehakt
-
-**Vlees:**
-- varkensvlees → varkensvlees, varkenshaas, varkensfilet, varkensschouder
-- gehakt → gehakt, rundergehakt, varkensgehakt, half-om-half gehakt
-
-**Eieren:**
-- ei, eidooier, eiwit (apart, niet als aliassen)
-
-**Kaas:**
-- mozzarella en buffelmozzarella apart
-- jonge kaas, belegen kaas, oude kaas apart
+**Twijfelregel:** als je twijfelt, maak een apart ingrediënt.
 
 ---
 
-## 5. Labels
+## 4. Dedupliceren & consolideren (hard)
 
-### Veelgemaakte fouten
+Samenvoegen als:
+
+* `name` gelijk is (case-insensitive), of
+* aliases elkaar overlappen (case-insensitive)
+
+Bij merge:
+
+* kies 1 canonieke `name` volgens deze rules
+* behoud beste (kortste/helderste) `description`
+* voeg aliases samen + opschonen
+* fix `pluralName`
+* fix `label`
+
+---
+
+## 5. Splitsen van ingrediënten (hard rule)
+
+### 5.1 Altijd splitsen bij
+
+* Verschillende delen van hetzelfde dier/plant (bv. eiwit vs eidooier)
+* vers vs gedroogd
+* heel vs gemalen
+* sap/rasp/schil
+* duidelijke vormverschillen (korrel/vlokken/stokje)
+
+Dit houdt het voorspelbaar en voorkomt ambiguïteit.
+
+### 5.2 Naamconventie bij splitsen
+
+Gebruik suffix in haakjes:
+
+* `x (vers)`, `x (gedroogd)`
+* `x (heel)`, `x (gemalen)`
+* `x (sap)`, `x (rasp)`, `x (schil)`
+* `x (korrel)`, `x (vlokken)`, `x (stokje)`
+
+Gebruik poeder-samenstellingen als `name` wanneer dat de gangbare productnaam is (zie 2.2).
+
+Verplaats aliases naar het juiste gesplitste item. Verwijder de oude ambigue entry.
+
+### 5.3 Voorbeelden
+
+**Kruiden & specerijen**
+
+* `koriander (vers)` ↔ `koriander (gedroogd)` (alleen als beide nodig zijn)
+* `korianderzaad (heel)` ↔ `korianderzaad (gemalen)`
+* `gember (vers)` ↔ `gemberpoeder`
+* `knoflook (vers)` ↔ `knoflookpoeder`
+* `ui (vers)` ↔ `uienpoeder`
+* `kaneel (stokje)` ↔ `kaneelpoeder`
+* `nootmuskaat (heel)` ↔ `nootmuskaat (gemalen)`
+* `zwarte peper (korrel)` ↔ `zwarte peper (gemalen)` (alias: `zwarte peperkorrels`)
+* `witte peper (korrel)` ↔ `witte peper (gemalen)`
+
+**Citrus**
+
+* `citroen` ↔ `citroen (rasp)` ↔ `citroen (sap)`
+* `limoen` ↔ `limoen (rasp)` ↔ `limoen (sap)`
+* `sinaasappel` ↔ `sinaasappel (rasp)` ↔ `sinaasappel (sap)`
+
+**Eieren**
+
+* `ei`, `eidooier`, `eiwit` (altijd apart)
+
+**Kaas**
+
+* `mozzarella` en `buffelmozzarella` apart
+* `jonge kaas`, `belegen kaas`, `oude kaas` apart (geen aliassen)
+
+---
+
+## 6. Labels
+
+### 6.1 Labelprincipes
+
+1. Label op wat het **IS**, niet op herkomst/toepassing
+
+   * visbouillon → Bouillon & Smaakmakers (niet Vis)
+   * oestersaus → Sauzen & Condimenten (niet Vis)
+
+2. Kaas altijd apart van Zuivel
+
+   * mozzarella, parmigiano → Kaas
+   * melk, yoghurt, room, kokosmelk → Zuivel
+
+3. Zoetwaren = zoete producten inclusief broodbeleg
+
+   * jam, honing, stroop, hagelslag, pindakaas → Zoetwaren
+
+4. Vleeswaren = bewerkt vlees (ook smeerbaar)
+
+   * ham, bacon, salami, paté, leverworst, filet americain → Vleeswaren
+
+### 6.2 Veelgemaakte fouten
 
 | Ingrediënt       | ❌ Fout               | ✅ Goed                 |
 | ---------------- | -------------------- | ---------------------- |
@@ -187,147 +291,135 @@ Geen uitzonderingen. Dit houdt het simpel en voorspelbaar.
 | honing           | Bakproducten         | Zoetwaren              |
 | leverworst       | Vlees                | Vleeswaren             |
 
-### Beschikbare labels (29)
-
----
+### 6.3 Beschikbare labels (29)
 
 #### 🥬 VERS
 
-| #   | Label                     | Omschrijving                  | Voorbeelden                        |
-| --- | ------------------------- | ----------------------------- | ---------------------------------- |
-| 1   | **Groente**               | Verse groenten                | tomaat, ui, wortel, jalapeño       |
-| 2   | **Fruit**                 | Vers en gedroogd fruit        | appel, banaan, rozijnen            |
-| 3   | **Verse kruiden**         | Verse kruiden (niet gedroogd) | basilicum, peterselie, citroengras |
-| 4   | **Aardappelen & Knollen** | Knolgewassen                  | aardappel, knolselderij, radijs    |
-
----
+| #   | Label                 | Omschrijving                  | Voorbeelden                        |
+| --- | --------------------- | ----------------------------- | ---------------------------------- |
+| 1   | Groente               | Verse groenten                | tomaat, ui, wortel, jalapeño       |
+| 2   | Fruit                 | Vers en gedroogd fruit        | appel, banaan, rozijnen            |
+| 3   | Verse kruiden         | Verse kruiden (niet gedroogd) | basilicum, peterselie, citroengras |
+| 4   | Aardappelen & Knollen | Knolgewassen                  | aardappel, knolselderij, radijs    |
 
 #### 🥩 VLEES & VIS
 
-| #   | Label                 | Omschrijving                                 | Voorbeelden                                |
-| --- | --------------------- | -------------------------------------------- | ------------------------------------------ |
-| 5   | **Vlees**             | Rauw vlees (rund, varken, lam)               | biefstuk, gehakt, varkenshaas              |
-| 6   | **Gevogelte**         | Rauw gevogelte                               | kip, kipfilet, eend, kalkoen               |
-| 7   | **Vis & Zeevruchten** | Verse vis en schaaldieren                    | zalm, garnaal, mossel, nori                |
-| 8   | **Vleeswaren**        | Bewerkt vlees (gerookt, gedroogd, smeerbaar) | ham, bacon, salami, spek, paté, leverworst |
-
----
+| #   | Label             | Omschrijving                                 | Voorbeelden                                |
+| --- | ----------------- | -------------------------------------------- | ------------------------------------------ |
+| 5   | Vlees             | Rauw vlees (rund, varken, lam)               | biefstuk, gehakt, varkenshaas              |
+| 6   | Gevogelte         | Rauw gevogelte                               | kip, kipfilet, eend, kalkoen               |
+| 7   | Vis & Zeevruchten | Vis en zeevruchten                           | zalm, garnaal, mossel, nori                |
+| 8   | Vleeswaren        | Bewerkt vlees (gerookt, gedroogd, smeerbaar) | ham, bacon, salami, spek, paté, leverworst |
 
 #### 🧊 GEKOELD
 
-| #   | Label      | Omschrijving              | Voorbeelden                              |
-| --- | ---------- | ------------------------- | ---------------------------------------- |
-| 9   | **Zuivel** | Melkproducten (geen kaas) | melk, yoghurt, room, kokosmelk           |
-| 10  | **Kaas**   | Alle kaassoorten          | gouda, mozzarella, parmigiano, smeerkaas |
-| 11  | **Eieren** | Eieren en delen           | ei, eidooier, eiwit                      |
-
----
+| #   | Label  | Omschrijving              | Voorbeelden                              |
+| --- | ------ | ------------------------- | ---------------------------------------- |
+| 9   | Zuivel | Melkproducten (geen kaas) | melk, yoghurt, room, kokosmelk           |
+| 10  | Kaas   | Alle kaassoorten          | gouda, mozzarella, parmigiano, smeerkaas |
+| 11  | Eieren | Eieren en delen           | ei, eidooier, eiwit                      |
 
 #### 🍞 BROOD & ONTBIJT
 
-| #   | Label             | Omschrijving             | Voorbeelden                    |
-| --- | ----------------- | ------------------------ | ------------------------------ |
-| 12  | **Brood & Gebak** | Brood, deeg, gebak       | brood, croissant, tortilla     |
-| 13  | **Bakproducten**  | Ingrediënten voor bakken | bloem, suiker, bakpoeder, gist |
-| 14  | **Ontbijtgranen** | Granen voor ontbijt      | havermout, muesli              |
-
----
+| #   | Label         | Omschrijving             | Voorbeelden                    |
+| --- | ------------- | ------------------------ | ------------------------------ |
+| 12  | Brood & Gebak | Brood, deeg, gebak       | brood, croissant, tortilla     |
+| 13  | Bakproducten  | Ingrediënten voor bakken | bloem, suiker, bakpoeder, gist |
+| 14  | Ontbijtgranen | Granen voor ontbijt      | havermout, muesli              |
 
 #### 📦 DROOG
 
-| #   | Label                      | Omschrijving          | Voorbeelden                   |
-| --- | -------------------------- | --------------------- | ----------------------------- |
-| 15  | **Pasta, Rijst & Noedels** | Droge koolhydraten    | spaghetti, rijst, ramen, udon |
-| 16  | **Peulvruchten**           | Bonen, linzen, erwten | kikkererwt, linzen, tofu      |
-| 17  | **Noten & Zaden**          | Noten en zaden        | amandel, walnoot, sesamzaad   |
-
----
+| #   | Label                  | Omschrijving          | Voorbeelden                   |
+| --- | ---------------------- | --------------------- | ----------------------------- |
+| 15  | Pasta, Rijst & Noedels | Droge koolhydraten    | spaghetti, rijst, ramen, udon |
+| 16  | Peulvruchten           | Bonen, linzen, erwten | kikkererwt, linzen, tofu      |
+| 17  | Noten & Zaden          | Noten en zaden        | amandel, walnoot, sesamzaad   |
 
 #### 🧂 KRUIDEN & SAUZEN
 
-| #   | Label                      | Omschrijving                    | Voorbeelden                                      |
-| --- | -------------------------- | ------------------------------- | ------------------------------------------------ |
-| 18  | **Kruiden & Specerijen**   | Gedroogde kruiden en specerijen | paprikapoeder, kaneel, laos                      |
-| 19  | **Olie, Azijn & Vet**      | Vetten en zuren                 | olijfolie, balsamico                             |
-| 20  | **Sauzen & Condimenten**   | Sauzen en smaakmakers           | ketchup, sojasaus, sambal, pesto, sandwichspread |
-| 21  | **Bouillon & Smaakmakers** | Bouillon en aroma's             | bouillon, fond, maggi                            |
-
----
+| #   | Label                  | Omschrijving                    | Voorbeelden                                      |
+| --- | ---------------------- | ------------------------------- | ------------------------------------------------ |
+| 18  | Kruiden & Specerijen   | Gedroogde kruiden en specerijen | kaneel, nootmuskaat, paprikapoeder               |
+| 19  | Olie, Azijn & Vet      | Vetten en zuren                 | olijfolie, balsamico                             |
+| 20  | Sauzen & Condimenten   | Sauzen en smaakmakers           | ketchup, sojasaus, sambal, pesto, sandwichspread |
+| 21  | Bouillon & Smaakmakers | Bouillon en aroma's             | bouillon, fond, maggi                            |
 
 #### 🍫 SNACKS & ZOET
 
-| #   | Label         | Omschrijving                                   | Voorbeelden                                         |
-| --- | ------------- | ---------------------------------------------- | --------------------------------------------------- |
-| 22  | **Snacks**    | Hartige tussendoortjes                         | chips, kroepoek, popcorn                            |
-| 23  | **Zoetwaren** | Zoete producten, stropen, jam, zoet broodbeleg | chocolade, snoep, jam, honing, pindakaas, hagelslag |
-
----
+| #   | Label     | Omschrijving                                   | Voorbeelden                                         |
+| --- | --------- | ---------------------------------------------- | --------------------------------------------------- |
+| 22  | Snacks    | Hartige tussendoortjes                         | chips, kroepoek, popcorn                            |
+| 23  | Zoetwaren | Zoete producten, stropen, jam, zoet broodbeleg | chocolade, snoep, jam, honing, pindakaas, hagelslag |
 
 #### 🥤 DRANKEN
 
-| #   | Label                       | Omschrijving              | Voorbeelden                  |
-| --- | --------------------------- | ------------------------- | ---------------------------- |
-| 24  | **Dranken**                 | Frisdrank, sap, water     | cola, sinaasappelsap, tonic  |
-| 25  | **Wijn**                    | Wijn en versterkte wijn   | rode wijn, sherry, port      |
-| 26  | **Bier**                    | Alle biersoorten          | pils, witbier, IPA           |
-| 27  | **Sterke drank & Likeuren** | Gedistilleerd en likeuren | rum, whisky, cointreau       |
-| 28  | **Koffie & Thee**           | Warme dranken             | koffie, groene thee, rooibos |
-
----
+| #   | Label                   | Omschrijving              | Voorbeelden                  |
+| --- | ----------------------- | ------------------------- | ---------------------------- |
+| 24  | Dranken                 | Frisdrank, sap, water     | cola, sinaasappelsap, tonic  |
+| 25  | Wijn                    | Wijn en versterkte wijn   | rode wijn, sherry, port      |
+| 26  | Bier                    | Alle biersoorten          | pils, witbier, IPA           |
+| 27  | Sterke drank & Likeuren | Gedistilleerd en likeuren | rum, whisky, cointreau       |
+| 28  | Koffie & Thee           | Warme dranken             | koffie, groene thee, rooibos |
 
 #### 📍 OVERIG
 
-| #   | Label      | Omschrijving     | Voorbeelden    |
-| --- | ---------- | ---------------- | -------------- |
-| 29  | **Overig** | Niet in te delen | havermoutvlees |
+| #   | Label  | Omschrijving     | Voorbeelden |
+| --- | ------ | ---------------- | ----------- |
+| 29  | Overig | Niet in te delen | divers      |
 
 ---
 
-### Labelprincipes
+## 7. Beschrijvingen (`description`)
 
-1. **Label op wat het IS**, niet waar het vandaan komt
-   - visbouillon → Bouillon (niet Vis)
-   - oestersaus → Sauzen (niet Vis)
+### Formaat (vast)
 
-2. **Kaas altijd apart van Zuivel**
-   - mozzarella, parmigiano, smeerkaas → Kaas
-   - yoghurt, kokosmelk → Zuivel
-
-3. **Zoetwaren = zoete producten inclusief broodbeleg**
-   - jam, honing, stropen, hagelslag, pindakaas → Zoetwaren
-   - chocolade, snoep → Zoetwaren
-
-4. **Vleeswaren = bewerkt vlees (ook smeerbaar)**
-   - ham, bacon, salami → Vleeswaren
-   - paté, leverworst, filet americain → Vleeswaren
-
----
-
-## 6. Beschrijvingen
-
-### Formaat
 `[Korte definitie]; [gebruik/bereiding].`
 
-### Voorbeelden
-- "Donkere saus van oesterextract; hartige smaakmaker in Chinese keuken."
-- "Vette vis; roze vlees, veelzijdig te bereiden."
-- "Kruidenmix voor cajungerechten; pittig met paprika en cayenne."
-
 ### Richtlijnen
-- Houd beschrijvingen kort en informatief
-- Vermeld kenmerkende eigenschappen
-- Noem typisch gebruik waar relevant
+
+* Kort, informatief, geen marketing
+* Richtlijn: < ~80 tekens (conservatief)
+* Noem 1 kenmerk + 1 typische toepassing
+
+### Voorbeelden
+
+* Donkere saus van oesterextract; hartige smaakmaker in Aziatische keuken.
+* Vette vis; veelzijdig te bereiden.
+* Kruidenmix voor cajungerechten; pittig met paprika en cayenne.
 
 ---
 
-## 7. Samenvatting checklijst
+## 8. Output-stappen (altijd uitvoeren)
 
-Voordat je een ingrediënt toevoegt, check:
+1. Valideren & normaliseren
 
-- [ ] Is het een ingrediënt (geen bereiding/gerecht)?
-- [ ] Is de primaire naam Nederlands?
-- [ ] Zijn aliassen echte synoniemen (geen varianten, meervoud van `name` hoort in `pluralName`)?
-- [ ] Staat het in het juiste label?
-- [ ] Bestaat het niet al (check ook aliassen)?
-- [ ] Is het geen merknaam?
-- [ ] Is vers/gedroogd of heel/gemalen correct gesplitst?
+   * `aliases` bestaat altijd (minstens `[]`)
+   * trim & dedupe aliases (case-insensitive)
+2. Dedupliceren & consolideren
+
+   * merge op `name` en alias-overlap
+3. Splitsen waar nodig
+
+   * vervang mix-items door eenduidige items
+4. Verbeteren
+
+   * fix pluralName, label, description-format
+5. Uitbreiden (conservatief, binnen scope)
+
+   * alleen veelvoorkomende ingrediënten passend bij de categorie
+6. Sorteren
+
+   * alfabetisch op `name` voor stabiele diffs
+
+---
+
+## 9. Checklijst
+
+* [ ] Is het een ingrediënt (geen bereiding/gerecht)?
+* [ ] Is `name` gangbaar Nederlands en enkelvoud?
+* [ ] Is de vorm/toestand correct en niet ambigu?
+* [ ] Is poeder als productnaam gebruikt waar dat gangbaar is (bv. knoflookpoeder)?
+* [ ] Zijn aliases echte synoniemen/spellingvarianten (geen varianten/afgeleiden)?
+* [ ] Staat het in het juiste label (uit de vaste lijst)?
+* [ ] Bestaat het niet al (check ook alias-overlap)?
+* [ ] Is `description` kort en in het vaste formaat?

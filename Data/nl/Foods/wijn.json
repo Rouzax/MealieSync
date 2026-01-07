@@ -288,6 +288,340 @@
         }
       ],
       "label": "Wijn"
+    },
+    {
+      "name": "chardonnay",
+      "pluralName": "chardonnay",
+      "description": "Volle witte wijn; bij romige sauzen en kip.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "sauvignon blanc",
+      "pluralName": "sauvignon blanc",
+      "description": "Frisse witte wijn; bij vis, salades en sauzen.",
+      "aliases": [
+        {
+          "name": "sauvignon-blanc"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "pinot grigio",
+      "pluralName": "pinot grigio",
+      "description": "Lichte witte wijn; neutraal, voor risotto en vis.",
+      "aliases": [
+        {
+          "name": "pinot gris"
+        },
+        {
+          "name": "pinotgrigio"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "viognier",
+      "pluralName": "viognier",
+      "description": "Aromatische witte wijn; bij kruidige kip en roomsaus.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "chenin blanc",
+      "pluralName": "chenin blanc",
+      "description": "Witte wijn, droog tot zoet; bij vis en sauzen.",
+      "aliases": [
+        {
+          "name": "chenin-blanc"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "verdejo",
+      "pluralName": "verdejo",
+      "description": "Spaanse frisse witte wijn; bij tapas en zeevruchten.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "albariño",
+      "pluralName": "albariño",
+      "description": "Aromatische witte wijn; bij schelp- en schaaldieren.",
+      "aliases": [
+        {
+          "name": "albarino"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "grüner veltliner",
+      "pluralName": "grüner veltliner",
+      "description": "Oostenrijkse witte wijn; peperig, bij asperges.",
+      "aliases": [
+        {
+          "name": "gruner veltliner"
+        },
+        {
+          "name": "gruner-veltliner"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "gewürztraminer",
+      "pluralName": "gewürztraminer",
+      "description": "Aromatische witte wijn; bij Aziatisch en pittig eten.",
+      "aliases": [
+        {
+          "name": "gewurztraminer"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "mousserende wijn",
+      "pluralName": "mousserende wijn",
+      "description": "Mousserende wijn; voor sabayon of feestelijk aperitief.",
+      "aliases": [
+        {
+          "name": "sparkling wine"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "pinot noir",
+      "pluralName": "pinot noir",
+      "description": "Elegante rode wijn; bij paddenstoelen en gevogelte.",
+      "aliases": [
+        {
+          "name": "pinot-noir"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "merlot",
+      "pluralName": "merlot",
+      "description": "Zachte rode wijn; bij pasta, stoof en sauzen.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "cabernet sauvignon",
+      "pluralName": "cabernet sauvignon",
+      "description": "Krachtige rode wijn; bij rood vlees en sauzen.",
+      "aliases": [
+        {
+          "name": "cabernet-sauvignon"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "syrah",
+      "pluralName": "syrah",
+      "description": "Kruidige rode wijn; bij barbecue, lam en stoof.",
+      "aliases": [
+        {
+          "name": "shiraz"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "malbec",
+      "pluralName": "malbec",
+      "description": "Donkere rode wijn; bij gegrild vlees en stevige sauzen.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "tempranillo",
+      "pluralName": "tempranillo",
+      "description": "Spaanse rode wijn; bij tapas, stoof en paella.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "sangiovese",
+      "pluralName": "sangiovese",
+      "description": "Italiaanse rode wijn; bij tomatensaus en pasta.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "grenache",
+      "pluralName": "grenache",
+      "description": "Fruitige rode wijn; in blends, bij stoof en grill.",
+      "aliases": [
+        {
+          "name": "garnacha"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "zinfandel",
+      "pluralName": "zinfandel",
+      "description": "Rijke rode wijn; bij barbecue en pittig eten.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "primitivo",
+      "pluralName": "primitivo",
+      "description": "Italiaanse rode wijn; vol en fruitig, bij barbecue.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "barbera",
+      "pluralName": "barbera",
+      "description": "Italiaanse rode wijn; fris zuur, bij pasta en ragù.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "nebbiolo",
+      "pluralName": "nebbiolo",
+      "description": "Tanninerijke rode wijn; bij wild en truffel.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "chianti",
+      "pluralName": "chianti",
+      "description": "Toscaanse rode wijn; bij pasta en tomatengerechten.",
+      "aliases": [
+        {
+          "name": "chianti classico"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "rioja",
+      "pluralName": "rioja",
+      "description": "Spaanse rode wijn; vaak op eiken, bij lam en tapas.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "côtes du rhône",
+      "pluralName": "côtes du rhône",
+      "description": "Franse wijn uit de Rhône; vaak rood, bij stoof en grill.",
+      "aliases": [
+        {
+          "name": "cotes du rhone"
+        },
+        {
+          "name": "cotes-du-rhone"
+        },
+        {
+          "name": "cotes du rhône"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "beaujolais",
+      "pluralName": "beaujolais",
+      "description": "Lichte Franse rode wijn; bij kip, paté en charcuterie.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "barolo",
+      "pluralName": "barolo",
+      "description": "Italiaanse rode wijn (nebbiolo); bij wild en truffel.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "lambrusco",
+      "pluralName": "lambrusco",
+      "description": "Italiaanse (licht) mousserende rode wijn; bij pizza.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "franciacorta",
+      "pluralName": "franciacorta",
+      "description": "Italiaanse mousserende wijn; droge bubbels.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "moscato d'asti",
+      "pluralName": "moscato d'asti",
+      "description": "Zoet, licht mousserend; als dessert of bij fruit.",
+      "aliases": [
+        {
+          "name": "moscato d asti"
+        },
+        {
+          "name": "moscato d’asti"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "tokaji",
+      "pluralName": "tokaji",
+      "description": "Hongaarse zoete wijn; bij desserts en blauwe kaas.",
+      "aliases": [
+        {
+          "name": "tokaj"
+        },
+        {
+          "name": "tokaj aszú"
+        },
+        {
+          "name": "tokaj aszu"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "mirin",
+      "pluralName": "mirin",
+      "description": "Japanse zoete rijstwijn; voor teriyaki en marinades.",
+      "aliases": [
+        {
+          "name": "mirinwijn"
+        },
+        {
+          "name": "mirin wijn"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "droge witte wijn",
+      "pluralName": "droge witte wijn",
+      "description": "Droge witte wijn; basis voor risotto en witte sauzen.",
+      "aliases": [
+        {
+          "name": "dry white wine"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "droge rode wijn",
+      "pluralName": "droge rode wijn",
+      "description": "Droge rode wijn; voor stoof, jus en rode saus.",
+      "aliases": [
+        {
+          "name": "dry red wine"
+        }
+      ],
+      "label": "Wijn"
     }
   ]
 }

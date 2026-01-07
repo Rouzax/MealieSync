@@ -229,6 +229,208 @@
         }
       ],
       "label": "Gevogelte"
-    }
+    },
+      {
+    "name": "kiphaas",
+    "pluralName": "kiphaasjes",
+    "description": "Gevogelte; mals haasje, snel te bakken of te grillen.",
+    "aliases": [
+      { "name": "kiphaasje" },
+      { "name": "chicken tender" },
+      { "name": "chicken tenders" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kippenboutfilet",
+    "pluralName": "kippenboutfilets",
+    "description": "Gevogelte; ontbeende bout, sappig vlees voor wok of oven.",
+    "aliases": [
+      { "name": "kipboutfilet" },
+      { "name": "kipboutfilets" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kippenhart",
+    "pluralName": "kippenharten",
+    "description": "Gevogelte; hartjes, kort gebakken of gestoofd.",
+    "aliases": [
+      { "name": "kiphart" },
+      { "name": "kipharten" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kippenmaag",
+    "pluralName": "kippenmagen",
+    "description": "Gevogelte; maagjes, langzaam gestoofd of gebakken.",
+    "aliases": [
+      { "name": "kippenmaagjes" },
+      { "name": "kipmaag" },
+      { "name": "kipmaagjes" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kippennek",
+    "pluralName": "kippennekken",
+    "description": "Gevogelte; nek, voor bouillon, ragout of stoof.",
+    "aliases": [
+      { "name": "kipnek" },
+      { "name": "kipnekken" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kipkarkas",
+    "pluralName": "kipkarkassen",
+    "description": "Gevogelte; karkas/botten, basis voor bouillon en fond.",
+    "aliases": [
+      { "name": "kippenkarkas" },
+      { "name": "kippenkarkassen" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "eendenlever",
+    "pluralName": "eendenlevers",
+    "description": "Gevogelte; lever van eend, voor pat\u00e9 of gebakken.",
+    "aliases": [
+      { "name": "eendlever" },
+      { "name": "eendlevers" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "eendenvleugel",
+    "pluralName": "eendenvleugels",
+    "description": "Gevogelte; vleugel van eend, voor oven, confit of bouillon.",
+    "aliases": [
+      { "name": "eendvleugel" },
+      { "name": "eendvleugels" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "eendenkarkas",
+    "pluralName": "eendenkarkassen",
+    "description": "Gevogelte; karkas van eend, voor bouillon en saus.",
+    "aliases": [
+      { "name": "eendkarkas" },
+      { "name": "eendkarkassen" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "ganzenlever",
+    "pluralName": "ganzenlevers",
+    "description": "Gevogelte; lever van gans, voor pat\u00e9 of gebakken.",
+    "aliases": [
+      { "name": "ganslever" },
+      { "name": "ganslevers" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "ganzenborst",
+    "pluralName": "ganzenborsten",
+    "description": "Gevogelte; borst van gans, vetrijk en smaakvol.",
+    "aliases": [
+      { "name": "gansborst" },
+      { "name": "gansborsten" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "ganzenbout",
+    "pluralName": "ganzenbouten",
+    "description": "Gevogelte; bout van gans, ideaal voor langzaam garen.",
+    "aliases": [
+      { "name": "gansbout" },
+      { "name": "gansbouten" },
+      { "name": "ganzenpoot" },
+      { "name": "ganzenpoten" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "ganzenvleugel",
+    "pluralName": "ganzenvleugels",
+    "description": "Gevogelte; vleugel van gans, voor oven of bouillon.",
+    "aliases": [
+      { "name": "gansvleugel" },
+      { "name": "gansvleugels" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "ganzenkarkas",
+    "pluralName": "ganzenkarkassen",
+    "description": "Gevogelte; karkas van gans, basis voor bouillon en fond.",
+    "aliases": [
+      { "name": "ganskarkas" },
+      { "name": "ganskarkassen" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kalkoenpoot",
+    "pluralName": "kalkoenpoten",
+    "description": "Gevogelte; grote poot/drumstick, sappig bij langzaam garen.",
+    "aliases": [
+      { "name": "kalkoendrumstick" },
+      { "name": "kalkoendrumsticks" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kalkoenlever",
+    "pluralName": "kalkoenlevers",
+    "description": "Gevogelte; lever van kalkoen, voor pat\u00e9 of gebakken.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kalkoenvleugel",
+    "pluralName": "kalkoenvleugels",
+    "description": "Gevogelte; vleugel van kalkoen, voor oven of bouillon.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kalkoennek",
+    "pluralName": "kalkoennekken",
+    "description": "Gevogelte; nek van kalkoen, voor bouillon of stoof.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "kalkoenkarkas",
+    "pluralName": "kalkoenkarkassen",
+    "description": "Gevogelte; karkas van kalkoen, basis voor bouillon en fond.",
+    "aliases": [],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "patrijs",
+    "pluralName": "patrijzen",
+    "description": "Gevogelte; kleine wildvogel met fijne wildsmaak, gebraden.",
+    "aliases": [
+      { "name": "partridge" },
+      { "name": "partridges" }
+    ],
+    "label": "Gevogelte"
+  },
+  {
+    "name": "soepkip",
+    "pluralName": "soepkippen",
+    "description": "Gevogelte; oude kip, stevig vlees, ideaal voor bouillon.",
+    "aliases": [
+      { "name": "stewing hen" },
+      { "name": "bouillonkip" }
+    ],
+    "label": "Gevogelte"
+  }
   ]
 }

@@ -4,6 +4,26 @@
   "$version": "1.0",
   "items": [
     {
+      "name": "adzukiboon",
+      "pluralName": "adzukibonen",
+      "description": "Kleine rode Aziatische boon; voor zoete pasta en soepen.",
+      "aliases": [
+        {
+          "name": "azuki"
+        },
+        {
+          "name": "azukiboon"
+        },
+        {
+          "name": "azukibonen"
+        },
+        {
+          "name": "adzuki"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
       "name": "belugalinze",
       "pluralName": "belugalinzen",
       "description": "Kleine zwarte linzen; behouden vorm goed, voor salades.",
@@ -47,7 +67,20 @@
       "name": "doperwt",
       "pluralName": "doperwten",
       "description": "Jonge groene erwten; zoet en fris, vers of diepvries.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "groene erwt"
+        },
+        {
+          "name": "groene erwten"
+        },
+        {
+          "name": "tuinerwt"
+        },
+        {
+          "name": "tuinerwten"
+        }
+      ],
       "label": "Peulvruchten"
     },
     {
@@ -58,15 +91,21 @@
       "label": "Peulvruchten"
     },
     {
-      "name": "erwt",
-      "pluralName": "erwten",
-      "description": "Groene peulvrucht; vers of gedroogd, voor soep en puree.",
+      "name": "gele erwt (gedroogd)",
+      "pluralName": "gele erwten (gedroogd)",
+      "description": "Gedroogde gele erwt; voor soep en puree.",
       "aliases": [
         {
-          "name": "tuinerwt"
+          "name": "gedroogde gele erwt"
         },
         {
-          "name": "tuinerwten"
+          "name": "gedroogde gele erwten"
+        },
+        {
+          "name": "gele erwt"
+        },
+        {
+          "name": "gele erwten"
         }
       ],
       "label": "Peulvruchten"
@@ -91,6 +130,18 @@
       "description": "Rode niervormige boon; voor chili con carne en Mexicaans.",
       "aliases": [
         {
+          "name": "kidney bean"
+        },
+        {
+          "name": "kidney beans"
+        },
+        {
+          "name": "kidneybean"
+        },
+        {
+          "name": "kidneybeans"
+        },
+        {
           "name": "rode boon"
         },
         {
@@ -103,7 +154,23 @@
       "name": "kikkererwt",
       "pluralName": "kikkererwten",
       "description": "Ronde beige peulvrucht; voor hummus, falafel en curry.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "garbanzo"
+        },
+        {
+          "name": "garbanzo bean"
+        },
+        {
+          "name": "garbanzo beans"
+        },
+        {
+          "name": "garbanzoboon"
+        },
+        {
+          "name": "garbanzobonen"
+        }
+      ],
       "label": "Peulvruchten"
     },
     {
@@ -124,14 +191,48 @@
       "name": "linze",
       "pluralName": "linzen",
       "description": "Eiwitrijke peulvrucht; in diverse kleuren, voor soep en stoofpotten.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "lentil"
+        },
+        {
+          "name": "lentils"
+        }
+      ],
       "label": "Peulvruchten"
     },
     {
       "name": "mungboon",
       "pluralName": "mungbonen",
       "description": "Kleine groene boon; basis voor taugé en glasnoedels.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "mung bean"
+        },
+        {
+          "name": "mung beans"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "pintoboon",
+      "pluralName": "pintobonen",
+      "description": "Beige boon met bruine vlekken; voor chili en bonenpuree.",
+      "aliases": [
+        {
+          "name": "pinto bean"
+        },
+        {
+          "name": "pinto beans"
+        },
+        {
+          "name": "pinto boon"
+        },
+        {
+          "name": "pinto bonen"
+        }
+      ],
       "label": "Peulvruchten"
     },
     {
@@ -162,6 +263,27 @@
       "aliases": [
         {
           "name": "soja"
+        },
+        {
+          "name": "soya bean"
+        },
+        {
+          "name": "soya beans"
+        },
+        {
+          "name": "soy bean"
+        },
+        {
+          "name": "soy beans"
+        },
+        {
+          "name": "soyabean"
+        },
+        {
+          "name": "soyaboon"
+        },
+        {
+          "name": "soybeans"
         }
       ],
       "label": "Peulvruchten"
@@ -176,10 +298,13 @@
     {
       "name": "tempeh",
       "pluralName": "tempeh",
-      "description": "Gefermenteerde sojakoek; stevige vleesvervanger, gebakken of gemarineerd.",
+      "description": "Gefermenteerde sojakoek; stevige vleesvervanger om te bakken.",
       "aliases": [
         {
           "name": "tempé"
+        },
+        {
+          "name": "tempe"
         }
       ],
       "label": "Peulvruchten"
