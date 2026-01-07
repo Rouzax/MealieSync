@@ -1,0 +1,370 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Tools",
+  "$version": "1.0",
+  "items": [
+    {
+      "name": "Oven"
+    },
+    {
+      "name": "Combioven"
+    },
+    {
+      "name": "Stoomoven"
+    },
+    {
+      "name": "Magnetron"
+    },
+    {
+      "name": "Airfryer"
+    },
+    {
+      "name": "Blender"
+    },
+    {
+      "name": "Staafmixer"
+    },
+    {
+      "name": "Keukenmachine / Foodprocessor"
+    },
+    {
+      "name": "Handmixer"
+    },
+    {
+      "name": "Keukenmixer (standmixer)"
+    },
+    {
+      "name": "Slowcooker"
+    },
+    {
+      "name": "Snelkookpan (Instant Pot)"
+    },
+    {
+      "name": "Wok"
+    },
+    {
+      "name": "Koekenpan"
+    },
+    {
+      "name": "Braadpan (Dutch oven)"
+    },
+    {
+      "name": "Grillpan"
+    },
+    {
+      "name": "Steelpan"
+    },
+    {
+      "name": "Soeppan"
+    },
+    {
+      "name": "Hapjespan"
+    },
+    {
+      "name": "Bakplaat"
+    },
+    {
+      "name": "Ovenschaal"
+    },
+    {
+      "name": "Springvorm"
+    },
+    {
+      "name": "Taartvorm"
+    },
+    {
+      "name": "Muffinvorm"
+    },
+    {
+      "name": "BBQ/Grill"
+    },
+    {
+      "name": "Plancha"
+    },
+    {
+      "name": "Sous-vide"
+    },
+    {
+      "name": "Thermomix"
+    },
+    {
+      "name": "Broodbakmachine"
+    },
+    {
+      "name": "Wafelijzer"
+    },
+    {
+      "name": "Tosti-ijzer"
+    },
+    {
+      "name": "Rijstkoker"
+    },
+    {
+      "name": "Stoommandje / Stomer"
+    },
+    {
+      "name": "Pizzasteen"
+    },
+    {
+      "name": "Pastamachine"
+    },
+    {
+      "name": "IJsmachine"
+    },
+    {
+      "name": "Fondueset"
+    },
+    {
+      "name": "Raclette"
+    },
+    {
+      "name": "Gourmetset"
+    },
+    {
+      "name": "Frituurpan"
+    },
+    {
+      "name": "Spiraalsnijder"
+    },
+    {
+      "name": "Mandoline"
+    },
+    {
+      "name": "Vijzel"
+    },
+    {
+      "name": "Citruspers"
+    },
+    {
+      "name": "Sapcentrifuge"
+    },
+    {
+      "name": "Slowjuicer"
+    },
+    {
+      "name": "Deegroller"
+    },
+    {
+      "name": "Keukenweegschaal"
+    },
+    {
+      "name": "Vleesthermometer"
+    },
+    {
+      "name": "Vergiet"
+    },
+    {
+      "name": "Zeef"
+    },
+    {
+      "name": "Rasp"
+    },
+    {
+      "name": "Knoflookpers"
+    },
+    {
+      "name": "Garde"
+    },
+    {
+      "name": "Spatel"
+    },
+    {
+      "name": "Pollepel"
+    },
+    {
+      "name": "Schuimspaan"
+    },
+    {
+      "name": "Koffiezetapparaat"
+    },
+    {
+      "name": "Espressomachine"
+    },
+    {
+      "name": "Waterkoker"
+    },
+    {
+      "name": "Snijplank"
+    },
+    {
+      "name": "Chefmes"
+    },
+    {
+      "name": "Schilmes"
+    },
+    {
+      "name": "Broodmes"
+    },
+    {
+      "name": "Keukenschaar"
+    },
+    {
+      "name": "Dunschiller"
+    },
+    {
+      "name": "Microplane / Zesteur"
+    },
+    {
+      "name": "Maatlepels"
+    },
+    {
+      "name": "Maatbekers"
+    },
+    {
+      "name": "Mengkommen"
+    },
+    {
+      "name": "Tang"
+    },
+    {
+      "name": "Deegschraper (bench scraper)"
+    },
+    {
+      "name": "Deegkrabber (siliconen)"
+    },
+    {
+      "name": "Spuitzak"
+    },
+    {
+      "name": "Spuitmondjes"
+    },
+    {
+      "name": "Kookwekker"
+    },
+    {
+      "name": "Ovenhandschoenen"
+    },
+    {
+      "name": "Pincet (keukenpincet)"
+    },
+    {
+      "name": "Cakevorm"
+    },
+    {
+      "name": "Tulbandvorm"
+    },
+    {
+      "name": "Broodvorm"
+    },
+    {
+      "name": "Baguetteplaat"
+    },
+    {
+      "name": "Siliconen bakmat"
+    },
+    {
+      "name": "Afkoelrek (rooster)"
+    },
+    {
+      "name": "Bakpapiersnijder / dispenser"
+    },
+    {
+      "name": "Deegprikker"
+    },
+    {
+      "name": "Deegsnijder / pizza cutter (kartel)"
+    },
+    {
+      "name": "Paletmes"
+    },
+    {
+      "name": "Taartrooster"
+    },
+    {
+      "name": "Keukenbrander (crème brûlée)"
+    },
+    {
+      "name": "Decoratiekam / deegkam"
+    },
+    {
+      "name": "Pastadroogrek"
+    },
+    {
+      "name": "Raviolivorm / raviolipers"
+    },
+    {
+      "name": "Gnocchiplank"
+    },
+    {
+      "name": "Pizzaschep"
+    },
+    {
+      "name": "Pizzasnijder (wiel)"
+    },
+    {
+      "name": "Pizzaschaar"
+    },
+    {
+      "name": "Pizzastalen bakplaat"
+    },
+    {
+      "name": "Bamboe stoommand"
+    },
+    {
+      "name": "Steamer insert (bamboo/metal)"
+    },
+    {
+      "name": "Noedelzeef / spider strainer"
+    },
+    {
+      "name": "Wokspaan"
+    },
+    {
+      "name": "Wokring"
+    },
+    {
+      "name": "Kadai (Indiase wok)"
+    },
+    {
+      "name": "Tawa (platte bakplaat)"
+    },
+    {
+      "name": "Idli-stomer"
+    },
+    {
+      "name": "Specerijenmolen"
+    },
+    {
+      "name": "Koffiemolen (voor specerijen)"
+    },
+    {
+      "name": "Tortillapers"
+    },
+    {
+      "name": "Comal (platte bakplaat)"
+    },
+    {
+      "name": "Tortillawarmer"
+    },
+    {
+      "name": "Molcajete (vulkanische vijzel)"
+    },
+    {
+      "name": "Taco-houder"
+    },
+    {
+      "name": "Crêpepan"
+    },
+    {
+      "name": "Ramekins (ovenschaaltjes)"
+    },
+    {
+      "name": "Passe-vite (groentemolen)"
+    },
+    {
+      "name": "Kookring / serveerring"
+    },
+    {
+      "name": "Weckketel"
+    },
+    {
+      "name": "Fermentatiepot / waterslotpot"
+    },
+    {
+      "name": "Vacumeermachine"
+    },
+    {
+      "name": "Vacuümzakken (sous-vide)"
+    }
+  ]
+}

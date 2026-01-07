@@ -1,0 +1,293 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "name": "amontillado",
+      "pluralName": "amontillado",
+      "description": "Medium droge sherry; amberkleurig, nootachtig.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "cava",
+      "pluralName": "cava",
+      "description": "Spaanse mousserende wijn; alternatief voor champagne.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "champagne",
+      "pluralName": "champagne",
+      "description": "Franse mousserende wijn uit Champagne; feestelijk aperitief.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "crémant",
+      "pluralName": "crémant",
+      "description": "Franse mousserende wijn buiten Champagne; fijne bubbels.",
+      "aliases": [
+        {
+          "name": "cremant"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "droge vermout",
+      "pluralName": "droge vermout",
+      "description": "Gekruide versterkte wijn; voor cocktails en vissauzen.",
+      "aliases": [
+        {
+          "name": "dry vermouth"
+        },
+        {
+          "name": "witte vermout"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "eiswein",
+      "pluralName": "eiswein",
+      "description": "Duitse ijswijn; zeer zoet, van bevroren druiven.",
+      "aliases": [
+        {
+          "name": "ice wine"
+        },
+        {
+          "name": "ijswijn"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "fino",
+      "pluralName": "fino",
+      "description": "Droge lichte sherry; als aperitief of bij tapas.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "kookwijn",
+      "pluralName": "kookwijn",
+      "description": "Wijn voor koken; goedkoop alternatief, vaak gezouten.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "madeira",
+      "pluralName": "madeira",
+      "description": "Portugese versterkte wijn; voor sauzen en desserts.",
+      "aliases": [
+        {
+          "name": "madeirawijn"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "marsala",
+      "pluralName": "marsala",
+      "description": "Italiaanse versterkte wijn; voor tiramisu en sauzen.",
+      "aliases": [
+        {
+          "name": "marsalawijn"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "muskaatwijn",
+      "pluralName": "muskaatwijn",
+      "description": "Zoete wijn van muskaatdruiven; als dessertwijn.",
+      "aliases": [
+        {
+          "name": "moscatel"
+        },
+        {
+          "name": "muscat"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "oloroso",
+      "pluralName": "oloroso",
+      "description": "Volle droge sherry; donker en krachtig.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "pedro ximénez",
+      "pluralName": "pedro ximénez",
+      "description": "Zoete donkere sherry; stroperig, voor desserts.",
+      "aliases": [
+        {
+          "name": "pedro ximenez"
+        },
+        {
+          "name": "px"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "pineau des charentes",
+      "pluralName": "pineau des charentes",
+      "description": "Franse aperitiefwijn met cognac; zoet en fruitig.",
+      "aliases": [
+        {
+          "name": "pineau de charentes"
+        },
+        {
+          "name": "pineau"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "port",
+      "pluralName": "port",
+      "description": "Portugese versterkte wijn; zoet, als digestief of in sauzen.",
+      "aliases": [
+        {
+          "name": "portwijn"
+        },
+        {
+          "name": "porto"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "prosecco",
+      "pluralName": "prosecco",
+      "description": "Italiaanse mousserende wijn; licht en fris.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "riesling",
+      "pluralName": "riesling",
+      "description": "Aromatische witte wijn; droog tot zoet, uit Duitsland.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "rode vermout",
+      "pluralName": "rode vermout",
+      "description": "Zoete gekruide versterkte wijn; voor cocktails.",
+      "aliases": [
+        {
+          "name": "sweet vermouth"
+        },
+        {
+          "name": "zoete vermout"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "rode wijn",
+      "pluralName": "rode wijn",
+      "description": "Wijn van blauwe druiven; voor drinken of koken.",
+      "aliases": [
+        {
+          "name": "rodewijn"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "rosé",
+      "pluralName": "rosé",
+      "description": "Lichtroze wijn; fris, voor drinken of koken.",
+      "aliases": [
+        {
+          "name": "rose"
+        },
+        {
+          "name": "roséwijn"
+        },
+        {
+          "name": "rosewijn"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "saké",
+      "pluralName": "saké",
+      "description": "Japanse rijstwijn; warm of koud, ook voor marinades.",
+      "aliases": [
+        {
+          "name": "sake"
+        },
+        {
+          "name": "nihonshu"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "sauternes",
+      "pluralName": "sauternes",
+      "description": "Franse zoete wijn; edele rotting, voor foie gras en desserts.",
+      "aliases": [],
+      "label": "Wijn"
+    },
+    {
+      "name": "shaoxing",
+      "pluralName": "shaoxing",
+      "description": "Chinese rijstwijn; voor roerbak en marinades.",
+      "aliases": [
+        {
+          "name": "shaoxing wijn"
+        },
+        {
+          "name": "shaohsing"
+        },
+        {
+          "name": "chinese rijstwijn"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "sherry",
+      "pluralName": "sherry",
+      "description": "Spaanse versterkte wijn; droog tot zoet, voor koken of drinken.",
+      "aliases": [
+        {
+          "name": "jerez"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "vin santo",
+      "pluralName": "vin santo",
+      "description": "Italiaanse dessertwijn; bij biscotti gedoopt.",
+      "aliases": [
+        {
+          "name": "vinsanto"
+        }
+      ],
+      "label": "Wijn"
+    },
+    {
+      "name": "witte wijn",
+      "pluralName": "witte wijn",
+      "description": "Wijn van witte druiven; voor drinken of koken.",
+      "aliases": [
+        {
+          "name": "wittewijn"
+        }
+      ],
+      "label": "Wijn"
+    }
+  ]
+}

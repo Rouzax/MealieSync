@@ -1,0 +1,123 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Labels",
+  "$version": "1.0",
+  "items": [
+    {
+      "name": "Groente",
+      "color": "#4CAF50"
+    },
+    {
+      "name": "Fruit",
+      "color": "#8BC34A"
+    },
+    {
+      "name": "Verse kruiden",
+      "color": "#2E7D32"
+    },
+    {
+      "name": "Aardappelen & Knollen",
+      "color": "#8D6E63"
+    },
+    {
+      "name": "Vlees",
+      "color": "#E53935"
+    },
+    {
+      "name": "Gevogelte",
+      "color": "#F48FB1"
+    },
+    {
+      "name": "Vis & Zeevruchten",
+      "color": "#1E88E5"
+    },
+    {
+      "name": "Vleeswaren",
+      "color": "#C62828"
+    },
+    {
+      "name": "Zuivel",
+      "color": "#FFF9C4"
+    },
+    {
+      "name": "Kaas",
+      "color": "#FFB300"
+    },
+    {
+      "name": "Eieren",
+      "color": "#FFEE58"
+    },
+    {
+      "name": "Brood & Gebak",
+      "color": "#A1887F"
+    },
+    {
+      "name": "Bakproducten",
+      "color": "#D7CCC8"
+    },
+    {
+      "name": "Ontbijtgranen",
+      "color": "#FFCA28"
+    },
+    {
+      "name": "Pasta, Rijst & Noedels",
+      "color": "#FFD54F"
+    },
+    {
+      "name": "Peulvruchten",
+      "color": "#689F38"
+    },
+    {
+      "name": "Noten & Zaden",
+      "color": "#827717"
+    },
+    {
+      "name": "Kruiden & Specerijen",
+      "color": "#7B1FA2"
+    },
+    {
+      "name": "Olie, Azijn & Vet",
+      "color": "#F9A825"
+    },
+    {
+      "name": "Sauzen & Condimenten",
+      "color": "#D81B60"
+    },
+    {
+      "name": "Bouillon & Smaakmakers",
+      "color": "#AB47BC"
+    },
+    {
+      "name": "Snacks",
+      "color": "#FFAB91"
+    },
+    {
+      "name": "Zoetwaren",
+      "color": "#EC407A"
+    },
+    {
+      "name": "Dranken",
+      "color": "#29B6F6"
+    },
+    {
+      "name": "Wijn",
+      "color": "#880E4F"
+    },
+    {
+      "name": "Bier",
+      "color": "#FF8F00"
+    },
+    {
+      "name": "Sterke drank & Likeuren",
+      "color": "#4A148C"
+    },
+    {
+      "name": "Koffie & Thee",
+      "color": "#4E342E"
+    },
+    {
+      "name": "Overig",
+      "color": "#757575"
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "name": "aardbeijam",
+      "pluralName": "aardbeijam",
+      "description": "Jam van aardbeien; zoet fruitbeleg.",
+      "aliases": [
+        {
+          "name": "aardbeienjam"
+        },
+        {
+          "name": "aardbei jam"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "abrikozenjam",
+      "pluralName": "abrikozenjam",
+      "description": "Jam van abrikozen; voor brood en gebak.",
+      "aliases": [
+        {
+          "name": "abrikozen jam"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "agavesiroop",
+      "pluralName": "agavesiroop",
+      "description": "Vloeibaar zoetmiddel van agave; alternatief voor honing.",
+      "aliases": [
+        {
+          "name": "agavestroop"
+        },
+        {
+          "name": "agave siroop"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "ahornsiroop",
+      "pluralName": "ahornsiroop",
+      "description": "Zoete stroop uit esdoornsap; voor pannenkoeken en desserts.",
+      "aliases": [
+        {
+          "name": "maple syrup"
+        },
+        {
+          "name": "ahoornsiroop"
+        },
+        {
+          "name": "ahorn siroop"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "appelstroop",
+      "pluralName": "appelstroop",
+      "description": "Dikke stroop van appelen; Limburgs streekproduct.",
+      "aliases": [
+        {
+          "name": "appel stroop"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "caramel",
+      "pluralName": "caramel",
+      "description": "Gekarameliseerde suiker; voor sauzen en snoep.",
+      "aliases": [
+        {
+          "name": "karamel"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "chocolade",
+      "pluralName": "chocolade",
+      "description": "Zoetwaar van cacao; puur, melk of wit.",
+      "aliases": [
+        {
+          "name": "chocola"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "chocoladedruppel",
+      "pluralName": "chocoladedruppels",
+      "description": "Kleine stukjes chocolade; voor koekjes en muffins.",
+      "aliases": [
+        {
+          "name": "chocolate chips"
+        },
+        {
+          "name": "chocolade druppels"
+        },
+        {
+          "name": "chocoladechips"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "chocoladehagel",
+      "pluralName": "chocoladehagel",
+      "description": "Kleine chocoladestaafjes; strooisel voor op brood.",
+      "aliases": [
+        {
+          "name": "hagelslag"
+        },
+        {
+          "name": "chocolade hagel"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "chocoladepasta",
+      "pluralName": "chocoladepasta",
+      "description": "Smeerbare chocolade; zoet broodbeleg.",
+      "aliases": [
+        {
+          "name": "chocolade pasta"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "chocoladevlok",
+      "pluralName": "chocoladevlokken",
+      "description": "Chocoladekrullen; strooisel voor op brood.",
+      "aliases": [
+        {
+          "name": "vlokken"
+        },
+        {
+          "name": "chocolade vlokken"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "citroencrème",
+      "pluralName": "citroencrème",
+      "description": "Engelse citroencrème; zoet-zuur smeersel van citroen, ei en boter.",
+      "aliases": [
+        {
+          "name": "lemon curd"
+        },
+        {
+          "name": "citroencreme"
+        },
+        {
+          "name": "citroen creme"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "drop",
+      "pluralName": "drop",
+      "description": "Snoep van zoethout; zoet of zout.",
+      "aliases": [
+        {
+          "name": "dropjes"
+        },
+        {
+          "name": "zoethout"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "dulce de leche",
+      "pluralName": "dulce de leche",
+      "description": "Latijns-Amerikaanse karamelpasta; van gekookte gecondenseerde melk.",
+      "aliases": [
+        {
+          "name": "karamelpasta"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "fondant",
+      "pluralName": "fondant",
+      "description": "Kneedbare suikerpasta; voor taartdecoratie.",
+      "aliases": [
+        {
+          "name": "rolfondant"
+        },
+        {
+          "name": "suikerpasta"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "frambozenconfituur",
+      "pluralName": "frambozenconfituur",
+      "description": "Confituur van frambozen; fruitbeleg met stukjes fruit.",
+      "aliases": [
+        {
+          "name": "frambozenjam"
+        },
+        {
+          "name": "frambozen jam"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "gestampte muisjes",
+      "pluralName": "gestampte muisjes",
+      "description": "Fijngestampte anijszaadjes met suiker; traditioneel op beschuit.",
+      "aliases": [],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "goudse stroop",
+      "pluralName": "goudse stroop",
+      "description": "Lichte suikerstroop; voor stroopwafels en koek.",
+      "aliases": [
+        {
+          "name": "lichte stroop"
+        },
+        {
+          "name": "witte stroop"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "hazelnootpasta",
+      "pluralName": "hazelnootpasta",
+      "description": "Zoete pasta van hazelnoten en cacao; broodbeleg.",
+      "aliases": [
+        {
+          "name": "notenpasta"
+        },
+        {
+          "name": "hazelnoot pasta"
+        },
+        {
+          "name": "chocopasta"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "honing",
+      "pluralName": "honing",
+      "description": "Bijennectar; zoetmiddel voor op brood en in dranken.",
+      "aliases": [
+        {
+          "name": "bijenhoning"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "jam",
+      "pluralName": "jam",
+      "description": "Zoet vruchtenbeleg; ingekookt fruit met suiker.",
+      "aliases": [
+        {
+          "name": "confituur"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "keukenstroop",
+      "pluralName": "keukenstroop",
+      "description": "Donkere stroop; voor op brood en pannenkoeken.",
+      "aliases": [
+        {
+          "name": "donkere stroop"
+        },
+        {
+          "name": "keuken stroop"
+        },
+        {
+          "name": "schenkstroop"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "kweeperengelei",
+      "pluralName": "kweeperengelei",
+      "description": "Gelei van kweeperen; zoet beleg of bij kaas.",
+      "aliases": [
+        {
+          "name": "kweeperen gelei"
+        },
+        {
+          "name": "membrillo"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "luikse stroop",
+      "pluralName": "luikse stroop",
+      "description": "Dikke donkere fruitstroop; Belgisch streekproduct.",
+      "aliases": [
+        {
+          "name": "sirop de liège"
+        },
+        {
+          "name": "sirop de liege"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "marmelade",
+      "pluralName": "marmelade",
+      "description": "Jam van citrusvruchten; met stukjes schil.",
+      "aliases": [],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "marsepein",
+      "pluralName": "marsepein",
+      "description": "Zoete amandelpasta; voor figuren of als vulling.",
+      "aliases": [
+        {
+          "name": "marzipan"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "melkchocolade",
+      "pluralName": "melkchocolade",
+      "description": "Chocolade met melk; zoet, voor snoepen en bakken.",
+      "aliases": [
+        {
+          "name": "melkchocola"
+        },
+        {
+          "name": "melk chocolade"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "muisjes",
+      "pluralName": "muisjes",
+      "description": "Anijszaadjes met gekleurde suikerlaag; traditioneel op beschuit.",
+      "aliases": [],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "nougat",
+      "pluralName": "nougat",
+      "description": "Zachte snoep van suiker, noten en eiwit; zoet.",
+      "aliases": [],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "perenstroop",
+      "pluralName": "perenstroop",
+      "description": "Dikke stroop van peren; zoet en donker.",
+      "aliases": [
+        {
+          "name": "peren stroop"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "pindakaas",
+      "pluralName": "pindakaas",
+      "description": "Smeerbare pasta van gemalen pinda's; hartig-zoet broodbeleg.",
+      "aliases": [
+        {
+          "name": "pinda kaas"
+        },
+        {
+          "name": "peanut butter"
+        },
+        {
+          "name": "pindapasta"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "pure chocolade",
+      "pluralName": "pure chocolade",
+      "description": "Donkere chocolade met hoog cacaogehalte; voor bakken.",
+      "aliases": [
+        {
+          "name": "pure chocola"
+        },
+        {
+          "name": "donkere chocolade"
+        },
+        {
+          "name": "puur"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "schuddebuikjes",
+      "pluralName": "schuddebuikjes",
+      "description": "Gekleurde suikerbolletjes; strooisel voor op brood.",
+      "aliases": [
+        {
+          "name": "discodip"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "speculoospasta",
+      "pluralName": "speculoospasta",
+      "description": "Smeerbare pasta van speculaaskoekjes; zoet gekruid broodbeleg.",
+      "aliases": [
+        {
+          "name": "speculaaspasta"
+        },
+        {
+          "name": "speculoos pasta"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "stroop",
+      "pluralName": "stroop",
+      "description": "Dikke zoete vloeistof; voor op brood en pannenkoeken.",
+      "aliases": [],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "suikersiroop",
+      "pluralName": "suikersiroop",
+      "description": "Vloeibare suikeroplossing; voor cocktails en desserts.",
+      "aliases": [
+        {
+          "name": "suikerstroop"
+        },
+        {
+          "name": "simple syrup"
+        },
+        {
+          "name": "gomme"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "toffee",
+      "pluralName": "toffees",
+      "description": "Karamelsnoepje; zacht of hard, van suiker en boter.",
+      "aliases": [
+        {
+          "name": "tofee"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "vruchtenhagel",
+      "pluralName": "vruchtenhagel",
+      "description": "Gekleurde suikerstaafjes; strooisel voor op brood.",
+      "aliases": [
+        {
+          "name": "vruchten hagel"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "witte chocolade",
+      "pluralName": "witte chocolade",
+      "description": "Chocolade zonder cacao; zoet en romig.",
+      "aliases": [
+        {
+          "name": "witte chocola"
+        },
+        {
+          "name": "wit chocolade"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "bastognekoek",
+      "pluralName": "bastognekoeken",
+      "description": "Knapperige speculaaskoekjes; vaak gebruikt als bodem voor cheesecakes en desserts.",
+      "aliases": [],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "karamel dessertsaus",
+      "pluralName": "karamel dessertsaus",
+      "description": "Zoete saus van gekarameliseerde suiker en room; voor ijs, pannenkoeken en desserts.",
+      "aliases": [
+        {
+          "name": "karamelsaus"
+        },
+        {
+          "name": "caramelsaus"
+        }
+      ],
+      "label": "Zoetwaren"
+    }
+  ]
+}

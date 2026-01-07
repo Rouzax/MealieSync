@@ -1,0 +1,983 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "name": "andijvie",
+      "pluralName": "andijvie",
+      "description": "Bladgroente; licht bitter, gestoofd als stamppot.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "artisjok",
+      "pluralName": "artisjokken",
+      "description": "Bloemknopgroente; vlezige delen gekookt als groente of salade.",
+      "aliases": [
+        {
+          "name": "artichok"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "artisjokhart",
+      "pluralName": "artisjokkharten",
+      "description": "Eetbare hart van de artisjok; in olie of op pizza.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "asperge",
+      "pluralName": "asperges",
+      "description": "Stengelgroente; wit of groen, gekookt als seizoensgroente.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "aspergebroccoli",
+      "pluralName": "aspergebroccoli",
+      "description": "Broccolini; lange stelen, milde smaak.",
+      "aliases": [
+        {
+          "name": "bimi"
+        },
+        {
+          "name": "broccolini"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "aubergine",
+      "pluralName": "aubergines",
+      "description": "Vruchtgroente; paarse huid, sponsachtig vruchtvlees.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "augurk",
+      "pluralName": "augurken",
+      "description": "Ingelegde komkommer; zuur, als garnering.",
+      "aliases": [
+        {
+          "name": "augurkje"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "babymais",
+      "pluralName": "babymais",
+      "description": "Kleine maiskolven; knapperig, in roerbak.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "beukenzwam",
+      "pluralName": "beukenzwammen",
+      "description": "Kleine paddenstoelen; mild en teer.",
+      "aliases": [
+        {
+          "name": "bundelzwam"
+        },
+        {
+          "name": "bunashimeji"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "bietensap",
+      "pluralName": "bietensap",
+      "description": "Sap van rode bieten; zoet-aards, als drank of kleurstof.",
+      "aliases": [],
+      "label": "Dranken"
+    },
+    {
+      "name": "bleekselderij",
+      "pluralName": "bleekselderij",
+      "description": "Stengelselderij; knapperig, rauw of gestoofd.",
+      "aliases": [
+        {
+          "name": "selder"
+        },
+        {
+          "name": "selderij"
+        },
+        {
+          "name": "verse selderij"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "bloemkool",
+      "pluralName": "bloemkolen",
+      "description": "Koolgroente; witte bloemschermen, gekookt of gestoomd.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "boerenkool",
+      "pluralName": "boerenkool",
+      "description": "Bladkool; gekrulde bladeren, voor stamppot.",
+      "aliases": [
+        {
+          "name": "bladkool"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "bospeen",
+      "pluralName": "bospeen",
+      "description": "Wortelen met loof; jong en zoet.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "bosui",
+      "pluralName": "bosuitjes",
+      "description": "Kleine ui met groen loof; mild, rauw of kort gebakken.",
+      "aliases": [
+        {
+          "name": "lente-ui"
+        },
+        {
+          "name": "lente-uitjes"
+        },
+        {
+          "name": "lenteui"
+        },
+        {
+          "name": "lenteuitjes"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "broccoli",
+      "pluralName": "broccoli",
+      "description": "Groene koolgroente; bloemhoofdjes en steel, gekookt of gewokt.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "cantarel",
+      "pluralName": "cantharellen",
+      "description": "Gele paddenstoel; nootachtig aroma, gebakken.",
+      "aliases": [
+        {
+          "name": "cantharel"
+        },
+        {
+          "name": "hanekam"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "champignon",
+      "pluralName": "champignons",
+      "description": "Paddenstoel; wit of bruin, gebakken of in sauzen.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "chinese kool",
+      "pluralName": "chinese kool",
+      "description": "Langwerpige kool; zachte bladeren, in roerbak of stamppot.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "courgette",
+      "pluralName": "courgettes",
+      "description": "Vruchtgroente; groene pompoenachtige, gebakken of gegrild.",
+      "aliases": [
+        {
+          "name": "zucchini"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "daikon",
+      "pluralName": "daikon",
+      "description": "Japanse witte radijs; mild, in salades of gestoofd.",
+      "aliases": [
+        {
+          "name": "witte radijs"
+        },
+        {
+          "name": "Japanse radijs"
+        },
+        {
+          "name": "mooli"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "eekhoorntjesbrood",
+      "pluralName": "eekhoorntjesbrood",
+      "description": "Wilde paddenstoel; nootachtig aroma, vers of gedroogd.",
+      "aliases": [
+        {
+          "name": "cêpes"
+        },
+        {
+          "name": "porcini"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "frisee",
+      "pluralName": "frisee",
+      "description": "Krulandijvie; bittere slasoort met gekrulde bladeren.",
+      "aliases": [
+        {
+          "name": "frisée"
+        },
+        {
+          "name": "krulandijvie"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "gele paprika",
+      "pluralName": "gele paprika's",
+      "description": "Zoete gele paprika; mild en zoet.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "gember",
+      "pluralName": "gember",
+      "description": "Knolgewas; pittig-aromatische wortel, voor Aziatische gerechten en thee.",
+      "aliases": [
+        {
+          "name": "verse gember"
+        },
+        {
+          "name": "gemberwortel"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "groene asperge",
+      "pluralName": "groene asperges",
+      "description": "Groene asperges; steviger smaak dan wit.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "groene chilipeper",
+      "pluralName": "groene chilipepers",
+      "description": "Onrijpe chilipeper; pittig en fris.",
+      "aliases": [
+        {
+          "name": "groene peper"
+        },
+        {
+          "name": "groene pepers"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "groene olijf",
+      "pluralName": "groene olijven",
+      "description": "Onrijpe olijf; stevig en licht bitter, ingelegd.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "groene paprika",
+      "pluralName": "groene paprika's",
+      "description": "Onrijpe paprika; licht bitter, knapperig.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "hoorn des overvloeds",
+      "pluralName": "hoorn des overvloeds",
+      "description": "Zwarte trompetzwam; gedroogd of vers in sauzen.",
+      "aliases": [
+        {
+          "name": "trompetzwam"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "ijsbergsla",
+      "pluralName": "ijsbergsla",
+      "description": "Knapperige kropsla; mild van smaak.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "jalapeno",
+      "pluralName": "jalapenos",
+      "description": "Mexicaanse chilipeper; medium heet, vers of ingelegd.",
+      "aliases": [
+        {
+          "name": "jalapeño"
+        },
+        {
+          "name": "jalapeño's"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "kastanjechampignon",
+      "pluralName": "kastanjechampignons",
+      "description": "Bruine champignon; steviger en nootachtiger dan witte.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "kimchi",
+      "pluralName": "kimchi",
+      "description": "Koreaanse gefermenteerde kool; pikant zuur bijgerecht.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "knoflook",
+      "pluralName": "knoflook",
+      "description": "Bolgewas; aromatische teentjes, in vrijwel alle keukens.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "komkommer",
+      "pluralName": "komkommers",
+      "description": "Groente; verfrissend rauw in salade.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "kool",
+      "pluralName": "kool",
+      "description": "Bladgroente; diverse soorten, gekookt of gestoofd.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "mais",
+      "pluralName": "mais",
+      "description": "Graangroente; gele korrels, gekookt of gegrild.",
+      "aliases": [
+        {
+          "name": "maïs"
+        },
+        {
+          "name": "suikermais"
+        },
+        {
+          "name": "maiskorrels"
+        },
+        {
+          "name": "maïskorrels"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "mierikswortel",
+      "pluralName": "mierikswortel",
+      "description": "Pittige wortel; geraspt als kruiderij.",
+      "aliases": [
+        {
+          "name": "horseradish"
+        },
+        {
+          "name": "mierik"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "monniksbaard",
+      "pluralName": "monniksbaard",
+      "description": "Zeegroente uit Italië; zilt, kort gekookt.",
+      "aliases": [
+        {
+          "name": "agretti"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "morielje",
+      "pluralName": "morieljes",
+      "description": "Honingraatpaddenstoel; exclusief, voor sauzen.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "nameko",
+      "pluralName": "nameko",
+      "description": "Kleine Japanse paddenstoel; glad en nootachtig.",
+      "aliases": [
+        {
+          "name": "nameco"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "oesterzwam",
+      "pluralName": "oesterzwammen",
+      "description": "Paddenstoel; mild, veelzijdig te bereiden.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "olijf",
+      "pluralName": "olijven",
+      "description": "Steenvrucht; ingelegd, groen of zwart.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "paksoi",
+      "pluralName": "paksoi",
+      "description": "Aziatische bladgroente; witte stelen, groene bladeren.",
+      "aliases": [
+        {
+          "name": "pak choi"
+        },
+        {
+          "name": "bok choy"
+        },
+        {
+          "name": "Shanghai paksoi"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "palmhart",
+      "pluralName": "palmharten",
+      "description": "Hart van palmboom; wit, knapperig, voor salades.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "paprika",
+      "pluralName": "paprika's",
+      "description": "Vruchtgroente; zoet, rood/geel/groen.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "pastinaak",
+      "pluralName": "pastinaken",
+      "description": "Wortelgroente; wit en zoet, geroosterd of in soep.",
+      "aliases": [
+        {
+          "name": "witte wortel"
+        },
+        {
+          "name": "witte peen"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "patisson",
+      "pluralName": "patissons",
+      "description": "Platte pompoensoort; decoratief, gevuld of ingelegd.",
+      "aliases": [
+        {
+          "name": "platte pompoen"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "peterseliewortel",
+      "pluralName": "peterseliewortels",
+      "description": "Witte wortelgroente met peterseliesmaak; voor soepgroenten.",
+      "aliases": [
+        {
+          "name": "wortelpeterselie"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "peultje",
+      "pluralName": "peultjes",
+      "description": "Platte peulen; geheel eetbaar, in roerbak.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "pompoen",
+      "pluralName": "pompoenen",
+      "description": "Vruchtgroente; oranje met zoet vruchtvlees, in soep of gebak.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "portobello",
+      "pluralName": "portobello's",
+      "description": "Grote kastanjechampignon; gegrild of als vleesvervanger.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "postelein",
+      "pluralName": "postelein",
+      "description": "Bladgroente; mild en sappig, voor salades.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "prei",
+      "pluralName": "prei",
+      "description": "Stengelui; wit en lichtgroen deel gestoofd of gebakken.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "puntpaprika",
+      "pluralName": "puntpaprika's",
+      "description": "Spitse paprika; zoet en sappig.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "raapstelen",
+      "pluralName": "raapstelen",
+      "description": "Jonge bladgroente; pittig, voor stamppot of salade.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "rabarber",
+      "pluralName": "rabarber",
+      "description": "Stengelgroente; zure stengels voor compote of dessert.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "radicchio",
+      "pluralName": "radicchio",
+      "description": "Rode Italiaanse cichorei; bitter, in salades of gegrild.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "rode chilipeper",
+      "pluralName": "rode chilipepers",
+      "description": "Rijpe chilipeper; pittig, vers of gedroogd.",
+      "aliases": [
+        {
+          "name": "rode peper"
+        },
+        {
+          "name": "rode pepers"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "rode kool",
+      "pluralName": "rode kolen",
+      "description": "Koolgroente; paarsrood, gestoofd met appel of als salade.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "rode paprika",
+      "pluralName": "rode paprika's",
+      "description": "Zoete rode paprika; rijp en zoeter dan groen.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "rode ui",
+      "pluralName": "rode uien",
+      "description": "Ui met paars-rode schil; milder en zoeter.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "romanesco",
+      "pluralName": "romanesco",
+      "description": "Groene kool; fractaalvormig, milde smaak.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "romatomaat",
+      "pluralName": "romatomaten",
+      "description": "Langwerpige tomaat; vlezig, voor sauzen.",
+      "aliases": [
+        {
+          "name": "roma tomaat"
+        },
+        {
+          "name": "pomodori"
+        },
+        {
+          "name": "romaatjes"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "roodlof",
+      "pluralName": "roodlof",
+      "description": "Rode witlof; licht bitter, rauw of gestoofd.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "rucola",
+      "pluralName": "rucola",
+      "description": "Bladgroente; pittig nootachtig, op pizza of in salade.",
+      "aliases": [
+        {
+          "name": "raketsla"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "savooiekool",
+      "pluralName": "savooiekool",
+      "description": "Groene kool met gekrulde bladeren; gestoofd.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "schapenvoetje",
+      "pluralName": "schapenvoetjes",
+      "description": "Paddenstoel; tere, fruitige smaak.",
+      "aliases": [
+        {
+          "name": "pied de mouton"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "schorseneer",
+      "pluralName": "schorseneren",
+      "description": "Wortelgroente; zwarte wortel, gekookt als bijgerecht.",
+      "aliases": [
+        {
+          "name": "zwarte wortel"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "shiitake",
+      "pluralName": "shiitakes",
+      "description": "Japanse paddenstoel; umami-rijk, voor wok of soep.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "sjalot",
+      "pluralName": "sjalotten",
+      "description": "Kleine uiensoort; verfijnd, voor dressings en sauzen.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "sla",
+      "pluralName": "sla",
+      "description": "Bladgroente; rauw in salades of als garnering.",
+      "aliases": [
+        {
+          "name": "kropsla"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "snijbiet",
+      "pluralName": "snijbiet",
+      "description": "Bladgroente; groen blad met gekleurde stelen.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "snijboon",
+      "pluralName": "snijbonen",
+      "description": "Platte lange boon; in reepjes gesneden gekookt.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "spekboon",
+      "pluralName": "spekbonen",
+      "description": "Grote platte bonen; stevige structuur.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "sperzieboon",
+      "pluralName": "sperziebonen",
+      "description": "Dunne groene bonen; gekookt als bijgerecht.",
+      "aliases": [
+        {
+          "name": "haricots verts"
+        },
+        {
+          "name": "prinsessenboon"
+        },
+        {
+          "name": "prinsessenbonen"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "spinazie",
+      "pluralName": "spinazie",
+      "description": "Bladgroente; kort gestoofd of rauw in salades.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "spitskool",
+      "pluralName": "spitskool",
+      "description": "Puntige groene kool; snel gaar, gestoofd of geroerbakt.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "spruitje",
+      "pluralName": "spruitjes",
+      "description": "Kleine kooltjes; gekookt of geroosterd.",
+      "aliases": [
+        {
+          "name": "spruit"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "sugarsnap",
+      "pluralName": "sugarsnaps",
+      "description": "Peultjes; geheel eetbaar, zoet en knapperig.",
+      "aliases": [
+        {
+          "name": "sugar snap"
+        },
+        {
+          "name": "sugar snaps"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "tauge",
+      "pluralName": "tauge",
+      "description": "Kiemgroente van mungboon; knapperig, in roerbak.",
+      "aliases": [
+        {
+          "name": "taugé"
+        },
+        {
+          "name": "sojascheuten"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "tomaat",
+      "pluralName": "tomaten",
+      "description": "Vruchtgroente; rauw in salade of gekookt in saus.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "trostomaat",
+      "pluralName": "trostomaten",
+      "description": "Tomaten aan tros; aromatisch.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "truffel",
+      "pluralName": "truffels",
+      "description": "Ondergrondse paddenstoel; delicatesse, geraspt voor aroma.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "tuinkers",
+      "pluralName": "tuinkers",
+      "description": "Kiemgroente; pittig, voor garnering en salade.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "ui",
+      "pluralName": "uien",
+      "description": "Bolgewas; basisgroente, gebakken, gestoofd of rauw.",
+      "aliases": [
+        {
+          "name": "gele ui"
+        },
+        {
+          "name": "gele uien"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "veldsla",
+      "pluralName": "veldsla",
+      "description": "Bladgroente; nootachtige kleine blaadjes, rauw in salades.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "venkel",
+      "pluralName": "venkels",
+      "description": "Knolgroente; anijsachtige smaak, rauw of gestoofd.",
+      "aliases": [
+        {
+          "name": "venkelknol"
+        },
+        {
+          "name": "venkelknollen"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "waterkers",
+      "pluralName": "waterkers",
+      "description": "Bladgroente; pittig, rauw in salades of als garnering.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "watermeloenradijs",
+      "pluralName": "watermeloenradijzen",
+      "description": "Grote radijs; groen van buiten, roze van binnen.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "wilde spinazie",
+      "pluralName": "wilde spinazie",
+      "description": "Wilde spinazie; intensere smaak dan gewone.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "witlof",
+      "pluralName": "witlof",
+      "description": "Bladgroente; licht bitter, rauw of gestoofd.",
+      "aliases": [
+        {
+          "name": "witloof"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "witte asperge",
+      "pluralName": "witte asperges",
+      "description": "Witte asperges; mild, seizoensgroente.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "witte kool",
+      "pluralName": "witte kolen",
+      "description": "Vastkropige kool; voor zuurkool of gestoofd.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "wortel",
+      "pluralName": "wortels",
+      "description": "Oranje knolgroente; veelzijdig in soep, salade of bijgerecht.",
+      "aliases": [
+        {
+          "name": "winterwortel"
+        },
+        {
+          "name": "winterpeen"
+        },
+        {
+          "name": "peen"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "zeekraal",
+      "pluralName": "zeekraal",
+      "description": "Zeegroente; ziltig en knapperig.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "zilveruitje",
+      "pluralName": "zilveruitjes",
+      "description": "Kleine witte uitjes; ingelegd in zoetzuur.",
+      "aliases": [
+        {
+          "name": "Amsterdamse uitjes"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
+      "name": "zuurkool",
+      "pluralName": "zuurkool",
+      "description": "Gefermenteerde witte kool; zuur, voor stamppot.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "zwarte knoflook",
+      "pluralName": "zwarte knoflook",
+      "description": "Gefermenteerde knoflook; zoete umamismaak.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "zwarte olijf",
+      "pluralName": "zwarte olijven",
+      "description": "Rijpe olijf; voller van smaak, ingelegd.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "paddenstoelen vriesdroog",
+      "pluralName": "paddenstoel vriesdroog",
+      "description": "Gevriesdroogde paddenstoelen met intense smaak; lang houdbaar voor soepen en sauzen.",
+      "aliases": [
+        {
+          "name": "gevriesdroogde paddenstoelen"
+        },
+        {
+          "name": "gevriesdroogde paddenstoel"
+        }
+      ],
+      "label": "Groente"
+    }
+  ]
+}

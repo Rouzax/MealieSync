@@ -1,521 +1,832 @@
 # MealieSync
 
-PowerShell module and scripts for managing data in [Mealie](https://mealie.io) via the REST API.
+[![PowerShell 7.0+](https://img.shields.io/badge/PowerShell-7.0%2B-blue.svg)](https://github.com/PowerShell/PowerShell)
+[![Mealie v2.x](https://img.shields.io/badge/Mealie-v2.x-green.svg)](https://mealie.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Features
-
-- **Import & Export** — Sync data from JSON files to your Mealie instance
-- **Multiple data types** — Foods, Units, Labels, Categories, Tags, Tools
-- **Smart matching** — Matches by id, name, pluralName, or alias (prevents duplicates)
-- **Change detection** — Only updates items that actually changed
-- **Label support** — Link foods to labels by name
-- **Progress tracking** — Visual progress bar during imports
-- **Rate limiting** — Configurable throttling to avoid API overload
-- **WhatIf support** — Detailed preview showing exactly what would change
-- **Dutch data included** — Extended Dutch ingredient, unit, and category lists
-
-## Folder Structure
+A PowerShell toolkit for managing [Mealie](https://mealie.io) recipe data via REST API. Import, export, and synchronize your ingredients, units, labels, and more—with smart duplicate prevention, change detection, and full bidirectional sync.
 
 ```
-MealieSync/
-├── Data/                        # Source files for import
-│   ├── Labels/                  # Foods organized by label (optional)
-│   │   ├── Groente.json
-│   │   ├── Vlees.json
-│   │   └── ...
-│   ├── Dutch_Categories.json
-│   ├── Dutch_Foods.json         # Or all foods in one file
-│   ├── Dutch_Labels.json
-│   ├── Dutch_Tools.json
-│   └── Dutch_Units.json
-├── Exports/                     # Backups and exports (gitignored)
-├── .gitignore
-├── Invoke-MealieSync.ps1        # Main CLI script
-├── MealieApi.psm1               # PowerShell module
-├── mealie-config.json           # Your config (gitignored)
-├── mealie-config-sample.json    # Config template
-└── README.md
+============================================================
+           MEALIE STATISTICS DASHBOARD
+============================================================
+
+  Foods         1074        Categories      21
+  Units           48        Tags           232
+  Labels          29        Tools          121
+                            ─────────────────
+                            Total:        1525
 ```
 
-## Supported Data Types
+## Why MealieSync?
 
-| Type | Description | Endpoint |
-|------|-------------|----------|
-| Foods | Ingredients with aliases | `/api/foods` |
-| Units | Measurement units with abbreviations | `/api/units` |
-| Labels | Color-coded labels for foods | `/api/groups/labels` |
-| Categories | Recipe categories | `/api/organizers/categories` |
-| Tags | Recipe tags | `/api/organizers/tags` |
-| Tools | Kitchen equipment | `/api/organizers/tools` |
+Mealie's web interface is great for individual edits, but managing hundreds of ingredients or performing bulk updates becomes tedious. MealieSync gives you:
 
-## Prerequisites
+- **Offline editing** — Work on JSON files in your favorite editor, then sync
+- **Version control** — Track changes to your ingredient database with Git
+- **Bulk operations** — Import entire databases at once
+- **AI-friendly** — Use LLMs to generate, translate, or expand ingredient data, then import directly
+- **Duplicate prevention** — Smart matching across names, plurals, and aliases
+- **Safe previews** — See exactly what will change before committing
+- **Full sync** — Mirror your JSON to Mealie exactly (including deletions)
 
-- **PowerShell 7.0 or later** (PowerShell Core) — [Download here](https://github.com/PowerShell/PowerShell/releases)
-- A running Mealie instance (v2.x+)
-- An API token from your Mealie instance
+## Included Data
 
-> **Note:** Windows PowerShell 5.1 is not supported due to UTF-8 encoding issues with special characters.
+This repository includes a comprehensive **Dutch ingredient database** ready to import:
 
-## Getting Your API Token
+| Data Type      |  Count | Description                                   |
+| -------------- | -----: | --------------------------------------------- |
+| **Foods**      | 1,000+ | Ingredients with aliases across 29 categories |
+| **Units**      |     48 | Measurement units with abbreviations          |
+| **Labels**     |     29 | Color-coded ingredient categories             |
+| **Categories** |     21 | Recipe categories                             |
+| **Tools**      |    121 | Kitchen equipment                             |
 
-1. Log in to your Mealie instance
-2. Navigate to: **Profile → Manage Your API Tokens** (`/user/profile/api-tokens`)
-3. Create a new token with a descriptive name (e.g., "PowerShell Scripts")
-4. Copy the generated token
+Community contributions for other languages are welcome! See [Data/README.md](Data/README.md).
 
-## Setup
+| Language | Code | Status                                |
+| -------- | ---- | ------------------------------------- |
+| Dutch    | `nl` | ✅ Complete                            |
+| English  | `en` | 💬 Open to contributions               |
+| German   | `de` | 💬 Open to contributions               |
+| French   | `fr` | 💬 Open to contributions               |
+| *Other*  | —    | 💬 [Contribute yours!](Data/README.md) |
 
-1. Clone or download this repository
-2. Unblock the files (Windows security):
-   ```powershell
-   Get-ChildItem -Path ".\MealieSync" -Recurse | Unblock-File
-   ```
-3. Edit `mealie-config.json`:
-   ```json
-   {
-     "BaseUrl": "http://your-mealie-server:9000",
-     "Token": "your-api-token-here"
-   }
-   ```
+---
 
-## Usage
+## Quick Start
 
-### Quick Start
+### 1. Requirements
+
+- **PowerShell 7.0+** — [Download here](https://github.com/PowerShell/PowerShell/releases)
+- **Mealie v2.x** — Running instance with API access
+- **API token** — From your Mealie user profile
+
+> ⚠️ Windows PowerShell 5.1 is not supported due to UTF-8 encoding limitations.
+
+### 2. Install
 
 ```powershell
-# List current data
-.\Invoke-MealieSync.ps1 -Action List -Type Foods
-.\Invoke-MealieSync.ps1 -Action List -Type Units
+# Clone the repository
+git clone https://github.com/Rouzax/MealieSync.git
+cd MealieSync
+
+# On Windows: unblock downloaded files
+Get-ChildItem -Recurse | Unblock-File
+```
+
+### 3. Configure
+
+Create `mealie-config.json` in the project root:
+
+```json
+{
+  "BaseUrl": "http://your-mealie-server:9000",
+  "Token": "your-api-token-here"
+}
+```
+
+To get your API token: **Mealie → Profile → Manage Your API Tokens**
+
+### 4. Test Connection
+
+```powershell
+.\Tools\Test-MealieConnection.ps1 -Detailed
+```
+
+```
+==================================================
+     MEALIE CONNECTION TEST
+==================================================
+
+Module Check
+------------------------------
+  [✓] Module found
+  [✓] Module loaded
+
+Configuration
+------------------------------
+  [✓] Config file found
+  [✓] Config parsed
+
+Network Connectivity
+------------------------------
+  [✓] TCP connection - Port reachable
+
+API Authentication
+------------------------------
+  [✓] Authentication - Token accepted
+
+Endpoint Access Tests
+------------------------------
+  [✓] Foods - 1074 items
+  [✓] Units - 48 items
+  [✓] Labels - 29 items
+  [✓] Categories - 21 items
+  [✓] Tags - 232 items
+  [✓] Tools - 121 items
+
+==================================================
+  All tests passed! Connection is working.
+```
+
+### 5. Import the Dutch Data
+
+```powershell
+# Import labels first (foods reference them)
+.\Invoke-MealieSync.ps1 -Action Import -Type Labels -JsonPath .\Data\nl\Labels.json
+
+# Import foods (from folder containing all category files)
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -Folder .\Data\nl\Foods
+
+# Import units, tools, categories
+.\Invoke-MealieSync.ps1 -Action Import -Type Units -JsonPath .\Data\nl\Units.json
+.\Invoke-MealieSync.ps1 -Action Import -Type Tools -JsonPath .\Data\nl\Tools.json
+.\Invoke-MealieSync.ps1 -Action Import -Type Categories -JsonPath .\Data\nl\Categories.json
+```
+
+---
+
+## Core Concepts
+
+### Actions
+
+| Action   | Description                                                  |
+| -------- | ------------------------------------------------------------ |
+| `List`   | Display items currently in Mealie                            |
+| `Export` | Save items from Mealie to JSON                               |
+| `Import` | Add items from JSON (optionally update existing)             |
+| `Mirror` | Full sync: add, update, **and delete** to match JSON exactly |
+
+### Data Types
+
+| Type         | Description                         | Examples                    |
+| ------------ | ----------------------------------- | --------------------------- |
+| `Foods`      | Ingredients with aliases and labels | tomato, garlic, soy sauce   |
+| `Units`      | Measurements with abbreviations     | tablespoon (tbsp), gram (g) |
+| `Labels`     | Color-coded food categories         | Vegetables, Meat, Dairy     |
+| `Categories` | Recipe categories                   | Main course, Appetizer      |
+| `Tags`       | Recipe tags                         | Vegetarian, Quick meals     |
+| `Tools`      | Kitchen equipment                   | Oven, Wok, Blender          |
+
+### Smart Matching
+
+MealieSync prevents duplicates through comprehensive cross-matching. For each item being imported, it checks against all existing Mealie items in this order:
+
+```
+Import Item                    Mealie Items
+───────────                    ────────────
+   name        ←───────────→   name
+   name        ←───────────→   pluralName
+   name        ←───────────→   aliases[]
+   pluralName  ←───────────→   name
+   pluralName  ←───────────→   pluralName
+   pluralName  ←───────────→   aliases[]
+   aliases[]   ←───────────→   name
+   aliases[]   ←───────────→   pluralName
+   aliases[]   ←───────────→   aliases[]
+```
+
+**Match priority:**
+1. **ID** — Exact UUID match (highest priority, safest for renames)
+2. **Name ↔ Name** — Direct name match
+3. **Name ↔ PluralName** — Cross-match (e.g., importing "tomatoes" finds existing "tomato")
+4. **Name ↔ Alias** — Import name matches existing alias
+5. **Alias ↔ Name** — Import alias matches existing name
+
+This ensures that renaming an ingredient (with the same ID) works correctly, and that items aren't duplicated even if the name/plural relationship is reversed.
+
+---
+
+## Usage Examples
+
+### List Items
+
+```powershell
 .\Invoke-MealieSync.ps1 -Action List -Type Labels
-.\Invoke-MealieSync.ps1 -Action List -Type Categories
-.\Invoke-MealieSync.ps1 -Action List -Type Tags
-.\Invoke-MealieSync.ps1 -Action List -Type Tools
 ```
 
-### Backup Your Data
+```
+name                    color
+----                    -----
+Aardappelen & Knollen   #8D6E63
+Bakproducten            #D7CCC8
+Fruit                   #8BC34A
+Groente                 #4CAF50
+Kruiden & Specerijen    #7B1FA2
+Vlees                   #E53935
+...
 
-Always backup before making changes:
+Total: 29 labels
+```
+
+### Preview Changes (WhatIf)
+
+Always preview before importing:
 
 ```powershell
-# Create Exports folder if it doesn't exist
-New-Item -ItemType Directory -Path .\Exports -Force
-
-.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Exports\Backup_Foods.json
-.\Invoke-MealieSync.ps1 -Action Export -Type Units -JsonPath .\Exports\Backup_Units.json
-.\Invoke-MealieSync.ps1 -Action Export -Type Labels -JsonPath .\Exports\Backup_Labels.json
-.\Invoke-MealieSync.ps1 -Action Export -Type Categories -JsonPath .\Exports\Backup_Categories.json
-.\Invoke-MealieSync.ps1 -Action Export -Type Tags -JsonPath .\Exports\Backup_Tags.json
-.\Invoke-MealieSync.ps1 -Action Export -Type Tools -JsonPath .\Exports\Backup_Tools.json
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -UpdateExisting -WhatIf
 ```
 
-### Advanced Export Options (Foods)
-
-Export only foods with a specific label:
-```powershell
-.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Exports\Groente.json -Label "Groente"
-.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Exports\Vlees.json -Label "Vlees"
 ```
+Import mode:
+  [X] Update existing items
+  [ ] Replace aliases (merge mode)
 
-Export all foods to separate files per label:
-```powershell
-# Export to Data/Labels for source control
-.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Data\Labels -SplitByLabel
+Importing Foods from: .\Foods.json
+   4/18 Would UPDATE (matched by name): beet
+          description : 'Root vegetable; earthy flavor...' → 'Root vegetable; dark red flesh...'
+          label       : 'Vegetables' → 'Root Vegetables'
+  12/18 Would UPDATE (matched by pluralName→name): baby potato
+          name        : 'baby potatoes' → 'baby potato'
+          pluralName  : '(empty)' → 'baby potatoes'
+          description : '(empty)' → 'Small potatoes with skin...'
 
-# Or export to Exports folder for backups
-.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Exports\ByLabel -SplitByLabel
+═══════════════════════════════════════════
+ Foods Import Summary (WhatIf)
+═══════════════════════════════════════════
+  Updated         : 2
+  Unchanged       : 16
+───────────────────────────────────────────
+  Total processed : 18
 ```
-This creates a folder with:
-```
-Data/Labels/
-  Groente.json
-  Vlees.json
-  Zuivel.json
-  _Geen_Label.json   (foods without a label)
-```
-
-### Import Data
-
-```powershell
-# Preview what would happen (dry run)
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json -WhatIf
-
-# Import new items only (skip existing)
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json
-
-# Import and update existing items
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json -UpdateExisting
-```
-
-### Preview Changes with -WhatIf
-
-The `-WhatIf` flag shows detailed information about what would change:
-
-**Update preview:**
-```
-  [1/1] Would UPDATE (matched by pluralName→name): braam
-          name        : 'bramen' → 'braam'
-          pluralName  : '(empty)' → 'bramen'
-          description : '(empty)' → 'Zacht fruit; donkerpaarse bessen...'
-          label       : '(none)' → 'Fruit'
-```
-
-**Create preview:**
-```
-  [1/3] Would CREATE: sriracha
-          pluralName   : 'srirachas'
-          description  : 'Pittige Thaise chilisaus'
-          label        : 'Sauzen'
-          aliases      : 'sriracha saus, rooster sauce'
-```
-
-The preview shows:
-- Match method used (id, name, pluralName, alias, or combinations)
-- All field changes with old → new values
-- Stats are counted even in WhatIf mode
-
-### Import from Folder
-
-Import all JSON files from a folder at once:
-
-```powershell
-# Import all foods from Data/Labels folder
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -Folder .\Data\Labels
-
-# With update existing
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -Folder .\Data\Labels -UpdateExisting
-```
-
-Output:
-```
-Importing Foods from folder: D:\GitHub\MealieSync\Data\Labels
-Found 5 JSON file(s)
-
-── Groente.json ──
-  [1/45] Created: tomaat
-  ...
-
-Import Summary:
-  Created:   45
-  ...
-
-── Vlees.json ──
-  ...
-
-═══════════════════════════════════
-Combined Totals (5 files):
-  Created:       120
-  Updated:       0
-  Unchanged:     0
-  Skipped:       0
-  Errors:        0
-```
-
-### Understanding -UpdateExisting
-
-| Scenario | Without `-UpdateExisting` | With `-UpdateExisting` |
-|----------|---------------------------|------------------------|
-| Item doesn't exist | Creates it | Creates it |
-| Item already exists | **Skips it** | **Compares & updates if changed** |
-
-The import compares all relevant fields (name, pluralName, aliases, fraction, etc.) and only performs an API update if something actually changed. This means:
-
-- **Efficient**: No unnecessary API calls for unchanged items
-- **Accurate stats**: "Updated" count reflects real changes
-
-```
-Import Summary:
-  Created:       5
-  Updated:       3    ← Only items that actually changed
-  Unchanged:     42   ← Items that matched exactly
-  Skipped:       0
-  Errors:        0
-  LabelWarnings: 2    ← Labels not found (foods imported without label)
-```
-
-Update output shows which matching method was used:
-```
-  [1/50] Updated (matched by id): pomodoro
-  [2/50] Updated (matched by name): ui
-  [3/50] Updated (matched by pluralName→name): braam
-  [4/50] Updated (matched by alias): mozzarella
-  [5/50] Created: sriracha
-```
-
-Use `-UpdateExisting` when you want to enrich existing entries with aliases, plural names, or other data.
-
-### Alias Merge Behavior
-
-When using `-UpdateExisting`, aliases are **merged** (not replaced):
-
-```
-Existing in Mealie:  aliases = ["Braampjes"]
-Import file:         aliases = []
-Result:              aliases = ["Braampjes"]  ← kept!
-
-Existing in Mealie:  aliases = ["Braampjes"]
-Import file:         aliases = ["bramenbessen"]
-Result:              aliases = ["Braampjes", "bramenbessen"]  ← merged!
-```
-
-This prevents accidental data loss when importing files without aliases. Duplicates are automatically removed (case-insensitive).
 
 ### Conflict Detection
 
-When multiple import items would match the same existing item, a conflict is detected and skipped:
+MealieSync detects complex conflicts where an item can't be cleanly matched:
 
 ```
-  [40/101] Would UPDATE (matched by name): kaneel
-          ...
-  [41/101] CONFLICT: 'kaneelstokje' matches existing 'kaneel' (via name→alias), but it was already matched by 'kaneel'
+   9/25 Conflict: fresh dill
+          Value 'fresh dill' exists as alias on Mealie item 'dill'
+          But 'dill' was already claimed by import item 'dried dill'
+          Fix: Remove 'fresh dill' from 'dill' aliases in Mealie
 
-Import Summary:
+  24/25 Conflict: fresh thyme
+          Value 'fresh thyme' exists as alias on Mealie item 'thyme'
+          But 'thyme' was already claimed by import item 'dried thyme'
+          Fix: Remove 'fresh thyme' from 'thyme' aliases in Mealie
+
+═══════════════════════════════════════════
+ Foods Import Summary (WhatIf)
+═══════════════════════════════════════════
+  Created         : 2
+  Updated         : 1
+  Unchanged       : 20
+  Conflicts       : 2
+───────────────────────────────────────────
+  Total processed : 25
+```
+
+This typically happens when splitting ingredients (e.g., separating "thyme" into "fresh thyme" and "dried thyme") while the original still has aliases pointing to both versions.
+
+### Understanding the Output
+
+MealieSync uses colors to help you quickly scan results:
+
+| Color          | Meaning                            |
+| -------------- | ---------------------------------- |
+| 🟢 **Green**    | Success, new values, created items |
+| 🟡 **Yellow**   | Warnings, updates, matched items   |
+| 🔴 **Red**      | Errors, conflicts, blocking issues |
+| ⬛ **Gray**     | Skipped, unchanged, old values     |
+| 🔵 **Cyan**     | Headers, item names, structure     |
+| 🟤 **Dark Red** | Destructive actions (deletions)    |
+
+In change displays, old values appear in gray and new values in green:
+```
+description : 'old value' → 'new value'
+              ↑ gray        ↑ green
+```
+
+### Import
+
+```powershell
+# Import new items only (skip existing)
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json
+
+# Import and update existing items
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -UpdateExisting
+
+# Import all JSON files from a folder
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -Folder .\Data\nl\Foods -UpdateExisting
+
+# Import only items with a specific label
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -Label "Vegetables"
+
+# Replace aliases instead of merging
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -UpdateExisting -ReplaceAliases
+```
+
+### Export
+
+```powershell
+# Export all foods to a single file
+.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Exports\Foods.json
+
+# Export only foods with a specific label
+.\Invoke-MealieSync.ps1 -Action Export -Type Foods -JsonPath .\Exports\Vegetables.json -Label "Vegetables"
+
+# Split by label (one file per category)
+.\Invoke-MealieSync.ps1 -Action Export -Type Foods -Folder .\Exports\ByLabel -SplitByLabel
+```
+
+Split export creates organized files:
+
+```
+Exports/ByLabel/
+├── Vegetables.json      (100 foods)
+├── Fruit.json           (81 foods)
+├── Meat.json            (80 foods)
+├── Herbs & Spices.json  (88 foods)
+├── ...
+└── _No_Label.json       (22 foods)
+
+Total: 1074 foods in 29 files
+```
+
+### Mirror (Full Sync)
+
+> ⚠️ **Mirror will DELETE items** from Mealie that aren't in your JSON file!
+
+```powershell
+# Always preview first
+.\Invoke-MealieSync.ps1 -Action Mirror -Type Foods -JsonPath .\Foods.json -WhatIf
+
+# Sync with confirmation prompt
+.\Invoke-MealieSync.ps1 -Action Mirror -Type Foods -JsonPath .\Foods.json
+
+# Scope deletions to a specific label (safer)
+.\Invoke-MealieSync.ps1 -Action Mirror -Type Foods -JsonPath .\Vegetables.json -Label "Vegetables"
+```
+
+Mirror shows a preview and asks for confirmation:
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║  SYNC MODE - This will ADD, UPDATE, and DELETE foods          ║
+║  Label scope: Vegetables                                      ║
+║  (Only 'Vegetables' items will be deleted)                    ║
+╚═══════════════════════════════════════════════════════════════╝
+
+Backup created: .\Exports\AutoBackups\Backup_Foods_20260107_111820.json
+
+═══════════════════════════════════════════════════════════════
+ Mirror Preview - Foods
+═══════════════════════════════════════════════════════════════
+
+ Phase 1 - Import:
+   Create  : 5
+   Update  : 12
+   Skip    : 83
+
+ Phase 2 - Delete:
+   Delete  : 2 items
+
+═══════════════════════════════════════════════════════════════
+
+Continue with 19 change(s)? [Y/N]:
+```
+
+Mirror also protects items used in recipes:
+
+```
+  ⚠️  Cannot delete items that are used in recipes:
+
+      • shatkora (used in 2 recipes)
+
+      Remove these items from recipes first, or add them to
+      your JSON file to keep them in Mealie.
+```
+
+---
+
+## Utility Tools
+
+Located in the `Tools/` folder:
+
+### Show-MealieStats.ps1
+
+Dashboard showing your Mealie data at a glance:
+
+```powershell
+.\Tools\Show-MealieStats.ps1
+```
+
+```
+----------------------------------------
+  FOODS BY LABEL
+----------------------------------------
+
+  Groente                  100  ████ 9.3%
+  Kruiden & Specerijen      88  ████ 8.2%
+  Fruit                     81  ███ 7.5%
+  Vlees                     80  ███ 7.4%
+  Vis & Zeevruchten         67  ███ 6.2%
   ...
-  Conflicts:     1    ← Items skipped due to conflict
+
+----------------------------------------
+  ALIASES
+----------------------------------------
+
+  Foods with aliases:  619
+  Total aliases:       1009
+  Avg aliases/food:    0.94
 ```
 
-This works both within a single file and across multiple files in a folder import. When importing a folder, conflicts are tracked across all files.
+### Backup-MealieData.ps1
 
-This happens when an alias in Mealie is also a separate item in your import file. Review your data and either:
-- Remove the alias from the existing item, or
-- Remove the duplicate from your import file
-
-### Recommended Import Order
-
-When using labels on foods, import in this order:
-
-1. **Labels first** — So they exist when foods reference them
-2. **Foods second** — Can now link to labels by name
+Create timestamped backups of all your data:
 
 ```powershell
-# 1. Import labels
-.\Invoke-MealieSync.ps1 -Action Import -Type Labels -JsonPath .\Data\Dutch_Labels.json
-
-# 2. Import foods - either single file or folder
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json
-# OR
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -Folder .\Data\Labels
+.\Tools\Backup-MealieData.ps1
 ```
 
-## Using the Module Directly
+```
+BACKUP SUMMARY
 
-For advanced usage, import the module directly:
+  Successful: 6 files
+  Total items: 1525
+  Total size:  392 KB
+
+Files created:
+  - Foods.json (1074 items)
+  - Units.json (48 items)
+  - Labels.json (29 items)
+  - Categories.json (21 items)
+  - Tags.json (232 items)
+  - Tools.json (121 items)
+```
+
+### Test-MealieConnection.ps1
+
+Verify your setup is working:
 
 ```powershell
-Import-Module .\MealieApi.psm1
-
-# Initialize connection
-Initialize-MealieApi -BaseUrl "http://localhost:9000" -Token "your-token"
-
-# Foods
-$foods = Get-MealieFoods -All
-New-MealieFood -Name "tempeh" -PluralName "tempeh" -Aliases @("tempe", "tempé")
-Update-MealieFood -Id "guid-here" -Data @{ aliases = @(@{name="alias1"}) }
-Remove-MealieFood -Id "guid-here"
-
-# Units
-$units = Get-MealieUnits -All
-New-MealieUnit -Name "snufje" -PluralName "snufjes" -Fraction $true
-
-# Labels
-$labels = Get-MealieLabels -All
-New-MealieLabel -Name "Biologisch" -Color "#4CAF50"
-
-# Categories, Tags, Tools
-$categories = Get-MealieCategories -All
-$tags = Get-MealieTags -All
-$tools = Get-MealieTools -All
-
-New-MealieCategory -Name "Hoofdgerecht"
-New-MealieTag -Name "Vegetarisch"
-New-MealieTool -Name "Airfryer"
+.\Tools\Test-MealieConnection.ps1 -Detailed
 ```
 
-## Included Dutch Data Files
+### Convert-MealieSyncJson.ps1
 
-All data files are in the `Data/` folder:
+Migrate legacy JSON files (raw arrays) to the new wrapper format:
 
-### Dutch_Foods.json
-~200 Dutch ingredient names with aliases:
-- Dutch vegetables, fruits, meats
-- Indonesian/Asian ingredients (trassi, sambal, ketjap, tempe, etc.)
-- French/Italian ingredients with Dutch names
-- Common aliases and spelling variations
-- Supports `label` field to link to existing labels
-- Exports include `id` field for safe re-import after edits
+```powershell
+# Convert a single file
+.\Tools\Convert-MealieSyncJson.ps1 -Path .\Foods.json -Type Foods
 
-### Dutch_Units.json
-~45 Dutch measurement units:
-- Metric units (gram, liter, ml, kg)
-- Dutch cooking measurements (eetlepel, theelepel, snufje, scheutje)
-- Container units (blik, pot, zakje, bakje)
-- Abbreviations and aliases (el, tl, EL, TL)
+# Convert all files in a folder
+.\Tools\Convert-MealieSyncJson.ps1 -Folder .\Data\Labels -Type Foods
 
-### Dutch_Labels.json
-Color-coded labels for ingredient categorization:
-- Groente, Fruit, Vlees, Vis & Zeevruchten, Gevogelte
-- Zuivel, Kaas, Kruiden & Specerijen
-- Toko / Aziatisch, Mexicaans, Italiaans
-- And more...
+# Preview without making changes
+.\Tools\Convert-MealieSyncJson.ps1 -Path .\Foods.json -Type Foods -WhatIf
+```
 
-### Dutch_Categories.json
-Recipe categories:
-- Hoofdgerecht, Voorgerecht, Nagerecht, Bijgerecht
-- Ontbijt, Lunch, Brunch, Snack
-- Saus, Dressing, Marinade
-- BBQ, Meal Prep
+---
 
-### Dutch_Tools.json
-Kitchen tools and equipment:
-- Appliances (Oven, Airfryer, Blender, Thermomix)
-- Cookware (Koekenpan, Wok, Braadpan)
-- Utensils (Garde, Spatel, Rasp, Vergiet)
+## Parameter Reference
 
-## JSON Format Reference
+| Parameter         | Actions                | Description                                                      |
+| ----------------- | ---------------------- | ---------------------------------------------------------------- |
+| `-Type`           | All                    | Data type: Foods, Units, Labels, Categories, Tags, Tools         |
+| `-JsonPath`       | Export, Import, Mirror | Path to JSON file                                                |
+| `-Folder`         | Import, Export         | Path to folder (Import: read all JSON; Export: split output)     |
+| `-Label`          | Export, Import, Mirror | Filter by label. For Mirror, scopes deletions to that label only |
+| `-SplitByLabel`   | Export (Foods)         | Create separate file per label                                   |
+| `-UpdateExisting` | Import                 | Update existing items (default: skip)                            |
+| `-ReplaceAliases` | Import, Mirror         | Replace aliases instead of merging                               |
+| `-SkipBackup`     | Import, Mirror         | Don't create automatic backup                                    |
+| `-Force`          | Mirror                 | Skip preview and confirmation prompt                             |
+| `-WhatIf`         | All                    | Preview without making changes                                   |
 
-### Food
+---
+
+## JSON Format
+
+All JSON files use a wrapper format with metadata for validation:
+
 ```json
 {
-  "id": "b9dc4c47-c569-4630-846f-1f4b4fbda3c1",
-  "name": "tomaat",
-  "pluralName": "tomaten",
-  "description": "",
-  "label": "Groente",
-  "aliases": [
-    {"name": "trostomaat"},
-    {"name": "vleestomaat"}
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "b9dc4c47-c569-4630-846f-1f4b4fbda3c1",
+      "name": "sour cream",
+      "pluralName": "sour cream",
+      "description": "Cultured cream; topping for tacos or soups.",
+      "aliases": [
+        { "name": "crème fraîche" },
+        { "name": "schmand" }
+      ],
+      "label": "Dairy",
+      "householdsWithIngredientFood": ["main-household"]
+    }
   ]
 }
 ```
 
-**Field notes:**
-- `id` — Optional. UUID from Mealie. Used for matching existing items during import.
-- `label` — Optional. Name of an existing label. If not found, a warning is shown.
-- `aliases` — Optional. Alternative names for the ingredient. When updating, aliases are **merged** (not replaced).
+<details>
+<summary><strong>All JSON schemas with field details</strong></summary>
 
-**Import matching order:**
-1. **id** — If present, matches by UUID (safest for renames)
-2. **name/pluralName** — Cross-matches in all directions:
-   - import.name → existing.name
-   - import.name → existing.pluralName
-   - import.pluralName → existing.name
-   - import.pluralName → existing.pluralName
-   - import.pluralName → existing.alias
-3. **alias** — Cross-matches in all directions:
-   - import.name → existing.alias
-   - import.alias → existing.name
-   - import.alias → existing.pluralName
-   - import.alias → existing.alias
+### Food
 
-This prevents duplicates when renaming ingredients. Example:
-```
-Existing: name="bramen", pluralName=null
-Import:   name="braam", pluralName="bramen"
-Result:   ✓ Match via pluralName→name (import.pluralName matches existing.name)
-```
+| Field                          | Required | Description                                        |
+| ------------------------------ | :------: | -------------------------------------------------- |
+| `id`                           |    —     | UUID (auto-generated if missing)                   |
+| `name`                         |    ✅     | Primary name (singular)                            |
+| `pluralName`                   |    —     | Plural form                                        |
+| `description`                  |    —     | Short description                                  |
+| `aliases`                      |    —     | Array of `{ "name": "..." }` objects               |
+| `label`                        |    —     | Category label name                                |
+| `householdsWithIngredientFood` |    —     | Array of household names that have this ingredient |
+
+```json
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "uuid",
+      "name": "tomato",
+      "pluralName": "tomatoes",
+      "description": "Description text",
+      "aliases": [{ "name": "alias" }],
+      "label": "Vegetables",
+      "householdsWithIngredientFood": ["household-name"]
+    }
+  ]
+}
 ```
 
 ### Unit
+
+| Field                | Required | Description                      |
+| -------------------- | :------: | -------------------------------- |
+| `id`                 |    —     | UUID (auto-generated if missing) |
+| `name`               |    ✅     | Primary name (singular)          |
+| `pluralName`         |    —     | Plural form                      |
+| `description`        |    —     | Description (e.g., "15 ml")      |
+| `abbreviation`       |    —     | Short form (e.g., "tbsp")        |
+| `pluralAbbreviation` |    —     | Plural short form                |
+| `useAbbreviation`    |    —     | Show abbreviation in recipes     |
+| `fraction`           |    —     | Allow fractional values          |
+| `aliases`            |    —     | Alternative names                |
+
 ```json
 {
-  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-  "name": "eetlepel",
-  "pluralName": "eetlepels",
-  "description": "15 ml",
-  "abbreviation": "el",
-  "pluralAbbreviation": "",
-  "useAbbreviation": false,
-  "fraction": true,
-  "aliases": [
-    {"name": "EL"},
-    {"name": "eetl."}
+  "$schema": "mealie-sync",
+  "$type": "Units",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "uuid",
+      "name": "tablespoon",
+      "pluralName": "tablespoons",
+      "description": "15 ml",
+      "abbreviation": "tbsp",
+      "pluralAbbreviation": "tbsp",
+      "useAbbreviation": true,
+      "fraction": true,
+      "aliases": [{ "name": "Tbsp" }]
+    }
   ]
 }
 ```
 
-**Field notes:**
-- `id` — Optional. UUID from Mealie. Used for matching existing items during import.
-- `abbreviation` — Short form (e.g., "el" for "eetlepel").
-- `aliases` — Alternative names. When updating, aliases are **merged** (not replaced).
-
-**Import matching order:**
-1. **id** — If present, matches by UUID
-2. **name/pluralName/abbreviation/pluralAbbreviation** — Cross-matches all combinations
-3. **alias** — Cross-matches in all directions
-
 ### Label
+
+| Field   | Required | Description                      |
+| ------- | :------: | -------------------------------- |
+| `id`    |    —     | UUID (auto-generated if missing) |
+| `name`  |    ✅     | Label name                       |
+| `color` |    —     | Hex color code (e.g., "#4CAF50") |
+
 ```json
 {
-  "name": "Groente",
-  "color": "#4CAF50"
+  "$schema": "mealie-sync",
+  "$type": "Labels",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "uuid",
+      "name": "Vegetables",
+      "color": "#4CAF50"
+    }
+  ]
 }
 ```
 
-### Category / Tag / Tool
+### Category / Tag
+
+| Field  | Required | Description                      |
+| ------ | :------: | -------------------------------- |
+| `id`   |    —     | UUID (auto-generated if missing) |
+| `name` |    ✅     | Category or tag name             |
+
 ```json
 {
-  "name": "Hoofdgerecht"
+  "$schema": "mealie-sync",
+  "$type": "Categories",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "uuid",
+      "name": "Main Course"
+    }
+  ]
 }
 ```
+
+### Tool
+
+| Field                | Required | Description                                  |
+| -------------------- | :------: | -------------------------------------------- |
+| `id`                 |    —     | UUID (auto-generated if missing)             |
+| `name`               |    ✅     | Tool name                                    |
+| `householdsWithTool` |    —     | Array of household names that have this tool |
+
+```json
+{
+  "$schema": "mealie-sync",
+  "$type": "Tools",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "uuid",
+      "name": "Oven",
+      "householdsWithTool": ["household-name"]
+    }
+  ]
+}
+```
+
+</details>
+
+---
+
+## Using as a PowerShell Module
+
+For scripting or advanced use cases:
+
+```powershell
+Import-Module .\MealieApi.psd1
+
+Initialize-MealieApi -BaseUrl "http://localhost:9000" -Token "your-token"
+
+# CRUD operations
+$foods = Get-MealieFoods -All
+New-MealieFood -Name "tempeh" -PluralName "tempeh" -Aliases @("tempe")
+Update-MealieFood -Id "guid" -Data @{ description = "Fermented soybeans" }
+Remove-MealieFood -Id "guid"
+
+# Bulk operations
+Export-MealieFoods -Path .\Foods.json
+Import-MealieFoods -Path .\Foods.json -UpdateExisting
+Sync-MealieFoods -Path .\Foods.json -Force  # Mirror
+
+# Same pattern for Units, Labels, Categories, Tags, Tools
+$units = Get-MealieUnits -All
+$labels = Get-MealieLabels -All
+```
+
+---
+
+## Project Structure
+
+```
+MealieSync/
+├── Invoke-MealieSync.ps1       # Main CLI interface
+├── MealieApi.psd1              # Module manifest
+├── MealieApi.psm1              # Module loader
+├── README.md
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+├── LICENSE
+│
+├── Public/                     # Exported functions (47)
+│   ├── Initialize-MealieApi.ps1
+│   ├── Foods.ps1               # Get/New/Update/Remove-MealieFood
+│   ├── Units.ps1               # Get/New/Update/Remove-MealieUnit
+│   ├── Labels.ps1              # Get/New/Update/Remove-MealieLabel
+│   ├── Organizers.ps1          # Categories, Tags, Tools
+│   ├── Export-*.ps1
+│   ├── Import-*.ps1
+│   └── Sync-*.ps1
+│
+├── Private/                    # Internal helpers (52)
+│   ├── Invoke-MealieRequest.ps1
+│   ├── Compare-Helpers.ps1
+│   ├── Validation-Helpers.ps1
+│   └── ...
+│
+├── Tools/                      # Standalone utilities (4)
+│   ├── Test-MealieConnection.ps1
+│   ├── Show-MealieStats.ps1
+│   ├── Backup-MealieData.ps1
+│   └── Convert-MealieSyncJson.ps1
+│
+├── Data/                       # Ingredient data by language
+│   ├── README.md               # Contribution guidelines
+│   └── nl/                     # Dutch data
+│       ├── Foods/              # Split by label
+│       ├── Labels.json
+│       ├── Units.json
+│       └── ...
+│
+├── docs/                       # Documentation
+│   └── COLORS.md               # Console color reference
+│
+└── Exports/                    # Output folder (gitignored)
+    └── AutoBackups/
+```
+
+---
 
 ## Troubleshooting
 
-### "File cannot be loaded" / Execution Policy Error
-```powershell
-# Option 1: Unblock downloaded files
-Get-ChildItem -Path "." -Recurse | Unblock-File
+<details>
+<summary><strong>Execution Policy Error</strong></summary>
 
-# Option 2: Set execution policy for current user
+```powershell
+# Unblock downloaded files
+Get-ChildItem -Recurse | Unblock-File
+
+# Or set execution policy
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-### "Failed to connect" Errors
-- Verify your Mealie URL is accessible
-- Check your API token is valid and not expired
-- Ensure no trailing slash in the URL
+</details>
 
-### "401 Unauthorized" Errors
-- Your API token may have expired
-- Generate a new token in Mealie
+<details>
+<summary><strong>Connection Errors</strong></summary>
 
-### Items Not Updating
-- Use the `-UpdateExisting` flag to update existing items
-- Without this flag, existing items are skipped
+Run the diagnostic tool:
 
-### Special Characters Not Displaying Correctly
-- Ensure your JSON files are saved with UTF-8 encoding
-- The module uses UTF-8 for all API requests
+```powershell
+.\Tools\Test-MealieConnection.ps1 -Detailed
+```
 
-## API Reference
+Common issues:
+- Wrong port number in URL
+- Trailing slash in URL (remove it)
+- Expired or invalid API token
+- Firewall blocking connection
 
-The module wraps these Mealie API endpoints:
+</details>
 
-| Function | Method | Endpoint |
-|----------|--------|----------|
-| `Get-MealieFoods` | GET | `/api/foods` |
-| `New-MealieFood` | POST | `/api/foods` |
-| `Update-MealieFood` | PUT | `/api/foods/{id}` |
-| `Remove-MealieFood` | DELETE | `/api/foods/{id}` |
-| `Get-MealieUnits` | GET | `/api/units` |
-| `New-MealieUnit` | POST | `/api/units` |
-| `Update-MealieUnit` | PUT | `/api/units/{id}` |
-| `Remove-MealieUnit` | DELETE | `/api/units/{id}` |
-| `Get-MealieLabels` | GET | `/api/groups/labels` |
-| `New-MealieLabel` | POST | `/api/groups/labels` |
-| `Update-MealieLabel` | PUT | `/api/groups/labels/{id}` |
-| `Remove-MealieLabel` | DELETE | `/api/groups/labels/{id}` |
-| `Get-MealieCategories` | GET | `/api/organizers/categories` |
-| `New-MealieCategory` | POST | `/api/organizers/categories` |
-| `Update-MealieCategory` | PUT | `/api/organizers/categories/{id}` |
-| `Remove-MealieCategory` | DELETE | `/api/organizers/categories/{id}` |
-| `Get-MealieTags` | GET | `/api/organizers/tags` |
-| `New-MealieTag` | POST | `/api/organizers/tags` |
-| `Update-MealieTag` | PUT | `/api/organizers/tags/{id}` |
-| `Remove-MealieTag` | DELETE | `/api/organizers/tags/{id}` |
-| `Get-MealieTools` | GET | `/api/organizers/tools` |
-| `New-MealieTool` | POST | `/api/organizers/tools` |
-| `Update-MealieTool` | PUT | `/api/organizers/tools/{id}` |
-| `Remove-MealieTool` | DELETE | `/api/organizers/tools/{id}` |
+<details>
+<summary><strong>Items Not Updating</strong></summary>
+
+By default, Import skips existing items. Use `-UpdateExisting`:
+
+```powershell
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -UpdateExisting
+```
+
+</details>
+
+<details>
+<summary><strong>Special Characters Garbled</strong></summary>
+
+Ensure JSON files are saved as **UTF-8 without BOM**. The module handles UTF-8 encoding for all API requests.
+
+</details>
+
+<details>
+<summary><strong>Import Validation Error</strong></summary>
+
+If you see "Missing type wrapper" or "Type mismatch":
+- Ensure your JSON has the wrapper format with `$schema`, `$type`, `$version`
+- Check that `$type` matches what you're importing
+
+</details>
+
+---
+
+## Contributing
+
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+**Data contributions** (translations, new ingredients) are especially appreciated. See [Data/README.md](Data/README.md) for the data contribution guide.
+
+---
+
+## API Endpoints
+
+| Function   | Method              | Endpoint                                       |
+| ---------- | ------------------- | ---------------------------------------------- |
+| Foods      | GET/POST/PUT/DELETE | `/api/foods`                                   |
+| Units      | GET/POST/PUT/DELETE | `/api/units`                                   |
+| Labels     | GET/POST/PUT/DELETE | `/api/groups/labels`                           |
+| Categories | GET/POST/PUT/DELETE | `/api/organizers/categories`                   |
+| Tags       | GET/POST/PUT/DELETE | `/api/organizers/tags`                         |
+| Tools      | GET/POST/PUT/DELETE | `/api/organizers/tools`                        |
+| Households | GET                 | `/api/groups/households`                       |
+| Recipes    | GET                 | `/api/recipes` (used by Mirror to check usage) |
+
+---
 
 ## License
 
-MIT — Feel free to modify and use as needed.
+[MIT](LICENSE) — Feel free to use and modify.

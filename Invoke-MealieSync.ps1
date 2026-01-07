@@ -6,6 +6,12 @@
     Main script to import, export, and synchronize Foods and Units with your Mealie instance.
     Requires PowerShell 7.0 or later (PowerShell Core).
     
+    Actions:
+    - List   : Display items from Mealie
+    - Export : Export items to JSON file(s)
+    - Import : Import items from JSON (add new, optionally update existing)
+    - Mirror : Full sync - add, update, AND DELETE to match JSON exactly
+    
 .EXAMPLE
     .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json
     Import foods from JSON file (create only, skip existing)
@@ -17,6 +23,10 @@
 .EXAMPLE
     .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -UpdateExisting
     Import foods and update any existing entries
+
+.EXAMPLE
+    .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -UpdateExisting -ReplaceAliases
+    Import foods, update existing, and replace aliases instead of merging
 
 .EXAMPLE
     .\Invoke-MealieSync.ps1 -Action Export -Type Units -JsonPath .\Exports\Units_backup.json
@@ -31,13 +41,21 @@
     Export foods to separate files per label (Groente.json, Vlees.json, etc.)
 
 .EXAMPLE
+    .\Invoke-MealieSync.ps1 -Action Mirror -Type Foods -JsonPath .\Foods.json -WhatIf
+    Preview what would be added, updated, and DELETED (safe preview)
+
+.EXAMPLE
+    .\Invoke-MealieSync.ps1 -Action Mirror -Type Foods -JsonPath .\Foods.json -Force
+    Full sync: add, update, and DELETE to match JSON exactly (no confirmation)
+
+.EXAMPLE
     .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -WhatIf
     Preview what would happen without making changes
 #>
 [CmdletBinding(SupportsShouldProcess)]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('Import', 'Export', 'List')]
+    [ValidateSet('Import', 'Export', 'List', 'Mirror')]
     [string]$Action,
     
     [Parameter(Mandatory)]
@@ -49,7 +67,17 @@ param(
     # Import option: import all JSON files from a folder
     [string]$Folder,
     
+    # Import/Mirror: update existing items
     [switch]$UpdateExisting,
+    
+    # Import/Mirror: replace aliases instead of merging (Foods, Units)
+    [switch]$ReplaceAliases,
+    
+    # Import/Mirror: skip automatic backup
+    [switch]$SkipBackup,
+    
+    # Mirror: skip confirmation prompt for deletions
+    [switch]$Force,
     
     # Export options for Foods
     [string]$Label,
@@ -132,14 +160,49 @@ try {
                 throw "Use either -JsonPath or -Folder, not both"
             }
             
-            $importParams = @{}
+            # Show import mode
+            Write-Host ""
+            Write-Host "Import mode:" -ForegroundColor Cyan
+            if ($UpdateExisting) {
+                Write-Host "  [X] Update existing items" -ForegroundColor Green
+            }
+            else {
+                Write-Host "  [ ] Update existing items (use -UpdateExisting to enable)" -ForegroundColor DarkGray
+            }
+            if ($ReplaceAliases) {
+                Write-Host "  [X] Replace aliases" -ForegroundColor Green
+            }
+            else {
+                Write-Host "  [ ] Replace aliases (merge mode, use -ReplaceAliases to replace)" -ForegroundColor DarkGray
+            }
+            if ($Label -and $Type -eq 'Foods') {
+                Write-Host "  [X] Label filter: $Label" -ForegroundColor Green
+            }
+            Write-Host ""
+            
+            $importParams = @{
+                BasePath = $PSScriptRoot
+            }
             
             if ($UpdateExisting) {
                 $importParams.UpdateExisting = $true
             }
             
+            if ($ReplaceAliases) {
+                $importParams.ReplaceAliases = $true
+            }
+            
+            if ($SkipBackup) {
+                $importParams.SkipBackup = $true
+            }
+            
             if ($WhatIfPreference) {
                 $importParams.WhatIf = $true
+            }
+            
+            # Label filtering for Foods
+            if ($Label -and $Type -eq 'Foods') {
+                $importParams.Label = $Label
             }
             
             if ($Folder) {
@@ -165,6 +228,17 @@ try {
                 Write-Host "`nImporting $Type from folder: $folderPath" -ForegroundColor Cyan
                 Write-Host "Found $($jsonFiles.Count) JSON file(s)`n" -ForegroundColor Cyan
                 
+                # Create a single backup before processing all files (unless -SkipBackup or -WhatIf)
+                if (-not $SkipBackup -and -not $WhatIfPreference) {
+                    $backupPath = Backup-BeforeImport -Type $Type -BasePath $PSScriptRoot
+                    if ($backupPath) {
+                        Write-Host "Backup created: $backupPath`n" -ForegroundColor DarkGray
+                    }
+                }
+                
+                # Force SkipBackup for individual file imports (backup already done above)
+                $importParams.SkipBackup = $true
+                
                 # Combined stats
                 $totalStats = @{
                     Created       = 0
@@ -174,6 +248,7 @@ try {
                     Errors        = 0
                     LabelWarnings = 0
                     Conflicts     = 0
+                    Deleted       = 0
                 }
                 
                 # Shared MatchedIds for cross-file conflict detection (Foods and Units)
@@ -205,6 +280,9 @@ try {
                         if ($result.Conflicts) {
                             $totalStats.Conflicts += $result.Conflicts
                         }
+                        if ($result.Deleted) {
+                            $totalStats.Deleted += $result.Deleted
+                        }
                     }
                     
                     Write-Host ""
@@ -224,6 +302,9 @@ try {
                 if ($totalStats.Conflicts -gt 0) {
                     Write-Host "  Conflicts:     $($totalStats.Conflicts)" -ForegroundColor Red
                 }
+                if ($totalStats.Deleted -gt 0) {
+                    Write-Host "  Deleted:       $($totalStats.Deleted)" -ForegroundColor Magenta
+                }
             }
             else {
                 # Import single file (existing behavior)
@@ -238,7 +319,7 @@ try {
                 
                 $importParams.Path = $fullPath
                 
-                switch ($Type) {
+                $null = switch ($Type) {
                     'Foods' { Import-MealieFoods @importParams }
                     'Units' { Import-MealieUnits @importParams }
                     'Labels' { Import-MealieLabels @importParams }
@@ -250,15 +331,23 @@ try {
         }
         
         'Export' {
-            if (-not $JsonPath) {
-                throw "JsonPath is required for Export action"
-            }
-            
-            $fullPath = if ([System.IO.Path]::IsPathRooted($JsonPath)) {
-                $JsonPath
+            # For SplitByLabel, allow either -JsonPath or -Folder
+            $exportPath = if ($SplitByLabel -and $Folder -and -not $JsonPath) {
+                $Folder
             }
             else {
-                Join-Path (Get-Location) $JsonPath
+                $JsonPath
+            }
+            
+            if (-not $exportPath) {
+                throw "JsonPath is required for Export action (or -Folder when using -SplitByLabel)"
+            }
+            
+            $fullPath = if ([System.IO.Path]::IsPathRooted($exportPath)) {
+                $exportPath
+            }
+            else {
+                Join-Path (Get-Location) $exportPath
             }
             
             if ($SplitByLabel) {
@@ -271,18 +360,23 @@ try {
                 Write-Host "`nExporting $Type to: $fullPath" -ForegroundColor Cyan
             }
             
+            # Build export params with WhatIf support
+            $exportParams = @{ Path = $fullPath }
+            if ($WhatIfPreference) {
+                $exportParams.WhatIf = $true
+            }
+            
             switch ($Type) {
                 'Foods' {
-                    $exportParams = @{ Path = $fullPath }
                     if ($Label) { $exportParams.Label = $Label }
                     if ($SplitByLabel) { $exportParams.SplitByLabel = $true }
                     Export-MealieFoods @exportParams
                 }
-                'Units' { Export-MealieUnits -Path $fullPath }
-                'Labels' { Export-MealieLabels -Path $fullPath }
-                'Categories' { Export-MealieCategories -Path $fullPath }
-                'Tags' { Export-MealieTags -Path $fullPath }
-                'Tools' { Export-MealieTools -Path $fullPath }
+                'Units' { Export-MealieUnits @exportParams }
+                'Labels' { Export-MealieLabels @exportParams }
+                'Categories' { Export-MealieCategories @exportParams }
+                'Tags' { Export-MealieTags @exportParams }
+                'Tools' { Export-MealieTools @exportParams }
             }
         }
         
@@ -334,11 +428,68 @@ try {
                 }
             }
         }
+        
+        'Mirror' {
+            # Mirror = Full sync: add, update, AND delete
+            if (-not $JsonPath) {
+                throw "JsonPath is required for Mirror action"
+            }
+            
+            if ($Folder) {
+                throw "Folder import is not supported for Mirror action (too dangerous). Use -JsonPath with a single file."
+            }
+            
+            $fullPath = if ([System.IO.Path]::IsPathRooted($JsonPath)) {
+                $JsonPath
+            }
+            else {
+                Join-Path (Get-Location) $JsonPath
+            }
+            
+            Write-Host "`nMirroring $Type to match: $fullPath" -ForegroundColor Cyan
+            
+            # Build parameters for Sync functions
+            $syncParams = @{
+                Path = $fullPath
+                BasePath = $PSScriptRoot
+            }
+            
+            if ($ReplaceAliases -and $Type -in @('Foods', 'Units')) {
+                $syncParams.ReplaceAliases = $true
+            }
+            
+            if ($SkipBackup) {
+                $syncParams.SkipBackup = $true
+            }
+            
+            if ($Force) {
+                $syncParams.Force = $true
+            }
+            
+            if ($WhatIfPreference) {
+                $syncParams.WhatIf = $true
+            }
+            
+            # Label scoping for Foods
+            if ($Label -and $Type -eq 'Foods') {
+                $syncParams.Label = $Label
+            }
+            
+            # Call appropriate Sync function
+            $null = switch ($Type) {
+                'Foods' { Sync-MealieFoods @syncParams }
+                'Units' { Sync-MealieUnits @syncParams }
+                'Labels' { Sync-MealieLabels @syncParams }
+                'Categories' { Sync-MealieCategories @syncParams }
+                'Tags' { Sync-MealieTags @syncParams }
+                'Tools' { Sync-MealieTools @syncParams }
+            }
+        }
     }
     
     Write-Host "`nDone!" -ForegroundColor Green
 }
 catch {
-    Write-Error "Error: $_"
+    Write-Host "Error: $_" -ForegroundColor Red
     exit 1
 }

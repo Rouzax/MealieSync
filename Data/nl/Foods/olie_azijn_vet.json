@@ -1,0 +1,387 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "name": "aceto balsamico",
+      "pluralName": "aceto balsamico",
+      "description": "Italiaanse druivenazijn uit Modena; zoetzuur, voor dressings en marinades.",
+      "aliases": [
+        {
+          "name": "balsamicoazijn"
+        },
+        {
+          "name": "balsamico"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "appelazijn",
+      "pluralName": "appelazijn",
+      "description": "Azijn van gefermenteerde appels; mild zuur, voor dressings en marinades.",
+      "aliases": [
+        {
+          "name": "appelciderazijn"
+        },
+        {
+          "name": "appel azijn"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "arachideolie",
+      "pluralName": "arachideolie",
+      "description": "Olie uit pinda's; hoog rookpunt, voor roerbakken en frituren.",
+      "aliases": [
+        {
+          "name": "pindaolie"
+        },
+        {
+          "name": "grondnotenolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "avocado-olie",
+      "pluralName": "avocado-olie",
+      "description": "Olie uit avocadovruchtvlees; hoog rookpunt, mild van smaak.",
+      "aliases": [
+        {
+          "name": "avocadoolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "azijn",
+      "pluralName": "azijn",
+      "description": "Generieke zure vloeistof; smaakmaker en conserveringsmiddel.",
+      "aliases": [
+        {
+          "name": "natuurazijn"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "balsamicocrème",
+      "pluralName": "balsamicocrème",
+      "description": "Ingedikte balsamicoazijn; stroperig zoet, voor garnering en desserts.",
+      "aliases": [
+        {
+          "name": "balsamico crème"
+        },
+        {
+          "name": "crema di balsamico"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "chiliolie",
+      "pluralName": "chiliolie",
+      "description": "Olie met chilipepers; pittige smaakmaker om te druppelen over gerechten.",
+      "aliases": [
+        {
+          "name": "chili olie"
+        },
+        {
+          "name": "chili-olie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "druivenpittenolie",
+      "pluralName": "druivenpittenolie",
+      "description": "Lichte olie uit druivenpitten; neutraal van smaak, hoog rookpunt.",
+      "aliases": [
+        {
+          "name": "druivenpitolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "frambozenazijn",
+      "pluralName": "frambozenazijn",
+      "description": "Azijn gearomatiseerd met frambozen; fruitig, voor salades en sauzen.",
+      "aliases": [],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "hazelnootolie",
+      "pluralName": "hazelnootolie",
+      "description": "Olie van hazelnoten; nootachtig aroma, voor dressings en bakken.",
+      "aliases": [],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "kokosolie",
+      "pluralName": "kokosolie",
+      "description": "Vet uit kokosnoot; vast bij kamertemperatuur, voor bakken en Aziatische keuken.",
+      "aliases": [
+        {
+          "name": "kokosvet"
+        },
+        {
+          "name": "kokosnotolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "koolzaadolie",
+      "pluralName": "koolzaadolie",
+      "description": "Neutrale olie van koolzaad; geschikt voor bakken en frituren.",
+      "aliases": [
+        {
+          "name": "raapzaadolie"
+        },
+        {
+          "name": "raapolie"
+        },
+        {
+          "name": "canolaolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "lijnzaadolie",
+      "pluralName": "lijnzaadolie",
+      "description": "Olie van lijnzaad; rijk aan omega-3, niet verhitten, voor dressings.",
+      "aliases": [],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "maïsolie",
+      "pluralName": "maïsolie",
+      "description": "Plantaardige olie uit maïskiemen; neutraal van smaak, voor bakken.",
+      "aliases": [
+        {
+          "name": "maisolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "mosterdolie",
+      "pluralName": "mosterdolie",
+      "description": "Scherpe olie uit mosterdzaad; voor Indiase en Bengaalse gerechten.",
+      "aliases": [],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "moutazijn",
+      "pluralName": "moutazijn",
+      "description": "Azijn op basis van gefermenteerde gerst; voor fish & chips en pickles.",
+      "aliases": [
+        {
+          "name": "bruine azijn"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "olie",
+      "pluralName": "olie",
+      "description": "Generiek vloeibaar vet; voor bakken, frituren of dressings.",
+      "aliases": [
+        {
+          "name": "bakolie"
+        },
+        {
+          "name": "slaolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "olijfolie",
+      "pluralName": "olijfolie",
+      "description": "Olie uit olijven; veelzijdig, voor bakken en dressings.",
+      "aliases": [
+        {
+          "name": "olijf olie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "olijfolie extra vierge",
+      "pluralName": "olijfolie extra vierge",
+      "description": "Koudgeperste olijfolie van eerste persing; fruitig, voor koud gebruik.",
+      "aliases": [
+        {
+          "name": "extra vierge olijfolie"
+        },
+        {
+          "name": "extra virgine olijfolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "ossewit",
+      "pluralName": "ossewit",
+      "description": "Uitgebakken rundervet; voor traditioneel frituren van patat.",
+      "aliases": [
+        {
+          "name": "rundervet"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "palmolie",
+      "pluralName": "palmolie",
+      "description": "Plantaardig vet uit oliepalm; stabiel bakvet, roodgekleurd.",
+      "aliases": [
+        {
+          "name": "palmvet"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "plantaardige olie",
+      "pluralName": "plantaardige olie",
+      "description": "Mengsel van plantaardige oliën; neutraal, voor bakken en frituren.",
+      "aliases": [
+        {
+          "name": "plantaardig vet"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "reuzel",
+      "pluralName": "reuzel",
+      "description": "Uitgebakken varkensvet; traditioneel bakvet voor gebak en patat.",
+      "aliases": [
+        {
+          "name": "varkensvet"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "rijstazijn",
+      "pluralName": "rijstazijn",
+      "description": "Azijn van gefermenteerde rijst; mild, voor sushi en Aziatische dressings.",
+      "aliases": [
+        {
+          "name": "rijstwijnazijn"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "rijstolie",
+      "pluralName": "rijstolie",
+      "description": "Olie uit rijstzemelen; mild, hoog rookpunt, voor roerbakken.",
+      "aliases": [
+        {
+          "name": "rijstzemelenolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "rode wijnazijn",
+      "pluralName": "rode wijnazijn",
+      "description": "Azijn van rode wijn; robuust, voor vinaigrettes en stoofgerechten.",
+      "aliases": [],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "sesamolie",
+      "pluralName": "sesamolie",
+      "description": "Olie van geroosterd sesamzaad; nootachtig, voor Aziatische gerechten.",
+      "aliases": [
+        {
+          "name": "sesam olie"
+        },
+        {
+          "name": "geroosterde sesamolie"
+        },
+        {
+          "name": "gingelly-olie"
+        },
+        {
+          "name": "lichte sesamolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "sherryazijn",
+      "pluralName": "sherryazijn",
+      "description": "Azijn van sherrywijn; complex en nootachtig, voor Spaanse gerechten.",
+      "aliases": [],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "truffelolie",
+      "pluralName": "truffelolie",
+      "description": "Olie gearomatiseerd met truffel; druppelsgewijs als luxe smaakmaker.",
+      "aliases": [],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "walnootolie",
+      "pluralName": "walnootolie",
+      "description": "Olie van walnoten; nootachtig, voor salades en niet verhitten.",
+      "aliases": [],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "witte balsamico",
+      "pluralName": "witte balsamico",
+      "description": "Lichte balsamicoazijn; zoetzuur zonder te verkleuren, voor lichte dressings.",
+      "aliases": [
+        {
+          "name": "witte balsamicoazijn"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "witte wijnazijn",
+      "pluralName": "witte wijnazijn",
+      "description": "Azijn van witte wijn; mild en fris, voor vinaigrettes.",
+      "aliases": [],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "wokolie",
+      "pluralName": "wokolie",
+      "description": "Olie met hoog rookpunt; vaak gearomatiseerd, voor roerbakken.",
+      "aliases": [
+        {
+          "name": "wok olie"
+        },
+        {
+          "name": "roerbakolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "zonnebloemolie",
+      "pluralName": "zonnebloemolie",
+      "description": "Neutrale olie uit zonnebloempitten; veelzijdig voor bakken en frituren.",
+      "aliases": [
+        {
+          "name": "zonnebloem olie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    }
+  ]
+}

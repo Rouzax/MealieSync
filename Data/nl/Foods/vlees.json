@@ -1,0 +1,978 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "name": "bavette",
+      "pluralName": "bavettes",
+      "description": "Rundvlees van de flank; vol smaak, medium gebakken.",
+      "aliases": [
+        {
+          "name": "flank steak"
+        },
+        {
+          "name": "flanksteak"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "biefstuk",
+      "pluralName": "biefstukken",
+      "description": "Rundvlees; malse plak uit de lende, kort gebakken.",
+      "aliases": [
+        {
+          "name": "beefsteak"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "brisket",
+      "pluralName": "brisket",
+      "description": "Rundvlees van de borst; ideaal voor slow cooking of BBQ.",
+      "aliases": [
+        {
+          "name": "runderborst"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "buikspek",
+      "pluralName": "buikspek",
+      "description": "Varkensvlees van de buik; vet en smaakvol, langzaam gegaard.",
+      "aliases": [
+        {
+          "name": "varkensbuik"
+        },
+        {
+          "name": "pork belly"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "chuck eye",
+      "pluralName": "chuck eyes",
+      "description": "Rundvlees van de schouder; smaakvol, vergelijkbaar met ribeye.",
+      "aliases": [
+        {
+          "name": "chuckeye"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "côte de boeuf",
+      "pluralName": "côte de boeuf",
+      "description": "Rundvlees; groot ribeye aan het bot, voor 2 personen.",
+      "aliases": [
+        {
+          "name": "cote de boeuf"
+        },
+        {
+          "name": "côte de bœuf"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "diamanthaas",
+      "pluralName": "diamanthazen",
+      "description": "Rundvlees; mals deel nabij ossenhaas, kort gebakken.",
+      "aliases": [],
+      "label": "Vlees"
+    },
+    {
+      "name": "entrecote",
+      "pluralName": "entrecotes",
+      "description": "Rundvlees; doorregen ribeye, sappig en smaakvol.",
+      "aliases": [
+        {
+          "name": "ribeye"
+        },
+        {
+          "name": "rib eye"
+        },
+        {
+          "name": "entrecôte"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "everzwijn",
+      "pluralName": "everzwijn",
+      "description": "Wild vlees; krachtige smaak, gestoofd of gebraden.",
+      "aliases": [
+        {
+          "name": "wild zwijn"
+        },
+        {
+          "name": "zwijn"
+        },
+        {
+          "name": "wildzwijn"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "flat iron",
+      "pluralName": "flat irons",
+      "description": "Rundvlees van de schouder; mals en smaakvol, kort gebakken.",
+      "aliases": [
+        {
+          "name": "flatiron"
+        },
+        {
+          "name": "flat iron steak"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "fricandeau",
+      "pluralName": "fricandeaus",
+      "description": "Rundvlees; mager braadstuk uit de bil, langzaam gebraden.",
+      "aliases": [],
+      "label": "Vlees"
+    },
+    {
+      "name": "gehakt",
+      "pluralName": "gehakt",
+      "description": "Gemalen vlees; voor gehaktballen, sauzen, burgers.",
+      "aliases": [],
+      "label": "Vlees"
+    },
+    {
+      "name": "gnoe",
+      "pluralName": "gnoe",
+      "description": "Wild vlees van antilopesoort; vergelijkbaar met rundvlees.",
+      "aliases": [],
+      "label": "Vlees"
+    },
+    {
+      "name": "haas",
+      "pluralName": "hazen",
+      "description": "Wild vlees; donker en krachtig, vaak gestoofd.",
+      "aliases": [
+        {
+          "name": "hazenvlees"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "half-om-half gehakt",
+      "pluralName": "half-om-half gehakt",
+      "description": "Mix van runder- en varkensgehakt; veelzijdig.",
+      "aliases": [
+        {
+          "name": "gemengd gehakt"
+        },
+        {
+          "name": "half om half gehakt"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "hamlapje",
+      "pluralName": "hamlapjes",
+      "description": "Varkensvlees; dun plakje uit de ham, snel gebakken.",
+      "aliases": [
+        {
+          "name": "hamlap"
+        },
+        {
+          "name": "hamlappen"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "hertenvlees",
+      "pluralName": "hertenvlees",
+      "description": "Wild vlees; mager en krachtig van smaak.",
+      "aliases": [
+        {
+          "name": "hert"
+        },
+        {
+          "name": "ree"
+        },
+        {
+          "name": "reevlees"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "inside skirt",
+      "pluralName": "inside skirts",
+      "description": "Rundvlees van het middenrif; intens van smaak, kort gebakken.",
+      "aliases": [
+        {
+          "name": "onglet"
+        },
+        {
+          "name": "kroonvlees"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "kalfsentrecote",
+      "pluralName": "kalfsentrecotes",
+      "description": "Kalfsvlees; rib stuk, mals en mild van smaak.",
+      "aliases": [
+        {
+          "name": "kalfsribeye"
+        },
+        {
+          "name": "kalfs entrecote"
+        },
+        {
+          "name": "kalfs ribeye"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "kalfslapje",
+      "pluralName": "kalfslapjes",
+      "description": "Kalfsvlees; dun plakje, snel gebakken.",
+      "aliases": [
+        {
+          "name": "kalfslap"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "kalfsoester",
+      "pluralName": "kalfsoester",
+      "description": "Kalfsvlees uit de rug; luxe stuk, kort gebakken.",
+      "aliases": [
+        {
+          "name": "kalfs oester"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "kalfsschenkel",
+      "pluralName": "kalfsschenkels",
+      "description": "Kalfsvlees van de scheenbeen; voor ossobuco, langzaam gestoofd.",
+      "aliases": [
+        {
+          "name": "ossobuco"
+        },
+        {
+          "name": "osso buco"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "kalfsschnitzel",
+      "pluralName": "kalfsschnitzels",
+      "description": "Kalfsvlees; dunne plak, gepaneerd als Wiener schnitzel.",
+      "aliases": [
+        {
+          "name": "wiener schnitzel"
+        },
+        {
+          "name": "wienerschnitzel"
+        },
+        {
+          "name": "kalfs schnitzel"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "kalfsvlees",
+      "pluralName": "kalfsvlees",
+      "description": "Vlees van kalf; mals en licht van kleur.",
+      "aliases": [
+        {
+          "name": "kalf"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "karbonade",
+      "pluralName": "karbonades",
+      "description": "Varkenskotelet met bot; gegrild of gebakken.",
+      "aliases": [
+        {
+          "name": "carbonade"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "kogelbiefstuk",
+      "pluralName": "kogelbiefstukken",
+      "description": "Rundvlees uit de bil; mager en mals, kort gebakken.",
+      "aliases": [
+        {
+          "name": "kogel biefstuk"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "konijn",
+      "pluralName": "konijnen",
+      "description": "Wild of tam vlees; licht en mager, gestoofd of gebraden.",
+      "aliases": [
+        {
+          "name": "konijnenvlees"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "lamsbout",
+      "pluralName": "lamsbouten",
+      "description": "Lamsvlees; klassiek braadstuk, langzaam gegaard.",
+      "aliases": [
+        {
+          "name": "lams bout"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "lamsfilet",
+      "pluralName": "lamsfilets",
+      "description": "Lamsvlees; mager en mals, kort gebakken.",
+      "aliases": [
+        {
+          "name": "lams filet"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "lamskotelet",
+      "pluralName": "lamskoteletten",
+      "description": "Lamsvlees; kotelet aan het bot, kort gegrild.",
+      "aliases": [
+        {
+          "name": "lamscotelette"
+        },
+        {
+          "name": "lams kotelet"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "lamslever",
+      "pluralName": "lamslever",
+      "description": "Lever van lam; zacht van smaak, kort gebakken.",
+      "aliases": [
+        {
+          "name": "lams lever"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "lamsrack",
+      "pluralName": "lamsracks",
+      "description": "Lamsvlees; ribstuk met botjes, elegant gerecht.",
+      "aliases": [
+        {
+          "name": "lamskarré"
+        },
+        {
+          "name": "lamskarre"
+        },
+        {
+          "name": "lams rack"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "lamsschouder",
+      "pluralName": "lamsschouders",
+      "description": "Lamsvlees; ideaal voor stoven of langzaam braden.",
+      "aliases": [
+        {
+          "name": "lams schouder"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "lamsvlees",
+      "pluralName": "lamsvlees",
+      "description": "Vlees van lam; mals met karakteristieke smaak.",
+      "aliases": [
+        {
+          "name": "lam"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "lever",
+      "pluralName": "lever",
+      "description": "Orgaanvlees; voor paté of gebakken, ijzerrijk.",
+      "aliases": [],
+      "label": "Vlees"
+    },
+    {
+      "name": "magere lappen",
+      "pluralName": "magere lappen",
+      "description": "Mager rundvlees in plakken; voor soep of stoven.",
+      "aliases": [
+        {
+          "name": "magere runderlappen"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "medaillon",
+      "pluralName": "medaillons",
+      "description": "Ronde dikke plak vlees; van varkenshaas of ossenhaas.",
+      "aliases": [
+        {
+          "name": "medallion"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "mergpijp",
+      "pluralName": "mergpijp",
+      "description": "Runderbeen met merg; geroosterd of in soep.",
+      "aliases": [
+        {
+          "name": "beendermerg"
+        },
+        {
+          "name": "merg pijp"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "ossenhaas",
+      "pluralName": "ossenhaas",
+      "description": "Rundvlees; meest malse stuk, kort gebakken.",
+      "aliases": [
+        {
+          "name": "ossen haas"
+        },
+        {
+          "name": "filet pur"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "ossestaart",
+      "pluralName": "ossestaarten",
+      "description": "Rundstaart; veel bindweefsel, langzaam gestoofd.",
+      "aliases": [
+        {
+          "name": "osse staart"
+        },
+        {
+          "name": "runderstaart"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "picanha",
+      "pluralName": "picanha",
+      "description": "Rundvlees; Braziliaanse snit met vetrand, gegrild.",
+      "aliases": [
+        {
+          "name": "staartstuk"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "procureur",
+      "pluralName": "procureurs",
+      "description": "Rundvlees; mager stoofvlees uit de schouder.",
+      "aliases": [],
+      "label": "Vlees"
+    },
+    {
+      "name": "ribfingers",
+      "pluralName": "ribfingers",
+      "description": "Varkensvlees tussen de ribben; smaakvol, voor BBQ.",
+      "aliases": [
+        {
+          "name": "rib fingers"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "riblap",
+      "pluralName": "riblappen",
+      "description": "Rundvlees; stooflap van de rib, smaakvol.",
+      "aliases": [
+        {
+          "name": "rib lap"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "rumpsteak",
+      "pluralName": "rumpsteaks",
+      "description": "Rundvlees van de stuit; stevig en smaakvol.",
+      "aliases": [
+        {
+          "name": "rump steak"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "rundercarpaccio",
+      "pluralName": "rundercarpaccio",
+      "description": "Dun gesneden rauw rundvlees; als voorgerecht.",
+      "aliases": [
+        {
+          "name": "carpaccio"
+        },
+        {
+          "name": "runder carpaccio"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "rundergehakt",
+      "pluralName": "rundergehakt",
+      "description": "Gemalen rundvlees; voor bolognese, burgers.",
+      "aliases": [
+        {
+          "name": "runder gehakt"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "runderlap",
+      "pluralName": "runderlappen",
+      "description": "Stoofvlees van rund; voor hachee.",
+      "aliases": [
+        {
+          "name": "runder lap"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "runderriblap",
+      "pluralName": "runderriblappen",
+      "description": "Stoofvlees van de rib; mals door vetdoorwasing.",
+      "aliases": [
+        {
+          "name": "runder riblap"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "runderrollade",
+      "pluralName": "runderrollades",
+      "description": "Opgerold rundvlees; gevuld of naturel, langzaam gebraden.",
+      "aliases": [
+        {
+          "name": "runder rollade"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "rundvlees",
+      "pluralName": "rundvlees",
+      "description": "Vlees van rund; voor braden, stoven, grillen.",
+      "aliases": [
+        {
+          "name": "rund"
+        },
+        {
+          "name": "rund vlees"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "schnitzel",
+      "pluralName": "schnitzels",
+      "description": "Dunne vleesplak; gepaneerd en gebakken.",
+      "aliases": [],
+      "label": "Vlees"
+    },
+    {
+      "name": "schouderkarbonade",
+      "pluralName": "schouderkarbonades",
+      "description": "Varkensvlees; doorregen karbonade, gestoofd of gegrild.",
+      "aliases": [
+        {
+          "name": "schouder karbonade"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "secreto",
+      "pluralName": "secreto",
+      "description": "Varkensvlees; verborgen stuk nabij buik, zeer smaakvol.",
+      "aliases": [
+        {
+          "name": "secreto ibérico"
+        },
+        {
+          "name": "secreto iberico"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "shortrib",
+      "pluralName": "shortribs",
+      "description": "Rundvlees; korte rib, ideaal voor slow cooking.",
+      "aliases": [
+        {
+          "name": "short rib"
+        },
+        {
+          "name": "short ribs"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "spareribs",
+      "pluralName": "spareribs",
+      "description": "Varkensribben; gemarineerd, langzaam gegaard of gegrild.",
+      "aliases": [
+        {
+          "name": "spare ribs"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "speenvarken",
+      "pluralName": "speenvarkens",
+      "description": "Jong varken; mals vlees, traditioneel geroosterd.",
+      "aliases": [
+        {
+          "name": "speen varken"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "spekblokje",
+      "pluralName": "spekblokjes",
+      "description": "In blokjes gesneden spek; voor bakken.",
+      "aliases": [
+        {
+          "name": "spekjes"
+        },
+        {
+          "name": "spek blokjes"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "speklap",
+      "pluralName": "speklapjes",
+      "description": "Varkensvlees; doorregen buikspek in plakken, gebakken.",
+      "aliases": [
+        {
+          "name": "speklapje"
+        },
+        {
+          "name": "spek lap"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "spekreepje",
+      "pluralName": "spekreepjes",
+      "description": "In reepjes gesneden spek; voor carbonara of salade.",
+      "aliases": [
+        {
+          "name": "spek reepjes"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "stoofvlees",
+      "pluralName": "stoofvlees",
+      "description": "Rundvlees; stukken voor langzaam stoven.",
+      "aliases": [
+        {
+          "name": "runderstoofvlees"
+        },
+        {
+          "name": "suddervlees"
+        },
+        {
+          "name": "stoof vlees"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "sukadelap",
+      "pluralName": "sukadelappen",
+      "description": "Runderstooflap met zeen; langzaam gestoofd.",
+      "aliases": [
+        {
+          "name": "sukade lap"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "sukadevlees",
+      "pluralName": "sukadevlees",
+      "description": "Rundvlees van de schouder; voor sudderen.",
+      "aliases": [
+        {
+          "name": "sukade vlees"
+        },
+        {
+          "name": "sukade"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "t-bone",
+      "pluralName": "t-bones",
+      "description": "Rundvlees; steak met T-vormig bot, twee stukken in één.",
+      "aliases": [
+        {
+          "name": "t-bone steak"
+        },
+        {
+          "name": "tbone"
+        },
+        {
+          "name": "t bone"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "tartaar",
+      "pluralName": "tartaar",
+      "description": "Rauw gemalen rundvlees; gekruid als hoofdgerecht.",
+      "aliases": [
+        {
+          "name": "steak tartare"
+        },
+        {
+          "name": "biefstuk tartaar"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "tomahawk",
+      "pluralName": "tomahawks",
+      "description": "Rundvlees; ribeye met lang bot, spectaculair grillstuk.",
+      "aliases": [
+        {
+          "name": "tomahawk steak"
+        },
+        {
+          "name": "tomahawksteak"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "tournedos",
+      "pluralName": "tournedos",
+      "description": "Rundvlees; dikke plak ossenhaas, luxe stuk.",
+      "aliases": [],
+      "label": "Vlees"
+    },
+    {
+      "name": "varkensfilet",
+      "pluralName": "varkensfilets",
+      "description": "Varkensvlees; mager stuk, snel te bereiden.",
+      "aliases": [
+        {
+          "name": "varkens filet"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "varkensgehakt",
+      "pluralName": "varkensgehakt",
+      "description": "Gemalen varkensvlees; voor worstjes, gehaktballen.",
+      "aliases": [
+        {
+          "name": "varkens gehakt"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "varkenshaas",
+      "pluralName": "varkenshaasjes",
+      "description": "Varkensvlees; magere malse haas, kort gebakken.",
+      "aliases": [
+        {
+          "name": "varkens haas"
+        },
+        {
+          "name": "varkenshaasje"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "varkenskarbonade",
+      "pluralName": "varkenskarbonades",
+      "description": "Kotelet van varken aan het bot; gebakken of gegrild.",
+      "aliases": [
+        {
+          "name": "kotelet"
+        },
+        {
+          "name": "varkens karbonade"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "varkensoester",
+      "pluralName": "varkensoesters",
+      "description": "Mager varkensvlees uit de rug; snel klaar.",
+      "aliases": [
+        {
+          "name": "varkens oester"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "varkensreepje",
+      "pluralName": "varkensreepjes",
+      "description": "Gesneden varkensvlees; voor roerbak.",
+      "aliases": [
+        {
+          "name": "varkens reepjes"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "varkensrollade",
+      "pluralName": "varkensrollades",
+      "description": "Opgerold varkensvlees; gevuld of naturel, langzaam gebraden.",
+      "aliases": [
+        {
+          "name": "varkens rollade"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "varkensschnitzel",
+      "pluralName": "varkensschnitzels",
+      "description": "Gepaneerd varkensvlees; gebakken.",
+      "aliases": [
+        {
+          "name": "varkens schnitzel"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "varkensschouder",
+      "pluralName": "varkensschouder",
+      "description": "Varkensvlees van de schouder; voor stoven of braden.",
+      "aliases": [
+        {
+          "name": "varkens schouder"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "varkensvlees",
+      "pluralName": "varkensvlees",
+      "description": "Vlees van varken; veelzijdig voor braden, stoven, grillen.",
+      "aliases": [
+        {
+          "name": "varken"
+        },
+        {
+          "name": "varkens vlees"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "varkenswang",
+      "pluralName": "varkenswangen",
+      "description": "Varkensvlees van de wang; zeer mals na lang stoven.",
+      "aliases": [
+        {
+          "name": "varkens wang"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "worstje",
+      "pluralName": "worstjes",
+      "description": "Kleine worst; gegrild of gebakken.",
+      "aliases": [
+        {
+          "name": "worst"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "zwezerik",
+      "pluralName": "zwezeriken",
+      "description": "Orgaanvlees (thymusklier); delicaat, gebakken als voorgerecht.",
+      "aliases": [
+        {
+          "name": "animella"
+        },
+        {
+          "name": "kalfszwezerik"
+        }
+      ],
+      "label": "Vlees"
+    }
+  ]
+}
