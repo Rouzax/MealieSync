@@ -71,6 +71,13 @@
       "label": "Zoetwaren"
     },
     {
+      "name": "bastognekoek",
+      "pluralName": "bastognekoeken",
+      "description": "Knapperige speculaaskoekjes; vaak gebruikt als bodem voor cheesecakes en desserts.",
+      "aliases": [],
+      "label": "Zoetwaren"
+    },
+    {
       "name": "caramel",
       "pluralName": "caramel",
       "description": "Gekarameliseerde suiker; voor sauzen en snoep.",
@@ -274,6 +281,20 @@
       "aliases": [
         {
           "name": "confituur"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "name": "karamel dessertsaus",
+      "pluralName": "karamel dessertsaus",
+      "description": "Zoete saus van gekarameliseerde suiker en room; voor ijs, pannenkoeken en desserts.",
+      "aliases": [
+        {
+          "name": "karamelsaus"
+        },
+        {
+          "name": "caramelsaus"
         }
       ],
       "label": "Zoetwaren"
@@ -495,27 +516,6 @@
         },
         {
           "name": "wit chocolade"
-        }
-      ],
-      "label": "Zoetwaren"
-    },
-    {
-      "name": "bastognekoek",
-      "pluralName": "bastognekoeken",
-      "description": "Knapperige speculaaskoekjes; vaak gebruikt als bodem voor cheesecakes en desserts.",
-      "aliases": [],
-      "label": "Zoetwaren"
-    },
-    {
-      "name": "karamel dessertsaus",
-      "pluralName": "karamel dessertsaus",
-      "description": "Zoete saus van gekarameliseerde suiker en room; voor ijs, pannenkoeken en desserts.",
-      "aliases": [
-        {
-          "name": "karamelsaus"
-        },
-        {
-          "name": "caramelsaus"
         }
       ],
       "label": "Zoetwaren"

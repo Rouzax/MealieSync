@@ -40,6 +40,23 @@
       "label": "Verse kruiden"
     },
     {
+      "name": "bladselderij",
+      "pluralName": "bladselderij",
+      "description": "Verse selderijblaadjes; fris kruid voor soep, salades en saus.",
+      "aliases": [
+        {
+          "name": "snijselderij"
+        },
+        {
+          "name": "selderblad"
+        },
+        {
+          "name": "celery leaves"
+        }
+      ],
+      "label": "Verse kruiden"
+    },
+    {
       "name": "bonenkruid",
       "pluralName": "bonenkruid",
       "description": "Keukenkruid; kruidig blad, meegekookt met bonen en peulvruchten.",
@@ -90,28 +107,6 @@
       "label": "Verse kruiden"
     },
     {
-      "name": "verse dille",
-      "pluralName": "verse dille",
-      "description": "Vers kruid met anijsachtige smaak; bij vis en komkommer.",
-      "aliases": [
-        {
-          "name": "dille (vers)"
-        }
-      ],
-      "label": "Verse kruiden"
-    },
-    {
-      "name": "verse dragon",
-      "pluralName": "verse dragon",
-      "description": "Keukenkruid met anijsachtige smaak; voor béarnaisesaus en bij vis.",
-      "aliases": [
-        {
-          "name": "verse tarragon"
-        }
-      ],
-      "label": "Verse kruiden"
-    },
-    {
       "name": "kervel",
       "pluralName": "kervel",
       "description": "Keukenkruid met anijsachtig frisse smaak; voor soepen en sauzen.",
@@ -119,21 +114,12 @@
       "label": "Verse kruiden"
     },
     {
-      "name": "koriander",
-      "pluralName": "koriander",
-      "description": "Aromatisch keukenkruid; vers blad voor Aziatische en Mexicaanse gerechten.",
+      "name": "koriandersteeltje",
+      "pluralName": "koriandersteeltjes",
+      "description": "Steeltjes van koriander met intense smaak; fijngehakt in curry's en sauzen.",
       "aliases": [
         {
-          "name": "verse koriander"
-        },
-        {
-          "name": "korianderblad"
-        },
-        {
-          "name": "koriandersteeltjes"
-        },
-        {
-          "name": "korianderblaadje"
+          "name": "koriandersteel"
         }
       ],
       "label": "Verse kruiden"
@@ -175,36 +161,6 @@
           "name": "majoraan"
         }
       ],
-      "label": "Verse kruiden"
-    },
-    {
-      "name": "munt",
-      "pluralName": "munt",
-      "description": "Fris aromatisch keukenkruid; voor thee, desserts en als garnering.",
-      "aliases": [
-        {
-          "name": "verse munt"
-        },
-        {
-          "name": "pepermunt"
-        },
-        {
-          "name": "kruizemunt"
-        },
-        {
-          "name": "muntblaadje"
-        },
-        {
-          "name": "muntblaadjes"
-        }
-      ],
-      "label": "Verse kruiden"
-    },
-    {
-      "name": "verse oregano",
-      "pluralName": "verse oregano",
-      "description": "Keukenkruid (wilde marjolein); aromatisch blad voor pizza en pasta.",
-      "aliases": [],
       "label": "Verse kruiden"
     },
     {
@@ -261,20 +217,6 @@
       "label": "Verse kruiden"
     },
     {
-      "name": "selderijblad",
-      "pluralName": "selderijblad",
-      "description": "Bladeren van selderij; aromatisch kruid voor soepen en stoofpotten.",
-      "aliases": [
-        {
-          "name": "bladselderij"
-        },
-        {
-          "name": "snijselderij"
-        }
-      ],
-      "label": "Verse kruiden"
-    },
-    {
       "name": "thaise basilicum",
       "pluralName": "thaise basilicum",
       "description": "Aziatische basilicum met anijsachtige smaak; voor Aziatische gerechten.",
@@ -286,10 +228,42 @@
       "label": "Verse kruiden"
     },
     {
-      "name": "verse tijm",
-      "pluralName": "verse tijm",
-      "description": "Keukenkruid met klein aromatisch blaadje; voor vleesgerechten.",
-      "aliases": [],
+      "name": "verse dille",
+      "pluralName": "verse dille",
+      "description": "Vers kruid met anijsachtige smaak; bij vis en komkommer.",
+      "aliases": [
+        {
+          "name": "dille (vers)"
+        }
+      ],
+      "label": "Verse kruiden"
+    },
+    {
+      "name": "verse dragon",
+      "pluralName": "verse dragon",
+      "description": "Keukenkruid met anijsachtige smaak; voor béarnaisesaus en bij vis.",
+      "aliases": [
+        {
+          "name": "verse tarragon"
+        }
+      ],
+      "label": "Verse kruiden"
+    },
+    {
+      "name": "verse koriander",
+      "pluralName": "verse koriander",
+      "description": "Aromatisch keukenkruid; vers blad voor Aziatische en Mexicaanse gerechten.",
+      "aliases": [
+        {
+          "name": "koriander"
+        },
+        {
+          "name": "korianderblad"
+        },
+        {
+          "name": "korianderblaadje"
+        }
+      ],
       "label": "Verse kruiden"
     },
     {
@@ -304,6 +278,43 @@
           "name": "verse galanga"
         }
       ],
+      "label": "Verse kruiden"
+    },
+    {
+      "name": "verse munt",
+      "pluralName": "verse munt",
+      "description": "Fris aromatisch keukenkruid; voor thee, desserts en als garnering.",
+      "aliases": [
+        {
+          "name": "pepermunt"
+        },
+        {
+          "name": "kruizemunt"
+        },
+        {
+          "name": "muntblaadje"
+        },
+        {
+          "name": "muntblaadjes"
+        },
+        {
+          "name": "munt"
+        }
+      ],
+      "label": "Verse kruiden"
+    },
+    {
+      "name": "verse oregano",
+      "pluralName": "verse oregano",
+      "description": "Keukenkruid (wilde marjolein); aromatisch blad voor pizza en pasta.",
+      "aliases": [],
+      "label": "Verse kruiden"
+    },
+    {
+      "name": "verse tijm",
+      "pluralName": "verse tijm",
+      "description": "Keukenkruid met klein aromatisch blaadje; voor vleesgerechten.",
+      "aliases": [],
       "label": "Verse kruiden"
     }
   ]

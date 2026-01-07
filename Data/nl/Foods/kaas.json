@@ -64,11 +64,7 @@
       "name": "comte",
       "pluralName": "comté",
       "description": "Franse harde kaas; nootachtig, voor fondues en gratins.",
-      "aliases": [
-        {
-          "name": "comté"
-        }
-      ],
+      "aliases": [],
       "label": "Kaas"
     },
     {
@@ -132,11 +128,7 @@
       "name": "gruyere",
       "pluralName": "gruyère",
       "description": "Zwitserse kaas; nootachtig, voor fondue of gratins.",
-      "aliases": [
-        {
-          "name": "gruyère"
-        }
-      ],
+      "aliases": [],
       "label": "Kaas"
     },
     {
@@ -151,9 +143,6 @@
       "pluralName": "hüttenkäse",
       "description": "Verse korrelige kaas; mager, voor salades of als spread.",
       "aliases": [
-        {
-          "name": "hüttenkäse"
-        },
         {
           "name": "cottage cheese"
         }

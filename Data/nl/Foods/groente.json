@@ -89,16 +89,9 @@
       "label": "Groente"
     },
     {
-      "name": "bietensap",
-      "pluralName": "bietensap",
-      "description": "Sap van rode bieten; zoet-aards, als drank of kleurstof.",
-      "aliases": [],
-      "label": "Dranken"
-    },
-    {
       "name": "bleekselderij",
       "pluralName": "bleekselderij",
-      "description": "Stengelselderij; knapperig, rauw of gestoofd.",
+      "description": "Stengelselderij; knapperige stelen, rauw, roerbak of in soep.",
       "aliases": [
         {
           "name": "selder"
@@ -108,6 +101,15 @@
         },
         {
           "name": "verse selderij"
+        },
+        {
+          "name": "stengelselderij"
+        },
+        {
+          "name": "celery"
+        },
+        {
+          "name": "selderstengels"
         }
       ],
       "label": "Groente"
@@ -142,6 +144,9 @@
       "pluralName": "bosuitjes",
       "description": "Kleine ui met groen loof; mild, rauw of kort gebakken.",
       "aliases": [
+        {
+          "name": "bosuitje"
+        },
         {
           "name": "lente-ui"
         },
@@ -305,6 +310,13 @@
       "label": "Groente"
     },
     {
+      "name": "groene peper",
+      "pluralName": "groene pepers",
+      "description": "Onrijpe pepers met frisse, milde tot pittige smaak; voor salsa's en roerbakgerechten.",
+      "aliases": [],
+      "label": "Groente"
+    },
+    {
       "name": "hoorn des overvloeds",
       "pluralName": "hoorn des overvloeds",
       "description": "Zwarte trompetzwam; gedroogd of vers in sauzen.",
@@ -355,6 +367,26 @@
       "pluralName": "knoflook",
       "description": "Bolgewas; aromatische teentjes, in vrijwel alle keukens.",
       "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "knolselderij",
+      "pluralName": "knolselderij",
+      "description": "Selderijknol; aardse smaak, voor puree, soep en uit de oven.",
+      "aliases": [
+        {
+          "name": "selderijknol"
+        },
+        {
+          "name": "selderijknollen"
+        },
+        {
+          "name": "knolselder"
+        },
+        {
+          "name": "celeriac"
+        }
+      ],
       "label": "Groente"
     },
     {
@@ -446,6 +478,20 @@
       "pluralName": "olijven",
       "description": "Steenvrucht; ingelegd, groen of zwart.",
       "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "name": "paddenstoelen vriesdroog",
+      "pluralName": "paddenstoel vriesdroog",
+      "description": "Gevriesdroogde paddenstoelen met intense smaak; lang houdbaar voor soepen en sauzen.",
+      "aliases": [
+        {
+          "name": "gevriesdroogde paddenstoelen"
+        },
+        {
+          "name": "gevriesdroogde paddenstoel"
+        }
+      ],
       "label": "Groente"
     },
     {
@@ -811,7 +857,14 @@
       "name": "trostomaat",
       "pluralName": "trostomaten",
       "description": "Tomaten aan tros; aromatisch.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "trostomaatje"
+        },
+        {
+          "name": "trostomaatjes"
+        }
+      ],
       "label": "Groente"
     },
     {
@@ -833,6 +886,12 @@
       "pluralName": "uien",
       "description": "Bolgewas; basisgroente, gebakken, gestoofd of rauw.",
       "aliases": [
+        {
+          "name": "bruine ui"
+        },
+        {
+          "name": "bruine uien"
+        },
         {
           "name": "gele ui"
         },
@@ -963,20 +1022,6 @@
       "pluralName": "zwarte olijven",
       "description": "Rijpe olijf; voller van smaak, ingelegd.",
       "aliases": [],
-      "label": "Groente"
-    },
-    {
-      "name": "paddenstoelen vriesdroog",
-      "pluralName": "paddenstoel vriesdroog",
-      "description": "Gevriesdroogde paddenstoelen met intense smaak; lang houdbaar voor soepen en sauzen.",
-      "aliases": [
-        {
-          "name": "gevriesdroogde paddenstoelen"
-        },
-        {
-          "name": "gevriesdroogde paddenstoel"
-        }
-      ],
       "label": "Groente"
     }
   ]

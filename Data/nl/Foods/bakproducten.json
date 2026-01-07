@@ -82,20 +82,6 @@
       "label": "Bakproducten"
     },
     {
-      "name": "bloem",
-      "pluralName": "bloem",
-      "description": "Fijn gemalen tarwe zonder zemelen; basis voor gebak en sauzen.",
-      "aliases": [
-        {
-          "name": "tarwebloem"
-        },
-        {
-          "name": "patentbloem"
-        }
-      ],
-      "label": "Bakproducten"
-    },
-    {
       "name": "bloemmengsel",
       "pluralName": "bloemmengsels",
       "description": "Mix van bloemsoorten; voor speciaal brood of gebak.",
@@ -333,17 +319,6 @@
       "label": "Bakproducten"
     },
     {
-      "name": "maltose",
-      "pluralName": "maltose",
-      "description": "Moutsuiker; minder zoet dan sucrose, voor Aziatisch gebak.",
-      "aliases": [
-        {
-          "name": "moutsuiker"
-        }
-      ],
-      "label": "Bakproducten"
-    },
-    {
       "name": "maïsstroop",
       "pluralName": "maïsstroop",
       "description": "Glucosestroop uit maïs; voorkomt kristallisatie in snoep en icing.",
@@ -367,6 +342,17 @@
         },
         {
           "name": "maiszetmeel"
+        }
+      ],
+      "label": "Bakproducten"
+    },
+    {
+      "name": "maltose",
+      "pluralName": "maltose",
+      "description": "Moutsuiker; minder zoet dan sucrose, voor Aziatisch gebak.",
+      "aliases": [
+        {
+          "name": "moutsuiker"
         }
       ],
       "label": "Bakproducten"
@@ -498,10 +484,10 @@
       "description": "Kristalsuiker van suikerbiet of riet; algemeen zoetmiddel.",
       "aliases": [
         {
-          "name": "tafelsuiker"
+          "name": "witte suiker"
         },
         {
-          "name": "witte suiker"
+          "name": "tafelsuiker"
         },
         {
           "name": "kristalsuiker"
@@ -516,6 +502,20 @@
       "aliases": [
         {
           "name": "tapiocameel"
+        }
+      ],
+      "label": "Bakproducten"
+    },
+    {
+      "name": "tarwebloem",
+      "pluralName": "tarwebloem",
+      "description": "Fijn gemalen tarwe zonder zemelen; basis voor gebak en sauzen.",
+      "aliases": [
+        {
+          "name": "patentbloem"
+        },
+        {
+          "name": "bloem"
         }
       ],
       "label": "Bakproducten"

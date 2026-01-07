@@ -146,28 +146,6 @@
       "label": "Kruiden & Specerijen"
     },
     {
-      "name": "gedroogde dille",
-      "pluralName": "gedroogde dille",
-      "description": "Gedroogd kruid; anijsachtig, voor vis en komkommer.",
-      "aliases": [
-        {
-          "name": "dillekruid"
-        }
-      ],
-      "label": "Kruiden & Specerijen"
-    },
-    {
-      "name": "gedroogde dragon",
-      "pluralName": "gedroogde dragon",
-      "description": "Gedroogd kruid; anijsachtig, voor sauzen en kip.",
-      "aliases": [
-        {
-          "name": "gedroogde tarragon"
-        }
-      ],
-      "label": "Kruiden & Specerijen"
-    },
-    {
       "name": "fajita kruiden",
       "pluralName": "fajita kruiden",
       "description": "Kruidenmix voor fajita's; chili, komijn, knoflook.",
@@ -228,6 +206,28 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "name": "gedroogde dille",
+      "pluralName": "gedroogde dille",
+      "description": "Gedroogd kruid; anijsachtig, voor vis en komkommer.",
+      "aliases": [
+        {
+          "name": "dillekruid"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
+      "name": "gedroogde dragon",
+      "pluralName": "gedroogde dragon",
+      "description": "Gedroogd kruid; anijsachtig, voor sauzen en kip.",
+      "aliases": [
+        {
+          "name": "gedroogde tarragon"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "name": "gedroogde munt",
       "pluralName": "gedroogde munt",
       "description": "Gedroogde munt; voor gerechten en marinades.",
@@ -235,9 +235,23 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "name": "gedroogde oregano",
+      "pluralName": "gedroogde oregano",
+      "description": "Gedroogd kruid; aromatisch, voor pizza en Grieks.",
+      "aliases": [],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "name": "gedroogde peterselie",
       "pluralName": "gedroogde peterselie",
       "description": "Gedroogde peterselie; kruidig.",
+      "aliases": [],
+      "label": "Kruiden & Specerijen"
+    },
+    {
+      "name": "gedroogde tijm",
+      "pluralName": "gedroogde tijm",
+      "description": "Gedroogd kruid; aromatisch, voor stoof en vlees.",
       "aliases": [],
       "label": "Kruiden & Specerijen"
     },
@@ -292,6 +306,20 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "name": "gemalen kurkuma",
+      "pluralName": "gemalen kurkuma",
+      "description": "Felgeel specerijenpoeder met aardse smaak; kleurstof en smaakmaker in curries.",
+      "aliases": [
+        {
+          "name": "kurkumapoeder"
+        },
+        {
+          "name": "geelwortelpoeder"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "name": "gemalen nootmuskaat",
       "pluralName": "gemalen nootmuskaat",
       "description": "Gemalen nootmuskaat; warm en aromatisch.",
@@ -334,11 +362,7 @@
       "name": "gluhwein kruiden",
       "pluralName": "glühwein kruiden",
       "description": "Kruidenmix voor glühwein; kaneel, kruidnagel, steranijs.",
-      "aliases": [
-        {
-          "name": "glühwein kruiden"
-        }
-      ],
+      "aliases": [],
       "label": "Kruiden & Specerijen"
     },
     {
@@ -399,7 +423,6 @@
       "name": "jerk kruiden",
       "pluralName": "jerk kruiden",
       "description": "Jamaicaanse kruidenmix met piment, thijm en scotch bonnet; voor gegrild vlees.",
-      "label": "Kruiden & Specerijen",
       "aliases": [
         {
           "name": "Jamaican jerk specerijenmengeling"
@@ -407,7 +430,8 @@
         {
           "name": "jerk seasoning"
         }
-      ]
+      ],
+      "label": "Kruiden & Specerijen"
     },
     {
       "name": "juffertje in het groen",
@@ -433,20 +457,6 @@
       "aliases": [
         {
           "name": "gemalen kaneel"
-        }
-      ],
-      "label": "Kruiden & Specerijen"
-    },
-    {
-      "name": "kassia",
-      "pluralName": "kassia",
-      "description": "Chinese kaneel met intensere, scherpere smaak dan Ceylon; veel gebruikt in Aziatische keuken.",
-      "aliases": [
-        {
-          "name": "cassia"
-        },
-        {
-          "name": "cassiakaneel"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -492,10 +502,36 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "name": "kassia",
+      "pluralName": "kassia",
+      "description": "Chinese kaneel met intensere, scherpere smaak dan Ceylon; veel gebruikt in Aziatische keuken.",
+      "aliases": [
+        {
+          "name": "cassia"
+        },
+        {
+          "name": "cassiakaneel"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "name": "kerrieblad",
       "pluralName": "kerriebladeren",
       "description": "Bladeren van kerrieboom; aromatisch, Zuid-Indiaas.",
       "aliases": [
+        {
+          "name": "Curryblaadje"
+        },
+        {
+          "name": "Curryblaadjes"
+        },
+        {
+          "name": "kerrieblaadjes"
+        },
+        {
+          "name": "kerrieblaadje"
+        },
         {
           "name": "curryblad"
         }
@@ -552,37 +588,6 @@
       "label": "Kruiden & Specerijen"
     },
     {
-      "name": "verse kurkuma",
-      "pluralName": "verse kurkuma",
-      "description": "Gele wortel; geeft kleur aan curry.",
-      "aliases": [
-        {
-          "name": "kurkuma"
-        },
-        {
-          "name": "kurkumawortel"
-        },
-        {
-          "name": "geelwortel"
-        }
-      ],
-      "label": "Kruiden & Specerijen"
-    },
-    {
-      "name": "gemalen kurkuma",
-      "pluralName": "gemalen kurkuma",
-      "description": "Felgeel specerijenpoeder met aardse smaak; kleurstof en smaakmaker in curries.",
-      "aliases": [
-        {
-          "name": "kurkumapoeder"
-        },
-        {
-          "name": "geelwortelpoeder"
-        }
-      ],
-      "label": "Kruiden & Specerijen"
-    },
-    {
       "name": "laos",
       "pluralName": "laos",
       "description": "Galangawortel; verwant aan gember, Indonesisch.",
@@ -601,6 +606,12 @@
       "pluralName": "laurier",
       "description": "Gedroogd blad; voor soepen en stoofgerechten.",
       "aliases": [
+        {
+          "name": "laurierblaadjes"
+        },
+        {
+          "name": "laurierblaadje"
+        },
         {
           "name": "laurierblad"
         },
@@ -637,13 +648,6 @@
           "name": "hele nootmuskaat"
         }
       ],
-      "label": "Kruiden & Specerijen"
-    },
-    {
-      "name": "gedroogde oregano",
-      "pluralName": "gedroogde oregano",
-      "description": "Gedroogd kruid; aromatisch, voor pizza en Grieks.",
-      "aliases": [],
       "label": "Kruiden & Specerijen"
     },
     {
@@ -717,9 +721,6 @@
       "aliases": [
         {
           "name": "herbes de provence"
-        },
-        {
-          "name": "provençaalse kruiden"
         },
         {
           "name": "franse kruidenmix"
@@ -807,13 +808,6 @@
       "label": "Kruiden & Specerijen"
     },
     {
-      "name": "gedroogde tijm",
-      "pluralName": "gedroogde tijm",
-      "description": "Gedroogd kruid; aromatisch, voor stoof en vlees.",
-      "aliases": [],
-      "label": "Kruiden & Specerijen"
-    },
-    {
       "name": "uienpoeder",
       "pluralName": "uienpoeder",
       "description": "Gemalen gedroogde ui; voor marinades en rubs.",
@@ -839,6 +833,23 @@
       "pluralName": "venkelzaad",
       "description": "Aromatisch zaad; anijsachtig, voor worst en brood.",
       "aliases": [],
+      "label": "Kruiden & Specerijen"
+    },
+    {
+      "name": "verse kurkuma",
+      "pluralName": "verse kurkuma",
+      "description": "Gele wortel; geeft kleur aan curry.",
+      "aliases": [
+        {
+          "name": "kurkuma"
+        },
+        {
+          "name": "kurkumawortel"
+        },
+        {
+          "name": "geelwortel"
+        }
+      ],
       "label": "Kruiden & Specerijen"
     },
     {
@@ -880,11 +891,7 @@
       "name": "zaatar",
       "pluralName": "za'atar",
       "description": "Midden-Oosterse kruidenmix; tijm, sumak, sesam.",
-      "aliases": [
-        {
-          "name": "za'atar"
-        }
-      ],
+      "aliases": [],
       "label": "Kruiden & Specerijen"
     },
     {
@@ -916,7 +923,11 @@
       "name": "zwart mosterdzaad",
       "pluralName": "zwarte mosterdzaden",
       "description": "Kleine zwarte mosterdzaadjes; scherper dan gele.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "zwarte mosterdzaadjes"
+        }
+      ],
       "label": "Kruiden & Specerijen"
     },
     {

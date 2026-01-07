@@ -117,20 +117,6 @@
       "label": "Aardappelen & Knollen"
     },
     {
-      "name": "knolselderij",
-      "pluralName": "knolselderijen",
-      "description": "Knolgroente; witte knol met selderijsmaak, gebruikt in erwtensoep en puree.",
-      "aliases": [
-        {
-          "name": "selderijknol"
-        },
-        {
-          "name": "selderijknollen"
-        }
-      ],
-      "label": "Aardappelen & Knollen"
-    },
-    {
       "name": "koolraap",
       "pluralName": "koolrapen",
       "description": "Knolgroente; grote geelwitte knol, zoet en mild, gestoofd of gepureerd.",
@@ -163,13 +149,6 @@
           "name": "krielaardappelen"
         }
       ],
-      "label": "Aardappelen & Knollen"
-    },
-    {
-      "name": "krieltje met schil",
-      "pluralName": "krieltjes met schil",
-      "description": "Kleine aardappeltjes met schil; gebakken of uit de oven als bijgerecht.",
-      "aliases": [],
       "label": "Aardappelen & Knollen"
     },
     {

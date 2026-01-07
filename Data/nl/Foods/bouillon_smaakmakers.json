@@ -121,6 +121,9 @@
       "description": "Geconcentreerde kippenbouillon in blokvorm.",
       "aliases": [
         {
+          "name": "kippenbouillonblok"
+        },
+        {
           "name": "kippenbouillon blokje"
         }
       ],
@@ -145,6 +148,12 @@
       "pluralName": "paddenstoelenbouillonblokjes",
       "description": "Bouillonblokje met paddenstoelensmaak; umami-rijk.",
       "aliases": [
+        {
+          "name": "paddenstoelen bouillon blokjes"
+        },
+        {
+          "name": "paddenstoelen bouillon blokje"
+        },
         {
           "name": "paddenstoelenbouillon blokje"
         }

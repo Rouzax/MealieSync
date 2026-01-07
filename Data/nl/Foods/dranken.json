@@ -11,6 +11,13 @@
       "label": "Dranken"
     },
     {
+      "name": "bietensap",
+      "pluralName": "bietensap",
+      "description": "Sap van rode bieten; zoet-aards, als drank of kleurstof.",
+      "aliases": [],
+      "label": "Dranken"
+    },
+    {
       "name": "bitter lemon",
       "pluralName": "bitter lemon",
       "description": "Koolzuurhoudende citroendrank; bitter en verfrissend.",

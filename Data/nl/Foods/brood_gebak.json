@@ -109,6 +109,23 @@
       "label": "Brood & Gebak"
     },
     {
+      "name": "maïstortilla",
+      "pluralName": "maïstortilla's",
+      "description": "Mexicaans platbrood van maïsmeel; glutenvrij, voor taco's en enchiladas.",
+      "aliases": [
+        {
+          "name": "maistortilla"
+        },
+        {
+          "name": "maistortilla's"
+        },
+        {
+          "name": "corn tortilla"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
       "name": "matze",
       "pluralName": "matzes",
       "description": "Ongerezen Joods platbrood; dun en knapperig.",
@@ -118,6 +135,37 @@
         },
         {
           "name": "matzot"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
+      "name": "mini maïstortilla",
+      "pluralName": "mini maïstortilla's",
+      "description": "Kleine maïstortilla; ideaal voor street tacos.",
+      "aliases": [
+        {
+          "name": "mini corn tortilla"
+        },
+        {
+          "name": "mini tortilla"
+        },
+        {
+          "name": "kleine maïstortilla"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
+      "name": "mini tarwetortilla",
+      "pluralName": "mini tarwetortilla's",
+      "description": "Kleine tarwetortilla; voor mini wraps en hapjes.",
+      "aliases": [
+        {
+          "name": "mini flour tortilla"
+        },
+        {
+          "name": "kleine tarwetortilla"
         }
       ],
       "label": "Brood & Gebak"
@@ -168,23 +216,6 @@
         },
         {
           "name": "baguettes"
-        }
-      ],
-      "label": "Brood & Gebak"
-    },
-    {
-      "name": "maïstortilla",
-      "pluralName": "maïstortilla's",
-      "description": "Mexicaans platbrood van maïsmeel; glutenvrij, voor taco's en enchiladas.",
-      "aliases": [
-        {
-          "name": "maistortilla"
-        },
-        {
-          "name": "maistortilla's"
-        },
-        {
-          "name": "corn tortilla"
         }
       ],
       "label": "Brood & Gebak"

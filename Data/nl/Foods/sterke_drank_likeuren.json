@@ -188,9 +188,6 @@
       "aliases": [
         {
           "name": "Passoa"
-        },
-        {
-          "name": "passoa"
         }
       ],
       "label": "Sterke drank & Likeuren"
@@ -209,9 +206,6 @@
       "aliases": [
         {
           "name": "Baileys"
-        },
-        {
-          "name": "baileys"
         }
       ],
       "label": "Sterke drank & Likeuren"
@@ -241,9 +235,6 @@
       "aliases": [
         {
           "name": "Cointreau"
-        },
-        {
-          "name": "cointreau"
         }
       ],
       "label": "Sterke drank & Likeuren"

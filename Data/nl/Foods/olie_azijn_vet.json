@@ -26,6 +26,9 @@
           "name": "appelciderazijn"
         },
         {
+          "name": "appelcider azijn"
+        },
+        {
           "name": "appel azijn"
         }
       ],
@@ -147,6 +150,29 @@
         },
         {
           "name": "canolaolie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
+      "name": "lichte sesamolie",
+      "pluralName": "lichte sesamolie",
+      "description": "Ongebrande sesamolie; mild, geschikt om in te bakken.",
+      "aliases": [
+        {
+          "name": "gingelly olie"
+        },
+        {
+          "name": "gingelly-olie"
+        },
+        {
+          "name": "gingelyolie"
+        },
+        {
+          "name": "ongebrande sesamolie"
+        },
+        {
+          "name": "raw sesame oil"
         }
       ],
       "label": "Olie, Azijn & Vet"
@@ -302,7 +328,7 @@
     {
       "name": "sesamolie",
       "pluralName": "sesamolie",
-      "description": "Olie van geroosterd sesamzaad; nootachtig, voor Aziatische gerechten.",
+      "description": "Geroosterde sesamolie; donker en nootachtig, als smaakmaker.",
       "aliases": [
         {
           "name": "sesam olie"
@@ -311,10 +337,10 @@
           "name": "geroosterde sesamolie"
         },
         {
-          "name": "gingelly-olie"
+          "name": "donkere sesamolie"
         },
         {
-          "name": "lichte sesamolie"
+          "name": "toasted sesame oil"
         }
       ],
       "label": "Olie, Azijn & Vet"

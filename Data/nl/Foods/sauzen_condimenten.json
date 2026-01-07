@@ -92,6 +92,20 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "name": "bruschetta tomaatsalade",
+      "pluralName": null,
+      "description": "Kant-en-klare topping van tomaat, knoflook en kruiden; voor bruschetta of als bijgerecht.",
+      "aliases": [
+        {
+          "name": "bruschetta topping"
+        },
+        {
+          "name": "bruschetta mix"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "name": "chermoula",
       "pluralName": "chermoula",
       "description": "Marokkaanse kruidenpasta met peterselie, koriander en citroen; voor vis of vlees.",
@@ -275,6 +289,17 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "name": "mangosalade",
+      "pluralName": "mangosalades",
+      "description": "Kant-en-klare salade met mango, ui en kruiden; fris bijgerecht of topping.",
+      "aliases": [
+        {
+          "name": "mango salade"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "name": "mayonaise",
       "pluralName": "mayonaise",
       "description": "Koude saus van ei en olie; op friet en in salades.",
@@ -283,6 +308,13 @@
           "name": "mayo"
         }
       ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
+      "name": "mirin",
+      "pluralName": "mirin",
+      "description": "Japanse zoete rijstwijn; voor teriyaki, marinades en sauzen.",
+      "aliases": [],
       "label": "Sauzen & Condimenten"
     },
     {
@@ -634,13 +666,6 @@
           "name": "ketjap manis"
         }
       ],
-      "label": "Sauzen & Condimenten"
-    },
-    {
-      "name": "mirin",
-      "pluralName": "mirin",
-      "description": "Japanse zoete rijstwijn; voor teriyaki, marinades en sauzen.",
-      "aliases": [],
       "label": "Sauzen & Condimenten"
     }
   ]

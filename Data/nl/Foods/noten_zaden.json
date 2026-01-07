@@ -118,6 +118,9 @@
         },
         {
           "name": "kokosnootrasp"
+        },
+        {
+          "name": "geraspte kokosnoot"
         }
       ],
       "label": "Noten & Zaden"
@@ -250,13 +253,13 @@
       "description": "Klein wit zaad met nootachtige smaak; op brood en in Aziatische gerechten.",
       "aliases": [
         {
+          "name": "sesamzaadjes"
+        },
+        {
           "name": "sesam"
         },
         {
           "name": "sesamzaden"
-        },
-        {
-          "name": "sesamzaadjes"
         }
       ],
       "label": "Noten & Zaden"

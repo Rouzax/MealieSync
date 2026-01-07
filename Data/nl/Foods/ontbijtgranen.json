@@ -7,11 +7,7 @@
       "name": "boekweitvlok",
       "pluralName": "boekweitvlokken",
       "description": "Geplette boekweit; glutenvrij, voor pap of muesli.",
-      "aliases": [
-        {
-          "name": "boekweitvlokken"
-        }
-      ],
+      "aliases": [],
       "label": "Ontbijtgranen"
     },
     {
@@ -46,11 +42,7 @@
       "name": "gerstevlok",
       "pluralName": "gerstevlokken",
       "description": "Geplette gerstekorrels; voor pap of in muesli.",
-      "aliases": [
-        {
-          "name": "gerstevlokken"
-        }
-      ],
+      "aliases": [],
       "label": "Ontbijtgranen"
     },
     {
@@ -75,41 +67,29 @@
       "name": "quinoavlok",
       "pluralName": "quinoavlokken",
       "description": "Geplette quinoa; glutenvrij, voor pap of muesli.",
-      "aliases": [
-        {
-          "name": "quinoavlokken"
-        }
-      ],
+      "aliases": [],
       "label": "Ontbijtgranen"
     },
     {
       "name": "roggevlok",
       "pluralName": "roggevlokken",
       "description": "Geplette roggekorrels; voor pap of in brood.",
-      "aliases": [
-        {
-          "name": "roggevlokken"
-        }
-      ],
+      "aliases": [],
       "label": "Ontbijtgranen"
     },
     {
       "name": "speltvlok",
       "pluralName": "speltvlokken",
       "description": "Geplette speltkorrels; nootachtig, voor pap of muesli.",
-      "aliases": [
-        {
-          "name": "speltvlokken"
-        }
-      ],
+      "aliases": [],
       "label": "Ontbijtgranen"
     },
     {
       "name": "volkoren havermout",
       "pluralName": "volkoren havermout",
       "description": "Minder bewerkte havervlokken met meer vezels; nuttiger voor ontbijt en bakken.",
-      "label": "Ontbijtgranen",
-      "aliases": []
+      "aliases": [],
+      "label": "Ontbijtgranen"
     }
   ]
 }

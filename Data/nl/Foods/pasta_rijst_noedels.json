@@ -79,13 +79,21 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "name": "gele rijst",
+      "pluralName": "gele rijst",
+      "description": "Rijst gekleurd met kurkuma of saffraan; bijgerecht in Indonesische en Surinaamse keuken.",
+      "aliases": [
+        {
+          "name": "nasi kuning"
+        }
+      ],
+      "label": "Pasta, Rijst & Noedels"
+    },
+    {
       "name": "glasnoedel",
       "pluralName": "glasnoedels",
       "description": "Transparante noedels van mungbonenzetmeel; voor Aziatische salades en soepen.",
       "aliases": [
-        {
-          "name": "glasnoedels"
-        },
         {
           "name": "cellofaannoedels"
         }
@@ -266,9 +274,6 @@
       "description": "Platte noedels van rijstmeel; voor pad thai en Vietnamese gerechten.",
       "aliases": [
         {
-          "name": "rijstnoedels"
-        },
-        {
           "name": "rijstlinten"
         }
       ],
@@ -293,9 +298,6 @@
       "pluralName": "sobanoedels",
       "description": "Japanse boekweitnoedels; koud in salade of warm in bouillon.",
       "aliases": [
-        {
-          "name": "sobanoedels"
-        },
         {
           "name": "soba"
         }
@@ -419,17 +421,6 @@
       "aliases": [
         {
           "name": "venere rijst"
-        }
-      ],
-      "label": "Pasta, Rijst & Noedels"
-    },
-    {
-      "name": "gele rijst",
-      "pluralName": "gele rijst",
-      "description": "Rijst gekleurd met kurkuma of saffraan; bijgerecht in Indonesische en Surinaamse keuken.",
-      "aliases": [
-        {
-          "name": "nasi kuning"
         }
       ],
       "label": "Pasta, Rijst & Noedels"
