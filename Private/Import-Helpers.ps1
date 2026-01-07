@@ -286,9 +286,6 @@ function Find-ExistingItem {
         [switch]$IncludeAbbreviation
     )
     
-    $result = $null
-    $matchMethod = $null
-    
     # 1. Try match by id
     if ($ImportItem.id -and $Lookups.ById.ContainsKey($ImportItem.id)) {
         return @{

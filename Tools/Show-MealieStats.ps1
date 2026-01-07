@@ -76,15 +76,6 @@ catch {
     exit 1
 }
 
-# Helper function to format counts
-function Format-Count {
-    param([int]$Count, [string]$Singular, [string]$Plural)
-    if ($Count -eq 1) {
-        return "$Count $Singular"
-    }
-    return "$Count $Plural"
-}
-
 Write-Host ""
 Write-Host ("=" * 60) -ForegroundColor Cyan
 Write-Host "           MEALIE STATISTICS DASHBOARD" -ForegroundColor Cyan
