@@ -29,7 +29,7 @@
 ## Change Display
 
 ```
-fieldName   : 'old value' -> 'new value'
+fieldName   : 'old value' → 'new value'
               ↑ DarkGray     ↑ Green
 ```
 

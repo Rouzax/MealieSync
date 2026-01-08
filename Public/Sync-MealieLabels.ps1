@@ -63,7 +63,9 @@ function Sync-MealieLabels {
     Write-Host ""
     Write-Host "╔═══════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
     Write-Host "║  SYNC MODE - This will ADD, UPDATE, and DELETE labels         ║" -ForegroundColor Cyan
-    Write-Host "║  WARNING: Deleting labels removes them from all foods!        ║" -ForegroundColor Yellow
+    Write-Host "║  " -ForegroundColor Cyan -NoNewline
+    Write-Host "WARNING: Deleting labels removes them from all foods!       " -ForegroundColor Yellow -NoNewline
+    Write-Host "║" -ForegroundColor Cyan
     Write-Host "╚═══════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
     Write-Host ""
     

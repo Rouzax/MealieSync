@@ -72,18 +72,18 @@ Voor vormen/toestanden die anders ambigu zijn, gebruiken we een vaste notatie. D
 - parsing is eenvoudig
 - namen blijven herkenbaar voor koks
 
-**Hoofdregel (suffix in haakjes):**
-`basisnaam (kwalificatie)`
+**Hoofdregel (suffix in vierkante haken):**
+`basisnaam [kwalificatie]`
 
 Gebruik dit voor duidelijke vormen/toestanden:
-- Toestand: `(vers)`, `(gedroogd)`
-- Maalvorm: `(heel)`, `(gemalen)`
-- Specifieke vorm: `(korrel)`, `(vlokken)`, `(stokje)`
-- Afgeleide vorm: `(sap)`, `(rasp)`, `(schil)`
+- Toestand: `[vers]`, `[gedroogd]`
+- Maalvorm: `[heel]`, `[gemalen]`
+- Specifieke vorm: `[korrel]`, `[vlokken]`, `[stokje]`
+- Afgeleide vorm: `[sap]`, `[rasp]`, `[schil]`
 
 **Uitzondering (poeder als productnaam):**
 Als “Xpoeder” de gangbare en herkenbare productnaam is, kies dan die samenstelling als `name`
-(in plaats van `x (gemalen)`), bijvoorbeeld:
+(in plaats van `x [gemalen]`), bijvoorbeeld:
 - `knoflookpoeder`
 - `uienpoeder`
 - `gemberpoeder`
@@ -93,18 +93,18 @@ Als “Xpoeder” de gangbare en herkenbare productnaam is, kies dan die samenst
 
 Houd de alternatieve schrijfwijze als alias (zie Aliases).
 
-**Wanneer géén haakjes?**
+**Wanneer géén vierkante haken?**
 - Als de gangbare productnaam een vaste samenstelling is die géén vorm/toestand-kwalificatie is:
   - `kipfilet`, `kippendij`, `eidooier`, `eiwit`, `hüttenkäse`, `filet americain`
 
 ### 2.3 Meervoud (`pluralName`)
 - Gebruik de **gangbare meervoudsvorm**
 - Bij “mass nouns” (bijv. rijst, zout) mag: `pluralName == name`
-- Bij haakjes-varianten:
-  - vaak ook mass noun → `pluralName == name` (bv. `koriander (vers)`)
-  - telbaar in haakjes pluraliseren waar logisch:
-    - `zwarte peper (korrel)` → `zwarte peper (korrels)`
-    - `kaneel (stokje)` → `kaneel (stokjes)`
+- Bij vierkante-haken-varianten:
+  - vaak ook mass noun → `pluralName == name` (bv. `koriander [vers]`)
+  - telbaar in vierkante haken pluraliseren waar logisch:
+    - `zwarte peper [korrel]` → `zwarte peper [korrels]`
+    - `kaneel [stokje]` → `kaneel [stokjes]`
 
 ### Naamvoorbeelden
 | ❌ Fout                   | ✅ Goed          |
@@ -145,7 +145,7 @@ Voorbeeld:
 ### 3.3 Niet als alias (altijd aparte entries)
 
 * Variëteiten: elstar, conference, jonagold
-* Afgeleide producten/vormen: citroen (sap) ≠ citroen; limoen (rasp) ≠ limoen
+* Afgeleide producten/vormen: citroen [sap] ≠ citroen; limoen [rasp] ≠ limoen
 * Andere producten: krenten ≠ rozijnen
 * Bereidingen: espresso ≠ koffie; pulled pork ≠ varkensschouder
 * Varianten die echt ander product zijn: buffelmozzarella ≠ mozzarella
@@ -162,15 +162,15 @@ Voorbeeld:
 * Als `name` een poeder-samenstelling is, voeg veelvoorkomende varianten toe als alias:
 
   * `knoflook poeder`, `knoflook-poeder`
-* Als `name` een haakjes-variant is, mag de poeder-samenstelling als alias waar gangbaar:
+* Als `name` een vierkante-haken-variant is, mag de poeder-samenstelling als alias waar gangbaar:
 
-  * `kaneel (gemalen)` — alias: `kaneelpoeder` (als je niet voor `kaneelpoeder` als `name` kiest)
+  * `kaneel [gemalen]` — alias: `kaneelpoeder` (als je niet voor `kaneelpoeder` als `name` kiest)
 
-**Samenstellingen die we als haakjes modelleren mogen als alias:**
+**Samenstellingen die we met vierkante haken modelleren mogen als alias:**
 
-* `citroensap` → bij `citroen (sap)`
-* `citroenrasp` → bij `citroen (rasp)`
-* `zwarte peperkorrels` → bij `zwarte peper (korrel)`
+* `citroensap` → bij `citroen [sap]`
+* `citroenrasp` → bij `citroen [rasp]`
+* `zwarte peperkorrels` → bij `zwarte peper [korrel]`
 
 **Twijfelregel:** als je twijfelt, maak een apart ingrediënt.
 
@@ -207,12 +207,12 @@ Dit houdt het voorspelbaar en voorkomt ambiguïteit.
 
 ### 5.2 Naamconventie bij splitsen
 
-Gebruik suffix in haakjes:
+Gebruik suffix in vierkante haken:
 
-* `x (vers)`, `x (gedroogd)`
-* `x (heel)`, `x (gemalen)`
-* `x (sap)`, `x (rasp)`, `x (schil)`
-* `x (korrel)`, `x (vlokken)`, `x (stokje)`
+* `x [vers]`, `x [gedroogd]`
+* `x [heel]`, `x [gemalen]`
+* `x [sap]`, `x [rasp]`, `x [schil]`
+* `x [korrel]`, `x [vlokken]`, `x [stokje]`
 
 Gebruik poeder-samenstellingen als `name` wanneer dat de gangbare productnaam is (zie 2.2).
 
@@ -222,21 +222,21 @@ Verplaats aliases naar het juiste gesplitste item. Verwijder de oude ambigue ent
 
 **Kruiden & specerijen**
 
-* `koriander (vers)` ↔ `koriander (gedroogd)` (alleen als beide nodig zijn)
-* `korianderzaad (heel)` ↔ `korianderzaad (gemalen)`
-* `gember (vers)` ↔ `gemberpoeder`
-* `knoflook (vers)` ↔ `knoflookpoeder`
-* `ui (vers)` ↔ `uienpoeder`
-* `kaneel (stokje)` ↔ `kaneelpoeder`
-* `nootmuskaat (heel)` ↔ `nootmuskaat (gemalen)`
-* `zwarte peper (korrel)` ↔ `zwarte peper (gemalen)` (alias: `zwarte peperkorrels`)
-* `witte peper (korrel)` ↔ `witte peper (gemalen)`
+* `koriander [vers]` ↔ `koriander [gedroogd]` (alleen als beide nodig zijn)
+* `korianderzaad [heel]` ↔ `korianderzaad [gemalen]`
+* `gember [vers]` ↔ `gemberpoeder`
+* `knoflook [vers]` ↔ `knoflookpoeder`
+* `ui [vers]` ↔ `uienpoeder`
+* `kaneel [stokje]` ↔ `kaneelpoeder`
+* `nootmuskaat [heel]` ↔ `nootmuskaat [gemalen]`
+* `zwarte peper [korrel]` ↔ `zwarte peper [gemalen]` (alias: `zwarte peperkorrels`)
+* `witte peper [korrel]` ↔ `witte peper [gemalen]`
 
 **Citrus**
 
-* `citroen` ↔ `citroen (rasp)` ↔ `citroen (sap)`
-* `limoen` ↔ `limoen (rasp)` ↔ `limoen (sap)`
-* `sinaasappel` ↔ `sinaasappel (rasp)` ↔ `sinaasappel (sap)`
+* `citroen` ↔ `citroen [rasp]` ↔ `citroen [sap]`
+* `limoen` ↔ `limoen [rasp]` ↔ `limoen [sap]`
+* `sinaasappel` ↔ `sinaasappel [rasp]` ↔ `sinaasappel [sap]`
 
 **Eieren**
 

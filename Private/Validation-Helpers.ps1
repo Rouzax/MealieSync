@@ -355,3 +355,191 @@ function Confirm-ImportData {
     
     return $result
 }
+
+function Confirm-TagMergeData {
+    <#
+    .SYNOPSIS
+        Validate mergeTags entries before processing
+    .DESCRIPTION
+        Validates the mergeTags field in tag import data to ensure:
+        - No tag appears as both source and target (no chaining allowed)
+        - Source tags that don't exist generate warnings (not errors)
+        - Collects all valid merge operations for processing
+        
+        This validation runs BEFORE normal import validation to catch merge
+        configuration errors early.
+    .PARAMETER Items
+        Array of tag items from the import data (may include mergeTags field)
+    .PARAMETER ExistingTags
+        Array of existing tag objects from the API (from Get-MealieTags -All)
+    .OUTPUTS
+        [hashtable] @{
+            Valid = [bool]              # True if no blocking errors
+            Errors = [array]            # Fatal errors that block processing
+            Warnings = [array]          # Non-fatal warnings (e.g., missing source tags)
+            MergeOperations = [array]   # Array of @{ TargetName; TargetSlug; SourceTags; ExistingSourceTags }
+        }
+    .EXAMPLE
+        $tags = Get-MealieTags -All
+        $result = Confirm-TagMergeData -Items $importData -ExistingTags $tags
+        if (-not $result.Valid) {
+            $result.Errors | ForEach-Object { Write-Error $_ }
+            return
+        }
+        $result.Warnings | ForEach-Object { Write-Warning $_ }
+    .EXAMPLE
+        # Detect chained merge (should error)
+        # Input: [{ name: "A", mergeTags: ["B"] }, { name: "B", mergeTags: ["C"] }]
+        # Error: "B" appears as both target and source
+    .NOTES
+        Used by Import-MealieOrganizers and Sync-MealieOrganizers before
+        processing tag imports. Merge operations are processed before normal
+        import/delete operations.
+    #>
+    [CmdletBinding()]
+    [OutputType([hashtable])]
+    param(
+        [Parameter(Mandatory)]
+        [AllowEmptyCollection()]
+        [array]$Items,
+        
+        [Parameter(Mandatory)]
+        [AllowEmptyCollection()]
+        [array]$ExistingTags
+    )
+    
+    $result = @{
+        Valid           = $true
+        Errors          = @()
+        Warnings        = @()
+        MergeOperations = @()
+    }
+    
+    # Build lookup for existing tags by name (case-insensitive)
+    $existingByName = @{}
+    $existingBySlug = @{}
+    foreach ($tag in $ExistingTags) {
+        if ($tag.name) {
+            $existingByName[$tag.name.ToLower().Trim()] = $tag
+        }
+        if ($tag.slug) {
+            $existingBySlug[$tag.slug.ToLower().Trim()] = $tag
+        }
+    }
+    
+    # Collect all targets and sources for chaining detection
+    $allTargets = @{}    # name → item
+    $allSources = @{}    # name → target name
+    
+    # First pass: collect all merge definitions
+    foreach ($item in $Items) {
+        if (-not $item.mergeTags -or $item.mergeTags.Count -eq 0) {
+            continue
+        }
+        
+        $targetName = $item.name.ToLower().Trim()
+        $allTargets[$targetName] = $item
+        
+        foreach ($sourceTag in $item.mergeTags) {
+            $sourceName = $sourceTag.ToLower().Trim()
+            
+            # Check if this source is already a target (chaining)
+            if ($allTargets.ContainsKey($sourceName)) {
+                $result.Valid = $false
+                $result.Errors += "Chained merge detected: '$sourceTag' is both a merge target and a source for '$($item.name)'. Chained merges are not supported."
+            }
+            
+            # Check if this source is already used by another target
+            if ($allSources.ContainsKey($sourceName)) {
+                $existingTarget = $allSources[$sourceName]
+                if ($existingTarget -ne $targetName) {
+                    $result.Valid = $false
+                    $result.Errors += "Duplicate source: '$sourceTag' is listed as source for both '$($item.name)' and '$existingTarget'. A tag can only be merged into one target."
+                }
+            }
+            else {
+                $allSources[$sourceName] = $targetName
+            }
+        }
+    }
+    
+    # Second pass: check if any target is also a source elsewhere
+    foreach ($item in $Items) {
+        if (-not $item.mergeTags -or $item.mergeTags.Count -eq 0) {
+            continue
+        }
+        
+        $targetName = $item.name.ToLower().Trim()
+        
+        if ($allSources.ContainsKey($targetName)) {
+            $mergeIntoTarget = $allSources[$targetName]
+            $result.Valid = $false
+            $result.Errors += "Chained merge detected: '$($item.name)' is a merge target but is also listed as a source for '$mergeIntoTarget'. Chained merges are not supported."
+        }
+    }
+    
+    # If we have errors, don't continue building operations
+    if (-not $result.Valid) {
+        return $result
+    }
+    
+    # Third pass: build merge operations and check source existence
+    foreach ($item in $Items) {
+        if (-not $item.mergeTags -or $item.mergeTags.Count -eq 0) {
+            continue
+        }
+        
+        $targetName = $item.name
+        $targetSlug = if ($item.slug) { $item.slug } else { $targetName.ToLower() -replace '\s+', '-' }
+        
+        $existingSourceTags = @()
+        $missingSourceTags = @()
+        
+        foreach ($sourceTagName in $item.mergeTags) {
+            $sourceKey = $sourceTagName.ToLower().Trim()
+            
+            # Check if source exists (by name or slug)
+            $existingSource = $null
+            if ($existingByName.ContainsKey($sourceKey)) {
+                $existingSource = $existingByName[$sourceKey]
+            }
+            elseif ($existingBySlug.ContainsKey($sourceKey)) {
+                $existingSource = $existingBySlug[$sourceKey]
+            }
+            
+            if ($existingSource) {
+                $existingSourceTags += @{
+                    Name = $existingSource.name
+                    Slug = $existingSource.slug
+                    Id   = $existingSource.id
+                }
+            }
+            else {
+                $missingSourceTags += $sourceTagName
+            }
+        }
+        
+        # Warn about missing source tags (non-fatal)
+        if ($missingSourceTags.Count -gt 0) {
+            $result.Warnings += "Merge target '$targetName': Source tag(s) not found and will be skipped: $($missingSourceTags -join ', ')"
+        }
+        
+        # Only add operation if there are existing sources to merge
+        if ($existingSourceTags.Count -gt 0) {
+            $result.MergeOperations += @{
+                TargetName         = $targetName
+                TargetSlug         = $targetSlug
+                SourceTags         = $item.mergeTags
+                ExistingSourceTags = $existingSourceTags
+                TargetExists       = $existingByName.ContainsKey($targetName.ToLower().Trim()) -or 
+                                     $existingBySlug.ContainsKey($targetSlug.ToLower().Trim())
+            }
+        }
+        elseif ($missingSourceTags.Count -eq $item.mergeTags.Count) {
+            # All sources are missing - just a warning
+            $result.Warnings += "Merge target '$targetName': No source tags exist, nothing to merge."
+        }
+    }
+    
+    return $result
+}

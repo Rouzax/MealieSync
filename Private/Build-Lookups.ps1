@@ -16,9 +16,9 @@ function Build-FoodLookups {
         Build lookup tables for food matching
     .DESCRIPTION
         Creates three hashtables for efficient food matching:
-        - ById: id -> food object
-        - ByName: name/pluralName (lowercase) -> food object
-        - ByAlias: alias name (lowercase) -> food object
+        - ById: id → food object
+        - ByName: name/pluralName (lowercase) → food object
+        - ByAlias: alias name (lowercase) → food object
     .PARAMETER Foods
         Array of food objects from the API
     .OUTPUTS
@@ -84,9 +84,9 @@ function Build-UnitLookups {
         Build lookup tables for unit matching
     .DESCRIPTION
         Creates three hashtables for efficient unit matching:
-        - ById: id -> unit object
-        - ByName: name/pluralName/abbreviation (lowercase) -> unit object
-        - ByAlias: alias name (lowercase) -> unit object
+        - ById: id → unit object
+        - ByName: name/pluralName/abbreviation (lowercase) → unit object
+        - ByAlias: alias name (lowercase) → unit object
     .PARAMETER Units
         Array of unit objects from the API
     .OUTPUTS
@@ -217,7 +217,7 @@ function Build-LabelLookup {
     .PARAMETER Labels
         Array of label objects from the API
     .OUTPUTS
-        [hashtable] name (lowercase) -> label object
+        [hashtable] name (lowercase) → label object
     .EXAMPLE
         $labels = Get-MealieLabels -All
         $lookup = Build-LabelLookup -Labels $labels
@@ -447,3 +447,233 @@ function Test-FoodsInUse {
 }
 
 # Note: Find-ExistingItem has been moved to Import-Helpers.ps1
+
+#region Tag Merge Support Functions
+
+function Get-MealieTagBySlug {
+    <#
+    .SYNOPSIS
+        Get a tag by slug including its recipe list
+    .DESCRIPTION
+        Retrieves a tag from Mealie using its slug, including the full list of
+        recipes that use this tag. This is the only endpoint that returns recipe
+        associations - the ID-based endpoint (/api/organizers/tags/{id}) does NOT
+        return recipes.
+    .PARAMETER Slug
+        The slug of the tag to retrieve (e.g., "vegetarisch", "snel-klaar")
+    .OUTPUTS
+        [object] Tag object with recipes array, or $null if not found
+        The tag object includes:
+        - id: Tag UUID
+        - name: Tag display name
+        - slug: URL-safe identifier
+        - groupId: Group UUID
+        - recipes: Array of recipe objects (each with at least: id, slug, name)
+    .EXAMPLE
+        $tag = Get-MealieTagBySlug -Slug "vegetarisch"
+        if ($tag) {
+            Write-Host "Tag '$($tag.name)' has $($tag.recipes.Count) recipe(s)"
+        }
+    .EXAMPLE
+        # Get recipe slugs for bulk operations
+        $tag = Get-MealieTagBySlug -Slug "oosters"
+        $recipeSlugs = $tag.recipes | ForEach-Object { $_.slug }
+    .NOTES
+        Used by the tag merge feature to get source tag recipe associations
+        before transferring them to the target tag.
+        
+        API Endpoint: GET /api/organizers/tags/slug/{slug}
+        
+        IMPORTANT: The /api/organizers/tags/{id} endpoint does NOT return recipes!
+        Always use this slug-based endpoint when you need recipe associations.
+    #>
+    [CmdletBinding()]
+    [OutputType([object])]
+    param(
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [string]$Slug
+    )
+    
+    try {
+        # URL-encode the slug to handle special characters
+        $encodedSlug = [System.Uri]::EscapeDataString($Slug)
+        $endpoint = "/api/organizers/tags/slug/$encodedSlug"
+        
+        $response = Invoke-MealieRequest -Endpoint $endpoint -Method 'GET'
+        return $response
+    }
+    catch {
+        # Check if it's a 404 (tag not found)
+        if ($_.Exception.Message -match '404|not found') {
+            Write-Verbose "Tag with slug '$Slug' not found"
+            return $null
+        }
+        
+        # Re-throw other errors
+        Write-Error "Failed to get tag by slug '$Slug': $_"
+        throw
+    }
+}
+
+function Add-TagsToRecipes {
+    <#
+    .SYNOPSIS
+        Bulk-add tags to multiple recipes
+    .DESCRIPTION
+        Uses the Mealie bulk actions API to add one or more tags to multiple
+        recipes in a single API call. This is more efficient than updating
+        recipes individually and is the recommended approach for tag merge
+        operations.
+    .PARAMETER RecipeSlugs
+        Array of recipe slugs to add tags to
+    .PARAMETER Tags
+        Array of tag objects to add. Each tag must include:
+        - id: Tag UUID (required)
+        - name: Tag name (required)
+        - slug: Tag slug (required)
+        - groupId: Group UUID (required)
+    .OUTPUTS
+        [object] API response from the bulk action
+    .EXAMPLE
+        # Add a single tag to multiple recipes
+        $tag = @{
+            id = "abc-123"
+            name = "aziatisch"
+            slug = "aziatisch"
+            groupId = "group-456"
+        }
+        Add-TagsToRecipes -RecipeSlugs @("pad-thai", "nasi-goreng") -Tags @($tag)
+    .EXAMPLE
+        # Get tag from API and add to recipes
+        $tags = Get-MealieTags -All
+        $asianTag = $tags | Where-Object { $_.slug -eq "aziatisch" }
+        $tagData = @{
+            id = $asianTag.id
+            name = $asianTag.name
+            slug = $asianTag.slug
+            groupId = $asianTag.groupId
+        }
+        Add-TagsToRecipes -RecipeSlugs @("rendang", "tom-yum") -Tags @($tagData)
+    .NOTES
+        Used by the tag merge feature to transfer recipes from source tags
+        to the target tag before deleting the source tags.
+        
+        API Endpoint: POST /api/recipes/bulk-actions/tag
+        
+        The bulk action is ADDITIVE - it adds the specified tags without
+        removing existing tags from the recipes.
+        
+        Request body format:
+        {
+          "recipes": ["recipe-slug-1", "recipe-slug-2"],
+          "tags": [{ "id": "...", "name": "...", "slug": "...", "groupId": "..." }]
+        }
+    #>
+    [CmdletBinding()]
+    [OutputType([object])]
+    param(
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [string[]]$RecipeSlugs,
+        
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [array]$Tags
+    )
+    
+    # Validate tag objects have required properties
+    foreach ($tag in $Tags) {
+        $requiredProps = @('id', 'name', 'slug', 'groupId')
+        foreach ($prop in $requiredProps) {
+            if ([string]::IsNullOrEmpty($tag.$prop)) {
+                throw "Tag object is missing required property '$prop'. Each tag must have: $($requiredProps -join ', ')"
+            }
+        }
+    }
+    
+    # Build the request body
+    $body = @{
+        recipes = @($RecipeSlugs)
+        tags    = @($Tags | ForEach-Object {
+            @{
+                id      = $_.id
+                name    = $_.name
+                slug    = $_.slug
+                groupId = $_.groupId
+            }
+        })
+    }
+    
+    try {
+        Write-Verbose "Adding $($Tags.Count) tag(s) to $($RecipeSlugs.Count) recipe(s)"
+        $response = Invoke-MealieRequest -Endpoint '/api/recipes/bulk-actions/tag' -Method 'POST' -Body $body
+        return $response
+    }
+    catch {
+        Write-Error "Failed to add tags to recipes: $_"
+        throw
+    }
+}
+
+function Get-EmptyTags {
+    <#
+    .SYNOPSIS
+        Get all tags that have no recipes
+    .DESCRIPTION
+        Retrieves a list of tags that are not associated with any recipes.
+        Useful for cleanup operations and verifying tag merge results.
+    .OUTPUTS
+        [array] Array of tag objects with no recipe associations
+        Returns empty array if all tags have recipes or if no tags exist.
+    .EXAMPLE
+        $emptyTags = Get-EmptyTags
+        if ($emptyTags.Count -gt 0) {
+            Write-Host "Found $($emptyTags.Count) orphaned tag(s)"
+            $emptyTags | ForEach-Object { Write-Host "  - $($_.name)" }
+        }
+    .EXAMPLE
+        # Cleanup: Delete all empty tags
+        $emptyTags = Get-EmptyTags
+        foreach ($tag in $emptyTags) {
+            Remove-MealieTag -Id $tag.id
+            Write-Host "Deleted empty tag: $($tag.name)"
+        }
+    .NOTES
+        Used by the tag merge feature to verify that source tags were
+        properly cleaned up after merging.
+        
+        API Endpoint: GET /api/organizers/tags/empty
+        
+        This endpoint returns tags where the recipe count is zero.
+        Unlike the standard tags list endpoint, this one specifically
+        filters for unused tags.
+    #>
+    [CmdletBinding()]
+    [OutputType([array])]
+    param()
+    
+    try {
+        $response = Invoke-MealieRequest -Endpoint '/api/organizers/tags/empty' -Method 'GET'
+        
+        # Handle different response formats
+        # The API might return { items: [...] } or just [...]
+        if ($response -is [array]) {
+            return $response
+        }
+        elseif ($response.items) {
+            return $response.items
+        }
+        else {
+            # Empty result or unexpected format
+            Write-Verbose "No empty tags found or unexpected response format"
+            return @()
+        }
+    }
+    catch {
+        Write-Error "Failed to get empty tags: $_"
+        throw
+    }
+}
+
+#endregion Tag Merge Support Functions

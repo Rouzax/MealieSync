@@ -146,7 +146,7 @@ function Write-ImportResult {
             $newVal = if ([string]::IsNullOrEmpty($change.New)) { "(empty)" } else { $change.New }
             Write-Host "          $($change.Field.PadRight(12)): " -NoNewline
             Write-Host "'$oldVal'" -ForegroundColor DarkGray -NoNewline
-            Write-Host " -> " -NoNewline
+            Write-Host " → " -NoNewline
             Write-Host "'$newVal'" -ForegroundColor Green
         }
     }
@@ -186,7 +186,18 @@ function Write-ImportSummary {
     Write-Host " $Type Import Summary$mode" -ForegroundColor Cyan
     Write-Host "═══════════════════════════════════════════" -ForegroundColor Cyan
     
-    # Calculate total processed
+    # Display merge stats first if present (Tags only)
+    if ($Stats.ContainsKey('TagsMerged') -and $Stats.TagsMerged -gt 0) {
+        Write-Host "  TagsMerged      : " -NoNewline
+        Write-Host "$($Stats.TagsMerged)" -ForegroundColor Magenta
+        if ($Stats.ContainsKey('RecipesMoved') -and $Stats.RecipesMoved -gt 0) {
+            Write-Host "  RecipesMoved    : " -NoNewline
+            Write-Host "$($Stats.RecipesMoved)" -ForegroundColor Cyan
+        }
+        Write-Host "───────────────────────────────────────────" -ForegroundColor DarkGray
+    }
+    
+    # Calculate total processed (excluding merge stats)
     $total = 0
     $statsList = @('Created', 'Updated', 'Skipped', 'Unchanged', 'Errors', 'Conflicts', 'Deleted', 'LabelWarnings')
     

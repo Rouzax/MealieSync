@@ -176,17 +176,17 @@ function Import-MealieUnits {
             
             Write-Host "          Value " -NoNewline -ForegroundColor White
             Write-Host "'$($match.ImportValue)'" -NoNewline -ForegroundColor Yellow
-            Write-Host " exists as $($match.MatchMethod.Split('->')[-1]) on $sourceLabel " -NoNewline -ForegroundColor White
+            Write-Host " exists as $($match.MatchMethod.Split('→')[-1]) on $sourceLabel " -NoNewline -ForegroundColor White
             Write-Host "'$($existingUnit.name)'" -ForegroundColor Yellow
             
             Write-Host "          But '$($existingUnit.name)' was already claimed by import item " -NoNewline -ForegroundColor White
             Write-Host "'$previousMatch'" -ForegroundColor Magenta
             
-            $existingField = $match.MatchMethod.Split('->')[-1]
+            $existingField = $match.MatchMethod.Split('→')[-1]
             if ($existingField -eq 'alias') {
                 Write-Host "          Fix: Remove '$($match.ImportValue)' from '$($existingUnit.name)' aliases $fixLocation" -ForegroundColor DarkGray
             }
-            elseif ($match.MatchMethod.Split('->')[0] -eq 'alias') {
+            elseif ($match.MatchMethod.Split('→')[0] -eq 'alias') {
                 Write-Host "          Fix: Remove '$($match.ImportValue)' from '$itemName' aliases in your import data" -ForegroundColor DarkGray
             }
             else {

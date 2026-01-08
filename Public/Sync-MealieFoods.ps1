@@ -87,13 +87,11 @@ function Sync-MealieFoods {
     Write-Host "╔═══════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
     Write-Host "║  SYNC MODE - This will ADD, UPDATE, and DELETE foods          ║" -ForegroundColor Cyan
     if ($Label) {
-        # Box is 65 chars wide: ║ + 2 spaces + 61 content + ║
         Write-Host "║  " -ForegroundColor Cyan -NoNewline
-        Write-Host ("Label scope: $Label".PadRight(61)) -ForegroundColor Yellow -NoNewline
+        Write-Host ("Label scope: $Label".PadRight(59)) -ForegroundColor Yellow -NoNewline
         Write-Host "║" -ForegroundColor Cyan
-        
         Write-Host "║  " -ForegroundColor Cyan -NoNewline
-        Write-Host ("(Only '$Label' items will be deleted)".PadRight(61)) -ForegroundColor Yellow -NoNewline
+        Write-Host ("(Only '$Label' items will be deleted)".PadRight(59)) -ForegroundColor Yellow -NoNewline
         Write-Host "║" -ForegroundColor Cyan
     }
     Write-Host "╚═══════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan

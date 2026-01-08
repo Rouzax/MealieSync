@@ -1,12 +1,12 @@
 @{
     # Module manifest for MealieApi
-    # Generated for MealieSync v2.0.0 refactoring
+    # Generated for MealieSync v2.1.0
 
     # Script module or binary module file associated with this manifest
     RootModule = 'MealieApi.psm1'
 
     # Version number of this module
-    ModuleVersion = '2.0.0'
+    ModuleVersion = '2.1.0'
 
     # ID used to uniquely identify this module
     GUID = 'a1b2c3d4-e5f6-7890-abcd-ef1234567890'
@@ -123,6 +123,13 @@
 
             # Release notes for this module
             ReleaseNotes = @'
+Version 2.1.0 - Tag Merge Feature
+- New mergeTags field for consolidating tags
+- Automatically transfers recipes from source to target tags
+- Source tags deleted after merge
+- Full -WhatIf preview support
+- New stats: TagsMerged, RecipesMoved
+
 Version 2.0.0 - Major Refactoring
 - Restructured to Public/Private folder pattern
 - Added module manifest

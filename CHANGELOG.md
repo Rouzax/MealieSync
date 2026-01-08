@@ -5,6 +5,52 @@ All notable changes to MealieSync will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2026-01-08
+
+### Added
+
+- **Tag Merge Feature**: New `mergeTags` field in Tags JSON to consolidate multiple tags into one
+  - Automatically transfers recipes from source tags to target tag
+  - Source tags are deleted after merge
+  - Supports both Import and Mirror operations
+  - Full `-WhatIf` support for previewing merge operations
+  
+  ```json
+  {
+    "name": "aziatisch",
+    "mergeTags": ["oosters", "sri-lankaans"]
+  }
+  ```
+
+- **New private API functions**:
+  - `Get-MealieTagBySlug` - Fetch tag with recipe list by slug
+  - `Add-TagsToRecipes` - Bulk-add tags to multiple recipes
+  - `Get-EmptyTags` - List tags with no recipe associations
+
+- **New validation function**: `Confirm-TagMergeData` prevents circular/chained merges
+  - Detects when a tag is both source and target (not allowed)
+  - Warns about missing source tags (continues processing)
+  - Detects duplicate sources (same tag merged to multiple targets)
+
+- **New stats fields**: Import/Sync statistics now include:
+  - `TagsMerged` - Number of source tags merged and deleted
+  - `RecipesMoved` - Number of recipes that received new tags
+
+### Changed
+
+- `Import-MealieOrganizers` and `Sync-MealieOrganizers` now process `mergeTags` before standard operations
+- `Write-ImportSummary` displays merge statistics when present
+
+### Technical Details
+
+| Component              | Count |
+| ---------------------- | ----- |
+| New private functions  | 6     |
+| Test scenarios         | 7     |
+| Total functions        | 105   |
+
+---
+
 ## [2.0.0] - 2026-01-06
 
 ### ⚠️ Breaking Changes

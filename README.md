@@ -29,6 +29,7 @@ Mealie's web interface is great for individual edits, but managing hundreds of i
 - **Duplicate prevention** — Smart matching across names, plurals, and aliases
 - **Safe previews** — See exactly what will change before committing
 - **Full sync** — Mirror your JSON to Mealie exactly (including deletions)
+- **Tag consolidation** — Merge multiple tags into one, automatically updating all affected recipes
 
 ## Included Data
 
@@ -44,13 +45,13 @@ This repository includes a comprehensive **Dutch ingredient database** ready to 
 
 Community contributions for other languages are welcome! See [Data/README.md](Data/README.md).
 
-| Language | Code | Status                                |
-| -------- | ---- | ------------------------------------- |
-| Dutch    | `nl` | ✅ Complete                            |
-| English  | `en` | 💬 Open to contributions               |
-| German   | `de` | 💬 Open to contributions               |
-| French   | `fr` | 💬 Open to contributions               |
-| *Other*  | —    | 💬 [Contribute yours!](Data/README.md) |
+| Language | Code | Status                                    |
+| -------- | ---- | ----------------------------------------- |
+| Dutch    | `nl` | ✅ 1,000+ ingredients, actively maintained |
+| English  | `en` | 💬 Open to contributions                   |
+| German   | `de` | 💬 Open to contributions                   |
+| French   | `fr` | 💬 Open to contributions                   |
+| *Other*  | —    | 💬 [Contribute yours!](Data/README.md)     |
 
 ---
 
@@ -176,15 +177,15 @@ MealieSync prevents duplicates through comprehensive cross-matching. For each it
 ```
 Import Item                    Mealie Items
 ───────────                    ────────────
-   name        ←───────────→   name
-   name        ←───────────→   pluralName
-   name        ←───────────→   aliases[]
-   pluralName  ←───────────→   name
-   pluralName  ←───────────→   pluralName
-   pluralName  ←───────────→   aliases[]
-   aliases[]   ←───────────→   name
-   aliases[]   ←───────────→   pluralName
-   aliases[]   ←───────────→   aliases[]
+   name        <───────────>   name
+   name        <───────────>   pluralName
+   name        <───────────>   aliases[]
+   pluralName  <───────────>   name
+   pluralName  <───────────>   pluralName
+   pluralName  <───────────>   aliases[]
+   aliases[]   <───────────>   name
+   aliases[]   <───────────>   pluralName
+   aliases[]   <───────────>   aliases[]
 ```
 
 **Match priority:**
@@ -619,10 +620,11 @@ All JSON files use a wrapper format with metadata for validation:
 
 ### Category / Tag
 
-| Field  | Required | Description                      |
-| ------ | :------: | -------------------------------- |
-| `id`   |    —     | UUID (auto-generated if missing) |
-| `name` |    ✅     | Category or tag name             |
+| Field       | Required | Description                                             |
+| ----------- | :------: | ------------------------------------------------------- |
+| `id`        |    —     | UUID (auto-generated if missing)                        |
+| `name`      |    ✅     | Category or tag name                                    |
+| `mergeTags` |    —     | *(Tags only)* Array of tag names to merge into this tag |
 
 ```json
 {
@@ -637,6 +639,94 @@ All JSON files use a wrapper format with metadata for validation:
   ]
 }
 ```
+
+#### Tag Merge Feature (v2.1.0+)
+
+The `mergeTags` field allows you to consolidate multiple tags into one. When a tag has `mergeTags`:
+
+1. All recipes from source tags receive the target tag
+2. Source tags are deleted
+3. Normal import/sync continues
+```json
+{
+  "$schema": "mealie-sync",
+  "$type": "Tags",
+  "$version": "1.0",
+  "items": [
+    {
+      "name": "asian",
+      "mergeTags": ["oriental", "indian", "indonesian", "thai"]
+    },
+    {
+      "name": "main-course",
+      "mergeTags": ["dinner", "evening-meal"]
+    },
+    {
+      "name": "vegetarian"
+    }
+  ]
+}
+```
+
+**Preview merges safely:**
+```powershell
+.\Invoke-MealieSync.ps1 -Action Import -Type Tags -JsonPath .\Tags.json -WhatIf
+```
+
+**Example output:**
+```
+Connecting to Mealie at: https://mealie.example.com
+OK: Connected to Mealie as: User
+
+Importing Tags from: .\Tags.json
+
+Processing tag merges...
+
+═══════════════════════════════════════════
+ Tag Merge Preview (WhatIf)
+═══════════════════════════════════════════
+
+  Target: asian (exists)
+      ← Indian (16 recipes)
+      ← Indonesian (3 recipes)
+      ← Oriental (1 recipe)
+      ← Thai (1 recipe)
+
+  Target: main-course (exists)
+      ← Dinner (4 recipes)
+      ← Evening-Meal (31 recipes)
+
+───────────────────────────────────────────
+  Would merge: 6 source tag(s) affecting ~56 recipe(s)
+
+═══════════════════════════════════════════
+ Tags Import Summary (WhatIf)
+═══════════════════════════════════════════
+  TagsMerged      : 6
+───────────────────────────────────────────
+  Created         : 0
+  Skipped         : 3
+───────────────────────────────────────────
+  Total processed : 3
+```
+
+**Merge Rules:**
+| Scenario                         | Result               |
+| -------------------------------- | -------------------- |
+| Target tag doesn't exist         | ✅ Auto-created       |
+| Source tag doesn't exist         | ⚠️ Warning, continues |
+| Chained merge (A←B, B←C)         | ❌ Error              |
+| Same source for multiple targets | ❌ Error              |
+
+**Error examples:**
+```
+ERROR: Chained merge detected: 'oriental' is a merge target but is also 
+       listed as a source for 'asian'. Chained merges are not supported.
+
+ERROR: Duplicate source: 'oriental' is listed as source for both 
+       'international' and 'asian'. A tag can only be merged into one target.
+```
+> ⚠️ **Important:** Merges execute immediately when found in your JSON—even in Mirror mode, they run before the confirmation prompt. This is by design: `mergeTags` in your JSON is explicit opt-in. Always use `-WhatIf` first to preview merge operations. An automatic backup is created before any changes.
 
 ### Tool
 

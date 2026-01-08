@@ -74,8 +74,12 @@ function Sync-MealieOrganizers {
     
     Write-Host ""
     Write-Host "╔═══════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-    Write-Host "║  SYNC MODE - This will ADD, UPDATE, and DELETE $($Type.PadRight(12))  ║" -ForegroundColor Cyan
-    Write-Host "║  WARNING: $($warningText.PadRight(51)) ║" -ForegroundColor Yellow
+    Write-Host "║  " -ForegroundColor Cyan -NoNewline
+    Write-Host ("SYNC MODE - This will ADD, UPDATE, and DELETE $Type".PadRight(61)) -ForegroundColor Cyan -NoNewline
+    Write-Host "║" -ForegroundColor Cyan
+    Write-Host "║  " -ForegroundColor Cyan -NoNewline
+    Write-Host ("WARNING: $warningText".PadRight(61)) -ForegroundColor Yellow -NoNewline
+    Write-Host "║" -ForegroundColor Cyan
     Write-Host "╚═══════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
     Write-Host ""
     
@@ -175,6 +179,8 @@ function Sync-MealieCategories {
         Milliseconds to wait between API calls (default: 100)
     .PARAMETER Force
         Skip confirmation prompt for deletions
+    .PARAMETER BasePath
+        Base path for backup files (default: current directory)
     #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = 'High')]
     [OutputType([hashtable])]
@@ -186,10 +192,12 @@ function Sync-MealieCategories {
         
         [int]$ThrottleMs = 100,
         
-        [switch]$Force
+        [switch]$Force,
+        
+        [string]$BasePath = "."
     )
     
-    Sync-MealieOrganizers -Path $Path -Type 'Categories' -SkipBackup:$SkipBackup -ThrottleMs $ThrottleMs -Force:$Force
+    Sync-MealieOrganizers -Path $Path -Type 'Categories' -SkipBackup:$SkipBackup -ThrottleMs $ThrottleMs -Force:$Force -BasePath $BasePath
 }
 
 function Sync-MealieTags {
@@ -204,6 +212,8 @@ function Sync-MealieTags {
         Milliseconds to wait between API calls (default: 100)
     .PARAMETER Force
         Skip confirmation prompt for deletions
+    .PARAMETER BasePath
+        Base path for backup files (default: current directory)
     #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = 'High')]
     [OutputType([hashtable])]
@@ -215,10 +225,12 @@ function Sync-MealieTags {
         
         [int]$ThrottleMs = 100,
         
-        [switch]$Force
+        [switch]$Force,
+        
+        [string]$BasePath = "."
     )
     
-    Sync-MealieOrganizers -Path $Path -Type 'Tags' -SkipBackup:$SkipBackup -ThrottleMs $ThrottleMs -Force:$Force
+    Sync-MealieOrganizers -Path $Path -Type 'Tags' -SkipBackup:$SkipBackup -ThrottleMs $ThrottleMs -Force:$Force -BasePath $BasePath
 }
 
 function Sync-MealieTools {
@@ -233,6 +245,8 @@ function Sync-MealieTools {
         Milliseconds to wait between API calls (default: 100)
     .PARAMETER Force
         Skip confirmation prompt for deletions
+    .PARAMETER BasePath
+        Base path for backup files (default: current directory)
     #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = 'High')]
     [OutputType([hashtable])]
@@ -244,10 +258,12 @@ function Sync-MealieTools {
         
         [int]$ThrottleMs = 100,
         
-        [switch]$Force
+        [switch]$Force,
+        
+        [string]$BasePath = "."
     )
     
-    Sync-MealieOrganizers -Path $Path -Type 'Tools' -SkipBackup:$SkipBackup -ThrottleMs $ThrottleMs -Force:$Force
+    Sync-MealieOrganizers -Path $Path -Type 'Tools' -SkipBackup:$SkipBackup -ThrottleMs $ThrottleMs -Force:$Force -BasePath $BasePath
 }
 
 #endregion Convenience Wrappers

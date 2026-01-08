@@ -120,6 +120,88 @@ function Import-MealieOrganizers {
     
     #endregion Create Backup
     
+    #region Process Tag Merges (Tags only)
+    
+    # Initialize merge stats
+    $mergeStats = @{
+        TagsMerged    = 0
+        RecipesMoved  = 0
+        MergeWarnings = 0
+    }
+    
+    if ($Type -eq 'Tags') {
+        # Check if any items have mergeTags
+        $itemsWithMerge = @($importData | Where-Object { $_.mergeTags -and $_.mergeTags.Count -gt 0 })
+        
+        if ($itemsWithMerge.Count -gt 0) {
+            Write-Host ""
+            Write-Host "Processing tag merges..." -ForegroundColor Cyan
+            
+            # Fetch existing tags for merge validation
+            $existingTagsForMerge = Get-MealieTags -All
+            
+            # Validate merge data
+            $mergeValidation = Confirm-TagMergeData -Items $importData -ExistingTags $existingTagsForMerge
+            
+            # Check for validation errors
+            if (-not $mergeValidation.Valid) {
+                Write-Host ""
+                foreach ($err in $mergeValidation.Errors) {
+                    Write-Host "ERROR: $err" -ForegroundColor Red
+                }
+                Write-Host ""
+                throw "Tag merge validation failed."
+            }
+            
+            # Show warnings
+            foreach ($warning in $mergeValidation.Warnings) {
+                Write-Warning $warning
+                $mergeStats.MergeWarnings++
+            }
+            
+            # Process merges if any valid operations exist
+            if ($mergeValidation.MergeOperations.Count -gt 0) {
+                if ($WhatIfPreference) {
+                    # Show preview
+                    Write-TagMergePreview -MergeOperations $mergeValidation.MergeOperations -ExistingTags $existingTagsForMerge
+                    
+                    # Count for stats (estimates)
+                    foreach ($op in $mergeValidation.MergeOperations) {
+                        $mergeStats.TagsMerged += $op.ExistingSourceTags.Count
+                    }
+                }
+                else {
+                    # Execute merges
+                    Write-Host ""
+                    foreach ($op in $mergeValidation.MergeOperations) {
+                        Write-Host "  Merging into '$($op.TargetName)'..." -ForegroundColor Yellow
+                        
+                        $mergeResult = Invoke-TagMerge -MergeOperation $op -ExistingTags $existingTagsForMerge
+                        
+                        $mergeStats.TagsMerged += $mergeResult.SourcesMerged
+                        $mergeStats.RecipesMoved += $mergeResult.RecipesAffected
+                        
+                        if ($mergeResult.Errors.Count -gt 0) {
+                            foreach ($err in $mergeResult.Errors) {
+                                Write-Warning $err
+                            }
+                        }
+                    }
+                    
+                    Write-Host ""
+                    Write-Host "  Merge complete: $($mergeStats.TagsMerged) source tag(s) merged, $($mergeStats.RecipesMoved) recipe(s) updated" -ForegroundColor Green
+                }
+            }
+            else {
+                Write-Host "  No valid merge operations to process." -ForegroundColor DarkGray
+            }
+            
+            Write-Host ""
+        }
+    }
+    
+    #endregion Process Tag Merges
+    
     #region Build Lookups
     
     # Fetch existing items and build lookup by name
@@ -306,6 +388,13 @@ function Import-MealieOrganizers {
     #region Finish Up
     
     Complete-ImportProgress -Activity "Importing $Type"
+    
+    # Add merge stats to overall stats
+    if ($Type -eq 'Tags') {
+        $stats.TagsMerged = $mergeStats.TagsMerged
+        $stats.RecipesMoved = $mergeStats.RecipesMoved
+    }
+    
     Write-ImportSummary -Stats $stats -Type $Type -WhatIf:$WhatIfPreference
     
     return $stats

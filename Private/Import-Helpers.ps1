@@ -311,7 +311,7 @@ function Find-ExistingItem {
         else {
             return @{
                 Item          = $existing
-                MatchMethod   = "name->pluralName"
+                MatchMethod   = "name→pluralName"
                 ImportValue   = $ImportItem.name
                 ExistingValue = $existing.pluralName
             }
@@ -326,7 +326,7 @@ function Find-ExistingItem {
             if ($existing.name.ToLower().Trim() -eq $pluralKey) {
                 return @{
                     Item          = $existing
-                    MatchMethod   = "pluralName->name"
+                    MatchMethod   = "pluralName→name"
                     ImportValue   = $ImportItem.pluralName
                     ExistingValue = $existing.name
                 }
@@ -334,7 +334,7 @@ function Find-ExistingItem {
             else {
                 return @{
                     Item          = $existing
-                    MatchMethod   = "pluralName->pluralName"
+                    MatchMethod   = "pluralName→pluralName"
                     ImportValue   = $ImportItem.pluralName
                     ExistingValue = $existing.pluralName
                 }
@@ -347,7 +347,7 @@ function Find-ExistingItem {
             $matchedAlias = ($existing.aliases | Where-Object { $_.name.ToLower().Trim() -eq $pluralKey } | Select-Object -First 1).name
             return @{
                 Item          = $existing
-                MatchMethod   = "pluralName->alias"
+                MatchMethod   = "pluralName→alias"
                 ImportValue   = $ImportItem.pluralName
                 ExistingValue = $matchedAlias
             }
@@ -382,19 +382,19 @@ function Find-ExistingItem {
         }
     }
     
-    # 5. Try match by alias (import name -> existing alias)
+    # 5. Try match by alias (import name → existing alias)
     if ($Lookups.ByAlias.ContainsKey($nameKey)) {
         $existing = $Lookups.ByAlias[$nameKey]
         $matchedAlias = ($existing.aliases | Where-Object { $_.name.ToLower().Trim() -eq $nameKey } | Select-Object -First 1).name
         return @{
             Item          = $existing
-            MatchMethod   = "name->alias"
+            MatchMethod   = "name→alias"
             ImportValue   = $ImportItem.name
             ExistingValue = $matchedAlias
         }
     }
     
-    # 6. Try match by import aliases -> existing name/pluralName/alias
+    # 6. Try match by import aliases → existing name/pluralName/alias
     if ($ImportItem.aliases -and $ImportItem.aliases.Count -gt 0) {
         foreach ($alias in $ImportItem.aliases) {
             $aliasKey = $alias.name.ToLower().Trim()
@@ -405,7 +405,7 @@ function Find-ExistingItem {
                 if ($existing.name.ToLower().Trim() -eq $aliasKey) {
                     return @{
                         Item          = $existing
-                        MatchMethod   = "alias->name"
+                        MatchMethod   = "alias→name"
                         ImportValue   = $alias.name
                         ExistingValue = $existing.name
                     }
@@ -413,7 +413,7 @@ function Find-ExistingItem {
                 else {
                     return @{
                         Item          = $existing
-                        MatchMethod   = "alias->pluralName"
+                        MatchMethod   = "alias→pluralName"
                         ImportValue   = $alias.name
                         ExistingValue = $existing.pluralName
                     }
@@ -426,7 +426,7 @@ function Find-ExistingItem {
                 $matchedAlias = ($existing.aliases | Where-Object { $_.name.ToLower().Trim() -eq $aliasKey } | Select-Object -First 1).name
                 return @{
                     Item          = $existing
-                    MatchMethod   = "alias->alias"
+                    MatchMethod   = "alias→alias"
                     ImportValue   = $alias.name
                     ExistingValue = $matchedAlias
                 }
@@ -597,3 +597,301 @@ function Format-UnitChanges {
     
     return $changes
 }
+
+#region Tag Merge Functions
+
+function Write-TagMergePreview {
+    <#
+    .SYNOPSIS
+        Display WhatIf preview for tag merge operations
+    .DESCRIPTION
+        Shows a formatted preview of merge operations that would be executed,
+        including target tags, source tags, and affected recipe counts.
+        Used when -WhatIf is specified for Import or Mirror operations.
+    .PARAMETER MergeOperations
+        Array of merge operation objects from Confirm-TagMergeData
+    .PARAMETER ExistingTags
+        Array of existing tag objects from the API (for lookup)
+    .EXAMPLE
+        $validation = Confirm-TagMergeData -Items $items -ExistingTags $tags
+        if ($validation.MergeOperations.Count -gt 0) {
+            Write-TagMergePreview -MergeOperations $validation.MergeOperations -ExistingTags $tags
+        }
+    .NOTES
+        Called by Import-MealieOrganizers and Sync-MealieOrganizers when
+        processing Tags with -WhatIf and mergeTags entries exist.
+    #>
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)]
+        [array]$MergeOperations,
+        
+        [Parameter(Mandatory)]
+        [AllowEmptyCollection()]
+        [array]$ExistingTags
+    )
+    
+    Write-Host ""
+    Write-Host "═══════════════════════════════════════════" -ForegroundColor Cyan
+    Write-Host " Tag Merge Preview (WhatIf)" -ForegroundColor Cyan
+    Write-Host "═══════════════════════════════════════════" -ForegroundColor Cyan
+    Write-Host ""
+    
+    $totalRecipes = 0
+    $totalSources = 0
+    
+    foreach ($op in $MergeOperations) {
+        # Header for this merge operation
+        $targetStatus = if ($op.TargetExists) { "(exists)" } else { "(will create)" }
+        Write-Host "  Target: " -NoNewline
+        Write-Host "$($op.TargetName)" -ForegroundColor Green -NoNewline
+        Write-Host " $targetStatus" -ForegroundColor DarkGray
+        
+        # Get recipe counts for each source
+        $opRecipes = 0
+        foreach ($source in $op.ExistingSourceTags) {
+            # Fetch source tag by slug to get recipe count
+            try {
+                $sourceTag = Get-MealieTagBySlug -Slug $source.Slug
+                $recipeCount = if ($sourceTag -and $sourceTag.recipes) { $sourceTag.recipes.Count } else { 0 }
+            }
+            catch {
+                $recipeCount = "?"
+            }
+            
+            $recipeText = if ($recipeCount -eq 1) { "1 recipe" } elseif ($recipeCount -eq "?") { "? recipes" } else { "$recipeCount recipes" }
+            
+            Write-Host "      ← " -ForegroundColor Yellow -NoNewline
+            Write-Host "$($source.Name)" -ForegroundColor Cyan -NoNewline
+            Write-Host " ($recipeText)" -ForegroundColor DarkGray
+            
+            if ($recipeCount -ne "?") {
+                $opRecipes += $recipeCount
+            }
+            $totalSources++
+        }
+        
+        $totalRecipes += $opRecipes
+        Write-Host ""
+    }
+    
+    Write-Host "───────────────────────────────────────────" -ForegroundColor DarkGray
+    Write-Host "  Would merge: " -NoNewline
+    Write-Host "$totalSources source tag(s)" -ForegroundColor Yellow -NoNewline
+    Write-Host " affecting " -NoNewline
+    Write-Host "~$totalRecipes recipe(s)" -ForegroundColor Cyan
+    Write-Host ""
+}
+
+function Invoke-TagMerge {
+    <#
+    .SYNOPSIS
+        Execute a single tag merge operation
+    .DESCRIPTION
+        Performs the complete merge operation for one target tag:
+        1. Ensures target tag exists (creates if needed)
+        2. For each source tag that exists:
+           a. Gets source tag with recipe list
+           b. Bulk-adds target tag to all source recipes
+           c. Deletes source tag
+        
+        The source tags are deleted after their recipes are reassigned.
+        This is safe because Mealie automatically removes deleted tags
+        from recipes.
+    .PARAMETER MergeOperation
+        A single merge operation object from Confirm-TagMergeData containing:
+        - TargetName: Name of the target tag
+        - TargetSlug: Slug of the target tag
+        - ExistingSourceTags: Array of source tag info (Name, Slug, Id)
+        - TargetExists: Whether target already exists
+    .PARAMETER ExistingTags
+        Array of existing tag objects from the API (for lookup)
+    .PARAMETER WhatIf
+        If specified, shows what would happen without making changes
+    .OUTPUTS
+        [hashtable] @{
+            Success = [bool]
+            SourcesMerged = [int]      # Number of source tags processed
+            RecipesAffected = [int]    # Number of recipes updated
+            SourcesSkipped = [int]     # Sources that couldn't be processed
+            TargetCreated = [bool]     # Whether target tag was created
+            Errors = [array]           # Any error messages
+        }
+    .EXAMPLE
+        $result = Invoke-TagMerge -MergeOperation $op -ExistingTags $tags
+        if ($result.Success) {
+            Write-Host "Merged $($result.SourcesMerged) tags, updated $($result.RecipesAffected) recipes"
+        }
+    .NOTES
+        Uses the following API functions from Phase 1:
+        - Get-MealieTagBySlug: Get source tag with recipe list
+        - Add-TagsToRecipes: Bulk-add target tag to recipes
+        - Remove-MealieTag: Delete source tag after merge
+        - New-MealieTag: Create target tag if needed
+    #>
+    [CmdletBinding(SupportsShouldProcess)]
+    [OutputType([hashtable])]
+    param(
+        [Parameter(Mandatory)]
+        [hashtable]$MergeOperation,
+        
+        [Parameter(Mandatory)]
+        [AllowEmptyCollection()]
+        [array]$ExistingTags
+    )
+    
+    $result = @{
+        Success         = $true
+        SourcesMerged   = 0
+        RecipesAffected = 0
+        SourcesSkipped  = 0
+        TargetCreated   = $false
+        Errors          = @()
+    }
+    
+    $targetName = $MergeOperation.TargetName
+    $targetSlug = $MergeOperation.TargetSlug
+    
+    # Step 1: Ensure target tag exists
+    $targetTag = $null
+    
+    if ($MergeOperation.TargetExists) {
+        # Find existing target tag
+        $targetTag = $ExistingTags | Where-Object { 
+            $_.name -eq $targetName -or $_.slug -eq $targetSlug 
+        } | Select-Object -First 1
+    }
+    
+    if (-not $targetTag) {
+        # Need to create target tag
+        if ($PSCmdlet.ShouldProcess($targetName, "Create target tag")) {
+            try {
+                Write-Verbose "Creating target tag: $targetName"
+                $targetTag = New-MealieTag -Name $targetName
+                $result.TargetCreated = $true
+                Write-Host "  Created target tag: " -NoNewline
+                Write-Host "$targetName" -ForegroundColor Green
+            }
+            catch {
+                $result.Success = $false
+                $result.Errors += "Failed to create target tag '$targetName': $_"
+                return $result
+            }
+        }
+        else {
+            # WhatIf mode - simulate target tag
+            $targetTag = @{
+                id      = [guid]::NewGuid().ToString()
+                name    = $targetName
+                slug    = $targetSlug
+                groupId = if ($ExistingTags.Count -gt 0) { $ExistingTags[0].groupId } else { $null }
+            }
+        }
+    }
+    
+    # Validate we have required target tag properties
+    if (-not $targetTag.id -or -not $targetTag.groupId) {
+        # Try to get groupId from existing tags
+        if (-not $targetTag.groupId -and $ExistingTags.Count -gt 0) {
+            $targetTag = @{
+                id      = $targetTag.id
+                name    = $targetTag.name
+                slug    = if ($targetTag.slug) { $targetTag.slug } else { $targetSlug }
+                groupId = $ExistingTags[0].groupId
+            }
+        }
+        
+        if (-not $targetTag.groupId) {
+            $result.Success = $false
+            $result.Errors += "Cannot determine groupId for target tag. No existing tags available."
+            return $result
+        }
+    }
+    
+    # Step 2: Process each source tag
+    foreach ($source in $MergeOperation.ExistingSourceTags) {
+        Write-Verbose "Processing source tag: $($source.Name) (slug: $($source.Slug))"
+        
+        # Get source tag with recipes
+        try {
+            $sourceTagWithRecipes = Get-MealieTagBySlug -Slug $source.Slug
+        }
+        catch {
+            Write-Warning "Failed to get source tag '$($source.Name)': $_"
+            $result.SourcesSkipped++
+            $result.Errors += "Failed to get source tag '$($source.Name)': $_"
+            continue
+        }
+        
+        if (-not $sourceTagWithRecipes) {
+            Write-Warning "Source tag '$($source.Name)' not found (may have been deleted)"
+            $result.SourcesSkipped++
+            continue
+        }
+        
+        $recipeCount = if ($sourceTagWithRecipes.recipes) { $sourceTagWithRecipes.recipes.Count } else { 0 }
+        
+        # Step 2a: Bulk-add target tag to source recipes (if any)
+        if ($recipeCount -gt 0) {
+            $recipeSlugs = @($sourceTagWithRecipes.recipes | ForEach-Object { $_.slug })
+            
+            if ($PSCmdlet.ShouldProcess("$recipeCount recipe(s)", "Add tag '$targetName'")) {
+                try {
+                    Write-Verbose "Adding tag '$targetName' to $recipeCount recipe(s)"
+                    
+                    $tagData = @{
+                        id      = $targetTag.id
+                        name    = $targetTag.name
+                        slug    = if ($targetTag.slug) { $targetTag.slug } else { $targetSlug }
+                        groupId = $targetTag.groupId
+                    }
+                    
+                    Add-TagsToRecipes -RecipeSlugs $recipeSlugs -Tags @($tagData)
+                    $result.RecipesAffected += $recipeCount
+                    
+                    Write-Host "      Added " -NoNewline
+                    Write-Host "$targetName" -ForegroundColor Green -NoNewline
+                    Write-Host " to $recipeCount recipe(s) from " -NoNewline
+                    Write-Host "$($source.Name)" -ForegroundColor Cyan
+                }
+                catch {
+                    Write-Warning "Failed to add tag to recipes: $_"
+                    $result.Errors += "Failed to add tag '$targetName' to recipes from '$($source.Name)': $_"
+                    # Continue anyway - we'll still try to process other sources
+                }
+            }
+        }
+        else {
+            Write-Verbose "Source tag '$($source.Name)' has no recipes"
+        }
+        
+        # Step 2b: Delete source tag
+        if ($PSCmdlet.ShouldProcess($source.Name, "Delete source tag")) {
+            try {
+                Write-Verbose "Deleting source tag: $($source.Name)"
+                Remove-MealieTag -Id $source.Id
+                $result.SourcesMerged++
+                
+                Write-Host "      Deleted source tag: " -NoNewline
+                Write-Host "$($source.Name)" -ForegroundColor Magenta
+            }
+            catch {
+                Write-Warning "Failed to delete source tag '$($source.Name)': $_"
+                $result.Errors += "Failed to delete source tag '$($source.Name)': $_"
+                $result.SourcesSkipped++
+            }
+        }
+        else {
+            # WhatIf mode - count as merged
+            $result.SourcesMerged++
+            $result.RecipesAffected += $recipeCount
+        }
+    }
+    
+    # Determine overall success
+    $result.Success = ($result.Errors.Count -eq 0) -or ($result.SourcesMerged -gt 0)
+    
+    return $result
+}
+
+#endregion Tag Merge Functions
