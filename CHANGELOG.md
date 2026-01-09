@@ -5,6 +5,12 @@ All notable changes to MealieSync will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.1] - 2026-01-09
+
+### Fixed
+
+- **Redundant alias detection in replace mode**: Foods and Units with aliases matching their `pluralName` were incorrectly detected as "changed" on every import, causing unnecessary API updates. The fix filters redundant aliases before change detection in `Test-FoodChangedReplace` and `Test-UnitChangedReplace`, matching Mealie's server-side filtering behavior.
+
 ## [2.1.0] - 2026-01-08
 
 ### Added

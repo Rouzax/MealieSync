@@ -81,6 +81,9 @@ function Test-FoodChangedReplace {
     .DESCRIPTION
         Same as Test-FoodChanged but compares aliases directly (replacement mode)
         instead of merging. Used when -ReplaceAliases switch is active.
+        
+        Filters redundant aliases (matching name/pluralName) from import data
+        before comparison, since Mealie filters these server-side.
     .PARAMETER Existing
         The existing food object from the API
     .PARAMETER New
@@ -116,8 +119,29 @@ function Test-FoodChangedReplace {
     # Compare labelId
     if (-not (Compare-StringValue $Existing.labelId $ResolvedLabelId)) { return $true }
     
-    # Compare aliases directly (replacement mode - exact match required)
-    if (-not (Compare-Aliases $Existing.aliases $New.aliases)) { return $true }
+    # Filter redundant aliases from import data before comparison
+    # (Mealie filters aliases matching name/pluralName server-side)
+    $nameLower = if ($New.name) { $New.name.ToLower().Trim() } else { "" }
+    $pluralLower = if ($New.pluralName) { $New.pluralName.ToLower().Trim() } else { "" }
+    
+    $filteredNewAliases = @()
+    if ($New.aliases -and $New.aliases.Count -gt 0) {
+        foreach ($alias in $New.aliases) {
+            $aliasName = if ($alias -is [string]) { $alias } else { $alias.name }
+            $aliasLower = $aliasName.ToLower().Trim()
+            
+            # Skip if alias matches name or pluralName
+            if ([string]::Equals($aliasLower, $nameLower, [StringComparison]::Ordinal) -or 
+                [string]::Equals($aliasLower, $pluralLower, [StringComparison]::Ordinal)) {
+                continue
+            }
+            
+            $filteredNewAliases += $alias
+        }
+    }
+    
+    # Compare aliases (existing vs filtered new)
+    if (-not (Compare-Aliases $Existing.aliases $filteredNewAliases)) { return $true }
     
     return $false
 }
@@ -192,6 +216,9 @@ function Test-UnitChangedReplace {
         Check if a unit item has changes (replacement mode for aliases)
     .DESCRIPTION
         Same as Test-UnitChanged but compares aliases directly (replacement mode).
+        
+        Filters redundant aliases (matching name/pluralName) from import data
+        before comparison, since Mealie filters these server-side.
     .PARAMETER Existing
         The existing unit object from the API
     .PARAMETER New
@@ -225,8 +252,29 @@ function Test-UnitChangedReplace {
     $newFraction = if ($null -eq $New.fraction) { $true } else { [bool]$New.fraction }
     if ($existingFraction -ne $newFraction) { return $true }
     
-    # Compare aliases directly
-    if (-not (Compare-Aliases $Existing.aliases $New.aliases)) { return $true }
+    # Filter redundant aliases from import data before comparison
+    # (Mealie filters aliases matching name/pluralName server-side)
+    $nameLower = if ($New.name) { $New.name.ToLower().Trim() } else { "" }
+    $pluralLower = if ($New.pluralName) { $New.pluralName.ToLower().Trim() } else { "" }
+    
+    $filteredNewAliases = @()
+    if ($New.aliases -and $New.aliases.Count -gt 0) {
+        foreach ($alias in $New.aliases) {
+            $aliasName = if ($alias -is [string]) { $alias } else { $alias.name }
+            $aliasLower = $aliasName.ToLower().Trim()
+            
+            # Skip if alias matches name or pluralName
+            if ([string]::Equals($aliasLower, $nameLower, [StringComparison]::Ordinal) -or 
+                [string]::Equals($aliasLower, $pluralLower, [StringComparison]::Ordinal)) {
+                continue
+            }
+            
+            $filteredNewAliases += $alias
+        }
+    }
+    
+    # Compare aliases (existing vs filtered new)
+    if (-not (Compare-Aliases $Existing.aliases $filteredNewAliases)) { return $true }
     
     return $false
 }
