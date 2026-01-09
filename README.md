@@ -18,6 +18,55 @@ A PowerShell toolkit for managing [Mealie](https://mealie.io) recipe data via RE
                             Total:        1525
 ```
 
+---
+
+## Table of Contents
+
+- [MealieSync](#mealiesync)
+  - [Table of Contents](#table-of-contents)
+  - [Why MealieSync?](#why-mealiesync)
+  - [Included Data](#included-data)
+  - [Quick Start](#quick-start)
+    - [1. Requirements](#1-requirements)
+    - [2. Install](#2-install)
+    - [3. Configure](#3-configure)
+    - [4. Test Connection](#4-test-connection)
+    - [5. Import the Dutch Data](#5-import-the-dutch-data)
+  - [Core Concepts](#core-concepts)
+    - [Actions](#actions)
+    - [Data Types](#data-types)
+    - [Smart Matching](#smart-matching)
+  - [Usage Examples](#usage-examples)
+    - [List Items](#list-items)
+    - [Preview Changes (WhatIf)](#preview-changes-whatif)
+    - [Conflict Detection](#conflict-detection)
+    - [Pre-Import Conflict Detection](#pre-import-conflict-detection)
+    - [Understanding the Output](#understanding-the-output)
+    - [Import](#import)
+    - [Export](#export)
+    - [Mirror (Full Sync)](#mirror-full-sync)
+  - [Utility Tools](#utility-tools)
+    - [Show-MealieStats.ps1](#show-mealiestatsps1)
+    - [Backup-MealieData.ps1](#backup-mealiedataps1)
+    - [Test-MealieConnection.ps1](#test-mealieconnectionps1)
+    - [Convert-MealieSyncJson.ps1](#convert-mealiesyncjsonps1)
+  - [Parameter Reference](#parameter-reference)
+  - [JSON Format](#json-format)
+    - [Food](#food)
+    - [Unit](#unit)
+    - [Label](#label)
+    - [Category / Tag](#category--tag)
+      - [Tag Merge Feature (v2.1.0+)](#tag-merge-feature-v210)
+    - [Tool](#tool)
+  - [Using as a PowerShell Module](#using-as-a-powershell-module)
+  - [Project Structure](#project-structure)
+  - [Troubleshooting](#troubleshooting)
+  - [Contributing](#contributing)
+  - [API Endpoints](#api-endpoints)
+  - [License](#license)
+
+---
+
 ## Why MealieSync?
 
 Mealie's web interface is great for individual edits, but managing hundreds of ingredients or performing bulk updates becomes tedious. MealieSync gives you:
@@ -438,13 +487,19 @@ Total: 1074 foods in 29 files
 Mirror shows a preview and asks for confirmation:
 
 ```
-╔═══════════════════════════════════════════════════════════════╗
-║  SYNC MODE - This will ADD, UPDATE, and DELETE foods          ║
-║  Label scope: Vegetables                                      ║
-║  (Only 'Vegetables' items will be deleted)                    ║
-╚═══════════════════════════════════════════════════════════════╝
+Connecting to Mealie at: https://mealie.example.com
+OK: Connected to Mealie as: User
 
-Backup created: .\Exports\AutoBackups\Backup_Foods_20260107_111820.json
+Mirroring Foods to match: .\Vegetables.json
+
+═══════════════════════════════════════════════════════════════
+ MIRROR MODE - This will ADD, UPDATE, and DELETE foods
+ Label scope: Vegetables (only 'Vegetables' items will be deleted)
+═══════════════════════════════════════════════════════════════
+
+Checking for conflicts...
+  No conflicts found
+Analyzing changes...
 
 ═══════════════════════════════════════════════════════════════
  Mirror Preview - Foods
@@ -456,9 +511,11 @@ Backup created: .\Exports\AutoBackups\Backup_Foods_20260107_111820.json
    Skip    : 83
 
  Phase 2 - Delete:
-   Delete  : 2 items
+   Delete  : 2 item(s)
 
 ═══════════════════════════════════════════════════════════════
+
+WARNING: This will DELETE 2 item(s) from Mealie.
 
 Continue with 19 change(s)? [Y/N]:
 ```
@@ -466,9 +523,15 @@ Continue with 19 change(s)? [Y/N]:
 Mirror also protects items used in recipes:
 
 ```
+Analyzing changes...
+  Checking recipe usage for 4 item(s) to delete...
+
   ⚠️  Cannot delete items that are used in recipes:
 
-      • shatkora (used in 2 recipes)
+      • spinach [fresh] (used in 1 recipe)
+      • dried chili pepper (used in 1 recipe)
+      • pickled jalapeño (used in 1 recipe)
+      • mushroom (used in 1 recipe)
 
       Remove these items from recipes first, or add them to
       your JSON file to keep them in Mealie.
