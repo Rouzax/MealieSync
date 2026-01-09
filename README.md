@@ -39,7 +39,6 @@ A PowerShell toolkit for managing [Mealie](https://mealie.io) recipe data via RE
 - [Parameter Reference](#parameter-reference)
 - [JSON Format](#json-format)
 - [Using as a PowerShell Module](#using-as-a-powershell-module)
-- [Project Structure](#project-structure)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [API Endpoints](#api-endpoints)
@@ -896,58 +895,6 @@ Sync-MealieFoods -Path .\Foods.json -Force  # Mirror
 # Same pattern for Units, Labels, Categories, Tags, Tools
 $units = Get-MealieUnits -All
 $labels = Get-MealieLabels -All
-```
-
----
-
-## Project Structure
-
-```
-MealieSync/
-├── Invoke-MealieSync.ps1       # Main CLI interface
-├── MealieApi.psd1              # Module manifest
-├── MealieApi.psm1              # Module loader
-├── README.md
-├── CONTRIBUTING.md
-├── CHANGELOG.md
-├── LICENSE
-│
-├── Public/                     # Exported functions (49)
-│   ├── Initialize-MealieApi.ps1
-│   ├── Foods.ps1               # Get/New/Update/Remove-MealieFood
-│   ├── Units.ps1               # Get/New/Update/Remove-MealieUnit
-│   ├── Labels.ps1              # Get/New/Update/Remove-MealieLabel
-│   ├── Organizers.ps1          # Categories, Tags, Tools
-│   ├── Test-Mealie*Conflicts.ps1 # Conflict detection (within/cross-file)
-│   ├── Export-*.ps1
-│   ├── Import-*.ps1
-│   └── Sync-*.ps1
-│
-├── Private/                    # Internal helpers (61)
-│   ├── Invoke-MealieRequest.ps1
-│   ├── Compare-Helpers.ps1
-│   ├── Validation-Helpers.ps1
-│   └── ...
-│
-├── Tools/                      # Standalone utilities (4)
-│   ├── Test-MealieConnection.ps1
-│   ├── Show-MealieStats.ps1
-│   ├── Backup-MealieData.ps1
-│   └── Convert-MealieSyncJson.ps1
-│
-├── Data/                       # Ingredient data by language
-│   ├── README.md               # Contribution guidelines
-│   └── nl/                     # Dutch data
-│       ├── Foods/              # Split by label
-│       ├── Labels.json
-│       ├── Units.json
-│       └── ...
-│
-├── docs/                       # Documentation
-│   └── COLORS.md               # Console color reference
-│
-└── Exports/                    # Output folder (gitignored)
-    └── AutoBackups/
 ```
 
 ---
