@@ -106,11 +106,8 @@ function Sync-MealieUnits {
             }
         }
         
-        Write-Host ""
-        Write-Host "╔═══════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-        Write-Host "║  FOLDER SYNC MODE - Processing $($jsonFiles.Count.ToString().PadLeft(3)) file(s)                    ║" -ForegroundColor Cyan
-        Write-Host "╚═══════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
-        Write-Host ""
+        Write-MirrorHeader -Type 'Units' -FolderMode -FileCount $jsonFiles.Count
+        
         Write-Host "Checking for conflicts..." -ForegroundColor DarkGray
         
         # Run conflict check first
@@ -179,11 +176,7 @@ function Sync-MealieUnits {
     
     #endregion Handle Folder Parameter Set
     
-    Write-Host ""
-    Write-Host "╔═══════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-    Write-Host "║  SYNC MODE - This will ADD, UPDATE, and DELETE units          ║" -ForegroundColor Cyan
-    Write-Host "╚═══════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
-    Write-Host ""
+    Write-MirrorHeader -Type 'Units'
     
     #region Read and Validate
     
@@ -245,7 +238,7 @@ function Sync-MealieUnits {
     Write-Host ""
     Write-Host "Phase 1: Importing (add/update)..." -ForegroundColor Cyan
     
-    $importStats = Import-MealieUnits -Path $Path -UpdateExisting -ReplaceAliases:$ReplaceAliases -SkipBackup -ThrottleMs $ThrottleMs
+    $importStats = Import-MealieUnits -Path $Path -UpdateExisting -ReplaceAliases:$ReplaceAliases -SkipBackup -SkipConflictCheck -ThrottleMs $ThrottleMs
     
     #endregion Phase 1: Import
     

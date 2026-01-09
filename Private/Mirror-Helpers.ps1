@@ -18,14 +18,25 @@ function Get-ItemsToDelete {
         Compares existing items from the API against import data to find
         "orphans" - items that should be deleted during a mirror/sync operation.
         
-        For Foods and Units: matches by id (primary) or name (fallback)
+        For Foods and Units: matches by id, name, pluralName, AND aliases
         For Labels/Categories/Tags/Tools: matches by name only
+        
+        IMPORTANT: This function must use the same matching logic as the import
+        functions (Import-MealieFoods, Import-MealieUnits) to prevent items that
+        are matched for UPDATE from being incorrectly marked for DELETE.
+        
+        Matching hierarchy (same as import):
+        1. ID (exact match, if -MatchById)
+        2. name ↔ name/pluralName
+        3. pluralName ↔ name/pluralName
+        4. name/pluralName ↔ aliases
+        5. aliases ↔ name/pluralName/aliases
     .PARAMETER ExistingItems
         Array of items currently in Mealie (from Get-Mealie* functions)
     .PARAMETER ImportItems
         Array of items from the import JSON file
     .PARAMETER MatchById
-        If true, match by id first, then name. If false, match by name only.
+        If true, match by id first, then name/alias. If false, match by name/alias only.
     .OUTPUTS
         [array] Items from ExistingItems that are not in ImportItems
     .EXAMPLE
@@ -52,8 +63,10 @@ function Get-ItemsToDelete {
     if ($null -eq $ImportItems) { $ImportItems = @() }
     
     # Build lookup sets for import items
+    # This mirrors the logic in Build-FoodLookups and Build-UnitLookups
     $importIds = @{}
-    $importNames = @{}
+    $importNames = @{}      # name and pluralName
+    $importAliases = @{}    # aliases (separate for clarity)
     
     foreach ($item in $ImportItems) {
         # Track by id if present
@@ -61,14 +74,24 @@ function Get-ItemsToDelete {
             $importIds[$item.id] = $true
         }
         
-        # Track by name (always, as fallback)
+        # Track by name
         if (![string]::IsNullOrEmpty($item.name)) {
             $importNames[$item.name.ToLower().Trim()] = $true
         }
         
-        # Also track by pluralName for foods/units
+        # Track by pluralName
         if (![string]::IsNullOrEmpty($item.pluralName)) {
             $importNames[$item.pluralName.ToLower().Trim()] = $true
+        }
+        
+        # Track by aliases
+        if ($item.aliases -and $item.aliases.Count -gt 0) {
+            foreach ($alias in $item.aliases) {
+                $aliasName = if ($alias -is [string]) { $alias } else { $alias.name }
+                if (![string]::IsNullOrEmpty($aliasName)) {
+                    $importAliases[$aliasName.ToLower().Trim()] = $true
+                }
+            }
         }
     }
     
@@ -85,7 +108,7 @@ function Get-ItemsToDelete {
             }
         }
         
-        # Check by name (fallback or primary for simple types)
+        # Check existing.name against import names
         if (-not $found -and ![string]::IsNullOrEmpty($existing.name)) {
             $nameKey = $existing.name.ToLower().Trim()
             if ($importNames.ContainsKey($nameKey)) {
@@ -93,11 +116,49 @@ function Get-ItemsToDelete {
             }
         }
         
-        # Check by pluralName (for foods/units that might have been renamed)
+        # Check existing.pluralName against import names
         if (-not $found -and ![string]::IsNullOrEmpty($existing.pluralName)) {
             $pluralKey = $existing.pluralName.ToLower().Trim()
             if ($importNames.ContainsKey($pluralKey)) {
                 $found = $true
+            }
+        }
+        
+        # Check existing.name against import aliases
+        if (-not $found -and ![string]::IsNullOrEmpty($existing.name)) {
+            $nameKey = $existing.name.ToLower().Trim()
+            if ($importAliases.ContainsKey($nameKey)) {
+                $found = $true
+            }
+        }
+        
+        # Check existing.pluralName against import aliases
+        if (-not $found -and ![string]::IsNullOrEmpty($existing.pluralName)) {
+            $pluralKey = $existing.pluralName.ToLower().Trim()
+            if ($importAliases.ContainsKey($pluralKey)) {
+                $found = $true
+            }
+        }
+        
+        # Check existing aliases against import names AND aliases
+        if (-not $found -and $existing.aliases -and $existing.aliases.Count -gt 0) {
+            foreach ($alias in $existing.aliases) {
+                $aliasName = if ($alias -is [string]) { $alias } else { $alias.name }
+                if (![string]::IsNullOrEmpty($aliasName)) {
+                    $aliasKey = $aliasName.ToLower().Trim()
+                    
+                    # Check against import names (name/pluralName)
+                    if ($importNames.ContainsKey($aliasKey)) {
+                        $found = $true
+                        break
+                    }
+                    
+                    # Check against import aliases
+                    if ($importAliases.ContainsKey($aliasKey)) {
+                        $found = $true
+                        break
+                    }
+                }
             }
         }
         

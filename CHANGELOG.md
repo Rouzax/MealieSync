@@ -5,6 +5,33 @@ All notable changes to MealieSync will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.1] - 2026-01-09
+
+### Fixed
+
+- **Mirror alias matching**: Fixed critical bug where items matched via alias were incorrectly marked for deletion. When an import item's alias matched an existing item's name, the import would update (rename) the item correctly, but the delete phase would still mark it for deletion because it only checked name/pluralName, not aliases. Now `Get-ItemsToDelete` uses the same comprehensive matching logic as import:
+  - existing.name ↔ import.name/pluralName/aliases
+  - existing.pluralName ↔ import.name/pluralName/aliases
+  - existing.aliases ↔ import.name/pluralName/aliases
+
+- **Redundant conflict checks**: Mirror operations now check for conflicts once instead of three times. Added `-SkipConflictCheck` parameter to `Import-MealieFoods` and `Import-MealieUnits`, used when called from Sync functions which perform their own conflict check.
+
+### Changed
+
+- **Header formatting**: Replaced box-style headers (╔═══╗) with simple double-line headers for consistent terminal rendering across different terminal widths and fonts. Added new `Write-MirrorHeader` helper function for consistent header styling.
+
+### Technical Details
+
+| Component | Files Modified |
+|-----------|----------------|
+| Mirror-Helpers.ps1 | Alias matching in `Get-ItemsToDelete` |
+| Import-MealieFoods.ps1 | Added `-SkipConflictCheck` parameter |
+| Import-MealieUnits.ps1 | Added `-SkipConflictCheck` parameter |
+| Sync-*.ps1 (4 files) | Header formatting, conflict check optimization |
+| Write-Helpers.ps1 | New `Write-MirrorHeader` function |
+
+---
+
 ## [2.2.0] - 2026-01-09
 
 ### Added

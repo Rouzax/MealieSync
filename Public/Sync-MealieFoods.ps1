@@ -129,11 +129,8 @@ function Sync-MealieFoods {
             }
         }
         
-        Write-Host ""
-        Write-Host "╔═══════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-        Write-Host "║  FOLDER SYNC MODE - Processing $($jsonFiles.Count.ToString().PadLeft(3)) file(s)                    ║" -ForegroundColor Cyan
-        Write-Host "╚═══════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
-        Write-Host ""
+        Write-MirrorHeader -Type 'Foods' -FolderMode -FileCount $jsonFiles.Count
+        
         Write-Host "Checking for conflicts..." -ForegroundColor DarkGray
         
         # Run conflict check first
@@ -212,19 +209,7 @@ function Sync-MealieFoods {
     
     #endregion Handle Folder Parameter Set
     
-    Write-Host ""
-    Write-Host "╔═══════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-    Write-Host "║  SYNC MODE - This will ADD, UPDATE, and DELETE foods          ║" -ForegroundColor Cyan
-    if ($Label) {
-        Write-Host "║  " -ForegroundColor Cyan -NoNewline
-        Write-Host ("Label scope: $Label".PadRight(59)) -ForegroundColor Yellow -NoNewline
-        Write-Host "║" -ForegroundColor Cyan
-        Write-Host "║  " -ForegroundColor Cyan -NoNewline
-        Write-Host ("(Only '$Label' items will be deleted)".PadRight(59)) -ForegroundColor Yellow -NoNewline
-        Write-Host "║" -ForegroundColor Cyan
-    }
-    Write-Host "╚═══════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
-    Write-Host ""
+    Write-MirrorHeader -Type 'Foods' -Label $Label
     
     #region Read and Validate Import Data
     
@@ -311,13 +296,14 @@ function Sync-MealieFoods {
         
         # Run import in preview mode to get stats (silently)
         $previewParams = @{
-            Path           = $Path
-            UpdateExisting = $true
-            SkipBackup     = $true
-            ThrottleMs     = 0  # No throttle needed for preview
-            BasePath       = $BasePath
-            WhatIf         = $true
-            Quiet          = $true
+            Path              = $Path
+            UpdateExisting    = $true
+            SkipBackup        = $true
+            SkipConflictCheck = $true  # Already checked above
+            ThrottleMs        = 0  # No throttle needed for preview
+            BasePath          = $BasePath
+            WhatIf            = $true
+            Quiet             = $true
         }
         if ($ReplaceAliases) { $previewParams.ReplaceAliases = $true }
         if ($Label) { $previewParams.Label = $Label }
@@ -394,11 +380,12 @@ function Sync-MealieFoods {
     Write-Host "Phase 1: Importing (add/update)..." -ForegroundColor Cyan
     
     $importParams = @{
-        Path           = $Path
-        UpdateExisting = $true
-        SkipBackup     = $true  # Already did backup
-        ThrottleMs     = $ThrottleMs
-        BasePath       = $BasePath
+        Path              = $Path
+        UpdateExisting    = $true
+        SkipBackup        = $true  # Already did backup
+        SkipConflictCheck = $true  # Already checked at start of Sync
+        ThrottleMs        = $ThrottleMs
+        BasePath          = $BasePath
     }
     if ($ReplaceAliases) { $importParams.ReplaceAliases = $true }
     if ($Label) { $importParams.Label = $Label }

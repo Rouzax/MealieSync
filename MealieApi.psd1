@@ -1,12 +1,12 @@
 @{
     # Module manifest for MealieApi
-    # Generated for MealieSync v2.2.0
+    # Generated for MealieSync v2.2.1
 
     # Script module or binary module file associated with this manifest
     RootModule = 'MealieApi.psm1'
 
     # Version number of this module
-    ModuleVersion = '2.2.0'
+    ModuleVersion = '2.2.1'
 
     # ID used to uniquely identify this module
     GUID = 'a1b2c3d4-e5f6-7890-abcd-ef1234567890'
@@ -127,6 +127,11 @@
 
             # Release notes for this module
             ReleaseNotes = @'
+Version 2.2.1 - Mirror Bug Fixes
+- Fixed critical bug where items matched via alias were incorrectly deleted
+- Mirror operations now check for conflicts once instead of three times
+- Replaced box-style headers with simple double-line headers for consistent rendering
+
 Version 2.2.0 - Conflict Detection
 - New Test-MealieFoodConflicts and Test-MealieUnitConflicts functions
 - Detects within-file AND cross-file duplicates

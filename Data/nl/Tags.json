@@ -1,0 +1,157 @@
+{
+    "$schema": "mealie-sync",
+    "$type": "Tags",
+    "$version": "1.0",
+    "items": [
+        {
+            "name": "keuken | nederlands"
+        },
+        {
+            "name": "keuken | belgisch"
+        },
+        {
+            "name": "keuken | frans"
+        },
+        {
+            "name": "keuken | italiaans"
+        },
+        {
+            "name": "keuken | spaans"
+        },
+        {
+            "name": "keuken | grieks"
+        },
+        {
+            "name": "keuken | duits"
+        },
+        {
+            "name": "keuken | brits"
+        },
+        {
+            "name": "keuken | scandinavisch"
+        },
+        {
+            "name": "keuken | mediterraan"
+        },
+        {
+            "name": "keuken | amerikaans"
+        },
+        {
+            "name": "keuken | mexicaans"
+        },
+        {
+            "name": "keuken | zuid-amerikaans"
+        },
+        {
+            "name": "keuken | caribisch"
+        },
+        {
+            "name": "keuken | surinaams"
+        },
+        {
+            "name": "keuken | midden-oosters"
+        },
+        {
+            "name": "keuken | turks"
+        },
+        {
+            "name": "keuken | marokkaans"
+        },
+        {
+            "name": "keuken | aziatisch"
+        },
+        {
+            "name": "keuken | chinees"
+        },
+        {
+            "name": "keuken | japans"
+        },
+        {
+            "name": "keuken | koreaans"
+        },
+        {
+            "name": "keuken | thais"
+        },
+        {
+            "name": "keuken | vietnamees"
+        },
+        {
+            "name": "keuken | indiaas"
+        },
+        {
+            "name": "keuken | indonesisch"
+        },
+        {
+            "name": "dieet | vegetarisch"
+        },
+        {
+            "name": "dieet | vegan"
+        },
+        {
+            "name": "dieet | glutenvrij"
+        },
+        {
+            "name": "dieet | lactosevrij"
+        },
+        {
+            "name": "dieet | halal"
+        },
+        {
+            "name": "dieet | kosher"
+        },
+        {
+            "name": "dieet | keto"
+        },
+        {
+            "name": "dieet | paleo"
+        },
+        {
+            "name": "dieet | diabetisch"
+        },
+        {
+            "name": "dieet | zoutarm"
+        },
+        {
+            "name": "dieet | vetarm"
+        },
+        {
+            "name": "tijd | 0-30"
+        },
+        {
+            "name": "tijd | 30-60"
+        },
+        {
+            "name": "tijd | 60+"
+        },
+        {
+            "name": "eiwit | kip"
+        },
+        {
+            "name": "eiwit | rund"
+        },
+        {
+            "name": "eiwit | varken"
+        },
+        {
+            "name": "eiwit | vis"
+        },
+        {
+            "name": "eiwit | schaal-schelp"
+        },
+        {
+            "name": "eiwit | lam"
+        },
+        {
+            "name": "eiwit | wild"
+        },
+        {
+            "name": "pittig | mild"
+        },
+        {
+            "name": "pittig | medium"
+        },
+        {
+            "name": "pittig | heet"
+        }
+    ]
+}

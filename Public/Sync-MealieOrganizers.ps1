@@ -72,16 +72,7 @@ function Sync-MealieOrganizers {
         'Tools' { "Deleting tools removes them from all recipes!" }
     }
     
-    Write-Host ""
-    Write-Host "╔═══════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-    Write-Host "║  " -ForegroundColor Cyan -NoNewline
-    Write-Host ("SYNC MODE - This will ADD, UPDATE, and DELETE $Type".PadRight(61)) -ForegroundColor Cyan -NoNewline
-    Write-Host "║" -ForegroundColor Cyan
-    Write-Host "║  " -ForegroundColor Cyan -NoNewline
-    Write-Host ("WARNING: $warningText".PadRight(61)) -ForegroundColor Yellow -NoNewline
-    Write-Host "║" -ForegroundColor Cyan
-    Write-Host "╚═══════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
-    Write-Host ""
+    Write-MirrorHeader -Type $Type -Warning $warningText
     
     #region Read and Validate
     

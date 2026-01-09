@@ -400,3 +400,76 @@ function Show-RecipeUsageWarning {
     
     Write-Host ""
 }
+
+function Write-MirrorHeader {
+    <#
+    .SYNOPSIS
+        Display a consistent header for Mirror/Sync operations
+    .DESCRIPTION
+        Displays a simple double-line header for mirror operations that renders
+        consistently across different terminal widths. Replaces the box-style
+        headers (╔═══╗) that had padding issues.
+    .PARAMETER Type
+        The data type being synced (Foods, Units, Labels, Categories, Tags, Tools)
+    .PARAMETER Label
+        Optional label scope for Foods (only items with this label will be deleted)
+    .PARAMETER FolderMode
+        If specified, shows folder sync header with file count
+    .PARAMETER FileCount
+        Number of files being processed (used with -FolderMode)
+    .PARAMETER Warning
+        Optional warning message to display (e.g., "Deleting labels removes them from all foods!")
+    .EXAMPLE
+        Write-MirrorHeader -Type "Foods"
+        # Shows: MIRROR MODE - This will ADD, UPDATE, and DELETE foods
+    .EXAMPLE
+        Write-MirrorHeader -Type "Foods" -Label "Kaas"
+        # Shows header with label scope info
+    .EXAMPLE
+        Write-MirrorHeader -Type "Foods" -FolderMode -FileCount 5
+        # Shows: FOLDER MIRROR - Processing 5 file(s)
+    .EXAMPLE
+        Write-MirrorHeader -Type "Labels" -Warning "Deleting labels removes them from all foods!"
+        # Shows header with warning
+    #>
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)]
+        [ValidateSet('Foods', 'Units', 'Labels', 'Categories', 'Tags', 'Tools')]
+        [string]$Type,
+        
+        [string]$Label,
+        
+        [switch]$FolderMode,
+        
+        [int]$FileCount,
+        
+        [string]$Warning
+    )
+    
+    Write-Host ""
+    Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Red
+    
+    if ($FolderMode) {
+        # Folder mode header
+        Write-Host " FOLDER MIRROR - Processing $FileCount file(s)" -ForegroundColor Red
+    }
+    else {
+        # Single file mode header
+        $typeLower = $Type.ToLower()
+        Write-Host " MIRROR MODE - This will ADD, UPDATE, and DELETE $typeLower" -ForegroundColor Red
+        
+        # Show label scope if specified
+        if ($Label) {
+            Write-Host " Label scope: $Label (only '$Label' items will be deleted)" -ForegroundColor Yellow
+        }
+        
+        # Show warning if specified
+        if ($Warning) {
+            Write-Host " WARNING: $Warning" -ForegroundColor Yellow
+        }
+    }
+    
+    Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Red
+    Write-Host ""
+}

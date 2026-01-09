@@ -39,6 +39,9 @@ function Import-MealieUnits {
         Replace existing aliases with new ones instead of merging
     .PARAMETER SkipBackup
         Skip the automatic backup before import
+    .PARAMETER SkipConflictCheck
+        Skip the internal conflict check before import. Used by Sync-MealieUnits
+        which performs its own conflict check before calling Import.
     .PARAMETER ThrottleMs
         Milliseconds to wait between API calls (default: 100)
     .PARAMETER MatchedIds
@@ -79,6 +82,8 @@ function Import-MealieUnits {
         [switch]$ReplaceAliases,
         
         [switch]$SkipBackup,
+        
+        [switch]$SkipConflictCheck,
         
         [int]$ThrottleMs = 100,
         
@@ -229,25 +234,27 @@ function Import-MealieUnits {
     
     #region Check for Within-File Conflicts
     
-    Write-Host "Checking for conflicts..." -ForegroundColor DarkGray
-    
-    # Build item set for conflict detection
-    $itemSets = @(@{
-        FilePath = $Path
-        Items    = $importData
-    })
-    
-    $conflicts = @(Find-ItemConflicts -ItemSets $itemSets -Type 'Units')
-    $summary = Get-ConflictSummary -Conflicts $conflicts -ItemSets $itemSets
-    
-    if ($summary.HasConflicts) {
-        # Display conflicts with full report
-        Format-ConflictReport -Conflicts $conflicts -Summary $summary -Type 'Units'
-        Write-Host ""
-        throw "Import aborted: $($summary.ConflictCount) conflict(s) found in file. Fix conflicts before importing."
-    }
-    else {
-        Write-Host "  No conflicts found" -ForegroundColor Green
+    if (-not $SkipConflictCheck) {
+        Write-Host "Checking for conflicts..." -ForegroundColor DarkGray
+        
+        # Build item set for conflict detection
+        $itemSets = @(@{
+            FilePath = $Path
+            Items    = $importData
+        })
+        
+        $conflicts = @(Find-ItemConflicts -ItemSets $itemSets -Type 'Units')
+        $summary = Get-ConflictSummary -Conflicts $conflicts -ItemSets $itemSets
+        
+        if ($summary.HasConflicts) {
+            # Display conflicts with full report
+            Format-ConflictReport -Conflicts $conflicts -Summary $summary -Type 'Units'
+            Write-Host ""
+            throw "Import aborted: $($summary.ConflictCount) conflict(s) found in file. Fix conflicts before importing."
+        }
+        else {
+            Write-Host "  No conflicts found" -ForegroundColor Green
+        }
     }
     
     #endregion Check for Within-File Conflicts
