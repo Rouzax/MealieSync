@@ -350,6 +350,49 @@
       "description": "Crèmekleurige boon met zwarte stip; voor salades en stoofpotten.",
       "aliases": [],
       "label": "Peulvruchten"
+    },
+        {
+      "name": "gele spliterwt",
+      "pluralName": "gele spliterwten",
+      "description": "Gele spliterwt (gespleten erwt); voor soepen, puree en stoofgerechten.",
+      "aliases": [
+        {
+          "name": "gele spliterwten"
+        },
+        {
+          "name": "yellow split pea"
+        },
+        {
+          "name": "yellow split peas"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "gespleten duivenerwt",
+      "pluralName": "gespleten duivenerwten",
+      "description": "Gespleten duivenerwt (pigeon pea); voor dal, curry's en soepen.",
+      "aliases": [
+        {
+          "name": "arhar dal"
+        },
+        {
+          "name": "toor dahl"
+        },
+        {
+          "name": "toordal"
+        },
+        {
+          "name": "tur dal"
+        },
+        {
+          "name": "tuvar dal"
+        },
+        {
+          "name": "toor dal"
+        }
+      ],
+      "label": "Peulvruchten"
     }
   ]
 }

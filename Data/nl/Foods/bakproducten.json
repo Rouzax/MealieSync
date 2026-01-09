@@ -597,6 +597,26 @@
         }
       ],
       "label": "Bakproducten"
+    },
+    {
+      "name": "vruchtzout",
+      "pluralName": "vruchtzout",
+      "description": "Bruisend rijsmiddel met natriumbicarbonaat en citroenzuur; als alternatief voor bakpoeder in beslag/deeg.",
+      "aliases": [
+        {
+          "name": "eno"
+        },
+        {
+          "name": "eno fruit salt"
+        },
+        {
+          "name": "eno vruchtzout"
+        },
+        {
+          "name": "fruitzout"
+        }
+      ],
+      "label": "Bakproducten"
     }
   ]
 }
