@@ -155,7 +155,7 @@ function Import-MealieOrganizers {
             
             # Show warnings
             foreach ($warning in $mergeValidation.Warnings) {
-                Write-Warning $warning
+                Write-Verbose $warning
                 $mergeStats.MergeWarnings++
             }
             
