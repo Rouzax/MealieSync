@@ -214,7 +214,7 @@ function Sync-MealieUnits {
         Items    = $importData
     })
     
-    $conflicts = Find-ItemConflicts -ItemSets $itemSets -Type 'Units'
+    $conflicts = @(Find-ItemConflicts -ItemSets $itemSets -Type 'Units')
     $summary = Get-ConflictSummary -Conflicts $conflicts -ItemSets $itemSets
     
     if ($summary.HasConflicts) {

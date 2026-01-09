@@ -200,7 +200,7 @@ function Test-MealieUnitConflicts {
     }
     
     # Find conflicts
-    $conflicts = Find-ItemConflicts -ItemSets $itemSets -Type 'Units'
+    $conflicts = @(Find-ItemConflicts -ItemSets $itemSets -Type 'Units')
     
     # Build summary
     $summary = Get-ConflictSummary -Conflicts $conflicts -ItemSets $itemSets

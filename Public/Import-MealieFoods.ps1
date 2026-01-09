@@ -271,7 +271,7 @@ function Import-MealieFoods {
         Items    = $importData
     })
     
-    $conflicts = Find-ItemConflicts -ItemSets $itemSets -Type 'Foods'
+    $conflicts = @(Find-ItemConflicts -ItemSets $itemSets -Type 'Foods')
     $summary = Get-ConflictSummary -Conflicts $conflicts -ItemSets $itemSets
     
     if ($summary.HasConflicts) {
