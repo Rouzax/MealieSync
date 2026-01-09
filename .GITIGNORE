@@ -4,6 +4,9 @@ mealie-config.json
 # Exports folder (backups, personal data)
 Exports/
 
+# Test folder
+Tests/
+
 # Backup files (legacy, in root)
 Backup_*.json
 *_backup.json

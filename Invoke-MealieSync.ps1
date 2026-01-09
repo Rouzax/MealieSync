@@ -49,6 +49,10 @@
     Full sync: add, update, and DELETE to match JSON exactly (no confirmation)
 
 .EXAMPLE
+    .\Invoke-MealieSync.ps1 -Action Mirror -Type Foods -Folder .\Data\Labels -WhatIf
+    Preview folder sync with automatic cross-file conflict detection
+
+.EXAMPLE
     .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -WhatIf
     Preview what would happen without making changes
 #>
@@ -65,6 +69,7 @@ param(
     [string]$JsonPath,
     
     # Import option: import all JSON files from a folder
+    # For Foods/Units: automatic cross-file conflict detection before import
     [string]$Folder,
     
     # Import/Mirror: update existing items
@@ -206,7 +211,7 @@ try {
             }
             
             if ($Folder) {
-                # Import all JSON files from folder
+                # Import all JSON files from folder (with automatic conflict checking for Foods/Units)
                 $folderPath = if ([System.IO.Path]::IsPathRooted($Folder)) {
                     $Folder
                 }
@@ -218,92 +223,99 @@ try {
                     throw "Folder not found: $folderPath"
                 }
                 
-                $jsonFiles = Get-ChildItem -Path $folderPath -Filter "*.json" | Sort-Object Name
-                
-                if ($jsonFiles.Count -eq 0) {
-                    Write-Warning "No JSON files found in: $folderPath"
-                    return
-                }
-                
-                Write-Host "`nImporting $Type from folder: $folderPath" -ForegroundColor Cyan
-                Write-Host "Found $($jsonFiles.Count) JSON file(s)`n" -ForegroundColor Cyan
-                
-                # Create a single backup before processing all files (unless -SkipBackup or -WhatIf)
-                if (-not $SkipBackup -and -not $WhatIfPreference) {
-                    $backupPath = Backup-BeforeImport -Type $Type -BasePath $PSScriptRoot
-                    if ($backupPath) {
-                        Write-Host "Backup created: $backupPath`n" -ForegroundColor DarkGray
+                # For Foods and Units, use the new -Folder parameter which includes conflict checking
+                if ($Type -in @('Foods', 'Units')) {
+                    $importParams.Folder = $folderPath
+                    
+                    $null = switch ($Type) {
+                        'Foods' { Import-MealieFoods @importParams }
+                        'Units' { Import-MealieUnits @importParams }
                     }
                 }
-                
-                # Force SkipBackup for individual file imports (backup already done above)
-                $importParams.SkipBackup = $true
-                
-                # Combined stats
-                $totalStats = @{
-                    Created       = 0
-                    Updated       = 0
-                    Unchanged     = 0
-                    Skipped       = 0
-                    Errors        = 0
-                    LabelWarnings = 0
-                    Conflicts     = 0
-                    Deleted       = 0
-                }
-                
-                # Shared MatchedIds for cross-file conflict detection (Foods and Units)
-                $sharedMatchedIds = @{}
-                
-                foreach ($file in $jsonFiles) {
-                    Write-Host "── $($file.Name) ──" -ForegroundColor White
-                    $importParams.Path = $file.FullName
+                else {
+                    # For other types, process files individually (no conflict detection needed)
+                    $jsonFiles = Get-ChildItem -Path $folderPath -Filter "*.json" | Sort-Object Name
                     
-                    $result = switch ($Type) {
-                        'Foods' { Import-MealieFoods @importParams -MatchedIds $sharedMatchedIds }
-                        'Units' { Import-MealieUnits @importParams -MatchedIds $sharedMatchedIds }
-                        'Labels' { Import-MealieLabels @importParams }
-                        'Categories' { Import-MealieOrganizers @importParams -Type 'Categories' }
-                        'Tags' { Import-MealieOrganizers @importParams -Type 'Tags' }
-                        'Tools' { Import-MealieOrganizers @importParams -Type 'Tools' }
+                    if ($jsonFiles.Count -eq 0) {
+                        Write-Warning "No JSON files found in: $folderPath"
+                        return
                     }
                     
-                    # Aggregate stats
-                    if ($result) {
-                        $totalStats.Created += $result.Created
-                        $totalStats.Updated += $result.Updated
-                        $totalStats.Unchanged += $result.Unchanged
-                        $totalStats.Skipped += $result.Skipped
-                        $totalStats.Errors += $result.Errors
-                        if ($result.LabelWarnings) {
-                            $totalStats.LabelWarnings += $result.LabelWarnings
-                        }
-                        if ($result.Conflicts) {
-                            $totalStats.Conflicts += $result.Conflicts
-                        }
-                        if ($result.Deleted) {
-                            $totalStats.Deleted += $result.Deleted
+                    Write-Host "`nImporting $Type from folder: $folderPath" -ForegroundColor Cyan
+                    Write-Host "Found $($jsonFiles.Count) JSON file(s)`n" -ForegroundColor Cyan
+                    
+                    # Create a single backup before processing all files (unless -SkipBackup or -WhatIf)
+                    if (-not $SkipBackup -and -not $WhatIfPreference) {
+                        $backupPath = Backup-BeforeImport -Type $Type -BasePath $PSScriptRoot
+                        if ($backupPath) {
+                            Write-Host "Backup created: $backupPath`n" -ForegroundColor DarkGray
                         }
                     }
                     
-                    Write-Host ""
-                }
-                
-                # Show combined totals
-                Write-Host "═══════════════════════════════════" -ForegroundColor Cyan
-                Write-Host "Combined Totals ($($jsonFiles.Count) files):" -ForegroundColor Cyan
-                Write-Host "  Created:       $($totalStats.Created)"
-                Write-Host "  Updated:       $($totalStats.Updated)"
-                Write-Host "  Unchanged:     $($totalStats.Unchanged)"
-                Write-Host "  Skipped:       $($totalStats.Skipped)"
-                Write-Host "  Errors:        $($totalStats.Errors)"
-                if ($totalStats.LabelWarnings -gt 0) {
-                    Write-Host "  LabelWarnings: $($totalStats.LabelWarnings)" -ForegroundColor Yellow
-                }
-                if ($totalStats.Conflicts -gt 0) {
-                    Write-Host "  Conflicts:     $($totalStats.Conflicts)" -ForegroundColor Red
-                }
-                if ($totalStats.Deleted -gt 0) {
-                    Write-Host "  Deleted:       $($totalStats.Deleted)" -ForegroundColor Magenta
+                    # Force SkipBackup for individual file imports (backup already done above)
+                    $importParams.SkipBackup = $true
+                    
+                    # Combined stats
+                    $totalStats = @{
+                        Created       = 0
+                        Updated       = 0
+                        Unchanged     = 0
+                        Skipped       = 0
+                        Errors        = 0
+                        LabelWarnings = 0
+                        Conflicts     = 0
+                        Deleted       = 0
+                    }
+                    
+                    foreach ($file in $jsonFiles) {
+                        Write-Host "── $($file.Name) ──" -ForegroundColor White
+                        $importParams.Path = $file.FullName
+                        
+                        $result = switch ($Type) {
+                            'Labels' { Import-MealieLabels @importParams }
+                            'Categories' { Import-MealieOrganizers @importParams -Type 'Categories' }
+                            'Tags' { Import-MealieOrganizers @importParams -Type 'Tags' }
+                            'Tools' { Import-MealieOrganizers @importParams -Type 'Tools' }
+                        }
+                        
+                        # Aggregate stats
+                        if ($result) {
+                            $totalStats.Created += $result.Created
+                            $totalStats.Updated += $result.Updated
+                            $totalStats.Unchanged += $result.Unchanged
+                            $totalStats.Skipped += $result.Skipped
+                            $totalStats.Errors += $result.Errors
+                            if ($result.LabelWarnings) {
+                                $totalStats.LabelWarnings += $result.LabelWarnings
+                            }
+                            if ($result.Conflicts) {
+                                $totalStats.Conflicts += $result.Conflicts
+                            }
+                            if ($result.Deleted) {
+                                $totalStats.Deleted += $result.Deleted
+                            }
+                        }
+                        
+                        Write-Host ""
+                    }
+                    
+                    # Show combined totals
+                    Write-Host "═══════════════════════════════════" -ForegroundColor Cyan
+                    Write-Host "Combined Totals ($($jsonFiles.Count) files):" -ForegroundColor Cyan
+                    Write-Host "  Created:       $($totalStats.Created)"
+                    Write-Host "  Updated:       $($totalStats.Updated)"
+                    Write-Host "  Unchanged:     $($totalStats.Unchanged)"
+                    Write-Host "  Skipped:       $($totalStats.Skipped)"
+                    Write-Host "  Errors:        $($totalStats.Errors)"
+                    if ($totalStats.LabelWarnings -gt 0) {
+                        Write-Host "  LabelWarnings: $($totalStats.LabelWarnings)" -ForegroundColor Yellow
+                    }
+                    if ($totalStats.Conflicts -gt 0) {
+                        Write-Host "  Conflicts:     $($totalStats.Conflicts)" -ForegroundColor Red
+                    }
+                    if ($totalStats.Deleted -gt 0) {
+                        Write-Host "  Deleted:       $($totalStats.Deleted)" -ForegroundColor Magenta
+                    }
                 }
             }
             else {
@@ -431,26 +443,16 @@ try {
         
         'Mirror' {
             # Mirror = Full sync: add, update, AND delete
-            if (-not $JsonPath) {
-                throw "JsonPath is required for Mirror action"
+            if (-not $JsonPath -and -not $Folder) {
+                throw "Either -JsonPath or -Folder is required for Mirror action"
             }
             
-            if ($Folder) {
-                throw "Folder import is not supported for Mirror action (too dangerous). Use -JsonPath with a single file."
+            if ($JsonPath -and $Folder) {
+                throw "Use either -JsonPath or -Folder, not both"
             }
-            
-            $fullPath = if ([System.IO.Path]::IsPathRooted($JsonPath)) {
-                $JsonPath
-            }
-            else {
-                Join-Path (Get-Location) $JsonPath
-            }
-            
-            Write-Host "`nMirroring $Type to match: $fullPath" -ForegroundColor Cyan
             
             # Build parameters for Sync functions
             $syncParams = @{
-                Path = $fullPath
                 BasePath = $PSScriptRoot
             }
             
@@ -475,14 +477,55 @@ try {
                 $syncParams.Label = $Label
             }
             
-            # Call appropriate Sync function
-            $null = switch ($Type) {
-                'Foods' { Sync-MealieFoods @syncParams }
-                'Units' { Sync-MealieUnits @syncParams }
-                'Labels' { Sync-MealieLabels @syncParams }
-                'Categories' { Sync-MealieCategories @syncParams }
-                'Tags' { Sync-MealieTags @syncParams }
-                'Tools' { Sync-MealieTools @syncParams }
+            if ($Folder) {
+                # Folder-based Mirror (with automatic conflict checking for Foods/Units)
+                $folderPath = if ([System.IO.Path]::IsPathRooted($Folder)) {
+                    $Folder
+                }
+                else {
+                    Join-Path (Get-Location) $Folder
+                }
+                
+                if (-not (Test-Path $folderPath -PathType Container)) {
+                    throw "Folder not found: $folderPath"
+                }
+                
+                # For Foods and Units, use the new -Folder parameter which includes conflict checking
+                if ($Type -in @('Foods', 'Units')) {
+                    $syncParams.Folder = $folderPath
+                    
+                    $null = switch ($Type) {
+                        'Foods' { Sync-MealieFoods @syncParams }
+                        'Units' { Sync-MealieUnits @syncParams }
+                    }
+                }
+                else {
+                    # For other types, folder Mirror is not supported (too complex for Label-less types)
+                    throw "Folder Mirror is only supported for Foods and Units. Use -JsonPath for $Type."
+                }
+            }
+            else {
+                # Single file Mirror (existing behavior)
+                $fullPath = if ([System.IO.Path]::IsPathRooted($JsonPath)) {
+                    $JsonPath
+                }
+                else {
+                    Join-Path (Get-Location) $JsonPath
+                }
+                
+                Write-Host "`nMirroring $Type to match: $fullPath" -ForegroundColor Cyan
+                
+                $syncParams.Path = $fullPath
+                
+                # Call appropriate Sync function
+                $null = switch ($Type) {
+                    'Foods' { Sync-MealieFoods @syncParams }
+                    'Units' { Sync-MealieUnits @syncParams }
+                    'Labels' { Sync-MealieLabels @syncParams }
+                    'Categories' { Sync-MealieCategories @syncParams }
+                    'Tags' { Sync-MealieTags @syncParams }
+                    'Tools' { Sync-MealieTools @syncParams }
+                }
             }
         }
     }

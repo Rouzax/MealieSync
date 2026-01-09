@@ -27,6 +27,12 @@ function Import-MealieUnits {
         By default, merges aliases (adds new aliases while keeping existing ones).
     .PARAMETER Path
         Path to the JSON file containing unit data
+    .PARAMETER Folder
+        Path to a folder containing JSON files. All JSON files in the folder
+        will be checked for cross-file conflicts before import, then imported
+        sequentially. Conflicts will block the entire import.
+    .PARAMETER Recurse
+        When using -Folder, also search subdirectories for JSON files
     .PARAMETER UpdateExisting
         Update units that already exist (matched by id, name, abbreviation, or alias)
     .PARAMETER ReplaceAliases
@@ -46,14 +52,27 @@ function Import-MealieUnits {
     .EXAMPLE
         Import-MealieUnits -Path ".\Units.json" -UpdateExisting -ReplaceAliases
         # Import and update, replacing aliases instead of merging
+    .EXAMPLE
+        Import-MealieUnits -Folder ".\Units" -UpdateExisting
+        # Import all JSON files from folder (checks for cross-file conflicts first)
+    .EXAMPLE
+        Import-MealieUnits -Folder ".\Units" -Recurse -UpdateExisting -WhatIf
+        # Preview import of all JSON files in folder and subfolders
     .OUTPUTS
         [hashtable] Statistics with Created, Updated, Unchanged, Skipped, Errors, Conflicts
     #>
-    [CmdletBinding(SupportsShouldProcess)]
+    [CmdletBinding(SupportsShouldProcess, DefaultParameterSetName = 'Path')]
     [OutputType([hashtable])]
     param(
-        [Parameter(Mandatory)]
+        [Parameter(Mandatory, ParameterSetName = 'Path')]
         [string]$Path,
+        
+        [Parameter(Mandatory, ParameterSetName = 'Folder')]
+        [ValidateScript({ Test-Path $_ -PathType Container })]
+        [string]$Folder,
+        
+        [Parameter(ParameterSetName = 'Folder')]
+        [switch]$Recurse,
         
         [switch]$UpdateExisting,
         
@@ -67,6 +86,102 @@ function Import-MealieUnits {
         
         [string]$BasePath = "."
     )
+    
+    #region Handle Folder Parameter Set
+    
+    if ($PSCmdlet.ParameterSetName -eq 'Folder') {
+        # Get all JSON files in folder
+        $searchParams = @{
+            Path   = $Folder
+            Filter = "*.json"
+        }
+        if ($Recurse) {
+            $searchParams.Recurse = $true
+        }
+        $jsonFiles = @(Get-ChildItem @searchParams | Where-Object { -not $_.PSIsContainer })
+        
+        if ($jsonFiles.Count -eq 0) {
+            Write-Warning "No JSON files found in folder: $Folder"
+            return @{
+                Created   = 0
+                Updated   = 0
+                Unchanged = 0
+                Skipped   = 0
+                Errors    = 0
+                Conflicts = 0
+            }
+        }
+        
+        Write-Host ""
+        Write-Host "Folder Import: $($jsonFiles.Count) JSON file(s) found" -ForegroundColor Cyan
+        Write-Host "Checking for conflicts..." -ForegroundColor DarkGray
+        
+        # Run conflict check first
+        $conflictResult = Test-MealieUnitConflicts -Path $jsonFiles.FullName -Quiet
+        
+        if ($conflictResult.HasConflicts) {
+            # Display conflicts with full report
+            Write-Host ""
+            Test-MealieUnitConflicts -Path $jsonFiles.FullName
+            Write-Host ""
+            throw "Import aborted: $($conflictResult.ConflictCount) conflict(s) found. Fix conflicts before importing."
+        }
+        
+        Write-Host "  No conflicts found" -ForegroundColor Green
+        Write-Host ""
+        
+        # Process each file
+        $totalStats = @{
+            Created   = 0
+            Updated   = 0
+            Unchanged = 0
+            Skipped   = 0
+            Errors    = 0
+            Conflicts = 0
+        }
+        
+        # Shared MatchedIds across all files for import-to-import conflict detection
+        $sharedMatchedIds = @{}
+        
+        foreach ($file in $jsonFiles) {
+            Write-Host "Processing: $($file.Name)" -ForegroundColor Cyan
+            
+            $fileParams = @{
+                Path           = $file.FullName
+                UpdateExisting = $UpdateExisting
+                ReplaceAliases = $ReplaceAliases
+                SkipBackup     = $SkipBackup
+                ThrottleMs     = $ThrottleMs
+                MatchedIds     = $sharedMatchedIds
+                BasePath       = $BasePath
+            }
+            if ($WhatIfPreference) { $fileParams.WhatIf = $true }
+            
+            $fileStats = Import-MealieUnits @fileParams
+            
+            # Aggregate stats
+            $totalStats.Created += $fileStats.Created
+            $totalStats.Updated += $fileStats.Updated
+            $totalStats.Unchanged += $fileStats.Unchanged
+            $totalStats.Skipped += $fileStats.Skipped
+            $totalStats.Errors += $fileStats.Errors
+            $totalStats.Conflicts += $fileStats.Conflicts
+            
+            # Only backup once (first file)
+            $SkipBackup = $true
+        }
+        
+        # Show combined summary
+        Write-Host ""
+        Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Cyan
+        Write-Host "  Combined Import Summary ($($jsonFiles.Count) files)" -ForegroundColor Cyan
+        Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Cyan
+        Write-ImportSummary -Stats $totalStats -Type "Units" -WhatIf:$WhatIfPreference
+        
+        return $totalStats
+    }
+    
+    #endregion Handle Folder Parameter Set
     
     #region Read and Validate Import Data
     
@@ -112,6 +227,31 @@ function Import-MealieUnits {
     
     #endregion Read and Validate Import Data
     
+    #region Check for Within-File Conflicts
+    
+    Write-Host "Checking for conflicts..." -ForegroundColor DarkGray
+    
+    # Build item set for conflict detection
+    $itemSets = @(@{
+        FilePath = $Path
+        Items    = $importData
+    })
+    
+    $conflicts = Find-ItemConflicts -ItemSets $itemSets -Type 'Units'
+    $summary = Get-ConflictSummary -Conflicts $conflicts -ItemSets $itemSets
+    
+    if ($summary.HasConflicts) {
+        # Display conflicts with full report
+        Format-ConflictReport -Conflicts $conflicts -Summary $summary -Type 'Units'
+        Write-Host ""
+        throw "Import aborted: $($summary.ConflictCount) conflict(s) found in file. Fix conflicts before importing."
+    }
+    else {
+        Write-Host "  No conflicts found" -ForegroundColor Green
+    }
+    
+    #endregion Check for Within-File Conflicts
+
     #region Create Backup
     
     if (-not $SkipBackup -and -not $WhatIfPreference) {

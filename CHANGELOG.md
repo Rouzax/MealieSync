@@ -5,11 +5,51 @@ All notable changes to MealieSync will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.0] - 2026-01-09
+
+### Added
+
+- **Conflict Detection**: Comprehensive duplicate detection for Foods and Units
+  - `Test-MealieFoodConflicts` - Detect naming conflicts in food JSON files
+  - `Test-MealieUnitConflicts` - Detect naming conflicts in unit JSON files
+  - Detects **within-file** duplicates (same file) AND **cross-file** conflicts (across files)
+  - Detects all combinations: name ↔ name, name ↔ pluralName, name ↔ alias, etc.
+  - Clear visual report grouped by scope (within-file vs cross-file)
+  - Returns structured data for programmatic use with `-Quiet`
+
+- **Single-File Conflict Checking**: Import and Sync functions now validate single files
+  - `Import-MealieFoods -JsonPath` checks for within-file conflicts
+  - `Import-MealieUnits -JsonPath` checks for within-file conflicts
+  - `Sync-MealieFoods -Path` checks for within-file conflicts
+  - `Sync-MealieUnits -Path` checks for within-file conflicts
+  - Conflicts block the operation with actionable report
+
+- **Folder Import**: New `-Folder` parameter on Import and Sync functions for bulk operations
+  - `Import-MealieFoods -Folder ".\Foods"`
+  - `Import-MealieUnits -Folder ".\Units"`
+  - `Sync-MealieFoods -Folder ".\Foods"`
+  - `Sync-MealieUnits -Folder ".\Units"`
+  - Automatic conflict checking (both within-file and cross-file)
+  - Optional `-Recurse` for subdirectory scanning
+  - Aggregated statistics across all files
+
+### Technical Details
+
+| Component              | Count |
+| ---------------------- | ----- |
+| New public functions   | 2     |
+| New private functions  | 3     |
+| Modified functions     | 4     |
+
+---
+
 ## [2.1.1] - 2026-01-09
 
 ### Fixed
 
 - **Redundant alias detection in replace mode**: Foods and Units with aliases matching their `pluralName` were incorrectly detected as "changed" on every import, causing unnecessary API updates. The fix filters redundant aliases before change detection in `Test-FoodChangedReplace` and `Test-UnitChangedReplace`, matching Mealie's server-side filtering behavior.
+
+---
 
 ## [2.1.0] - 2026-01-08
 

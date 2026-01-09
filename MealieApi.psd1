@@ -1,12 +1,12 @@
 @{
     # Module manifest for MealieApi
-    # Generated for MealieSync v2.1.0
+    # Generated for MealieSync v2.2.0
 
     # Script module or binary module file associated with this manifest
     RootModule = 'MealieApi.psm1'
 
     # Version number of this module
-    ModuleVersion = '2.1.0'
+    ModuleVersion = '2.2.0'
 
     # ID used to uniquely identify this module
     GUID = 'a1b2c3d4-e5f6-7890-abcd-ef1234567890'
@@ -98,6 +98,10 @@
         
         # Households
         'Get-MealieHouseholds'
+        
+        # Conflict Detection
+        'Test-MealieFoodConflicts'
+        'Test-MealieUnitConflicts'
     )
 
     # Cmdlets to export from this module
@@ -123,6 +127,17 @@
 
             # Release notes for this module
             ReleaseNotes = @'
+Version 2.2.0 - Conflict Detection
+- New Test-MealieFoodConflicts and Test-MealieUnitConflicts functions
+- Detects within-file AND cross-file duplicates
+- Single-file imports/syncs now check for internal conflicts
+- New -Folder and -Recurse parameters for bulk operations
+- Clear visual report grouped by scope (within-file vs cross-file)
+- Conflicts block operation with actionable report
+
+Version 2.1.1 - Bug Fix
+- Fixed redundant alias detection in replace mode
+
 Version 2.1.0 - Tag Merge Feature
 - New mergeTags field for consolidating tags
 - Automatically transfers recipes from source to target tags

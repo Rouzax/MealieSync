@@ -27,6 +27,7 @@ Mealie's web interface is great for individual edits, but managing hundreds of i
 - **Bulk operations** — Import entire databases at once
 - **AI-friendly** — Use LLMs to generate, translate, or expand ingredient data, then import directly
 - **Duplicate prevention** — Smart matching across names, plurals, and aliases
+- **Conflict detection** — Catch duplicates within and across JSON files before import
 - **Safe previews** — See exactly what will change before committing
 - **Full sync** — Mirror your JSON to Mealie exactly (including deletions)
 - **Tag consolidation** — Merge multiple tags into one, automatically updating all affected recipes
@@ -279,6 +280,80 @@ MealieSync detects complex conflicts where an item can't be cleanly matched:
 ```
 
 This typically happens when splitting ingredients (e.g., separating "thyme" into "fresh thyme" and "dried thyme") while the original still has aliases pointing to both versions.
+
+### Pre-Import Conflict Detection
+
+MealieSync automatically detects duplicate items **within files** and **across files** before import. This catches common issues like:
+- Same ingredient in multiple category files
+- Aliases conflicting with names in other items
+- Duplicate entries within a single file
+
+**Automatic checking** — Conflict detection runs automatically when you use `Invoke-MealieSync.ps1`:
+
+```powershell
+# Single file: checks for within-file conflicts
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -UpdateExisting -WhatIf
+
+# Folder: checks both within-file AND cross-file conflicts
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -Folder .\Data\nl\Foods -UpdateExisting -WhatIf
+```
+
+```
+Importing Foods from: .\Data\nl\Foods
+Folder Import: 28 JSON file(s) found
+Checking for conflicts...
+
+═══════════════════════════════════════════
+ Food Conflicts
+═══════════════════════════════════════════
+
+── Within-File Conflicts (1) ──
+
+CONFLICT 1: "kleefrijst"
+  ├─ pasta_rijst_noedels.json:alias of "sushirijst"
+  ├─ pasta_rijst_noedels.json:name of "kleefrijst"
+  └─ pasta_rijst_noedels.json:pluralName of "kleefrijst"
+
+── Cross-File Conflicts (2) ──
+
+CONFLICT 2: "doperwt"
+  ├─ groente.json:      name of "doperwt"
+  └─ peulvruchten.json: name of "doperwt"
+
+CONFLICT 3: "dragon"
+  ├─ kruiden.json:      name of "dragon"
+  └─ groente.json:      alias of "dragon (gedroogd)"
+
+───────────────────────────────────────────
+  Conflicts found : 3 (1 within-file, 2 cross-file)
+  Files scanned   : 28
+  Items scanned   : 1222
+
+Error: Import aborted: 3 conflict(s) found. Fix conflicts before importing.
+```
+
+If conflicts are found, the entire operation is blocked until you fix them. When no conflicts exist:
+
+```
+Checking for conflicts...
+  No conflicts found
+```
+
+**Manual checking** — For scripted use or checking without importing:
+
+```powershell
+# Check a folder
+Test-MealieFoodConflicts -Folder .\Foods
+
+# Check specific files
+Test-MealieFoodConflicts -Path @("Groente.json", "Fruit.json")
+
+# Quiet mode for scripts (returns result object only)
+$result = Test-MealieFoodConflicts -Folder .\Foods -Quiet
+if ($result.HasConflicts) {
+    Write-Error "Found $($result.ConflictCount) conflicts"
+}
+```
 
 ### Understanding the Output
 
@@ -794,17 +869,18 @@ MealieSync/
 ├── CHANGELOG.md
 ├── LICENSE
 │
-├── Public/                     # Exported functions (47)
+├── Public/                     # Exported functions (49)
 │   ├── Initialize-MealieApi.ps1
 │   ├── Foods.ps1               # Get/New/Update/Remove-MealieFood
 │   ├── Units.ps1               # Get/New/Update/Remove-MealieUnit
 │   ├── Labels.ps1              # Get/New/Update/Remove-MealieLabel
 │   ├── Organizers.ps1          # Categories, Tags, Tools
+│   ├── Test-Mealie*Conflicts.ps1 # Conflict detection (within/cross-file)
 │   ├── Export-*.ps1
 │   ├── Import-*.ps1
 │   └── Sync-*.ps1
 │
-├── Private/                    # Internal helpers (52)
+├── Private/                    # Internal helpers (61)
 │   ├── Invoke-MealieRequest.ps1
 │   ├── Compare-Helpers.ps1
 │   ├── Validation-Helpers.ps1
