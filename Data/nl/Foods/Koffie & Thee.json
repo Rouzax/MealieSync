@@ -1,0 +1,347 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "name": "cafeïnevrije koffie",
+      "pluralName": "cafeïnevrije koffie",
+      "description": "Koffie zonder cafeïne; voor cafeïnearm drinken of desserts.",
+      "aliases": [
+        {
+          "name": "decaf koffie"
+        },
+        {
+          "name": "decaf"
+        },
+        {
+          "name": "cafeinevrije koffie"
+        },
+        {
+          "name": "caffeinevrije koffie"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "cafeïnevrije thee",
+      "pluralName": "cafeïnevrije thee",
+      "description": "Thee zonder cafeïne; milde keuze voor avond of cafeïnearm dieet.",
+      "aliases": [
+        {
+          "name": "decaf thee"
+        },
+        {
+          "name": "decaf tea"
+        },
+        {
+          "name": "cafeinevrije thee"
+        },
+        {
+          "name": "caffeinevrije thee"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "chai",
+      "pluralName": "chai",
+      "description": "Gekruide thee; met kaneel, kardemom en gember.",
+      "aliases": [
+        {
+          "name": "chai thee"
+        },
+        {
+          "name": "masala chai"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "earl grey",
+      "pluralName": "earl grey",
+      "description": "Zwarte thee met bergamot; aromatisch.",
+      "aliases": [
+        {
+          "name": "earl grey thee"
+        },
+        {
+          "name": "earlgray"
+        },
+        {
+          "name": "earl gray"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "espresso",
+      "pluralName": "espresso",
+      "description": "Sterke koffie; geconcentreerd, basis voor koffiedranken.",
+      "aliases": [
+        {
+          "name": "expresso"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "gemberthee",
+      "pluralName": "gemberthee",
+      "description": "Kruidenthee van gember; verwarmend en pittig.",
+      "aliases": [
+        {
+          "name": "gember thee"
+        },
+        {
+          "name": "gember-thee"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "graankoffie",
+      "pluralName": "graankoffie",
+      "description": "Koffiesurrogaat van granen; cafeïnevrij.",
+      "aliases": [
+        {
+          "name": "graankoffiesurrogaat"
+        },
+        {
+          "name": "cichoreikoffie"
+        },
+        {
+          "name": "cichorei koffie"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "groene thee",
+      "pluralName": "groene thee",
+      "description": "Ongefermenteerde thee; mild en licht bitter.",
+      "aliases": [
+        {
+          "name": "green tea"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "ijsthee",
+      "pluralName": "ijsthee",
+      "description": "Gezoete koude thee; verfrissende drank.",
+      "aliases": [
+        {
+          "name": "ice tea"
+        },
+        {
+          "name": "iced tea"
+        },
+        {
+          "name": "icetea"
+        },
+        {
+          "name": "ice-tea"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "instantkoffie",
+      "pluralName": "instantkoffie",
+      "description": "Oplosbare koffie; snel te bereiden.",
+      "aliases": [
+        {
+          "name": "oploskoffie"
+        },
+        {
+          "name": "instant koffie"
+        },
+        {
+          "name": "oplosbare koffie"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "jasmijnthee",
+      "pluralName": "jasmijnthee",
+      "description": "Groene thee met jasmijn; bloemig aroma.",
+      "aliases": [
+        {
+          "name": "jasmijn thee"
+        },
+        {
+          "name": "jasmijn-thee"
+        },
+        {
+          "name": "jasmine tea"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "kamillethee",
+      "pluralName": "kamillethee",
+      "description": "Kruidenthee van kamille; kalmerend, cafeïnevrij.",
+      "aliases": [
+        {
+          "name": "kamille thee"
+        },
+        {
+          "name": "kamille-thee"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "koffie",
+      "pluralName": "koffie",
+      "description": "Drank van koffiebonen; warm of koud.",
+      "aliases": [
+        {
+          "name": "zwarte koffie"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "koffie [gemalen]",
+      "pluralName": "koffie [gemalen]",
+      "description": "Gemalen koffie; voor filterkoffie, percolator en baksels.",
+      "aliases": [
+        {
+          "name": "filterkoffie"
+        },
+        {
+          "name": "koffie gemalen"
+        },
+        {
+          "name": "filter koffie"
+        },
+        {
+          "name": "gemalen koffie"
+        },
+        {
+          "name": "koffiepoeder"
+        },
+        {
+          "name": "koffie poeder"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "koffieboon",
+      "pluralName": "koffiebonen",
+      "description": "Gebrande koffieboon; te malen voor koffie.",
+      "aliases": [
+        {
+          "name": "koffie boon"
+        },
+        {
+          "name": "hele koffiebonen"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "matcha",
+      "pluralName": "matcha",
+      "description": "Japans groen theepoeder; intens en romig.",
+      "aliases": [
+        {
+          "name": "matchapoeder"
+        },
+        {
+          "name": "matcha poeder"
+        },
+        {
+          "name": "matcha thee"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "muntthee",
+      "pluralName": "muntthee",
+      "description": "Kruidenthee van munt; verfrissend, cafeïnevrij.",
+      "aliases": [
+        {
+          "name": "munt thee"
+        },
+        {
+          "name": "munt-thee"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "oolong",
+      "pluralName": "oolong",
+      "description": "Half-gefermenteerde thee; tussen groen en zwart.",
+      "aliases": [
+        {
+          "name": "oolong thee"
+        },
+        {
+          "name": "oolongthee"
+        },
+        {
+          "name": "wulong"
+        },
+        {
+          "name": "wulong thee"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "rooibosthee",
+      "pluralName": "rooibosthee",
+      "description": "Zuid-Afrikaanse kruidenthee; cafeïnevrij, licht zoet.",
+      "aliases": [
+        {
+          "name": "rooibos"
+        },
+        {
+          "name": "rooibos thee"
+        },
+        {
+          "name": "rooibos-thee"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "thee",
+      "pluralName": "thee",
+      "description": "Drank van theebladeren; basis voor veel theesoorten.",
+      "aliases": [],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "witte thee",
+      "pluralName": "witte thee",
+      "description": "Licht gefermenteerde thee; delicaat en mild.",
+      "aliases": [
+        {
+          "name": "white tea"
+        }
+      ],
+      "label": "Koffie & Thee"
+    },
+    {
+      "name": "zwarte thee",
+      "pluralName": "zwarte thee",
+      "description": "Volledig gefermenteerde thee; sterk, bevat cafeïne.",
+      "aliases": [
+        {
+          "name": "black tea"
+        }
+      ],
+      "label": "Koffie & Thee"
+    }
+  ]
+}

@@ -4,13 +4,14 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "cf7cb23f-52ad-4ffd-9848-d5d8d3888deb",
       "name": "bakje",
       "pluralName": "bakjes",
       "description": "Bakje(s) / kuipje(s)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "schaaltje"
@@ -21,22 +22,17 @@
       ]
     },
     {
+      "id": "a30a6ca9-f121-4c6e-b19e-b7682bc083de",
       "name": "blaadje",
       "pluralName": "blaadjes",
       "description": "Blaadje(s): bijv. kruiden/groenten",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
-          "name": "blaadje"
-        },
-        {
           "name": "blad"
-        },
-        {
-          "name": "blaadjes"
         },
         {
           "name": "leaf"
@@ -47,13 +43,14 @@
       ]
     },
     {
+      "id": "b012050d-6eea-4e0a-9a61-fe3b89b006f3",
       "name": "blik",
       "pluralName": "blikken",
       "description": "Blik (inhoud varieert per product)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "blikje"
@@ -61,23 +58,25 @@
       ]
     },
     {
+      "id": "e6e54a9f-e88f-4cd4-8abc-d8c302c62614",
       "name": "blok",
       "pluralName": "blokken",
       "description": "Blok(ken) (bijv. boter)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": []
     },
     {
+      "id": "a39ec7cf-1a83-4e8d-a9d7-39ff3fb4f3e6",
       "name": "blokje",
       "pluralName": "blokjes",
       "description": "Blokje (bijv. bouillonblokje)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "bouillonblokje"
@@ -85,13 +84,14 @@
       ]
     },
     {
+      "id": "4d2d5a7b-ce52-48fc-9c94-83975e2f8e58",
       "name": "bolletje",
       "pluralName": "bolletjes",
       "description": "Bijv. voor mozzarella",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "bol"
@@ -99,13 +99,14 @@
       ]
     },
     {
+      "id": "736c1414-f111-403c-a7bc-23fc67ebee35",
       "name": "bosje",
       "pluralName": "bosjes",
       "description": "Bosje (kruiden/groenten)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "bos"
@@ -113,66 +114,65 @@
       ]
     },
     {
+      "id": "502721a9-7222-46c5-9083-f5c303ce1ae7",
       "name": "bundel",
       "pluralName": "bundels",
       "description": "Bundel (bijv. asperges)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": []
     },
     {
+      "id": "c9b2b7a3-5437-4247-a060-27c6a5663bbb",
       "name": "centiliter",
       "pluralName": "centiliter",
       "description": "Centiliter = 10 mL",
-      "fraction": false,
       "abbreviation": "cl",
       "pluralAbbreviation": "cl",
       "useAbbreviation": true,
+      "fraction": false,
       "aliases": []
     },
     {
+      "id": "f648b4b0-6dc1-4208-bdd9-99c065b47275",
       "name": "cup",
       "pluralName": "cups",
       "description": "Cup (VS): 236.588 mL (≈237 mL); 'US legal cup' = 240 mL",
-      "fraction": true,
       "abbreviation": "c",
       "pluralAbbreviation": "c",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "kopje"
         },
         {
           "name": "C"
-        },
-        {
-          "name": "cup"
-        },
-        {
-          "name": "cups"
         }
       ]
     },
     {
+      "id": "7276d826-c265-4869-ba03-a8c53bad34b6",
       "name": "deciliter",
       "pluralName": "deciliter",
       "description": "Deciliter = 100 mL",
-      "fraction": false,
       "abbreviation": "dl",
       "pluralAbbreviation": "dl",
       "useAbbreviation": true,
+      "fraction": false,
       "aliases": []
     },
     {
+      "id": "04f2eff5-e9f1-4bdc-b8ce-8267409e5a48",
       "name": "druppel",
       "pluralName": "druppels",
       "description": "Druppel(s)",
-      "fraction": false,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": false,
       "aliases": [
         {
           "name": "druppeltje"
@@ -180,13 +180,14 @@
       ]
     },
     {
+      "id": "02fd19fa-0f8f-4855-8133-cb19a3f250a1",
       "name": "eetlepel",
       "pluralName": "eetlepels",
       "description": "15 mL (1 eetlepel; 'tablespoon')",
-      "fraction": true,
       "abbreviation": "el",
       "pluralAbbreviation": "el",
       "useAbbreviation": true,
+      "fraction": true,
       "aliases": [
         {
           "name": "EL"
@@ -209,13 +210,14 @@
       ]
     },
     {
+      "id": "a436f1fe-b265-4a68-8ff3-753625ed9c50",
       "name": "fles",
       "pluralName": "flessen",
       "description": "Fles(sen) (inhoud varieert)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "flesje"
@@ -223,13 +225,14 @@
       ]
     },
     {
+      "id": "bb1c793d-4758-46e0-b1a2-7688da18ec56",
       "name": "fluid ounce",
       "pluralName": "fluid ounces",
       "description": "US fl oz = 29.57353 mL; Imperial fl oz ≈ 28.412 mL",
-      "fraction": true,
       "abbreviation": "fl oz",
       "pluralAbbreviation": "fl oz",
       "useAbbreviation": true,
+      "fraction": true,
       "aliases": [
         {
           "name": "fl.oz"
@@ -242,27 +245,19 @@
         },
         {
           "name": "fluid oz"
-        },
-        {
-          "name": "fluid ounce"
-        },
-        {
-          "name": "fluid ounces"
         }
       ]
     },
     {
+      "id": "69178d9f-51a5-4262-a705-8faa8fc0c142",
       "name": "gallon",
       "pluralName": "gallons",
       "description": "US gallon = 3.785411784 L; Imperial gallon ≈ 4.546 L",
-      "fraction": true,
       "abbreviation": "gal",
       "pluralAbbreviation": "gal",
       "useAbbreviation": true,
+      "fraction": true,
       "aliases": [
-        {
-          "name": "gallons"
-        },
         {
           "name": "gal."
         },
@@ -275,13 +270,14 @@
       ]
     },
     {
+      "id": "da81e387-9bef-44cb-b53a-7ab455cdec6d",
       "name": "gram",
       "pluralName": "gram",
       "description": "Gram (massa)",
-      "fraction": false,
       "abbreviation": "g",
       "pluralAbbreviation": "g",
       "useAbbreviation": true,
+      "fraction": false,
       "aliases": [
         {
           "name": "gr"
@@ -289,13 +285,14 @@
       ]
     },
     {
+      "id": "f2f80e0b-d741-46fc-a19f-7da3f71d9e68",
       "name": "handvol",
       "pluralName": "handvol",
       "description": "Handvol (hoeveelheid varieert; 'handful')",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "hand"
@@ -315,13 +312,14 @@
       ]
     },
     {
+      "id": "75657a5b-a9dd-4551-b3dc-82f74a75f73e",
       "name": "hectogram",
       "pluralName": "hectogram",
       "description": "Hectogram = 100 g (in NL vaak afgekort als 'hg')",
-      "fraction": false,
       "abbreviation": "hg",
       "pluralAbbreviation": "hg",
       "useAbbreviation": true,
+      "fraction": false,
       "aliases": [
         {
           "name": "hg"
@@ -332,13 +330,14 @@
       ]
     },
     {
+      "id": "fdaaa09d-1e43-43e0-87c3-4a51f200ad1b",
       "name": "hoofd",
       "pluralName": "hoofden",
       "description": "Bijv. voor kool of sla",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "krop"
@@ -346,13 +345,14 @@
       ]
     },
     {
+      "id": "597ce9d8-d216-4dd9-a734-d39510b508dc",
       "name": "kilogram",
       "pluralName": "kilogram",
       "description": "Kilogram = 1000 g",
-      "fraction": false,
       "abbreviation": "kg",
       "pluralAbbreviation": "kg",
       "useAbbreviation": true,
+      "fraction": false,
       "aliases": [
         {
           "name": "kilo"
@@ -360,13 +360,14 @@
       ]
     },
     {
+      "id": "bfca0cfd-67d9-4643-82b4-2c3e702a4447",
       "name": "liter",
       "pluralName": "liter",
       "description": "Liter = 1000 mL",
-      "fraction": false,
       "abbreviation": "l",
       "pluralAbbreviation": "l",
       "useAbbreviation": true,
+      "fraction": false,
       "aliases": [
         {
           "name": "L"
@@ -374,23 +375,25 @@
       ]
     },
     {
+      "id": "b536e9e4-3033-4137-90c0-a76670f0f760",
       "name": "milligram",
       "pluralName": "milligram",
       "description": "Milligram = 0.001 g",
-      "fraction": false,
       "abbreviation": "mg",
       "pluralAbbreviation": "mg",
       "useAbbreviation": true,
+      "fraction": false,
       "aliases": []
     },
     {
+      "id": "45447492-cce3-4434-bd1a-08504245e819",
       "name": "milliliter",
       "pluralName": "milliliter",
       "description": "Milliliter = 0.001 L",
-      "fraction": false,
       "abbreviation": "ml",
       "pluralAbbreviation": "ml",
       "useAbbreviation": true,
+      "fraction": false,
       "aliases": [
         {
           "name": "mL"
@@ -398,40 +401,40 @@
       ]
     },
     {
+      "id": "f4f9a177-e1a6-4b31-834b-3f71d99c6110",
       "name": "ons",
       "pluralName": "ons",
       "description": "100 gram",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": []
     },
     {
+      "id": "00f0e5ce-209a-4139-a49f-affd950075c0",
       "name": "ounce",
       "pluralName": "ounces",
       "description": "1 avoirdupois ounce (oz) = 28.349523125 g",
-      "fraction": true,
       "abbreviation": "oz",
       "pluralAbbreviation": "oz",
       "useAbbreviation": true,
+      "fraction": true,
       "aliases": [
         {
           "name": "oz."
-        },
-        {
-          "name": "ounces"
         }
       ]
     },
     {
+      "id": "40c7d492-d12d-49d2-9496-dad5fdb5eace",
       "name": "pak",
       "pluralName": "pakken",
       "description": "Pak(ken) (verpakking)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "pakje"
@@ -439,17 +442,15 @@
       ]
     },
     {
+      "id": "118aada2-9762-49c1-88c0-bb478817042a",
       "name": "pint",
       "pluralName": "pints",
       "description": "US liquid pint ≈ 473.1765 mL; Imperial pint ≈ 568.24 mL",
-      "fraction": true,
       "abbreviation": "pt",
       "pluralAbbreviation": "pt",
       "useAbbreviation": true,
+      "fraction": true,
       "aliases": [
-        {
-          "name": "pints"
-        },
         {
           "name": "pt."
         },
@@ -465,13 +466,14 @@
       ]
     },
     {
+      "id": "9d8e774d-0a4d-4b93-8d4f-c01ad10ca4f1",
       "name": "plak",
       "pluralName": "plakken",
       "description": "Plak(ken) (bijv. kaas/ham)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "plakje"
@@ -485,13 +487,14 @@
       ]
     },
     {
+      "id": "3c736d29-1f44-4e6f-8bbd-0da04b921959",
       "name": "pond",
       "pluralName": "pond",
       "description": "Nederlandse pond = 500 g (in NL gebruik)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "ponden"
@@ -502,13 +505,14 @@
       ]
     },
     {
+      "id": "8b030940-3291-44cd-8ca0-35bf7d23ad71",
       "name": "portie",
       "pluralName": "porties",
       "description": "Portie(s)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "portjes"
@@ -516,13 +520,14 @@
       ]
     },
     {
+      "id": "4078f158-1907-43b2-aca5-8830477ddf57",
       "name": "pot",
       "pluralName": "potten",
       "description": "Pot(ten) (inhoud varieert)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "potje"
@@ -530,13 +535,14 @@
       ]
     },
     {
+      "id": "6b15ffd6-7ca7-48f9-a185-1c95c6ec976c",
       "name": "pound",
       "pluralName": "pounds",
       "description": "1 avoirdupois pound (lb) = 453.59237 g (exact)",
-      "fraction": true,
       "abbreviation": "lb",
       "pluralAbbreviation": "lb",
       "useAbbreviation": true,
+      "fraction": true,
       "aliases": [
         {
           "name": "lbs"
@@ -545,25 +551,20 @@
           "name": "lb."
         },
         {
-          "name": "pounds"
-        },
-        {
           "name": "pnd"
         }
       ]
     },
     {
+      "id": "eea99000-e26d-46d9-92e4-9152e090754a",
       "name": "quart",
       "pluralName": "quarts",
       "description": "US liquid quart ≈ 946.3529 mL; Imperial quart ≈ 1.1365 L",
-      "fraction": true,
       "abbreviation": "qt",
       "pluralAbbreviation": "qt",
       "useAbbreviation": true,
+      "fraction": true,
       "aliases": [
-        {
-          "name": "quarts"
-        },
         {
           "name": "qt."
         },
@@ -579,13 +580,14 @@
       ]
     },
     {
+      "id": "93864d97-6e07-45e9-9901-ed2cc21b7a8b",
       "name": "reep",
       "pluralName": "repen",
       "description": "Bijv. voor chocolade",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "reepje"
@@ -593,13 +595,14 @@
       ]
     },
     {
+      "id": "18231b4d-3f85-4041-8e7d-02ed2410759b",
       "name": "ring",
       "pluralName": "ringen",
       "description": "Bijv. voor ui",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "ringetje"
@@ -607,13 +610,14 @@
       ]
     },
     {
+      "id": "41961a66-f9db-4d6b-8e9e-06b94433ff4f",
       "name": "schep",
       "pluralName": "scheppen",
       "description": "Schep(je) (bijv. ijs/proteïnepoeder)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "schepje"
@@ -627,13 +631,14 @@
       ]
     },
     {
+      "id": "4ea1ad4d-13a2-4cc5-8749-fc9a42fc8c2f",
       "name": "scheutje",
       "pluralName": "scheutjes",
       "description": "Scheut(je): kleine hoeveelheid vloeistof (op gevoel)",
-      "fraction": false,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": false,
       "aliases": [
         {
           "name": "scheut"
@@ -647,13 +652,14 @@
       ]
     },
     {
+      "id": "77280f6e-ee8a-4446-836c-5104de1176e8",
       "name": "schijfje",
       "pluralName": "schijfjes",
       "description": "Schijfje(s) (bijv. citroen)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "schijf"
@@ -661,13 +667,14 @@
       ]
     },
     {
+      "id": "74ce6fc9-8749-44fb-b7d4-15f17e6dcdc3",
       "name": "snufje",
       "pluralName": "snufjes",
       "description": "Snuf(je): kleine hoeveelheid (mespuntje)",
-      "fraction": false,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": false,
       "aliases": [
         {
           "name": "snuf"
@@ -684,13 +691,14 @@
       ]
     },
     {
+      "id": "2c26df24-9183-4369-95ef-dafea95d52dc",
       "name": "stengel",
       "pluralName": "stengels",
       "description": "Stengel(s) (bijv. selderij)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "stengeltje"
@@ -698,23 +706,25 @@
       ]
     },
     {
+      "id": "765628b0-859e-488c-b6fe-585bbbe6f7ca",
       "name": "stokje",
       "pluralName": "stokjes",
       "description": "Stokje(s) (bijv. kaneel)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": []
     },
     {
+      "id": "85e8ca29-ae59-413f-8457-1c33b6a273a3",
       "name": "stuk",
       "pluralName": "stukken",
       "description": "Stuk(ken): per stuk",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "stukje"
@@ -740,13 +750,14 @@
       ]
     },
     {
+      "id": "66a135c3-60de-4f00-a63f-9a997f4251a2",
       "name": "takje",
       "pluralName": "takjes",
       "description": "Voor kruiden",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "tak"
@@ -757,13 +768,14 @@
       ]
     },
     {
+      "id": "c5f139cb-6a86-4932-9a91-f38087ad95cb",
       "name": "teen",
       "pluralName": "teentjes",
       "description": "Voor knoflook",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "teentje"
@@ -771,13 +783,14 @@
       ]
     },
     {
+      "id": "44e01a84-1cd5-4761-a343-c28fc7826a6c",
       "name": "theelepel",
       "pluralName": "theelepels",
       "description": "5 mL (1 theelepel; 'teaspoon')",
-      "fraction": true,
       "abbreviation": "tl",
       "pluralAbbreviation": "tl",
       "useAbbreviation": true,
+      "fraction": true,
       "aliases": [
         {
           "name": "TL"
@@ -803,13 +816,14 @@
       ]
     },
     {
+      "id": "dc072696-d2d5-4a4e-8bb9-e1abbe590e2f",
       "name": "tros",
       "pluralName": "trossen",
       "description": "Tros(sen) (bijv. tomaten/druiven)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "trosje"
@@ -817,13 +831,14 @@
       ]
     },
     {
+      "id": "259bce54-4d3b-4a5c-80fd-70c9d79ea1d8",
       "name": "zakje",
       "pluralName": "zakjes",
       "description": "Zakje(s) (inhoud varieert)",
-      "fraction": true,
       "abbreviation": "",
       "pluralAbbreviation": "",
       "useAbbreviation": false,
+      "fraction": true,
       "aliases": [
         {
           "name": "zak"

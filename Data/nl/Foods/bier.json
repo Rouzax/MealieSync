@@ -41,7 +41,13 @@
           "name": "herfstbock"
         },
         {
-          "name": "bok"
+          "name": "herfstbok"
+        },
+        {
+          "name": "bokbier"
+        },
+        {
+          "name": "bock bier"
         }
       ],
       "label": "Bier"
@@ -70,10 +76,10 @@
       "description": "Belgisch spontaan gegist bier; zuur en complex.",
       "aliases": [
         {
-          "name": "lambiek"
+          "name": "gueuze"
         },
         {
-          "name": "lambic"
+          "name": "geuze bier"
         }
       ],
       "label": "Bier"
@@ -101,15 +107,45 @@
       "label": "Bier"
     },
     {
+      "name": "lager",
+      "pluralName": "lager",
+      "description": "Ondergegist blond bier; neutraal en fris, vaak gebruikt in koken.",
+      "aliases": [
+        {
+          "name": "lagerbier"
+        }
+      ],
+      "label": "Bier"
+    },
+    {
+      "name": "lambiek",
+      "pluralName": "lambiek",
+      "description": "Spontaan gegist Belgisch bier; basis voor geuze, vaak licht zuur.",
+      "aliases": [
+        {
+          "name": "lambic"
+        }
+      ],
+      "label": "Bier"
+    },
+    {
       "name": "pils",
       "pluralName": "pils",
       "description": "Blonde lager; helder en verfrissend, meest gedronken biersoort.",
       "aliases": [
         {
           "name": "pilsener"
-        },
+        }
+      ],
+      "label": "Bier"
+    },
+    {
+      "name": "porter",
+      "pluralName": "porter",
+      "description": "Donker bier met gebrande mout; moutig met koffie- en chocoladetonen.",
+      "aliases": [
         {
-          "name": "lager"
+          "name": "porterbier"
         }
       ],
       "label": "Bier"
@@ -118,9 +154,16 @@
       "name": "stout",
       "pluralName": "stout",
       "description": "Donker bier met gebrande mout; koffie- en chocoladesmaak.",
+      "aliases": [],
+      "label": "Bier"
+    },
+    {
+      "name": "tarwebier",
+      "pluralName": "tarwebier",
+      "description": "Bier met veel tarwemout; fris en licht, gebruikt in beslag en sauzen.",
       "aliases": [
         {
-          "name": "porter"
+          "name": "wheat beer"
         }
       ],
       "label": "Bier"
@@ -138,10 +181,7 @@
       "description": "Belgisch tarwebier; troebel, fris met koriander en sinaasappelschil.",
       "aliases": [
         {
-          "name": "wheat beer"
-        },
-        {
-          "name": "tarwebier"
+          "name": "wit bier"
         }
       ],
       "label": "Bier"

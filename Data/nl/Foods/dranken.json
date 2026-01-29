@@ -40,13 +40,10 @@
           "name": "sodawater"
         },
         {
-          "name": "bruisend mineraalwater"
-        },
-        {
-          "name": "bruisend water"
-        },
-        {
           "name": "sparkling water"
+        },
+        {
+          "name": "koolzuurhoudend water"
         }
       ],
       "label": "Dranken"
@@ -63,13 +60,6 @@
           "name": "zwarte bessensiroop"
         }
       ],
-      "label": "Dranken"
-    },
-    {
-      "name": "citroensap",
-      "pluralName": "citroensap",
-      "description": "Geperst sap van citroen; zuur, voor dranken, marinades en dressings.",
-      "aliases": [],
       "label": "Dranken"
     },
     {
@@ -131,13 +121,6 @@
       "label": "Dranken"
     },
     {
-      "name": "limoensap",
-      "pluralName": "limoensap",
-      "description": "Geperst sap van limoen; zuur, voor cocktails en dressings.",
-      "aliases": [],
-      "label": "Dranken"
-    },
-    {
       "name": "limonadesiroop",
       "pluralName": "limonadesiroop",
       "description": "Geconcentreerde siroop; aan te lengen met water.",
@@ -161,20 +144,6 @@
         },
         {
           "name": "bronwater"
-        }
-      ],
-      "label": "Dranken"
-    },
-    {
-      "name": "sinaasappelsap",
-      "pluralName": "sinaasappelsap",
-      "description": "Sap van sinaasappels; vers geperst of uit pak.",
-      "aliases": [
-        {
-          "name": "jus d'orange"
-        },
-        {
-          "name": "sinasappelsap"
         }
       ],
       "label": "Dranken"
@@ -204,7 +173,11 @@
       "name": "water",
       "pluralName": "water",
       "description": "Basis vloeistof; voor koken, bakken, verdunnen en dranken.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "kraanwater"
+        }
+      ],
       "label": "Dranken"
     }
   ]

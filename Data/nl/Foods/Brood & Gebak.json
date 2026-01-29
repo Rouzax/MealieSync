@@ -4,6 +4,20 @@
   "$version": "1.0",
   "items": [
     {
+      "name": "bagel",
+      "pluralName": "bagels",
+      "description": "Rond broodje met gat; vaak geroosterd of belegd.",
+      "aliases": [
+        {
+          "name": "bagelbroodje"
+        },
+        {
+          "name": "bagel broodje"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
       "name": "beschuit",
       "pluralName": "beschuiten",
       "description": "Dubbelgebakken broodproduct; licht en bros, vaak belegd.",
@@ -14,7 +28,34 @@
       "name": "bladerdeeg",
       "pluralName": "bladerdeeg",
       "description": "Gelaagd boterdeeg; voor hartige en zoete gebakjes.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "puff pastry"
+        },
+        {
+          "name": "bladerdeegplak"
+        },
+        {
+          "name": "bladerdeegplakjes"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
+      "name": "brioche",
+      "pluralName": "brioches",
+      "description": "Rijk brood met boter en ei; voor broodjes, burgers of tosti.",
+      "aliases": [
+        {
+          "name": "briochebrood"
+        },
+        {
+          "name": "briochebroodje"
+        },
+        {
+          "name": "brioche bun"
+        }
+      ],
       "label": "Brood & Gebak"
     },
     {
@@ -25,10 +66,31 @@
       "label": "Brood & Gebak"
     },
     {
+      "name": "broodkruim",
+      "pluralName": "broodkruim",
+      "description": "Grof broodkruim; voor vulling, binding of krokante topping.",
+      "aliases": [
+        {
+          "name": "broodkruimel"
+        },
+        {
+          "name": "broodkruimels"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
       "name": "ciabatta",
       "pluralName": "ciabatta's",
       "description": "Italiaans witbrood; luchtig met grote gaten.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "ciabatta brood"
+        },
+        {
+          "name": "ciabattabrood"
+        }
+      ],
       "label": "Brood & Gebak"
     },
     {
@@ -42,7 +104,14 @@
       "name": "crouton",
       "pluralName": "croutons",
       "description": "Geroosterd broodblokje; krokante toevoeging in soep of salade.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "croûton"
+        },
+        {
+          "name": "croûtons"
+        }
+      ],
       "label": "Brood & Gebak"
     },
     {
@@ -62,6 +131,29 @@
         },
         {
           "name": "filo"
+        },
+        {
+          "name": "phyllo"
+        },
+        {
+          "name": "phyllodeeg"
+        },
+        {
+          "name": "filo deeg"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
+      "name": "focaccia",
+      "pluralName": "focaccia's",
+      "description": "Italiaans plat brood met olie; als bijgerecht of voor sandwiches.",
+      "aliases": [
+        {
+          "name": "focaccia brood"
+        },
+        {
+          "name": "focacciabrood"
         }
       ],
       "label": "Brood & Gebak"
@@ -74,6 +166,20 @@
       "label": "Brood & Gebak"
     },
     {
+      "name": "hotdogbroodje",
+      "pluralName": "hotdogbroodjes",
+      "description": "Lang zacht broodje; voor hotdogs of worstjes.",
+      "aliases": [
+        {
+          "name": "hotdog broodje"
+        },
+        {
+          "name": "hotdog bun"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
       "name": "knäckebröd",
       "pluralName": "knäckebröd",
       "description": "Zweeds knapperbrood; krokant roggebrood.",
@@ -82,7 +188,10 @@
           "name": "knackebrod"
         },
         {
-          "name": "crackers"
+          "name": "knackebrood"
+        },
+        {
+          "name": "crispbread"
         }
       ],
       "label": "Brood & Gebak"
@@ -104,6 +213,15 @@
         },
         {
           "name": "loempia vellen"
+        },
+        {
+          "name": "springrollvel"
+        },
+        {
+          "name": "springrollvellen"
+        },
+        {
+          "name": "spring roll vellen"
         }
       ],
       "label": "Brood & Gebak"
@@ -121,6 +239,9 @@
         },
         {
           "name": "corn tortilla"
+        },
+        {
+          "name": "corn tortillas"
         }
       ],
       "label": "Brood & Gebak"
@@ -135,6 +256,9 @@
         },
         {
           "name": "matzot"
+        },
+        {
+          "name": "matse"
         }
       ],
       "label": "Brood & Gebak"
@@ -177,6 +301,9 @@
       "aliases": [
         {
           "name": "naan"
+        },
+        {
+          "name": "naanbroodjes"
         }
       ],
       "label": "Brood & Gebak"
@@ -193,6 +320,34 @@
       "label": "Brood & Gebak"
     },
     {
+      "name": "paneermeel",
+      "pluralName": "paneermeel",
+      "description": "Fijn broodkruim; om te paneren of binden.",
+      "aliases": [
+        {
+          "name": "breadcrumbs"
+        },
+        {
+          "name": "paneer meel"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
+      "name": "panko",
+      "pluralName": "panko",
+      "description": "Japans grof paneermeel; geeft extra krokante korst.",
+      "aliases": [
+        {
+          "name": "panko breadcrumbs"
+        },
+        {
+          "name": "panko paneermeel"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
       "name": "pitabrood",
       "pluralName": "pitabroodjes",
       "description": "Rond hol Midden-Oosters brood; opent als zakje.",
@@ -202,6 +357,26 @@
         },
         {
           "name": "pita's"
+        },
+        {
+          "name": "pitabroodje"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
+      "name": "pizzadeeg",
+      "pluralName": "pizzadeeg",
+      "description": "Kant-en-klaar deeg; voor pizza of flammkuchen.",
+      "aliases": [
+        {
+          "name": "pizza deeg"
+        },
+        {
+          "name": "deeg voor pizza"
+        },
+        {
+          "name": "pizzabodem deeg"
         }
       ],
       "label": "Brood & Gebak"
@@ -216,6 +391,9 @@
         },
         {
           "name": "baguettes"
+        },
+        {
+          "name": "stokbroodjes"
         }
       ],
       "label": "Brood & Gebak"
@@ -227,6 +405,32 @@
       "aliases": [
         {
           "name": "flour tortilla"
+        },
+        {
+          "name": "wheat tortilla"
+        },
+        {
+          "name": "tortillawrap"
+        },
+        {
+          "name": "tortilla wrap"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
+      "name": "toastbrood",
+      "pluralName": "toastbroden",
+      "description": "Gesneden zacht brood; geschikt voor toast en sandwiches.",
+      "aliases": [
+        {
+          "name": "tostibrood"
+        },
+        {
+          "name": "toast brood"
+        },
+        {
+          "name": "sandwichbrood"
         }
       ],
       "label": "Brood & Gebak"
@@ -238,6 +442,9 @@
       "aliases": [
         {
           "name": "pide"
+        },
+        {
+          "name": "turks platbrood"
         }
       ],
       "label": "Brood & Gebak"

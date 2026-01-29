@@ -9,10 +9,13 @@
       "description": "Aromatisch groen kruid; in pesto, salades en pastasaus.",
       "aliases": [
         {
-          "name": "basilicum"
+          "name": "verse basilicum"
         },
         {
-          "name": "verse basilicum"
+          "name": "basilicum vers"
+        },
+        {
+          "name": "vers basilicum"
         }
       ],
       "label": "Verse kruiden"
@@ -27,6 +30,15 @@
         },
         {
           "name": "komkommerkruid"
+        },
+        {
+          "name": "bernagie vers"
+        },
+        {
+          "name": "verse bernagie"
+        },
+        {
+          "name": "vers bernagie"
         }
       ],
       "label": "Verse kruiden"
@@ -37,10 +49,13 @@
       "description": "Milde uiensmaak; fijngehakt over ei, aardappel en salades.",
       "aliases": [
         {
-          "name": "bieslook"
+          "name": "verse bieslook"
         },
         {
-          "name": "verse bieslook"
+          "name": "bieslook vers"
+        },
+        {
+          "name": "vers bieslook"
         }
       ],
       "label": "Verse kruiden"
@@ -61,6 +76,15 @@
         },
         {
           "name": "snijselderij"
+        },
+        {
+          "name": "bladselderij vers"
+        },
+        {
+          "name": "verse bladselderij"
+        },
+        {
+          "name": "vers bladselderij"
         }
       ],
       "label": "Verse kruiden"
@@ -69,7 +93,28 @@
       "name": "bonenkruid [vers]",
       "pluralName": "bonenkruid [vers]",
       "description": "Kruid met peperige smaak; meegekookt met bonen en peulvruchten.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "bonenkruid vers"
+        },
+        {
+          "name": "verse bonenkruid"
+        },
+        {
+          "name": "vers bonenkruid"
+        }
+      ],
+      "label": "Verse kruiden"
+    },
+    {
+      "name": "bouquet garni",
+      "pluralName": "bouquet garni",
+      "description": "Kruidenbundel; meegetrokken in bouillon en stoof.",
+      "aliases": [
+        {
+          "name": "bouquet-garni"
+        }
+      ],
       "label": "Verse kruiden"
     },
     {
@@ -78,10 +123,13 @@
       "description": "Jonge brandnetel; kort geblancheerd in soep, stamppot of thee.",
       "aliases": [
         {
-          "name": "brandnetel"
+          "name": "verse brandnetel"
         },
         {
-          "name": "verse brandnetel"
+          "name": "brandnetel vers"
+        },
+        {
+          "name": "vers brandnetel"
         }
       ],
       "label": "Verse kruiden"
@@ -99,6 +147,12 @@
         },
         {
           "name": "vers citroengras"
+        },
+        {
+          "name": "citroengras vers"
+        },
+        {
+          "name": "verse citroengras"
         }
       ],
       "label": "Verse kruiden"
@@ -113,6 +167,24 @@
         },
         {
           "name": "melisse"
+        },
+        {
+          "name": "citroenmelisse vers"
+        },
+        {
+          "name": "verse citroenmelisse"
+        },
+        {
+          "name": "vers citroenmelisse"
+        },
+        {
+          "name": "melisse vers"
+        },
+        {
+          "name": "verse melisse"
+        },
+        {
+          "name": "vers melisse"
         }
       ],
       "label": "Verse kruiden"
@@ -127,6 +199,24 @@
         },
         {
           "name": "verveine"
+        },
+        {
+          "name": "citroenverbena vers"
+        },
+        {
+          "name": "verse citroenverbena"
+        },
+        {
+          "name": "vers citroenverbena"
+        },
+        {
+          "name": "verveine vers"
+        },
+        {
+          "name": "verse verveine"
+        },
+        {
+          "name": "vers verveine"
         }
       ],
       "label": "Verse kruiden"
@@ -137,10 +227,13 @@
       "description": "Aromatisch kruid; bij vis, aardappel en komkommer.",
       "aliases": [
         {
-          "name": "dille"
+          "name": "verse dille"
         },
         {
-          "name": "verse dille"
+          "name": "dille vers"
+        },
+        {
+          "name": "vers dille"
         }
       ],
       "label": "Verse kruiden"
@@ -158,6 +251,30 @@
         },
         {
           "name": "verse dragon"
+        },
+        {
+          "name": "dragon vers"
+        },
+        {
+          "name": "vers dragon"
+        },
+        {
+          "name": "verse estragon"
+        },
+        {
+          "name": "estragon vers"
+        },
+        {
+          "name": "vers estragon"
+        },
+        {
+          "name": "verse tarragon"
+        },
+        {
+          "name": "tarragon vers"
+        },
+        {
+          "name": "vers tarragon"
         }
       ],
       "label": "Verse kruiden"
@@ -174,7 +291,25 @@
           "name": "curryblad"
         },
         {
+          "name": "curryblaadje"
+        },
+        {
+          "name": "curryblaadjes"
+        },
+        {
+          "name": "kerrieblaadje"
+        },
+        {
           "name": "kerrieblaadjes"
+        },
+        {
+          "name": "kerrieblad vers"
+        },
+        {
+          "name": "verse kerrieblad"
+        },
+        {
+          "name": "vers kerrieblad"
         }
       ],
       "label": "Verse kruiden"
@@ -185,10 +320,13 @@
       "description": "Zacht anijsachtig kruid; in soep, omelet en saus.",
       "aliases": [
         {
-          "name": "kervel"
+          "name": "verse kervel"
         },
         {
-          "name": "verse kervel"
+          "name": "kervel vers"
+        },
+        {
+          "name": "vers kervel"
         }
       ],
       "label": "Verse kruiden"
@@ -202,9 +340,6 @@
           "name": "cilantro"
         },
         {
-          "name": "koriander"
-        },
-        {
           "name": "korianderblad"
         },
         {
@@ -215,6 +350,12 @@
         },
         {
           "name": "verse koriander"
+        },
+        {
+          "name": "koriander vers"
+        },
+        {
+          "name": "vers koriander"
         }
       ],
       "label": "Verse kruiden"
@@ -224,9 +365,6 @@
       "pluralName": "korianderstelen [vers]",
       "description": "Korianderstelen; fijngehakt in curry's, soepen en salsa.",
       "aliases": [
-        {
-          "name": "koriandersteel"
-        },
         {
           "name": "koriandersteeltje"
         },
@@ -241,6 +379,15 @@
         },
         {
           "name": "korianderstengels"
+        },
+        {
+          "name": "koriandersteel vers"
+        },
+        {
+          "name": "verse koriandersteel"
+        },
+        {
+          "name": "vers koriandersteel"
         }
       ],
       "label": "Verse kruiden"
@@ -255,35 +402,56 @@
         },
         {
           "name": "verse kruizemunt"
+        },
+        {
+          "name": "kruidemunt vers"
+        },
+        {
+          "name": "verse kruidemunt"
+        },
+        {
+          "name": "vers kruidemunt"
+        },
+        {
+          "name": "kruizemunt vers"
+        },
+        {
+          "name": "vers kruizemunt"
         }
       ],
       "label": "Verse kruiden"
     },
     {
-      "name": "laos [vers]",
-      "pluralName": "laos [vers]",
-      "description": "Aromatische wortelstok; in curry's, soepen en marinades.",
+      "name": "krulpeterselie [vers]",
+      "pluralName": "krulpeterselie [vers]",
+      "description": "Krulpeterselie; als garnering en in sauzen.",
       "aliases": [
         {
-          "name": "galanga"
+          "name": "curly parsley"
         },
         {
-          "name": "galangal"
+          "name": "krul peterselie"
         },
         {
-          "name": "galangawortel"
+          "name": "krulpeterselie"
         },
         {
-          "name": "laos"
+          "name": "verse peterselie"
         },
         {
-          "name": "laoswortel"
+          "name": "peterselie vers"
         },
         {
-          "name": "verse laos"
+          "name": "vers peterselie"
         },
         {
-          "name": "verse laoswortel"
+          "name": "krulpeterselie vers"
+        },
+        {
+          "name": "verse krulpeterselie"
+        },
+        {
+          "name": "vers krulpeterselie"
         }
       ],
       "label": "Verse kruiden"
@@ -301,6 +469,12 @@
         },
         {
           "name": "verse laurierblaadjes"
+        },
+        {
+          "name": "laurierblad vers"
+        },
+        {
+          "name": "verse laurierblad"
         }
       ],
       "label": "Verse kruiden"
@@ -315,6 +489,27 @@
         },
         {
           "name": "verse lavas"
+        },
+        {
+          "name": "lavas vers"
+        },
+        {
+          "name": "vers lavas"
+        },
+        {
+          "name": "maggikruid vers"
+        },
+        {
+          "name": "verse maggikruid"
+        },
+        {
+          "name": "vers maggikruid"
+        },
+        {
+          "name": "maggiplant"
+        },
+        {
+          "name": "lovage"
         }
       ],
       "label": "Verse kruiden"
@@ -341,6 +536,15 @@
         },
         {
           "name": "makrutlimoenblaadjes"
+        },
+        {
+          "name": "makrutlimoenblad vers"
+        },
+        {
+          "name": "verse makrutlimoenblad"
+        },
+        {
+          "name": "vers makrutlimoenblad"
         }
       ],
       "label": "Verse kruiden"
@@ -358,6 +562,18 @@
         },
         {
           "name": "verse marjolein"
+        },
+        {
+          "name": "marjolein vers"
+        },
+        {
+          "name": "vers marjolein"
+        },
+        {
+          "name": "majoraan vers"
+        },
+        {
+          "name": "vers majoraan"
         }
       ],
       "label": "Verse kruiden"
@@ -368,9 +584,6 @@
       "description": "Fris kruid; in thee, desserts en als garnering.",
       "aliases": [
         {
-          "name": "munt"
-        },
-        {
           "name": "muntblaadje"
         },
         {
@@ -378,6 +591,12 @@
         },
         {
           "name": "verse munt"
+        },
+        {
+          "name": "munt vers"
+        },
+        {
+          "name": "vers munt"
         }
       ],
       "label": "Verse kruiden"
@@ -389,6 +608,12 @@
       "aliases": [
         {
           "name": "verse oregano"
+        },
+        {
+          "name": "oregano vers"
+        },
+        {
+          "name": "vers oregano"
         }
       ],
       "label": "Verse kruiden"
@@ -403,29 +628,12 @@
         },
         {
           "name": "verse pepermunt"
-        }
-      ],
-      "label": "Verse kruiden"
-    },
-    {
-      "name": "peterselie [vers]",
-      "pluralName": "peterselie [vers]",
-      "description": "Krulpeterselie; als garnering en in sauzen.",
-      "aliases": [
-        {
-          "name": "curly parsley"
         },
         {
-          "name": "krul peterselie"
+          "name": "pepermunt vers"
         },
         {
-          "name": "krulpeterselie"
-        },
-        {
-          "name": "peterselie"
-        },
-        {
-          "name": "verse peterselie"
+          "name": "vers pepermunt"
         }
       ],
       "label": "Verse kruiden"
@@ -446,6 +654,12 @@
         },
         {
           "name": "verse platte peterselie"
+        },
+        {
+          "name": "platte peterselie vers"
+        },
+        {
+          "name": "vers platte peterselie"
         }
       ],
       "label": "Verse kruiden"
@@ -456,10 +670,13 @@
       "description": "Naaldvormig kruid; bij vlees, aardappel en brood.",
       "aliases": [
         {
-          "name": "rozemarijn"
+          "name": "verse rozemarijn"
         },
         {
-          "name": "verse rozemarijn"
+          "name": "rozemarijn vers"
+        },
+        {
+          "name": "vers rozemarijn"
         }
       ],
       "label": "Verse kruiden"
@@ -470,10 +687,13 @@
       "description": "Aromatisch blad; in boter, pasta en vleesgerechten.",
       "aliases": [
         {
-          "name": "salie"
+          "name": "verse salie"
         },
         {
-          "name": "verse salie"
+          "name": "salie vers"
+        },
+        {
+          "name": "vers salie"
         }
       ],
       "label": "Verse kruiden"
@@ -488,6 +708,15 @@
         },
         {
           "name": "thai basil"
+        },
+        {
+          "name": "thaise basilicum vers"
+        },
+        {
+          "name": "verse thaise basilicum"
+        },
+        {
+          "name": "vers thaise basilicum"
         }
       ],
       "label": "Verse kruiden"
@@ -498,10 +727,13 @@
       "description": "Aromatisch kruid; in stoofpot, vlees en groenten.",
       "aliases": [
         {
-          "name": "tijm"
+          "name": "verse tijm"
         },
         {
-          "name": "verse tijm"
+          "name": "tijm vers"
+        },
+        {
+          "name": "vers tijm"
         }
       ],
       "label": "Verse kruiden"

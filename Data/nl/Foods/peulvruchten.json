@@ -30,6 +30,12 @@
       "aliases": [
         {
           "name": "zwarte linzen"
+        },
+        {
+          "name": "beluga linze"
+        },
+        {
+          "name": "beluga linzen"
         }
       ],
       "label": "Peulvruchten"
@@ -64,6 +70,32 @@
       "label": "Peulvruchten"
     },
     {
+      "name": "cannelliniboon [blik]",
+      "pluralName": "cannellinibonen [blik]",
+      "description": "Cannellinibonen uit blik; direct in soep, salade of stoof.",
+      "aliases": [
+        {
+          "name": "cannellini uit blik"
+        },
+        {
+          "name": "cannellini blik"
+        },
+        {
+          "name": "cannelliniboon uit blik"
+        },
+        {
+          "name": "cannellinibonen uit blik"
+        },
+        {
+          "name": "blik cannellinibonen"
+        },
+        {
+          "name": "cannellinibonen blik"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
       "name": "doperwt",
       "pluralName": "doperwten",
       "description": "Jonge groene erwten; zoet en fris, vers of diepvries.",
@@ -79,6 +111,24 @@
         },
         {
           "name": "tuinerwten"
+        },
+        {
+          "name": "erwt"
+        },
+        {
+          "name": "erwten"
+        },
+        {
+          "name": "diepvries erwten"
+        },
+        {
+          "name": "diepvrieserwten"
+        },
+        {
+          "name": "diepvries doperwten"
+        },
+        {
+          "name": "doperwten diepvries"
         }
       ],
       "label": "Peulvruchten"
@@ -87,12 +137,42 @@
       "name": "edamame",
       "pluralName": "edamame",
       "description": "Jonge sojabonen in de peul; gekookt als snack of in salades.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "jonge sojabonen"
+        }
+      ],
       "label": "Peulvruchten"
     },
     {
-      "name": "gele erwt (gedroogd)",
-      "pluralName": "gele erwten (gedroogd)",
+      "name": "erwt [gedroogd]",
+      "pluralName": "erwten [gedroogd]",
+      "description": "Gedroogde erwten; voor erwtensoep, puree en stoof.",
+      "aliases": [
+        {
+          "name": "gedroogde erwt"
+        },
+        {
+          "name": "gedroogde erwten"
+        },
+        {
+          "name": "erwt gedroogd"
+        },
+        {
+          "name": "erwten gedroogd"
+        },
+        {
+          "name": "gedroogd erwt"
+        },
+        {
+          "name": "gedroogd erwten"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "gele erwt [gedroogd]",
+      "pluralName": "gele erwten [gedroogd]",
       "description": "Gedroogde gele erwt; voor soep en puree.",
       "aliases": [
         {
@@ -106,6 +186,70 @@
         },
         {
           "name": "gele erwten"
+        },
+        {
+          "name": "gele erwt gedroogd"
+        },
+        {
+          "name": "gele erwten gedroogd"
+        },
+        {
+          "name": "gedroogd gele erwt"
+        },
+        {
+          "name": "gedroogd gele erwten"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "gele spliterwt",
+      "pluralName": "gele spliterwten",
+      "description": "Gele spliterwt (gespleten erwt); voor soepen, puree en stoofgerechten.",
+      "aliases": [
+        {
+          "name": "yellow split pea"
+        },
+        {
+          "name": "yellow split peas"
+        },
+        {
+          "name": "gele split erwt"
+        },
+        {
+          "name": "gele split erwten"
+        },
+        {
+          "name": "gele split-erwt"
+        },
+        {
+          "name": "gele split-erwten"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "gespleten duivenerwt",
+      "pluralName": "gespleten duivenerwten",
+      "description": "Gespleten duivenerwt (pigeon pea); voor dal, curry's en soepen.",
+      "aliases": [
+        {
+          "name": "arhar dal"
+        },
+        {
+          "name": "toor dahl"
+        },
+        {
+          "name": "toordal"
+        },
+        {
+          "name": "tur dal"
+        },
+        {
+          "name": "tuvar dal"
+        },
+        {
+          "name": "toor dal"
         }
       ],
       "label": "Peulvruchten"
@@ -130,6 +274,12 @@
       "description": "Rode niervormige boon; voor chili con carne en Mexicaans.",
       "aliases": [
         {
+          "name": "rode boon"
+        },
+        {
+          "name": "rode bonen"
+        },
+        {
           "name": "kidney bean"
         },
         {
@@ -140,12 +290,32 @@
         },
         {
           "name": "kidneybeans"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "kidneyboon [blik]",
+      "pluralName": "kidneybonen [blik]",
+      "description": "Kidneybonen uit blik; snel in chili, curry of salade.",
+      "aliases": [
+        {
+          "name": "kidneybonen uit blik"
         },
         {
-          "name": "rode boon"
+          "name": "kidneyboon uit blik"
         },
         {
-          "name": "rode bonen"
+          "name": "kidney beans uit blik"
+        },
+        {
+          "name": "blik kidneybonen"
+        },
+        {
+          "name": "kidneybonen blik"
+        },
+        {
+          "name": "blik kidney beans"
         }
       ],
       "label": "Peulvruchten"
@@ -169,6 +339,55 @@
         },
         {
           "name": "garbanzobonen"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "kikkererwt [blik]",
+      "pluralName": "kikkererwten [blik]",
+      "description": "Kikkererwten uit blik; handig voor hummus, curry en salade.",
+      "aliases": [
+        {
+          "name": "kikkererwten uit blik"
+        },
+        {
+          "name": "kikkererwt uit blik"
+        },
+        {
+          "name": "blik kikkererwten"
+        },
+        {
+          "name": "kikkererwten blik"
+        },
+        {
+          "name": "garbanzo uit blik"
+        },
+        {
+          "name": "garbanzo beans uit blik"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "kousenband",
+      "pluralName": "kousenband",
+      "description": "Lange sperzieboon; kort koken of wokken in (Surinaamse) gerechten.",
+      "aliases": [
+        {
+          "name": "lange boon"
+        },
+        {
+          "name": "lange bonen"
+        },
+        {
+          "name": "aspergeboon"
+        },
+        {
+          "name": "aspergebonen"
+        },
+        {
+          "name": "kouseband"
         }
       ],
       "label": "Peulvruchten"
@@ -202,6 +421,49 @@
       "label": "Peulvruchten"
     },
     {
+      "name": "linze [blik]",
+      "pluralName": "linzen [blik]",
+      "description": "Gekookte linzen uit blik; direct in salade, soep of curry.",
+      "aliases": [
+        {
+          "name": "linzen uit blik"
+        },
+        {
+          "name": "linze uit blik"
+        },
+        {
+          "name": "blik linzen"
+        },
+        {
+          "name": "linzen blik"
+        },
+        {
+          "name": "canned linzen"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "lupineboon",
+      "pluralName": "lupinebonen",
+      "description": "Eetbare lupineboon; vaak ingelegd als snack of in salades.",
+      "aliases": [
+        {
+          "name": "lupini"
+        },
+        {
+          "name": "lupini bonen"
+        },
+        {
+          "name": "lupine bonen"
+        },
+        {
+          "name": "lupineboontjes"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
       "name": "mungboon",
       "pluralName": "mungbonen",
       "description": "Kleine groene boon; basis voor taugé en glasnoedels.",
@@ -211,6 +473,29 @@
         },
         {
           "name": "mung beans"
+        },
+        {
+          "name": "moong"
+        },
+        {
+          "name": "moong boon"
+        },
+        {
+          "name": "moong bonen"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "peultje",
+      "pluralName": "peultjes",
+      "description": "Eetbare peul; kort gekookt of gewokt.",
+      "aliases": [
+        {
+          "name": "sneeuwerwt"
+        },
+        {
+          "name": "sneeuwerwten"
         }
       ],
       "label": "Peulvruchten"
@@ -245,6 +530,18 @@
         },
         {
           "name": "puy linzen"
+        },
+        {
+          "name": "le puy linze"
+        },
+        {
+          "name": "le puy linzen"
+        },
+        {
+          "name": "linze du puy"
+        },
+        {
+          "name": "linzen du puy"
         }
       ],
       "label": "Peulvruchten"
@@ -253,6 +550,40 @@
       "name": "rode linze",
       "pluralName": "rode linzen",
       "description": "Gepelde oranje linzen; vallen snel uiteen, voor soep en dhal.",
+      "aliases": [
+        {
+          "name": "masoor dal"
+        },
+        {
+          "name": "masoor-dal"
+        },
+        {
+          "name": "red lentils"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "rode splitlinzen",
+      "pluralName": "rode splitlinzen",
+      "description": "Gesplitste rode linzen; kook snel gaar voor dahl, soep of puree.",
+      "aliases": [
+        {
+          "name": "gesplitste rode linzen"
+        },
+        {
+          "name": "rode linzen gesplitst"
+        },
+        {
+          "name": "split rode linzen"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "snijboon",
+      "pluralName": "snijbonen",
+      "description": "Platte boon; in reepjes gekookt of gestoofd.",
       "aliases": [],
       "label": "Peulvruchten"
     },
@@ -289,10 +620,93 @@
       "label": "Peulvruchten"
     },
     {
+      "name": "spekboon",
+      "pluralName": "spekbonen",
+      "description": "Grote boon; kort gekookt of in stoof.",
+      "aliases": [],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "sperzieboon",
+      "pluralName": "sperziebonen",
+      "description": "Groene boon; gekookt of gewokt.",
+      "aliases": [
+        {
+          "name": "haricots verts"
+        },
+        {
+          "name": "prinsessenboon"
+        },
+        {
+          "name": "prinsessenbonen"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
       "name": "spliterwt",
       "pluralName": "spliterwten",
       "description": "Gehalveerde gedroogde erwten; voor erwtensoep.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "split erwt"
+        },
+        {
+          "name": "split pea"
+        },
+        {
+          "name": "groene spliterwt"
+        },
+        {
+          "name": "groene spliterwten"
+        },
+        {
+          "name": "groene split erwt"
+        },
+        {
+          "name": "groene split erwten"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "splitkikkererwt",
+      "pluralName": "splitkikkererwten",
+      "description": "Gedroogde gespleten kikkererwt; kook gaar voor dal en curry.",
+      "aliases": [
+        {
+          "name": "chana dal"
+        },
+        {
+          "name": "gespleten kikkererwt"
+        },
+        {
+          "name": "gespleten kikkererwten"
+        },
+        {
+          "name": "split kikkererwt"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
+      "name": "sugarsnap",
+      "pluralName": "sugarsnaps",
+      "description": "Knapperige peul; kort gekookt of gewokt.",
+      "aliases": [
+        {
+          "name": "sugar snap"
+        },
+        {
+          "name": "sugar snaps"
+        },
+        {
+          "name": "suikererwt"
+        },
+        {
+          "name": "suikererwten"
+        }
+      ],
       "label": "Peulvruchten"
     },
     {
@@ -327,7 +741,26 @@
       "name": "tuinboon",
       "pluralName": "tuinbonen",
       "description": "Grote platte groene boon; vers in het seizoen, voor puree of salade.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "favaboon"
+        },
+        {
+          "name": "favabonen"
+        },
+        {
+          "name": "fava boon"
+        },
+        {
+          "name": "fava bonen"
+        },
+        {
+          "name": "fava bean"
+        },
+        {
+          "name": "fava beans"
+        }
+      ],
       "label": "Peulvruchten"
     },
     {
@@ -338,6 +771,26 @@
       "label": "Peulvruchten"
     },
     {
+      "name": "witte boon [blik]",
+      "pluralName": "witte bonen [blik]",
+      "description": "Witte bonen uit blik; voor soep, salade en stoofgerechten.",
+      "aliases": [
+        {
+          "name": "witte bonen uit blik"
+        },
+        {
+          "name": "witte boon uit blik"
+        },
+        {
+          "name": "blik witte bonen"
+        },
+        {
+          "name": "witte bonen blik"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
       "name": "zwarte boon",
       "pluralName": "zwarte bonen",
       "description": "Kleine zwarte boon; voor Mexicaanse en Braziliaanse gerechten.",
@@ -345,51 +798,41 @@
       "label": "Peulvruchten"
     },
     {
-      "name": "zwartoogboon",
-      "pluralName": "zwartoogbonen",
-      "description": "Crèmekleurige boon met zwarte stip; voor salades en stoofpotten.",
-      "aliases": [],
-      "label": "Peulvruchten"
-    },
-        {
-      "name": "gele spliterwt",
-      "pluralName": "gele spliterwten",
-      "description": "Gele spliterwt (gespleten erwt); voor soepen, puree en stoofgerechten.",
+      "name": "zwarte boon [blik]",
+      "pluralName": "zwarte bonen [blik]",
+      "description": "Zwarte bonen uit blik; voor taco's, bowls en stoofgerechten.",
       "aliases": [
         {
-          "name": "gele spliterwten"
+          "name": "zwarte bonen uit blik"
         },
         {
-          "name": "yellow split pea"
+          "name": "zwarte boon uit blik"
         },
         {
-          "name": "yellow split peas"
+          "name": "blik zwarte bonen"
+        },
+        {
+          "name": "zwarte bonen blik"
         }
       ],
       "label": "Peulvruchten"
     },
     {
-      "name": "gespleten duivenerwt",
-      "pluralName": "gespleten duivenerwten",
-      "description": "Gespleten duivenerwt (pigeon pea); voor dal, curry's en soepen.",
+      "name": "zwartoogboon",
+      "pluralName": "zwartoogbonen",
+      "description": "Crèmekleurige boon met zwarte stip; voor salades en stoofpotten.",
       "aliases": [
         {
-          "name": "arhar dal"
+          "name": "zwartoogerwt"
         },
         {
-          "name": "toor dahl"
+          "name": "zwartoogerwten"
         },
         {
-          "name": "toordal"
+          "name": "cowpea"
         },
         {
-          "name": "tur dal"
-        },
-        {
-          "name": "tuvar dal"
-        },
-        {
-          "name": "toor dal"
+          "name": "cowpeas"
         }
       ],
       "label": "Peulvruchten"

@@ -4,6 +4,20 @@
   "$version": "1.0",
   "items": [
     {
+      "name": "achiotepasta",
+      "pluralName": "achiotepasta",
+      "description": "Annattopasta; kruidige rode pasta voor marinades.",
+      "aliases": [
+        {
+          "name": "achiote pasta"
+        },
+        {
+          "name": "pasta de achiote"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "name": "adobo saus",
       "pluralName": "adobo saus",
       "description": "Mexicaanse saus met gedroogde pepers en kruiden; gebruikt voor marinades en stoofgerechten.",
@@ -93,7 +107,7 @@
     },
     {
       "name": "bruschetta tomaatsalade",
-      "pluralName": null,
+      "pluralName": "bruschetta tomaatsalades",
       "description": "Kant-en-klare topping van tomaat, knoflook en kruiden; voor bruschetta of als bijgerecht.",
       "aliases": [
         {
@@ -153,6 +167,23 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "name": "dijonmosterd",
+      "pluralName": "dijonmosterd",
+      "description": "Mosterd uit Dijon-stijl; voor dressings, sauzen en marinades.",
+      "aliases": [
+        {
+          "name": "dijon mosterd"
+        },
+        {
+          "name": "dijon mustard"
+        },
+        {
+          "name": "moutarde de dijon"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "name": "donkere sojasaus",
       "pluralName": "donkere sojasaus",
       "description": "Stroperige zoete sojasaus; gebruikt in stoofgerechten.",
@@ -191,6 +222,23 @@
         },
         {
           "name": "amerikaanse mosterd"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
+      "name": "gemberpasta",
+      "pluralName": "gemberpasta",
+      "description": "Pasta van gemalen gember; smaakmaker in curry's, wok en marinades.",
+      "aliases": [
+        {
+          "name": "gingerpaste"
+        },
+        {
+          "name": "ginger paste"
+        },
+        {
+          "name": "gember pasta"
         }
       ],
       "label": "Sauzen & Condimenten"
@@ -251,10 +299,10 @@
       "description": "Scherpe rode chilisaus; druppelsgewijs gebruikt als smaakmaker.",
       "aliases": [
         {
-          "name": "tabasco"
+          "name": "hete saus"
         },
         {
-          "name": "hete saus"
+          "name": "hotsauce"
         }
       ],
       "label": "Sauzen & Condimenten"
@@ -284,6 +332,20 @@
       "aliases": [
         {
           "name": "tomatenketchup"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
+      "name": "knoflooksaus",
+      "pluralName": "knoflooksaus",
+      "description": "Romige knoflooksaus; dipsaus bij shoarma, friet of groenten.",
+      "aliases": [
+        {
+          "name": "knoflook saus"
+        },
+        {
+          "name": "garlic sauce"
         }
       ],
       "label": "Sauzen & Condimenten"
@@ -378,7 +440,7 @@
     {
       "name": "pesto",
       "pluralName": "pesto",
-      "description": "Italiaanse basilicumsaus met pijnboompitten en kaas.",
+      "description": "Basilicumsaus met pijnboompitten en kaas; door pasta of op brood.",
       "aliases": [
         {
           "name": "groene pesto"
@@ -415,6 +477,20 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "name": "remouladesaus",
+      "pluralName": "remouladesaus",
+      "description": "Koude saus met mayo en kruiden; bij vis, friet en koude schotels.",
+      "aliases": [
+        {
+          "name": "remoulade"
+        },
+        {
+          "name": "remoulade saus"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "name": "rode currypasta",
       "pluralName": "rode currypasta",
       "description": "Thaise kruidenpasta met rode pepers; basis voor curry.",
@@ -424,10 +500,24 @@
     {
       "name": "rode pesto",
       "pluralName": "rode pesto",
-      "description": "Italiaanse saus met zongedroogde tomaten.",
+      "description": "Saus van zongedroogde tomaten en noten; door pasta of op toast.",
       "aliases": [
         {
           "name": "pesto rosso"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
+      "name": "salsa",
+      "pluralName": "salsa",
+      "description": "Tomaten-chilisaus; dip of topping bij taco's en nacho's.",
+      "aliases": [
+        {
+          "name": "tomatensalsa"
+        },
+        {
+          "name": "salsa saus"
         }
       ],
       "label": "Sauzen & Condimenten"
@@ -559,13 +649,6 @@
       "name": "thousand island dressing",
       "pluralName": "thousand island dressing",
       "description": "Amerikaanse dressing met mayonaise, ketchup en augurk; bij salades.",
-      "aliases": [],
-      "label": "Sauzen & Condimenten"
-    },
-    {
-      "name": "tomatenblokjes in blik",
-      "pluralName": "tomatenblokjes in blik",
-      "description": "Ingeblikte tomatenblokjes; basis voor sauzen.",
       "aliases": [],
       "label": "Sauzen & Condimenten"
     },

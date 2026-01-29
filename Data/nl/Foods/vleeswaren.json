@@ -53,14 +53,22 @@
       "name": "bockworst",
       "pluralName": "bockworsten",
       "description": "Duitse gekookte worst; mild van smaak.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "bockwurst"
+        }
+      ],
       "label": "Vleeswaren"
     },
     {
       "name": "boterhamworst",
       "pluralName": "boterhamworst",
       "description": "Gesneden worst voor op brood; mild van smaak.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "lunchworst"
+        }
+      ],
       "label": "Vleeswaren"
     },
     {
@@ -71,10 +79,21 @@
       "label": "Vleeswaren"
     },
     {
+      "name": "bresaola",
+      "pluralName": "bresaola",
+      "description": "Italiaanse gedroogde runderham; dun gesneden op brood of salade.",
+      "aliases": [],
+      "label": "Vleeswaren"
+    },
+    {
       "name": "cervelaat",
       "pluralName": "cervelaat",
       "description": "Droge worst; kruidige smaak, voor op brood.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "cervelat"
+        }
+      ],
       "label": "Vleeswaren"
     },
     {
@@ -92,7 +111,11 @@
       "name": "chorizo",
       "pluralName": "chorizo",
       "description": "Spaanse worst met paprika en knoflook; gerookt of vers.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "chorizoworst"
+        }
+      ],
       "label": "Vleeswaren"
     },
     {
@@ -109,6 +132,23 @@
       "aliases": [
         {
           "name": "coppa di parma"
+        },
+        {
+          "name": "capocollo"
+        },
+        {
+          "name": "capicola"
+        }
+      ],
+      "label": "Vleeswaren"
+    },
+    {
+      "name": "corned beef",
+      "pluralName": "corned beef",
+      "description": "Gezouten rundvlees, vaak uit blik; op brood of in hash.",
+      "aliases": [
+        {
+          "name": "cornedbeef"
         }
       ],
       "label": "Vleeswaren"
@@ -126,6 +166,9 @@
         },
         {
           "name": "prepare"
+        },
+        {
+          "name": "filet américain"
         }
       ],
       "label": "Vleeswaren"
@@ -173,8 +216,19 @@
     {
       "name": "grilworst",
       "pluralName": "grilworsten",
-      "description": "Gegaarde worst met kaas; koud gesneden als broodbeleg.",
+      "description": "Gegaarde gekruide worst; koud gesneden als broodbeleg.",
       "aliases": [],
+      "label": "Vleeswaren"
+    },
+    {
+      "name": "guanciale",
+      "pluralName": "guanciale",
+      "description": "Italiaans gezouten wangspek; in carbonara en amatriciana.",
+      "aliases": [
+        {
+          "name": "wangspek"
+        }
+      ],
       "label": "Vleeswaren"
     },
     {
@@ -231,6 +285,13 @@
       "label": "Vleeswaren"
     },
     {
+      "name": "katenham",
+      "pluralName": "katenham",
+      "description": "Gerookte ham voor op brood; mild van smaak.",
+      "aliases": [],
+      "label": "Vleeswaren"
+    },
+    {
       "name": "knakworst",
       "pluralName": "knakworsten",
       "description": "Gekookte worst; voor hotdogs of warm geserveerd.",
@@ -262,14 +323,25 @@
       "name": "mortadella",
       "pluralName": "mortadella",
       "description": "Italiaanse gekookte worst met pistache; dun gesneden.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "mortadella di bologna"
+        }
+      ],
       "label": "Vleeswaren"
     },
     {
       "name": "nduja",
       "pluralName": "nduja",
       "description": "Pittige smeerbare Italiaanse worst; voor pasta of brood.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "'nduja"
+        },
+        {
+          "name": "’nduja"
+        }
+      ],
       "label": "Vleeswaren"
     },
     {
@@ -283,6 +355,13 @@
       "name": "pancetta",
       "pluralName": "pancetta",
       "description": "Italiaans gezouten buikspek; voor pasta en risotto.",
+      "aliases": [],
+      "label": "Vleeswaren"
+    },
+    {
+      "name": "pastrami",
+      "pluralName": "pastrami",
+      "description": "Gekruid gerookt rundvlees; voor sandwiches en salades.",
       "aliases": [],
       "label": "Vleeswaren"
     },
@@ -317,6 +396,9 @@
         },
         {
           "name": "prosciutto"
+        },
+        {
+          "name": "prosciutto di parma"
         }
       ],
       "label": "Vleeswaren"
@@ -339,7 +421,11 @@
       "name": "rosbief",
       "pluralName": "rosbief",
       "description": "Gebraden rundvlees; koud of warm, dun gesneden.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "roast beef"
+        }
+      ],
       "label": "Vleeswaren"
     },
     {
@@ -366,17 +452,9 @@
         },
         {
           "name": "jamon serrano"
-        }
-      ],
-      "label": "Vleeswaren"
-    },
-    {
-      "name": "shoarmareepje",
-      "pluralName": "shoarmareepjes",
-      "description": "Gekruid gemarineerd vlees in reepjes; voor wraps.",
-      "aliases": [
+        },
         {
-          "name": "shoarma"
+          "name": "serrano ham"
         }
       ],
       "label": "Vleeswaren"
@@ -392,13 +470,17 @@
       "name": "speck",
       "pluralName": "speck",
       "description": "Zuid-Tiroolse gerookte ham; aromatisch en stevig.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "tiroler speck"
+        }
+      ],
       "label": "Vleeswaren"
     },
     {
       "name": "spek",
       "pluralName": "spek",
-      "description": "Gezouten of gerookt varkensspek; voor bakken of als ingredient.",
+      "description": "Gezouten of gerookt varkensspek; voor bakken of als ingrediënt.",
       "aliases": [],
       "label": "Vleeswaren"
     },

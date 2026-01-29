@@ -66,7 +66,7 @@
     },
     {
       "name": "côte de boeuf",
-      "pluralName": "côte de boeuf",
+      "pluralName": "côtes de boeuf",
       "description": "Rundvlees; groot ribeye aan het bot, voor 2 personen.",
       "aliases": [
         {
@@ -361,6 +361,23 @@
       "label": "Vlees"
     },
     {
+      "name": "lamsgehakt",
+      "pluralName": "lamsgehakt",
+      "description": "Gemalen lamsvlees; voor köfte, burgers en stoofgerechten.",
+      "aliases": [
+        {
+          "name": "lams gehakt"
+        },
+        {
+          "name": "ground lamb"
+        },
+        {
+          "name": "minced lamb"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
       "name": "lamskotelet",
       "pluralName": "lamskoteletten",
       "description": "Lamsvlees; kotelet aan het bot, kort gegrild.",
@@ -509,8 +526,21 @@
     {
       "name": "procureur",
       "pluralName": "procureurs",
-      "description": "Rundvlees; mager stoofvlees uit de schouder.",
-      "aliases": [],
+      "description": "Varkensvlees van de nek; doorregen, voor langzaam garen of BBQ.",
+      "aliases": [
+        {
+          "name": "varkensnek"
+        },
+        {
+          "name": "varkens nek"
+        },
+        {
+          "name": "procureurstuk"
+        },
+        {
+          "name": "pork neck"
+        }
+      ],
       "label": "Vlees"
     },
     {
@@ -605,6 +635,43 @@
       "label": "Vlees"
     },
     {
+      "name": "runderschenkel",
+      "pluralName": "runderschenkels",
+      "description": "Rundvlees van de schenkel; voor bouillon of langzaam stoven.",
+      "aliases": [
+        {
+          "name": "runder schenkel"
+        },
+        {
+          "name": "beef shank"
+        },
+        {
+          "name": "beef shanks"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "runderwang",
+      "pluralName": "runderwangen",
+      "description": "Rundvlees van de wang; collageenrijk, ideaal voor lang stoven.",
+      "aliases": [
+        {
+          "name": "runderwangetje"
+        },
+        {
+          "name": "runderwangetjes"
+        },
+        {
+          "name": "beef cheek"
+        },
+        {
+          "name": "beef cheeks"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
       "name": "rundvlees",
       "pluralName": "rundvlees",
       "description": "Vlees van rund; voor braden, stoven, grillen.",
@@ -651,15 +718,26 @@
       "label": "Vlees"
     },
     {
-      "name": "shortrib",
-      "pluralName": "shortribs",
+      "name": "shoarmareepje",
+      "pluralName": "shoarmareepjes",
+      "description": "Gekruid gemarineerd vlees in reepjes; voor wraps.",
+      "aliases": [
+        {
+          "name": "shoarma"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
+      "name": "short rib",
+      "pluralName": "short ribs",
       "description": "Rundvlees; korte rib, ideaal voor slow cooking.",
       "aliases": [
         {
-          "name": "short rib"
+          "name": "shortrib"
         },
         {
-          "name": "short ribs"
+          "name": "shortribs"
         }
       ],
       "label": "Vlees"
@@ -745,7 +823,7 @@
     {
       "name": "sukadelap",
       "pluralName": "sukadelappen",
-      "description": "Runderstooflap met zeen; langzaam gestoofd.",
+      "description": "Runderstooflap met zeen; voor langzaam stoven.",
       "aliases": [
         {
           "name": "sukade lap"
@@ -756,13 +834,16 @@
     {
       "name": "sukadevlees",
       "pluralName": "sukadevlees",
-      "description": "Rundvlees van de schouder; voor sudderen.",
+      "description": "Rundvlees uit de schouder; voor sudderen en stoofpot.",
       "aliases": [
         {
           "name": "sukade vlees"
         },
         {
-          "name": "sukade"
+          "name": "rundersukade"
+        },
+        {
+          "name": "runder sukade"
         }
       ],
       "label": "Vlees"

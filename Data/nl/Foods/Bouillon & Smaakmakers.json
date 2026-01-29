@@ -89,7 +89,7 @@
     {
       "name": "groentebouillonblokje",
       "pluralName": "groentebouillonblokjes",
-      "description": "Geconcentreerde groentebouillon in blokvorm.",
+      "description": "Groentebouillon in blokvorm; oplossen in water.",
       "aliases": [
         {
           "name": "groentebouillon blokje"
@@ -118,7 +118,7 @@
     {
       "name": "kippenbouillonblokje",
       "pluralName": "kippenbouillonblokjes",
-      "description": "Geconcentreerde kippenbouillon in blokvorm.",
+      "description": "Kippenbouillon in blokvorm; oplossen in water.",
       "aliases": [
         {
           "name": "kippenbouillonblok"
@@ -174,7 +174,7 @@
     {
       "name": "runderbouillonblokje",
       "pluralName": "runderbouillonblokjes",
-      "description": "Geconcentreerde runderbouillon in blokvorm.",
+      "description": "Runderbouillon in blokvorm; oplossen in water.",
       "aliases": [
         {
           "name": "runderbouillon blokje"

@@ -20,20 +20,9 @@
         },
         {
           "name": "maïsvlokken"
-        }
-      ],
-      "label": "Ontbijtgranen"
-    },
-    {
-      "name": "cruesli",
-      "pluralName": "cruesli",
-      "description": "Knapperige muesli met gekarameliseerde haver; met yoghurt of melk.",
-      "aliases": [
-        {
-          "name": "granola"
         },
         {
-          "name": "krokante muesli"
+          "name": "corn-flakes"
         }
       ],
       "label": "Ontbijtgranen"
@@ -57,10 +46,31 @@
       "label": "Ontbijtgranen"
     },
     {
+      "name": "krokante muesli",
+      "pluralName": "krokante muesli",
+      "description": "Geroosterde muesli met crunch; met yoghurt, melk of als topping.",
+      "aliases": [
+        {
+          "name": "cruesli"
+        },
+        {
+          "name": "granola"
+        },
+        {
+          "name": "krokante-muesli"
+        }
+      ],
+      "label": "Ontbijtgranen"
+    },
+    {
       "name": "muesli",
       "pluralName": "muesli",
       "description": "Mengsel van havervlokken, noten en gedroogd fruit; met melk of yoghurt.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "müsli"
+        }
+      ],
       "label": "Ontbijtgranen"
     },
     {
@@ -87,7 +97,7 @@
     {
       "name": "volkoren havermout",
       "pluralName": "volkoren havermout",
-      "description": "Minder bewerkte havervlokken met meer vezels; nuttiger voor ontbijt en bakken.",
+      "description": "Minder bewerkte havervlokken met meer vezels; voor ontbijt, pap en bakken.",
       "aliases": [],
       "label": "Ontbijtgranen"
     }

@@ -24,21 +24,27 @@
       "label": "Noten & Zaden"
     },
     {
-      "name": "amandelmeel",
-      "pluralName": "amandelmeel",
-      "description": "Fijn gemalen amandelen; glutenvrij alternatief voor bloem.",
+      "name": "amandel [geroosterd]",
+      "pluralName": "amandel [geroosterd]",
+      "description": "Geroosterde amandel; als snack of in salades.",
       "aliases": [
         {
-          "name": "gemalen amandelen"
+          "name": "geroosterde amandel"
         },
         {
-          "name": "amandelpoeder"
+          "name": "geroosterde amandelen"
         },
         {
-          "name": "amandel meel"
+          "name": "amandel geroosterd"
         },
         {
-          "name": "amandel-meel"
+          "name": "amandelen geroosterd"
+        },
+        {
+          "name": "geroosterd amandel"
+        },
+        {
+          "name": "geroosterd amandelen"
         }
       ],
       "label": "Noten & Zaden"
@@ -99,13 +105,6 @@
       "label": "Noten & Zaden"
     },
     {
-      "name": "geroosterde amandel",
-      "pluralName": "geroosterde amandelen",
-      "description": "Geroosterde amandel; als snack of in salades.",
-      "aliases": [],
-      "label": "Noten & Zaden"
-    },
-    {
       "name": "hazelnoot",
       "pluralName": "hazelnoten",
       "description": "Aromatische noot; in praline, gebak en chocolade.",
@@ -147,23 +146,6 @@
       "label": "Noten & Zaden"
     },
     {
-      "name": "kokosmeel",
-      "pluralName": "kokosmeel",
-      "description": "Gedroogd kokosmeel; meelvervanger voor bakken en pannenkoek.",
-      "aliases": [
-        {
-          "name": "kokosnootmeel"
-        },
-        {
-          "name": "kokos meel"
-        },
-        {
-          "name": "kokos-meel"
-        }
-      ],
-      "label": "Noten & Zaden"
-    },
-    {
       "name": "kokosrasp",
       "pluralName": "kokosrasp",
       "description": "Gedroogde geraspte kokos; in gebak, desserts en curry's.",
@@ -194,8 +176,8 @@
       "label": "Noten & Zaden"
     },
     {
-      "name": "lijnzaad (gemalen)",
-      "pluralName": "lijnzaad (gemalen)",
+      "name": "lijnzaad [gemalen]",
+      "pluralName": "lijnzaad [gemalen]",
       "description": "Gemalen lijnzaad; als bindmiddel in bakken en pap.",
       "aliases": [
         {
@@ -209,23 +191,29 @@
         },
         {
           "name": "vlasmeel"
+        },
+        {
+          "name": "lijnzaad gemalen"
         }
       ],
       "label": "Noten & Zaden"
     },
     {
-      "name": "lijnzaad (heel)",
-      "pluralName": "lijnzaad (heel)",
+      "name": "lijnzaad [heel]",
+      "pluralName": "lijnzaad [heel]",
       "description": "Heel lijnzaad; in brood, muesli en als topping.",
       "aliases": [
-        {
-          "name": "lijnzaden"
-        },
         {
           "name": "vlaszaad"
         },
         {
-          "name": "lijnzaad"
+          "name": "lijnzaad heel"
+        },
+        {
+          "name": "hele lijnzaad"
+        },
+        {
+          "name": "heel lijnzaad"
         }
       ],
       "label": "Noten & Zaden"

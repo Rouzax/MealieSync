@@ -395,16 +395,28 @@
     {
       "name": "santen",
       "pluralName": "santen",
-      "description": "Kokosblok; opgelost als kokosmelk voor curry's.",
+      "description": "Kokosconcentraat (santen); los op in warm vocht voor curry's en soep.",
       "aliases": [
         {
           "name": "kokosblok"
+        },
+        {
+          "name": "santenblok"
+        },
+        {
+          "name": "kokoscrème"
+        },
+        {
+          "name": "kokoscreme"
         },
         {
           "name": "cocos creme santen"
         },
         {
           "name": "creamed coconut"
+        },
+        {
+          "name": "coconut cream concentrate"
         }
       ],
       "label": "Zuivel"

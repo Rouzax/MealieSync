@@ -1,0 +1,505 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "name": "aardappel",
+      "pluralName": "aardappelen",
+      "description": "Knolgroente; veelzijdig: koken, bakken, pureren of frituren.",
+      "aliases": [
+        {
+          "name": "pieper"
+        },
+        {
+          "name": "piepers"
+        },
+        {
+          "name": "aardappeltje"
+        },
+        {
+          "name": "aardappeltjes"
+        },
+        {
+          "name": "vastkokende aardappel"
+        },
+        {
+          "name": "vastkokende aardappelen"
+        },
+        {
+          "name": "kruimige aardappel"
+        },
+        {
+          "name": "kruimige aardappelen"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "aardpeer",
+      "pluralName": "aardperen",
+      "description": "Knolgewas; zoete, nootachtige smaak, rauw of gekookt.",
+      "aliases": [
+        {
+          "name": "jeruzalem-artisjok"
+        },
+        {
+          "name": "jerusalem artichoke"
+        },
+        {
+          "name": "jeruzalem artisjok"
+        },
+        {
+          "name": "jeruzalemartisjok"
+        },
+        {
+          "name": "topinamboer"
+        },
+        {
+          "name": "topinamboers"
+        },
+        {
+          "name": "topinamboeren"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "bataat",
+      "pluralName": "bataten",
+      "description": "Zoete aardappel; oranje vruchtvlees, gebakken of gepureerd.",
+      "aliases": [
+        {
+          "name": "sweet potato"
+        },
+        {
+          "name": "sweet-potato"
+        },
+        {
+          "name": "sweetpotato"
+        },
+        {
+          "name": "zoete aardappel"
+        },
+        {
+          "name": "zoete aardappelen"
+        },
+        {
+          "name": "zoete-aardappel"
+        },
+        {
+          "name": "zoete-aardappelen"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "bospeen",
+      "pluralName": "bospeen",
+      "description": "Jonge wortel met loof; rauw of geroosterd.",
+      "aliases": [],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "cassave",
+      "pluralName": "cassaves",
+      "description": "Tropische wortelknol; zetmeelrijk, gekookt of gebakken.",
+      "aliases": [
+        {
+          "name": "maniok"
+        },
+        {
+          "name": "yuca"
+        },
+        {
+          "name": "tapioca wortel"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "chioggia biet",
+      "pluralName": "chioggia bieten",
+      "description": "Bietsoort; rood-wit geringd, rauw of geroosterd.",
+      "aliases": [
+        {
+          "name": "chioggia beet"
+        },
+        {
+          "name": "candy cane beet"
+        },
+        {
+          "name": "candycane beet"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "daikon",
+      "pluralName": "daikon",
+      "description": "Japanse radijs; rauw, ingelegd of gestoofd.",
+      "aliases": [
+        {
+          "name": "japanse radijs"
+        },
+        {
+          "name": "mooli"
+        },
+        {
+          "name": "daikonradijs"
+        },
+        {
+          "name": "daikon radijs"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "gele biet",
+      "pluralName": "gele bieten",
+      "description": "Knolgroente; goudgeel vruchtvlees, milder en zoeter dan rode biet.",
+      "aliases": [
+        {
+          "name": "golden beet"
+        },
+        {
+          "name": "gouden biet"
+        },
+        {
+          "name": "gouden bieden"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "jicama",
+      "pluralName": "jicama's",
+      "description": "Mexicaanse knol; knapperig wit vruchtvlees, licht zoet, rauw in salades.",
+      "aliases": [
+        {
+          "name": "yamboon"
+        },
+        {
+          "name": "Mexicaanse aardappel"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "knolraap",
+      "pluralName": "knolrapen",
+      "description": "Knolgroente; wit-paarse knol, mild van smaak, gekookt of gestoofd.",
+      "aliases": [
+        {
+          "name": "turnip"
+        },
+        {
+          "name": "raap"
+        },
+        {
+          "name": "witte raap"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "knolselderij",
+      "pluralName": "knolselderij",
+      "description": "Knolgroente; in soep, puree of geroosterd.",
+      "aliases": [
+        {
+          "name": "selderijknol"
+        },
+        {
+          "name": "selderijknollen"
+        },
+        {
+          "name": "knolselder"
+        },
+        {
+          "name": "celeriac"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "koolraap",
+      "pluralName": "koolrapen",
+      "description": "Knolgroente; grote geelwitte knol, zoet en mild, gestoofd of gepureerd.",
+      "aliases": [
+        {
+          "name": "rutabaga"
+        },
+        {
+          "name": "swede"
+        },
+        {
+          "name": "zweedse raap"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "koolrabi",
+      "pluralName": "koolrabi's",
+      "description": "Knolgroente; knolvormige stengel, mild zoet, rauw of gekookt.",
+      "aliases": [
+        {
+          "name": "kohlrabi"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "krieltje",
+      "pluralName": "krieltjes",
+      "description": "Kleine aardappeltjes; in schil gebakken of gekookt.",
+      "aliases": [
+        {
+          "name": "krielaardappel"
+        },
+        {
+          "name": "krielaardappelen"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "lotuswortel",
+      "pluralName": "lotuswortels",
+      "description": "Wortelknol; knapperig in roerbak, soep of frituur.",
+      "aliases": [
+        {
+          "name": "lotus root"
+        },
+        {
+          "name": "renkon"
+        },
+        {
+          "name": "renkonwortel"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "meiraap",
+      "pluralName": "meirapen",
+      "description": "Voorjaarsknol; mild van smaak, gestoofd of rauw.",
+      "aliases": [
+        {
+          "name": "meiknol"
+        },
+        {
+          "name": "meiknollen"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "mierikswortel",
+      "pluralName": "mierikswortel",
+      "description": "Pittige wortel; geraspt als kruiderij bij vis of vlees.",
+      "aliases": [
+        {
+          "name": "horseradish"
+        },
+        {
+          "name": "mierik"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "pastinaak",
+      "pluralName": "pastinaken",
+      "description": "Wortelgroente; geroosterd, gekookt of in soep.",
+      "aliases": [],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "peterseliewortel",
+      "pluralName": "peterseliewortels",
+      "description": "Wortelgroente; in soep of als puree.",
+      "aliases": [
+        {
+          "name": "wortelpeterselie"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "radijs",
+      "pluralName": "radijzen",
+      "description": "Knolgewas; pittige kleine rode knolletjes, rauw in salades.",
+      "aliases": [
+        {
+          "name": "radijsje"
+        },
+        {
+          "name": "radijsjes"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "rammenas",
+      "pluralName": "rammenassen",
+      "description": "Zwarte radijs; rauw in salade of als schijfjes.",
+      "aliases": [
+        {
+          "name": "zwarte radijs"
+        },
+        {
+          "name": "black radish"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "rettich",
+      "pluralName": "rettich",
+      "description": "Witte winterradijs; rauw, ingelegd of in salade.",
+      "aliases": [
+        {
+          "name": "witte radijs"
+        },
+        {
+          "name": "winterradijs"
+        },
+        {
+          "name": "white radish"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "rode biet",
+      "pluralName": "rode bieten",
+      "description": "Knolgroente; donkerrood vruchtvlees, aardse smaak, gekookt of geroosterd.",
+      "aliases": [
+        {
+          "name": "biet"
+        },
+        {
+          "name": "bieten"
+        },
+        {
+          "name": "kroot"
+        },
+        {
+          "name": "kroten"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "schorseneer",
+      "pluralName": "schorseneren",
+      "description": "Wortelgroente; gekookt of gestoofd als bijgerecht.",
+      "aliases": [
+        {
+          "name": "zwarte wortel"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "taro",
+      "pluralName": "taro's",
+      "description": "Tropische knol; zetmeelrijk, gekookt of gefrituurd.",
+      "aliases": [
+        {
+          "name": "dasheen"
+        },
+        {
+          "name": "colocasia"
+        },
+        {
+          "name": "tarowortel"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "waterkastanje",
+      "pluralName": "waterkastanjes",
+      "description": "Knol (Chinese waterkastanje); knapperig wit, gebruikt in roerbakgerechten.",
+      "aliases": [
+        {
+          "name": "waterchestnut"
+        },
+        {
+          "name": "Chinese waterkastanje"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "watermeloenradijs",
+      "pluralName": "watermeloenradijzen",
+      "description": "Radijs met roze kern; rauw in salade.",
+      "aliases": [
+        {
+          "name": "watermelon radish"
+        },
+        {
+          "name": "watermelonradish"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "winterwortel",
+      "pluralName": "winterwortels",
+      "description": "Grote wortel; in soep, stoof of geroosterd.",
+      "aliases": [
+        {
+          "name": "winterpeen"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "wortel",
+      "pluralName": "wortels",
+      "description": "Wortelgroente; rauw, gekookt of geroosterd.",
+      "aliases": [
+        {
+          "name": "peen"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "yacon",
+      "pluralName": "yacons",
+      "description": "Zoete knol; knapperig rauw of geroosterd in gerechten.",
+      "aliases": [
+        {
+          "name": "appelwortel"
+        },
+        {
+          "name": "yaconwortel"
+        },
+        {
+          "name": "yacón"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
+      "name": "yam",
+      "pluralName": "yams",
+      "description": "Tropische knol; groot en zetmeelrijk, gekookt of gebakken.",
+      "aliases": [
+        {
+          "name": "igname"
+        },
+        {
+          "name": "yamwortel"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    }
+  ]
+}

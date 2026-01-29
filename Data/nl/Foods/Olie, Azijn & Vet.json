@@ -113,14 +113,28 @@
       "name": "frambozenazijn",
       "pluralName": "frambozenazijn",
       "description": "Azijn gearomatiseerd met frambozen; fruitig, voor salades en sauzen.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "frambozen azijn"
+        },
+        {
+          "name": "frambozen-azijn"
+        }
+      ],
       "label": "Olie, Azijn & Vet"
     },
     {
       "name": "hazelnootolie",
       "pluralName": "hazelnootolie",
       "description": "Olie van hazelnoten; nootachtig aroma, voor dressings en bakken.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "hazelnotenolie"
+        },
+        {
+          "name": "hazelnoot olie"
+        }
+      ],
       "label": "Olie, Azijn & Vet"
     },
     {
@@ -133,6 +147,9 @@
         },
         {
           "name": "kokosnotolie"
+        },
+        {
+          "name": "kokosnootolie"
         }
       ],
       "label": "Olie, Azijn & Vet"
@@ -150,6 +167,9 @@
         },
         {
           "name": "canolaolie"
+        },
+        {
+          "name": "canola olie"
         }
       ],
       "label": "Olie, Azijn & Vet"
@@ -170,9 +190,6 @@
         },
         {
           "name": "ongebrande sesamolie"
-        },
-        {
-          "name": "raw sesame oil"
         }
       ],
       "label": "Olie, Azijn & Vet"
@@ -181,7 +198,11 @@
       "name": "lijnzaadolie",
       "pluralName": "lijnzaadolie",
       "description": "Olie van lijnzaad; rijk aan omega-3, niet verhitten, voor dressings.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "lijnzaad olie"
+        }
+      ],
       "label": "Olie, Azijn & Vet"
     },
     {
@@ -199,7 +220,14 @@
       "name": "mosterdolie",
       "pluralName": "mosterdolie",
       "description": "Scherpe olie uit mosterdzaad; voor Indiase en Bengaalse gerechten.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "mosterd olie"
+        },
+        {
+          "name": "mosterdzaadolie"
+        }
+      ],
       "label": "Olie, Azijn & Vet"
     },
     {
@@ -223,6 +251,9 @@
         },
         {
           "name": "slaolie"
+        },
+        {
+          "name": "kookolie"
         }
       ],
       "label": "Olie, Azijn & Vet"
@@ -234,6 +265,9 @@
       "aliases": [
         {
           "name": "olijf olie"
+        },
+        {
+          "name": "olive oil"
         }
       ],
       "label": "Olie, Azijn & Vet"
@@ -322,7 +356,11 @@
       "name": "rode wijnazijn",
       "pluralName": "rode wijnazijn",
       "description": "Azijn van rode wijn; robuust, voor vinaigrettes en stoofgerechten.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "rode wijn azijn"
+        }
+      ],
       "label": "Olie, Azijn & Vet"
     },
     {
@@ -338,9 +376,6 @@
         },
         {
           "name": "donkere sesamolie"
-        },
-        {
-          "name": "toasted sesame oil"
         }
       ],
       "label": "Olie, Azijn & Vet"
@@ -349,21 +384,36 @@
       "name": "sherryazijn",
       "pluralName": "sherryazijn",
       "description": "Azijn van sherrywijn; complex en nootachtig, voor Spaanse gerechten.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "sherry azijn"
+        }
+      ],
       "label": "Olie, Azijn & Vet"
     },
     {
       "name": "truffelolie",
       "pluralName": "truffelolie",
       "description": "Olie gearomatiseerd met truffel; druppelsgewijs als luxe smaakmaker.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "truffel olie"
+        }
+      ],
       "label": "Olie, Azijn & Vet"
     },
     {
       "name": "walnootolie",
       "pluralName": "walnootolie",
       "description": "Olie van walnoten; nootachtig, voor salades en niet verhitten.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "walnotenolie"
+        },
+        {
+          "name": "walnoot olie"
+        }
+      ],
       "label": "Olie, Azijn & Vet"
     },
     {
@@ -381,7 +431,11 @@
       "name": "witte wijnazijn",
       "pluralName": "witte wijnazijn",
       "description": "Azijn van witte wijn; mild en fris, voor vinaigrettes.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "witte wijn azijn"
+        }
+      ],
       "label": "Olie, Azijn & Vet"
     },
     {
@@ -394,6 +448,9 @@
         },
         {
           "name": "roerbakolie"
+        },
+        {
+          "name": "wok-olie"
         }
       ],
       "label": "Olie, Azijn & Vet"

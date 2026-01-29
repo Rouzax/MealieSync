@@ -4,18 +4,33 @@
   "$version": "1.0",
   "items": [
     {
-      "name": "achiotepasta",
-      "pluralName": "achiotepasta",
-      "description": "Annattopasta; kruidige rode pasta voor marinades.",
+      "name": "ajowanzaad",
+      "pluralName": "ajowanzaad",
+      "description": "Aromatisch specerijzaad (ajwain); toast of maal voor curry en brood.",
       "aliases": [
         {
-          "name": "achiote pasta"
+          "name": "ajowan"
         },
         {
-          "name": "pasta de achiote"
+          "name": "ajowan seed"
+        },
+        {
+          "name": "ajowan seeds"
+        },
+        {
+          "name": "ajwain"
+        },
+        {
+          "name": "ajwainzaad"
+        },
+        {
+          "name": "carom seed"
+        },
+        {
+          "name": "carom seeds"
         }
       ],
-      "label": "Sauzen & Condimenten"
+      "label": "Kruiden & Specerijen"
     },
     {
       "name": "amchoor",
@@ -94,6 +109,12 @@
       "aliases": [
         {
           "name": "gedroogde basilicum"
+        },
+        {
+          "name": "basilicum gedroogd"
+        },
+        {
+          "name": "gedroogd basilicum"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -106,24 +127,10 @@
       "label": "Kruiden & Specerijen"
     },
     {
-      "name": "bouquet garni",
-      "pluralName": "bouquet garni",
-      "description": "Kruidenbundel; meegetrokken in bouillon en stoof.",
-      "aliases": [
-        {
-          "name": "bouquet-garni"
-        }
-      ],
-      "label": "Verse kruiden"
-    },
-    {
       "name": "bruin mosterdzaad",
       "pluralName": "bruine mosterdzaden",
       "description": "Bruin mosterdzaad; pittig voor curry en pickles.",
       "aliases": [
-        {
-          "name": "bruine mosterdzaden"
-        },
         {
           "name": "bruin mosterdzaadjes"
         },
@@ -145,10 +152,10 @@
           "name": "cajun kruiden"
         },
         {
-          "name": "cajun kruidenmix"
+          "name": "cajun seasoning"
         },
         {
-          "name": "cajun seasoning"
+          "name": "cajun kruidenmix"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -221,6 +228,9 @@
         },
         {
           "name": "dille gedroogd"
+        },
+        {
+          "name": "gedroogd dille"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -234,13 +244,16 @@
           "name": "gedroogde dragon"
         },
         {
-          "name": "tarragon"
-        },
-        {
           "name": "gedroogde tarragon"
         },
         {
           "name": "tarragon gedroogd"
+        },
+        {
+          "name": "dragon gedroogd"
+        },
+        {
+          "name": "gedroogd dragon"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -326,6 +339,20 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "name": "geel mosterdzaad",
+      "pluralName": "gele mosterdzaden",
+      "description": "Geel mosterdzaad; mild pittig voor curry en pickles.",
+      "aliases": [
+        {
+          "name": "gele mosterdzaad"
+        },
+        {
+          "name": "gele mosterdzaadjes"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "name": "gehaktkruiden",
       "pluralName": "gehaktkruiden",
       "description": "Kruidenmix voor gehakt; vaak met paprika en nootmuskaat.",
@@ -340,15 +367,30 @@
       "label": "Kruiden & Specerijen"
     },
     {
-      "name": "geel mosterdzaad",
-      "pluralName": "gele mosterdzaden",
-      "description": "Geel mosterdzaad; mild pittig voor curry en pickles.",
+      "name": "gember",
+      "pluralName": "gember",
+      "description": "Wortelstok; pittig in wok, curry, thee of marinades.",
       "aliases": [
         {
-          "name": "gele mosterdzaad"
+          "name": "gemberwortel"
         },
         {
-          "name": "gele mosterdzaadjes"
+          "name": "verse gember"
+        },
+        {
+          "name": "vers gember"
+        },
+        {
+          "name": "gember vers"
+        },
+        {
+          "name": "verse gemberwortel"
+        },
+        {
+          "name": "ginger"
+        },
+        {
+          "name": "ginger root"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -415,6 +457,23 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "name": "groene kardemompeul",
+      "pluralName": "groene kardemompeulen",
+      "description": "Groene kardemompeul; kneus en gebruik in curry, chai en gebak.",
+      "aliases": [
+        {
+          "name": "groene kardemonpeul"
+        },
+        {
+          "name": "groene kardemom peul"
+        },
+        {
+          "name": "groene kardemom peulen"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "name": "gyroskruiden",
       "pluralName": "gyroskruiden",
       "description": "Griekse kruidenmix; o.a. oregano en knoflook voor vlees.",
@@ -422,15 +481,24 @@
       "label": "Kruiden & Specerijen"
     },
     {
-      "name": "indisch laurierblad",
-      "pluralName": "indische laurierbladeren",
-      "description": "Indisch laurierblad; kaneelachtig blad in curry en rijst.",
+      "name": "indiase laurierblad",
+      "pluralName": "indiase laurierbladeren",
+      "description": "Indiase laurierblad; geeft kaneelachtig aroma aan curry en rijst.",
       "aliases": [
         {
-          "name": "tejpatta"
+          "name": "indisch laurierblad"
+        },
+        {
+          "name": "indische laurierblad"
+        },
+        {
+          "name": "indische laurierbladeren"
         },
         {
           "name": "tej patta"
+        },
+        {
+          "name": "tejpatta"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -486,6 +554,12 @@
         },
         {
           "name": "kaneelstokken"
+        },
+        {
+          "name": "kaneel stokje"
+        },
+        {
+          "name": "kaneel stokjes"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -528,26 +602,6 @@
       "label": "Kruiden & Specerijen"
     },
     {
-      "name": "kardemom [heel]",
-      "pluralName": "kardemom [heel]",
-      "description": "Groene kardemompeulen; warm-aromatisch voor zoet en curry.",
-      "aliases": [
-        {
-          "name": "groene kardemom"
-        },
-        {
-          "name": "kardemompeul"
-        },
-        {
-          "name": "kardemompeulen"
-        },
-        {
-          "name": "groene kardemompeulen"
-        }
-      ],
-      "label": "Kruiden & Specerijen"
-    },
-    {
       "name": "karwijzaad",
       "pluralName": "karwijzaad",
       "description": "Karwijzaad; anijsachtig voor brood en koolgerechten.",
@@ -567,19 +621,111 @@
     {
       "name": "kashmiri chilipeper [gedroogd]",
       "pluralName": "kashmiri chilipepers [gedroogd]",
-      "description": "Gedroogde kashmiri chili; mild pittig en rood kleurend.",
+      "description": "Gedroogde Kashmiri chilipeper; mild pittig en kleurt curry's en sauzen rood.",
       "aliases": [
         {
-          "name": "kashmiri chili"
+          "name": "gedroogd kashmiri chilipeper"
         },
         {
-          "name": "kashmiri chilipeper"
+          "name": "gedroogde kashmiri chilipeper"
         },
         {
-          "name": "kashmiri chilipepers"
+          "name": "gedroogde kashmiri pepers"
         },
         {
-          "name": "gedroogde kashmiri chilipepers"
+          "name": "hele kashmiri chilipeper"
+        },
+        {
+          "name": "kashmiri chili peper"
+        },
+        {
+          "name": "kashmiri chilipeper gedroogd"
+        },
+        {
+          "name": "kashmiri mirch"
+        },
+        {
+          "name": "kashmiri peper"
+        },
+        {
+          "name": "kashmiri pepers gedroogd"
+        },
+        {
+          "name": "kashmiri rode chili"
+        },
+        {
+          "name": "kashmiri rode chilli"
+        },
+        {
+          "name": "kashmiri rode chili peper"
+        },
+        {
+          "name": "kashmiri rode chilipeper"
+        },
+        {
+          "name": "kashmiri whole red chillies"
+        },
+        {
+          "name": "whole kashmiri chillies"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
+      "name": "kashmiri chilipoeder",
+      "pluralName": "kashmiri chilipoeder",
+      "description": "Mild pittig rood chilipoeder van Kashmiri pepers; geeft kleur aan curry's en tandoori.",
+      "aliases": [
+        {
+          "name": "gemalen kashmiri chili"
+        },
+        {
+          "name": "gemalen kashmiri chilipeper"
+        },
+        {
+          "name": "kasjmir chillipoeder"
+        },
+        {
+          "name": "kashmiri chili poeder"
+        },
+        {
+          "name": "kashmiri chili powder"
+        },
+        {
+          "name": "kashmiri chilli poeder"
+        },
+        {
+          "name": "kashmiri chilli powder"
+        },
+        {
+          "name": "kashmiri mirch poeder"
+        },
+        {
+          "name": "kashmiri mirch powder"
+        },
+        {
+          "name": "kashmiri red chili powder"
+        },
+        {
+          "name": "kashmiri red chilli powder"
+        },
+        {
+          "name": "kashmiri rode chili poeder"
+        },
+        {
+          "name": "kashmiri rode chilipoeder"
+        },
+        {
+          "name": "kashmiri rode chilli poeder"
+        },
+        {
+          "name": "kasmiri chili poeder"
+        },
+        {
+          "name": "kasmiri chilli powder"
+        },
+        {
+          "name": "kasmiri chilipoeder"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -634,32 +780,6 @@
         }
       ],
       "label": "Kruiden & Specerijen"
-    },
-    {
-      "name": "kerrieblad [vers]",
-      "pluralName": "kerriebladeren [vers]",
-      "description": "Verse kerriebladeren; aromatisch meegebakken in curry.",
-      "aliases": [
-        {
-          "name": "curry leaves"
-        },
-        {
-          "name": "curryblad"
-        },
-        {
-          "name": "curryblaadje"
-        },
-        {
-          "name": "curryblaadjes"
-        },
-        {
-          "name": "kerrieblaadje"
-        },
-        {
-          "name": "kerrieblaadjes"
-        }
-      ],
-      "label": "Verse kruiden"
     },
     {
       "name": "knoflookpoeder",
@@ -739,12 +859,25 @@
       "description": "Heel korianderzaad; citrusachtig voor curry en pickles.",
       "aliases": [
         {
-          "name": "korianderzaad"
+          "name": "korianderzaad heel"
         },
         {
-          "name": "korianderzaden"
+          "name": "heel korianderzaad"
+        },
+        {
+          "name": "korianderzaden heel"
+        },
+        {
+          "name": "hele korianderzaden"
         }
       ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
+      "name": "kruidenzout",
+      "pluralName": "kruidenzout",
+      "description": "Zout met kruiden; snelle smaakmaker voor hartig.",
+      "aliases": [],
       "label": "Kruiden & Specerijen"
     },
     {
@@ -779,13 +912,6 @@
       "label": "Kruiden & Specerijen"
     },
     {
-      "name": "kruidenzout",
-      "pluralName": "kruidenzout",
-      "description": "Zout met kruiden; snelle smaakmaker voor hartig.",
-      "aliases": [],
-      "label": "Kruiden & Specerijen"
-    },
-    {
       "name": "kurkuma [vers]",
       "pluralName": "kurkuma [vers]",
       "description": "Verse kurkumawortel; fris-aards voor curry en thee.",
@@ -795,9 +921,21 @@
         },
         {
           "name": "verse kurkuma"
+        },
+        {
+          "name": "vers kurkuma"
+        },
+        {
+          "name": "kurkuma vers"
+        },
+        {
+          "name": "vers kurkumawortel"
+        },
+        {
+          "name": "kurkuma wortel"
         }
       ],
-      "label": "Aardappelen & Knollen"
+      "label": "Kruiden & Specerijen"
     },
     {
       "name": "kurkumapoeder",
@@ -867,23 +1005,29 @@
         },
         {
           "name": "verse laos"
+        },
+        {
+          "name": "verse laoswortel"
+        },
+        {
+          "name": "vers laos"
+        },
+        {
+          "name": "laos vers"
+        },
+        {
+          "name": "laos wortel"
         }
       ],
-      "label": "Aardappelen & Knollen"
+      "label": "Kruiden & Specerijen"
     },
     {
-      "name": "laurierblad [gedroogd]",
-      "pluralName": "laurierblaadjes [gedroogd]",
-      "description": "Gedroogd laurierblad; krachtig aroma, lang meegetrokken in soep en stoof.",
+      "name": "laurierblad",
+      "pluralName": "laurierbladeren",
+      "description": "Laurierblad; meegekookt in soep, saus en stoof.",
       "aliases": [
         {
-          "name": "bay leaf"
-        },
-        {
           "name": "laurier"
-        },
-        {
-          "name": "laurierblad"
         },
         {
           "name": "laurierblaadje"
@@ -893,9 +1037,6 @@
         },
         {
           "name": "laurierbladen"
-        },
-        {
-          "name": "laurierbladeren"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -907,6 +1048,12 @@
       "aliases": [
         {
           "name": "gedroogde marjolein"
+        },
+        {
+          "name": "marjolein gedroogd"
+        },
+        {
+          "name": "gedroogd marjolein"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -918,6 +1065,12 @@
       "aliases": [
         {
           "name": "gedroogde munt"
+        },
+        {
+          "name": "munt gedroogd"
+        },
+        {
+          "name": "gedroogd munt"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -994,6 +1147,12 @@
       "aliases": [
         {
           "name": "gedroogde oregano"
+        },
+        {
+          "name": "oregano gedroogd"
+        },
+        {
+          "name": "gedroogd oregano"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -1034,12 +1193,29 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "name": "peper",
+      "pluralName": "peper",
+      "description": "Pittige smaakmaker; als korrel of gemalen.",
+      "aliases": [
+        {
+          "name": "gemalen peper"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "name": "peterselie [gedroogd]",
       "pluralName": "peterselie [gedroogd]",
       "description": "Gedroogde peterselie; milde kruidigheid als garnering.",
       "aliases": [
         {
           "name": "gedroogde peterselie"
+        },
+        {
+          "name": "peterselie gedroogd"
+        },
+        {
+          "name": "gedroogd peterselie"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -1074,6 +1250,12 @@
         },
         {
           "name": "pimentkorrels"
+        },
+        {
+          "name": "piment korrel"
+        },
+        {
+          "name": "piment korrels"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -1129,6 +1311,13 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "name": "roze peper",
+      "pluralName": "roze peper",
+      "description": "Roze peperbes; mild en fruitig als afwerking.",
+      "aliases": [],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "name": "rozemarijn [gedroogd]",
       "pluralName": "rozemarijn [gedroogd]",
       "description": "Gedroogde rozemarijn; houtig aroma bij aardappel en vlees.",
@@ -1138,22 +1327,37 @@
         },
         {
           "name": "rosemary"
+        },
+        {
+          "name": "rozemarijn gedroogd"
+        },
+        {
+          "name": "gedroogd rozemarijn"
         }
       ],
-      "label": "Kruiden & Specerijen"
-    },
-    {
-      "name": "roze peper",
-      "pluralName": "roze peper",
-      "description": "Roze peperbes; mild en fruitig als afwerking.",
-      "aliases": [],
       "label": "Kruiden & Specerijen"
     },
     {
       "name": "saffraan",
       "pluralName": "saffraan",
       "description": "Saffraandraadjes; geel kleurend voor rijst, paella en bouillon.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "saffraandraadje"
+        },
+        {
+          "name": "saffraandraadjes"
+        },
+        {
+          "name": "saffraan draadje"
+        },
+        {
+          "name": "saffraan draadjes"
+        },
+        {
+          "name": "saffraan-draadjes"
+        }
+      ],
       "label": "Kruiden & Specerijen"
     },
     {
@@ -1163,6 +1367,12 @@
       "aliases": [
         {
           "name": "gedroogde salie"
+        },
+        {
+          "name": "salie gedroogd"
+        },
+        {
+          "name": "gedroogd salie"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -1235,13 +1445,42 @@
       "description": "Szechuanpeper; citrus-tintelend voor Chinese gerechten.",
       "aliases": [
         {
-          "name": "sichuan pepper"
-        },
-        {
           "name": "sichuanpeper"
         },
         {
           "name": "szechuan peper"
+        },
+        {
+          "name": "sichuan pepper"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
+      "name": "tandoori masala",
+      "pluralName": "tandoori masala",
+      "description": "Indiase kruidenmix; voor tandoori-marinade of om vlees, vis of groente te kruiden.",
+      "aliases": [
+        {
+          "name": "tandoori kruidenmix"
+        },
+        {
+          "name": "tandoori masala kruidenmix"
+        },
+        {
+          "name": "tandoori masala mix"
+        },
+        {
+          "name": "tandoori seasoning"
+        },
+        {
+          "name": "tandoori spice mix"
+        },
+        {
+          "name": "tandoori-masala"
+        },
+        {
+          "name": "tandoorimasala"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -1281,6 +1520,12 @@
       "aliases": [
         {
           "name": "gedroogde tijm"
+        },
+        {
+          "name": "tijm gedroogd"
+        },
+        {
+          "name": "gedroogd tijm"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -1321,6 +1566,12 @@
         },
         {
           "name": "vanillestokjes"
+        },
+        {
+          "name": "vanille stokje"
+        },
+        {
+          "name": "vanille stokjes"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -1329,13 +1580,6 @@
       "name": "venkelzaad",
       "pluralName": "venkelzaad",
       "description": "Venkelzaad; anijsachtig voor worst en brood.",
-      "aliases": [],
-      "label": "Kruiden & Specerijen"
-    },
-    {
-      "name": "viskruiden",
-      "pluralName": "viskruiden",
-      "description": "Kruidenmix voor vis; fris kruidig met o.a. dille.",
       "aliases": [],
       "label": "Kruiden & Specerijen"
     },
@@ -1354,6 +1598,13 @@
           "name": "five-spice"
         }
       ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
+      "name": "viskruiden",
+      "pluralName": "viskruiden",
+      "description": "Kruidenmix voor vis; fris kruidig met o.a. dille.",
+      "aliases": [],
       "label": "Kruiden & Specerijen"
     },
     {
@@ -1380,6 +1631,9 @@
         },
         {
           "name": "witte peperkorrels"
+        },
+        {
+          "name": "witte peper korrel"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -1431,12 +1685,18 @@
       "label": "Kruiden & Specerijen"
     },
     {
-      "name": "zwarte kardemom",
-      "pluralName": "zwarte kardemom",
-      "description": "Zwarte kardemompeul; rokerig aroma in stoof en curry.",
+      "name": "zwarte kardemompeul",
+      "pluralName": "zwarte kardemompeulen",
+      "description": "Zwarte kardemompeul; rokerig aroma in stoofschotels en masala.",
       "aliases": [
         {
-          "name": "zwarte kardemompeulen"
+          "name": "zwarte kardompeul"
+        },
+        {
+          "name": "zwarte kardemom peul"
+        },
+        {
+          "name": "zwarte kardemom peulen"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -1465,6 +1725,9 @@
         },
         {
           "name": "zwarte peperkorrels"
+        },
+        {
+          "name": "zwarte peper korrel"
         }
       ],
       "label": "Kruiden & Specerijen"

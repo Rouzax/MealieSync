@@ -331,6 +331,26 @@
       "label": "Zoetwaren"
     },
     {
+      "name": "lange vinger",
+      "pluralName": "lange vingers",
+      "description": "Luchtig biscuitkoekje; gebruikt in tiramisu en desserts.",
+      "aliases": [
+        {
+          "name": "langevinger"
+        },
+        {
+          "name": "langevingers"
+        },
+        {
+          "name": "ladyfinger"
+        },
+        {
+          "name": "savoiardi"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
       "name": "luikse stroop",
       "pluralName": "luikse stroop",
       "description": "Dikke donkere fruitstroop; Belgisch streekproduct.",

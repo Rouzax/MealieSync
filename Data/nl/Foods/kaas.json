@@ -13,7 +13,7 @@
     {
       "name": "asiago",
       "pluralName": "asiago",
-      "description": "Italiaanse (half)harde kaas; raspen of op kaasplank.",
+      "description": "Italiaanse half- tot harde kaas; raspen of op kaasplank.",
       "aliases": [],
       "label": "Kaas"
     },
@@ -25,13 +25,10 @@
       "label": "Kaas"
     },
     {
-      "name": "belegen kaas (20+)",
-      "pluralName": "belegen kaas (20+)",
+      "name": "belegen kaas 20+",
+      "pluralName": "belegen kaas 20+",
       "description": "Zeer magere belegen kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "belegen kaas 20+"
-        },
         {
           "name": "belegen 20+ kaas"
         },
@@ -42,13 +39,10 @@
       "label": "Kaas"
     },
     {
-      "name": "belegen kaas (30+)",
-      "pluralName": "belegen kaas (30+)",
+      "name": "belegen kaas 30+",
+      "pluralName": "belegen kaas 30+",
       "description": "Magere belegen kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "belegen kaas 30+"
-        },
         {
           "name": "belegen 30+ kaas"
         },
@@ -59,13 +53,10 @@
       "label": "Kaas"
     },
     {
-      "name": "belegen kaas (35+)",
-      "pluralName": "belegen kaas (35+)",
+      "name": "belegen kaas 35+",
+      "pluralName": "belegen kaas 35+",
       "description": "Minder vette belegen kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "belegen kaas 35+"
-        },
         {
           "name": "belegen 35+ kaas"
         },
@@ -76,13 +67,10 @@
       "label": "Kaas"
     },
     {
-      "name": "belegen kaas (48+)",
-      "pluralName": "belegen kaas (48+)",
+      "name": "belegen kaas 48+",
+      "pluralName": "belegen kaas 48+",
       "description": "Volvette belegen kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "belegen kaas 48+"
-        },
         {
           "name": "belegen 48+ kaas"
         },
@@ -99,6 +87,12 @@
       "aliases": [
         {
           "name": "blauwe kaas"
+        },
+        {
+          "name": "blauwe schimmelkaas"
+        },
+        {
+          "name": "blue cheese"
         }
       ],
       "label": "Kaas"
@@ -124,6 +118,15 @@
       "aliases": [
         {
           "name": "mozzarella di bufala"
+        },
+        {
+          "name": "buffel mozzarella"
+        },
+        {
+          "name": "buffel-mozzarella"
+        },
+        {
+          "name": "mozzarella bufala"
         }
       ],
       "label": "Kaas"
@@ -132,7 +135,14 @@
       "name": "burrata",
       "pluralName": "burrata",
       "description": "Verse mozzarella met roomvulling; serveer met tomaat en brood.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "burratta"
+        },
+        {
+          "name": "buratta"
+        }
+      ],
       "label": "Kaas"
     },
     {
@@ -197,12 +207,38 @@
       "label": "Kaas"
     },
     {
+      "name": "fonduekaas",
+      "pluralName": "fonduekaas",
+      "description": "Kaasblend voor fondue; smelt met wijn of bouillon.",
+      "aliases": [
+        {
+          "name": "kaasfondue kaas"
+        },
+        {
+          "name": "fondue kaas"
+        }
+      ],
+      "label": "Kaas"
+    },
+    {
       "name": "geitenkaas",
       "pluralName": "geitenkaas",
       "description": "Kaas van geitenmelk; op toast, in salade of gratin.",
       "aliases": [
         {
           "name": "chèvre"
+        },
+        {
+          "name": "chevre"
+        },
+        {
+          "name": "goat cheese"
+        },
+        {
+          "name": "goat's cheese"
+        },
+        {
+          "name": "goats cheese"
         }
       ],
       "label": "Kaas"
@@ -211,7 +247,17 @@
       "name": "geraspte kaas",
       "pluralName": "geraspte kaas",
       "description": "Voorgeraspte kaas; handig voor gratineren.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "pizzakaas"
+        },
+        {
+          "name": "pizza kaas"
+        },
+        {
+          "name": "pizzamix"
+        }
+      ],
       "label": "Kaas"
     },
     {
@@ -242,7 +288,7 @@
     {
       "name": "gruyère",
       "pluralName": "gruyère",
-      "description": "Zwitserse (half)harde kaas; voor fondue, gratin of tosti.",
+      "description": "Zwitserse half- tot harde kaas; voor fondue, gratin of tosti.",
       "aliases": [
         {
           "name": "gruyere"
@@ -267,6 +313,12 @@
         },
         {
           "name": "huttenkase"
+        },
+        {
+          "name": "huttenkaas"
+        },
+        {
+          "name": "hutten kaas"
         }
       ],
       "label": "Kaas"
@@ -279,13 +331,10 @@
       "label": "Kaas"
     },
     {
-      "name": "jonge kaas (20+)",
-      "pluralName": "jonge kaas (20+)",
+      "name": "jonge kaas 20+",
+      "pluralName": "jonge kaas 20+",
       "description": "Zeer magere jonge kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "jonge kaas 20+"
-        },
         {
           "name": "jonge 20+ kaas"
         },
@@ -296,13 +345,10 @@
       "label": "Kaas"
     },
     {
-      "name": "jonge kaas (30+)",
-      "pluralName": "jonge kaas (30+)",
+      "name": "jonge kaas 30+",
+      "pluralName": "jonge kaas 30+",
       "description": "Magere jonge kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "jonge kaas 30+"
-        },
         {
           "name": "jonge 30+ kaas"
         },
@@ -313,13 +359,10 @@
       "label": "Kaas"
     },
     {
-      "name": "jonge kaas (35+)",
-      "pluralName": "jonge kaas (35+)",
+      "name": "jonge kaas 35+",
+      "pluralName": "jonge kaas 35+",
       "description": "Minder vette jonge kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "jonge kaas 35+"
-        },
         {
           "name": "jonge 35+ kaas"
         },
@@ -330,13 +373,10 @@
       "label": "Kaas"
     },
     {
-      "name": "jonge kaas (48+)",
-      "pluralName": "jonge kaas (48+)",
+      "name": "jonge kaas 48+",
+      "pluralName": "jonge kaas 48+",
       "description": "Volvette jonge kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "jonge kaas 48+"
-        },
         {
           "name": "jonge 48+ kaas"
         },
@@ -350,7 +390,26 @@
       "name": "kaas",
       "pluralName": "kaas",
       "description": "Gestremd melkproduct; op brood, in saus of ovenschotel.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "plak kaas"
+        },
+        {
+          "name": "plakken kaas"
+        },
+        {
+          "name": "kaasplak"
+        },
+        {
+          "name": "kaasplakken"
+        },
+        {
+          "name": "blokjes kaas"
+        },
+        {
+          "name": "kaasblokjes"
+        }
+      ],
       "label": "Kaas"
     },
     {
@@ -456,13 +515,10 @@
       "label": "Kaas"
     },
     {
-      "name": "oude kaas (20+)",
-      "pluralName": "oude kaas (20+)",
+      "name": "oude kaas 20+",
+      "pluralName": "oude kaas 20+",
       "description": "Zeer magere oude kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "oude kaas 20+"
-        },
         {
           "name": "oude 20+ kaas"
         },
@@ -473,13 +529,10 @@
       "label": "Kaas"
     },
     {
-      "name": "oude kaas (30+)",
-      "pluralName": "oude kaas (30+)",
+      "name": "oude kaas 30+",
+      "pluralName": "oude kaas 30+",
       "description": "Magere oude kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "oude kaas 30+"
-        },
         {
           "name": "oude 30+ kaas"
         },
@@ -490,13 +543,10 @@
       "label": "Kaas"
     },
     {
-      "name": "oude kaas (35+)",
-      "pluralName": "oude kaas (35+)",
+      "name": "oude kaas 35+",
+      "pluralName": "oude kaas 35+",
       "description": "Minder vette oude kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "oude kaas 35+"
-        },
         {
           "name": "oude 35+ kaas"
         },
@@ -507,13 +557,10 @@
       "label": "Kaas"
     },
     {
-      "name": "oude kaas (48+)",
-      "pluralName": "oude kaas (48+)",
+      "name": "oude kaas 48+",
+      "pluralName": "oude kaas 48+",
       "description": "Volvette oude kaas; op brood, tosti of in gerechten.",
       "aliases": [
-        {
-          "name": "oude kaas 48+"
-        },
         {
           "name": "oude 48+ kaas"
         },

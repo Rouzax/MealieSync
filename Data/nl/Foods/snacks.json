@@ -9,6 +9,9 @@
       "description": "Gefrituurde aardappelschijfjes; knapperige snack of topping.",
       "aliases": [
         {
+          "name": "aardappel chips"
+        },
+        {
           "name": "aardappelchips"
         }
       ],
@@ -20,7 +23,19 @@
       "description": "Gefrituurde cassave- of garnalenchip; knapperig bijgerecht bij Indonesische gerechten.",
       "aliases": [
         {
+          "name": "garnalen kroepoek"
+        },
+        {
+          "name": "garnalenkroepoek"
+        },
+        {
+          "name": "krupuk"
+        },
+        {
           "name": "prawn crackers"
+        },
+        {
+          "name": "shrimp crackers"
         }
       ],
       "label": "Snacks"
@@ -32,6 +47,18 @@
       "aliases": [
         {
           "name": "gepofte mais"
+        },
+        {
+          "name": "gepofte maïs"
+        },
+        {
+          "name": "pofmais"
+        },
+        {
+          "name": "pofmaïs"
+        },
+        {
+          "name": "pop corn"
         }
       ],
       "label": "Snacks"
@@ -41,6 +68,15 @@
       "pluralName": "tortillachips",
       "description": "Gefrituurde maïschips; voor nacho's en bij dips.",
       "aliases": [
+        {
+          "name": "mais chips"
+        },
+        {
+          "name": "maischips"
+        },
+        {
+          "name": "maïschips"
+        },
         {
           "name": "nacho chips"
         },

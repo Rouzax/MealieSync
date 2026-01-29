@@ -4,120 +4,149 @@
   "$version": "1.0",
   "items": [
     {
-      "name": "Groente",
-      "color": "#4CAF50"
-    },
-    {
-      "name": "Fruit",
-      "color": "#8BC34A"
-    },
-    {
-      "name": "Verse kruiden",
-      "color": "#2E7D32"
-    },
-    {
+      "id": "90ebc593-1519-4efc-99c2-481f6ffb8dee",
       "name": "Aardappelen & Knollen",
       "color": "#8D6E63"
     },
     {
-      "name": "Vlees",
-      "color": "#E53935"
-    },
-    {
-      "name": "Gevogelte",
-      "color": "#F48FB1"
-    },
-    {
-      "name": "Vis & Zeevruchten",
-      "color": "#1E88E5"
-    },
-    {
-      "name": "Vleeswaren",
-      "color": "#C62828"
-    },
-    {
-      "name": "Zuivel",
-      "color": "#FFF9C4"
-    },
-    {
-      "name": "Kaas",
-      "color": "#FFB300"
-    },
-    {
-      "name": "Eieren",
-      "color": "#FFEE58"
-    },
-    {
-      "name": "Brood & Gebak",
-      "color": "#A1887F"
-    },
-    {
+      "id": "bd77e9f4-0862-42f3-a484-3360b5f742fb",
       "name": "Bakproducten",
       "color": "#D7CCC8"
     },
     {
-      "name": "Ontbijtgranen",
-      "color": "#FFCA28"
-    },
-    {
-      "name": "Pasta, Rijst & Noedels",
-      "color": "#FFD54F"
-    },
-    {
-      "name": "Peulvruchten",
-      "color": "#689F38"
-    },
-    {
-      "name": "Noten & Zaden",
-      "color": "#827717"
-    },
-    {
-      "name": "Kruiden & Specerijen",
-      "color": "#7B1FA2"
-    },
-    {
-      "name": "Olie, Azijn & Vet",
-      "color": "#F9A825"
-    },
-    {
-      "name": "Sauzen & Condimenten",
-      "color": "#D81B60"
-    },
-    {
-      "name": "Bouillon & Smaakmakers",
-      "color": "#AB47BC"
-    },
-    {
-      "name": "Snacks",
-      "color": "#FFAB91"
-    },
-    {
-      "name": "Zoetwaren",
-      "color": "#EC407A"
-    },
-    {
-      "name": "Dranken",
-      "color": "#29B6F6"
-    },
-    {
-      "name": "Wijn",
-      "color": "#880E4F"
-    },
-    {
+      "id": "bf32f5bf-dd5d-4df2-be1a-74ad7bc53b49",
       "name": "Bier",
       "color": "#FF8F00"
     },
     {
-      "name": "Sterke drank & Likeuren",
-      "color": "#4A148C"
+      "id": "0f8d2ef0-5b69-41a3-a24d-e33017bc5c89",
+      "name": "Bouillon & Smaakmakers",
+      "color": "#AB47BC"
     },
     {
+      "id": "fbbefff6-ef45-4062-9796-0a62ef407123",
+      "name": "Brood & Gebak",
+      "color": "#A1887F"
+    },
+    {
+      "id": "222dc9c3-aef0-4ec8-a121-ecadcb6fb420",
+      "name": "Dranken",
+      "color": "#29B6F6"
+    },
+    {
+      "id": "addbbe1b-cfcc-4c77-85be-697272dda421",
+      "name": "Eieren",
+      "color": "#FFEE58"
+    },
+    {
+      "id": "7fb83a9e-8d6d-4e31-8daf-2a04da5e567b",
+      "name": "Fruit",
+      "color": "#8BC34A"
+    },
+    {
+      "id": "dda54b4f-fa89-4a23-a0d7-c3ba7ee715f3",
+      "name": "Gevogelte",
+      "color": "#F48FB1"
+    },
+    {
+      "id": "bb648855-4a18-40f5-9766-482cfa27c39f",
+      "name": "Groente",
+      "color": "#4CAF50"
+    },
+    {
+      "id": "f9eb63e7-abdf-4df4-8fad-a76fb96751c3",
+      "name": "Kaas",
+      "color": "#FFB300"
+    },
+    {
+      "id": "4d749556-2f2a-4508-8bbe-4b7202894824",
       "name": "Koffie & Thee",
       "color": "#4E342E"
     },
     {
+      "id": "797b0f7a-719b-4ac9-acbd-12a4924eb7c3",
+      "name": "Kruiden & Specerijen",
+      "color": "#7B1FA2"
+    },
+    {
+      "id": "b897f599-cd0e-4de6-a923-2ec72eed8009",
+      "name": "Noten & Zaden",
+      "color": "#827717"
+    },
+    {
+      "id": "96ba9a90-dfd2-4202-99c0-c1b2c1ef0255",
+      "name": "Olie, Azijn & Vet",
+      "color": "#F9A825"
+    },
+    {
+      "id": "02918d37-f138-4f9f-87bf-23de65964427",
+      "name": "Ontbijtgranen",
+      "color": "#FFCA28"
+    },
+    {
+      "id": "be96d6c3-e960-4539-833d-4bf73b405553",
       "name": "Overig",
       "color": "#757575"
+    },
+    {
+      "id": "07712cd7-c19e-4d33-8569-d6fd968c4d62",
+      "name": "Pasta, Rijst & Noedels",
+      "color": "#FFD54F"
+    },
+    {
+      "id": "171c904e-2efd-4e1b-aeba-fc14dc732043",
+      "name": "Peulvruchten",
+      "color": "#689F38"
+    },
+    {
+      "id": "0719ac79-586e-409e-b0a7-bdfcb6d486be",
+      "name": "Sauzen & Condimenten",
+      "color": "#D81B60"
+    },
+    {
+      "id": "4fe2675c-0d60-4148-8e97-817fd1e2a180",
+      "name": "Snacks",
+      "color": "#FFAB91"
+    },
+    {
+      "id": "aa8c90bc-1de3-456c-880d-e138c9c18018",
+      "name": "Sterke drank & Likeuren",
+      "color": "#4A148C"
+    },
+    {
+      "id": "0ce4013f-3d64-48d2-abb3-d7442dba9637",
+      "name": "Verse kruiden",
+      "color": "#2E7D32"
+    },
+    {
+      "id": "bba2c1e8-c849-4241-bc57-9c8a2f457e8d",
+      "name": "Vis & Zeevruchten",
+      "color": "#1E88E5"
+    },
+    {
+      "id": "0038ef81-f2b3-446f-a736-4e7ee26ce05a",
+      "name": "Vlees",
+      "color": "#E53935"
+    },
+    {
+      "id": "38ffeb38-3aeb-4fd0-bc9b-ce73df2fbb80",
+      "name": "Vleeswaren",
+      "color": "#C62828"
+    },
+    {
+      "id": "2682d51e-df21-4066-b50c-490a4a63187b",
+      "name": "Wijn",
+      "color": "#880E4F"
+    },
+    {
+      "id": "38d598bd-a9e6-4950-94fb-af540c97b31f",
+      "name": "Zoetwaren",
+      "color": "#EC407A"
+    },
+    {
+      "id": "daf4c273-2b39-4fc9-af4c-c0959c6b5581",
+      "name": "Zuivel",
+      "color": "#FFF9C4"
     }
   ]
 }

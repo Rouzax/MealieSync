@@ -6,7 +6,7 @@
     {
       "name": "ei",
       "pluralName": "eieren",
-      "description": "Kippenei; bindmiddel en eiwitbron voor bakken en koken.",
+      "description": "Kippenei; bindt en verrijkt beslag, deeg en sauzen.",
       "aliases": [
         {
           "name": "scharrelei"
@@ -22,6 +22,9 @@
         },
         {
           "name": "kippenei"
+        },
+        {
+          "name": "kippei"
         }
       ],
       "label": "Eieren"
@@ -29,7 +32,7 @@
     {
       "name": "eidooier",
       "pluralName": "eidooiers",
-      "description": "Geel deel van ei; bindmiddel en emulgator voor sauzen en gebak.",
+      "description": "Eidooier; emulgator en bindmiddel voor sauzen en gebak.",
       "aliases": [
         {
           "name": "eigeel"
@@ -39,6 +42,12 @@
         },
         {
           "name": "dooiers"
+        },
+        {
+          "name": "eierdooier"
+        },
+        {
+          "name": "eierdooiers"
         }
       ],
       "label": "Eieren"
@@ -46,10 +55,16 @@
     {
       "name": "eiwit",
       "pluralName": "eiwitten",
-      "description": "Wit deel van ei; opgeklopt voor schuim of meringue.",
+      "description": "Eierwit; opgeklopt voor schuim, meringue en luchtige desserts.",
       "aliases": [
         {
           "name": "eiklaar"
+        },
+        {
+          "name": "eierwit"
+        },
+        {
+          "name": "eierwitten"
         }
       ],
       "label": "Eieren"
@@ -57,8 +72,21 @@
     {
       "name": "kwartelei",
       "pluralName": "kwarteleieren",
-      "description": "Klein gespikkeld ei van kwartel; decoratief, zacht van smaak.",
-      "aliases": [],
+      "description": "Kwartel-ei; klein gespikkeld ei voor garnering en kort koken.",
+      "aliases": [
+        {
+          "name": "kwartel ei"
+        },
+        {
+          "name": "kwartel-ei"
+        },
+        {
+          "name": "kwartel eitje"
+        },
+        {
+          "name": "kwartel eitjes"
+        }
+      ],
       "label": "Eieren"
     }
   ]
