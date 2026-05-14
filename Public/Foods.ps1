@@ -46,7 +46,7 @@ function Get-MealieFoods {
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
     
-    return $foods
+    return , $foods
 }
 
 function New-MealieFood {

@@ -6,7 +6,7 @@
     RootModule = 'MealieApi.psm1'
 
     # Version number of this module
-    ModuleVersion = '2.2.1'
+    ModuleVersion = '2.2.2'
 
     # ID used to uniquely identify this module
     GUID = 'a1b2c3d4-e5f6-7890-abcd-ef1234567890'

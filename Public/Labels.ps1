@@ -49,7 +49,7 @@ function Get-MealieLabels {
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
     
-    return $items
+    return , $items
 }
 
 function New-MealieLabel {

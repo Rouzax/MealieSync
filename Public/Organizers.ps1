@@ -46,7 +46,7 @@ function Get-MealieCategories {
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
     
-    return $items
+    return , $items
 }
 
 function New-MealieCategory {
@@ -175,7 +175,7 @@ function Get-MealieTags {
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
     
-    return $items
+    return , $items
 }
 
 function New-MealieTag {
@@ -304,7 +304,7 @@ function Get-MealieTools {
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
     
-    return $items
+    return , $items
 }
 
 function New-MealieTool {

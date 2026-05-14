@@ -46,7 +46,7 @@ function Get-MealieUnits {
         $page++
     } while ($All -and $response.items.Count -eq $perPage)
     
-    return $units
+    return , $units
 }
 
 function New-MealieUnit {
