@@ -1,0 +1,1155 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "14522133-b54e-4af1-8b5e-fa14910a1a78",
+      "name": "alfalfa",
+      "pluralName": "alfalfa",
+      "description": "Graine germée; crue en garniture sur salade ou tartine.",
+      "aliases": [
+        {
+          "name": "germes d’alfalfa"
+        },
+        {
+          "name": "alfalfa germé"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "6d3aa679-4a75-42b0-b47e-5f4f28b52cb0",
+      "name": "endive",
+      "pluralName": "endives",
+      "description": "Légume-feuille; cru en salade ou braisé.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "45c54c7d-30c1-4092-875a-c4e7b0bd5670",
+      "name": "artichaut",
+      "pluralName": "artichauts",
+      "description": "Légume-fleur; cuit et consommé surtout pour son cœur.",
+      "aliases": [
+        {
+          "name": "artichoke"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "81d0c167-8228-4c65-8b57-dc19fb9df336",
+      "name": "cœur d’artichaut",
+      "pluralName": "cœurs d’artichaut",
+      "description": "Cœur d’artichaut; mariné ou utilisé dans les pâtes et salades.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "b4aada7e-1caf-42ab-8665-e217e63f213d",
+      "name": "asperge",
+      "pluralName": "asperges",
+      "description": "Légume-tige; bouilli, cuit à la vapeur ou grillé.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "d2be6817-2ffb-4543-aede-b4c239ac145d",
+      "name": "broccolini",
+      "pluralName": "broccolini",
+      "description": "Brocoli-tige; sauté, cuit à la vapeur ou grillé rapidement.",
+      "aliases": [
+        {
+          "name": "bimi"
+        },
+        {
+          "name": "asperge-brocoli"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "c7eae434-78b6-4850-ade8-12e66af55312",
+      "name": "aubergine",
+      "pluralName": "aubergines",
+      "description": "Légume-fruit; grillé, poêlé ou mijoté.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "e531899a-063b-42e7-9f80-ff9913c666c2",
+      "name": "cornichon",
+      "pluralName": "cornichons",
+      "description": "Concombre au vinaigre; en garniture ou dans les salades.",
+      "aliases": [
+        {
+          "name": "petit cornichon"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "cd0a3291-23fa-405b-a810-cadf9717b584",
+      "name": "mini-maïs",
+      "pluralName": "mini-maïs",
+      "description": "Jeunes épis de maïs; sautés au wok ou ajoutés aux currys.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "f8266b43-31f3-49c2-b47f-103dc798a2c2",
+      "name": "pousse de bambou",
+      "pluralName": "pousses de bambou",
+      "description": "Jeune pousse de bambou; dans les sautés, soupes ou currys.",
+      "aliases": [
+        {
+          "name": "bamboo shoot"
+        },
+        {
+          "name": "bambou"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "e8d7d095-cb4d-49ac-b6d8-f59faaacc33b",
+      "name": "shimeji",
+      "pluralName": "shimeji",
+      "description": "Champignon; poêlé brièvement ou ajouté aux soupes.",
+      "aliases": [
+        {
+          "name": "champignon de hêtre"
+        },
+        {
+          "name": "bunashimeji"
+        },
+        {
+          "name": "beukenzwam"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "9415095e-9e65-44d5-929a-175d7b83e7db",
+      "name": "céleri branche",
+      "pluralName": "céleri branche",
+      "description": "Légume-tige; cru en salade ou cuit dans la soupe.",
+      "aliases": [
+        {
+          "name": "céleri"
+        },
+        {
+          "name": "celery"
+        },
+        {
+          "name": "branches de céleri"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "8aabc8b7-c2d4-4a4c-8132-56aea04a96c1",
+      "name": "chou-fleur",
+      "pluralName": "choux-fleurs",
+      "description": "Légume-chou; bouilli, rôti ou en purée.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "daf2d1b4-87cf-4090-9036-8eab571f7ac4",
+      "name": "chou kale",
+      "pluralName": "chou kale",
+      "description": "Chou-feuille; braisé ou intégré à une purée.",
+      "aliases": [
+        {
+          "name": "kale"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "99b73210-e867-4d48-b320-a29a2819cf9b",
+      "name": "oignon vert",
+      "pluralName": "oignons verts",
+      "description": "Jeune oignon avec tige verte; cru ou rapidement poêlé.",
+      "aliases": [
+        {
+          "name": "cébette"
+        },
+        {
+          "name": "oignon nouveau"
+        },
+        {
+          "name": "oignons nouveaux"
+        },
+        {
+          "name": "cive"
+        },
+        {
+          "name": "ciboule"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "4c696a44-555a-4bfc-9b72-238945114df7",
+      "name": "laitue beurre",
+      "pluralName": "laitues beurre",
+      "description": "Laitue tendre pommée; crue en salade.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "21b93219-b8fe-462b-854a-1986b9f12675",
+      "name": "brocoli",
+      "pluralName": "brocoli",
+      "description": "Légume-chou; cuit à la vapeur, bouilli ou sauté.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "05775ea0-0ef3-4f11-b7c4-31dfad75d3ea",
+      "name": "chanterelle",
+      "pluralName": "chanterelles",
+      "description": "Champignon sauvage; poêlé ou en sauce.",
+      "aliases": [
+        {
+          "name": "girolle"
+        },
+        {
+          "name": "hanekam"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "4bc24669-5bf0-41f9-bd0b-515355534403",
+      "name": "champignon",
+      "pluralName": "champignons",
+      "description": "Champignon; poêlé ou dans les sauces.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "bbd37eb7-8eac-4cab-9c15-d4b593ac2fa2",
+      "name": "piment chili [mariné]",
+      "pluralName": "piments chili [marinés]",
+      "description": "Piment chili mariné; à utiliser en garniture relevée ou dans les sauces.",
+      "aliases": [
+        {
+          "name": "piment chili mariné"
+        },
+        {
+          "name": "piment mariné"
+        },
+        {
+          "name": "chili mariné"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "ab16ecbd-9ef4-4239-9aa8-8ea6e00bfed4",
+      "name": "chou chinois",
+      "pluralName": "choux chinois",
+      "description": "Chou doux; dans les sautés, soupes ou salades.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "a2ce1ce7-578f-4466-a010-6e4623e3799e",
+      "name": "courgette",
+      "pluralName": "courgettes",
+      "description": "Légume-fruit; poêlé, grillé ou en soupe.",
+      "aliases": [
+        {
+          "name": "zucchini"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "f3b115e5-f022-4517-bb32-7a9e25698458",
+      "name": "cèpe",
+      "pluralName": "cèpes",
+      "description": "Porcini frais; poêlé ou utilisé dans les pâtes et sauces.",
+      "aliases": [
+        {
+          "name": "porcini frais"
+        },
+        {
+          "name": "cêpes frais"
+        },
+        {
+          "name": "porcini"
+        },
+        {
+          "name": "cepes"
+        },
+        {
+          "name": "eekhoorntjesbrood"
+        },
+        {
+          "name": "cèpes frais"
+        },
+        {
+          "name": "cèpe frais"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "e863479c-a2fd-4666-918e-4199933a1904",
+      "name": "cèpe [séché]",
+      "pluralName": "cèpes [séchés]",
+      "description": "Porcini séché; réhydraté pour risotto, soupe ou sauce.",
+      "aliases": [
+        {
+          "name": "porcini séchés"
+        },
+        {
+          "name": "cèpes séchés"
+        },
+        {
+          "name": "cèpe séché"
+        },
+        {
+          "name": "porcini sec"
+        },
+        {
+          "name": "cepes séchés"
+        },
+        {
+          "name": "champignon porcini séché"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "de915f78-6473-4937-b92e-a26358d556c0",
+      "name": "laitue feuille de chêne",
+      "pluralName": "laitues feuille de chêne",
+      "description": "Laitue à feuilles libres; crue en salade.",
+      "aliases": [
+        {
+          "name": "feuille de chêne"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "4eaa1841-19ba-41cb-9d30-5a6558b1121d",
+      "name": "frisée",
+      "pluralName": "frisée",
+      "description": "Chicorée frisée; crue en salade ou rapidement sautée.",
+      "aliases": [
+        {
+          "name": "frisee"
+        },
+        {
+          "name": "chicorée frisée"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "42da8d42-1898-47a9-9044-7c0b127a7e4e",
+      "name": "poivron jaune",
+      "pluralName": "poivrons jaunes",
+      "description": "Poivron doux; cru, rôti ou farci.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "feeffc79-af4a-4994-924e-e42ce1a25f3e",
+      "name": "oignon jaune",
+      "pluralName": "oignons jaunes",
+      "description": "Bulbe; légume de base, cru ou poêlé.",
+      "aliases": [
+        {
+          "name": "oignon brun"
+        },
+        {
+          "name": "oignons bruns"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "182a6bca-d566-457b-9cd1-895bc324ca05",
+      "name": "asperge verte",
+      "pluralName": "asperges vertes",
+      "description": "Asperge verte; grillée, sautée ou cuite à la vapeur.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "4b7e6787-8490-4bed-bb67-9de217083b22",
+      "name": "piment vert",
+      "pluralName": "piments verts",
+      "description": "Piment vert; dans les salsas, currys ou sautés.",
+      "aliases": [
+        {
+          "name": "chili vert"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "51a153fd-95fd-46e1-afd0-667d9073a38c",
+      "name": "olive verte",
+      "pluralName": "olives vertes",
+      "description": "Olive verte; marinée comme collation ou en salade.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "db5d8e16-57a5-4c55-95d7-0e1fface546f",
+      "name": "poivron vert",
+      "pluralName": "poivrons verts",
+      "description": "Poivron vert; cru ou poêlé, légèrement amer.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "06ca73ef-b280-4a15-85c2-e113e1f9ddb6",
+      "name": "poivre vert",
+      "pluralName": "poivres verts",
+      "description": "Poivres verts non mûrs au goût frais, doux à piquant; pour salsas et sautés.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "406f7e55-1b2c-493d-8fdf-68e155f65c5b",
+      "name": "piment habanero",
+      "pluralName": "piments habanero",
+      "description": "Piment très fort; finement haché dans les salsas ou sauces.",
+      "aliases": [
+        {
+          "name": "habanero"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "efd5ff08-750b-486e-a720-b3305ffa1cf9",
+      "name": "trompette-de-la-mort",
+      "pluralName": "trompettes-de-la-mort",
+      "description": "Champignon noir frais; poêlé ou en sauce.",
+      "aliases": [
+        {
+          "name": "trompette"
+        },
+        {
+          "name": "trompetzwam"
+        },
+        {
+          "name": "hoorn des overvloeds"
+        },
+        {
+          "name": "trompette fraîche"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "5539b82e-0e86-4e96-b85d-730e02f43c71",
+      "name": "trompette-de-la-mort [séchée]",
+      "pluralName": "trompettes-de-la-mort [séchées]",
+      "description": "Champignon noir séché; réhydraté pour sauce ou risotto.",
+      "aliases": [
+        {
+          "name": "trompette séchée"
+        },
+        {
+          "name": "champignon trompette séché"
+        },
+        {
+          "name": "hoorn des overvloeds gedroogd"
+        },
+        {
+          "name": "trompetzwam séché"
+        },
+        {
+          "name": "trompetzwam séchée"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "caae67aa-f4a0-4e3f-b329-7a7604938dd7",
+      "name": "laitue iceberg",
+      "pluralName": "laitues iceberg",
+      "description": "Laitue croquante pommée; crue en salade.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "9316032f-582d-40e0-aa09-741cde108d7c",
+      "name": "piment jalapeño",
+      "pluralName": "piments jalapeño",
+      "description": "Piment mexicain; frais ou mariné dans les salsas et garnitures.",
+      "aliases": [
+        {
+          "name": "jalapeño"
+        },
+        {
+          "name": "jalapeno"
+        },
+        {
+          "name": "piment jalapeno"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "26807e1f-8744-4a86-a8e8-79e2b643d364",
+      "name": "champignon brun",
+      "pluralName": "champignons bruns",
+      "description": "Champignon brun; poêlé ou dans les sauces.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "807f3b33-87bc-4ce9-a40e-773b49414248",
+      "name": "kimchi",
+      "pluralName": "kimchi",
+      "description": "Chou fermenté coréen; accompagnement acidulé et relevé.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "bc661e13-4f9d-43e2-a049-c01c78694042",
+      "name": "ail",
+      "pluralName": "ail",
+      "description": "Bulbe; finement haché ou pressé comme aromate.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "98bb5d2a-79aa-4514-afb1-4361438cb071",
+      "name": "concombre",
+      "pluralName": "concombres",
+      "description": "Légume-fruit; cru en salade ou comme collation.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "f849e53a-659b-4fd4-bac8-31f13c205019",
+      "name": "chou",
+      "pluralName": "choux",
+      "description": "Légume-feuille; diverses variétés, bouilli ou braisé.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "b983ffc9-87b7-4bb3-ae92-81c4fef58bbc",
+      "name": "little gem",
+      "pluralName": "little gems",
+      "description": "Petite laitue romaine; crue ou brièvement grillée.",
+      "aliases": [
+        {
+          "name": "little gem laitue"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "be927e99-b076-464c-9d48-2364ae32a0ca",
+      "name": "maïs",
+      "pluralName": "maïs",
+      "description": "Maïs doux; bouilli, grillé ou en grains.",
+      "aliases": [
+        {
+          "name": "mais"
+        },
+        {
+          "name": "maïs doux"
+        },
+        {
+          "name": "grains de maïs"
+        },
+        {
+          "name": "maïskorrels"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "f8d43679-fd21-4223-a9a0-daec096c3ee3",
+      "name": "agretti",
+      "pluralName": "agretti",
+      "description": "Légume marin; brièvement bouilli ou sauté.",
+      "aliases": [
+        {
+          "name": "monniksbaard"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "cdea837c-9a95-4baf-9253-003e43a30c85",
+      "name": "morille",
+      "pluralName": "morilles",
+      "description": "Champignon sauvage; en sauce à la crème ou avec la viande.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "574ae9bf-04cd-4506-b85a-e9c859068b94",
+      "name": "nameko",
+      "pluralName": "nameko",
+      "description": "Champignon japonais; dans les soupes ou sautés.",
+      "aliases": [
+        {
+          "name": "nameco"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "2eae53ca-d11c-4f5d-bdb0-2ac3431422dd",
+      "name": "pleurote",
+      "pluralName": "pleurotes",
+      "description": "Champignon; poêlé ou utilisé comme substitut végétal.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "a7260327-b3f8-421b-b75f-08bd9e44c6c4",
+      "name": "olive",
+      "pluralName": "olives",
+      "description": "Olive; marinée comme collation ou en salade.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "4f133072-091f-4fe1-a38a-4e7167297968",
+      "name": "poivron orange",
+      "pluralName": "poivrons orange",
+      "description": "Poivron doux; cru, rôti ou farci.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "e353eda2-40e8-4a6f-816a-798933cf8807",
+      "name": "champignon [séché]",
+      "pluralName": "champignons [séchés]",
+      "description": "Champignon séché; pour soupes et sauces.",
+      "aliases": [
+        {
+          "name": "champignons lyophilisés"
+        },
+        {
+          "name": "champignon lyophilisé"
+        },
+        {
+          "name": "champignon séché"
+        },
+        {
+          "name": "champignons séchés"
+        },
+        {
+          "name": "champignon déshydraté"
+        },
+        {
+          "name": "champignons déshydratés"
+        },
+        {
+          "name": "paddenstoel gedroogd"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "319507a0-69f1-487a-b35a-044d9d518502",
+      "name": "pak-choï",
+      "pluralName": "pak-choï",
+      "description": "Légume-feuille asiatique; sauté au wok ou en soupe.",
+      "aliases": [
+        {
+          "name": "pak choi"
+        },
+        {
+          "name": "bok choy"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "f6e7ba5b-9002-4def-b807-1c853afea69a",
+      "name": "cœur de palmier",
+      "pluralName": "cœurs de palmier",
+      "description": "Cœur de palmier; cru en salade ou mariné en bocal.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "32777d3f-aed8-4af7-851d-04b751cef735",
+      "name": "poivron",
+      "pluralName": "poivrons",
+      "description": "Légume-fruit; cru, rôti ou farci.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "56593d5b-06aa-45e8-adfe-613de3bb62ce",
+      "name": "pâtisson",
+      "pluralName": "pâtissons",
+      "description": "Variété de courge; rôtie, farcie ou marinée.",
+      "aliases": [
+        {
+          "name": "courge pâtisson"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "8eff2752-3704-44f0-b23f-665d37989c5a",
+      "name": "courge",
+      "pluralName": "courges",
+      "description": "Légume-fruit; rôti ou en soupe et purée.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "1f43aaa7-f58a-443b-89ee-3f7bde176b80",
+      "name": "portobello",
+      "pluralName": "portobellos",
+      "description": "Grand champignon; grillé ou farci.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "c1f8e1fc-2355-48db-b88b-dc5f738f37e1",
+      "name": "pourpier",
+      "pluralName": "pourpier",
+      "description": "Légume-feuille; cru en salade ou brièvement braisé.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "875ce569-490e-4335-9059-1c8dc7c21414",
+      "name": "poireau",
+      "pluralName": "poireaux",
+      "description": "Variété d’oignon; braisé, poêlé ou en soupe.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "ac20b997-c924-4e56-9d93-f88cd1546e8f",
+      "name": "poivron pointu",
+      "pluralName": "poivrons pointus",
+      "description": "Poivron allongé; cru, rôti ou farci.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "35794375-6cb0-4468-9377-49586cd22895",
+      "name": "fanes de navet",
+      "pluralName": "fanes de navet",
+      "description": "Jeunes feuilles de navet; crues ou brièvement braisées.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "7f3a6d3f-8893-4497-b176-2784b35fe1c1",
+      "name": "rhubarbe",
+      "pluralName": "rhubarbe",
+      "description": "Tiges acidulées; cuites en compote ou en tarte.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "f372a9e4-4e7b-4707-b43b-7b8e5111168b",
+      "name": "radicchio",
+      "pluralName": "radicchio",
+      "description": "Chicorée rouge; crue en salade ou grillée.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "7e32ce51-92ed-4d79-b6b7-fa53f33de62d",
+      "name": "piment rouge",
+      "pluralName": "piments rouges",
+      "description": "Piment rouge; frais dans les currys, sauces ou sautés.",
+      "aliases": [
+        {
+          "name": "chili rouge"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "ef93f795-2302-4e88-92e2-ec3e39097629",
+      "name": "piment rouge [séché]",
+      "pluralName": "piments rouges [séchés]",
+      "description": "Piment rouge séché; entier ou émietté pour relever les plats.",
+      "aliases": [
+        {
+          "name": "piment rouge séché"
+        },
+        {
+          "name": "piments rouges séchés"
+        },
+        {
+          "name": "chili rouge séché"
+        },
+        {
+          "name": "chilis rouges séchés"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "bed31e3a-d7e2-4478-b156-f10fa1613f9a",
+      "name": "chou rouge",
+      "pluralName": "choux rouges",
+      "description": "Légume-chou; braisé ou cru en salade.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "73fbb330-6347-4ed5-b65a-76e4d3af2492",
+      "name": "poivron rouge",
+      "pluralName": "poivrons rouges",
+      "description": "Poivron doux; cru, rôti ou farci.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "ab08d92a-8d13-480b-9ca8-4a781badf371",
+      "name": "oignon rouge",
+      "pluralName": "oignons rouges",
+      "description": "Variété d’oignon; cru en salade ou poêlé.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "497c2e7b-d08e-4532-b6f0-a275fadc3b35",
+      "name": "romanesco",
+      "pluralName": "romanesco",
+      "description": "Légume-chou; bouilli, cuit à la vapeur ou rôti.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "e2b847ee-c47f-4341-9999-e600761daf66",
+      "name": "tomate Roma",
+      "pluralName": "tomates Roma",
+      "description": "Tomate charnue; pour sauce, four et salade.",
+      "aliases": [
+        {
+          "name": "roma tomate"
+        },
+        {
+          "name": "tomates roma"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "6302a6de-9724-421b-a967-b4cadf361a2e",
+      "name": "endive rouge",
+      "pluralName": "endives rouges",
+      "description": "Endive rouge; crue ou braisée, légèrement amère.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "e810a8e0-701d-47dc-8088-21a3db200077",
+      "name": "roquette",
+      "pluralName": "roquette",
+      "description": "Légume-feuille; cru en salade ou sur pizza.",
+      "aliases": [
+        {
+          "name": "raketsla"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "91543434-3fe8-4405-b7f2-5ba72e5e3cf8",
+      "name": "chou de Savoie",
+      "pluralName": "choux de Savoie",
+      "description": "Légume-chou; braisé ou en gratin.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "b24de356-ba37-4e44-9dbb-e5633d0806f1",
+      "name": "pied-de-mouton",
+      "pluralName": "pieds-de-mouton",
+      "description": "Champignon sauvage; poêlé ou en sauce.",
+      "aliases": [
+        {
+          "name": "pied de mouton"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "76cfa505-f21c-4f11-b768-338cf353979c",
+      "name": "piment serrano",
+      "pluralName": "piments serrano",
+      "description": "Piment; frais dans les salsas, currys et sautés.",
+      "aliases": [
+        {
+          "name": "serrano"
+        },
+        {
+          "name": "serrano chili"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "0084f5fa-7150-4848-a000-131f2b56e47d",
+      "name": "shiitake",
+      "pluralName": "shiitakes",
+      "description": "Champignon; poêlé ou en soupe, riche en umami.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "c180136e-004e-44e5-a2f6-20a19f453d08",
+      "name": "échalote",
+      "pluralName": "échalotes",
+      "description": "Petit oignon; finement haché dans les sauces et vinaigrettes.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "79809477-92d7-4c33-97ec-4d4a14041ed3",
+      "name": "laitue",
+      "pluralName": "laitue",
+      "description": "Légume-feuille; cru en salade.",
+      "aliases": [
+        {
+          "name": "laitue pommée"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "9ac16eac-0373-443f-a4dd-cb142d7a574b",
+      "name": "bette à carde",
+      "pluralName": "bettes à carde",
+      "description": "Légume-feuille; braisé ou en quiche.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "93174079-20eb-49a5-8bd3-9b0b927c243b",
+      "name": "épinard",
+      "pluralName": "épinards",
+      "description": "Légume-feuille; cru ou brièvement braisé.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "f96373d9-7169-426a-9e78-71e01099a470",
+      "name": "chou pointu",
+      "pluralName": "choux pointus",
+      "description": "Chou doux; sauté, braisé ou cru.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "12212848-2e4f-4747-96e1-b197e0f4887f",
+      "name": "chou de Bruxelles",
+      "pluralName": "choux de Bruxelles",
+      "description": "Légume-chou; rôti, bouilli ou poêlé.",
+      "aliases": [
+        {
+          "name": "spruit"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "b9a429af-54ce-4227-a89e-a0a4aeb187b4",
+      "name": "germes de soja",
+      "pluralName": "germes de soja",
+      "description": "Graine germée; brièvement sautée ou crue en salade.",
+      "aliases": [
+        {
+          "name": "tauge"
+        },
+        {
+          "name": "sojascheuten"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "de2b6456-11a6-47d7-afd1-326eee8919f6",
+      "name": "tomate",
+      "pluralName": "tomates",
+      "description": "Légume-fruit; cru en salade ou comme base de sauce.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "8506b52b-b08f-43a7-8689-ab18dc065b02",
+      "name": "tomates concassées [conserve]",
+      "pluralName": "tomates concassées [conserve]",
+      "description": "Tomates en dés en conserve; base pour sauces, soupes et mijotés.",
+      "aliases": [
+        {
+          "name": "tomates en dés en conserve"
+        },
+        {
+          "name": "tomates concassées en boîte"
+        },
+        {
+          "name": "boîte de tomates concassées"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "256b1daa-4c3e-4562-85b6-a3b50e444a0e",
+      "name": "tomate en grappe",
+      "pluralName": "tomates en grappe",
+      "description": "Tomate sur grappe; crue ou en sauce.",
+      "aliases": [
+        {
+          "name": "petite tomate en grappe"
+        },
+        {
+          "name": "tomates en grappe"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "2dc6fe60-7840-42fc-a322-27236afcb399",
+      "name": "truffe",
+      "pluralName": "truffes",
+      "description": "Champignon aromatique; râpé comme condiment.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "06d71c0a-d042-4fa2-98e7-d40b6521351b",
+      "name": "cresson alénois",
+      "pluralName": "cresson alénois",
+      "description": "Graine germée; crue en garniture ou en salade.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "a3b71afe-298b-49d5-98ec-815f947ef29f",
+      "name": "mâche",
+      "pluralName": "mâche",
+      "description": "Légume-feuille; cru en salade.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "bc48ef1b-bb85-4ca6-8e4e-bfa76ead89d8",
+      "name": "fenouil",
+      "pluralName": "fenouils",
+      "description": "Légume bulbe; cru ou braisé, avec goût anisé.",
+      "aliases": [
+        {
+          "name": "bulbe de fenouil"
+        },
+        {
+          "name": "bulbes de fenouil"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "a7d18402-1718-48c9-aeb3-79f762029aff",
+      "name": "cresson",
+      "pluralName": "cresson",
+      "description": "Légume-feuille; poivré, cru en salade ou en soupe.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "cc572c41-816a-462e-9383-096515ab4538",
+      "name": "épinard sauvage",
+      "pluralName": "épinard sauvage",
+      "description": "Épinard sauvage; goût plus intense que l’épinard ordinaire.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "45ee4ba5-d7e5-4c40-916e-fbef808ab3ea",
+      "name": "endive belge",
+      "pluralName": "endive belge",
+      "description": "Légume-feuille; cru ou braisé, légèrement amer.",
+      "aliases": [
+        {
+          "name": "witloof"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "bb4d10c9-ee44-4cb9-9076-00ac247d4cea",
+      "name": "asperge blanche",
+      "pluralName": "asperges blanches",
+      "description": "Asperge blanche; cuite comme légume de saison.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "43a58aff-fb43-4d0f-9740-d6092257cdcd",
+      "name": "chou blanc",
+      "pluralName": "choux blancs",
+      "description": "Légume-chou; braisé, en salade ou en choucroute.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "4d0cf938-aacf-41b9-95cd-ea418b9ffbf8",
+      "name": "salicorne",
+      "pluralName": "salicorne",
+      "description": "Légume de mer; brièvement blanchi ou poêlé.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "984ea7ce-e813-406a-b197-b9bb2b28b474",
+      "name": "petit oignon au vinaigre",
+      "pluralName": "petits oignons au vinaigre",
+      "description": "Petit oignon; mariné dans une préparation aigre-douce.",
+      "aliases": [
+        {
+          "name": "oignons d’Amsterdam"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "91183a2e-93c7-49f1-af80-efdff99e9ca2",
+      "name": "choucroute",
+      "pluralName": "choucroute",
+      "description": "Chou blanc fermenté; en plat mijoté ou en gratin.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "74aab498-f470-47d0-9f43-6e41e12f3789",
+      "name": "ail noir",
+      "pluralName": "ail noir",
+      "description": "Ail fermenté; finement haché dans les sauces et trempettes.",
+      "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "630cd9f4-bf4a-4dcc-85e4-f6ca818525df",
+      "name": "olive noire",
+      "pluralName": "olives noires",
+      "description": "Olive noire; marinée comme collation ou en salade.",
+      "aliases": [],
+      "label": "Légumes"
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "63c5eea5-e2b8-44c7-9f63-4e108e949f68",
+      "name": "boisson d’amande",
+      "pluralName": "boisson d’amande",
+      "description": "Boisson végétale à base d’amandes; alternative aux produits laitiers.",
+      "aliases": [
+        {
+          "name": "lait d’amande"
+        },
+        {
+          "name": "boisson aux amandes"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "e1ef94b7-8a16-427f-ad69-f4859b612acc",
+      "name": "ayran",
+      "pluralName": "ayran",
+      "description": "Boisson turque au yogourt et au sel; rafraîchissante avec les plats épicés.",
+      "aliases": [],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "b784eaf9-47d9-4156-9275-7124a84f650e",
+      "name": "beurre de cuisson",
+      "pluralName": "beurre de cuisson",
+      "description": "Beurre pour cuire et faire revenir; supporte bien la chaleur.",
+      "aliases": [
+        {
+          "name": "beurre à cuire et à rôtir"
+        },
+        {
+          "name": "beurre cuisson-rôtissage"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "9c5e9c0b-e7b8-44fc-90c0-1a3b3e2979f3",
+      "name": "beurre",
+      "pluralName": "beurre",
+      "description": "Matière grasse laitière issue du lait de vache; pour cuire et tartiner.",
+      "aliases": [
+        {
+          "name": "butter"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "a49bd5b0-9e2b-45ca-a6fe-656e6888da85",
+      "name": "beurre à rôtir",
+      "pluralName": "beurre à rôtir",
+      "description": "Beurre destiné au rôtissage; supporte bien la chaleur.",
+      "aliases": [
+        {
+          "name": "beurre à braiser"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "b5b92307-0aeb-49c8-af92-ac1f5bb9529e",
+      "name": "clotted cream",
+      "pluralName": "clotted cream",
+      "description": "Crème anglaise très épaisse; pour les scones et les desserts.",
+      "aliases": [
+        {
+          "name": "devonshire cream"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "e1e42d28-732e-471b-9754-bf4c4cc92938",
+      "name": "crème fraîche",
+      "pluralName": "crème fraîche",
+      "description": "Crème légèrement acidulée; pour les sauces, ne tranche pas à la cuisson.",
+      "aliases": [
+        {
+          "name": "creme fraiche"
+        },
+        {
+          "name": "crème fraiche"
+        },
+        {
+          "name": "creme fraîche"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "2acd4259-348a-4224-9559-eb0a3f0f6c9f",
+      "name": "lait condensé sucré",
+      "pluralName": "lait condensé sucré",
+      "description": "Lait évaporé sucré; pour les desserts et le café.",
+      "aliases": [
+        {
+          "name": "condensed milk"
+        },
+        {
+          "name": "lait condensé"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "4e59190c-b852-4498-a659-b255a881ce81",
+      "name": "beurre salé",
+      "pluralName": "beurre salé",
+      "description": "Beurre avec sel; pour tartiner.",
+      "aliases": [
+        {
+          "name": "beurre doux salé"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "429b9b2b-e39c-43e4-9e02-73a6b7d7e203",
+      "name": "ghee",
+      "pluralName": "ghee",
+      "description": "Beurre clarifié; supporte bien la chaleur, utilisé dans la cuisine indienne.",
+      "aliases": [
+        {
+          "name": "beurre clarifié"
+        },
+        {
+          "name": "clarified butter"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "e3ee4e8a-9168-4ea8-a904-46fc80d34955",
+      "name": "yogourt grec",
+      "pluralName": "yogourt grec",
+      "description": "Yogourt épais et crémeux; pour les trempettes et desserts.",
+      "aliases": [
+        {
+          "name": "yogourt à la grecque"
+        },
+        {
+          "name": "greek yogurt"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "430510f4-ee17-4d85-8730-46939cb0d577",
+      "name": "lait partiellement écrémé",
+      "pluralName": "lait partiellement écrémé",
+      "description": "Lait à teneur réduite en matières grasses; environ 1,5 % de gras.",
+      "aliases": [
+        {
+          "name": "demi-écrémé"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "81131dbc-1164-4aa9-958b-c0485eb0bc7a",
+      "name": "boisson d’avoine",
+      "pluralName": "boisson d’avoine",
+      "description": "Boisson végétale à base d’avoine; alternative populaire aux produits laitiers.",
+      "aliases": [
+        {
+          "name": "lait d’avoine"
+        },
+        {
+          "name": "boisson à l’avoine"
+        },
+        {
+          "name": "oat milk"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "e2030982-fe43-4709-96ff-b42f85801161",
+      "name": "babeurre",
+      "pluralName": "babeurre",
+      "description": "Lait légèrement acidulé issu du barattage; frais et maigre.",
+      "aliases": [
+        {
+          "name": "lait de beurre"
+        },
+        {
+          "name": "buttermilk"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "576ff75f-ccfd-4272-bb6c-9291802fd252",
+      "name": "kéfir",
+      "pluralName": "kéfir",
+      "description": "Boisson lactée fermentée; légèrement pétillante et probiotique.",
+      "aliases": [],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "d40d6ddc-7e98-4b8f-bcd4-e0fdf6b61433",
+      "name": "lait à café",
+      "pluralName": "lait à café",
+      "description": "Lait évaporé; longue conservation, pour le café.",
+      "aliases": [
+        {
+          "name": "crème à café"
+        },
+        {
+          "name": "lait café"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "cb8f1dd4-90ba-4ea6-b2f8-56347d3aa23b",
+      "name": "lait de coco",
+      "pluralName": "lait de coco",
+      "description": "Liquide issu de la noix de coco râpée; pour les currys et desserts.",
+      "aliases": [
+        {
+          "name": "coco milk"
+        },
+        {
+          "name": "coconut milk"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "ab885eb4-8f7d-4faa-abdb-c7510ccbb70a",
+      "name": "crème de coco",
+      "pluralName": "crèmes de coco",
+      "description": "Crème épaisse de coco; pour les desserts et currys.",
+      "aliases": [
+        {
+          "name": "coconut cream"
+        },
+        {
+          "name": "crème coco"
+        },
+        {
+          "name": "lait de coco épais"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "4ef31dbc-c998-49dc-aabf-77d7d1fad19a",
+      "name": "crème de cuisson",
+      "pluralName": "crème de cuisson",
+      "description": "Crème destinée à la cuisson; ne tranche pas à la chaleur.",
+      "aliases": [
+        {
+          "name": "crème culinaire"
+        },
+        {
+          "name": "crème pour cuisson"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "7f7b5c54-d53b-4185-9e91-aab94d35bdc0",
+      "name": "beurre aux fines herbes",
+      "pluralName": "beurre aux fines herbes",
+      "description": "Beurre aromatisé aux herbes; pour la viande ou la baguette.",
+      "aliases": [
+        {
+          "name": "beurre à l’ail"
+        },
+        {
+          "name": "beurre aux herbes"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "9c16f555-1759-4b3f-8367-7dc36eaeba4d",
+      "name": "quark",
+      "pluralName": "quark",
+      "description": "Produit laitier frais; doux et crémeux, pour les desserts ou sauces.",
+      "aliases": [
+        {
+          "name": "fromage blanc"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "c3f9c607-dfef-4a49-92a1-b0e68b513711",
+      "name": "quark maigre",
+      "pluralName": "quark maigre",
+      "description": "Quark sans matières grasses; pour les desserts ou comme source de protéines.",
+      "aliases": [],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "2ab4996d-a3b4-4962-8495-7d211e67d230",
+      "name": "lait écrémé",
+      "pluralName": "lait écrémé",
+      "description": "Lait sans matières grasses; environ 0 % de gras.",
+      "aliases": [
+        {
+          "name": "lait maigre"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "ab6be708-7d21-4acd-a3e1-c945df5169b8",
+      "name": "yogourt maigre",
+      "pluralName": "yogourt maigre",
+      "description": "Yogourt sans matières grasses; léger et frais.",
+      "aliases": [],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "45fb395b-5c36-46ea-ab67-aee47e442892",
+      "name": "margarine",
+      "pluralName": "margarine",
+      "description": "Matière grasse tartinable d’origine végétale; pour tartiner ou cuire.",
+      "aliases": [],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "1f9f7fe7-63cc-4e01-9258-25125105a5f3",
+      "name": "lait",
+      "pluralName": "lait",
+      "description": "Lait de vache; base pour boire et cuisiner.",
+      "aliases": [
+        {
+          "name": "milk"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "dce57a36-b21f-4367-b287-c130757ab481",
+      "name": "lait en poudre",
+      "pluralName": "lait en poudre",
+      "description": "Lait déshydraté; pour la pâtisserie et les boissons instantanées.",
+      "aliases": [
+        {
+          "name": "poudre de lait"
+        },
+        {
+          "name": "lait poudre"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "02e604a1-a853-4b6f-a246-0a944b85da9f",
+      "name": "niter kibbeh",
+      "pluralName": "niter kibbeh",
+      "description": "Beurre clarifié épicé éthiopien; utilisé comme matière grasse de cuisson.",
+      "aliases": [
+        {
+          "name": "niter qibe"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "cf2afb49-a12e-4d64-9ddd-b1bf747c4dd1",
+      "name": "beurre non salé",
+      "pluralName": "beurre non salé",
+      "description": "Beurre sans sel; pour la cuisson et la pâtisserie.",
+      "aliases": [
+        {
+          "name": "beurre doux"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "4c6afdfb-d087-4802-adf1-beea1fd92e86",
+      "name": "boisson de riz",
+      "pluralName": "boisson de riz",
+      "description": "Boisson végétale à base de riz; légèrement sucrée, alternative aux produits laitiers.",
+      "aliases": [
+        {
+          "name": "lait de riz"
+        },
+        {
+          "name": "boisson au riz"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "4c711011-1c27-4e20-bfac-e30bf003312f",
+      "name": "crème",
+      "pluralName": "crème",
+      "description": "Crème riche en matières grasses; pour fouetter ou préparer des sauces.",
+      "aliases": [
+        {
+          "name": "crème à fouetter"
+        },
+        {
+          "name": "cream"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "01e3a6b3-d382-4689-b324-c0aa7f8ccd03",
+      "name": "beurre de crème",
+      "pluralName": "beurre de crème",
+      "description": "Beurre fabriqué à partir de crème; goût riche, pour tartiner et cuire.",
+      "aliases": [
+        {
+          "name": "beurre de table"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "08ad5185-ac8e-42ef-b12c-2293280a0e0d",
+      "name": "santen",
+      "pluralName": "santen",
+      "description": "Concentré de coco; se dissout dans un liquide chaud pour les currys et soupes.",
+      "aliases": [
+        {
+          "name": "bloc de coco"
+        },
+        {
+          "name": "bloc de santen"
+        },
+        {
+          "name": "cocos creme santen"
+        },
+        {
+          "name": "creamed coconut"
+        },
+        {
+          "name": "coconut cream concentrate"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "8b498289-38fe-4031-a77d-bb1185f1bba5",
+      "name": "skyr",
+      "pluralName": "skyr",
+      "description": "Produit laitier islandais; épais et riche en protéines.",
+      "aliases": [],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "94af5660-250e-49a1-95cc-1f0a7d645d4a",
+      "name": "boisson de soja",
+      "pluralName": "boisson de soja",
+      "description": "Boisson végétale à base de soja; alternative aux produits laitiers.",
+      "aliases": [
+        {
+          "name": "lait de soja"
+        },
+        {
+          "name": "boisson au soja"
+        },
+        {
+          "name": "soy milk"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "7c07a174-f916-4ef3-9d29-3880140d462e",
+      "name": "yogourt de soja",
+      "pluralName": "yogourt de soja",
+      "description": "Yogourt végétal à base de soja; alternative aux produits laitiers.",
+      "aliases": [
+        {
+          "name": "soja yogourt"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "1ef80003-5d2f-4a20-aa52-95e2cc49267c",
+      "name": "yogourt turc",
+      "pluralName": "yogourt turc",
+      "description": "Yogourt épais et crémeux; plus riche que le yogourt grec.",
+      "aliases": [
+        {
+          "name": "süzme yogurt"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "afbe7fa0-71c9-4598-bba2-db24905d4acf",
+      "name": "quark entier",
+      "pluralName": "quark entier",
+      "description": "Quark crémeux avec matières grasses; pour les desserts.",
+      "aliases": [],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "eae8e9eb-01a7-41da-af69-71367ee097be",
+      "name": "lait entier",
+      "pluralName": "lait entier",
+      "description": "Lait à teneur complète en matières grasses; environ 3,5 % de gras.",
+      "aliases": [
+        {
+          "name": "lait complet"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "325df6ab-20f5-4fc6-bbeb-97175c20108e",
+      "name": "yogourt entier",
+      "pluralName": "yogourt entier",
+      "description": "Yogourt crémeux; teneur plus élevée en matières grasses.",
+      "aliases": [],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "c5dfb2d9-f84b-419f-a946-f39bc3378a21",
+      "name": "yogourt",
+      "pluralName": "yogourt",
+      "description": "Lait fermenté; acidulé et frais, pour le déjeuner ou les sauces.",
+      "aliases": [
+        {
+          "name": "yogurt"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
+      "id": "54d7cd54-7d50-442f-b79c-ef4df381fd05",
+      "name": "crème sure",
+      "pluralName": "crème sure",
+      "description": "Crème acidulée; en garniture sur les tacos ou les soupes.",
+      "aliases": [
+        {
+          "name": "sour cream"
+        },
+        {
+          "name": "schmand"
+        }
+      ],
+      "label": "Produits laitiers"
+    }
+  ]
+}

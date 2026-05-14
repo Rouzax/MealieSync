@@ -1,0 +1,1146 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "126e6cbe-01e8-4162-8f28-3dd01769b26f",
+      "name": "bavette",
+      "pluralName": "bavettes",
+      "description": "Bœuf de la flanchet; très savoureux, à cuire saignant ou à point.",
+      "aliases": [
+        {
+          "name": "flank steak"
+        },
+        {
+          "name": "flanksteak"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "626457dc-5899-48cf-b450-0f9c653ca1e8",
+      "name": "bifteck",
+      "pluralName": "biftecks",
+      "description": "Bœuf; tranche tendre à cuisson rapide.",
+      "aliases": [
+        {
+          "name": "beefsteak"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "49e08631-722d-489b-92b5-8636715d4806",
+      "name": "poitrine de bœuf",
+      "pluralName": "poitrines de bœuf",
+      "description": "Bœuf de poitrine; idéale pour cuisson lente ou barbecue.",
+      "aliases": [
+        {
+          "name": "brisket"
+        },
+        {
+          "name": "runderborst"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "39fbbe74-f2a5-4db7-aa9a-e708eaa7cf5b",
+      "name": "poitrine de porc",
+      "pluralName": "poitrines de porc",
+      "description": "Porc provenant du ventre; gras et savoureux, à cuisson lente.",
+      "aliases": [
+        {
+          "name": "ventre de porc"
+        },
+        {
+          "name": "pork belly"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "1b01381a-fb0e-4ab8-ad3a-4687fd1931c0",
+      "name": "chuck eye",
+      "pluralName": "chuck eyes",
+      "description": "Bœuf de l’épaule; savoureux, proche du ribeye.",
+      "aliases": [
+        {
+          "name": "chuckeye"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "2fcff6cf-438a-4291-a965-61be2d42b5a9",
+      "name": "côte de bœuf",
+      "pluralName": "côtes de bœuf",
+      "description": "Bœuf; grand ribeye avec os, pour deux personnes.",
+      "aliases": [
+        {
+          "name": "cote de boeuf"
+        },
+        {
+          "name": "côte de boeuf"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "8641a577-e485-4755-b071-f81307fe3bb5",
+      "name": "diamanthaas",
+      "pluralName": "diamanthaas",
+      "description": "Bœuf; morceau tendre proche du filet, à cuisson rapide.",
+      "aliases": [],
+      "label": "Viandes"
+    },
+    {
+      "id": "82643e3d-4dbd-4225-a102-8559883800bd",
+      "name": "entrecôte",
+      "pluralName": "entrecôtes",
+      "description": "Bœuf; morceau persillé, juteux et savoureux.",
+      "aliases": [
+        {
+          "name": "ribeye"
+        },
+        {
+          "name": "rib eye"
+        },
+        {
+          "name": "entrecote"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "c1b8e5af-034a-486a-b4bc-9343b1578ebe",
+      "name": "sanglier",
+      "pluralName": "sangliers",
+      "description": "Gibier; saveur puissante, braisé ou rôti.",
+      "aliases": [
+        {
+          "name": "wild boar"
+        },
+        {
+          "name": "boar"
+        },
+        {
+          "name": "wildzwijn"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "8231c07e-4fc5-4ed1-a8eb-b46af20e8582",
+      "name": "flat iron",
+      "pluralName": "flat irons",
+      "description": "Bœuf de l’épaule; tendre et savoureux, à cuisson rapide.",
+      "aliases": [
+        {
+          "name": "flatiron"
+        },
+        {
+          "name": "flat iron steak"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "5c9d0460-fb1e-4413-91b0-948ada7d2a71",
+      "name": "fricandeau",
+      "pluralName": "fricandeaux",
+      "description": "Bœuf; rôti maigre de la cuisse, à rôtir lentement.",
+      "aliases": [],
+      "label": "Viandes"
+    },
+    {
+      "id": "1a626aa4-3553-4e1a-ba6d-5f8ae1cc2f37",
+      "name": "haché",
+      "pluralName": "haché",
+      "description": "Viande hachée; pour boulettes, sauces et burgers.",
+      "aliases": [],
+      "label": "Viandes"
+    },
+    {
+      "id": "b73dab35-1dec-40bd-a007-5fc0796f017d",
+      "name": "gnou",
+      "pluralName": "gnous",
+      "description": "Viande de gibier d’antilope; comparable au bœuf.",
+      "aliases": [],
+      "label": "Viandes"
+    },
+    {
+      "id": "8c1354f2-4954-4397-92ed-c4fc39d88401",
+      "name": "lièvre",
+      "pluralName": "lièvres",
+      "description": "Gibier; viande sombre et puissante, souvent mijotée.",
+      "aliases": [
+        {
+          "name": "viande de lièvre"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "2f116b15-0d49-4e90-8298-09dff770d5d3",
+      "name": "haché porc et bœuf",
+      "pluralName": "haché porc et bœuf",
+      "description": "Mélange de bœuf haché et de porc haché; très polyvalent.",
+      "aliases": [
+        {
+          "name": "haché mélangé"
+        },
+        {
+          "name": "mélange porc bœuf haché"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "4c02d0c2-ea3e-4667-bab3-e97e6255b705",
+      "name": "tranche de jambon de porc",
+      "pluralName": "tranches de jambon de porc",
+      "description": "Porc; fine tranche de jambon frais, à cuisson rapide.",
+      "aliases": [
+        {
+          "name": "hamlap"
+        },
+        {
+          "name": "hamlappen"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "bb8280be-dafc-461b-b7c9-6d4934cb3aba",
+      "name": "venaison",
+      "pluralName": "venaison",
+      "description": "Gibier; maigre et au goût prononcé.",
+      "aliases": [
+        {
+          "name": "cerf"
+        },
+        {
+          "name": "chevreuil"
+        },
+        {
+          "name": "viande de chevreuil"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "12f80413-ddc9-4c4c-a2ca-324e3362828f",
+      "name": "onglet",
+      "pluralName": "onglets",
+      "description": "Bœuf provenant du diaphragme; goût intense, à cuisson rapide.",
+      "aliases": [
+        {
+          "name": "inside skirt"
+        },
+        {
+          "name": "kroonvlees"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "7d514a78-7c4b-4c32-907e-66b8ab43a010",
+      "name": "entrecôte de veau",
+      "pluralName": "entrecôtes de veau",
+      "description": "Veau; morceau de côte, tendre et doux.",
+      "aliases": [
+        {
+          "name": "kalfsribeye"
+        },
+        {
+          "name": "kalfs entrecote"
+        },
+        {
+          "name": "kalfs ribeye"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "d5720a1f-0490-470f-b704-789d619ee17f",
+      "name": "escalope de veau",
+      "pluralName": "escalopes de veau",
+      "description": "Veau; tranche fine à cuisson rapide.",
+      "aliases": [
+        {
+          "name": "kalfslap"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "836a8e5d-1aed-4e05-87a1-a77fc72159f2",
+      "name": "noix de veau",
+      "pluralName": "noix de veau",
+      "description": "Veau du dos; morceau noble à cuisson rapide.",
+      "aliases": [
+        {
+          "name": "kalfs oester"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "f17f6f15-437d-44b3-afe7-c539c3da709d",
+      "name": "jarret de veau",
+      "pluralName": "jarrets de veau",
+      "description": "Veau du jarret; pour osso buco, à mijoter longuement.",
+      "aliases": [
+        {
+          "name": "ossobuco"
+        },
+        {
+          "name": "osso buco"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "fb62d512-b1fa-40d0-b09b-b44284e74cda",
+      "name": "escalope viennoise de veau",
+      "pluralName": "escalopes viennoises de veau",
+      "description": "Veau; fine tranche panée comme une Wiener schnitzel.",
+      "aliases": [
+        {
+          "name": "wiener schnitzel"
+        },
+        {
+          "name": "wienerschnitzel"
+        },
+        {
+          "name": "kalfs schnitzel"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "2d21b780-ffbe-4c2a-8fbf-220bf4a1775d",
+      "name": "veau",
+      "pluralName": "veau",
+      "description": "Viande de veau; tendre et claire.",
+      "aliases": [
+        {
+          "name": "kalf"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "a40345f1-7d51-4594-bcde-13811a55575d",
+      "name": "côtelette de porc",
+      "pluralName": "côtelettes de porc",
+      "description": "Côtelette de porc avec os; grillée ou poêlée.",
+      "aliases": [
+        {
+          "name": "carbonade"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "7555d754-c954-450e-97f8-68695396b08e",
+      "name": "steak de tende de tranche",
+      "pluralName": "steaks de tende de tranche",
+      "description": "Bœuf de la cuisse; maigre et tendre, à cuisson rapide.",
+      "aliases": [
+        {
+          "name": "kogel biefstuk"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "c524af30-f93e-4ede-9ea6-bed8c5d33ea6",
+      "name": "lapin",
+      "pluralName": "lapins",
+      "description": "Viande de lapin, sauvage ou d’élevage; légère et maigre, braisée ou rôtie.",
+      "aliases": [
+        {
+          "name": "viande de lapin"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "8231dc84-5f5a-4590-b57c-68232d96e4d5",
+      "name": "gigot d’agneau",
+      "pluralName": "gigots d’agneau",
+      "description": "Agneau; rôti classique à cuisson lente.",
+      "aliases": [
+        {
+          "name": "lams bout"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "639d7663-39ed-47c8-a7bd-1f06bb088177",
+      "name": "filet d’agneau",
+      "pluralName": "filets d’agneau",
+      "description": "Agneau; maigre et tendre, à cuisson rapide.",
+      "aliases": [
+        {
+          "name": "lams filet"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "1159f7fe-c8d5-4f13-970b-0291387708ac",
+      "name": "haché d’agneau",
+      "pluralName": "haché d’agneau",
+      "description": "Viande d’agneau hachée; pour keftas, burgers et mijotés.",
+      "aliases": [
+        {
+          "name": "lams gehakt"
+        },
+        {
+          "name": "ground lamb"
+        },
+        {
+          "name": "minced lamb"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "83c6181f-f68d-4490-bd1e-639832117d8e",
+      "name": "côtelette d’agneau",
+      "pluralName": "côtelettes d’agneau",
+      "description": "Agneau; côtelette avec os, grillée rapidement.",
+      "aliases": [
+        {
+          "name": "lamscotelette"
+        },
+        {
+          "name": "lams kotelet"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "a2b43612-4fd3-4232-9227-57c685834b39",
+      "name": "foie d’agneau",
+      "pluralName": "foies d’agneau",
+      "description": "Foie d’agneau; goût doux, à poêler rapidement.",
+      "aliases": [
+        {
+          "name": "lams lever"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "9497e835-e1fb-4e5f-841a-9be89056abdd",
+      "name": "carré d’agneau",
+      "pluralName": "carrés d’agneau",
+      "description": "Agneau; morceau de côtes avec os, plat élégant.",
+      "aliases": [
+        {
+          "name": "lamskarré"
+        },
+        {
+          "name": "lamskarre"
+        },
+        {
+          "name": "lams rack"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "5fd7b2c6-e87f-40c8-945a-fcc8beb749e1",
+      "name": "épaule d’agneau",
+      "pluralName": "épaules d’agneau",
+      "description": "Agneau; idéale pour braiser ou rôtir lentement.",
+      "aliases": [
+        {
+          "name": "lams schouder"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "1df018f5-c227-4770-bd5a-146ebb2d2fa2",
+      "name": "agneau",
+      "pluralName": "agneau",
+      "description": "Viande d’agneau; tendre avec une saveur caractéristique.",
+      "aliases": [
+        {
+          "name": "lam"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "713223b3-8d04-4d57-80ee-cc9baa1c446b",
+      "name": "foie",
+      "pluralName": "foie",
+      "description": "Abat; pour pâté ou poêlé, riche en fer.",
+      "aliases": [],
+      "label": "Viandes"
+    },
+    {
+      "id": "81de7660-3fe2-4d27-ab97-f1e47c98e3d9",
+      "name": "tranches maigres de bœuf",
+      "pluralName": "tranches maigres de bœuf",
+      "description": "Bœuf maigre en tranches; pour soupe ou mijotés.",
+      "aliases": [
+        {
+          "name": "magere runderlappen"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "799fb582-eb6f-4111-b6dc-cb67f3bc65f2",
+      "name": "médaillon",
+      "pluralName": "médaillons",
+      "description": "Tranche épaisse et ronde de viande; de filet de porc ou de bœuf.",
+      "aliases": [
+        {
+          "name": "medallion"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "6253bd69-e9d9-45b0-bb8b-9463989fbdc6",
+      "name": "os à moelle",
+      "pluralName": "os à moelle",
+      "description": "Os de bœuf avec moelle; rôti ou pour la soupe.",
+      "aliases": [
+        {
+          "name": "beendermerg"
+        },
+        {
+          "name": "merg pijp"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "94be7c70-939c-4224-8ebe-58dbaaaefcfc",
+      "name": "filet de bœuf",
+      "pluralName": "filets de bœuf",
+      "description": "Bœuf; morceau le plus tendre, à cuisson rapide.",
+      "aliases": [
+        {
+          "name": "ossen haas"
+        },
+        {
+          "name": "filet pur"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "4d6d511f-0115-4ec9-84c5-71670d1c061d",
+      "name": "queue de bœuf",
+      "pluralName": "queues de bœuf",
+      "description": "Queue de bœuf; riche en collagène, à mijoter lentement.",
+      "aliases": [
+        {
+          "name": "osse staart"
+        },
+        {
+          "name": "runderstaart"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "05c458db-4e3f-4245-ac4f-91b38d97d82f",
+      "name": "picanha",
+      "pluralName": "picanhas",
+      "description": "Bœuf; coupe brésilienne avec couche de gras, grillée.",
+      "aliases": [
+        {
+          "name": "staartstuk"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "bd06b7fb-1fd0-4a3f-ad52-72013c1a2715",
+      "name": "échine de porc",
+      "pluralName": "échines de porc",
+      "description": "Porc du cou; persillé, pour cuisson lente ou barbecue.",
+      "aliases": [
+        {
+          "name": "varkensnek"
+        },
+        {
+          "name": "varkens nek"
+        },
+        {
+          "name": "procureurstuk"
+        },
+        {
+          "name": "pork neck"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "75dada7d-f133-4597-9e91-0e012e0b13dd",
+      "name": "ribfingers",
+      "pluralName": "ribfingers",
+      "description": "Porc entre les côtes; savoureux, pour barbecue.",
+      "aliases": [
+        {
+          "name": "rib fingers"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "48611f56-f397-4a78-a5ec-8a9b1e507c40",
+      "name": "plat-de-côtes de bœuf",
+      "pluralName": "plats-de-côtes de bœuf",
+      "description": "Bœuf; morceau à braiser provenant des côtes, très savoureux.",
+      "aliases": [
+        {
+          "name": "rib lap"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "7b630aff-1db5-4783-8dcf-70d0bbf40bf2",
+      "name": "rumsteck",
+      "pluralName": "rumstecks",
+      "description": "Bœuf de la croupe; ferme et savoureux.",
+      "aliases": [
+        {
+          "name": "rump steak"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "bf08f0d9-0e36-4269-8fb3-052551537899",
+      "name": "carpaccio de bœuf",
+      "pluralName": "carpaccio de bœuf",
+      "description": "Fines tranches de bœuf cru; en entrée.",
+      "aliases": [
+        {
+          "name": "carpaccio"
+        },
+        {
+          "name": "runder carpaccio"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "42e9cb22-3b4f-491e-95b7-920298f8be41",
+      "name": "bœuf haché",
+      "pluralName": "bœuf haché",
+      "description": "Bœuf haché; pour bolognaise et burgers.",
+      "aliases": [
+        {
+          "name": "runder gehakt"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "7e6f4bd0-91d3-44c5-a3b3-f4731f6fee46",
+      "name": "paleron de bœuf",
+      "pluralName": "palerons de bœuf",
+      "description": "Bœuf à mijoter; pour carbonnade et plats braisés.",
+      "aliases": [
+        {
+          "name": "runder lap"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "7fc72f0c-5939-4741-a162-c6e9ad3e6542",
+      "name": "riblap de bœuf",
+      "pluralName": "riblaps de bœuf",
+      "description": "Viande à mijoter des côtes; tendre grâce au persillé.",
+      "aliases": [
+        {
+          "name": "runder riblap"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "fc1b9b72-388a-42d7-bc7b-7b4000c83c55",
+      "name": "rôti roulé de bœuf",
+      "pluralName": "rôtis roulés de bœuf",
+      "description": "Bœuf roulé; farci ou nature, rôti lentement.",
+      "aliases": [
+        {
+          "name": "runder rollade"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "86079378-4902-4b61-b76f-b9b26b4eee1a",
+      "name": "jarret de bœuf",
+      "pluralName": "jarrets de bœuf",
+      "description": "Bœuf du jarret; pour bouillon ou longue cuisson.",
+      "aliases": [
+        {
+          "name": "runder schenkel"
+        },
+        {
+          "name": "beef shank"
+        },
+        {
+          "name": "beef shanks"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "50b204a6-749c-4edf-9761-213948ccc712",
+      "name": "joue de bœuf",
+      "pluralName": "joues de bœuf",
+      "description": "Bœuf de la joue; riche en collagène, idéal pour longue cuisson.",
+      "aliases": [
+        {
+          "name": "runderwangetje"
+        },
+        {
+          "name": "runderwangetjes"
+        },
+        {
+          "name": "beef cheek"
+        },
+        {
+          "name": "beef cheeks"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "b145f8ef-f608-4302-ac27-c6db851df6ff",
+      "name": "bœuf",
+      "pluralName": "bœuf",
+      "description": "Viande de bœuf; pour rôtir, mijoter ou griller.",
+      "aliases": [
+        {
+          "name": "rund"
+        },
+        {
+          "name": "rund vlees"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "673ac2be-8a4d-4626-8f40-3648fa62abcd",
+      "name": "schnitzel",
+      "pluralName": "schnitzels",
+      "description": "Fine tranche de viande; panée et frite ou poêlée.",
+      "aliases": [],
+      "label": "Viandes"
+    },
+    {
+      "id": "e539e333-a44c-4ffd-82e6-31c3b29a37c4",
+      "name": "côte de porc dans l’échine",
+      "pluralName": "côtes de porc dans l’échine",
+      "description": "Porc; côte persillée, braisée ou grillée.",
+      "aliases": [
+        {
+          "name": "schouder karbonade"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "3838e468-46e2-40e5-a72d-30b57b0058c2",
+      "name": "secreto",
+      "pluralName": "secreto",
+      "description": "Porc; morceau caché près du ventre, très savoureux.",
+      "aliases": [
+        {
+          "name": "secreto ibérico"
+        },
+        {
+          "name": "secreto iberico"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "347fc3e2-e72a-419a-8f38-b60dd7edd078",
+      "name": "émincé de shawarma",
+      "pluralName": "émincés de shawarma",
+      "description": "Viande marinée et épicée en lanières; pour wraps et pains plats.",
+      "aliases": [
+        {
+          "name": "shawarma"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "6942db0e-4e71-4187-a44e-c3180c75ccd1",
+      "name": "short rib",
+      "pluralName": "short ribs",
+      "description": "Bœuf; côte courte idéale pour cuisson lente.",
+      "aliases": [
+        {
+          "name": "shortrib"
+        },
+        {
+          "name": "shortribs"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "9b55a6ad-1005-4f67-8fd9-34bdae7ec183",
+      "name": "travers de porc",
+      "pluralName": "travers de porc",
+      "description": "Côtes de porc; marinées, cuites lentement ou grillées.",
+      "aliases": [
+        {
+          "name": "spare ribs"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "199d7929-7ea8-4f2a-ae5d-4614b3522327",
+      "name": "cochon de lait",
+      "pluralName": "cochons de lait",
+      "description": "Jeune porc; viande tendre, traditionnellement rôtie.",
+      "aliases": [
+        {
+          "name": "speen varken"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "4d257e9a-f13e-404a-97c5-d8e05581350f",
+      "name": "lardons",
+      "pluralName": "lardons",
+      "description": "Lard coupé en dés; pour cuisson à la poêle.",
+      "aliases": [
+        {
+          "name": "spekjes"
+        },
+        {
+          "name": "spek blokjes"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "7ea46e2f-fbe0-42d6-8817-287144ab6102",
+      "name": "poitrine de porc en tranches",
+      "pluralName": "poitrines de porc en tranches",
+      "description": "Porc; poitrine persillée en tranches, poêlée.",
+      "aliases": [
+        {
+          "name": "speklapje"
+        },
+        {
+          "name": "spek lap"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "7e622199-7ba7-4e4b-86f9-caf18885caaf",
+      "name": "lardons en lanières",
+      "pluralName": "lardons en lanières",
+      "description": "Lard coupé en lanières; pour carbonara ou salade.",
+      "aliases": [
+        {
+          "name": "spek reepjes"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "ec5d454c-d1ac-41dd-8e72-3bb5493ce30b",
+      "name": "viande à mijoter",
+      "pluralName": "viandes à mijoter",
+      "description": "Bœuf en morceaux; pour cuisson lente.",
+      "aliases": [
+        {
+          "name": "runderstoofvlees"
+        },
+        {
+          "name": "suddervlees"
+        },
+        {
+          "name": "stoof vlees"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "cb31eda1-eadc-4eaf-b568-79c6811e36dc",
+      "name": "paleron",
+      "pluralName": "palerons",
+      "description": "Bœuf à braiser avec nerf central; pour cuisson lente.",
+      "aliases": [
+        {
+          "name": "sukade lap"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "05f55bfd-002d-484c-8069-0d61095877ed",
+      "name": "viande de paleron",
+      "pluralName": "viande de paleron",
+      "description": "Bœuf de l’épaule; pour mijotés et ragoûts.",
+      "aliases": [
+        {
+          "name": "sukade vlees"
+        },
+        {
+          "name": "rundersukade"
+        },
+        {
+          "name": "runder sukade"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "dfa7eeb7-494b-4fe5-8660-88b54928736f",
+      "name": "t-bone",
+      "pluralName": "t-bones",
+      "description": "Bœuf; steak avec os en T, deux morceaux en un.",
+      "aliases": [
+        {
+          "name": "t-bone steak"
+        },
+        {
+          "name": "tbone"
+        },
+        {
+          "name": "t bone"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "4298bf3a-8684-4470-bf81-f784ea683e12",
+      "name": "tartare",
+      "pluralName": "tartares",
+      "description": "Bœuf cru haché; assaisonné en plat principal.",
+      "aliases": [
+        {
+          "name": "steak tartare"
+        },
+        {
+          "name": "biefstuk tartaar"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "5d30b8d1-13ec-44a8-b178-7346c195a224",
+      "name": "tomahawk",
+      "pluralName": "tomahawks",
+      "description": "Bœuf; ribeye avec long os, pièce spectaculaire à griller.",
+      "aliases": [
+        {
+          "name": "tomahawk steak"
+        },
+        {
+          "name": "tomahawksteak"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "1c9c776c-5e42-40a9-909e-ecc01327c0c6",
+      "name": "tournedos",
+      "pluralName": "tournedos",
+      "description": "Bœuf; épaisse tranche de filet, morceau noble.",
+      "aliases": [],
+      "label": "Viandes"
+    },
+    {
+      "id": "9b12e319-34fb-4955-baaf-c5b3b9d95f8f",
+      "name": "filet de porc",
+      "pluralName": "filets de porc",
+      "description": "Porc; morceau maigre, rapide à préparer.",
+      "aliases": [
+        {
+          "name": "varkens filet"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "12326a48-cf48-4ad6-ac2e-beea285f1f86",
+      "name": "porc haché",
+      "pluralName": "porc haché",
+      "description": "Porc haché; pour saucisses et boulettes.",
+      "aliases": [
+        {
+          "name": "varkens gehakt"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "7dd458e2-7067-4df9-9ab1-f4b57ad6a70d",
+      "name": "filet mignon de porc",
+      "pluralName": "filets mignons de porc",
+      "description": "Porc; filet maigre et tendre, à cuisson rapide.",
+      "aliases": [
+        {
+          "name": "varkens haas"
+        },
+        {
+          "name": "varkenshaasje"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "f9bbd299-6df4-4e7a-9d8a-a5e9ae29f784",
+      "name": "côte de porc",
+      "pluralName": "côtes de porc",
+      "description": "Côte de porc avec os; poêlée ou grillée.",
+      "aliases": [
+        {
+          "name": "kotelet"
+        },
+        {
+          "name": "varkens karbonade"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "8ab48017-3aec-41bd-aa4f-409270fc8c64",
+      "name": "noix de porc",
+      "pluralName": "noix de porc",
+      "description": "Porc maigre du dos; prêt rapidement.",
+      "aliases": [
+        {
+          "name": "varkens oester"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "30009586-b313-4605-8f4f-a1e35ee76f5e",
+      "name": "émincé de porc",
+      "pluralName": "émincés de porc",
+      "description": "Porc en lanières; pour sautés.",
+      "aliases": [
+        {
+          "name": "varkens reepjes"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "1dcbe11c-cb0e-4caf-9b70-e700705d032c",
+      "name": "rôti roulé de porc",
+      "pluralName": "rôtis roulés de porc",
+      "description": "Porc roulé; farci ou nature, rôti lentement.",
+      "aliases": [
+        {
+          "name": "varkens rollade"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "bf4e1e5f-aaa5-4d86-ae57-5be0bcd13695",
+      "name": "schnitzel de porc",
+      "pluralName": "schnitzels de porc",
+      "description": "Porc pané; poêlé.",
+      "aliases": [
+        {
+          "name": "varkens schnitzel"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "9f294f0a-d02b-46c3-9db8-c2d965c5e7e9",
+      "name": "épaule de porc",
+      "pluralName": "épaules de porc",
+      "description": "Porc de l’épaule; pour braiser ou rôtir.",
+      "aliases": [
+        {
+          "name": "varkens schouder"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "e5b4c400-6f5a-4041-94a8-4d68888f93ee",
+      "name": "porc",
+      "pluralName": "porc",
+      "description": "Viande de porc; polyvalente pour rôtir, mijoter ou griller.",
+      "aliases": [
+        {
+          "name": "varken"
+        },
+        {
+          "name": "varkens vlees"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "fbe85b7f-0854-404e-b284-1b8a5ffde750",
+      "name": "joue de porc",
+      "pluralName": "joues de porc",
+      "description": "Porc de la joue; très tendre après longue cuisson.",
+      "aliases": [
+        {
+          "name": "varkens wang"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "0f72ea50-ba8f-4982-bdb0-585009e1dce9",
+      "name": "saucisse",
+      "pluralName": "saucisses",
+      "description": "Petite saucisse; grillée ou poêlée.",
+      "aliases": [
+        {
+          "name": "worst"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
+      "id": "8bb73f5b-b6a8-4a2f-a6ab-2dc7e3bef55c",
+      "name": "ris de veau",
+      "pluralName": "ris de veau",
+      "description": "Abat de thymus; délicat, poêlé en entrée.",
+      "aliases": [
+        {
+          "name": "animella"
+        },
+        {
+          "name": "kalfszwezerik"
+        }
+      ],
+      "label": "Viandes"
+    }
+  ]
+}

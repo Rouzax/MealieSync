@@ -523,6 +523,9 @@ function Import-MealieFoods {
                     $params = @{
                         Name = $itemName
                     }
+                    if (![string]::IsNullOrEmpty($item.id)) {
+                        $params.Id = $item.id
+                    }
                     if (![string]::IsNullOrEmpty($item.pluralName)) {
                         $params.PluralName = $item.pluralName
                     }
@@ -535,7 +538,7 @@ function Import-MealieFoods {
                     if ($resolvedLabelId) {
                         $params.LabelId = $resolvedLabelId
                     }
-                    
+
                     New-MealieFood @params | Out-Null
                     if (-not $Quiet) {
                         Write-ImportResult -Counter $counter -Result 'Created' -ItemName $itemName

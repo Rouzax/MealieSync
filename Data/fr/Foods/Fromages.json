@@ -1,0 +1,771 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "62fb6c14-7d7e-4ea8-ad96-90bbdf19a96e",
+      "name": "appenzeller",
+      "pluralName": "appenzeller",
+      "description": "Fromage suisse à pâte demi-dure; sur un plateau de fromages ou dans une fondue.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "a2254ed0-0f1a-4f04-b4af-b6842d281414",
+      "name": "asiago",
+      "pluralName": "asiago",
+      "description": "Fromage italien à pâte demi-dure à dure; à râper ou à servir sur un plateau de fromages.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "e3a384ac-cbc7-4db9-bc45-a12493104958",
+      "name": "fromage affiné",
+      "pluralName": "fromage affiné",
+      "description": "Fromage hollandais affiné; sur du pain, en cubes ou en croque-monsieur.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "9391ed18-ce8a-4518-b6c3-57afb39029b0",
+      "name": "fromage affiné 20+",
+      "pluralName": "fromage affiné 20+",
+      "description": "Fromage affiné très maigre; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "20+ fromage affiné"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "e55b730e-62dc-4fd9-82d8-c390090b3e7a",
+      "name": "fromage affiné 30+",
+      "pluralName": "fromage affiné 30+",
+      "description": "Fromage affiné maigre; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "30+ fromage affiné"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "484b19bf-7912-4128-aafa-d4f25e087ab2",
+      "name": "fromage affiné 35+",
+      "pluralName": "fromage affiné 35+",
+      "description": "Fromage affiné moins gras; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "35+ fromage affiné"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "cd42b3c9-280b-4c69-a97a-edb777af5ae4",
+      "name": "fromage affiné 48+",
+      "pluralName": "fromage affiné 48+",
+      "description": "Fromage affiné à pleine teneur en matières grasses; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "48+ fromage affiné"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "2fec3246-d87c-4541-b7ee-7be421368c83",
+      "name": "fromage bleu",
+      "pluralName": "fromage bleu",
+      "description": "Fromage à pâte persillée; sur un plateau de fromages, dans une sauce ou une salade.",
+      "aliases": [
+        {
+          "name": "fromage bleu"
+        },
+        {
+          "name": "fromage à moisissure bleue"
+        },
+        {
+          "name": "blue cheese"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "6a1c7a14-b5df-49ed-8394-ad13d77a5ae3",
+      "name": "fromage fermier",
+      "pluralName": "fromage fermier",
+      "description": "Fromage néerlandais au lait cru; sur du pain ou sur un plateau de fromages.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "ab459b21-bd9d-4fd8-a979-ef27bd55e1d7",
+      "name": "brie",
+      "pluralName": "brie",
+      "description": "Fromage à pâte molle à croûte fleurie; sur un plateau de fromages ou cuit au four.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "397d3438-3919-43dd-a0f8-611b24419673",
+      "name": "mozzarella de bufflonne",
+      "pluralName": "mozzarella de bufflonne",
+      "description": "Mozzarella au lait de bufflonne; plus crémeuse que la mozzarella ordinaire.",
+      "aliases": [
+        {
+          "name": "mozzarella di bufala"
+        },
+        {
+          "name": "mozzarella bufflonne"
+        },
+        {
+          "name": "mozzarella-de-bufflonne"
+        },
+        {
+          "name": "mozzarella bufala"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "71cd3719-5250-436f-9132-1e51b5d1002c",
+      "name": "burrata",
+      "pluralName": "burrata",
+      "description": "Mozzarella fraîche farcie à la crème; à servir avec des tomates et du pain.",
+      "aliases": [
+        {
+          "name": "burratta"
+        },
+        {
+          "name": "buratta"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "c3d2e7bb-9aca-43aa-b12b-aee6d97ad9c9",
+      "name": "camembert",
+      "pluralName": "camembert",
+      "description": "Fromage à pâte molle à croûte fleurie; sur un plateau de fromages ou cuit au four.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "9879eecd-9f91-4ea7-a4c7-bbd4421b059a",
+      "name": "cheddar",
+      "pluralName": "cheddar",
+      "description": "Fromage à pâte dure au goût prononcé; fond bien sur les burgers ou dans les croque-monsieur.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "9cf0b280-bb3a-4470-817c-aa85b0544716",
+      "name": "comté",
+      "pluralName": "comté",
+      "description": "Fromage français à pâte dure; pour la fondue, le gratin ou le plateau de fromages.",
+      "aliases": [
+        {
+          "name": "comte"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "6d79daae-61db-447e-be71-d4411c7cc0a7",
+      "name": "edam",
+      "pluralName": "edam",
+      "description": "Fromage hollandais doux; sur du pain ou en cubes.",
+      "aliases": [
+        {
+          "name": "edam"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "8f129534-af02-4916-b96a-6153c884de27",
+      "name": "emmental",
+      "pluralName": "emmental",
+      "description": "Fromage suisse à trous; dans les croque-monsieur, la fondue ou le gratin.",
+      "aliases": [
+        {
+          "name": "emmenthal"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "74b1bb60-2bb3-430c-8fe9-403d2961ef56",
+      "name": "fromage extra affiné",
+      "pluralName": "fromage extra affiné",
+      "description": "Fromage hollandais affiné plus longtemps; sur un plateau de fromages ou à râper.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "0a67b40d-272c-447f-bc08-8105002b1f63",
+      "name": "feta",
+      "pluralName": "feta",
+      "description": "Fromage blanc en saumure; à émietter dans une salade ou un plat au four.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "8c50321b-64f2-429a-8231-53978832d57d",
+      "name": "fromage à fondue",
+      "pluralName": "fromage à fondue",
+      "description": "Mélange de fromages pour fondue; à faire fondre avec du vin ou du bouillon.",
+      "aliases": [
+        {
+          "name": "fromage pour fondue"
+        },
+        {
+          "name": "fromage fondue"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "2fda22cf-5f6d-4fd2-a5fe-3d8db793a586",
+      "name": "fromage de chèvre",
+      "pluralName": "fromage de chèvre",
+      "description": "Fromage au lait de chèvre; sur des rôties, en salade ou en gratin.",
+      "aliases": [
+        {
+          "name": "chèvre"
+        },
+        {
+          "name": "chevre"
+        },
+        {
+          "name": "goat cheese"
+        },
+        {
+          "name": "goat's cheese"
+        },
+        {
+          "name": "goats cheese"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "cb021132-f935-4ab0-aa01-1d954e510a53",
+      "name": "fromage râpé",
+      "pluralName": "fromage râpé",
+      "description": "Fromage pré-râpé; pratique pour gratiner.",
+      "aliases": [
+        {
+          "name": "fromage à pizza"
+        },
+        {
+          "name": "fromage pizza"
+        },
+        {
+          "name": "mélange pizza"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "91c049a6-29a1-4f1d-8b33-fee9842b95c3",
+      "name": "gorgonzola",
+      "pluralName": "gorgonzola",
+      "description": "Fromage bleu italien; dans une sauce, un risotto ou sur un plateau de fromages.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "347a7e72-8f7b-487e-9d1a-096777c21fbb",
+      "name": "gouda",
+      "pluralName": "gouda",
+      "description": "Style de fromage hollandais; sur du pain, en croque-monsieur ou sur un plateau de fromages.",
+      "aliases": [
+        {
+          "name": "gouda"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "9cc66fed-d25c-4b77-a732-ea9d4f32c523",
+      "name": "grana padano",
+      "pluralName": "grana padano",
+      "description": "Fromage italien à pâte dure; à râper sur des pâtes ou un risotto.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "294dac91-841a-40c2-a26b-fdf2935c5d18",
+      "name": "gruyère",
+      "pluralName": "gruyère",
+      "description": "Fromage suisse à pâte demi-dure à dure; pour la fondue, le gratin ou le croque-monsieur.",
+      "aliases": [
+        {
+          "name": "gruyere"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "59fd8591-5eec-40d5-99fa-edfc9d5bef38",
+      "name": "halloumi",
+      "pluralName": "halloumi",
+      "description": "Fromage ferme qui ne fond pas; à griller ou à poêler en tranches.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "f0a30e25-5c4a-4881-8c54-cfe30ba6bb86",
+      "name": "fromage cottage",
+      "pluralName": "fromage cottage",
+      "description": "Fromage frais granuleux; en salade, au déjeuner ou comme garniture.",
+      "aliases": [
+        {
+          "name": "cottage cheese"
+        },
+        {
+          "name": "huttenkase"
+        },
+        {
+          "name": "huttenkaas"
+        },
+        {
+          "name": "hutten kaas"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "b451e916-eb93-4364-bdca-8c24ec525c6a",
+      "name": "fromage jeune",
+      "pluralName": "fromage jeune",
+      "description": "Fromage hollandais peu affiné; sur du pain ou pour les croque-monsieur.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "aaa2285e-6e7f-4df4-a068-fc54c29d98fe",
+      "name": "fromage jeune 20+",
+      "pluralName": "fromage jeune 20+",
+      "description": "Fromage jeune très maigre; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "fromage jeune 20+"
+        },
+        {
+          "name": "20+ fromage jeune"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "dc39d61e-a715-4796-ac9c-98720ca7ea6c",
+      "name": "fromage jeune 30+",
+      "pluralName": "fromage jeune 30+",
+      "description": "Fromage jeune maigre; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "fromage jeune 30+"
+        },
+        {
+          "name": "30+ fromage jeune"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "9f39ada4-3e24-458b-aef8-df53c14671ff",
+      "name": "fromage jeune 35+",
+      "pluralName": "fromage jeune 35+",
+      "description": "Fromage jeune moins gras; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "fromage jeune 35+"
+        },
+        {
+          "name": "35+ fromage jeune"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "ba912f5b-0698-4aeb-84c4-365d41b01b3a",
+      "name": "fromage jeune 48+",
+      "pluralName": "fromage jeune 48+",
+      "description": "Fromage jeune à pleine teneur en matières grasses; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "fromage jeune 48+"
+        },
+        {
+          "name": "48+ fromage jeune"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "a3a06149-d1ca-4c60-8b21-ea2ad0c08b37",
+      "name": "fromage",
+      "pluralName": "fromage",
+      "description": "Produit laitier coagulé; sur du pain, dans une sauce ou un gratin.",
+      "aliases": [
+        {
+          "name": "tranche de fromage"
+        },
+        {
+          "name": "tranches de fromage"
+        },
+        {
+          "name": "fromage en tranche"
+        },
+        {
+          "name": "fromages en tranches"
+        },
+        {
+          "name": "cubes de fromage"
+        },
+        {
+          "name": "fromage en cubes"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "e4cbebd8-e37b-406b-afee-415b7119269e",
+      "name": "fromage au cumin",
+      "pluralName": "fromage au cumin",
+      "description": "Fromage hollandais au cumin; sur du pain ou sur un plateau de fromages.",
+      "aliases": [
+        {
+          "name": "fromage au carvi"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "aca509af-689c-46ac-a37f-97c43ed1eab1",
+      "name": "fromage à la crème aux fines herbes",
+      "pluralName": "fromage à la crème aux fines herbes",
+      "description": "Fromage à la crème aux herbes; comme tartinade ou trempette.",
+      "aliases": [
+        {
+          "name": "fromage aux herbes"
+        },
+        {
+          "name": "fromage à la crème aux herbes"
+        },
+        {
+          "name": "fromage-a-la-creme-aux-herbes"
+        },
+        {
+          "name": "herb cream cheese"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "1a514ebb-c1e1-4b42-9e4f-cfc9183bf428",
+      "name": "limburger",
+      "pluralName": "limburger",
+      "description": "Fromage à croûte lavée très odorant; sur du pain ou sur un plateau de fromages.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "d9c50fd9-85c2-4bc5-a225-c81bab2e9507",
+      "name": "maasdam",
+      "pluralName": "maasdam",
+      "description": "Fromage hollandais à trous; dans les croque-monsieur ou sur du pain.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "9077c4b9-99c6-42d8-8f4c-7f69331fcea0",
+      "name": "manchego",
+      "pluralName": "manchego",
+      "description": "Fromage espagnol au lait de brebis; sur un plateau de fromages ou en tapas.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "eed78dd3-4de9-4b29-bd51-a9001f8ef91d",
+      "name": "mascarpone",
+      "pluralName": "mascarpone",
+      "description": "Fromage à la crème italien; pour le tiramisu ou les sauces crémeuses.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "a8ce8d72-be64-4745-9b07-96e20922a81f",
+      "name": "monterey jack",
+      "pluralName": "monterey jack",
+      "description": "Fromage doux qui fond bien; pour les plats tex-mex ou les quesadillas.",
+      "aliases": [
+        {
+          "name": "montereyjack"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "c3ab5279-6dcc-4156-ab53-ffd3e1b17b0d",
+      "name": "morbier",
+      "pluralName": "morbier",
+      "description": "Fromage français à pâte demi-dure; sur un plateau de fromages ou dans un gratin.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "11f8dc41-c7e6-4c81-a81b-025413389b75",
+      "name": "mozzarella",
+      "pluralName": "mozzarella",
+      "description": "Fromage frais au goût doux; sur une pizza ou en salade.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "96bed57e-fc5e-4e6a-960d-c5578a541532",
+      "name": "munster",
+      "pluralName": "munster",
+      "description": "Fromage français à croûte lavée; sur un plateau de fromages ou cuit au four.",
+      "aliases": [
+        {
+          "name": "fromage munster"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "dd97d1c0-5e16-4890-ba5d-80130a597fa3",
+      "name": "fromage vieux",
+      "pluralName": "fromage vieux",
+      "description": "Fromage hollandais longuement affiné; sur un plateau de fromages ou râpé dans les plats.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "28a501bc-6601-4d9a-9355-a128b4afa9fb",
+      "name": "fromage vieux 20+",
+      "pluralName": "fromage vieux 20+",
+      "description": "Fromage vieux très maigre; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "fromage vieux 20+"
+        },
+        {
+          "name": "20+ fromage vieux"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "dc054390-60a3-4a84-93a9-52824c9a6c8e",
+      "name": "fromage vieux 30+",
+      "pluralName": "fromage vieux 30+",
+      "description": "Fromage vieux maigre; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "fromage vieux 30+"
+        },
+        {
+          "name": "30+ fromage vieux"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "58084db0-c910-4d9d-ac38-8cc9ea507fb9",
+      "name": "fromage vieux 35+",
+      "pluralName": "fromage vieux 35+",
+      "description": "Fromage vieux moins gras; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "fromage vieux 35+"
+        },
+        {
+          "name": "35+ fromage vieux"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "f689fecf-2c10-4c97-b9b4-1fe8ed81f5a7",
+      "name": "fromage vieux 48+",
+      "pluralName": "fromage vieux 48+",
+      "description": "Fromage vieux à pleine teneur en matières grasses; sur du pain, en croque-monsieur ou dans les plats.",
+      "aliases": [
+        {
+          "name": "fromage vieux 48+"
+        },
+        {
+          "name": "48+ fromage vieux"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "2dbec8de-7b56-4538-b603-0292e31a60e9",
+      "name": "fromage très affiné",
+      "pluralName": "fromage très affiné",
+      "description": "Fromage très longuement affiné; friable sur un plateau de fromages ou à râper.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "782c1dc3-183b-402c-a02d-bdff6527ac97",
+      "name": "paneer",
+      "pluralName": "paneer",
+      "description": "Fromage frais indien; en cubes dans les currys ou poêlé.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "d6aa73a6-ff25-4142-8d73-6414dddd5e33",
+      "name": "parmesan",
+      "pluralName": "parmesan",
+      "description": "Fromage italien à pâte dure; râpé sur des pâtes ou un risotto.",
+      "aliases": [
+        {
+          "name": "fromage parmesan"
+        },
+        {
+          "name": "parmigiano reggiano"
+        },
+        {
+          "name": "parmigiano"
+        },
+        {
+          "name": "parmesan"
+        },
+        {
+          "name": "parmezan"
+        },
+        {
+          "name": "parmigiano-reggiano"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "25d34b51-0354-4639-8027-a23c9bcca504",
+      "name": "pecorino",
+      "pluralName": "pecorino",
+      "description": "Fromage italien au lait de brebis; à râper sur les pâtes ou dans une sauce.",
+      "aliases": [
+        {
+          "name": "pecorino romano"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "e8601406-40bd-4b8a-a202-0a3a65c6d1fc",
+      "name": "provolone",
+      "pluralName": "provolone",
+      "description": "Fromage italien à pâte demi-dure; fond bien dans les croque-monsieur ou les pâtes.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "0f269e4b-1244-4af5-95e5-bb52f5b2aab2",
+      "name": "raclette",
+      "pluralName": "raclette",
+      "description": "Fromage à fondre pour la raclette; délicieux aussi sur les pommes de terre ou les légumes.",
+      "aliases": [
+        {
+          "name": "fromage à raclette"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "29ec8f38-36ec-48a6-a29e-844784c10796",
+      "name": "ricotta",
+      "pluralName": "ricotta",
+      "description": "Fromage de lactosérum doux; pour les farces, les pâtes ou le gâteau au fromage.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "f60c3717-a13f-4245-a925-293431510439",
+      "name": "fromage à la crème",
+      "pluralName": "fromage à la crème",
+      "description": "Fromage à tartiner doux à base de crème; sur des rôties ou dans un gâteau au fromage.",
+      "aliases": [
+        {
+          "name": "fromage à la crème nature"
+        },
+        {
+          "name": "fromage à la crème nature"
+        },
+        {
+          "name": "cream cheese"
+        },
+        {
+          "name": "creamcheese"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "4dd44139-8f85-4371-959b-9f709f545d05",
+      "name": "roquefort",
+      "pluralName": "roquefort",
+      "description": "Fromage bleu français; dans une vinaigrette, une sauce ou sur un plateau de fromages.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "4630eb44-62c3-44fb-9bae-98626ecddb3c",
+      "name": "fromage de brebis",
+      "pluralName": "fromage de brebis",
+      "description": "Fromage au lait de brebis; en salade, avec des pâtes ou sur un plateau de fromages.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "baf0265f-bf82-487d-b9d7-26372d96e51f",
+      "name": "fromage fondu à tartiner",
+      "pluralName": "fromage fondu à tartiner",
+      "description": "Fromage fondu tartinable; comme garniture pour le pain ou dans une sauce.",
+      "aliases": [
+        {
+          "name": "tartinade laitière"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "adbefa12-5fc4-48a7-b13d-f1921dc62ab2",
+      "name": "fromage fondu",
+      "pluralName": "fromage fondu",
+      "description": "Fromage fondu industriel; pour les croque-monsieur, les sauces ou sur du pain.",
+      "aliases": [
+        {
+          "name": "processed cheese"
+        }
+      ],
+      "label": "Fromages"
+    },
+    {
+      "id": "737c8427-a47b-4933-9513-9245ab979f25",
+      "name": "stilton",
+      "pluralName": "stilton",
+      "description": "Fromage bleu anglais; sur un plateau de fromages ou dans une sauce.",
+      "aliases": [],
+      "label": "Fromages"
+    },
+    {
+      "id": "a93d816c-91a8-45b9-b0b7-391917232e87",
+      "name": "taleggio",
+      "pluralName": "taleggio",
+      "description": "Fromage italien à croûte lavée; dans un risotto ou sur un plateau de fromages.",
+      "aliases": [],
+      "label": "Fromages"
+    }
+  ]
+}

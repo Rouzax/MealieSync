@@ -1,0 +1,214 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "6d03ad2a-3abc-461b-94a4-b55b981b9d0f",
+      "name": "arôme liquide",
+      "pluralName": "arôme liquide",
+      "description": "Assaisonnement liquide salé; arôme épicé et umami pour les soupes et les sauces.",
+      "aliases": [
+        {
+          "name": "assaisonnement liquide"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "48171d3a-705d-4eb6-b388-df8e37ee263d",
+      "name": "bouillon",
+      "pluralName": "bouillon",
+      "description": "Base de soupe obtenue par infusion; pour les soupes et les sauces.",
+      "aliases": [
+        {
+          "name": "stock"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "0ad4afdf-00b2-4cfc-9139-524da57885b4",
+      "name": "cube de bouillon",
+      "pluralName": "cubes de bouillon",
+      "description": "Bouillon concentré en cube; à dissoudre dans l’eau.",
+      "aliases": [
+        {
+          "name": "cube bouillon"
+        },
+        {
+          "name": "tablette de bouillon"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "49e72157-f704-4ff6-b9bf-c072b6b27551",
+      "name": "bouillon en poudre",
+      "pluralName": "bouillon en poudre",
+      "description": "Bouillon déshydraté en poudre; à dissoudre dans l’eau.",
+      "aliases": [
+        {
+          "name": "poudre de bouillon"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "8eca611c-5887-44a8-a52f-b2cff9a88d01",
+      "name": "consommé",
+      "pluralName": "consommé",
+      "description": "Bouillon clarifié limpide; corsé et clair.",
+      "aliases": [
+        {
+          "name": "consommé"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "1d0fca89-b433-4505-9205-a2733cba5978",
+      "name": "dashi",
+      "pluralName": "dashi",
+      "description": "Bouillon japonais à base de kombu et de bonite; base pour la soupe miso et les plats de nouilles.",
+      "aliases": [],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "542b2881-a525-47e0-8338-409336c2aed1",
+      "name": "fond",
+      "pluralName": "fond",
+      "description": "Bouillon réduit; base concentrée pour les sauces.",
+      "aliases": [
+        {
+          "name": "jus"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "2b807574-6227-446d-82d0-904ef53baa23",
+      "name": "bouillon de légumes",
+      "pluralName": "bouillon de légumes",
+      "description": "Bouillon de légumes; base végétarienne pour les soupes et les sauces.",
+      "aliases": [],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "6a886b81-6923-465a-81d0-b30a630ee9ea",
+      "name": "cube de bouillon de légumes",
+      "pluralName": "cubes de bouillon de légumes",
+      "description": "Bouillon de légumes en cube; à dissoudre dans l’eau.",
+      "aliases": [
+        {
+          "name": "cube de bouillon de légumes"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "9798d767-3f11-430c-89e7-93c9cbb2c9dc",
+      "name": "fond de veau",
+      "pluralName": "fond de veau",
+      "description": "Fond à base d’os de veau; base riche pour les sauces classiques.",
+      "aliases": [
+        {
+          "name": "bouillon de veau"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "18ec30df-4b00-40a8-bd37-ec373570d9e6",
+      "name": "bouillon de poulet",
+      "pluralName": "bouillon de poulet",
+      "description": "Bouillon de poulet; base polyvalente pour les soupes et le risotto.",
+      "aliases": [],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "77baafd1-20ff-41b9-866c-8206f5cf111d",
+      "name": "cube de bouillon de poulet",
+      "pluralName": "cubes de bouillon de poulet",
+      "description": "Bouillon de poulet en cube; à dissoudre dans l’eau.",
+      "aliases": [
+        {
+          "name": "cube de bouillon de poulet"
+        },
+        {
+          "name": "cube bouillon de poulet"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "f433544a-5e73-49e2-824a-459c78f0903a",
+      "name": "MSG",
+      "pluralName": "MSG",
+      "description": "Glutamate monosodique; exhausteur de goût pour l’umami.",
+      "aliases": [
+        {
+          "name": "ve-tsin"
+        },
+        {
+          "name": "E621"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "00058fcf-f17a-4aed-a20f-a453da7d7792",
+      "name": "cube de bouillon aux champignons",
+      "pluralName": "cubes de bouillon aux champignons",
+      "description": "Cube de bouillon au goût de champignon; riche en umami.",
+      "aliases": [
+        {
+          "name": "cubes de bouillon aux champignons"
+        },
+        {
+          "name": "cube de bouillon aux champignons"
+        },
+        {
+          "name": "cube de bouillon champignons"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "c263af64-b312-4084-9711-a355ddc1846d",
+      "name": "bouillon de bœuf",
+      "pluralName": "bouillon de bœuf",
+      "description": "Bouillon de bœuf; base puissante pour les jus et les ragoûts.",
+      "aliases": [
+        {
+          "name": "bouillon de viande bovine"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "6f6d8f62-0ead-4370-ad18-3cd908bd6e59",
+      "name": "cube de bouillon de bœuf",
+      "pluralName": "cubes de bouillon de bœuf",
+      "description": "Bouillon de bœuf en cube; à dissoudre dans l’eau.",
+      "aliases": [
+        {
+          "name": "cube de bouillon de bœuf"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
+      "id": "ce0f7fae-032e-420c-a677-c184a6326456",
+      "name": "bouillon de poisson",
+      "pluralName": "bouillon de poisson",
+      "description": "Bouillon à base d’arêtes de poisson; base pour les soupes de poisson et les sauces.",
+      "aliases": [
+        {
+          "name": "fumet de poisson"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    }
+  ]
+}

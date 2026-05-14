@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "63c5eea5-e2b8-44c7-9f63-4e108e949f68",
       "name": "amandelmelk",
       "pluralName": "amandelmelk",
       "description": "Plantaardige melk van amandelen; zuivelalternatief.",
@@ -18,6 +19,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "e1ef94b7-8a16-427f-ad69-f4859b612acc",
       "name": "ayran",
       "pluralName": "ayran",
       "description": "Turkse yoghurtdrank met zout; verfrissend bij pittig eten.",
@@ -25,6 +27,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "b784eaf9-47d9-4156-9275-7124a84f650e",
       "name": "bakboter",
       "pluralName": "bakboter",
       "description": "Boter voor koken en bakken; hoog verhitbaar.",
@@ -39,6 +42,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "9c5e9c0b-e7b8-44fc-90c0-1a3b3e2979f3",
       "name": "boter",
       "pluralName": "boter",
       "description": "Zuivelvet van koemelk; voor bakken en smeren.",
@@ -50,6 +54,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "a49bd5b0-9e2b-45ca-a6fe-656e6888da85",
       "name": "braadboter",
       "pluralName": "braadboter",
       "description": "Boter voor braden; hoog verhitbaar.",
@@ -61,6 +66,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "b5b92307-0aeb-49c8-af92-ac1f5bb9529e",
       "name": "clotted cream",
       "pluralName": "clotted cream",
       "description": "Dikke Engelse room; voor scones en desserts.",
@@ -72,6 +78,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "e1e42d28-732e-471b-9754-bf4c4cc92938",
       "name": "crème fraîche",
       "pluralName": "crème fraîche",
       "description": "Licht verzuurde room; voor sauzen, schift niet bij verhitting.",
@@ -89,6 +96,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "2acd4259-348a-4224-9559-eb0a3f0f6c9f",
       "name": "gecondenseerde melk",
       "pluralName": "gecondenseerde melk",
       "description": "Ingedampte gezoete melk; voor desserts en koffie.",
@@ -103,6 +111,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "4e59190c-b852-4498-a659-b255a881ce81",
       "name": "gezouten boter",
       "pluralName": "gezouten boter",
       "description": "Boter met zout; voor op brood.",
@@ -114,6 +123,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "429b9b2b-e39c-43e4-9e02-73a6b7d7e203",
       "name": "ghee",
       "pluralName": "ghee",
       "description": "Geklaarde boter; hoog verhitbaar, Indiase keuken.",
@@ -128,6 +138,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "e3ee4e8a-9168-4ea8-a904-46fc80d34955",
       "name": "griekse yoghurt",
       "pluralName": "griekse yoghurt",
       "description": "Dikke romige yoghurt; voor dips en desserts.",
@@ -142,6 +153,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "430510f4-ee17-4d85-8730-46939cb0d577",
       "name": "halfvolle melk",
       "pluralName": "halfvolle melk",
       "description": "Melk met verminderd vetgehalte; ca. 1,5% vet.",
@@ -153,6 +165,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "81131dbc-1164-4aa9-958b-c0485eb0bc7a",
       "name": "havermelk",
       "pluralName": "havermelk",
       "description": "Plantaardige melk van haver; populair zuivelalternatief.",
@@ -170,6 +183,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "e2030982-fe43-4709-96ff-b42f85801161",
       "name": "karnemelk",
       "pluralName": "karnemelk",
       "description": "Lichtzure melk na boterkarnen; fris en mager.",
@@ -184,6 +198,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "576ff75f-ccfd-4272-bb6c-9291802fd252",
       "name": "kefir",
       "pluralName": "kefir",
       "description": "Gefermenteerde melkdrank; licht bruisend, probiotisch.",
@@ -191,6 +206,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "d40d6ddc-7e98-4b8f-bcd4-e0fdf6b61433",
       "name": "koffiemelk",
       "pluralName": "koffiemelk",
       "description": "Geëvaporeerde melk; houdbaar, voor bij koffie.",
@@ -205,6 +221,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "cb8f1dd4-90ba-4ea6-b2f8-56347d3aa23b",
       "name": "kokosmelk",
       "pluralName": "kokosmelk",
       "description": "Melk van geraspte kokos; voor curry's en desserts.",
@@ -219,6 +236,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "ab885eb4-8f7d-4faa-abdb-c7510ccbb70a",
       "name": "kokosroom",
       "pluralName": "kokosroom",
       "description": "Dikke room van kokos; voor desserts en curry's.",
@@ -236,6 +254,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "4ef31dbc-c998-49dc-aabf-77d7d1fad19a",
       "name": "kookroom",
       "pluralName": "kookroom",
       "description": "Room voor koken; schift niet bij verhitting.",
@@ -250,6 +269,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "7f7b5c54-d53b-4185-9e91-aab94d35bdc0",
       "name": "kruidenboter",
       "pluralName": "kruidenboter",
       "description": "Boter met kruiden; voor vlees of stokbrood.",
@@ -264,6 +284,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "9c16f555-1759-4b3f-8367-7dc36eaeba4d",
       "name": "kwark",
       "pluralName": "kwark",
       "description": "Verse zuivel; zacht en romig, voor desserts of sauzen.",
@@ -275,6 +296,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "c3f9c607-dfef-4a49-92a1-b0e68b513711",
       "name": "magere kwark",
       "pluralName": "magere kwark",
       "description": "Kwark zonder vet; voor desserts of als eiwitbron.",
@@ -282,6 +304,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "2ab4996d-a3b4-4962-8495-7d211e67d230",
       "name": "magere melk",
       "pluralName": "magere melk",
       "description": "Melk zonder vet; ca. 0% vet.",
@@ -293,6 +316,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "ab6be708-7d21-4acd-a3e1-c945df5169b8",
       "name": "magere yoghurt",
       "pluralName": "magere yoghurt",
       "description": "Yoghurt zonder vet; licht en fris.",
@@ -300,6 +324,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "45fb395b-5c36-46ea-ab67-aee47e442892",
       "name": "margarine",
       "pluralName": "margarine",
       "description": "Plantaardig smeerbaar vet; voor op brood of bakken.",
@@ -307,6 +332,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "1f9f7fe7-63cc-4e01-9258-25125105a5f3",
       "name": "melk",
       "pluralName": "melk",
       "description": "Koemelk; basis voor drinken en koken.",
@@ -318,6 +344,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "dce57a36-b21f-4367-b287-c130757ab481",
       "name": "melkpoeder",
       "pluralName": "melkpoeder",
       "description": "Gedroogde melk; voor bakken en instantdranken.",
@@ -332,6 +359,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "02e604a1-a853-4b6f-a246-0a944b85da9f",
       "name": "niter kibbeh",
       "pluralName": "niter kibbeh",
       "description": "Ethiopische gekruide geklaarde boter; als bakvet.",
@@ -343,6 +371,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "cf2afb49-a12e-4d64-9ddd-b1bf747c4dd1",
       "name": "ongezouten boter",
       "pluralName": "ongezouten boter",
       "description": "Boter zonder zout; voor bakken en patisserie.",
@@ -354,6 +383,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "4c6afdfb-d087-4802-adf1-beea1fd92e86",
       "name": "rijstmelk",
       "pluralName": "rijstmelk",
       "description": "Plantaardige melk van rijst; licht zoet, zuivelalternatief.",
@@ -368,6 +398,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "4c711011-1c27-4e20-bfac-e30bf003312f",
       "name": "room",
       "pluralName": "room",
       "description": "Vette melkroom; voor kloppen of sauzen.",
@@ -382,6 +413,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "01e3a6b3-d382-4689-b324-c0aa7f8ccd03",
       "name": "roomboter",
       "pluralName": "roomboter",
       "description": "Boter van room; volle smaak, voor brood en bakken.",
@@ -393,6 +425,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "08ad5185-ac8e-42ef-b12c-2293280a0e0d",
       "name": "santen",
       "pluralName": "santen",
       "description": "Kokosconcentraat (santen); los op in warm vocht voor curry's en soep.",
@@ -422,6 +455,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "8b498289-38fe-4031-a77d-bb1185f1bba5",
       "name": "skyr",
       "pluralName": "skyr",
       "description": "IJslandse zuivel; dik en eiwitrijk.",
@@ -429,6 +463,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "94af5660-250e-49a1-95cc-1f0a7d645d4a",
       "name": "sojamelk",
       "pluralName": "sojamelk",
       "description": "Plantaardige melk van soja; zuivelalternatief.",
@@ -446,6 +481,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "7c07a174-f916-4ef3-9d29-3880140d462e",
       "name": "sojayoghurt",
       "pluralName": "sojayoghurt",
       "description": "Plantaardige yoghurt van soja; zuivelalternatief.",
@@ -457,6 +493,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "1ef80003-5d2f-4a20-aa52-95e2cc49267c",
       "name": "turkse yoghurt",
       "pluralName": "turkse yoghurt",
       "description": "Dikke romige yoghurt; voller dan griekse yoghurt.",
@@ -468,6 +505,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "afbe7fa0-71c9-4598-bba2-db24905d4acf",
       "name": "volle kwark",
       "pluralName": "volle kwark",
       "description": "Romige kwark met vet; voor desserts.",
@@ -475,6 +513,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "eae8e9eb-01a7-41da-af69-71367ee097be",
       "name": "volle melk",
       "pluralName": "volle melk",
       "description": "Melk met volledig vetgehalte; ca. 3,5% vet.",
@@ -486,6 +525,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "325df6ab-20f5-4fc6-bbeb-97175c20108e",
       "name": "volle yoghurt",
       "pluralName": "volle yoghurt",
       "description": "Romige yoghurt; hoger vetgehalte.",
@@ -493,6 +533,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "c5dfb2d9-f84b-419f-a946-f39bc3378a21",
       "name": "yoghurt",
       "pluralName": "yoghurt",
       "description": "Gefermenteerde melk; friszuur, voor ontbijt of sauzen.",
@@ -504,6 +545,7 @@
       "label": "Zuivel"
     },
     {
+      "id": "54d7cd54-7d50-442f-b79c-ef4df381fd05",
       "name": "zure room",
       "pluralName": "zure room",
       "description": "Verzuurde room; als topping voor taco's of soep.",

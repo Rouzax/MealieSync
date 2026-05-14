@@ -1,0 +1,953 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "4e0754ec-581c-45ff-b0a0-e5c68bacbaf2",
+      "name": "arborio",
+      "pluralName": "arborio",
+      "description": "Riz italien pour risotto; crémeux, avec une légère fermeté.",
+      "aliases": [
+        {
+          "name": "riz arborio"
+        },
+        {
+          "name": "riz-arborio"
+        },
+        {
+          "name": "rizarborio"
+        },
+        {
+          "name": "arborio risotto"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "dfed3cf8-44ee-41f7-a040-c3bf7b7b08fb",
+      "name": "riz basmati",
+      "pluralName": "riz basmati",
+      "description": "Riz long et aromatique; léger, pour plats indiens et perses.",
+      "aliases": [
+        {
+          "name": "basmati"
+        },
+        {
+          "name": "riz basmati"
+        },
+        {
+          "name": "riz-basmati"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "c6bbf676-0a4a-4132-b5a7-65f9cd7604f1",
+      "name": "sarrasin",
+      "pluralName": "sarrasin",
+      "description": "Pseudo-céréale sans gluten; goût de noisette, pour bouillie ou comme substitut du riz.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "4ae38981-5c3b-42e0-bab5-84f52ffb25d8",
+      "name": "riz bomba",
+      "pluralName": "riz bomba",
+      "description": "Riz espagnol pour paella; absorbe beaucoup de liquide tout en restant ferme.",
+      "aliases": [
+        {
+          "name": "bomba rijst"
+        },
+        {
+          "name": "arroz bomba"
+        },
+        {
+          "name": "bomba rice"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "94a492f1-e876-4dd9-90af-1fb28018986d",
+      "name": "bucatini",
+      "pluralName": "bucatini",
+      "description": "Spaghetti épais et creux; classique dans l’amatriciana et la carbonara.",
+      "aliases": [
+        {
+          "name": "spaghetti bucatini"
+        },
+        {
+          "name": "perciatelli"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "ff66fac3-5611-4415-826c-c722cd547d4c",
+      "name": "boulgour",
+      "pluralName": "boulgour",
+      "description": "Blé concassé précuit à la vapeur; base du taboulé et du pilaf.",
+      "aliases": [
+        {
+          "name": "bulghur"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "19ee5496-7f1f-4a4f-9de2-a01e9b786d21",
+      "name": "cannelloni",
+      "pluralName": "cannelloni",
+      "description": "Pâtes en tube à farcir; gratinées au four avec sauce et fromage.",
+      "aliases": [
+        {
+          "name": "canneloni"
+        },
+        {
+          "name": "tubes de pâtes farcis"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "5ce86de1-3eff-4370-8e9a-a3e1cd7f269f",
+      "name": "carnaroli",
+      "pluralName": "carnaroli",
+      "description": "Riz premium pour risotto; grain ferme qui reste bien al dente.",
+      "aliases": [
+        {
+          "name": "riz carnaroli"
+        },
+        {
+          "name": "riz-carnaroli"
+        },
+        {
+          "name": "rizcarnaroli"
+        },
+        {
+          "name": "carnaroli risotto"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "c6f44042-2ad9-4576-821c-0251efa2e6f3",
+      "name": "conchiglie",
+      "pluralName": "conchiglie",
+      "description": "Pâtes en forme de coquillage; retiennent bien la sauce et la farce.",
+      "aliases": [
+        {
+          "name": "conchiglioni"
+        },
+        {
+          "name": "petites coquilles de pâte"
+        },
+        {
+          "name": "pâtes coquillages"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "b6ecd016-19d8-4c96-ad2a-a628abcf57fe",
+      "name": "couscous",
+      "pluralName": "couscous",
+      "description": "Semoule nord-africaine en grains; se prépare rapidement avec de l’eau chaude.",
+      "aliases": [
+        {
+          "name": "cous cous"
+        },
+        {
+          "name": "cous-cous"
+        },
+        {
+          "name": "koeskoes"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "3bf28dca-0ddf-46f5-abdc-78d5c13700f1",
+      "name": "riz à dessert",
+      "pluralName": "riz à dessert",
+      "description": "Riz rond; pour riz au lait et pouding au riz.",
+      "aliases": [
+        {
+          "name": "riz à pouding"
+        },
+        {
+          "name": "riz dessert"
+        },
+        {
+          "name": "pudding rice"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "3cee01c6-f994-4d0e-a404-c65bb2d4b4fb",
+      "name": "nouilles aux œufs",
+      "pluralName": "nouilles aux œufs",
+      "description": "Nouilles chinoises aux œufs; pour bami et sautés.",
+      "aliases": [
+        {
+          "name": "bami"
+        },
+        {
+          "name": "nouilles aux oeufs"
+        },
+        {
+          "name": "nouilles-aux-œufs"
+        },
+        {
+          "name": "eier mie"
+        },
+        {
+          "name": "nouilles à l’œuf"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "f5c604d6-ed4a-414b-b46f-734511dee9af",
+      "name": "farfalle",
+      "pluralName": "farfalle",
+      "description": "Pâtes en forme de nœud papillon; pour salades et sauces légères.",
+      "aliases": [
+        {
+          "name": "pâtes en nœud papillon"
+        },
+        {
+          "name": "pâtes papillon"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "a8fc495e-c899-4f42-8643-c7d853c00af2",
+      "name": "fettuccine",
+      "pluralName": "fettuccine",
+      "description": "Pâtes plates en ruban; classiques avec sauce à la crème (alfredo).",
+      "aliases": [
+        {
+          "name": "fettuccini"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "a7080a2d-b117-47bc-8a5d-20ad55536323",
+      "name": "freekeh",
+      "pluralName": "freekeh",
+      "description": "Blé vert grillé; goût de noisette, pour pilaf et salades.",
+      "aliases": [
+        {
+          "name": "frikeh"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "b7a52f30-1e46-4c02-88e6-f8b0b7b84537",
+      "name": "fusilli",
+      "pluralName": "fusilli",
+      "description": "Pâtes en spirale; retiennent bien la sauce.",
+      "aliases": [
+        {
+          "name": "spirelli"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "d77a9469-5f93-4d65-aadb-e39b80902d13",
+      "name": "riz brisé",
+      "pluralName": "riz brisé",
+      "description": "Grains de riz cassés; tendres, pour bouillies et cuisine asiatique.",
+      "aliases": [
+        {
+          "name": "broken rice"
+        },
+        {
+          "name": "com tam"
+        },
+        {
+          "name": "grain de riz brisé"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "5cb67111-93d9-49ac-a6c3-2eb8f57c213f",
+      "name": "riz jaune",
+      "pluralName": "riz jaune",
+      "description": "Riz coloré au curcuma ou au safran; accompagnement de la cuisine indonésienne et surinamaise.",
+      "aliases": [
+        {
+          "name": "nasi kuning"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "327d01ae-f50f-4787-99a4-c6dd94c4e8d4",
+      "name": "millet",
+      "pluralName": "millet",
+      "description": "Petite céréale; en bouillie, en accompagnement ou en salade.",
+      "aliases": [
+        {
+          "name": "millet"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "151e070e-7359-4814-ad36-fee8697fcd03",
+      "name": "nouille de verre",
+      "pluralName": "nouilles de verre",
+      "description": "Nouilles transparentes à base d’amidon de haricot mungo; pour salades et soupes asiatiques.",
+      "aliases": [
+        {
+          "name": "nouilles cellophane"
+        },
+        {
+          "name": "nouilles-cellophane"
+        },
+        {
+          "name": "nouillescellophane"
+        },
+        {
+          "name": "nouilles de verre"
+        },
+        {
+          "name": "nouilles-de-verre"
+        },
+        {
+          "name": "nouilles de haricot mungo"
+        },
+        {
+          "name": "nouillesharicotmungo"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "cc97f00a-0b24-44e4-bf54-e90e21aab004",
+      "name": "gnocchi",
+      "pluralName": "gnocchi",
+      "description": "Boulettes italiennes de pomme de terre; cuites puis servies avec une sauce.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "3dbd39eb-6226-441f-b231-5b7bc485638c",
+      "name": "riz au jasmin",
+      "pluralName": "riz au jasmin",
+      "description": "Riz aromatique à long grain; légèrement collant, pour plats thaïlandais.",
+      "aliases": [
+        {
+          "name": "riz jasmin"
+        },
+        {
+          "name": "riz-jasmin"
+        },
+        {
+          "name": "rizaujasmin"
+        },
+        {
+          "name": "riz thaï"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "b3119209-5580-45bf-809e-b7086c22e65b",
+      "name": "riz gluant",
+      "pluralName": "riz gluant",
+      "description": "Riz gluant; collant, pour sticky rice et desserts.",
+      "aliases": [
+        {
+          "name": "sticky rice"
+        },
+        {
+          "name": "glutinous rice"
+        },
+        {
+          "name": "ketan"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "c442e96b-05c8-4a1c-a8d7-c1d84f1e9193",
+      "name": "feuille de lasagne",
+      "pluralName": "feuilles de lasagne",
+      "description": "Feuille de pâte plate; superposée avec sauce et fromage au four.",
+      "aliases": [
+        {
+          "name": "feuilles de lasagne"
+        },
+        {
+          "name": "feuilles-de-lasagne"
+        },
+        {
+          "name": "feuillesdelasagne"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "71c03c30-2ac6-4563-a552-884a2744c329",
+      "name": "linguine",
+      "pluralName": "linguine",
+      "description": "Spaghetti plats; classiques avec fruits de mer ou pesto.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "7a0670c3-d1cd-42ec-92bf-6ef1a0326cfd",
+      "name": "macaroni",
+      "pluralName": "macaroni",
+      "description": "Courtes pâtes courbées en tube; pour mac and cheese et gratins.",
+      "aliases": [
+        {
+          "name": "macaroni coudé"
+        },
+        {
+          "name": "macaroni coudés"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "c6b1f627-62da-41eb-9468-42f9c39217ef",
+      "name": "vermicelles de riz",
+      "pluralName": "vermicelles de riz",
+      "description": "Fines nouilles de riz; pour bami et sautés.",
+      "aliases": [
+        {
+          "name": "mie hoen"
+        },
+        {
+          "name": "mie-hoen"
+        },
+        {
+          "name": "miehoen"
+        },
+        {
+          "name": "rice vermicelli"
+        },
+        {
+          "name": "vermicelles de riz"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "93e4d171-4c74-405e-a8df-180ea471b4db",
+      "name": "orecchiette",
+      "pluralName": "orecchiette",
+      "description": "Pâtes en petites oreilles des Pouilles; idéales avec légumes, légumineuses ou saucisse.",
+      "aliases": [
+        {
+          "name": "orecchietti"
+        },
+        {
+          "name": "pâtes petites oreilles"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "b43b23be-43e4-474d-80b6-ad28edd87e49",
+      "name": "orzo",
+      "pluralName": "orzo",
+      "description": "Pâtes en forme de riz; pour soupes et salades.",
+      "aliases": [
+        {
+          "name": "pâtes orzo"
+        },
+        {
+          "name": "risoni"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "0b2ab898-c0ec-4497-8ced-6137186c7f21",
+      "name": "riz à paella",
+      "pluralName": "riz à paella",
+      "description": "Riz à grain court; absorbe le bouillon, pour paella.",
+      "aliases": [
+        {
+          "name": "riz pour paella"
+        },
+        {
+          "name": "riz paella"
+        },
+        {
+          "name": "riz-paella"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "92ceb6d2-8baf-4d9c-8bc4-b5b1cca9f609",
+      "name": "pappardelle",
+      "pluralName": "pappardelle",
+      "description": "Pâtes extra larges en ruban; pour ragù et sauces à la viande.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "78f9b6cb-d0a2-43e3-8acb-6e540d963840",
+      "name": "riz étuvé",
+      "pluralName": "riz étuvé",
+      "description": "Riz précuit à la vapeur; reste détaché, adapté au pilaf.",
+      "aliases": [
+        {
+          "name": "converted rice"
+        },
+        {
+          "name": "parboiled rice"
+        },
+        {
+          "name": "riz-étuvé"
+        },
+        {
+          "name": "rizétuvé"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "d6f7067b-0223-4f47-9df3-6e76b59effb6",
+      "name": "couscous perlé",
+      "pluralName": "couscous perlé",
+      "description": "Gros grains de couscous grillés; goût de noisette, comme base de salade.",
+      "aliases": [
+        {
+          "name": "couscous israélien"
+        },
+        {
+          "name": "couscous israélien"
+        },
+        {
+          "name": "mograbiah"
+        },
+        {
+          "name": "couscous perlé"
+        },
+        {
+          "name": "couscous-perlé"
+        },
+        {
+          "name": "ptitim"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "e790a48b-cd3f-4046-bd4b-516bb107c484",
+      "name": "orge perlé",
+      "pluralName": "orge perlé",
+      "description": "Grains d’orge mondés; pour soupes, préparations façon risotto ou salades.",
+      "aliases": [
+        {
+          "name": "grains d’orge"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "235355cb-89ca-4b97-a938-d458ff908e7a",
+      "name": "pâtes",
+      "pluralName": "pâtes",
+      "description": "Pâtes italiennes; terme générique pour différentes formes.",
+      "aliases": [
+        {
+          "name": "produits de pâte"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "1274e9f1-cff3-4328-9c62-62a2e1b02fc3",
+      "name": "penne",
+      "pluralName": "penne",
+      "description": "Pâtes en tube à extrémités biseautées; pour sauces riches.",
+      "aliases": [
+        {
+          "name": "penne rigate"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "9a01b2ae-272b-479a-aff7-bc0d6a3ff5a9",
+      "name": "polenta",
+      "pluralName": "polenta",
+      "description": "Semoule de maïs grossière; cuite en bouillie puis grillée ou poêlée.",
+      "aliases": [
+        {
+          "name": "semoule de maïs"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "6bc2c39b-34e5-4559-a880-f79603fe2d8f",
+      "name": "quinoa",
+      "pluralName": "quinoa",
+      "description": "Pseudo-céréale riche en protéines des Andes; comme substitut du riz ou en salade.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "1746ed0b-a55a-4804-9e49-400cd29f3e45",
+      "name": "ramen",
+      "pluralName": "ramen",
+      "description": "Nouilles japonaises de blé; pour soupes et bouillons.",
+      "aliases": [
+        {
+          "name": "nouilles ramen"
+        },
+        {
+          "name": "ramen noodles"
+        },
+        {
+          "name": "nouilles-ramen"
+        },
+        {
+          "name": "nouillesramen"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "e67ddcaf-6a71-4022-949e-e750750b65ec",
+      "name": "ravioli",
+      "pluralName": "ravioli",
+      "description": "Petits coussins de pâte farcis; au fromage, à la viande ou aux légumes.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "494c1ae7-988b-4ca1-840d-99a11988a101",
+      "name": "rigatoni",
+      "pluralName": "rigatoni",
+      "description": "Grosses pâtes en tube strié; pour sauces épaisses et gratins.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "e3d2443b-f821-4718-85d0-15c625721cea",
+      "name": "riz",
+      "pluralName": "riz",
+      "description": "Céréale de base; riz blanc générique pour l’usage quotidien.",
+      "aliases": [
+        {
+          "name": "riz blanc"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "8c40ff7d-144b-41d6-a663-062650a3cbc7",
+      "name": "mélange de riz",
+      "pluralName": "mélange de riz",
+      "description": "Mélange de variétés de riz; pour accompagnements, bols et salades.",
+      "aliases": [
+        {
+          "name": "mélange de riz"
+        },
+        {
+          "name": "mélange de riz mix"
+        },
+        {
+          "name": "rice mix"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "0d873ebd-a51a-4efd-8128-7f9f1a1fb341",
+      "name": "nouille de riz",
+      "pluralName": "nouilles de riz",
+      "description": "Nouilles plates à base de farine de riz; pour pad thaï et plats vietnamiens.",
+      "aliases": [
+        {
+          "name": "rubans de riz"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "72a8a896-6b20-4a45-9bbc-76da34e6cdce",
+      "name": "riz à risotto",
+      "pluralName": "riz à risotto",
+      "description": "Riz à grain court pour risotto; devient crémeux grâce à son amidon.",
+      "aliases": [
+        {
+          "name": "riz risotto"
+        },
+        {
+          "name": "riz-risotto"
+        },
+        {
+          "name": "risotto rice"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "e365e546-b0ba-4a33-91fa-484b19724b81",
+      "name": "riz rouge",
+      "pluralName": "riz rouge",
+      "description": "Riz complet au son rouge; goût de noisette, pour salades.",
+      "aliases": [
+        {
+          "name": "red rice"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "eeda1961-ce76-44d7-b41a-7e1e255d39fb",
+      "name": "shirataki",
+      "pluralName": "shirataki",
+      "description": "Nouilles de konjac; goût neutre, pour soupes et sautés.",
+      "aliases": [
+        {
+          "name": "nouilles de konjac"
+        },
+        {
+          "name": "nouilles-de-konjac"
+        },
+        {
+          "name": "nouillesdekonjac"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "1e005be2-d834-4cd3-9d08-820ae52d1ead",
+      "name": "riz à cuisson rapide",
+      "pluralName": "riz à cuisson rapide",
+      "description": "Riz précuit; prêt en 8 à 10 min, accompagnement rapide.",
+      "aliases": [
+        {
+          "name": "riz précuit"
+        },
+        {
+          "name": "quick cook rice"
+        },
+        {
+          "name": "instant rice"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "bde94aa7-dbbf-4af9-be9b-6e70a60f20b1",
+      "name": "nouille soba",
+      "pluralName": "nouilles soba",
+      "description": "Nouilles japonaises au sarrasin; froides en salade ou chaudes en bouillon.",
+      "aliases": [
+        {
+          "name": "nouilles de sarrasin"
+        },
+        {
+          "name": "nouillesdesarrasin"
+        },
+        {
+          "name": "soba"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "5a8a9cca-5ecc-46c7-9fc2-de57d59745fa",
+      "name": "somen",
+      "pluralName": "somen",
+      "description": "Fines nouilles japonaises de blé; froides avec sauce à tremper ou en soupe.",
+      "aliases": [
+        {
+          "name": "nouilles somen"
+        },
+        {
+          "name": "nouilles-somen"
+        },
+        {
+          "name": "nouillessomen"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "b1f2872c-f68b-442c-ad12-efa0bfc3b436",
+      "name": "sorgho",
+      "pluralName": "sorgho",
+      "description": "Céréale sans gluten; cuite comme accompagnement ou moulue en farine.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "a56211f0-5b2d-4d2d-8b2c-42045ef24edb",
+      "name": "spaghetti",
+      "pluralName": "spaghetti",
+      "description": "Longues pâtes fines et rondes; classiques avec sauce tomate ou carbonara.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "9bcbb854-916e-4dfc-b496-8d47bb443c4c",
+      "name": "épeautre",
+      "pluralName": "épeautre",
+      "description": "Ancienne céréale apparentée au blé; goût de noisette, en grains ou en farine.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "200e1c10-f7df-4f58-b500-f46718484cc8",
+      "name": "riz à sushi",
+      "pluralName": "riz à sushi",
+      "description": "Riz japonais collant; assaisonné avec vinaigre de riz pour les sushis.",
+      "aliases": [
+        {
+          "name": "sushi rice"
+        },
+        {
+          "name": "riz sushi"
+        },
+        {
+          "name": "riz-sushi"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "2699f8e9-f664-4bcd-9428-8bfe145bd820",
+      "name": "tagliatelle",
+      "pluralName": "tagliatelle",
+      "description": "Pâtes larges en ruban; pour ragù et sauces à la crème.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "bafb5a17-6613-4799-a986-9e1b8847f784",
+      "name": "tapioca",
+      "pluralName": "tapioca",
+      "description": "Perles d’amidon de manioc; pour poudings et bubble tea.",
+      "aliases": [
+        {
+          "name": "perles de tapioca"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "a4227bcf-5b4f-45b1-b0ac-43d1ba949a33",
+      "name": "tortellini",
+      "pluralName": "tortellini",
+      "description": "Pâtes farcies en forme d’anneau; à la viande ou au fromage, en bouillon ou en sauce.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "b5a26fa8-3201-4b39-bf38-1144510b6fb5",
+      "name": "udon",
+      "pluralName": "udon",
+      "description": "Épaisses nouilles japonaises de blé; pour soupes et sautés.",
+      "aliases": [
+        {
+          "name": "nouilles udon"
+        },
+        {
+          "name": "nouilles-udon"
+        },
+        {
+          "name": "nouillesudon"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "dd4c0829-8db0-4371-9fa6-c1d9decf0aae",
+      "name": "vermicelles",
+      "pluralName": "vermicelles",
+      "description": "Spaghetti très fins; pour soupes et plats asiatiques.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "36e8c483-8c42-4c96-8bda-4b03298fe95e",
+      "name": "vialone nano",
+      "pluralName": "vialone nano",
+      "description": "Riz à risotto à petit grain; résultat très crémeux.",
+      "aliases": [
+        {
+          "name": "vialonenano"
+        },
+        {
+          "name": "vialone-nano"
+        },
+        {
+          "name": "riz vialone nano"
+        },
+        {
+          "name": "vialone nano risotto"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "af9102d0-140b-4adb-ba42-c9d28f600296",
+      "name": "pâtes complètes",
+      "pluralName": "pâtes complètes",
+      "description": "Pâtes à base de farine complète; riches en fibres et au goût de noisette.",
+      "aliases": [
+        {
+          "name": "pâtescomplètes"
+        },
+        {
+          "name": "spaghetti complets"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "506f314b-3298-45e7-a9b8-9acc6b4ebfea",
+      "name": "riz sauvage",
+      "pluralName": "riz sauvage",
+      "description": "Longue graine foncée de graminée aquatique; goût de noisette, souvent mélangée au riz blanc.",
+      "aliases": [],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "8a4eca91-736b-4884-94a8-b1ebdaa278ae",
+      "name": "riz brun",
+      "pluralName": "riz brun",
+      "description": "Riz complet avec son; goût de noisette et riche en fibres.",
+      "aliases": [
+        {
+          "name": "riz brun"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
+      "id": "1f5a6bd8-49cc-4c49-9e06-7becc6e14bd4",
+      "name": "riz noir",
+      "pluralName": "riz noir",
+      "description": "Riz complet à la couleur pourpre foncé; goût de noisette, pour plats raffinés.",
+      "aliases": [
+        {
+          "name": "riz venere"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    }
+  ]
+}

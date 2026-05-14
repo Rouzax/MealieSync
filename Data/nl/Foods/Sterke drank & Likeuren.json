@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "f3678e18-73b7-4ea4-9e67-5766d3ef9a00",
       "name": "absint",
       "pluralName": "absint",
       "description": "Groene anijslikeur met alsem; sterke drank uit Zwitserland/Frankrijk.",
@@ -18,6 +19,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "2b6112ca-6ac1-4bac-804e-c4c654a82799",
       "name": "advocaat",
       "pluralName": "advocaat",
       "description": "Nederlandse eierlikeur; voor desserts en cocktails.",
@@ -35,6 +37,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "ea6ede35-d5ed-4312-a5e6-408029092eba",
       "name": "amaretto",
       "pluralName": "amaretto",
       "description": "Italiaanse amandellikeur; zoet, voor cocktails en desserts.",
@@ -49,6 +52,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "36e153e1-1518-4973-a6c5-b5ef3cfc194f",
       "name": "amaro",
       "pluralName": "amaro",
       "description": "Italiaanse kruidenbitterlikeur; aperitief of digestief.",
@@ -63,6 +67,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "9e7ea09f-978e-45a6-8f80-e3271b872165",
       "name": "anisette",
       "pluralName": "anisette",
       "description": "Zoete anijslikeur; digestief of in cocktails.",
@@ -70,6 +75,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "0f4dd15d-f7fb-4682-8a98-61c07067151f",
       "name": "aquavit",
       "pluralName": "aquavit",
       "description": "Scandinavische kruidendistillaat; puur of in cocktails.",
@@ -87,6 +93,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "f9996bed-5b24-421a-83e2-cfc5f2690ebc",
       "name": "arak",
       "pluralName": "arak",
       "description": "Anijsdrank uit het Midden-Oosten; sterke drank met droge smaak.",
@@ -94,6 +101,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "a5e5f647-0f75-460e-92ff-2db40c6b1382",
       "name": "armagnac",
       "pluralName": "armagnac",
       "description": "Franse druivenbrandewijn; voor sauzen en desserts.",
@@ -101,6 +109,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "08e23c6c-559f-4a3c-b5db-1a1bed7fe671",
       "name": "blauwe curaçao",
       "pluralName": "blauwe curaçao",
       "description": "Felblauwe sinaasappellikeur; voor cocktails.",
@@ -118,6 +127,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "f5f86977-0e5c-4b7c-a284-0cfeae27a6b2",
       "name": "bourbon",
       "pluralName": "bourbon",
       "description": "Amerikaanse maïswhisky; voor cocktails of bakken.",
@@ -132,6 +142,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "11986e12-3861-42f1-a0a0-389a2e690575",
       "name": "brandewijn",
       "pluralName": "brandewijn",
       "description": "Gedistilleerde wijn; voor cocktails en desserts.",
@@ -143,6 +154,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "2449eabc-44d8-4e35-9dfa-8100f2f942b4",
       "name": "bruine rum",
       "pluralName": "bruine rum",
       "description": "Donkere gerijpte rum; voor cocktails en desserts.",
@@ -157,6 +169,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "a7a2af01-9133-447e-9ee5-7b70f8648123",
       "name": "cachaça",
       "pluralName": "cachaça",
       "description": "Braziliaans suikerrietdistillaat; basis voor caipirinha.",
@@ -168,6 +181,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "daa975f3-4e43-4f39-9be4-9cb8e2858246",
       "name": "calvados",
       "pluralName": "calvados",
       "description": "Franse appelbrandewijn uit Normandië; voor sauzen en desserts.",
@@ -175,6 +189,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "8c8fbf15-efc2-411d-8491-60b9b55f8162",
       "name": "chocoladelikeur",
       "pluralName": "chocoladelikeur",
       "description": "Cacaolikeur; voor cocktails en desserts.",
@@ -186,6 +201,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "54a5785b-9900-455d-9e9e-55e19b30e584",
       "name": "cocktailbitters",
       "pluralName": "cocktailbitters",
       "description": "Aromatische bitters; druppels als smaakmaker in cocktails.",
@@ -200,6 +216,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "ea590152-14aa-4270-b36f-56dd48fbf383",
       "name": "cognac",
       "pluralName": "cognac",
       "description": "Franse druivenbrandewijn; voor sauzen, desserts of als digestief.",
@@ -207,6 +224,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "bb034bcf-4f9e-4517-970a-552d48671bee",
       "name": "crème de cassis",
       "pluralName": "crème de cassis",
       "description": "Zwartebessenlikeur; voor cocktails zoals kir.",
@@ -221,6 +239,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "92b7e5df-6506-4d72-9026-3917988cb0d8",
       "name": "crème de menthe",
       "pluralName": "crème de menthe",
       "description": "Pepermuntlikeur; groen of wit, voor cocktails en desserts.",
@@ -241,6 +260,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "b1810025-98ff-4800-943a-d20a8c714aef",
       "name": "curaçao",
       "pluralName": "curaçao",
       "description": "Sinaasappellikeur van curaçao-schil; voor cocktails.",
@@ -258,6 +278,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "cd2e39a0-ad48-49f4-8e12-834defb30f0a",
       "name": "falernum",
       "pluralName": "falernum",
       "description": "Caribische likeur met limoen, amandel en kruidnagel; voor tiki-cocktails.",
@@ -265,6 +286,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "83b64e10-2730-44e0-802e-7ecf79e6f4b3",
       "name": "frambozenlikeur",
       "pluralName": "frambozenlikeur",
       "description": "Frambozenlikeur; voor cocktails, desserts en sauzen.",
@@ -276,6 +298,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "a2c78012-5f8c-4870-ad62-95802c97332d",
       "name": "gekruide rum",
       "pluralName": "gekruide rum",
       "description": "Rum met kruiden en specerijen; voor mixdrankjes en bakken.",
@@ -287,6 +310,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "cbaea413-fc7f-43c5-8831-74f579152b2f",
       "name": "gin",
       "pluralName": "gin",
       "description": "Gedistilleerde graandrank met jeneverbes; voor cocktails.",
@@ -294,6 +318,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "95ca943f-6444-42db-88d5-0f6844912ea7",
       "name": "grappa",
       "pluralName": "grappa",
       "description": "Italiaanse druivendraf-brandewijn; digestief.",
@@ -301,6 +326,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "32e5d772-721c-467a-ba78-0abc8d2356a7",
       "name": "hazelnootlikeur",
       "pluralName": "hazelnootlikeur",
       "description": "Zoete hazelnootlikeur; voor koffie, desserts en cocktails.",
@@ -312,6 +338,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "9f66fefa-60ef-4851-8087-d983ad383dad",
       "name": "jenever",
       "pluralName": "jenever",
       "description": "Nederlands graandistillaat met jeneverbes; puur of in cocktails.",
@@ -329,6 +356,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "e627616e-74ac-40e9-80d4-637dc2308fe1",
       "name": "kirsch",
       "pluralName": "kirsch",
       "description": "Kersenbrandewijn; voor fondue, taart en cocktails.",
@@ -340,6 +368,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "0974b01a-a712-4970-97fe-7f0560506315",
       "name": "koffielikeur",
       "pluralName": "koffielikeur",
       "description": "Zoete koffielikeur; voor cocktails en desserts.",
@@ -351,6 +380,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "b8adf207-0d40-4824-984d-faaa81912d5c",
       "name": "kokoslikeur",
       "pluralName": "kokoslikeur",
       "description": "Zoete kokoslikeur; voor cocktails en desserts.",
@@ -362,6 +392,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "6ba14b81-1250-4b04-a64a-7b11a05c0947",
       "name": "kruidenbitter",
       "pluralName": "kruidenbitter",
       "description": "Bitterzoete kruidenlikeur; digestief.",
@@ -369,6 +400,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "6743087b-e5c7-4c6c-baba-418e2b87a212",
       "name": "limoncello",
       "pluralName": "limoncello",
       "description": "Italiaanse citroenlikeur; ijskoud als digestief.",
@@ -376,6 +408,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "da63bbaf-6be9-4567-be9a-261c7c40ebcc",
       "name": "maraschino",
       "pluralName": "maraschino",
       "description": "Italiaanse kersenlikeur; voor cocktails en gebak.",
@@ -383,6 +416,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "15b14dee-0606-4212-9acf-e321787fe2ad",
       "name": "mezcal",
       "pluralName": "mezcal",
       "description": "Rokerig agavedistillaat; alternatief voor tequila in cocktails.",
@@ -390,6 +424,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "46b6924f-3737-4874-8982-29ae359f4bf2",
       "name": "ouzo",
       "pluralName": "ouzo",
       "description": "Griekse anijsdrank; aperitief, wordt troebel met water.",
@@ -397,6 +432,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "9d3010bb-9f9f-4fd1-9d59-4ed1c564950c",
       "name": "passievruchtlikeur",
       "pluralName": "passievruchtlikeur",
       "description": "Zoete likeur van passievrucht; voor cocktails.",
@@ -404,6 +440,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "6bb7e126-d0e7-4225-aaf4-d10c0517e2dc",
       "name": "pastis",
       "pluralName": "pastis",
       "description": "Franse anijsdrank; aperitief, aangelengd met water.",
@@ -411,6 +448,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "3efd4493-b113-4b2b-b6f1-15e105a9224b",
       "name": "perziklikeur",
       "pluralName": "perziklikeur",
       "description": "Perziklikeur; voor cocktails en desserts.",
@@ -425,6 +463,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "56b5cd56-e425-418a-96c4-158f53bb9d90",
       "name": "pisco",
       "pluralName": "pisco",
       "description": "Druivenbrandewijn uit Peru/Chili; voor pisco sour.",
@@ -432,6 +471,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "049c626b-2984-442b-8cae-ad41f8b56e65",
       "name": "roomlikeur",
       "pluralName": "roomlikeur",
       "description": "Romige likeur met room; voor koffie, cocktails en desserts.",
@@ -449,6 +489,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "756a285a-d22a-4df4-9a32-d6de2d6419dc",
       "name": "rum",
       "pluralName": "rum",
       "description": "Gedistilleerd van suikerriet; voor cocktails en gebak.",
@@ -456,6 +497,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "4023b1a1-25ac-4acf-bbff-91c5711ba355",
       "name": "sambuca",
       "pluralName": "sambuca",
       "description": "Italiaanse anijslikeur; digestief of in koffie.",
@@ -463,6 +505,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "ca225ffc-4e8b-4e14-8580-2b79d89dbb40",
       "name": "sleedoornlikeur",
       "pluralName": "sleedoornlikeur",
       "description": "Sleedoornlikeur; vaak gebruikt in cocktails.",
@@ -474,6 +517,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "f5ae936c-4b3f-48bf-8b57-4a534763c973",
       "name": "tequila",
       "pluralName": "tequila",
       "description": "Mexicaans agavedistillaat; voor cocktails of puur met zout en limoen.",
@@ -481,6 +525,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "b03cd636-4d62-41ac-85c0-353a87632d14",
       "name": "triple sec",
       "pluralName": "triple sec",
       "description": "Sinaasappellikeur; voor cocktails.",
@@ -488,6 +533,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "e45b61d1-a68d-4bb1-9f06-3fea11e59b94",
       "name": "vlierbloesemlikeur",
       "pluralName": "vlierbloesemlikeur",
       "description": "Aromatische bloemenlikeur; voor spritz en cocktails.",
@@ -499,6 +545,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "c19ccf06-1738-453a-8d8b-aa188d54baf0",
       "name": "vodka",
       "pluralName": "vodka",
       "description": "Neutraal graandistillaat; voor cocktails.",
@@ -510,6 +557,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "6a2733f9-27e3-4702-9f70-30f268ccf654",
       "name": "whisky",
       "pluralName": "whisky",
       "description": "Gedistilleerde graandrank, gerijpt op eiken; puur of in cocktails.",
@@ -521,6 +569,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "3604b120-4c41-4f81-867f-83b49313f8a6",
       "name": "whiskylikeur",
       "pluralName": "whiskylikeur",
       "description": "Zoete kruidenlikeur op basis van whisky; digestief of in cocktails.",
@@ -535,6 +584,7 @@
       "label": "Sterke drank & Likeuren"
     },
     {
+      "id": "fba12171-f964-4e05-b32d-85a80bbe50e3",
       "name": "witte rum",
       "pluralName": "witte rum",
       "description": "Lichte rum; voor mojito en daiquiri.",

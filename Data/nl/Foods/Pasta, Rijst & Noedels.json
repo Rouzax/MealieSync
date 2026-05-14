@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "4e0754ec-581c-45ff-b0a0-e5c68bacbaf2",
       "name": "arborio",
       "pluralName": "arborio",
       "description": "Italiaanse risottorijst; romig, met lichte bite.",
@@ -24,6 +25,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "dfed3cf8-44ee-41f7-a040-c3bf7b7b08fb",
       "name": "basmatirijst",
       "pluralName": "basmatirijst",
       "description": "Lange, aromatische rijstkorrel; luchtig, voor Indiase en Perzische gerechten.",
@@ -41,6 +43,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "c6bbf676-0a4a-4132-b5a7-65f9cd7604f1",
       "name": "boekweit",
       "pluralName": "boekweit",
       "description": "Glutenvrij pseudograan; nootachtig, voor pap of als rijstvervanger.",
@@ -48,6 +51,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "4ae38981-5c3b-42e0-bab5-84f52ffb25d8",
       "name": "bombarijst",
       "pluralName": "bombarijst",
       "description": "Spaanse paellarijst; neemt veel vocht op, blijft stevig.",
@@ -65,6 +69,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "94a492f1-e876-4dd9-90af-1fb28018986d",
       "name": "bucatini",
       "pluralName": "bucatini",
       "description": "Dikke holle spaghetti; klassiek in amatriciana en carbonara.",
@@ -79,6 +84,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "ff66fac3-5611-4415-826c-c722cd547d4c",
       "name": "bulgur",
       "pluralName": "bulgur",
       "description": "Voorgestoomde gebroken tarwe; basis voor tabouleh en pilav.",
@@ -90,6 +96,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "19ee5496-7f1f-4a4f-9de2-a01e9b786d21",
       "name": "cannelloni",
       "pluralName": "cannelloni",
       "description": "Buispasta om te vullen; ovenpasta met saus en kaas.",
@@ -104,6 +111,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "5ce86de1-3eff-4370-8e9a-a3e1cd7f269f",
       "name": "carnaroli",
       "pluralName": "carnaroli",
       "description": "Premium risottorijst; stevige korrel, blijft mooi al dente.",
@@ -124,6 +132,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "c6f44042-2ad9-4576-821c-0251efa2e6f3",
       "name": "conchiglie",
       "pluralName": "conchiglie",
       "description": "Schelpvormige pasta; houdt saus en vulling goed vast.",
@@ -141,6 +150,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "b6ecd016-19d8-4c96-ad2a-a628abcf57fe",
       "name": "couscous",
       "pluralName": "couscous",
       "description": "Noord-Afrikaans griesmeel in korrels; snel te bereiden met heet water.",
@@ -158,6 +168,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "3bf28dca-0ddf-46f5-abdc-78d5c13700f1",
       "name": "dessertrijst",
       "pluralName": "dessertrijst",
       "description": "Rondkorrelige rijst; voor rijstepap en rijstpudding.",
@@ -175,6 +186,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "3cee01c6-f994-4d0e-a404-c65bb2d4b4fb",
       "name": "eiermie",
       "pluralName": "eiermie",
       "description": "Chinese eiernoedels; voor bami en roerbakgerechten.",
@@ -198,6 +210,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "f5c604d6-ed4a-414b-b46f-734511dee9af",
       "name": "farfalle",
       "pluralName": "farfalle",
       "description": "Vlinderdas-vormige pasta; voor salades en lichte sauzen.",
@@ -212,6 +225,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "a8fc495e-c899-4f42-8643-c7d853c00af2",
       "name": "fettuccine",
       "pluralName": "fettuccine",
       "description": "Platte lintpasta; klassiek met roomsaus (alfredo).",
@@ -223,6 +237,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "a7080a2d-b117-47bc-8a5d-20ad55536323",
       "name": "freekeh",
       "pluralName": "freekeh",
       "description": "Geroosterde groene tarwe; nootachtig, voor pilav en salades.",
@@ -234,6 +249,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "b7a52f30-1e46-4c02-88e6-f8b0b7b84537",
       "name": "fusilli",
       "pluralName": "fusilli",
       "description": "Spiraalvormige pasta; houdt saus goed vast.",
@@ -245,6 +261,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "d77a9469-5f93-4d65-aadb-e39b80902d13",
       "name": "gebroken rijst",
       "pluralName": "gebroken rijst",
       "description": "Gebroken rijstkorrels; zacht, voor pap en Aziatische keuken.",
@@ -262,6 +279,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "5cb67111-93d9-49ac-a6c3-2eb8f57c213f",
       "name": "gele rijst",
       "pluralName": "gele rijst",
       "description": "Rijst gekleurd met kurkuma of saffraan; bijgerecht in Indonesische en Surinaamse keuken.",
@@ -273,6 +291,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "327d01ae-f50f-4787-99a4-c6dd94c4e8d4",
       "name": "gierst",
       "pluralName": "gierst",
       "description": "Klein graan; als pap, bijgerecht of in salade.",
@@ -284,6 +303,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "151e070e-7359-4814-ad36-fee8697fcd03",
       "name": "glasnoedel",
       "pluralName": "glasnoedels",
       "description": "Transparante noedels van mungbonenzetmeel; voor Aziatische salades en soepen.",
@@ -313,6 +333,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "cc97f00a-0b24-44e4-bf54-e90e21aab004",
       "name": "gnocchi",
       "pluralName": "gnocchi",
       "description": "Italiaanse aardappelballetjes; gekookt en geserveerd met saus.",
@@ -320,6 +341,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "3dbd39eb-6226-441f-b231-5b7bc485638c",
       "name": "jasminrijst",
       "pluralName": "jasminrijst",
       "description": "Aromatische langkorrelige rijst; licht plakkerig, voor Thaise gerechten.",
@@ -340,6 +362,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "b3119209-5580-45bf-809e-b7086c22e65b",
       "name": "kleefrijst",
       "pluralName": "kleefrijst",
       "description": "Glutinous rijst; plakkerig, voor sticky rice en desserts.",
@@ -357,6 +380,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "c442e96b-05c8-4a1c-a8d7-c1d84f1e9193",
       "name": "lasagneblad",
       "pluralName": "lasagnebladen",
       "description": "Platte pastavel; gelaagd met saus en kaas in de oven.",
@@ -374,6 +398,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "71c03c30-2ac6-4563-a552-884a2744c329",
       "name": "linguine",
       "pluralName": "linguine",
       "description": "Platte spaghetti; klassiek met zeevruchten of pesto.",
@@ -381,6 +406,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "7a0670c3-d1cd-42ec-92bf-6ef1a0326cfd",
       "name": "macaroni",
       "pluralName": "macaroni",
       "description": "Korte gebogen buisjespasta; voor mac and cheese en ovenschotels.",
@@ -395,6 +421,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "c6b1f627-62da-41eb-9468-42f9c39217ef",
       "name": "mihoen",
       "pluralName": "mihoen",
       "description": "Dunne rijstnoedels; voor bami en roerbakgerechten.",
@@ -418,6 +445,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "93e4d171-4c74-405e-a8df-180ea471b4db",
       "name": "orecchiette",
       "pluralName": "orecchiette",
       "description": "Oortjespasta uit Puglia; goed met groente, peulvruchten of worst.",
@@ -432,6 +460,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "b43b23be-43e4-474d-80b6-ad28edd87e49",
       "name": "orzo",
       "pluralName": "orzo",
       "description": "Rijstvormige pasta; voor soepen en salades.",
@@ -446,6 +475,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "0b2ab898-c0ec-4497-8ced-6137186c7f21",
       "name": "paellarijst",
       "pluralName": "paellarijst",
       "description": "Kortkorrelige rijst; neemt bouillon op, voor paella.",
@@ -463,6 +493,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "92ceb6d2-8baf-4d9c-8bc4-b5b1cca9f609",
       "name": "pappardelle",
       "pluralName": "pappardelle",
       "description": "Extra brede lintpasta; voor ragù en vleessauzen.",
@@ -470,6 +501,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "78f9b6cb-d0a2-43e3-8acb-6e540d963840",
       "name": "parboiled rijst",
       "pluralName": "parboiled rijst",
       "description": "Voorgekookte stoomrijst; blijft los, geschikt voor pilav.",
@@ -490,6 +522,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "d6f7067b-0223-4f47-9df3-6e76b59effb6",
       "name": "parelcouscous",
       "pluralName": "parelcouscous",
       "description": "Grote geroosterde couscouskorrels; nootachtig, als saladebasis.",
@@ -516,6 +549,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "e790a48b-cd3f-4046-bd4b-516bb107c484",
       "name": "parelgort",
       "pluralName": "parelgort",
       "description": "Gepelde gerstkorrels; voor soep, risotto-achtig of salade.",
@@ -527,6 +561,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "235355cb-89ca-4b97-a938-d458ff908e7a",
       "name": "pasta",
       "pluralName": "pasta",
       "description": "Italiaanse deegwaren; generieke term voor diverse vormen.",
@@ -538,6 +573,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "1274e9f1-cff3-4328-9c62-62a2e1b02fc3",
       "name": "penne",
       "pluralName": "penne",
       "description": "Buisvormige pasta met schuine uiteinden; voor stevige sauzen.",
@@ -549,6 +585,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "9a01b2ae-272b-479a-aff7-bc0d6a3ff5a9",
       "name": "polenta",
       "pluralName": "polenta",
       "description": "Grofgemalen maïsmeel; gekookt tot pap, dan gegrilld of gebakken.",
@@ -560,6 +597,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "6bc2c39b-34e5-4559-a880-f79603fe2d8f",
       "name": "quinoa",
       "pluralName": "quinoa",
       "description": "Eiwitrijk pseudograan uit de Andes; als rijstvervanger of in salades.",
@@ -567,6 +605,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "1746ed0b-a55a-4804-9e49-400cd29f3e45",
       "name": "ramen",
       "pluralName": "ramen",
       "description": "Japanse tarwenoedels; voor soepen en bouillon.",
@@ -587,6 +626,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "e67ddcaf-6a71-4022-949e-e750750b65ec",
       "name": "ravioli",
       "pluralName": "ravioli",
       "description": "Gevulde pastakussentjes; met kaas, vlees of groenten.",
@@ -594,6 +634,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "494c1ae7-988b-4ca1-840d-99a11988a101",
       "name": "rigatoni",
       "pluralName": "rigatoni",
       "description": "Grote geribbelde buispasta; voor stevige sauzen en ovenschotels.",
@@ -601,6 +642,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "e3d2443b-f821-4718-85d0-15c625721cea",
       "name": "rijst",
       "pluralName": "rijst",
       "description": "Basisgraan; generieke witte rijst voor dagelijks gebruik.",
@@ -612,6 +654,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "8c40ff7d-144b-41d6-a663-062650a3cbc7",
       "name": "rijstmix",
       "pluralName": "rijstmix",
       "description": "Mix van rijstsoorten; voor bijgerechten, bowls en salades.",
@@ -629,6 +672,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "0d873ebd-a51a-4efd-8128-7f9f1a1fb341",
       "name": "rijstnoedel",
       "pluralName": "rijstnoedels",
       "description": "Platte noedels van rijstmeel; voor pad thai en Vietnamese gerechten.",
@@ -640,6 +684,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "72a8a896-6b20-4a45-9bbc-76da34e6cdce",
       "name": "risottorijst",
       "pluralName": "risottorijst",
       "description": "Kortkorrelige rijst voor risotto; wordt romig door veel zetmeel.",
@@ -657,6 +702,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "e365e546-b0ba-4a33-91fa-484b19724b81",
       "name": "rode rijst",
       "pluralName": "rode rijst",
       "description": "Volkorenrijst met rode zemel; nootachtig, voor salades.",
@@ -668,6 +714,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "eeda1961-ce76-44d7-b41a-7e1e255d39fb",
       "name": "shirataki",
       "pluralName": "shirataki",
       "description": "Noedels van konjak; neutraal van smaak, voor soep en roerbak.",
@@ -685,6 +732,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "1e005be2-d834-4cd3-9d08-820ae52d1ead",
       "name": "snelkookrijst",
       "pluralName": "snelkookrijst",
       "description": "Voorkookrijst; in 8–10 min klaar, snel bijgerecht.",
@@ -702,6 +750,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "bde94aa7-dbbf-4af9-be9b-6e70a60f20b1",
       "name": "sobanoedel",
       "pluralName": "sobanoedels",
       "description": "Japanse boekweitnoedels; koud in salade of warm in bouillon.",
@@ -719,6 +768,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "5a8a9cca-5ecc-46c7-9fc2-de57d59745fa",
       "name": "somen",
       "pluralName": "somen",
       "description": "Dunne Japanse tarwenoedels; koud met dipsaus of in soep.",
@@ -736,6 +786,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "b1f2872c-f68b-442c-ad12-efa0bfc3b436",
       "name": "sorghum",
       "pluralName": "sorghum",
       "description": "Glutenvrij graangewas; gekookt als bijgerecht of gemalen tot meel.",
@@ -743,6 +794,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "a56211f0-5b2d-4d2d-8b2c-42045ef24edb",
       "name": "spaghetti",
       "pluralName": "spaghetti",
       "description": "Lange dunne ronde pasta; klassiek met tomatensaus of carbonara.",
@@ -750,6 +802,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "9bcbb854-916e-4dfc-b496-8d47bb443c4c",
       "name": "spelt",
       "pluralName": "spelt",
       "description": "Oergraan verwant aan tarwe; nootachtig, voor korrels of meel.",
@@ -757,6 +810,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "200e1c10-f7df-4f58-b500-f46718484cc8",
       "name": "sushirijst",
       "pluralName": "sushirijst",
       "description": "Japanse kleefrijst; met rijstazijn op smaak voor sushi.",
@@ -774,6 +828,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "2699f8e9-f664-4bcd-9428-8bfe145bd820",
       "name": "tagliatelle",
       "pluralName": "tagliatelle",
       "description": "Brede lintpasta; voor ragù en roomsauzen.",
@@ -781,6 +836,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "bafb5a17-6613-4799-a986-9e1b8847f784",
       "name": "tapioca",
       "pluralName": "tapioca",
       "description": "Zetmeelparels uit cassave; voor pudding en bubble tea.",
@@ -792,6 +848,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "a4227bcf-5b4f-45b1-b0ac-43d1ba949a33",
       "name": "tortellini",
       "pluralName": "tortellini",
       "description": "Ringvormige gevulde pasta; met vlees of kaas, in bouillon of saus.",
@@ -799,6 +856,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "b5a26fa8-3201-4b39-bf38-1144510b6fb5",
       "name": "udon",
       "pluralName": "udon",
       "description": "Dikke Japanse tarwenoedels; voor soepen en roerbak.",
@@ -816,6 +874,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "dd4c0829-8db0-4371-9fa6-c1d9decf0aae",
       "name": "vermicelli",
       "pluralName": "vermicelli",
       "description": "Zeer dunne spaghetti; voor soepen en Aziatische gerechten.",
@@ -823,6 +882,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "36e8c483-8c42-4c96-8bda-4b03298fe95e",
       "name": "vialone nano",
       "pluralName": "vialone nano",
       "description": "Risottorijst met kleine korrel; extra romig resultaat.",
@@ -843,6 +903,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "af9102d0-140b-4adb-ba42-c9d28f600296",
       "name": "volkoren pasta",
       "pluralName": "volkoren pasta",
       "description": "Pasta van volkorenmeel; vezelig en nootachtig.",
@@ -857,6 +918,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "506f314b-3298-45e7-a9b8-9acc6b4ebfea",
       "name": "wilde rijst",
       "pluralName": "wilde rijst",
       "description": "Lang donker zaad van watergras; nootachtig, vaak gemengd met witte rijst.",
@@ -864,6 +926,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "8a4eca91-736b-4884-94a8-b1ebdaa278ae",
       "name": "zilvervliesrijst",
       "pluralName": "zilvervliesrijst",
       "description": "Volkorenrijst met zemelen; nootachtig en vezelrijk.",
@@ -875,6 +938,7 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "1f5a6bd8-49cc-4c49-9e06-7becc6e14bd4",
       "name": "zwarte rijst",
       "pluralName": "zwarte rijst",
       "description": "Volkorenrijst met donkerpaarse kleur; nootachtig, voor bijzondere gerechten.",

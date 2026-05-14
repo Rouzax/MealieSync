@@ -1,0 +1,442 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "709198ed-e612-4fd2-b362-fbe947ac72ce",
+      "name": "amande",
+      "pluralName": "amandes",
+      "description": "Noix douce; en pâtisserie, en desserts et comme collation.",
+      "aliases": [
+        {
+          "name": "amande non grillée"
+        },
+        {
+          "name": "amandes non grillées"
+        },
+        {
+          "name": "amande crue"
+        },
+        {
+          "name": "amandes crues"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "04c65e70-a2cd-4f9f-87c0-d45bff4d9941",
+      "name": "amande [grillée]",
+      "pluralName": "amande [grillée]",
+      "description": "Amande grillée; comme collation ou dans les salades.",
+      "aliases": [
+        {
+          "name": "amande grillée"
+        },
+        {
+          "name": "amandes grillées"
+        },
+        {
+          "name": "amande grillée"
+        },
+        {
+          "name": "amandes grillées"
+        },
+        {
+          "name": "grillé amande"
+        },
+        {
+          "name": "grillé amandes"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "ef7c0f94-e301-41f3-bfdd-1c59fba28a0a",
+      "name": "amandes effilées",
+      "pluralName": "amandes effilées",
+      "description": "Amandes finement tranchées; garniture pour les pâtisseries et les desserts.",
+      "aliases": [
+        {
+          "name": "amandes tranchées"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "85088dde-9b74-45d4-bdcb-2448c6ea1385",
+      "name": "amandes en bâtonnets",
+      "pluralName": "amandes en bâtonnets",
+      "description": "Amandes coupées en bâtonnets; dans les biscuits et les pâtisseries.",
+      "aliases": [],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "5edeeba1-da4f-4559-b366-a38e85b8be7f",
+      "name": "noix de cajou",
+      "pluralName": "noix de cajou",
+      "description": "Noix crémeuse; dans les currys, les sautés et comme collation.",
+      "aliases": [
+        {
+          "name": "cajou"
+        },
+        {
+          "name": "cajous"
+        },
+        {
+          "name": "noix de cajou non salées"
+        },
+        {
+          "name": "noix de cajou non grillées"
+        },
+        {
+          "name": "noix de cajou crues"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "8444d48b-d772-40eb-87eb-466ffbfd2ae4",
+      "name": "graines de chia",
+      "pluralName": "graines de chia",
+      "description": "Graines qui forment un gel avec un liquide; dans les poudings, smoothies et déjeuners.",
+      "aliases": [
+        {
+          "name": "chia"
+        },
+        {
+          "name": "chia"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "145c2d40-d1b6-4d77-bbcd-cb9e77b0dae6",
+      "name": "noisette",
+      "pluralName": "noisettes",
+      "description": "Noix aromatique; dans le praliné, les pâtisseries et le chocolat.",
+      "aliases": [],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "8243284f-520c-4e72-8094-97c479d6ae18",
+      "name": "farine de noisette",
+      "pluralName": "farine de noisette",
+      "description": "Noisettes moulues; dans les biscuits et gâteaux comme substitut de farine.",
+      "aliases": [
+        {
+          "name": "noisettes moulues"
+        },
+        {
+          "name": "farine de noisettes"
+        },
+        {
+          "name": "farine noisette"
+        },
+        {
+          "name": "farine de noisette"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "20aaa4b1-5159-4700-b402-f25ff3662cde",
+      "name": "graines de chanvre",
+      "pluralName": "graines de chanvre",
+      "description": "Graines à saveur douce et noisettée; dans le yogourt, le muesli et les salades.",
+      "aliases": [
+        {
+          "name": "chanvre"
+        },
+        {
+          "name": "cœurs de chanvre"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "fd41a01b-c53a-4cfa-992a-e5581bdd6783",
+      "name": "noix de coco râpée",
+      "pluralName": "noix de coco râpée",
+      "description": "Noix de coco séchée râpée; dans les pâtisseries, desserts et currys.",
+      "aliases": [
+        {
+          "name": "coco râpée"
+        },
+        {
+          "name": "râpé de noix de coco"
+        },
+        {
+          "name": "noix de coco râpée"
+        },
+        {
+          "name": "coco râpée"
+        },
+        {
+          "name": "coco-râpée"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "7c760d39-2fba-4a07-9841-bf9d3e03def0",
+      "name": "flocons de noix de coco",
+      "pluralName": "flocons de noix de coco",
+      "description": "Grosses lamelles de coco; dans le muesli, le granola et en garniture.",
+      "aliases": [],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "210de45c-b3e7-4c5c-a4e0-630613700f3d",
+      "name": "graines de lin [moulues]",
+      "pluralName": "graines de lin [moulues]",
+      "description": "Graines de lin moulues; comme liant en pâtisserie et dans les bouillies.",
+      "aliases": [
+        {
+          "name": "graines de lin moulues"
+        },
+        {
+          "name": "farine de lin"
+        },
+        {
+          "name": "lin moulu"
+        },
+        {
+          "name": "farine de graines de lin"
+        },
+        {
+          "name": "graines de lin moulues"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "9886fb33-2eea-45f1-ba85-b1790a60bbda",
+      "name": "graines de lin [entières]",
+      "pluralName": "graines de lin [entières]",
+      "description": "Graines de lin entières; dans le pain, le muesli et comme garniture.",
+      "aliases": [
+        {
+          "name": "graine de lin"
+        },
+        {
+          "name": "lin entier"
+        },
+        {
+          "name": "graines de lin entières"
+        },
+        {
+          "name": "graines de lin entières"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "b64b3c07-83b4-452b-a5fc-817c4fbdb7d5",
+      "name": "graines de pavot",
+      "pluralName": "graines de pavot",
+      "description": "Petites graines de pavot; sur le pain et dans les pâtisseries.",
+      "aliases": [
+        {
+          "name": "pavot"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "dd26c5b3-ad4e-4e51-877a-fe0bd5b83f0a",
+      "name": "noix de macadamia",
+      "pluralName": "noix de macadamia",
+      "description": "Noix beurrée; dans les biscuits, les salades et comme collation.",
+      "aliases": [
+        {
+          "name": "macadamia"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "5273a2c6-ac00-4b0a-82f7-db27aae09419",
+      "name": "mélange de noix",
+      "pluralName": "mélanges de noix",
+      "description": "Mélange de noix; comme collation ou sur les salades.",
+      "aliases": [
+        {
+          "name": "noix mélangées"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "fbea5db3-23b9-4130-a30e-94c1f54bdb4c",
+      "name": "noix du Brésil",
+      "pluralName": "noix du Brésil",
+      "description": "Noix grasse; dans les mélanges, granolas et pâtisseries.",
+      "aliases": [
+        {
+          "name": "noix brésilienne"
+        },
+        {
+          "name": "noix brésiliennes"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "1d8abfe1-f6b1-4653-b0cb-e819f3320a19",
+      "name": "pacane",
+      "pluralName": "pacanes",
+      "description": "Noix douce; dans la tarte aux pacanes, les biscuits et le granola.",
+      "aliases": [
+        {
+          "name": "noix de pécan"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "54719883-4504-413f-9dab-6a93b5757aa4",
+      "name": "pignon de pin",
+      "pluralName": "pignons de pin",
+      "description": "Graine du pin; dans le pesto, les salades et les pâtes.",
+      "aliases": [
+        {
+          "name": "petits pignons"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "64741d83-a0ea-4cd5-af43-9c8cf1310704",
+      "name": "arachide",
+      "pluralName": "arachides",
+      "description": "Légumineuse consommée comme une noix; dans les collations et les sauces.",
+      "aliases": [
+        {
+          "name": "cacahuète"
+        },
+        {
+          "name": "cacahuètes"
+        },
+        {
+          "name": "arachide"
+        },
+        {
+          "name": "arachides"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "7091f03c-3c53-4a54-9e1e-44ba6922697f",
+      "name": "pistache",
+      "pluralName": "pistaches",
+      "description": "Noix verte; comme collation et dans les desserts et les crèmes glacées.",
+      "aliases": [
+        {
+          "name": "pistache"
+        },
+        {
+          "name": "pistaches"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "a69de23f-8c11-46c3-8bcb-094ff07c9dd6",
+      "name": "graine de citrouille",
+      "pluralName": "graines de citrouille",
+      "description": "Graine de citrouille; grillée comme collation ou sur le pain et les salades.",
+      "aliases": [
+        {
+          "name": "graine de courge"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "6cfa59d7-8f8c-4f50-a28e-5abc03ed65bb",
+      "name": "graines de sésame",
+      "pluralName": "graines de sésame",
+      "description": "Petites graines; sur le pain et dans les plats asiatiques.",
+      "aliases": [
+        {
+          "name": "sésame"
+        },
+        {
+          "name": "sésame"
+        },
+        {
+          "name": "graines de sésame"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "afaa4380-915e-4d2a-a3df-b189ae2c9012",
+      "name": "châtaigne",
+      "pluralName": "châtaignes",
+      "description": "Châtaigne comestible; rôtie, bouillie ou en purée.",
+      "aliases": [
+        {
+          "name": "châtaigne"
+        },
+        {
+          "name": "châtaignes"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "7787f992-1357-40e3-8fea-aaba8dd91ced",
+      "name": "noix",
+      "pluralName": "noix",
+      "description": "Noix au goût légèrement amer; dans les salades, pâtisseries et plateaux de fromages.",
+      "aliases": [
+        {
+          "name": "noix commune"
+        },
+        {
+          "name": "noix communes"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "b6d7161f-f478-4b94-8039-7cd9f411a9ce",
+      "name": "graines de pavot blanches",
+      "pluralName": "graines de pavot blanches",
+      "description": "Graines de pavot blanches; dans les plats indiens et les sauces.",
+      "aliases": [
+        {
+          "name": "pavot blanc"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "ffbf36dd-5ec5-4252-ae29-cc53ee4a4423",
+      "name": "graine de tournesol",
+      "pluralName": "graines de tournesol",
+      "description": "Graines de tournesol; dans le pain, les salades et comme collation.",
+      "aliases": [
+        {
+          "name": "graines de tournesol"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
+      "id": "a59bb6e9-cceb-4597-a418-3ee28b4a140b",
+      "name": "graines de sésame noires",
+      "pluralName": "graines de sésame noires",
+      "description": "Sésame noir; dans les sushis, bols et desserts.",
+      "aliases": [
+        {
+          "name": "sésame noir"
+        }
+      ],
+      "label": "Noix et graines"
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "4f40db24-3625-452a-ac3a-503983234cce",
+      "name": "café décaféiné",
+      "pluralName": "café décaféiné",
+      "description": "Café sans caféine; pour une consommation pauvre en caféine ou pour les desserts.",
+      "aliases": [
+        {
+          "name": "café déca"
+        },
+        {
+          "name": "déca"
+        },
+        {
+          "name": "café décaféiné"
+        },
+        {
+          "name": "café décaféiné"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "cdf856a6-03b6-4330-9463-9e55feff9274",
+      "name": "thé décaféiné",
+      "pluralName": "thé décaféiné",
+      "description": "Thé sans caféine; choix doux pour le soir ou un régime pauvre en caféine.",
+      "aliases": [
+        {
+          "name": "thé déca"
+        },
+        {
+          "name": "thé décaféiné"
+        },
+        {
+          "name": "thé décaféiné"
+        },
+        {
+          "name": "thé décaféiné"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "3e0f4de8-0998-4bd9-aaa9-30ab6ccb4e6d",
+      "name": "chai",
+      "pluralName": "chai",
+      "description": "Thé épicé; avec de la cannelle, de la cardamome et du gingembre.",
+      "aliases": [
+        {
+          "name": "thé chai"
+        },
+        {
+          "name": "masala chai"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "c73b960e-933f-4523-b24f-f8a4e7a3e495",
+      "name": "earl grey",
+      "pluralName": "earl grey",
+      "description": "Thé noir à la bergamote; aromatique.",
+      "aliases": [
+        {
+          "name": "thé earl grey"
+        },
+        {
+          "name": "earl grey"
+        },
+        {
+          "name": "earl gray"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "09e29bd0-c587-4105-a1e6-2c53f7436c25",
+      "name": "espresso",
+      "pluralName": "espresso",
+      "description": "Café fort; concentré, base pour les boissons au café.",
+      "aliases": [
+        {
+          "name": "expresso"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "c816b0ae-0bfb-4cf8-9f45-273572ccf547",
+      "name": "thé au gingembre",
+      "pluralName": "thé au gingembre",
+      "description": "Tisane au gingembre; réchauffante et épicée.",
+      "aliases": [
+        {
+          "name": "thé au gingembre"
+        },
+        {
+          "name": "thé-au-gingembre"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "2d13a0f7-5aab-496e-bed5-7038d97e906c",
+      "name": "café de céréales",
+      "pluralName": "café de céréales",
+      "description": "Succédané de café à base de céréales; sans caféine.",
+      "aliases": [
+        {
+          "name": "succédané de café aux céréales"
+        },
+        {
+          "name": "café de chicorée"
+        },
+        {
+          "name": "café chicorée"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "dd52e0bc-9795-4d49-b2a6-a88c49d8842f",
+      "name": "thé vert",
+      "pluralName": "thé vert",
+      "description": "Thé non fermenté; doux et légèrement amer.",
+      "aliases": [
+        {
+          "name": "green tea"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "0188d90f-0df1-4473-b27f-184b9ee75c80",
+      "name": "thé glacé",
+      "pluralName": "thés glacés",
+      "description": "Thé froid sucré; boisson rafraîchissante.",
+      "aliases": [
+        {
+          "name": "ice tea"
+        },
+        {
+          "name": "iced tea"
+        },
+        {
+          "name": "iced tea"
+        },
+        {
+          "name": "ice tea"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "e1509e92-56fd-4634-982e-947e3bb14b0a",
+      "name": "café instantané",
+      "pluralName": "café instantané",
+      "description": "Café soluble; rapide à préparer.",
+      "aliases": [
+        {
+          "name": "café soluble"
+        },
+        {
+          "name": "café instantané"
+        },
+        {
+          "name": "café soluble"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "4be47ae8-2248-42c5-a626-dd8162c94fd9",
+      "name": "thé au jasmin",
+      "pluralName": "thé au jasmin",
+      "description": "Thé vert au jasmin; arôme floral.",
+      "aliases": [
+        {
+          "name": "thé au jasmin"
+        },
+        {
+          "name": "thé-au-jasmin"
+        },
+        {
+          "name": "jasmine tea"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "1dc81966-fc40-4907-aea5-e38a208adb9e",
+      "name": "tisane à la camomille",
+      "pluralName": "tisanes à la camomille",
+      "description": "Tisane de camomille; apaisante et sans caféine.",
+      "aliases": [
+        {
+          "name": "thé à la camomille"
+        },
+        {
+          "name": "thé-à-la-camomille"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "acb686bd-4970-44cb-96f0-ab2cc0bee2d8",
+      "name": "café",
+      "pluralName": "café",
+      "description": "Boisson à base de grains de café; chaude ou froide.",
+      "aliases": [
+        {
+          "name": "café noir"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "f8a32bbf-30e6-44f8-b6db-339d8415fb6f",
+      "name": "café [moulu]",
+      "pluralName": "café [moulu]",
+      "description": "Café moulu; pour le café filtre, le percolateur et les pâtisseries.",
+      "aliases": [
+        {
+          "name": "café filtre"
+        },
+        {
+          "name": "café moulu"
+        },
+        {
+          "name": "café filtre"
+        },
+        {
+          "name": "café moulu"
+        },
+        {
+          "name": "poudre de café"
+        },
+        {
+          "name": "café en poudre"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "01af2331-ed49-49cc-8862-c641afbfade5",
+      "name": "grain de café",
+      "pluralName": "grains de café",
+      "description": "Grain de café torréfié; à moudre pour préparer du café.",
+      "aliases": [
+        {
+          "name": "grain de café"
+        },
+        {
+          "name": "grains de café entiers"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "e5329c05-be74-4e96-be02-5ca9e543c1d8",
+      "name": "matcha",
+      "pluralName": "matcha",
+      "description": "Poudre de thé vert japonaise; intense et onctueuse.",
+      "aliases": [
+        {
+          "name": "poudre de matcha"
+        },
+        {
+          "name": "matcha en poudre"
+        },
+        {
+          "name": "thé matcha"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "d2c6a6d8-d0ce-47a4-b1a0-b77514c7d447",
+      "name": "thé à la menthe",
+      "pluralName": "thé à la menthe",
+      "description": "Tisane de menthe; rafraîchissante, sans caféine.",
+      "aliases": [
+        {
+          "name": "thé à la menthe"
+        },
+        {
+          "name": "thé-à-la-menthe"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "7f4fcdde-7253-4ee3-b21a-681bb4edce75",
+      "name": "oolong",
+      "pluralName": "oolong",
+      "description": "Thé semi-fermenté; entre le thé vert et le thé noir.",
+      "aliases": [
+        {
+          "name": "thé oolong"
+        },
+        {
+          "name": "thé oolong"
+        },
+        {
+          "name": "wulong"
+        },
+        {
+          "name": "thé wulong"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "f17f5272-eed6-444d-9801-21f14aa63a60",
+      "name": "thé rooibos",
+      "pluralName": "thé rooibos",
+      "description": "Tisane sud-africaine; sans caféine, légèrement sucrée.",
+      "aliases": [
+        {
+          "name": "rooibos"
+        },
+        {
+          "name": "thé rooibos"
+        },
+        {
+          "name": "thé-rooibos"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "6b9aa371-ae63-4ce4-a8c7-324566b70647",
+      "name": "thé",
+      "pluralName": "thé",
+      "description": "Boisson à base de feuilles de thé; base de nombreuses variétés de thé.",
+      "aliases": [],
+      "label": "Café et thé"
+    },
+    {
+      "id": "da413507-4f49-450c-b13d-9719af0e736e",
+      "name": "thé blanc",
+      "pluralName": "thé blanc",
+      "description": "Thé légèrement fermenté; délicat et doux.",
+      "aliases": [
+        {
+          "name": "white tea"
+        }
+      ],
+      "label": "Café et thé"
+    },
+    {
+      "id": "1f5ad6e2-0259-4dab-b266-0495bcae3738",
+      "name": "thé noir",
+      "pluralName": "thé noir",
+      "description": "Thé entièrement fermenté; fort et contenant de la caféine.",
+      "aliases": [
+        {
+          "name": "black tea"
+        }
+      ],
+      "label": "Café et thé"
+    }
+  ]
+}

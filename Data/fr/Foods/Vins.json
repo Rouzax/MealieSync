@@ -1,0 +1,750 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "5595ff04-e19f-455a-b149-e6abb4ec2b8f",
+      "name": "albariño",
+      "pluralName": "albariño",
+      "description": "Vin blanc aromatique; avec les coquillages et fruits de mer.",
+      "aliases": [
+        {
+          "name": "albarino"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "fd99ad54-40c6-46e0-85c0-ec1e054c597a",
+      "name": "amontillado",
+      "pluralName": "amontillado",
+      "description": "Xérès demi-sec; ambré et aux notes de noix.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "d00ec101-2df0-424a-bc6a-ca653c85f7fd",
+      "name": "barbera",
+      "pluralName": "barbera",
+      "description": "Vin rouge italien; acidité fraîche, avec les pâtes et le ragù.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "a2d0bddf-483f-4edc-8bb7-1a78e1006d38",
+      "name": "barolo",
+      "pluralName": "barolo",
+      "description": "Vin rouge italien à base de nebbiolo; avec le gibier et la truffe.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "48dd1046-21a7-4ad3-8cb3-e1890da03767",
+      "name": "beaujolais",
+      "pluralName": "beaujolais",
+      "description": "Vin rouge français léger; avec le poulet, les pâtés et la charcuterie.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "f4868404-feeb-41c4-9c75-bec6b482a159",
+      "name": "cabernet franc",
+      "pluralName": "cabernet franc",
+      "description": "Cépage ou vin rouge; avec la volaille, les pâtes et la charcuterie.",
+      "aliases": [
+        {
+          "name": "cabernet-franc"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "38d05bda-534d-450a-979b-afb1762d9de2",
+      "name": "cabernet sauvignon",
+      "pluralName": "cabernet sauvignon",
+      "description": "Vin rouge puissant; avec les viandes rouges et les sauces.",
+      "aliases": [
+        {
+          "name": "cabernet-sauvignon"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "b504b1a7-740b-4e10-a617-b12979000273",
+      "name": "cava",
+      "pluralName": "cava",
+      "description": "Vin mousseux espagnol; alternative au champagne.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "68f361ea-6c48-42f3-b66b-2bbbc12b754b",
+      "name": "chablis",
+      "pluralName": "chablis",
+      "description": "Vin blanc de Bourgogne; tendu et minéral, avec les huîtres et le poisson.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "a7f6cc3e-5741-4a1e-995e-e7fa171154a4",
+      "name": "champagne",
+      "pluralName": "champagne",
+      "description": "Vin mousseux français de Champagne; apéritif festif.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "6e76617f-3a10-489f-8f1e-9de86542edad",
+      "name": "chardonnay",
+      "pluralName": "chardonnay",
+      "description": "Vin blanc ample; avec les sauces crémeuses et le poulet.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "6624f012-df79-47c8-bcb2-f4aada84d36f",
+      "name": "chenin blanc",
+      "pluralName": "chenin blanc",
+      "description": "Vin blanc, sec à doux; avec le poisson et les sauces.",
+      "aliases": [
+        {
+          "name": "chenin-blanc"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "5e5ea7a2-cc3f-4c3a-bcfa-efa57bb02824",
+      "name": "chianti",
+      "pluralName": "chianti",
+      "description": "Vin rouge toscan; avec les pâtes et les plats à la tomate.",
+      "aliases": [
+        {
+          "name": "chianti classico"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "54c5a06f-6b1b-4ab2-b735-50f5c05837ea",
+      "name": "côtes-du-rhône",
+      "pluralName": "côtes-du-rhône",
+      "description": "Vin français du Rhône; souvent rouge, avec les plats mijotés et les grillades.",
+      "aliases": [
+        {
+          "name": "cotes du rhone"
+        },
+        {
+          "name": "cotes-du-rhone"
+        },
+        {
+          "name": "cotes du rhône"
+        },
+        {
+          "name": "côtes du rhône"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "1f249284-e206-420d-b237-7c2b2f2f66a6",
+      "name": "crémant",
+      "pluralName": "crémant",
+      "description": "Vin mousseux français hors Champagne; bulles fines.",
+      "aliases": [
+        {
+          "name": "cremant"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "ce8ee5af-7ea0-40e4-b70b-4ce792352149",
+      "name": "vin rouge sec",
+      "pluralName": "vin rouge sec",
+      "description": "Vin rouge sec; pour les mijotés, jus et sauces rouges.",
+      "aliases": [
+        {
+          "name": "dry red wine"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "278c7c6f-0549-42bf-9662-de873635f917",
+      "name": "vermouth sec",
+      "pluralName": "vermouth sec",
+      "description": "Vin fortifié aux herbes; pour les cocktails et sauces de poisson.",
+      "aliases": [
+        {
+          "name": "dry vermouth"
+        },
+        {
+          "name": "vermouth blanc"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "4c56c40f-34d8-40b5-b094-5fe83dc3d9d4",
+      "name": "vin blanc sec",
+      "pluralName": "vin blanc sec",
+      "description": "Vin blanc sec; base pour le risotto et les sauces blanches.",
+      "aliases": [
+        {
+          "name": "dry white wine"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "9ef94048-5aa0-479d-93b1-e3e9030084a7",
+      "name": "eiswein",
+      "pluralName": "eiswein",
+      "description": "Vin de glace allemand; très doux, issu de raisins gelés.",
+      "aliases": [
+        {
+          "name": "ice wine"
+        },
+        {
+          "name": "vin de glace"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "7286bf12-bc68-4a0c-bfab-67d29af3b5b5",
+      "name": "fino",
+      "pluralName": "fino",
+      "description": "Xérès léger et sec; à l’apéritif ou avec des tapas.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "0defceea-68ed-4067-b788-2eb42bc27d2d",
+      "name": "franciacorta",
+      "pluralName": "franciacorta",
+      "description": "Vin mousseux italien; bulles sèches.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "0886bef5-da66-4065-a88d-375284e76fb5",
+      "name": "gewürztraminer",
+      "pluralName": "gewürztraminer",
+      "description": "Vin blanc aromatique; avec la cuisine asiatique et relevée.",
+      "aliases": [
+        {
+          "name": "gewurztraminer"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "5d44b182-8719-4eff-8e06-e7186bfc7513",
+      "name": "grenache",
+      "pluralName": "grenache",
+      "description": "Vin rouge fruité; en assemblage, avec les plats mijotés et grillés.",
+      "aliases": [
+        {
+          "name": "garnacha"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "5db5b051-70a7-4279-9d7c-5edd18b2a427",
+      "name": "grüner veltliner",
+      "pluralName": "grüner veltliner",
+      "description": "Vin blanc autrichien; poivré, avec les asperges.",
+      "aliases": [
+        {
+          "name": "gruner veltliner"
+        },
+        {
+          "name": "gruner-veltliner"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "32bdd344-8e5a-41f7-99af-fe42afdd3f62",
+      "name": "vin de cuisine",
+      "pluralName": "vin de cuisine",
+      "description": "Vin destiné à la cuisson; alternative économique, souvent salée.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "f5ad154f-ad68-44ae-89e9-39a5a752245e",
+      "name": "lambrusco",
+      "pluralName": "lambrusco",
+      "description": "Vin rouge italien légèrement mousseux; avec la pizza.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "2c04ba09-693c-4943-88cf-bc772d18a336",
+      "name": "madère",
+      "pluralName": "madère",
+      "description": "Vin fortifié portugais; pour les sauces et desserts.",
+      "aliases": [
+        {
+          "name": "vin de madère"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "54f6b4d3-472a-40ce-939f-e438977cbc3f",
+      "name": "malbec",
+      "pluralName": "malbec",
+      "description": "Vin rouge foncé; avec les viandes grillées et sauces corsées.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "ccd70ec5-5f31-4323-8954-dd4ffd7b05f1",
+      "name": "marsala",
+      "pluralName": "marsala",
+      "description": "Vin fortifié italien; pour le tiramisu et les sauces.",
+      "aliases": [
+        {
+          "name": "vin de marsala"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "eb4d7690-9a7c-4f7e-94e6-56f1c64fe516",
+      "name": "merlot",
+      "pluralName": "merlot",
+      "description": "Vin rouge souple; avec les pâtes, les plats mijotés et les sauces.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "9f7c6837-30c3-4109-a8d8-8fa0c82bce63",
+      "name": "mirin",
+      "pluralName": "mirin",
+      "description": "Vin de riz japonais doux; pour le teriyaki et les marinades.",
+      "aliases": [
+        {
+          "name": "vin de mirin"
+        },
+        {
+          "name": "mirin vin"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "c556899f-1c83-47ad-998d-20cfd5c1da0b",
+      "name": "moscato d'asti",
+      "pluralName": "moscato d'asti",
+      "description": "Vin doux légèrement mousseux; en dessert ou avec les fruits.",
+      "aliases": [
+        {
+          "name": "moscato d asti"
+        },
+        {
+          "name": "moscato d’asti"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "29eed73a-5146-4666-a2db-a7e0dc6574ab",
+      "name": "vin mousseux",
+      "pluralName": "vin mousseux",
+      "description": "Vin effervescent; pour le sabayon ou l’apéritif festif.",
+      "aliases": [
+        {
+          "name": "sparkling wine"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "8084ad29-cb5e-46e7-a910-57635d3e3c64",
+      "name": "muscadet",
+      "pluralName": "muscadet",
+      "description": "Vin blanc sec de Loire; avec les huîtres, moules et poissons.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "0543e627-2558-4398-8674-79de21c64171",
+      "name": "vin muscat",
+      "pluralName": "vin muscat",
+      "description": "Vin doux de raisins muscat; comme vin de dessert.",
+      "aliases": [
+        {
+          "name": "moscatel"
+        },
+        {
+          "name": "muscat"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "ffb23f74-e31c-4a1e-b094-9f63e1a4b9ed",
+      "name": "nebbiolo",
+      "pluralName": "nebbiolo",
+      "description": "Vin rouge tannique; avec le gibier et la truffe.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "537922d7-1f9e-4599-b20a-028112cff752",
+      "name": "oloroso",
+      "pluralName": "oloroso",
+      "description": "Xérès sec et ample; foncé et puissant.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "ef51f293-9758-4511-8f95-bae23998d5ff",
+      "name": "pedro ximénez",
+      "pluralName": "pedro ximénez",
+      "description": "Xérès doux foncé; sirupeux, pour les desserts.",
+      "aliases": [
+        {
+          "name": "pedro ximenez"
+        },
+        {
+          "name": "px"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "edc84e39-ba36-4391-b47f-26a05b392da0",
+      "name": "pineau des charentes",
+      "pluralName": "pineau des charentes",
+      "description": "Vin d’apéritif français au cognac; doux et fruité.",
+      "aliases": [
+        {
+          "name": "pineau de charentes"
+        },
+        {
+          "name": "pineau"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "0deb6658-de23-46f1-ac08-a6b08cd84708",
+      "name": "pinot blanc",
+      "pluralName": "pinot blanc",
+      "description": "Vin blanc frais; avec les plats légers et les asperges.",
+      "aliases": [
+        {
+          "name": "pinot-blanc"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "293ba11e-fdeb-4ae6-a61e-dccc6621464f",
+      "name": "pinot grigio",
+      "pluralName": "pinot grigio",
+      "description": "Vin blanc léger; neutre, pour le risotto et le poisson.",
+      "aliases": [
+        {
+          "name": "pinot gris"
+        },
+        {
+          "name": "pinotgrigio"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "d7f44ecd-9906-4321-a2f2-e56bd31b5e69",
+      "name": "pinot noir",
+      "pluralName": "pinot noir",
+      "description": "Vin rouge élégant; avec les champignons et la volaille.",
+      "aliases": [
+        {
+          "name": "pinot-noir"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "334da928-c97f-41db-8bbc-9721d89afad9",
+      "name": "porto",
+      "pluralName": "porto",
+      "description": "Vin fortifié portugais; doux, en digestif ou dans les sauces.",
+      "aliases": [
+        {
+          "name": "vin de porto"
+        },
+        {
+          "name": "port"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "e1e31bde-904f-47bc-b4fc-8d862f5330a8",
+      "name": "primitivo",
+      "pluralName": "primitivo",
+      "description": "Vin rouge italien; ample et fruité, avec le barbecue.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "50909e12-a90f-427e-a39b-f4792856da85",
+      "name": "prosecco",
+      "pluralName": "prosecco",
+      "description": "Vin mousseux italien; léger et frais.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "be8a84a1-6a63-4171-aa61-5d4bd8e2f703",
+      "name": "riesling",
+      "pluralName": "riesling",
+      "description": "Vin blanc aromatique; sec à doux, originaire d’Allemagne.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "17f2237b-a7fd-475c-b3d5-af7e04977fd6",
+      "name": "rioja",
+      "pluralName": "rioja",
+      "description": "Vin rouge espagnol; souvent élevé en fût de chêne, avec l’agneau et les tapas.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "c43a23ca-7a32-430b-83a6-53c11059396f",
+      "name": "vermouth rouge",
+      "pluralName": "vermouth rouge",
+      "description": "Vin fortifié aromatisé sucré; pour les cocktails.",
+      "aliases": [
+        {
+          "name": "sweet vermouth"
+        },
+        {
+          "name": "vermouth doux"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "6f7e1dac-ffa7-487c-8f1d-2276f08e834d",
+      "name": "vin rouge",
+      "pluralName": "vin rouge",
+      "description": "Vin issu de raisins noirs; à boire ou à cuisiner.",
+      "aliases": [
+        {
+          "name": "vinrouge"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "06d4fc50-fc8e-4b10-9d67-bdbeae8cfae2",
+      "name": "rosé",
+      "pluralName": "rosé",
+      "description": "Vin rose pâle; frais, à boire ou à cuisiner.",
+      "aliases": [
+        {
+          "name": "rose"
+        },
+        {
+          "name": "vin rosé"
+        },
+        {
+          "name": "vinrose"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "d040d26f-89b7-49cb-9772-b15a5ac79e7b",
+      "name": "saké",
+      "pluralName": "saké",
+      "description": "Vin de riz japonais; chaud ou froid, aussi pour les marinades.",
+      "aliases": [
+        {
+          "name": "sake"
+        },
+        {
+          "name": "nihonshu"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "a0214d50-efd7-4c26-aa8f-ad527c269f80",
+      "name": "sancerre",
+      "pluralName": "sancerre",
+      "description": "Vin blanc de Loire à base de sauvignon; avec le fromage de chèvre et les salades.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "236259c1-3a92-4cb7-aafa-c6eba7205f1d",
+      "name": "sangiovese",
+      "pluralName": "sangiovese",
+      "description": "Vin rouge italien; avec la sauce tomate et les pâtes.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "a32dc1b1-7ce4-464c-a799-36e672a209ba",
+      "name": "sauternes",
+      "pluralName": "sauternes",
+      "description": "Vin doux français; issu de pourriture noble, avec le foie gras et les desserts.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "4a2d3c0f-78d8-46d7-8483-6d6fd3bf2ee3",
+      "name": "sauvignon blanc",
+      "pluralName": "sauvignon blanc",
+      "description": "Vin blanc vif; avec le poisson, les salades et les sauces.",
+      "aliases": [
+        {
+          "name": "sauvignon-blanc"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "2552fffa-c9d2-4ea2-9d43-ee525736f871",
+      "name": "vin de Shaoxing",
+      "pluralName": "vin de Shaoxing",
+      "description": "Vin de riz chinois; pour les sautés et les marinades.",
+      "aliases": [
+        {
+          "name": "shaoxing wijn"
+        },
+        {
+          "name": "shaohsing"
+        },
+        {
+          "name": "vin de riz chinois"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "b9254c07-f948-442e-8b44-1c9a1fe026cd",
+      "name": "xérès",
+      "pluralName": "xérès",
+      "description": "Vin fortifié espagnol; sec à doux, pour cuisiner ou boire.",
+      "aliases": [
+        {
+          "name": "jerez"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "1003eca8-7003-40b9-b4d6-bd04b2252c86",
+      "name": "syrah",
+      "pluralName": "syrah",
+      "description": "Vin rouge épicé; avec le barbecue, l’agneau et les plats mijotés.",
+      "aliases": [
+        {
+          "name": "shiraz"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "aecba864-2b14-4935-a4ad-3884bee755f4",
+      "name": "tempranillo",
+      "pluralName": "tempranillo",
+      "description": "Vin rouge espagnol; avec les tapas, les plats mijotés et la paella.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "293ae938-58ab-4784-9408-2dfc55a81ef9",
+      "name": "tokaji",
+      "pluralName": "tokaji",
+      "description": "Vin doux hongrois; avec les desserts et le fromage bleu.",
+      "aliases": [
+        {
+          "name": "tokaj"
+        },
+        {
+          "name": "tokaj aszú"
+        },
+        {
+          "name": "tokaj aszu"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "1a7e22c6-0b01-4489-b268-272e80dfa271",
+      "name": "verdejo",
+      "pluralName": "verdejo",
+      "description": "Vin blanc espagnol frais; avec les tapas et fruits de mer.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "7972a039-df73-4900-b170-996f4206dc87",
+      "name": "vermouth",
+      "pluralName": "vermouth",
+      "description": "Vin fortifié aromatisé; pour les cocktails comme le martini.",
+      "aliases": [
+        {
+          "name": "vermout"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "250bd1a8-3afb-4877-b193-bdd9508f2d9b",
+      "name": "vin santo",
+      "pluralName": "vin santo",
+      "description": "Vin de dessert italien; servi avec des biscotti à tremper.",
+      "aliases": [
+        {
+          "name": "vinsanto"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "3e351741-9432-4727-9c63-eaf60b3a64eb",
+      "name": "viognier",
+      "pluralName": "viognier",
+      "description": "Vin blanc aromatique; avec le poulet épicé et les sauces à la crème.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "035ae12c-f784-451f-beb5-4031d52afb1f",
+      "name": "vin blanc",
+      "pluralName": "vin blanc",
+      "description": "Vin issu de raisins blancs; à boire ou à cuisiner.",
+      "aliases": [
+        {
+          "name": "vinblanc"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "d5fee86e-a753-41b7-873e-5fff29980826",
+      "name": "zinfandel",
+      "pluralName": "zinfandel",
+      "description": "Vin rouge riche; avec le barbecue et les plats épicés.",
+      "aliases": [],
+      "label": "Vins"
+    }
+  ]
+}

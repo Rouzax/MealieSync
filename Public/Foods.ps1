@@ -80,19 +80,25 @@ function New-MealieFood {
         [Parameter(Mandatory)]
         [ValidateNotNullOrEmpty()]
         [string]$Name,
-        
+
+        [string]$Id,
+
         [string]$PluralName,
-        
+
         [string]$Description,
-        
+
         [array]$Aliases = @(),
-        
+
         [string]$LabelId
     )
-    
-    $body = @{
-        name = $Name
+
+    $body = [ordered]@{}
+
+    if (![string]::IsNullOrEmpty($Id)) {
+        $body.id = $Id
     }
+
+    $body.name = $Name
     
     if (![string]::IsNullOrEmpty($PluralName)) {
         $body.pluralName = $PluralName

@@ -1,0 +1,97 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "6ee545a9-3940-49cd-9227-a558cd5970a6",
+      "name": "chips",
+      "pluralName": "chips",
+      "description": "Tranches de pomme de terre frites; collation croustillante ou garniture.",
+      "aliases": [
+        {
+          "name": "chips de pomme de terre"
+        },
+        {
+          "name": "chips de pommes de terre"
+        }
+      ],
+      "label": "Collations"
+    },
+    {
+      "id": "aeff7bfe-75ce-4fcf-a9e7-3d0c6bf4a29a",
+      "name": "kroepoek",
+      "pluralName": "kroepoek",
+      "description": "Chips frites de manioc ou de crevette; accompagnement croustillant des plats indonésiens.",
+      "aliases": [
+        {
+          "name": "kroepoek aux crevettes"
+        },
+        {
+          "name": "kroepoek aux crevettes"
+        },
+        {
+          "name": "krupuk"
+        },
+        {
+          "name": "chips aux crevettes"
+        },
+        {
+          "name": "chips aux crevettes"
+        }
+      ],
+      "label": "Collations"
+    },
+    {
+      "id": "8a81f3a7-e128-4131-adbc-822a66662491",
+      "name": "popcorn",
+      "pluralName": "popcorn",
+      "description": "Maïs éclaté; collation légère, sucrée ou salée.",
+      "aliases": [
+        {
+          "name": "maïs éclaté"
+        },
+        {
+          "name": "maïs éclaté"
+        },
+        {
+          "name": "maïs à éclater"
+        },
+        {
+          "name": "maïs à éclater"
+        },
+        {
+          "name": "pop-corn"
+        }
+      ],
+      "label": "Collations"
+    },
+    {
+      "id": "934d8ab6-88d4-4108-a50a-bf1cd063febb",
+      "name": "chips tortilla",
+      "pluralName": "chips tortilla",
+      "description": "Chips de maïs frites; pour les nachos et avec les trempettes.",
+      "aliases": [
+        {
+          "name": "chips de maïs"
+        },
+        {
+          "name": "chips de maïs"
+        },
+        {
+          "name": "chips de maïs"
+        },
+        {
+          "name": "chips à nachos"
+        },
+        {
+          "name": "chips à nachos"
+        },
+        {
+          "name": "tortilla chips"
+        }
+      ],
+      "label": "Collations"
+    }
+  ]
+}

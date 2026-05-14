@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "6ee545a9-3940-49cd-9227-a558cd5970a6",
       "name": "chips",
       "pluralName": "chips",
       "description": "Gefrituurde aardappelschijfjes; knapperige snack of topping.",
@@ -18,6 +19,7 @@
       "label": "Snacks"
     },
     {
+      "id": "aeff7bfe-75ce-4fcf-a9e7-3d0c6bf4a29a",
       "name": "kroepoek",
       "pluralName": "kroepoek",
       "description": "Gefrituurde cassave- of garnalenchip; knapperig bijgerecht bij Indonesische gerechten.",
@@ -41,6 +43,7 @@
       "label": "Snacks"
     },
     {
+      "id": "8a81f3a7-e128-4131-adbc-822a66662491",
       "name": "popcorn",
       "pluralName": "popcorn",
       "description": "Gepoft maïs; lichte snack, zoet of gezouten.",
@@ -64,6 +67,7 @@
       "label": "Snacks"
     },
     {
+      "id": "934d8ab6-88d4-4108-a50a-bf1cd063febb",
       "name": "tortillachips",
       "pluralName": "tortillachips",
       "description": "Gefrituurde maïschips; voor nacho's en bij dips.",

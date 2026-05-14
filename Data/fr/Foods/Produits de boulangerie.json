@@ -1,0 +1,921 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "d67aef3d-c1eb-4e5d-a3a9-08aecc852bad",
+      "name": "fécule de pomme de terre",
+      "pluralName": "fécule de pomme de terre",
+      "description": "Amidon de pomme de terre; liant pour sauces et pâtisserie sans gluten.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "71e4644e-911f-418e-a724-ea0a4ba95c54",
+      "name": "agar-agar",
+      "pluralName": "agar-agar",
+      "description": "Gélifiant végétarien à base d’algues; alternative à la gélatine.",
+      "aliases": [
+        {
+          "name": "agar"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "8e97757d-3b35-43a7-bc97-9e76889ac8cc",
+      "name": "extrait d’amande",
+      "pluralName": "extrait d’amande",
+      "description": "Arôme liquide d’amande; pour pâtisseries et desserts.",
+      "aliases": [
+        {
+          "name": "essence d’amande"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "b72e21af-aa25-4b38-aae4-f2743e8e3609",
+      "name": "farine d’amande",
+      "pluralName": "farine d’amande",
+      "description": "Farine d’amandes moulues; sans gluten, pour macarons et gâteaux.",
+      "aliases": [
+        {
+          "name": "amandel meel"
+        },
+        {
+          "name": "amandel-meel"
+        },
+        {
+          "name": "poudre d’amande"
+        },
+        {
+          "name": "almond flour"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "42df19d8-fa06-47ea-aac8-fcfc7ef61b4a",
+      "name": "poudre à pâte",
+      "pluralName": "poudre à pâte",
+      "description": "Agent levant; combinaison de bicarbonate et d’acide, pour gâteaux aérés.",
+      "aliases": [
+        {
+          "name": "baking powder"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "998a9492-4db4-467a-b940-465c0086631b",
+      "name": "sucre vergeoise",
+      "pluralName": "sucre vergeoise",
+      "description": "Sucre fin avec sirop; humide, pour spéculoos et biscuits.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "c532ea1d-b8c2-4feb-8f12-caffc74348f8",
+      "name": "bicarbonate de soude",
+      "pluralName": "bicarbonate de soude",
+      "description": "Agent levant; réagit avec un acide pour une pâtisserie plus légère.",
+      "aliases": [
+        {
+          "name": "baking soda"
+        },
+        {
+          "name": "bicarbonate"
+        },
+        {
+          "name": "bicarbonate de sodium"
+        },
+        {
+          "name": "natriumbicarbonaat"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "e907423b-e22f-46ee-aaba-dd1b4dac36a4",
+      "name": "mélange de farines",
+      "pluralName": "mélanges de farines",
+      "description": "Mélange de différentes farines; pour pains ou pâtisseries spécialisés.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "3ecf2bbe-04da-4658-9591-be0312b9cdb7",
+      "name": "farine de sarrasin",
+      "pluralName": "farine de sarrasin",
+      "description": "Farine de sarrasin; goût de noisette, sans gluten, pour crêpes et blinis.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "7dcb23e6-6d7a-4e2a-8965-822871d8c242",
+      "name": "sucre brun",
+      "pluralName": "sucre brun",
+      "description": "Sucre avec mélasse; édulcorant aromatique au goût caramélisé.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "4319cda5-226b-4f48-a758-4cac50b7b47c",
+      "name": "cacao",
+      "pluralName": "cacao",
+      "description": "Poudre de cacao non sucrée; poudre foncée et amère pour pâtisseries au chocolat.",
+      "aliases": [
+        {
+          "name": "poudre de cacao"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "83cf1244-c81d-46b7-9957-ff2350eda26a",
+      "name": "beurre de cacao",
+      "pluralName": "beurre de cacao",
+      "description": "Matière grasse végétale issue de la fève de cacao; base du chocolat.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "791c13b5-3714-41df-8819-679256c19a1b",
+      "name": "acide citrique",
+      "pluralName": "acide citrique",
+      "description": "Acidifiant et conservateur; apporte une saveur acidulée aux pâtisseries et confiseries.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "04e1edad-8c02-40d6-b2fd-d6e46917a95d",
+      "name": "poudre pour crème anglaise",
+      "pluralName": "poudre pour crème anglaise",
+      "description": "Poudre jaune pour crème dessert; mélangée avec du lait pour une garniture onctueuse.",
+      "aliases": [
+        {
+          "name": "custard"
+        },
+        {
+          "name": "custardpoeder"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "b63d47c2-e093-4565-9d9e-f356ffc4c9c0",
+      "name": "sucre demerara",
+      "pluralName": "sucre demerara",
+      "description": "Sucre de canne grossier; croquant, pour café et croustades.",
+      "aliases": [
+        {
+          "name": "demerara"
+        },
+        {
+          "name": "demerara suiker"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "9d3f28de-9b11-4809-a4cc-089fd7bbcd90",
+      "name": "sucre extra-fin",
+      "pluralName": "sucre extra-fin",
+      "description": "Sucre fin; fond rapidement, idéal pour pâtisserie et meringue.",
+      "aliases": [
+        {
+          "name": "sucre semoule"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "e60aff20-e665-4a3f-8fca-5b40dea5beae",
+      "name": "gélatine en poudre",
+      "pluralName": "gélatine en poudre",
+      "description": "Gélatine en poudre; gélifiant pour mousses et bavarois.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "51dca465-eee8-4463-ba62-f88f86d3ab70",
+      "name": "sucre à confiture",
+      "pluralName": "sucre à confiture",
+      "description": "Sucre avec pectine et acide; pour confitures et gelées.",
+      "aliases": [
+        {
+          "name": "jamsuiker"
+        },
+        {
+          "name": "jam suiker"
+        },
+        {
+          "name": "sucre gélifiant"
+        },
+        {
+          "name": "confituursuiker"
+        },
+        {
+          "name": "geleisuiker"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "f75cf669-2853-4c0c-90c9-b755e405e2c3",
+      "name": "sirop de malt d’orge",
+      "pluralName": "sirop de malt d’orge",
+      "description": "Sirop de malt d’orge; édulcorant au goût caramélisé pour pain et biscuits.",
+      "aliases": [
+        {
+          "name": "sirop de malt"
+        },
+        {
+          "name": "moutstroop"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "9f43812c-bed6-4991-aa82-644da29ba44e",
+      "name": "levure [séchée]",
+      "pluralName": "levure [séchée]",
+      "description": "Levure sèche; agent levant pour pain et pâte à pizza.",
+      "aliases": [
+        {
+          "name": "levure sèche"
+        },
+        {
+          "name": "levure instantanée"
+        },
+        {
+          "name": "instant yeast"
+        },
+        {
+          "name": "active dry yeast"
+        },
+        {
+          "name": "gedroogde gist"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "b0a2df42-3f1b-4eff-9b2e-64cd75be5ce9",
+      "name": "levure [fraîche]",
+      "pluralName": "levure [fraîche]",
+      "description": "Levure fraîche de boulanger; agent levant pour pains et pâtes.",
+      "aliases": [
+        {
+          "name": "levure fraîche"
+        },
+        {
+          "name": "levure de boulanger fraîche"
+        },
+        {
+          "name": "verse gist"
+        },
+        {
+          "name": "bakkersgist vers"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "d48d883b-347f-49d0-b0ac-30a1de1bc4f0",
+      "name": "glucose",
+      "pluralName": "glucose",
+      "description": "Sucre de raisin liquide; empêche la cristallisation dans bonbons et crèmes glacées.",
+      "aliases": [
+        {
+          "name": "sirop de glucose"
+        },
+        {
+          "name": "glucosestroop"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "168ea1b6-b5fd-414d-adc4-c590012c4e84",
+      "name": "semoule",
+      "pluralName": "semoule",
+      "description": "Blé grossièrement moulu; pour pouding, gnocchis et pâtisserie salée.",
+      "aliases": [
+        {
+          "name": "griesmeel"
+        },
+        {
+          "name": "griesmeelbloem"
+        },
+        {
+          "name": "semolina"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "aa6b775f-333d-4ee3-9737-d77a253cd607",
+      "name": "farine d’avoine",
+      "pluralName": "farine d’avoine",
+      "description": "Farine d’avoine moulue; pour biscuits et pain.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "1f2e300d-b1fe-4b9d-acc9-a7a5ce7733a4",
+      "name": "carbonate d’ammonium",
+      "pluralName": "carbonate d’ammonium",
+      "description": "Agent levant; utilisé pour biscuits et spéculoos.",
+      "aliases": [
+        {
+          "name": "ammoniaque du boulanger"
+        },
+        {
+          "name": "ammoniumcarbonaat"
+        },
+        {
+          "name": "ammonium carbonaat"
+        },
+        {
+          "name": "hertshoornzout"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "318981bb-c037-405c-8f62-bed00dd508b4",
+      "name": "sucre inverti",
+      "pluralName": "sucre inverti",
+      "description": "Sirop de glucose-fructose; édulcorant humide pour pâtisseries et sorbets.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "f8554145-6852-4fc9-8525-3b17d98a0394",
+      "name": "jaggery",
+      "pluralName": "jaggery",
+      "description": "Sucre non raffiné de canne ou de palme; blocs solides au goût caramélisé.",
+      "aliases": [
+        {
+          "name": "sucre de palme"
+        },
+        {
+          "name": "gur"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "32033297-b3b2-4959-8864-bd24bfcbdd24",
+      "name": "gomme de caroube",
+      "pluralName": "gomme de caroube",
+      "description": "Épaississant E410; pour poudings, crèmes glacées et alimentation infantile.",
+      "aliases": [
+        {
+          "name": "johannesbroodpitmeel"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "09d91347-2690-45f2-a834-317601edde71",
+      "name": "sucre à la cannelle",
+      "pluralName": "sucre à la cannelle",
+      "description": "Mélange de sucre et cannelle; sucre à saupoudrer pour gaufres et pâtisseries.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "4ef30f53-d56f-4b1e-8f32-9c41bf55872b",
+      "name": "essence de caramel",
+      "pluralName": "essence de caramel",
+      "description": "Arôme concentré de caramel; pour desserts et pâtisseries.",
+      "aliases": [
+        {
+          "name": "extrait de caramel"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "eff08eb9-8f2c-42c2-a69d-f58d6538f0da",
+      "name": "farine de châtaigne",
+      "pluralName": "farine de châtaigne",
+      "description": "Farine de châtaignes séchées; sans gluten, légèrement sucrée, pour crêpes.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "167f1f9e-1d45-4218-ae6e-be7f00ca40f4",
+      "name": "sucre de fleur de coco",
+      "pluralName": "sucre de fleur de coco",
+      "description": "Sucre issu de la sève de fleur de cocotier; saveur caramélisée.",
+      "aliases": [
+        {
+          "name": "sucre de coco"
+        },
+        {
+          "name": "kokossuiker"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "2bb062d9-cc67-4ef5-9ff8-7ca72e87ed6a",
+      "name": "farine de coco",
+      "pluralName": "farine de coco",
+      "description": "Farine de chair de noix de coco séchée; sans gluten et riche en fibres.",
+      "aliases": [
+        {
+          "name": "farine de noix de coco"
+        },
+        {
+          "name": "kokos meel"
+        },
+        {
+          "name": "kokos-meel"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "1c9082ca-a0a4-4a52-b72e-090eea4644c4",
+      "name": "sucre perlé",
+      "pluralName": "sucre perlé",
+      "description": "Gros sucre cristallisé; pour pain au sucre et viennoiseries.",
+      "aliases": [
+        {
+          "name": "parelsuiker"
+        },
+        {
+          "name": "hagelsuiker"
+        },
+        {
+          "name": "kruimelsuiker"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "24646cf6-cc0d-4057-9db5-79641dffff11",
+      "name": "vergeoise blonde",
+      "pluralName": "vergeoise blonde",
+      "description": "Sucre fin brun clair avec sirop; pour biscuits et spéculoos.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "bb4e2a03-e862-4967-8309-23de564a849c",
+      "name": "farine de maïs",
+      "pluralName": "farine de maïs",
+      "description": "Farine de maïs finement moulue; utilisée pour polenta, bouillies et pâtisserie.",
+      "aliases": [
+        {
+          "name": "maismeel"
+        },
+        {
+          "name": "mais meel"
+        },
+        {
+          "name": "cornmeal"
+        },
+        {
+          "name": "farine de polenta"
+        },
+        {
+          "name": "polentameel"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "7c4a0405-e60e-4ec2-8820-b458a0f929dd",
+      "name": "sirop de maïs",
+      "pluralName": "sirop de maïs",
+      "description": "Sirop de glucose de maïs; empêche la cristallisation dans bonbons et glaçages.",
+      "aliases": [
+        {
+          "name": "corn syrup"
+        },
+        {
+          "name": "maisstroop"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "37936126-5c3c-449c-91a4-7f0bd7879106",
+      "name": "fécule de maïs",
+      "pluralName": "fécule de maïs",
+      "description": "Amidon fin de maïs; liant pour sauces, soupes et poudings.",
+      "aliases": [
+        {
+          "name": "maizena"
+        },
+        {
+          "name": "maiszetmeel"
+        },
+        {
+          "name": "cornstarch"
+        },
+        {
+          "name": "corn starch"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "1f2b33a3-a1d5-42a6-b991-269c3ccccf32",
+      "name": "maltose",
+      "pluralName": "maltose",
+      "description": "Sucre de malt; moins sucré que le saccharose, pour pâtisseries asiatiques.",
+      "aliases": [
+        {
+          "name": "sucre de malt"
+        },
+        {
+          "name": "moutsuiker"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "859ab28f-04b7-4eb3-beff-797ca170b38f",
+      "name": "mélasse",
+      "pluralName": "mélasse",
+      "description": "Sirop brun épais; sous-produit du sucre, saveur douce-amère.",
+      "aliases": [
+        {
+          "name": "molasse"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "7ae794e8-79c7-40bb-a1a7-bee4147c151a",
+      "name": "mélange pour oliebollen",
+      "pluralName": "mélanges pour oliebollen",
+      "description": "Préparation pour beignets néerlandais; farine, levure et lait en poudre, avec ajout d’eau ou d’œuf.",
+      "aliases": [
+        {
+          "name": "oliebollenmix"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "73e33a43-886f-480d-88ae-56d62055fb03",
+      "name": "pectine",
+      "pluralName": "pectine",
+      "description": "Gélifiant issu des fruits; lie les confitures, gelées et garnitures.",
+      "aliases": [
+        {
+          "name": "pectine de fruit"
+        },
+        {
+          "name": "pectine à confiture"
+        },
+        {
+          "name": "pectin"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "61fc6c23-6b6a-4a13-9b28-aff55fb7a082",
+      "name": "gélatine en feuilles",
+      "pluralName": "gélatine en feuilles",
+      "description": "Feuilles de gélatine; à faire tremper puis dissoudre pour mousses et bavarois.",
+      "aliases": [
+        {
+          "name": "feuilles de gélatine"
+        },
+        {
+          "name": "plaatgelatine"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "91b7d5da-8c63-4094-ab70-9ac83c8796c5",
+      "name": "sucre en poudre",
+      "pluralName": "sucre en poudre",
+      "description": "Sucre très finement moulu; pour glaçages et saupoudrage.",
+      "aliases": [
+        {
+          "name": "sucre glace"
+        },
+        {
+          "name": "bloemsuiker"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "1916b718-06f4-48ad-822c-4210820921f7",
+      "name": "poudre à pouding",
+      "pluralName": "poudres à pouding",
+      "description": "Poudre pour dessert; mélangée avec du lait pour faire un pouding.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "ee8f190b-82b3-4211-a0b2-417b977dbdd6",
+      "name": "mélange red velvet",
+      "pluralName": "mélanges red velvet",
+      "description": "Préparation pour gâteau red velvet; gâteau au chocolat coloré en rouge.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "78d495fe-5930-48a0-a1f9-9ff60306fdf4",
+      "name": "sucre de canne",
+      "pluralName": "sucre de canne",
+      "description": "Sucre provenant de la canne; légère saveur caramélisée.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "8ff16398-c9a4-4596-a31c-ec28a683d05e",
+      "name": "farine de riz",
+      "pluralName": "farine de riz",
+      "description": "Farine de riz moulu; sans gluten, pour mochi et galettes de riz.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "36ed552d-0165-4215-90aa-eae36f0480ee",
+      "name": "farine de seigle",
+      "pluralName": "farine de seigle",
+      "description": "Farine de seigle; pour pain de seigle et pain d’épices.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "55f4936c-6639-44b2-a778-5861bd808596",
+      "name": "eau de rose",
+      "pluralName": "eau de rose",
+      "description": "Eau parfumée à la rose; pour desserts, biscuits et boissons.",
+      "aliases": [
+        {
+          "name": "rose water"
+        },
+        {
+          "name": "rosewater"
+        },
+        {
+          "name": "rozenwater"
+        },
+        {
+          "name": "rozen water"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "1ad16896-b257-4871-bb10-8701796574aa",
+      "name": "fixateur pour crème fouettée",
+      "pluralName": "fixateur pour crème fouettée",
+      "description": "Poudre pour raffermir la crème fouettée; à ajouter pendant le fouettage.",
+      "aliases": [
+        {
+          "name": "slagroomversteviger"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "2e03fb99-e5e0-4b6c-9abe-f925ab30650a",
+      "name": "mousse à fouetter",
+      "pluralName": "mousses à fouetter",
+      "description": "Préparation sucrée en poudre pour mousse fouettée; à battre avec du lait froid.",
+      "aliases": [
+        {
+          "name": "klop klop"
+        },
+        {
+          "name": "klop-klop"
+        },
+        {
+          "name": "klopklop"
+        },
+        {
+          "name": "slagschuimpoeder"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "25be1a34-5ab0-4fd7-9e49-1f7236471e6b",
+      "name": "farine d’épeautre",
+      "pluralName": "farine d’épeautre",
+      "description": "Farine d’épeautre; saveur de noisette, alternative à la farine de blé.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "6f76b394-84ac-4c90-8c2c-4d807af0b9e7",
+      "name": "stevia",
+      "pluralName": "stevia",
+      "description": "Édulcorant naturel issu de la plante de stévia; très sucré, presque sans calories.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "ee2be0f2-cae7-488b-8314-c69a562cca8f",
+      "name": "sucre",
+      "pluralName": "sucre",
+      "description": "Sucre cristallisé de betterave ou de canne; édulcorant courant.",
+      "aliases": [
+        {
+          "name": "sucre blanc"
+        },
+        {
+          "name": "sucre de table"
+        },
+        {
+          "name": "sucre cristallisé"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "f3a305ea-9e88-4637-9ec2-c49a00e36baf",
+      "name": "succade",
+      "pluralName": "succade",
+      "description": "Écorce d’agrumes confite; en dés pour pains festifs et pâtisseries.",
+      "aliases": [
+        {
+          "name": "sukade"
+        },
+        {
+          "name": "écorce de citron confite"
+        },
+        {
+          "name": "écorce d’agrumes confite"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "d5018a9c-231d-4ff7-bca0-c079e541b370",
+      "name": "fécule de tapioca",
+      "pluralName": "fécule de tapioca",
+      "description": "Amidon de manioc; liant, utilisé aussi pour perles de bubble tea.",
+      "aliases": [
+        {
+          "name": "farine de tapioca"
+        },
+        {
+          "name": "tapiocameel"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "c19061c2-845b-4862-9ed7-fae3f8fe0c5c",
+      "name": "farine de blé",
+      "pluralName": "farine de blé",
+      "description": "Blé finement moulu sans son; base pour pâtisserie et sauces.",
+      "aliases": [
+        {
+          "name": "farine blanche"
+        },
+        {
+          "name": "bloem"
+        },
+        {
+          "name": "patentbloem"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "6951da1c-8604-486f-890c-c84226d91efc",
+      "name": "farine de blé complet",
+      "pluralName": "farine de blé complet",
+      "description": "Farine de blé; pour pains, crêpes et pâtisseries.",
+      "aliases": [
+        {
+          "name": "tarwe meel"
+        },
+        {
+          "name": "tarwe-meel"
+        },
+        {
+          "name": "tarwemeel"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "d8d94e39-aa5a-4e23-850d-70b353bf16f4",
+      "name": "extrait de vanille",
+      "pluralName": "extrait de vanille",
+      "description": "Arôme liquide de vanille; pour pâtisseries et desserts.",
+      "aliases": [
+        {
+          "name": "essence de vanille"
+        },
+        {
+          "name": "vanille extract"
+        },
+        {
+          "name": "arôme vanille"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "075a01e6-b23c-46c5-8f2a-2f4f3951e608",
+      "name": "sucre vanillé",
+      "pluralName": "sucre vanillé",
+      "description": "Sucre aromatisé à la vanille; pour pâtisseries et desserts.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "a5be716f-8168-4c1e-826b-cfe66d821f53",
+      "name": "mélange pour pain complet",
+      "pluralName": "mélange pour pain complet",
+      "description": "Mélange de farines pour pain complet; farine complète, levure, sel et malt.",
+      "aliases": [
+        {
+          "name": "volkorenbroodmix"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "243e046c-a329-4e13-acbd-bf5c7e94239a",
+      "name": "farine complète",
+      "pluralName": "farine complète",
+      "description": "Farine de grain entier incluant son et germe; pour pain brun.",
+      "aliases": [
+        {
+          "name": "farine de blé entier"
+        },
+        {
+          "name": "volkoren tarwemeel"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "9ab1c0a7-3ab4-4757-915d-0781afb4e4b4",
+      "name": "sel de fruit",
+      "pluralName": "sel de fruit",
+      "description": "Agent levant effervescent avec bicarbonate et acide citrique; alternative à la poudre à pâte.",
+      "aliases": [
+        {
+          "name": "fruitzout"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "020999e2-3a0a-49b2-92c7-b4a46de09a3d",
+      "name": "crème de tartre",
+      "pluralName": "crème de tartre",
+      "description": "Sel acide; stabilise les blancs d’œufs et réagit avec le bicarbonate.",
+      "aliases": [
+        {
+          "name": "cream of tartar"
+        },
+        {
+          "name": "bitartrate de potassium"
+        },
+        {
+          "name": "kaliumbitartraat"
+        },
+        {
+          "name": "wijnsteenpoeder"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "aa733542-c889-4673-aebd-493776069d82",
+      "name": "vergeoise blanche",
+      "pluralName": "vergeoise blanche",
+      "description": "Sucre blanc fin avec sirop; humide, pour biscuits.",
+      "aliases": [],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "5f057004-28e9-43d2-8c1f-61eb660ab031",
+      "name": "farine à levure incorporée",
+      "pluralName": "farine à levure incorporée",
+      "description": "Farine avec poudre à pâte; pour gâteaux et muffins.",
+      "aliases": [
+        {
+          "name": "bakmeel"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    }
+  ]
+}

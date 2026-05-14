@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "a8ef7684-d08a-44af-bb67-2f799e05887c",
       "name": "achterham",
       "pluralName": "achterham",
       "description": "Gekookte ham van de achterbout; voor op brood.",
@@ -11,6 +12,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "384d3b74-07db-4c4b-8f56-d3b86ec549e4",
       "name": "bacon",
       "pluralName": "bacon",
       "description": "Gerookt en gezouten spek; knapperig gebakken.",
@@ -18,6 +20,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "571c7bca-0aba-488b-b94d-8b2ab92c81b2",
       "name": "beenham",
       "pluralName": "beenham",
       "description": "Ham bereid aan het been; voor broodjes.",
@@ -25,6 +28,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "e182d684-7d30-4ef5-878f-9b1567bc343c",
       "name": "bierworst",
       "pluralName": "bierworsten",
       "description": "Gedroogde gekruide worst; vaak bij bier geserveerd.",
@@ -39,6 +43,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "3f6a3344-9237-414f-b28f-7ccad8f55c35",
       "name": "bloedworst",
       "pluralName": "bloedworsten",
       "description": "Worst met varkensbloed; gebakken of gestoofd.",
@@ -50,6 +55,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "d7cb2b37-8ff7-4125-a126-517e25132df0",
       "name": "bockworst",
       "pluralName": "bockworsten",
       "description": "Duitse gekookte worst; mild van smaak.",
@@ -61,6 +67,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "b8ffc72b-90f5-47de-afb8-77c6298eeac7",
       "name": "boterhamworst",
       "pluralName": "boterhamworst",
       "description": "Gesneden worst voor op brood; mild van smaak.",
@@ -72,6 +79,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "4ca10b76-73f4-47bb-8e82-1a07436733b0",
       "name": "braadworst",
       "pluralName": "braadworsten",
       "description": "Verse worst voor bakken of grillen; gekruid varkensvlees.",
@@ -79,6 +87,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "78f63357-01ac-4219-85c3-fa1b12f9775a",
       "name": "bresaola",
       "pluralName": "bresaola",
       "description": "Italiaanse gedroogde runderham; dun gesneden op brood of salade.",
@@ -86,6 +95,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "967befb5-6915-4326-af60-2c12cb5a516c",
       "name": "cervelaat",
       "pluralName": "cervelaat",
       "description": "Droge worst; kruidige smaak, voor op brood.",
@@ -97,6 +107,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "ec80de42-83ae-4482-8bb5-cd9448b56552",
       "name": "chipolataworstje",
       "pluralName": "chipolataworstjes",
       "description": "Dunne gekruide worst; voor BBQ of ontbijt.",
@@ -108,6 +119,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "1ee9221d-614d-4784-818c-76b30da8a203",
       "name": "chorizo",
       "pluralName": "chorizo",
       "description": "Spaanse worst met paprika en knoflook; gerookt of vers.",
@@ -119,6 +131,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "cd61aa7b-fd17-45cb-bf1f-8d6ff8783362",
       "name": "coburgerham",
       "pluralName": "coburgerham",
       "description": "Duitse gerookte ham; voor op brood.",
@@ -126,6 +139,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "d6a9c9fb-7964-4228-bae6-2e2e72105194",
       "name": "coppa",
       "pluralName": "coppa",
       "description": "Italiaanse gedroogde ham van de nek; dun gesneden.",
@@ -143,6 +157,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "0e1d29a6-1cf7-4dba-8797-59b76bd8f0a4",
       "name": "corned beef",
       "pluralName": "corned beef",
       "description": "Gezouten rundvlees, vaak uit blik; op brood of in hash.",
@@ -154,6 +169,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "e3261b42-f05a-4c51-a1fe-3bba79137989",
       "name": "filet americain",
       "pluralName": "filet americain",
       "description": "Gekruid rauw rundvlees; smeerbaar broodbeleg.",
@@ -174,6 +190,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "3a62a84e-6cd6-4e6f-a5e6-4c57c9087ee2",
       "name": "frankfurter",
       "pluralName": "frankfurters",
       "description": "Duitse gerookte worst; voor hotdogs.",
@@ -185,6 +202,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "8725c168-d820-4d2d-ae5a-03bb1162a2a2",
       "name": "gedroogde ham",
       "pluralName": "gedroogde ham",
       "description": "Luchtgedroogde ham; dun gesneden.",
@@ -192,6 +210,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "9199e887-bffd-4259-be5f-58b2a02fc017",
       "name": "gerookte kalkoenfilet",
       "pluralName": "gerookte kalkoenfilet",
       "description": "Gerookte kalkoenborst; voor salades en broodjes.",
@@ -203,6 +222,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "3d7f1719-23dc-4446-8d55-ac202bed193e",
       "name": "gerookte kipfilet",
       "pluralName": "gerookte kipfilet",
       "description": "Gerookte kippenborst; voor salades en broodjes.",
@@ -214,6 +234,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "2358b877-f150-414c-84f2-fcc22bfe08cf",
       "name": "grilworst",
       "pluralName": "grilworsten",
       "description": "Gegaarde gekruide worst; koud gesneden als broodbeleg.",
@@ -221,6 +242,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "1c2ba2b1-19b0-4083-b345-a905fd710fec",
       "name": "guanciale",
       "pluralName": "guanciale",
       "description": "Italiaans gezouten wangspek; in carbonara en amatriciana.",
@@ -232,6 +254,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "18b67774-67b5-4198-aac5-23f26fb5fba3",
       "name": "ham",
       "pluralName": "ham",
       "description": "Gekookt of gerookt varkensvlees; dun gesneden broodbeleg.",
@@ -239,6 +262,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "5cf9c7fd-1307-4244-96b0-6edfe217c6af",
       "name": "hamreepje",
       "pluralName": "hamreepjes",
       "description": "Gesneden ham in reepjes; voor salades of pasta.",
@@ -246,6 +270,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "eb036d9b-d53c-4661-94b5-af80e02ebf26",
       "name": "hoofdkaas",
       "pluralName": "hoofdkaas",
       "description": "Vleesproduct van varkensvlees in gelei; koud broodbeleg.",
@@ -260,6 +285,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "84150264-9bc9-4706-9162-13104e6ba594",
       "name": "ibéricoham",
       "pluralName": "ibéricoham",
       "description": "Spaanse ham van ibérico-varken; luxe delicatesse.",
@@ -274,6 +300,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "4d5527fa-a4e9-4176-87bc-1bc3ff6b0742",
       "name": "kasseler",
       "pluralName": "kasseler",
       "description": "Duits gerookt varkenskarbonade; warm of koud.",
@@ -285,6 +312,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "86334a57-65ef-4c0c-88cf-0bae4a02f413",
       "name": "katenham",
       "pluralName": "katenham",
       "description": "Gerookte ham voor op brood; mild van smaak.",
@@ -292,6 +320,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "b780c8e0-b98a-4273-bc1b-fe6e2e5b19e9",
       "name": "knakworst",
       "pluralName": "knakworsten",
       "description": "Gekookte worst; voor hotdogs of warm geserveerd.",
@@ -306,6 +335,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "8493f37f-1dbf-4a07-a8f7-4672bdb9ef15",
       "name": "leverworst",
       "pluralName": "leverworst",
       "description": "Smeerbare worst van lever; hartig broodbeleg.",
@@ -313,6 +343,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "d1a3eb16-68ad-48f8-ab22-ef9bd0514e90",
       "name": "merguez",
       "pluralName": "merguez",
       "description": "Noord-Afrikaanse lamsworst; pittig gekruid.",
@@ -320,6 +351,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "3965d890-9a4b-43ef-93d9-9688ec9bd7a3",
       "name": "mortadella",
       "pluralName": "mortadella",
       "description": "Italiaanse gekookte worst met pistache; dun gesneden.",
@@ -331,6 +363,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "5d63e0ba-0862-4b2c-ae54-cb7900a16d1a",
       "name": "nduja",
       "pluralName": "nduja",
       "description": "Pittige smeerbare Italiaanse worst; voor pasta of brood.",
@@ -345,6 +378,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "481b8c7e-59a1-41f1-bb6b-04420dbb3e3a",
       "name": "ontbijtspek",
       "pluralName": "ontbijtspek",
       "description": "Dun gesneden gerookt buikspek; knapperig gebakken.",
@@ -352,6 +386,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "0abceee8-adcf-454e-a2d7-cc82984f3f57",
       "name": "pancetta",
       "pluralName": "pancetta",
       "description": "Italiaans gezouten buikspek; voor pasta en risotto.",
@@ -359,6 +394,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "ed5dacf7-f06c-4426-8752-e9a7f05dcbee",
       "name": "pastrami",
       "pluralName": "pastrami",
       "description": "Gekruid gerookt rundvlees; voor sandwiches en salades.",
@@ -366,6 +402,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "ac3b2d9c-5abb-46f5-997a-1b0987e20b31",
       "name": "paté",
       "pluralName": "paté",
       "description": "Smeerbare vleespastei; hartig broodbeleg.",
@@ -380,6 +417,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "472c3642-22f6-4214-aaba-74cd8c8ab46f",
       "name": "pepperoni",
       "pluralName": "pepperoni",
       "description": "Pittige worst; voor pizza.",
@@ -387,6 +425,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "92eed77d-4f8c-4498-924d-115c2f51f2a4",
       "name": "prosciutto crudo",
       "pluralName": "prosciutto crudo",
       "description": "Italiaanse rauwe ham; gedroogd, dun gesneden.",
@@ -404,6 +443,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "cd34da46-695c-41fc-af26-3e8f73cd7567",
       "name": "rauwe ham",
       "pluralName": "rauwe ham",
       "description": "Gedroogde ongekookte ham; dun gesneden als antipasti.",
@@ -411,6 +451,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "1f326b2d-9201-4a14-921f-07d058b7744c",
       "name": "rookworst",
       "pluralName": "rookworsten",
       "description": "Nederlandse gerookte worst; warm bij stamppot.",
@@ -418,6 +459,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "b397601d-1670-402c-832b-7ae5f3bcf90e",
       "name": "rosbief",
       "pluralName": "rosbief",
       "description": "Gebraden rundvlees; koud of warm, dun gesneden.",
@@ -429,6 +471,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "cf42f170-6bf1-44ba-9a1f-3d76391373c9",
       "name": "salami",
       "pluralName": "salami",
       "description": "Droge gefermenteerde worst; dun gesneden op brood of pizza.",
@@ -436,6 +479,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "515f0f54-a014-4460-9e4f-b3d685941680",
       "name": "schouderham",
       "pluralName": "schouderham",
       "description": "Ham van de schouder; voor op brood.",
@@ -443,6 +487,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "ed68f0ec-cf19-4b44-b0f4-5581178d442a",
       "name": "serranoham",
       "pluralName": "serranoham",
       "description": "Spaanse gedroogde ham; gezouten en luchtgedroogd.",
@@ -460,6 +505,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "7de6fdff-4e6a-4580-bd23-f2557dcbd99a",
       "name": "snijworst",
       "pluralName": "snijworst",
       "description": "Goedkope vleeswarenworst in plakjes; op brood.",
@@ -467,6 +513,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "fee2b10e-73bb-4f38-afc4-106b7b9b3608",
       "name": "speck",
       "pluralName": "speck",
       "description": "Zuid-Tiroolse gerookte ham; aromatisch en stevig.",
@@ -478,6 +525,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "c14afe64-ea54-4169-8cd5-b9f1d269fc46",
       "name": "spek",
       "pluralName": "spek",
       "description": "Gezouten of gerookt varkensspek; voor bakken of als ingrediënt.",
@@ -485,6 +533,7 @@
       "label": "Vleeswaren"
     },
     {
+      "id": "18629d4b-b9f0-4c52-98da-4a554d01e637",
       "name": "yorkham",
       "pluralName": "yorkham",
       "description": "Engelse mild gerookte ham; voor op brood.",

@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "62fb6c14-7d7e-4ea8-ad96-90bbdf19a96e",
       "name": "appenzeller",
       "pluralName": "appenzeller",
       "description": "Zwitserse halfharde kaas; op kaasplank of in fondue.",
@@ -11,6 +12,7 @@
       "label": "Kaas"
     },
     {
+      "id": "a2254ed0-0f1a-4f04-b4af-b6842d281414",
       "name": "asiago",
       "pluralName": "asiago",
       "description": "Italiaanse half- tot harde kaas; raspen of op kaasplank.",
@@ -18,6 +20,7 @@
       "label": "Kaas"
     },
     {
+      "id": "e3a384ac-cbc7-4db9-bc45-a12493104958",
       "name": "belegen kaas",
       "pluralName": "belegen kaas",
       "description": "Gerijpte hollandse kaas; op brood, in blokjes of tosti.",
@@ -25,6 +28,7 @@
       "label": "Kaas"
     },
     {
+      "id": "9391ed18-ce8a-4518-b6c3-57afb39029b0",
       "name": "belegen kaas 20+",
       "pluralName": "belegen kaas 20+",
       "description": "Zeer magere belegen kaas; op brood, tosti of in gerechten.",
@@ -39,6 +43,7 @@
       "label": "Kaas"
     },
     {
+      "id": "e55b730e-62dc-4fd9-82d8-c390090b3e7a",
       "name": "belegen kaas 30+",
       "pluralName": "belegen kaas 30+",
       "description": "Magere belegen kaas; op brood, tosti of in gerechten.",
@@ -53,6 +58,7 @@
       "label": "Kaas"
     },
     {
+      "id": "484b19bf-7912-4128-aafa-d4f25e087ab2",
       "name": "belegen kaas 35+",
       "pluralName": "belegen kaas 35+",
       "description": "Minder vette belegen kaas; op brood, tosti of in gerechten.",
@@ -67,6 +73,7 @@
       "label": "Kaas"
     },
     {
+      "id": "cd42b3c9-280b-4c69-a97a-edb777af5ae4",
       "name": "belegen kaas 48+",
       "pluralName": "belegen kaas 48+",
       "description": "Volvette belegen kaas; op brood, tosti of in gerechten.",
@@ -81,6 +88,7 @@
       "label": "Kaas"
     },
     {
+      "id": "2fec3246-d87c-4541-b7ee-7be421368c83",
       "name": "blauwschimmelkaas",
       "pluralName": "blauwschimmelkaas",
       "description": "Kaas met blauwschimmel; op kaasplank, in saus of salade.",
@@ -98,6 +106,7 @@
       "label": "Kaas"
     },
     {
+      "id": "6a1c7a14-b5df-49ed-8394-ad13d77a5ae3",
       "name": "boerenkaas",
       "pluralName": "boerenkaas",
       "description": "Nederlandse rauwmelkse kaas; op brood of kaasplank.",
@@ -105,6 +114,7 @@
       "label": "Kaas"
     },
     {
+      "id": "ab459b21-bd9d-4fd8-a979-ef27bd55e1d7",
       "name": "brie",
       "pluralName": "brie",
       "description": "Zachte witschimmelkaas; op kaasplank of uit de oven.",
@@ -112,6 +122,7 @@
       "label": "Kaas"
     },
     {
+      "id": "397d3438-3919-43dd-a0f8-611b24419673",
       "name": "buffelmozzarella",
       "pluralName": "buffelmozzarella",
       "description": "Mozzarella van buffelmelk; romiger dan gewone mozzarella.",
@@ -132,6 +143,7 @@
       "label": "Kaas"
     },
     {
+      "id": "71cd3719-5250-436f-9132-1e51b5d1002c",
       "name": "burrata",
       "pluralName": "burrata",
       "description": "Verse mozzarella met roomvulling; serveer met tomaat en brood.",
@@ -146,6 +158,7 @@
       "label": "Kaas"
     },
     {
+      "id": "c3d2e7bb-9aca-43aa-b12b-aee6d97ad9c9",
       "name": "camembert",
       "pluralName": "camembert",
       "description": "Zachte witschimmelkaas; op kaasplank of uit de oven.",
@@ -153,6 +166,7 @@
       "label": "Kaas"
     },
     {
+      "id": "9879eecd-9f91-4ea7-a4c7-bbd4421b059a",
       "name": "cheddar",
       "pluralName": "cheddar",
       "description": "Harde kaas met volle smaak; smelt goed op burgers of tosti.",
@@ -160,6 +174,7 @@
       "label": "Kaas"
     },
     {
+      "id": "9cf0b280-bb3a-4470-817c-aa85b0544716",
       "name": "comté",
       "pluralName": "comté",
       "description": "Franse harde kaas; voor fondue, gratin of kaasplank.",
@@ -171,6 +186,7 @@
       "label": "Kaas"
     },
     {
+      "id": "6d79daae-61db-447e-be71-d4411c7cc0a7",
       "name": "edammer",
       "pluralName": "edammer",
       "description": "Milde hollandse kaas; op brood of in blokjes.",
@@ -182,6 +198,7 @@
       "label": "Kaas"
     },
     {
+      "id": "8f129534-af02-4916-b96a-6153c884de27",
       "name": "emmentaler",
       "pluralName": "emmentaler",
       "description": "Zwitserse gatenkaas; in tosti, fondue of gratin.",
@@ -193,6 +210,7 @@
       "label": "Kaas"
     },
     {
+      "id": "74b1bb60-2bb3-430c-8fe9-403d2961ef56",
       "name": "extra belegen kaas",
       "pluralName": "extra belegen kaas",
       "description": "Langer gerijpte hollandse kaas; op kaasplank of om te raspen.",
@@ -200,6 +218,7 @@
       "label": "Kaas"
     },
     {
+      "id": "0a67b40d-272c-447f-bc08-8105002b1f63",
       "name": "feta",
       "pluralName": "feta",
       "description": "Witte pekelkaas; verkruimel in salade of ovengerechten.",
@@ -207,6 +226,7 @@
       "label": "Kaas"
     },
     {
+      "id": "8c50321b-64f2-429a-8231-53978832d57d",
       "name": "fonduekaas",
       "pluralName": "fonduekaas",
       "description": "Kaasblend voor fondue; smelt met wijn of bouillon.",
@@ -221,6 +241,7 @@
       "label": "Kaas"
     },
     {
+      "id": "2fda22cf-5f6d-4fd2-a5fe-3d8db793a586",
       "name": "geitenkaas",
       "pluralName": "geitenkaas",
       "description": "Kaas van geitenmelk; op toast, in salade of gratin.",
@@ -244,6 +265,7 @@
       "label": "Kaas"
     },
     {
+      "id": "cb021132-f935-4ab0-aa01-1d954e510a53",
       "name": "geraspte kaas",
       "pluralName": "geraspte kaas",
       "description": "Voorgeraspte kaas; handig voor gratineren.",
@@ -261,6 +283,7 @@
       "label": "Kaas"
     },
     {
+      "id": "91c049a6-29a1-4f1d-8b33-fee9842b95c3",
       "name": "gorgonzola",
       "pluralName": "gorgonzola",
       "description": "Italiaanse blauwschimmelkaas; in saus, risotto of op kaasplank.",
@@ -268,6 +291,7 @@
       "label": "Kaas"
     },
     {
+      "id": "347a7e72-8f7b-487e-9d1a-096777c21fbb",
       "name": "goudse kaas",
       "pluralName": "goudse kaas",
       "description": "Hollandse kaasstijl; op brood, tosti of kaasplank.",
@@ -279,6 +303,7 @@
       "label": "Kaas"
     },
     {
+      "id": "9cc66fed-d25c-4b77-a732-ea9d4f32c523",
       "name": "grana padano",
       "pluralName": "grana padano",
       "description": "Italiaanse harde kaas; raspen over pasta of risotto.",
@@ -286,6 +311,7 @@
       "label": "Kaas"
     },
     {
+      "id": "294dac91-841a-40c2-a26b-fdf2935c5d18",
       "name": "gruyère",
       "pluralName": "gruyère",
       "description": "Zwitserse half- tot harde kaas; voor fondue, gratin of tosti.",
@@ -297,6 +323,7 @@
       "label": "Kaas"
     },
     {
+      "id": "59fd8591-5eec-40d5-99fa-edfc9d5bef38",
       "name": "halloumi",
       "pluralName": "halloumi",
       "description": "Stevige kaas die niet smelt; grill of bak in plakken.",
@@ -304,6 +331,7 @@
       "label": "Kaas"
     },
     {
+      "id": "f0a30e25-5c4a-4881-8c54-cfe30ba6bb86",
       "name": "hüttenkäse",
       "pluralName": "hüttenkäse",
       "description": "Verse korrelige kaas; in salade, ontbijt of als topping.",
@@ -324,6 +352,7 @@
       "label": "Kaas"
     },
     {
+      "id": "b451e916-eb93-4364-bdca-8c24ec525c6a",
       "name": "jonge kaas",
       "pluralName": "jonge kaas",
       "description": "Kort gerijpte hollandse kaas; op brood of voor tosti.",
@@ -331,6 +360,7 @@
       "label": "Kaas"
     },
     {
+      "id": "aaa2285e-6e7f-4df4-a068-fc54c29d98fe",
       "name": "jonge kaas 20+",
       "pluralName": "jonge kaas 20+",
       "description": "Zeer magere jonge kaas; op brood, tosti of in gerechten.",
@@ -345,6 +375,7 @@
       "label": "Kaas"
     },
     {
+      "id": "dc39d61e-a715-4796-ac9c-98720ca7ea6c",
       "name": "jonge kaas 30+",
       "pluralName": "jonge kaas 30+",
       "description": "Magere jonge kaas; op brood, tosti of in gerechten.",
@@ -359,6 +390,7 @@
       "label": "Kaas"
     },
     {
+      "id": "9f39ada4-3e24-458b-aef8-df53c14671ff",
       "name": "jonge kaas 35+",
       "pluralName": "jonge kaas 35+",
       "description": "Minder vette jonge kaas; op brood, tosti of in gerechten.",
@@ -373,6 +405,7 @@
       "label": "Kaas"
     },
     {
+      "id": "ba912f5b-0698-4aeb-84c4-365d41b01b3a",
       "name": "jonge kaas 48+",
       "pluralName": "jonge kaas 48+",
       "description": "Volvette jonge kaas; op brood, tosti of in gerechten.",
@@ -387,6 +420,7 @@
       "label": "Kaas"
     },
     {
+      "id": "a3a06149-d1ca-4c60-8b21-ea2ad0c08b37",
       "name": "kaas",
       "pluralName": "kaas",
       "description": "Gestremd melkproduct; op brood, in saus of ovenschotel.",
@@ -413,6 +447,7 @@
       "label": "Kaas"
     },
     {
+      "id": "e4cbebd8-e37b-406b-afee-415b7119269e",
       "name": "komijnekaas",
       "pluralName": "komijnekaas",
       "description": "Hollandse kaas met komijn; op brood of kaasplank.",
@@ -424,6 +459,7 @@
       "label": "Kaas"
     },
     {
+      "id": "aca509af-689c-46ac-a37f-97c43ed1eab1",
       "name": "kruidenroomkaas",
       "pluralName": "kruidenroomkaas",
       "description": "Roomkaas met kruiden; als broodbeleg of dip.",
@@ -444,6 +480,7 @@
       "label": "Kaas"
     },
     {
+      "id": "1a514ebb-c1e1-4b42-9e4f-cfc9183bf428",
       "name": "limburger",
       "pluralName": "limburger",
       "description": "Sterk geurende gewassenkorstkaas; op brood of kaasplank.",
@@ -451,6 +488,7 @@
       "label": "Kaas"
     },
     {
+      "id": "d9c50fd9-85c2-4bc5-a225-c81bab2e9507",
       "name": "maasdammer",
       "pluralName": "maasdammer",
       "description": "Hollandse gatenkaas; in tosti of op brood.",
@@ -458,6 +496,7 @@
       "label": "Kaas"
     },
     {
+      "id": "9077c4b9-99c6-42d8-8f4c-7f69331fcea0",
       "name": "manchego",
       "pluralName": "manchego",
       "description": "Spaanse schapenkaas; op kaasplank of in tapas.",
@@ -465,6 +504,7 @@
       "label": "Kaas"
     },
     {
+      "id": "eed78dd3-4de9-4b29-bd51-a9001f8ef91d",
       "name": "mascarpone",
       "pluralName": "mascarpone",
       "description": "Italiaanse roomkaas; voor tiramisu of romige sauzen.",
@@ -472,6 +512,7 @@
       "label": "Kaas"
     },
     {
+      "id": "a8ce8d72-be64-4745-9b07-96e20922a81f",
       "name": "monterey jack",
       "pluralName": "monterey jack",
       "description": "Milde smeltkaas; voor tex-mex of quesadilla.",
@@ -483,6 +524,7 @@
       "label": "Kaas"
     },
     {
+      "id": "c3ab5279-6dcc-4156-ab53-ffd3e1b17b0d",
       "name": "morbier",
       "pluralName": "morbier",
       "description": "Franse halfharde kaas; op kaasplank of in gratin.",
@@ -490,6 +532,7 @@
       "label": "Kaas"
     },
     {
+      "id": "11f8dc41-c7e6-4c81-a81b-025413389b75",
       "name": "mozzarella",
       "pluralName": "mozzarella",
       "description": "Verse kaas met milde smaak; op pizza of in salade.",
@@ -497,6 +540,7 @@
       "label": "Kaas"
     },
     {
+      "id": "96bed57e-fc5e-4e6a-960d-c5578a541532",
       "name": "munster",
       "pluralName": "munster",
       "description": "Franse gewassenkorstkaas; op kaasplank of uit de oven.",
@@ -508,6 +552,7 @@
       "label": "Kaas"
     },
     {
+      "id": "dd97d1c0-5e16-4890-ba5d-80130a597fa3",
       "name": "oude kaas",
       "pluralName": "oude kaas",
       "description": "Lang gerijpte hollandse kaas; op kaasplank of geraspt in gerechten.",
@@ -515,6 +560,7 @@
       "label": "Kaas"
     },
     {
+      "id": "28a501bc-6601-4d9a-9355-a128b4afa9fb",
       "name": "oude kaas 20+",
       "pluralName": "oude kaas 20+",
       "description": "Zeer magere oude kaas; op brood, tosti of in gerechten.",
@@ -529,6 +575,7 @@
       "label": "Kaas"
     },
     {
+      "id": "dc054390-60a3-4a84-93a9-52824c9a6c8e",
       "name": "oude kaas 30+",
       "pluralName": "oude kaas 30+",
       "description": "Magere oude kaas; op brood, tosti of in gerechten.",
@@ -543,6 +590,7 @@
       "label": "Kaas"
     },
     {
+      "id": "58084db0-c910-4d9d-ac38-8cc9ea507fb9",
       "name": "oude kaas 35+",
       "pluralName": "oude kaas 35+",
       "description": "Minder vette oude kaas; op brood, tosti of in gerechten.",
@@ -557,6 +605,7 @@
       "label": "Kaas"
     },
     {
+      "id": "f689fecf-2c10-4c97-b9b4-1fe8ed81f5a7",
       "name": "oude kaas 48+",
       "pluralName": "oude kaas 48+",
       "description": "Volvette oude kaas; op brood, tosti of in gerechten.",
@@ -571,6 +620,7 @@
       "label": "Kaas"
     },
     {
+      "id": "2dbec8de-7b56-4538-b603-0292e31a60e9",
       "name": "overjarige kaas",
       "pluralName": "overjarige kaas",
       "description": "Zeer lang gerijpte kaas; kruimelig op kaasplank of om te raspen.",
@@ -578,6 +628,7 @@
       "label": "Kaas"
     },
     {
+      "id": "782c1dc3-183b-402c-a02d-bdff6527ac97",
       "name": "paneer",
       "pluralName": "paneer",
       "description": "Indiase verse kaas; in blokjes in curry of gebakken.",
@@ -585,6 +636,7 @@
       "label": "Kaas"
     },
     {
+      "id": "d6aa73a6-ff25-4142-8d73-6414dddd5e33",
       "name": "parmezaan",
       "pluralName": "parmezaan",
       "description": "Italiaanse harde kaas; geraspt over pasta of risotto.",
@@ -611,6 +663,7 @@
       "label": "Kaas"
     },
     {
+      "id": "25d34b51-0354-4639-8027-a23c9bcca504",
       "name": "pecorino",
       "pluralName": "pecorino",
       "description": "Italiaanse schapenkaas; raspen over pasta of in saus.",
@@ -622,6 +675,7 @@
       "label": "Kaas"
     },
     {
+      "id": "e8601406-40bd-4b8a-a202-0a3a65c6d1fc",
       "name": "provolone",
       "pluralName": "provolone",
       "description": "Italiaanse halfharde kaas; smelt goed in tosti of pasta.",
@@ -629,6 +683,7 @@
       "label": "Kaas"
     },
     {
+      "id": "0f269e4b-1244-4af5-95e5-bb52f5b2aab2",
       "name": "raclette",
       "pluralName": "raclette",
       "description": "Smeltkaas voor raclette; ook lekker op aardappels of groente.",
@@ -640,6 +695,7 @@
       "label": "Kaas"
     },
     {
+      "id": "29ec8f38-36ec-48a6-a29e-844784c10796",
       "name": "ricotta",
       "pluralName": "ricotta",
       "description": "Zachte weikaas; voor vulling, pasta of cheesecake.",
@@ -647,6 +703,7 @@
       "label": "Kaas"
     },
     {
+      "id": "f60c3717-a13f-4245-a925-293431510439",
       "name": "roomkaas",
       "pluralName": "roomkaas",
       "description": "Zachte smeerkaas op basis van room; op toast of in cheesecake.",
@@ -667,6 +724,7 @@
       "label": "Kaas"
     },
     {
+      "id": "4dd44139-8f85-4371-959b-9f709f545d05",
       "name": "roquefort",
       "pluralName": "roquefort",
       "description": "Franse blauwschimmelkaas; in dressing, saus of op kaasplank.",
@@ -674,6 +732,7 @@
       "label": "Kaas"
     },
     {
+      "id": "4630eb44-62c3-44fb-9bae-98626ecddb3c",
       "name": "schapenkaas",
       "pluralName": "schapenkaas",
       "description": "Kaas van schapenmelk; in salade, pasta of kaasplank.",
@@ -681,6 +740,7 @@
       "label": "Kaas"
     },
     {
+      "id": "baf0265f-bf82-487d-b9d7-26372d96e51f",
       "name": "smeerkaas",
       "pluralName": "smeerkaas",
       "description": "Bewerkte smeerbare kaas; als broodbeleg of in saus.",
@@ -692,6 +752,7 @@
       "label": "Kaas"
     },
     {
+      "id": "adbefa12-5fc4-48a7-b13d-f1921dc62ab2",
       "name": "smeltkaas",
       "pluralName": "smeltkaas",
       "description": "Bewerkte smeltkaas; voor tosti, saus of op brood.",
@@ -703,6 +764,7 @@
       "label": "Kaas"
     },
     {
+      "id": "737c8427-a47b-4933-9513-9245ab979f25",
       "name": "stilton",
       "pluralName": "stilton",
       "description": "Engelse blauwschimmelkaas; op kaasplank of in saus.",
@@ -710,6 +772,7 @@
       "label": "Kaas"
     },
     {
+      "id": "a93d816c-91a8-45b9-b0b7-391917232e87",
       "name": "taleggio",
       "pluralName": "taleggio",
       "description": "Italiaanse gewassenkorstkaas; in risotto of op kaasplank.",

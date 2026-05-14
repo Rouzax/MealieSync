@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "ebe0cf4b-7a5b-4cd1-9cb7-5a6ce0da826d",
       "name": "achiotepasta",
       "pluralName": "achiotepasta",
       "description": "Annattopasta; kruidige rode pasta voor marinades.",
@@ -18,6 +19,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "4042b14f-7853-4e01-9572-ca1790c9aecb",
       "name": "adobo saus",
       "pluralName": "adobo saus",
       "description": "Mexicaanse saus met gedroogde pepers en kruiden; gebruikt voor marinades en stoofgerechten.",
@@ -29,6 +31,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "bbe67e00-5004-4244-9065-5c5e05061a8e",
       "name": "aioli",
       "pluralName": "aioli",
       "description": "Knoflookmayonaise; koude saus uit de Mediterrane keuken.",
@@ -43,6 +46,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "adf1efb7-4742-4100-ac0a-5d694fc1343b",
       "name": "ajvar",
       "pluralName": "ajvar",
       "description": "Servische paprika-auberginespread; kruidig beleg of bijgerecht.",
@@ -50,6 +54,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "bd99f53c-9e99-479b-8d43-c55eb0a92f68",
       "name": "atjar tjampoer",
       "pluralName": "atjar tjampoer",
       "description": "Indonesische ingemaakte groenten; zoetzuur.",
@@ -61,6 +66,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "04ee30ff-25ed-4f12-9e69-d2722d86c4e3",
       "name": "babi pangangsaus",
       "pluralName": "babi pangangsaus",
       "description": "Zoetzure Chinese saus; geserveerd bij babi pangang.",
@@ -68,6 +74,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "47a78321-046d-4636-87fe-2f035b16029d",
       "name": "barbecuesaus",
       "pluralName": "barbecuesaus",
       "description": "Pittig-zoete saus; marinade of glaze voor vlees.",
@@ -85,6 +92,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "e17b7dc4-3453-4b50-b974-132f2c9d48bc",
       "name": "boemboe",
       "pluralName": "boemboe",
       "description": "Indonesische kruidenpasta; basis voor curry's en stoofschotels.",
@@ -92,6 +100,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "b8593691-3dfb-443a-a7ff-672c03708c24",
       "name": "boemboe bali",
       "pluralName": "boemboe bali",
       "description": "Indonesische kruidenpasta (Bali); pittige boemboe voor vlees en vis.",
@@ -99,6 +108,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "57011bb6-fe15-4378-ab75-72c2747aec6f",
       "name": "boemboe saté",
       "pluralName": "boemboe saté",
       "description": "Indonesische kruidenpasta voor satésaus; gemengd met pindakaas voor saté.",
@@ -106,6 +116,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "b69cb240-6821-4b7f-86b3-370188077ed3",
       "name": "bruschetta tomaatsalade",
       "pluralName": "bruschetta tomaatsalades",
       "description": "Kant-en-klare topping van tomaat, knoflook en kruiden; voor bruschetta of als bijgerecht.",
@@ -120,6 +131,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "a7ac6e02-7a6f-4233-881e-fb60df8d93a2",
       "name": "chermoula",
       "pluralName": "chermoula",
       "description": "Marokkaanse kruidenpasta met peterselie, koriander en citroen; voor vis of vlees.",
@@ -127,6 +139,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "a2b453af-bf77-4ac9-bc42-56f8b409ad21",
       "name": "chilisaus",
       "pluralName": "chilisaus",
       "description": "Zoet-pittige saus op basis van chilipeper; dipsaus of woksaus in Aziatische keuken.",
@@ -138,6 +151,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "94c2a250-0e39-4045-a2ae-656123848b53",
       "name": "chimichurri",
       "pluralName": "chimichurri",
       "description": "Argentijnse kruidensaus; bij gegrild vlees.",
@@ -145,6 +159,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "c4eef7db-a954-41b8-ab99-3599df8b6c1b",
       "name": "chipotle in adobo",
       "pluralName": "chipotle in adobo",
       "description": "Gerookte jalapeñopepers in adobosaus; pittige smaakmaker uit de Mexicaanse keuken.",
@@ -156,6 +171,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "069d7d6e-c61b-4bf7-86f6-e956214dbbaa",
       "name": "cocktailsaus",
       "pluralName": "cocktailsaus",
       "description": "Roze dressing van mayonaise en ketchup; bij garnalen en salades.",
@@ -167,6 +183,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "486123de-4565-4d5e-b53f-46945632bc73",
       "name": "dijonmosterd",
       "pluralName": "dijonmosterd",
       "description": "Mosterd uit Dijon-stijl; voor dressings, sauzen en marinades.",
@@ -184,6 +201,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "bfdcb95e-32d1-4031-ba35-eb883c1c4048",
       "name": "donkere sojasaus",
       "pluralName": "donkere sojasaus",
       "description": "Stroperige zoete sojasaus; gebruikt in stoofgerechten.",
@@ -195,6 +213,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "0bc957fd-c8d8-4fd2-8380-e8f11cea4bca",
       "name": "gebakken tomatensaus",
       "pluralName": "gebakken tomatensaus",
       "description": "Spaanse basis voor gerechten; gefrituurde tomatensaus.",
@@ -206,6 +225,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "921365e2-93d7-4f0b-94bb-c5451ab3b403",
       "name": "gebakken uitjes",
       "pluralName": "gebakken uitjes",
       "description": "Knapperig gefrituurde uitjes; topping voor Aziatische gerechten.",
@@ -213,6 +233,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "5bc4df8b-3c72-4bac-81b8-acd98aaac853",
       "name": "gele mosterd",
       "pluralName": "gele mosterd",
       "description": "Amerikaanse gele mosterd; mild.",
@@ -227,6 +248,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "ce3cfd3f-80fc-4340-8bfa-366aa6f658f9",
       "name": "gemberpasta",
       "pluralName": "gemberpasta",
       "description": "Pasta van gemalen gember; smaakmaker in curry's, wok en marinades.",
@@ -244,6 +266,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "43e127b1-ffb2-4fe2-9561-739aca9cd965",
       "name": "gembersiroop",
       "pluralName": "gembersiroop",
       "description": "Zoete siroop getrokken van gember; smaakmaker in dranken en desserts.",
@@ -251,6 +274,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "2b9d982a-f138-4216-9ddc-540e757fdfdd",
       "name": "gochujang",
       "pluralName": "gochujang",
       "description": "Koreaanse gefermenteerde chilipasta; zoet, pittig en umami.",
@@ -262,6 +286,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "77833f1c-11e7-4319-9abe-52ee21f451bb",
       "name": "groene currypasta",
       "pluralName": "groene currypasta",
       "description": "Thaise kruidenpasta met groene pepers; pittig en fris.",
@@ -269,6 +294,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "de9ce81e-a6e0-4932-a22b-dbd35e3286d0",
       "name": "harissa",
       "pluralName": "harissa",
       "description": "Noord-Afrikaanse chilipasta; pittig.",
@@ -276,6 +302,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "8cd562a2-726e-4852-be42-0098c44fa397",
       "name": "hoisinsaus",
       "pluralName": "hoisinsaus",
       "description": "Chinese zoete soja-knoflooksaus; marinade of dipsaus bij pekingeend.",
@@ -283,6 +310,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "4731010d-b633-4740-8ca0-1866fb950c2e",
       "name": "honingmosterd",
       "pluralName": "honingmosterd",
       "description": "Saus van mosterd en honing; zoet-pittig, bij kaas of salades.",
@@ -294,6 +322,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "2aa0b8bb-5ed8-40d8-aec1-62d9a98a2bf1",
       "name": "hot sauce",
       "pluralName": "hot sauce",
       "description": "Scherpe rode chilisaus; druppelsgewijs gebruikt als smaakmaker.",
@@ -308,6 +337,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "fbada578-5e98-4269-9ea3-ef036814747a",
       "name": "hummus",
       "pluralName": "hummus",
       "description": "Midden-Oosterse kikkererwten-dip; romig met tahin, citroen en knoflook.",
@@ -319,6 +349,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "807ccbd6-2bf0-4901-b873-5bcc828c5cee",
       "name": "kappertjes",
       "pluralName": "kappertjes",
       "description": "Ingelegde bloemknopjes; zoutzuur accent in sauzen en salades.",
@@ -326,6 +357,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "3b898e17-0e32-464a-bcb8-531e0383d2b3",
       "name": "ketchup",
       "pluralName": "ketchup",
       "description": "Zoete tomatensaus; op friet en burgers.",
@@ -337,6 +369,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "94d31794-841a-4517-9ea7-75d63b37a352",
       "name": "knoflooksaus",
       "pluralName": "knoflooksaus",
       "description": "Romige knoflooksaus; dipsaus bij shoarma, friet of groenten.",
@@ -351,6 +384,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "1678aa73-3e2e-4472-bcd3-dd2a9320e1cf",
       "name": "mangosalade",
       "pluralName": "mangosalades",
       "description": "Kant-en-klare salade met mango, ui en kruiden; fris bijgerecht of topping.",
@@ -362,6 +396,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "ca3edcca-150e-4682-98ec-010b2908f9ea",
       "name": "mayonaise",
       "pluralName": "mayonaise",
       "description": "Koude saus van ei en olie; op friet en in salades.",
@@ -373,6 +408,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "295f7ff0-e8fa-47dd-9012-a2b76717a7d9",
       "name": "miso",
       "pluralName": "miso",
       "description": "Japanse gefermenteerde sojapasta; hartige umamibasis voor soep en marinades.",
@@ -384,6 +420,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "36a1cdb8-869b-481c-8c84-a3f9f1210bce",
       "name": "mosterd",
       "pluralName": "mosterd",
       "description": "Pittige saus van gemalen mosterdzaad; condiment bij vlees en in dressing.",
@@ -395,6 +432,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "fbd5ee84-dfe1-4e3a-9f16-72efe788367c",
       "name": "oestersaus",
       "pluralName": "oestersaus",
       "description": "Donkere saus van oesterextract; hartige smaakmaker in Chinese keuken.",
@@ -402,6 +440,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "14a4b96e-f91b-46c7-b520-9d4211059dee",
       "name": "olijfpasta",
       "pluralName": "olijfpasta",
       "description": "Tapenade van olijven met kappertjes en ansjovis; hartige smeerbare puree.",
@@ -413,6 +452,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "83f36a03-7d87-4a22-8ea0-291aa1fde69f",
       "name": "ontbijtzuur",
       "pluralName": "ontbijtzuur",
       "description": "Mix van ingemaakte groenten; zoetzuur tafelzuur bij ontbijt.",
@@ -420,6 +460,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "7ef787b0-7e86-4ee3-b44f-300b3a03b78f",
       "name": "paprikapasta",
       "pluralName": "paprikapasta",
       "description": "Pasta van paprika en chili; smaakmaker in Hongaarse gerechten.",
@@ -427,6 +468,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "c3766b92-a886-4c7b-acbd-c71f674f77f8",
       "name": "passata",
       "pluralName": "passata",
       "description": "Gezeefde tomaten; basis voor sauzen.",
@@ -438,6 +480,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "2df81322-50ae-4d6a-be2a-bfeb7723d73b",
       "name": "pesto",
       "pluralName": "pesto",
       "description": "Basilicumsaus met pijnboompitten en kaas; door pasta of op brood.",
@@ -452,6 +495,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "bdeb6c30-1bc7-4446-91df-6404203b0f90",
       "name": "piccalilly",
       "pluralName": "piccalilly",
       "description": "Mosterdpickle met stukjes groente; bij koud vlees.",
@@ -459,6 +503,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "e06d4bb8-ac79-4a46-a481-df5b73194ceb",
       "name": "pickles",
       "pluralName": "pickles",
       "description": "Belgische gladde mosterd-piccalillysaus; felgele zoetzure frietsaus.",
@@ -470,6 +515,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "1e422da5-d453-4715-995d-87e99d174ffc",
       "name": "ponzu",
       "pluralName": "ponzu",
       "description": "Japanse citrus-sojasaus; frisse dressing of dip.",
@@ -477,6 +523,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "543135e8-e6ad-4ea2-b289-a6be919a6ec8",
       "name": "remouladesaus",
       "pluralName": "remouladesaus",
       "description": "Koude saus met mayo en kruiden; bij vis, friet en koude schotels.",
@@ -491,6 +538,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "4282031d-5e20-4cc6-8955-8308c70b77c3",
       "name": "rode currypasta",
       "pluralName": "rode currypasta",
       "description": "Thaise kruidenpasta met rode pepers; basis voor curry.",
@@ -498,6 +546,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "e3bec873-ef18-45d7-be10-0f1edb33e227",
       "name": "rode pesto",
       "pluralName": "rode pesto",
       "description": "Saus van zongedroogde tomaten en noten; door pasta of op toast.",
@@ -509,6 +558,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "93cd3360-dcdb-4e1c-9300-c1cbec2540ab",
       "name": "salsa",
       "pluralName": "salsa",
       "description": "Tomaten-chilisaus; dip of topping bij taco's en nacho's.",
@@ -523,6 +573,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "e0c381c2-a8d1-45e6-9e91-030bc44a436e",
       "name": "sambal",
       "pluralName": "sambal",
       "description": "Indonesische chilipasta; pittige smaakmaker.",
@@ -534,6 +585,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "aaa06fed-2abb-4981-9887-03cadcca1ae9",
       "name": "sambal badjak",
       "pluralName": "sambal badjak",
       "description": "Gebakken sambal met ui en trassi; zoet-pittig.",
@@ -541,6 +593,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "c9adab5a-bd71-4956-b723-16c926ce7079",
       "name": "sandwichspread",
       "pluralName": "sandwichspread",
       "description": "Romige groentesaus; hartig smeersel met fijne groentestukjes.",
@@ -548,6 +601,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "68c61448-7ee7-49f3-affb-8114c2df3d51",
       "name": "satésaus",
       "pluralName": "satésaus",
       "description": "Pindasaus; pittige saus van pindakaas en ketjap, geserveerd bij saté.",
@@ -562,6 +616,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "e86cd15b-0b65-4dd0-a0c1-f88852eda2d9",
       "name": "shoyu",
       "pluralName": "shoyu",
       "description": "Japanse sojasaus; donker en gefermenteerd, voor sauzen en sushi.",
@@ -569,6 +624,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "8be8526f-147e-4b9c-960e-f57c6f797940",
       "name": "sojasaus",
       "pluralName": "sojasaus",
       "description": "Gefermenteerde zoute saus; basis in Oosterse keuken.",
@@ -586,6 +642,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "a1eaabbd-6bb1-4535-94da-eecc9f7d2733",
       "name": "spareribs marinade",
       "pluralName": "spareribs marinade",
       "description": "Kant-en-klare marinade voor spareribs; zoet-pittig.",
@@ -593,6 +650,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "6161e8cc-ae66-4b1c-bb23-763f4d85b918",
       "name": "sriracha",
       "pluralName": "sriracha",
       "description": "Thaise chilisaus; pittig met knoflook.",
@@ -600,6 +658,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "58f031ad-6f1c-45ec-ac09-c5fd6e42b356",
       "name": "tahin",
       "pluralName": "tahin",
       "description": "Sesampasta; gemalen sesamzaad, gebruikt in hummus en sauzen.",
@@ -611,6 +670,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "29725b37-89d0-4992-8fec-914d7a56f4aa",
       "name": "tamari",
       "pluralName": "tamari",
       "description": "Japanse glutenvrije sojasaus; donker en minder zout.",
@@ -618,6 +678,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "4e8ca7f9-740b-4069-8460-52d59af72d36",
       "name": "tamarindepasta",
       "pluralName": "tamarindepasta",
       "description": "Ingedikte tamarinde; zuur smaakaccent in Aziatische keuken.",
@@ -625,6 +686,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "19428ef7-8fb8-4f93-b06b-be43d64adf25",
       "name": "tamarindewater",
       "pluralName": "tamarindewater",
       "description": "Verdunde tamarindepulp; zuur vloeibaar ingrediënt.",
@@ -632,6 +694,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "062bc72c-3e13-4b60-815f-e04fb371f77d",
       "name": "teriyakisaus",
       "pluralName": "teriyakisaus",
       "description": "Japanse zoete sojasausmarinade; glazuur voor gegrild vlees of woksaus.",
@@ -646,6 +709,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "6bd9f4ab-a70c-4780-a97d-22ec148447d1",
       "name": "thousand island dressing",
       "pluralName": "thousand island dressing",
       "description": "Amerikaanse dressing met mayonaise, ketchup en augurk; bij salades.",
@@ -653,6 +717,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "b84b2ba8-3135-4bb7-af7f-47f340031734",
       "name": "tomatenpuree",
       "pluralName": "tomatenpuree",
       "description": "Geconcentreerde tomatenpasta; smaakbasis in sauzen.",
@@ -660,6 +725,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "e126f417-75bb-442e-aa68-c53113f0074c",
       "name": "trassi",
       "pluralName": "trassi",
       "description": "Gedroogde garnalenpasta; sterke smaakmaker in Indonesische gerechten.",
@@ -671,6 +737,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "f2885509-03d5-4d5d-ab99-d34df94bbfe1",
       "name": "truffeltapenade",
       "pluralName": "truffeltapenade",
       "description": "Pasta van olijven en truffel; luxe smeersel op toast of door pasta.",
@@ -678,6 +745,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "e7d0a844-12f5-445f-ac58-f92487bd45f2",
       "name": "tzatziki",
       "pluralName": "tzatziki",
       "description": "Griekse yoghurtkomkommerdip; koud bijgerecht met knoflook en dille.",
@@ -685,6 +753,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "5d49f63e-6915-495d-898e-4cf40af9b763",
       "name": "vissaus",
       "pluralName": "vissaus",
       "description": "Gefermenteerde Aziatische vissaus; zoute umamivloeistof in curry's en dressings.",
@@ -699,6 +768,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "d04f1910-9cab-4a10-83c9-881a7784aac4",
       "name": "wasabi",
       "pluralName": "wasabi",
       "description": "Japanse mierikswortel; scherp en fris.",
@@ -706,6 +776,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "4433e963-94b8-4c9d-b7c5-fc47607d4ee7",
       "name": "worcestershiresaus",
       "pluralName": "worcestershiresaus",
       "description": "Engelse gefermenteerde saus; druppelsgewijs als smaakmaker.",
@@ -723,6 +794,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "2ef89c64-1bfb-4477-a72d-ef14ad93627c",
       "name": "zoete chilisaus",
       "pluralName": "zoete chilisaus",
       "description": "Zoet-pittige saus; dipsaus of marinade.",
@@ -734,6 +806,7 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "369f622b-6f20-4872-91f0-ade0d64a72ee",
       "name": "zoete sojasaus",
       "pluralName": "zoete sojasaus",
       "description": "Indonesische stroperige zoete sojasaus; gebruikt in marinades.",

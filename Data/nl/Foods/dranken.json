@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "75a7e57a-eff6-4014-9d39-d855d8ea8f89",
       "name": "appelsap",
       "pluralName": "appelsap",
       "description": "Sap van geperste appels; helder of troebel.",
@@ -11,6 +12,7 @@
       "label": "Dranken"
     },
     {
+      "id": "601ea350-c9c7-4742-8a2b-bd4b05197d19",
       "name": "bietensap",
       "pluralName": "bietensap",
       "description": "Sap van rode bieten; zoet-aards, als drank of kleurstof.",
@@ -18,6 +20,7 @@
       "label": "Dranken"
     },
     {
+      "id": "c9c0e868-b43d-4309-93ab-4f940c3f4fb9",
       "name": "bitter lemon",
       "pluralName": "bitter lemon",
       "description": "Koolzuurhoudende citroendrank; bitter en verfrissend.",
@@ -29,6 +32,7 @@
       "label": "Dranken"
     },
     {
+      "id": "9b621d9e-0ca5-49f8-b2c6-4cc28a8a93c6",
       "name": "bruiswater",
       "pluralName": "bruiswater",
       "description": "Water met koolzuur; verfrissend, basis voor mixdranken.",
@@ -49,6 +53,7 @@
       "label": "Dranken"
     },
     {
+      "id": "9c9c9d2e-7c5d-4f36-b0dc-0d1fbd50006e",
       "name": "cassissiroop",
       "pluralName": "cassissiroop",
       "description": "Siroop van zwarte bessen; zoet, voor limonade en cocktails.",
@@ -63,6 +68,7 @@
       "label": "Dranken"
     },
     {
+      "id": "4d70deca-ec02-4dea-83b3-3376107b5ad8",
       "name": "cola",
       "pluralName": "cola",
       "description": "Koolzuurhoudende frisdrank; zoet met karamel- en kruidensmaak.",
@@ -70,6 +76,7 @@
       "label": "Dranken"
     },
     {
+      "id": "709fdb1f-70ca-4c3c-8427-3faa5b018919",
       "name": "cranberrysap",
       "pluralName": "cranberrysap",
       "description": "Sap van veenbessen; zuur-zoet, voor cocktails en als drank.",
@@ -81,6 +88,7 @@
       "label": "Dranken"
     },
     {
+      "id": "f4e1828b-cb6e-4b28-bf61-4a9a8d4e3f07",
       "name": "ginger ale",
       "pluralName": "ginger ale",
       "description": "Koolzuurhoudende gemberdrank; zoet en licht pittig.",
@@ -92,6 +100,7 @@
       "label": "Dranken"
     },
     {
+      "id": "af6c8dc6-bc08-4825-9ac1-cdd82489190e",
       "name": "ginger beer",
       "pluralName": "ginger beer",
       "description": "Pittige gemberdrank; sterker van smaak dan ginger ale, voor Moscow mule.",
@@ -103,6 +112,7 @@
       "label": "Dranken"
     },
     {
+      "id": "6b00b347-29c5-4e9b-b148-6fe7af763be3",
       "name": "grenadine",
       "pluralName": "grenadine",
       "description": "Rode granaatappelsiroop; zoet, voor cocktails en limonade.",
@@ -114,6 +124,7 @@
       "label": "Dranken"
     },
     {
+      "id": "3d7b35a1-11cf-4268-bf93-1d41847b177d",
       "name": "kokoswater",
       "pluralName": "kokoswater",
       "description": "Helder vocht uit jonge kokosnoot; verfrissend en licht zoet.",
@@ -121,6 +132,7 @@
       "label": "Dranken"
     },
     {
+      "id": "48810b46-d497-4c7b-8908-10c973e4e835",
       "name": "limonadesiroop",
       "pluralName": "limonadesiroop",
       "description": "Geconcentreerde siroop; aan te lengen met water.",
@@ -135,6 +147,7 @@
       "label": "Dranken"
     },
     {
+      "id": "e253983b-312d-4c6d-a08a-64785a142003",
       "name": "mineraalwater",
       "pluralName": "mineraalwater",
       "description": "Natuurlijk bronwater zonder koolzuur; voor drinken en koken.",
@@ -149,6 +162,7 @@
       "label": "Dranken"
     },
     {
+      "id": "fe2ee400-a412-4582-a957-a07c580d56a2",
       "name": "tomatensap",
       "pluralName": "tomatensap",
       "description": "Sap van tomaten; hartig, voor bloody mary of als drank.",
@@ -156,6 +170,7 @@
       "label": "Dranken"
     },
     {
+      "id": "e9cf276f-4cba-4287-9687-011c9f045a43",
       "name": "tonic",
       "pluralName": "tonic",
       "description": "Koolzuurhoudende frisdrank met kinine; bitter, voor gin-tonic.",
@@ -170,6 +185,7 @@
       "label": "Dranken"
     },
     {
+      "id": "2521b3c0-0003-4eec-a310-867926d83101",
       "name": "water",
       "pluralName": "water",
       "description": "Basis vloeistof; voor koken, bakken, verdunnen en dranken.",

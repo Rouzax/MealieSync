@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "5a304aab-229d-4cc9-ab0f-374aa9de1cf2",
       "name": "ei",
       "pluralName": "eieren",
       "description": "Kippenei; bindt en verrijkt beslag, deeg en sauzen.",
@@ -30,6 +31,7 @@
       "label": "Eieren"
     },
     {
+      "id": "d3f61d92-0864-45c4-a6eb-48140fb641e9",
       "name": "eidooier",
       "pluralName": "eidooiers",
       "description": "Eidooier; emulgator en bindmiddel voor sauzen en gebak.",
@@ -53,6 +55,7 @@
       "label": "Eieren"
     },
     {
+      "id": "a42814d9-ce2e-400d-8221-93f32e32de1f",
       "name": "eiwit",
       "pluralName": "eiwitten",
       "description": "Eierwit; opgeklopt voor schuim, meringue en luchtige desserts.",
@@ -70,6 +73,7 @@
       "label": "Eieren"
     },
     {
+      "id": "8d5dfd3c-7ef4-478d-84de-df4362e55e31",
       "name": "kwartelei",
       "pluralName": "kwarteleieren",
       "description": "Kwartel-ei; klein gespikkeld ei voor garnering en kort koken.",

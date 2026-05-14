@@ -1,0 +1,1832 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "2cd203f7-95b0-4382-ac64-6b5f7ae840c4",
+      "name": "graines d’ajowan",
+      "pluralName": "graines d’ajowan",
+      "description": "Graines aromatiques (ajwain); à griller ou moudre pour currys et pains.",
+      "aliases": [
+        {
+          "name": "ajowan"
+        },
+        {
+          "name": "ajowan seed"
+        },
+        {
+          "name": "ajowan seeds"
+        },
+        {
+          "name": "ajwain"
+        },
+        {
+          "name": "graines d’ajwain"
+        },
+        {
+          "name": "carom seed"
+        },
+        {
+          "name": "carom seeds"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "d5d68702-93db-4e11-afe2-52cf91ecb631",
+      "name": "amchoor",
+      "pluralName": "amchoor",
+      "description": "Poudre de mangue séchée; épice acidulée pour curry indien.",
+      "aliases": [
+        {
+          "name": "amchur"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "7d8f68cd-31c3-4d66-8796-ccb02c539b38",
+      "name": "anis",
+      "pluralName": "anis",
+      "description": "Graines d’anis; arôme doux pour pâtisseries et boissons.",
+      "aliases": [
+        {
+          "name": "graines d’anis"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "f42a9507-4fd4-4cf6-adc4-4f8e1273c3c6",
+      "name": "graines de rocou",
+      "pluralName": "graines de rocou",
+      "description": "Graines de rocou; colorent en rouge l’adobo et le riz.",
+      "aliases": [
+        {
+          "name": "achiote"
+        },
+        {
+          "name": "graines d’achiote"
+        },
+        {
+          "name": "annatto"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "04b17678-94ae-491e-9ac6-01b363bc974f",
+      "name": "asafoetida",
+      "pluralName": "asafoetida",
+      "description": "Résine ou poudre aromatique; saveur rappelant l’oignon et l’ail dans les currys indiens.",
+      "aliases": [
+        {
+          "name": "asafetida"
+        },
+        {
+          "name": "poudre d’asafoetida"
+        },
+        {
+          "name": "hing"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "9dd488a2-1ce7-4921-8d5d-e8a89a4d7fb2",
+      "name": "épices pour bami",
+      "pluralName": "épices pour bami",
+      "description": "Mélange d’épices pour bami; aromatique et légèrement relevé.",
+      "aliases": [
+        {
+          "name": "épices bami"
+        },
+        {
+          "name": "mélange d’épices pour bami"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "64964b9e-6087-4aea-bf6a-5380f8e3433a",
+      "name": "basilic [séché]",
+      "pluralName": "basilic [séché]",
+      "description": "Basilic séché; pour pâtes, pizza et sauce tomate.",
+      "aliases": [
+        {
+          "name": "basilic séché"
+        },
+        {
+          "name": "basilic séché"
+        },
+        {
+          "name": "séché basilic"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "32580aa1-8a09-42ed-a42e-255796d31de7",
+      "name": "berbéré",
+      "pluralName": "berbéré",
+      "description": "Mélange d’épices éthiopien; relevé pour ragoûts.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "cf55f9a3-3533-40fb-a078-1216c3ae8805",
+      "name": "graines de moutarde brune",
+      "pluralName": "graines de moutarde brune",
+      "description": "Graines de moutarde brune; relevées pour currys et marinades.",
+      "aliases": [
+        {
+          "name": "petites graines de moutarde brune"
+        },
+        {
+          "name": "moutarde brune en graines"
+        },
+        {
+          "name": "brown mustard seed"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "4e1346d8-aeab-46ba-a7a8-ab1ada8aac94",
+      "name": "épices cajun",
+      "pluralName": "épices cajun",
+      "description": "Mélange d’épices pour plats cajuns; relevé avec paprika et cayenne.",
+      "aliases": [
+        {
+          "name": "épices cajun"
+        },
+        {
+          "name": "cajun seasoning"
+        },
+        {
+          "name": "mélange d’épices cajun"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "3b798ec1-bf4e-47f7-96af-4717ba93afa6",
+      "name": "poivre de Cayenne",
+      "pluralName": "poivre de Cayenne",
+      "description": "Cayenne moulu; piquant et vif comme assaisonnement.",
+      "aliases": [
+        {
+          "name": "cayenne"
+        },
+        {
+          "name": "poudre de cayenne"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "e419dc35-65b2-4425-bfea-2c3e541f7a47",
+      "name": "piment [flocons]",
+      "pluralName": "piment [flocons]",
+      "description": "Flocons de piment séché; assaisonnement piquant pour pâtes et pizza.",
+      "aliases": [
+        {
+          "name": "chili flakes"
+        },
+        {
+          "name": "flocons de chili"
+        },
+        {
+          "name": "chiliflakes"
+        },
+        {
+          "name": "flocons de piment"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "4aaed244-7118-4f97-aa68-11130b81cf98",
+      "name": "épices chili con carne",
+      "pluralName": "épices chili con carne",
+      "description": "Mélange d’épices pour chili con carne; avec chili et cumin.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "de596c37-abfc-4e52-8673-a864b5edc467",
+      "name": "poudre de chili",
+      "pluralName": "poudre de chili",
+      "description": "Mélange d’épices; chili moulu avec notamment cumin et origan.",
+      "aliases": [
+        {
+          "name": "poudre de chili"
+        },
+        {
+          "name": "chili-poeder"
+        },
+        {
+          "name": "chili powder"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "7b29de45-bbd1-4138-b1a8-84603aeb0cad",
+      "name": "aneth [séché]",
+      "pluralName": "aneth [séché]",
+      "description": "Aneth séché; saveur anisée avec poisson et concombre.",
+      "aliases": [
+        {
+          "name": "aneth séché"
+        },
+        {
+          "name": "aneth séché"
+        },
+        {
+          "name": "séché aneth"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "30b9884f-f9c4-40c1-81e4-bd196bf03214",
+      "name": "estragon [séché]",
+      "pluralName": "estragon [séché]",
+      "description": "Estragon séché; goût anisé dans sauces et volailles.",
+      "aliases": [
+        {
+          "name": "estragon séché"
+        },
+        {
+          "name": "tarragon séché"
+        },
+        {
+          "name": "tarragon gedroogd"
+        },
+        {
+          "name": "estragon séché"
+        },
+        {
+          "name": "séché estragon"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "684680dd-cfbd-49c3-8e13-9be6f2663cf2",
+      "name": "épices pour fajitas",
+      "pluralName": "épices pour fajitas",
+      "description": "Mélange d’épices pour fajitas; avec chili, cumin et ail.",
+      "aliases": [
+        {
+          "name": "épices fajita"
+        },
+        {
+          "name": "mélange d’épices pour fajitas"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "bb02313b-26f3-4d14-a48f-1fc76da786e3",
+      "name": "feuilles de fenugrec",
+      "pluralName": "feuilles de fenugrec",
+      "description": "Feuilles de fenugrec séchées; amères et herbacées dans les currys.",
+      "aliases": [
+        {
+          "name": "feuilles de fenugrec séchées"
+        },
+        {
+          "name": "kasoeri methi"
+        },
+        {
+          "name": "kasuri methi"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "059c661b-809c-4bb7-926d-bfb6d7081cc0",
+      "name": "graines de fenugrec",
+      "pluralName": "graines de fenugrec",
+      "description": "Graines de fenugrec; amères et légèrement sucrées dans currys et pains.",
+      "aliases": [
+        {
+          "name": "fenugrec"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "e300308c-eed5-4680-804e-a56a7a43f476",
+      "name": "fleur de sel",
+      "pluralName": "fleur de sel",
+      "description": "Sel marin délicat; sel de finition pour salades et poisson.",
+      "aliases": [
+        {
+          "name": "fleur-de-sel"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "c5bd2cec-d27f-4079-be15-1d89d61785c8",
+      "name": "macis",
+      "pluralName": "macis",
+      "description": "Enveloppe de la muscade; aromatique dans sauces et pâtisseries.",
+      "aliases": [
+        {
+          "name": "macis en lame"
+        },
+        {
+          "name": "bladfoelie"
+        },
+        {
+          "name": "mace"
+        },
+        {
+          "name": "fleur de muscade"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "04e2584d-e20d-47e4-9040-df4d1fcf4169",
+      "name": "garam masala",
+      "pluralName": "garam masala",
+      "description": "Mélange d’épices indien; chaud et aromatique pour currys.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "363c7346-057f-44a9-a8b5-617bb616fc49",
+      "name": "graines de moutarde jaune",
+      "pluralName": "graines de moutarde jaune",
+      "description": "Graines de moutarde jaune; légèrement relevées pour currys et marinades.",
+      "aliases": [
+        {
+          "name": "graines de moutarde jaune"
+        },
+        {
+          "name": "petites graines de moutarde jaune"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "0b33f855-4701-4234-86ff-f5d889aadb5b",
+      "name": "épices pour viande hachée",
+      "pluralName": "épices pour viande hachée",
+      "description": "Mélange d’épices pour viande hachée; souvent avec paprika et muscade.",
+      "aliases": [
+        {
+          "name": "épices haché"
+        },
+        {
+          "name": "mélange d’épices pour viande hachée"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "4cbeff3b-783f-4650-8958-34aff2be2be3",
+      "name": "gingembre",
+      "pluralName": "gingembre",
+      "description": "Rhizome; piquant dans sautés, currys, tisanes ou marinades.",
+      "aliases": [
+        {
+          "name": "racine de gingembre"
+        },
+        {
+          "name": "gingembre frais"
+        },
+        {
+          "name": "frais gingembre"
+        },
+        {
+          "name": "gingembre frais"
+        },
+        {
+          "name": "racine de gingembre fraîche"
+        },
+        {
+          "name": "ginger"
+        },
+        {
+          "name": "ginger root"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "35ec932b-8837-4467-b8d8-d167554d3ffc",
+      "name": "poudre de gingembre",
+      "pluralName": "poudre de gingembre",
+      "description": "Gingembre en poudre; pour biscuits, chai et currys.",
+      "aliases": [
+        {
+          "name": "gingembre moulu"
+        },
+        {
+          "name": "gingembre en poudre"
+        },
+        {
+          "name": "gember-poeder"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "b58b5574-5d2f-4a52-8f77-dd50e80c5429",
+      "name": "paprika fumé en poudre",
+      "pluralName": "paprika fumé en poudre",
+      "description": "Paprika fumé en poudre; arôme fumé pour rubs et ragoûts.",
+      "aliases": [
+        {
+          "name": "paprika fumé"
+        },
+        {
+          "name": "pimentón"
+        },
+        {
+          "name": "pimentón"
+        },
+        {
+          "name": "paprika fumé"
+        },
+        {
+          "name": "smoked paprika"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "8f7ca84b-79b4-4dfd-af31-e00d8196ae15",
+      "name": "épices pour vin chaud",
+      "pluralName": "épices pour vin chaud",
+      "description": "Mélange d’épices pour vin chaud; avec cannelle, clou de girofle et anis étoilé.",
+      "aliases": [
+        {
+          "name": "épices glühwein"
+        },
+        {
+          "name": "épices gluhwein"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "13fd9e80-eed3-4d77-ad0f-7973adb3f591",
+      "name": "épices pour grillades",
+      "pluralName": "épices pour grillades",
+      "description": "Mélange d’épices pour grillades; souvent avec paprika, ail et poivre.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "b8576a7f-1e2d-45b3-a0be-d19d0ecb688f",
+      "name": "gousse de cardamome verte",
+      "pluralName": "gousses de cardamome verte",
+      "description": "Gousse de cardamome verte; à écraser pour currys, chai et pâtisserie.",
+      "aliases": [
+        {
+          "name": "gousse de cardamome verte"
+        },
+        {
+          "name": "cardamome verte gousse"
+        },
+        {
+          "name": "cardamome verte gousses"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "ee4d1365-5b7a-4017-9708-efd9deb5ba9c",
+      "name": "épices gyros",
+      "pluralName": "épices gyros",
+      "description": "Mélange grec; notamment origan et ail pour viande.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "76c78a1f-e757-4f48-84cc-f8508aeec257",
+      "name": "feuille de laurier indien",
+      "pluralName": "feuilles de laurier indien",
+      "description": "Feuille de laurier indien; donne un arôme cannelle aux currys et plats de riz.",
+      "aliases": [
+        {
+          "name": "feuille de laurier des Indes"
+        },
+        {
+          "name": "feuille de laurier indienne"
+        },
+        {
+          "name": "feuilles de laurier indiennes"
+        },
+        {
+          "name": "tej patta"
+        },
+        {
+          "name": "tejpatta"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "bb44434b-8101-412d-be2a-ab5c668e2234",
+      "name": "herbes italiennes",
+      "pluralName": "herbes italiennes",
+      "description": "Mélange d’herbes; notamment origan, basilic et thym pour pâtes.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "1cf042af-b40d-4732-9b2d-0e6ee221c4b6",
+      "name": "baie de genièvre",
+      "pluralName": "baies de genièvre",
+      "description": "Baies de genièvre séchées; aromatiques avec gibier et choucroute.",
+      "aliases": [
+        {
+          "name": "juniper berry"
+        },
+        {
+          "name": "juniper berries"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "80514593-cd78-4615-adaa-496502144f56",
+      "name": "épices jerk",
+      "pluralName": "épices jerk",
+      "description": "Mélange jerk; relevé avec piment de la Jamaïque, thym et chili.",
+      "aliases": [
+        {
+          "name": "épices jerk"
+        },
+        {
+          "name": "jerk seasoning"
+        },
+        {
+          "name": "mélange jamaïcain d’épices jerk"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "00a1fc6f-eef0-40e4-9e7a-1aaf8d124dbd",
+      "name": "cannelle [bâton]",
+      "pluralName": "cannelle [bâtons]",
+      "description": "Bâton de cannelle; mijoté dans ragoûts, compotes et boissons chaudes.",
+      "aliases": [
+        {
+          "name": "bâton de cannelle"
+        },
+        {
+          "name": "bâtons de cannelle"
+        },
+        {
+          "name": "bâtons de cannelle"
+        },
+        {
+          "name": "cannelle bâton"
+        },
+        {
+          "name": "cannelle bâtons"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "45c2f56b-485d-41f2-90cf-5131dd565032",
+      "name": "poudre de cannelle",
+      "pluralName": "poudre de cannelle",
+      "description": "Cannelle en poudre; pour pâtisseries, bouillies et ragoûts.",
+      "aliases": [
+        {
+          "name": "cannelle moulue"
+        },
+        {
+          "name": "cannelle moulue"
+        },
+        {
+          "name": "cannelle en poudre"
+        },
+        {
+          "name": "kaneel-poeder"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "52b88514-0af4-4260-8ae6-7efd18ee1610",
+      "name": "cardamome [moulue]",
+      "pluralName": "cardamome [moulue]",
+      "description": "Cardamome moulue; chaude et aromatique pour pâtisserie et currys.",
+      "aliases": [
+        {
+          "name": "cardamome moulue"
+        },
+        {
+          "name": "poudre de cardamome"
+        },
+        {
+          "name": "cardamome moulue"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "88b94c9c-a3d6-4523-8044-36cd6a986758",
+      "name": "graines de carvi",
+      "pluralName": "graines de carvi",
+      "description": "Graines de carvi; saveur anisée pour pains et plats au chou.",
+      "aliases": [
+        {
+          "name": "carvi"
+        },
+        {
+          "name": "kümmel"
+        },
+        {
+          "name": "kummel"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "af39e6a2-4a46-4f3f-968a-edd4a6dea825",
+      "name": "piment kashmiri [séché]",
+      "pluralName": "piments kashmiri [séchés]",
+      "description": "Piment kashmiri séché; légèrement relevé et colore les currys et sauces en rouge.",
+      "aliases": [
+        {
+          "name": "piment kashmiri séché"
+        },
+        {
+          "name": "piment kashmiri séché"
+        },
+        {
+          "name": "piments kashmiri séchés"
+        },
+        {
+          "name": "piment kashmiri entier"
+        },
+        {
+          "name": "piment chili kashmiri"
+        },
+        {
+          "name": "piment kashmiri séché"
+        },
+        {
+          "name": "kashmiri mirch"
+        },
+        {
+          "name": "piment kashmiri"
+        },
+        {
+          "name": "piments kashmiri séchés"
+        },
+        {
+          "name": "chili rouge kashmiri"
+        },
+        {
+          "name": "chilli rouge kashmiri"
+        },
+        {
+          "name": "piment chili rouge kashmiri"
+        },
+        {
+          "name": "piment rouge kashmiri"
+        },
+        {
+          "name": "kashmiri whole red chillies"
+        },
+        {
+          "name": "whole kashmiri chillies"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "9c4f68ce-d41f-4b09-a1e9-fc6f8a98aa3b",
+      "name": "poudre de chili kashmiri",
+      "pluralName": "poudre de chili kashmiri",
+      "description": "Poudre de chili rouge légèrement relevée faite de piments kashmiri; colore les currys et tandoori.",
+      "aliases": [
+        {
+          "name": "chili kashmiri moulu"
+        },
+        {
+          "name": "piment kashmiri moulu"
+        },
+        {
+          "name": "poudre de chili kasjmir"
+        },
+        {
+          "name": "poudre de chili kashmiri"
+        },
+        {
+          "name": "kashmiri chili powder"
+        },
+        {
+          "name": "poudre de chilli kashmiri"
+        },
+        {
+          "name": "kashmiri chilli powder"
+        },
+        {
+          "name": "poudre de kashmiri mirch"
+        },
+        {
+          "name": "kashmiri mirch powder"
+        },
+        {
+          "name": "kashmiri red chili powder"
+        },
+        {
+          "name": "kashmiri red chilli powder"
+        },
+        {
+          "name": "poudre de chili rouge kashmiri"
+        },
+        {
+          "name": "chilipoeder rouge kashmiri"
+        },
+        {
+          "name": "poudre de chilli rouge kashmiri"
+        },
+        {
+          "name": "poudre de chili kasmiri"
+        },
+        {
+          "name": "kasmiri chilli powder"
+        },
+        {
+          "name": "kasmiri chilipoeder"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "f0744964-c124-4727-aaf9-bb703dd3fc4f",
+      "name": "cassia",
+      "pluralName": "cassia",
+      "description": "Écorce de cassia; arôme de cannelle dans la cuisine asiatique.",
+      "aliases": [
+        {
+          "name": "cassia"
+        },
+        {
+          "name": "cannelle cassia"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "b0b71e4a-f24e-4d90-bce3-f3797fc206b7",
+      "name": "curry",
+      "pluralName": "curry",
+      "description": "Mélange de curry; pour currys et plats de riz.",
+      "aliases": [
+        {
+          "name": "curry"
+        },
+        {
+          "name": "curry powder"
+        },
+        {
+          "name": "poudre de curry"
+        },
+        {
+          "name": "poudre de cari"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "3be3ba5c-3709-4dca-8285-9ea406dd8ff4",
+      "name": "curry madras",
+      "pluralName": "curry madras",
+      "description": "Mélange de curry piquant; pour plats du sud de l’Inde.",
+      "aliases": [
+        {
+          "name": "curry madras"
+        },
+        {
+          "name": "poudre de curry madras"
+        },
+        {
+          "name": "madras curry"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "e09efaee-c08c-4131-94e5-ca24c5d2b898",
+      "name": "poudre d’ail",
+      "pluralName": "poudre d’ail",
+      "description": "Poudre d’ail; pour rubs, marinades et sauces.",
+      "aliases": [
+        {
+          "name": "ail en poudre"
+        },
+        {
+          "name": "knoflook-poeder"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "e6fc10c2-1742-41dc-ac10-2a04ff1493ce",
+      "name": "épices à pain d’épices",
+      "pluralName": "épices à pain d’épices",
+      "description": "Mélange d’épices pour pain d’épices; avec cannelle et gingembre.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "a2085178-2417-4382-a6e7-6eb1a3423cb5",
+      "name": "cumin [moulu]",
+      "pluralName": "cumin [moulu]",
+      "description": "Cumin moulu; chaud et terreux pour currys et chili.",
+      "aliases": [
+        {
+          "name": "cumin moulu"
+        },
+        {
+          "name": "poudre de cumin"
+        },
+        {
+          "name": "cumin moulu"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "13710348-8846-47a1-8ce1-90003c31c37b",
+      "name": "cumin [entier]",
+      "pluralName": "cumin [entier]",
+      "description": "Cumin entier; chaud et terreux pour currys et fromage.",
+      "aliases": [
+        {
+          "name": "djinten"
+        },
+        {
+          "name": "graines de cumin"
+        },
+        {
+          "name": "graines de cumin"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "506f3027-2c26-4501-8788-f7d060f8455e",
+      "name": "graines de coriandre [moulues]",
+      "pluralName": "graines de coriandre [moulues]",
+      "description": "Graines de coriandre moulues; saveur citronnée pour currys et rubs.",
+      "aliases": [
+        {
+          "name": "coriandre moulue"
+        },
+        {
+          "name": "graines de coriandre moulues"
+        },
+        {
+          "name": "poudre de coriandre"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "53c21163-887a-48a9-9052-efe7292da7a5",
+      "name": "graines de coriandre [entières]",
+      "pluralName": "graines de coriandre [entières]",
+      "description": "Graines de coriandre entières; saveur citronnée pour currys et marinades.",
+      "aliases": [
+        {
+          "name": "graines de coriandre entières"
+        },
+        {
+          "name": "graines de coriandre entières"
+        },
+        {
+          "name": "graines de coriandre entières"
+        },
+        {
+          "name": "graines de coriandre entières"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "00055bb2-9ad7-44c2-aa29-43a1c3c998e2",
+      "name": "sel aux herbes",
+      "pluralName": "sel aux herbes",
+      "description": "Sel aux herbes; assaisonnement rapide pour plats salés.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "264cd990-88ef-4e16-9477-4f7c06ef1f50",
+      "name": "clou de girofle [moulu]",
+      "pluralName": "clou de girofle [moulu]",
+      "description": "Clou de girofle moulu; chaud et doux dans pâtisserie et ragoûts.",
+      "aliases": [
+        {
+          "name": "clou de girofle moulu"
+        },
+        {
+          "name": "poudre de clou de girofle"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "b634aa8e-adc3-479e-9381-e95091c89477",
+      "name": "clou de girofle [entier]",
+      "pluralName": "clous de girofle [entiers]",
+      "description": "Clou de girofle entier; très aromatique pour ragoûts et pâtisseries.",
+      "aliases": [
+        {
+          "name": "clou de girofle entier"
+        },
+        {
+          "name": "clous de girofle entiers"
+        },
+        {
+          "name": "clous de girofle"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "969d65ca-e3c8-4693-a45f-9134bb9dd842",
+      "name": "curcuma [frais]",
+      "pluralName": "curcuma [frais]",
+      "description": "Racine de curcuma fraîche; saveur vive et terreuse pour currys et tisanes.",
+      "aliases": [
+        {
+          "name": "racine de curcuma"
+        },
+        {
+          "name": "curcuma frais"
+        },
+        {
+          "name": "frais curcuma"
+        },
+        {
+          "name": "curcuma frais"
+        },
+        {
+          "name": "racine de curcuma fraîche"
+        },
+        {
+          "name": "racine de curcuma"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "d82d519f-5605-4892-86b5-9a046d7c763f",
+      "name": "poudre de curcuma",
+      "pluralName": "poudre de curcuma",
+      "description": "Poudre de curcuma; colore en jaune les currys et plats de riz.",
+      "aliases": [
+        {
+          "name": "safran des Indes"
+        },
+        {
+          "name": "poudre de safran des Indes"
+        },
+        {
+          "name": "curcuma moulu"
+        },
+        {
+          "name": "curcuma moulu"
+        },
+        {
+          "name": "curcuma en poudre"
+        },
+        {
+          "name": "kurkuma-poeder"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "d46109c6-3638-4fbe-8a8a-3619ed118d47",
+      "name": "laos [moulu]",
+      "pluralName": "laos [moulu]",
+      "description": "Laos moulu; aromatique pour plats indonésiens.",
+      "aliases": [
+        {
+          "name": "poudre de galanga"
+        },
+        {
+          "name": "laos moulu"
+        },
+        {
+          "name": "laos en poudre"
+        },
+        {
+          "name": "laos-poeder"
+        },
+        {
+          "name": "laospoeder"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "ea0cc21e-92e9-4277-9a62-5d677a5b8666",
+      "name": "laos [frais]",
+      "pluralName": "laos [frais]",
+      "description": "Laos frais; racine aromatique d’Asie du Sud-Est.",
+      "aliases": [
+        {
+          "name": "galanga"
+        },
+        {
+          "name": "galangal"
+        },
+        {
+          "name": "racine de galanga"
+        },
+        {
+          "name": "racine de laos"
+        },
+        {
+          "name": "laos frais"
+        },
+        {
+          "name": "racine de laos fraîche"
+        },
+        {
+          "name": "frais laos"
+        },
+        {
+          "name": "laos frais"
+        },
+        {
+          "name": "racine de laos"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "62555682-51c0-410a-9f8a-067fee4ba1a4",
+      "name": "feuille de laurier",
+      "pluralName": "feuilles de laurier",
+      "description": "Feuille de laurier; cuite dans soupes, sauces et ragoûts.",
+      "aliases": [
+        {
+          "name": "laurier"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "554b19df-bfd0-4ee3-aedb-396d1accdd5f",
+      "name": "marjolaine [séchée]",
+      "pluralName": "marjolaine [séchée]",
+      "description": "Marjolaine séchée; saveur douce pour saucisses et ragoûts.",
+      "aliases": [
+        {
+          "name": "marjolaine séchée"
+        },
+        {
+          "name": "marjolaine séchée"
+        },
+        {
+          "name": "séchée marjolaine"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "2295b117-3dbd-4efe-94f6-a3684dbdc2fe",
+      "name": "menthe [séchée]",
+      "pluralName": "menthe [séchée]",
+      "description": "Menthe séchée; fraîcheur herbacée pour sauces et marinades.",
+      "aliases": [
+        {
+          "name": "menthe séchée"
+        },
+        {
+          "name": "menthe séchée"
+        },
+        {
+          "name": "séchée menthe"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "f848ca86-7562-4185-b00b-64c855454149",
+      "name": "épices nasi",
+      "pluralName": "épices nasi",
+      "description": "Mélange d’épices pour nasi goreng; aromatique et savoureux.",
+      "aliases": [
+        {
+          "name": "épices nasi"
+        },
+        {
+          "name": "mélange d’épices pour nasi"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "00e569c0-537b-43e8-9c87-9d7e212b02b7",
+      "name": "graines de nigelle",
+      "pluralName": "graines de nigelle",
+      "description": "Graines de nigelle; goût de noisette pour pains et currys.",
+      "aliases": [
+        {
+          "name": "nigelle de Damas"
+        },
+        {
+          "name": "nigelle de Damas"
+        },
+        {
+          "name": "kalonji"
+        },
+        {
+          "name": "graines de cumin noir"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "9135af39-30c5-4f6f-bc9d-110c004f4a7e",
+      "name": "noix de muscade [moulue]",
+      "pluralName": "noix de muscade [moulue]",
+      "description": "Noix de muscade moulue; chaude et aromatique pour purée et sauces.",
+      "aliases": [
+        {
+          "name": "muscade moulue"
+        },
+        {
+          "name": "poudre de muscade"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "ccab7467-866b-4ff6-9862-e41e4096079a",
+      "name": "noix de muscade [entière]",
+      "pluralName": "noix de muscade [entières]",
+      "description": "Noix de muscade entière; râpée fraîche pour purées et sauces.",
+      "aliases": [
+        {
+          "name": "noix de muscade entière"
+        },
+        {
+          "name": "noix de muscade"
+        },
+        {
+          "name": "noix de muscade"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "a5d9dd2e-3aa4-4cce-8ed1-26910acea942",
+      "name": "origan [séché]",
+      "pluralName": "origan [séché]",
+      "description": "Origan séché; aromatique pour pizza et cuisine grecque.",
+      "aliases": [
+        {
+          "name": "origan séché"
+        },
+        {
+          "name": "origan séché"
+        },
+        {
+          "name": "séché origan"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "a16fe5de-f7c9-406f-94de-983bcd6c2846",
+      "name": "épices pour paella",
+      "pluralName": "épices pour paella",
+      "description": "Mélange d’épices pour paella; souvent avec paprika et safran.",
+      "aliases": [
+        {
+          "name": "épices paella"
+        },
+        {
+          "name": "mélange d’épices pour paella"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "10a38cd0-06f5-4c94-ac1c-4c8a04ff68aa",
+      "name": "panch poran",
+      "pluralName": "panch poran",
+      "description": "Mélange bengali de cinq épices; notamment fenouil et moutarde.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "30ab4735-507e-48b5-8d24-a671c55d7cd2",
+      "name": "paprika en poudre",
+      "pluralName": "paprika en poudre",
+      "description": "Paprika en poudre; doux ou légèrement piquant.",
+      "aliases": [
+        {
+          "name": "paprika en poudre"
+        },
+        {
+          "name": "paprika-poeder"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "aa5c08d6-f025-4dd4-875a-a1a4ee982c14",
+      "name": "poivre",
+      "pluralName": "poivre",
+      "description": "Assaisonnement piquant; en grains ou moulu.",
+      "aliases": [
+        {
+          "name": "poivre moulu"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "d091dae8-4216-4a84-8fbc-8494ad7fb69e",
+      "name": "persil [séché]",
+      "pluralName": "persil [séché]",
+      "description": "Persil séché; herbacé doux comme garniture.",
+      "aliases": [
+        {
+          "name": "persil séché"
+        },
+        {
+          "name": "persil séché"
+        },
+        {
+          "name": "séché persil"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "0643759b-43f7-4556-a883-feb0c0c044d2",
+      "name": "piment de la Jamaïque [moulu]",
+      "pluralName": "piment de la Jamaïque [moulu]",
+      "description": "Piment de la Jamaïque moulu; chaud et épicé pour ragoûts et pâtisserie.",
+      "aliases": [
+        {
+          "name": "poudre de allspice"
+        },
+        {
+          "name": "allspicepoeder"
+        },
+        {
+          "name": "piment de la Jamaïque moulu"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "0b631ef7-044d-4ba0-9245-5e0d31afd3fc",
+      "name": "piment de la Jamaïque [grain]",
+      "pluralName": "piment de la Jamaïque [grains]",
+      "description": "Grains de piment de la Jamaïque; saveur entre clou de girofle, cannelle et muscade.",
+      "aliases": [
+        {
+          "name": "allspice"
+        },
+        {
+          "name": "poivre de la Jamaïque"
+        },
+        {
+          "name": "grains de piment de la Jamaïque"
+        },
+        {
+          "name": "grain de piment"
+        },
+        {
+          "name": "grains de piment"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "c555903f-824d-46bd-986d-d7392f75f050",
+      "name": "piment d'Espelette",
+      "pluralName": "piment d'Espelette",
+      "description": "Piment basque; légèrement relevé et aromatique.",
+      "aliases": [
+        {
+          "name": "poivre d'Espelette"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "76e89101-79da-44da-8c14-7e581bc61abf",
+      "name": "épices pour pizza",
+      "pluralName": "épices pour pizza",
+      "description": "Mélange d’herbes pour pizza; notamment origan, basilic et thym.",
+      "aliases": [
+        {
+          "name": "épices pizza"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "5790bbae-f477-43ad-826e-3e3597c420e5",
+      "name": "herbes de Provence",
+      "pluralName": "herbes de Provence",
+      "description": "Mélange d’herbes de Provence; notamment thym et romarin.",
+      "aliases": [
+        {
+          "name": "mélange d’herbes françaises"
+        },
+        {
+          "name": "herbes de provence"
+        },
+        {
+          "name": "herbes provencales"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "f8831156-c27d-4019-8eca-cd781546b402",
+      "name": "ras el hanout",
+      "pluralName": "ras el hanout",
+      "description": "Mélange d’épices marocain; complexe pour ragoûts et couscous.",
+      "aliases": [
+        {
+          "name": "mélange d’épices ras el hanout"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "dc172b04-8cb3-47f8-afaf-4fd124a5b7bc",
+      "name": "poivre rose",
+      "pluralName": "poivre rose",
+      "description": "Baie rose; douce et fruitée en finition.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "ba11f66d-d1ec-459f-81e6-7c54487f7c46",
+      "name": "romarin [séché]",
+      "pluralName": "romarin [séché]",
+      "description": "Romarin séché; arôme boisé avec pommes de terre et viande.",
+      "aliases": [
+        {
+          "name": "romarin séché"
+        },
+        {
+          "name": "rosemary"
+        },
+        {
+          "name": "romarin séché"
+        },
+        {
+          "name": "séché romarin"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "6df2edc5-dd8c-40ba-9c1e-f5cf17930902",
+      "name": "safran",
+      "pluralName": "safran",
+      "description": "Filaments de safran; colorent en jaune le riz, la paella et le bouillon.",
+      "aliases": [
+        {
+          "name": "filament de safran"
+        },
+        {
+          "name": "filaments de safran"
+        },
+        {
+          "name": "safran filament"
+        },
+        {
+          "name": "safran filaments"
+        },
+        {
+          "name": "safran-filaments"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "8b4a7fd3-d2ed-4a00-ba6b-b906c0165b21",
+      "name": "sauge [séchée]",
+      "pluralName": "sauge [séchée]",
+      "description": "Sauge séchée; saveur herbacée et légèrement amère pour beurre et volaille.",
+      "aliases": [
+        {
+          "name": "sauge séchée"
+        },
+        {
+          "name": "sauge séchée"
+        },
+        {
+          "name": "séchée sauge"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "46f90781-1636-4d38-9da7-21d5510b8465",
+      "name": "graines de céleri",
+      "pluralName": "graines de céleri",
+      "description": "Graines de céleri; arôme savoureux pour marinades et mélanges d’épices.",
+      "aliases": [
+        {
+          "name": "celery seed"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "6cfe6904-edcd-49f2-9a34-92220a5a859d",
+      "name": "sel de céleri",
+      "pluralName": "sel de céleri",
+      "description": "Sel au céleri; assaisonnement savoureux pour salades et soupes.",
+      "aliases": [
+        {
+          "name": "celery salt"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "9c5d78cb-f58d-4e4a-962c-4b3d827cfa20",
+      "name": "épices shawarma",
+      "pluralName": "épices shawarma",
+      "description": "Mélange d’épices pour shawarma; chaud et aromatique pour viande.",
+      "aliases": [
+        {
+          "name": "épices shawarma"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "f0630d07-5f87-4f69-bc46-1b8e53f2abe8",
+      "name": "épices spéculoos",
+      "pluralName": "épices spéculoos",
+      "description": "Mélange d’épices pour spéculoos; avec cannelle et clou de girofle.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "4a3e8149-294b-40e8-adaa-1feb60182331",
+      "name": "anis étoilé",
+      "pluralName": "anis étoilé",
+      "description": "Anis étoilé; saveur anisée pour ragoûts, pho et thé.",
+      "aliases": [
+        {
+          "name": "star anise"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "0d8eaa7e-46f2-4f61-a5b7-cf839f33b64d",
+      "name": "sumac",
+      "pluralName": "sumac",
+      "description": "Sumac moulu; acidulé et frais pour salades et kebabs.",
+      "aliases": [
+        {
+          "name": "sumac"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "6550a174-b6cd-4f63-8c0a-a5fd72c0241c",
+      "name": "poivre du Sichuan",
+      "pluralName": "poivre du Sichuan",
+      "description": "Poivre du Sichuan; saveur citronnée et engourdissante pour plats chinois.",
+      "aliases": [
+        {
+          "name": "poivre de Sichuan"
+        },
+        {
+          "name": "poivre szechuan"
+        },
+        {
+          "name": "sichuan pepper"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "e10e4501-70b9-4f96-a810-930d638819fb",
+      "name": "tandoori masala",
+      "pluralName": "tandoori masala",
+      "description": "Mélange d’épices indien; pour marinade tandoori ou pour assaisonner viande, poisson ou légumes.",
+      "aliases": [
+        {
+          "name": "mélange d’épices tandoori"
+        },
+        {
+          "name": "mélange d’épices tandoori masala"
+        },
+        {
+          "name": "mélange tandoori masala"
+        },
+        {
+          "name": "tandoori seasoning"
+        },
+        {
+          "name": "tandoori spice mix"
+        },
+        {
+          "name": "tandoori-masala"
+        },
+        {
+          "name": "tandoorimasala"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "154713db-a2d8-479c-93d5-fe8ac668f281",
+      "name": "épices tandoori",
+      "pluralName": "épices tandoori",
+      "description": "Mélange d’épices pour tandoori; rouge et aromatique pour marinades.",
+      "aliases": [
+        {
+          "name": "épices tandoori"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "0398a1fc-3cf3-4cc4-b14e-070f4bf99fcb",
+      "name": "épices tex-mex",
+      "pluralName": "épices tex-mex",
+      "description": "Mélange d’épices tex-mex; relevé pour tacos et burritos.",
+      "aliases": [
+        {
+          "name": "épices tex mex"
+        },
+        {
+          "name": "mélange d’épices tex mex"
+        },
+        {
+          "name": "épices tex-mex"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "4d621087-8741-41cc-ad3a-727f71e6bc00",
+      "name": "thym [séché]",
+      "pluralName": "thym [séché]",
+      "description": "Thym séché; aromatique pour ragoûts et légumes.",
+      "aliases": [
+        {
+          "name": "thym séché"
+        },
+        {
+          "name": "thym séché"
+        },
+        {
+          "name": "séché thym"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "259e288d-a7f5-4257-8125-b3d1a5358b38",
+      "name": "poudre d’oignon",
+      "pluralName": "poudre d’oignon",
+      "description": "Poudre d’oignon; pour rubs, marinades et sauces.",
+      "aliases": [
+        {
+          "name": "poudre d'oignon"
+        },
+        {
+          "name": "ui-poeder"
+        },
+        {
+          "name": "oignon en poudre"
+        },
+        {
+          "name": "uien-poeder"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "00146f10-54d5-4326-a7fa-691602d3f1d8",
+      "name": "vanille [gousse]",
+      "pluralName": "vanille [gousses]",
+      "description": "Gousse de vanille; gratter les graines pour desserts.",
+      "aliases": [
+        {
+          "name": "gousse de vanille"
+        },
+        {
+          "name": "bâton de vanille"
+        },
+        {
+          "name": "gousse de vanille"
+        },
+        {
+          "name": "gousses de vanille"
+        },
+        {
+          "name": "vanille gousse"
+        },
+        {
+          "name": "vanille gousses"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "eecbb31f-ebde-4f3c-983e-3ae950cba872",
+      "name": "graines de fenouil",
+      "pluralName": "graines de fenouil",
+      "description": "Graines de fenouil; saveur anisée pour saucisses et pains.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "58695269-09d4-4861-8e9f-cca10d2ca42c",
+      "name": "poudre de cinq-épices",
+      "pluralName": "poudre de cinq-épices",
+      "description": "Mélange chinois de cinq-épices; avec notamment anis étoilé et cannelle.",
+      "aliases": [
+        {
+          "name": "cinq-épices chinois"
+        },
+        {
+          "name": "five spice"
+        },
+        {
+          "name": "five-spice"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "58cd30ff-949e-40df-a955-50aa6268236f",
+      "name": "épices pour poisson",
+      "pluralName": "épices pour poisson",
+      "description": "Mélange d’épices pour poisson; frais et herbacé avec notamment aneth.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "d7f31afb-1fb9-43af-9605-bb2b4a35efcf",
+      "name": "poivre blanc [moulu]",
+      "pluralName": "poivre blanc [moulu]",
+      "description": "Poivre blanc moulu; doux pour sauces claires.",
+      "aliases": [
+        {
+          "name": "poivre blanc moulu"
+        },
+        {
+          "name": "poudre de poivre blanc"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "c3878afd-3f7a-471c-8512-eacf172028f5",
+      "name": "poivre blanc [grain]",
+      "pluralName": "poivre blanc [grains]",
+      "description": "Grains de poivre blanc; grains entiers pour moulin.",
+      "aliases": [
+        {
+          "name": "grains de poivre blanc"
+        },
+        {
+          "name": "poivre blanc en grains"
+        },
+        {
+          "name": "grain de poivre blanc"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "ea8f87fd-a3cd-4241-bdb7-310deb9eb2c2",
+      "name": "za'atar",
+      "pluralName": "za'atar",
+      "description": "Mélange d’épices du Moyen-Orient; avec thym, sumac et sésame.",
+      "aliases": [
+        {
+          "name": "zaatar"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "dbe97176-9de0-473b-a903-a22092fc00fe",
+      "name": "sel marin",
+      "pluralName": "sel marin",
+      "description": "Sel marin; pour cuisson et finition, souvent à grain plus gros.",
+      "aliases": [],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "04f1a601-58b6-4281-bcc2-465ff146a861",
+      "name": "sel",
+      "pluralName": "sel",
+      "description": "Sel de cuisine; principal exhausteur de goût dans les plats salés.",
+      "aliases": [
+        {
+          "name": "sel de cuisine"
+        },
+        {
+          "name": "sel de table"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "67499307-b9c5-4b85-9322-5f154c4cbe26",
+      "name": "graines de moutarde noire",
+      "pluralName": "graines de moutarde noire",
+      "description": "Graines de moutarde noire; plus piquantes que les jaunes, pour curry et tadka.",
+      "aliases": [
+        {
+          "name": "petites graines de moutarde noire"
+        },
+        {
+          "name": "black mustard seed"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "634d448d-97e9-4e4d-b082-766c09c33198",
+      "name": "gousse de cardamome noire",
+      "pluralName": "gousses de cardamome noire",
+      "description": "Gousse de cardamome noire; arôme fumé dans ragoûts et masala.",
+      "aliases": [
+        {
+          "name": "gousse de cardamome noire"
+        },
+        {
+          "name": "cardamome noire gousse"
+        },
+        {
+          "name": "cardamome noire gousses"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "3b1018f5-e33b-4e35-9780-2c51bfa2c291",
+      "name": "poivre noir [moulu]",
+      "pluralName": "poivre noir [moulu]",
+      "description": "Poivre noir moulu; assaisonnement piquant pour presque tout.",
+      "aliases": [
+        {
+          "name": "poivre noir moulu"
+        },
+        {
+          "name": "poudre de poivre noir"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "83a97a16-e6e7-4177-a2ef-fdfe5788b2b7",
+      "name": "poivre noir [grain]",
+      "pluralName": "poivre noir [grains]",
+      "description": "Grains de poivre noir; grains entiers pour moulin.",
+      "aliases": [
+        {
+          "name": "grains de poivre noir"
+        },
+        {
+          "name": "poivre noir en grains"
+        },
+        {
+          "name": "grain de poivre noir"
+        }
+      ],
+      "label": "Herbes et épices"
+    }
+  ]
+}

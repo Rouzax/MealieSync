@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "d2091932-dce6-48c6-a3bd-c1f252bb4357",
       "name": "aalbes",
       "pluralName": "aalbessen",
       "description": "Rode of witte trosjes bessen; zuur, voor jam en sauzen.",
@@ -18,6 +19,7 @@
       "label": "Fruit"
     },
     {
+      "id": "760ab880-c16c-4a6d-8dba-79a0eede232d",
       "name": "aardbei",
       "pluralName": "aardbeien",
       "description": "Zoet rood zacht fruit; vers, in desserts of als smaakmaker.",
@@ -25,6 +27,7 @@
       "label": "Fruit"
     },
     {
+      "id": "8e25d23c-2ab4-4ed9-a0b2-44b668a67cfc",
       "name": "abrikoos",
       "pluralName": "abrikozen",
       "description": "Oranje steenvrucht; vers gegeten of gebruikt in gebak en jam.",
@@ -45,6 +48,7 @@
       "label": "Fruit"
     },
     {
+      "id": "98c5a626-61c8-4a25-84a9-cf234aebaaaf",
       "name": "abrikoos [gedroogd]",
       "pluralName": "abrikozen [gedroogd]",
       "description": "Gedroogde abrikoos; zoet in tajines, muesli en gebak.",
@@ -65,6 +69,7 @@
       "label": "Fruit"
     },
     {
+      "id": "e4e57fa4-2994-4153-806f-6a8633705108",
       "name": "ananas",
       "pluralName": "ananassen",
       "description": "Tropisch fruit; zoet-zuur geel vruchtvlees.",
@@ -72,6 +77,7 @@
       "label": "Fruit"
     },
     {
+      "id": "335cc390-d3ef-405c-9ff7-1eb89d6c3a31",
       "name": "appel",
       "pluralName": "appels",
       "description": "Fruit; vers, in desserts, salades of als tussendoortje.",
@@ -83,6 +89,7 @@
       "label": "Fruit"
     },
     {
+      "id": "8f9caf7e-4f73-488d-ba1b-5e9700e6e917",
       "name": "avocado",
       "pluralName": "avocado's",
       "description": "Vrucht met romig vruchtvlees; voor salades, guacamole of op toast.",
@@ -90,6 +97,7 @@
       "label": "Fruit"
     },
     {
+      "id": "cc3868ed-7b93-4e67-b3c7-7c5ae1041474",
       "name": "bakbanaan",
       "pluralName": "bakbananen",
       "description": "Zetmeelrijke kookbanaan; gebakken of gekookt gegeten.",
@@ -104,6 +112,7 @@
       "label": "Fruit"
     },
     {
+      "id": "adf36e91-a33b-4879-a7c3-703dd89f95e1",
       "name": "banaan",
       "pluralName": "bananen",
       "description": "Tropisch fruit; geel, zoet, rijk aan kalium.",
@@ -111,6 +120,7 @@
       "label": "Fruit"
     },
     {
+      "id": "fac36d7b-5b8b-4518-a386-79fdddee1fc1",
       "name": "bloedsinaasappel",
       "pluralName": "bloedsinaasappels",
       "description": "Sinaasappel met rood vruchtvlees; vers of als sap.",
@@ -118,6 +128,7 @@
       "label": "Fruit"
     },
     {
+      "id": "7076c424-8cdd-4db1-9950-6b683beabbed",
       "name": "bosbes",
       "pluralName": "bosbessen",
       "description": "Kleine blauwe bessen; vers of in desserts en gebak.",
@@ -138,6 +149,7 @@
       "label": "Fruit"
     },
     {
+      "id": "f3ad29ea-c0b3-4212-9fac-2bb5915e968f",
       "name": "braam",
       "pluralName": "bramen",
       "description": "Donkerpaarse zachte bessen; vers of in jam.",
@@ -149,6 +161,7 @@
       "label": "Fruit"
     },
     {
+      "id": "034e98b7-44e4-4488-91ed-5cede2e7bf53",
       "name": "broodvrucht",
       "pluralName": "broodvruchten",
       "description": "Tropische vrucht met zetmeelrijk vruchtvlees; gekookt of gebakken.",
@@ -156,6 +169,7 @@
       "label": "Fruit"
     },
     {
+      "id": "80b0f948-5384-40c1-b091-592b6d6502e3",
       "name": "cantaloupe",
       "pluralName": "cantaloupes",
       "description": "Meloensoort; oranje vruchtvlees, aromatisch zoet.",
@@ -167,6 +181,7 @@
       "label": "Fruit"
     },
     {
+      "id": "76a50ee7-c9ef-4e26-89f7-1f87a29fc635",
       "name": "citroen",
       "pluralName": "citroenen",
       "description": "Gele citrusvrucht; in partjes of schijfjes voor koken, bakken en drankjes.",
@@ -190,6 +205,7 @@
       "label": "Fruit"
     },
     {
+      "id": "6c8607c2-d06b-4176-8466-7c9c47981ca0",
       "name": "citroen [rasp]",
       "pluralName": "citroen [rasp]",
       "description": "Citroenrasp; aromatisch voor gebak, desserts en sauzen.",
@@ -210,6 +226,7 @@
       "label": "Fruit"
     },
     {
+      "id": "4ca347f7-253f-4f16-bc30-ff5f237c5c1f",
       "name": "citroen [sap]",
       "pluralName": "citroen [sap]",
       "description": "Citroensap; voor dressings, marinades en als frisse smaakmaker.",
@@ -227,6 +244,7 @@
       "label": "Fruit"
     },
     {
+      "id": "3e7a380c-3de9-4d60-a044-a76a359e9cbb",
       "name": "citroen [schil]",
       "pluralName": "citroen [schil]",
       "description": "Citroenschil; in repen voor stoofgerechten, likeuren en confijt.",
@@ -244,6 +262,7 @@
       "label": "Fruit"
     },
     {
+      "id": "ce8a20d6-ceee-4dbf-92d0-0bafca256d2a",
       "name": "clementine",
       "pluralName": "clementines",
       "description": "Kleine zoete citrus; pitloos, makkelijk te pellen.",
@@ -251,6 +270,7 @@
       "label": "Fruit"
     },
     {
+      "id": "200ab77b-be7f-4ccb-8f1c-58655297a2d1",
       "name": "cranberry",
       "pluralName": "cranberry's",
       "description": "Zure rode bes; vers in sauzen, compote of bij wild.",
@@ -265,6 +285,7 @@
       "label": "Fruit"
     },
     {
+      "id": "0ba02825-c6f4-4981-b6f6-976e95c0bdf1",
       "name": "cranberry [gedroogd]",
       "pluralName": "cranberry's [gedroogd]",
       "description": "Gedroogde cranberry; zoetzuur in muesli, gebak of salades.",
@@ -288,6 +309,7 @@
       "label": "Fruit"
     },
     {
+      "id": "9f55abbe-e7cb-468e-b1d5-271ddd51d64b",
       "name": "dadel",
       "pluralName": "dadels",
       "description": "Verse dadel; sappig zoet als snack, in salades of desserts.",
@@ -295,6 +317,7 @@
       "label": "Fruit"
     },
     {
+      "id": "eacfda2b-85fe-4368-b9d2-e6649a6ca1d3",
       "name": "dadel [gedroogd]",
       "pluralName": "dadels [gedroogd]",
       "description": "Gedroogde dadel; zoet in baksels, snacks en energy balls.",
@@ -327,6 +350,7 @@
       "label": "Fruit"
     },
     {
+      "id": "dcbf729a-a61e-43de-a00c-816b751c3de9",
       "name": "doerian",
       "pluralName": "doerianen",
       "description": "Tropische vrucht met sterke geur; romig vruchtvlees.",
@@ -338,6 +362,7 @@
       "label": "Fruit"
     },
     {
+      "id": "328f074a-f96e-44c9-8a61-f6367d9a8429",
       "name": "drakenvrucht",
       "pluralName": "drakenvruchten",
       "description": "Felroze vrucht met wit of rood vruchtvlees; mild zoet.",
@@ -352,6 +377,7 @@
       "label": "Fruit"
     },
     {
+      "id": "d8690fdd-04f3-4121-87d4-71fdcd37a113",
       "name": "druif",
       "pluralName": "druiven",
       "description": "Fruit; vers als tafeldruif of geperst tot sap en wijn.",
@@ -359,6 +385,7 @@
       "label": "Fruit"
     },
     {
+      "id": "1136b110-8229-491d-93e0-fb64d6f74f08",
       "name": "elstar",
       "pluralName": "elstars",
       "description": "Nederlandse appel; zoet-zuur, ideaal voor appeltaart.",
@@ -370,6 +397,7 @@
       "label": "Fruit"
     },
     {
+      "id": "f1918a4f-42ae-4906-ab88-3e5d3aff4248",
       "name": "framboos",
       "pluralName": "frambozen",
       "description": "Zoetzure rode bes; vers of in desserts en jam.",
@@ -381,6 +409,7 @@
       "label": "Fruit"
     },
     {
+      "id": "ac42bc4b-97bc-4d47-815f-881eb072bba7",
       "name": "galia",
       "pluralName": "galia's",
       "description": "Meloensoort; groen-geel, zoet en sappig.",
@@ -392,6 +421,7 @@
       "label": "Fruit"
     },
     {
+      "id": "0442d597-ee5d-4a9e-be78-be3809bb0025",
       "name": "gojibes",
       "pluralName": "gojibessen",
       "description": "Kleine rode gedroogde bes; superfood, in smoothies en muesli.",
@@ -406,6 +436,7 @@
       "label": "Fruit"
     },
     {
+      "id": "ac895b82-1f97-4325-9200-3ccdfc3ea0ce",
       "name": "granaatappel",
       "pluralName": "granaatappels",
       "description": "Vrucht gevuld met sappige rode pitjes; voor salades en als garnering.",
@@ -413,6 +444,7 @@
       "label": "Fruit"
     },
     {
+      "id": "ad49dad1-0ad2-40f6-8bf2-68f35495e289",
       "name": "granaatappelpitje",
       "pluralName": "granaatappelpitjes",
       "description": "Rode zaadjes uit granaatappel; als garnering of in salades.",
@@ -424,6 +456,7 @@
       "label": "Fruit"
     },
     {
+      "id": "96373953-4bed-45fc-8d44-370cd7d7f37b",
       "name": "grapefruit",
       "pluralName": "grapefruits",
       "description": "Grote citrusvrucht; bitter-zuur, als ontbijtfruit of sap.",
@@ -435,6 +468,7 @@
       "label": "Fruit"
     },
     {
+      "id": "567af627-de3e-4d1b-b0dd-b4288c019604",
       "name": "guave",
       "pluralName": "guaves",
       "description": "Tropisch fruit; aromatisch zoetzuur vruchtvlees, vers of als sap.",
@@ -442,6 +476,7 @@
       "label": "Fruit"
     },
     {
+      "id": "af844723-61b6-439a-a25c-596ebba2d404",
       "name": "honingmeloen",
       "pluralName": "honingmeloenen",
       "description": "Groene zoete meloen; vers als dessert of in fruitsalade.",
@@ -453,6 +488,7 @@
       "label": "Fruit"
     },
     {
+      "id": "50c953ba-5482-485f-a22c-a9cd74edb6dc",
       "name": "jackfruit",
       "pluralName": "jackfruits",
       "description": "Grote tropische vrucht; jong gebruikt als vleesvervanger.",
@@ -464,6 +500,7 @@
       "label": "Fruit"
     },
     {
+      "id": "63fb1523-dde1-4dbe-8ed5-a10664a8674a",
       "name": "jonagold",
       "pluralName": "jonagolds",
       "description": "Grote rood-gele appel; zoetzuur, voor vers eten en bakken.",
@@ -475,6 +512,7 @@
       "label": "Fruit"
     },
     {
+      "id": "ef8f12ba-13bb-4cbc-bf09-5e29034614e0",
       "name": "jostabes",
       "pluralName": "jostabessen",
       "description": "Kruising tussen zwarte bes en kruisbes; dieppaars, zoetzuur.",
@@ -482,6 +520,7 @@
       "label": "Fruit"
     },
     {
+      "id": "858ab100-76a9-469c-86d6-ae9fe8a3c24d",
       "name": "jujube",
       "pluralName": "jujubes",
       "description": "Chinese dadel; roodbruin, vers of gedroogd in thee en desserts.",
@@ -489,6 +528,7 @@
       "label": "Fruit"
     },
     {
+      "id": "6ca8aaa3-b9a5-4b79-83a8-01ae426f6505",
       "name": "kaapse goudbes",
       "pluralName": "kaapse goudbessen",
       "description": "Kleine oranje bessen in papieren huls; zoet-zuur.",
@@ -500,6 +540,7 @@
       "label": "Fruit"
     },
     {
+      "id": "33baf553-62be-464a-99cf-5d42aadd2866",
       "name": "kaki",
       "pluralName": "kaki's",
       "description": "Oranje Aziatische vrucht; zoet, vers gegeten of gedroogd.",
@@ -517,6 +558,7 @@
       "label": "Fruit"
     },
     {
+      "id": "ed6165a9-091e-4d01-b310-dcf2a54d37a8",
       "name": "kers",
       "pluralName": "kersen",
       "description": "Kleine rode steenvrucht; zoet of zuur, vers of in gebak.",
@@ -531,6 +573,7 @@
       "label": "Fruit"
     },
     {
+      "id": "caa6e76c-8ed5-4c0b-babb-993b9f45fbc0",
       "name": "kiwi",
       "pluralName": "kiwi's",
       "description": "Fruit met groen vruchtvlees; zoet-zuur, rijk aan vitamine c.",
@@ -538,6 +581,7 @@
       "label": "Fruit"
     },
     {
+      "id": "772c3787-7278-4309-9466-b5cd5850d55c",
       "name": "kiwibes",
       "pluralName": "kiwibessen",
       "description": "Mini-kiwi; eetbaar met schil, zoetzuur in snacks en desserts.",
@@ -558,6 +602,7 @@
       "label": "Fruit"
     },
     {
+      "id": "cf97fcd4-ea87-48e6-bf85-07c67cc9f9ed",
       "name": "kokosnoot",
       "pluralName": "kokosnoten",
       "description": "Tropische vrucht met kokosvlees; voor curry's, bakken en kokosmelk.",
@@ -569,6 +614,7 @@
       "label": "Fruit"
     },
     {
+      "id": "3c15d706-941c-417e-bc58-2138372d692f",
       "name": "krent",
       "pluralName": "krenten",
       "description": "Kleine donkere gedroogde druiven; voor gebak en brood.",
@@ -576,6 +622,7 @@
       "label": "Fruit"
     },
     {
+      "id": "859dce96-4f08-4e61-a10e-1678b00c2f03",
       "name": "kruisbes",
       "pluralName": "kruisbessen",
       "description": "Kleine groene zoetzure bes; voor jam en desserts.",
@@ -583,6 +630,7 @@
       "label": "Fruit"
     },
     {
+      "id": "49c85083-fcbe-4923-a834-51cd11d23602",
       "name": "kumquat",
       "pluralName": "kumquats",
       "description": "Kleine citrus; eetbaar met schil, zoetzuur als snack of in jam.",
@@ -597,6 +645,7 @@
       "label": "Fruit"
     },
     {
+      "id": "3a5170be-1c4d-482f-b1cb-f7642816aab7",
       "name": "kweepeer",
       "pluralName": "kweeperen",
       "description": "Harde gele vrucht; gekookt tot gelei of compote.",
@@ -608,6 +657,7 @@
       "label": "Fruit"
     },
     {
+      "id": "477e1570-41de-4632-9e87-295b113e312c",
       "name": "limoen",
       "pluralName": "limoenen",
       "description": "Groene citrusvrucht; in partjes voor koken, desserts en cocktails.",
@@ -634,6 +684,7 @@
       "label": "Fruit"
     },
     {
+      "id": "887bae4d-b7a6-4590-91b8-1bc7ac19f0d4",
       "name": "limoen [rasp]",
       "pluralName": "limoen [rasp]",
       "description": "Limoenrasp; aromatisch voor desserts, curries en dressings.",
@@ -654,6 +705,7 @@
       "label": "Fruit"
     },
     {
+      "id": "cef93fbf-ddb9-41a0-a437-7295e67c08ab",
       "name": "limoen [sap]",
       "pluralName": "limoen [sap]",
       "description": "Limoensap; voor dressings, marinades en cocktails.",
@@ -671,6 +723,7 @@
       "label": "Fruit"
     },
     {
+      "id": "50f9e3f9-637a-4cec-bf25-9ec462782940",
       "name": "limoen [schil]",
       "pluralName": "limoen [schil]",
       "description": "Limoenschil; in repen voor curry's, likeuren en siroop.",
@@ -688,6 +741,7 @@
       "label": "Fruit"
     },
     {
+      "id": "f8384a04-9962-4937-89d7-f469da397696",
       "name": "longan",
       "pluralName": "longans",
       "description": "Tropische vrucht verwant aan lychee; zoet wit vruchtvlees.",
@@ -695,6 +749,7 @@
       "label": "Fruit"
     },
     {
+      "id": "f9fff026-3fad-48a3-9e53-b2c782d9e696",
       "name": "loquat",
       "pluralName": "loquats",
       "description": "Japanse mispel; oranjegeel, zoetzuur, vers of als jam.",
@@ -706,6 +761,7 @@
       "label": "Fruit"
     },
     {
+      "id": "56eda86c-e996-4429-8f04-d78bf7d86a8c",
       "name": "lychee",
       "pluralName": "lychees",
       "description": "Tropische vrucht met wit sappig vruchtvlees; zoet en aromatisch.",
@@ -717,6 +773,7 @@
       "label": "Fruit"
     },
     {
+      "id": "da1e5a2b-b2cf-40bb-9938-588067238705",
       "name": "mandarijn",
       "pluralName": "mandarijnen",
       "description": "Zoete kleine citrus; makkelijk te pellen, vers of in desserts.",
@@ -728,6 +785,7 @@
       "label": "Fruit"
     },
     {
+      "id": "756c3919-b36b-42cb-9223-8b965e2c42f4",
       "name": "mango",
       "pluralName": "mango's",
       "description": "Tropisch fruit; zoet oranje vruchtvlees, vers of in chutney.",
@@ -735,6 +793,7 @@
       "label": "Fruit"
     },
     {
+      "id": "0b55878f-c278-4881-be03-0bccd178a52e",
       "name": "mango [gedroogd]",
       "pluralName": "mango's [gedroogd]",
       "description": "Gedroogde mango; zoet als snack, in muesli of gebak.",
@@ -755,6 +814,7 @@
       "label": "Fruit"
     },
     {
+      "id": "2cf87c0a-d038-46c9-9951-a06db35dec0b",
       "name": "mangosteen",
       "pluralName": "mangosteens",
       "description": "Paarse tropische vrucht; wit segmentvruchtvlees, aromatisch zoet.",
@@ -766,6 +826,7 @@
       "label": "Fruit"
     },
     {
+      "id": "9c425bff-3037-4d09-874a-35e5f17835d0",
       "name": "meloen",
       "pluralName": "meloenen",
       "description": "Zoete meloen met sappig vruchtvlees; vers in fruitsalade of dessert.",
@@ -773,6 +834,7 @@
       "label": "Fruit"
     },
     {
+      "id": "34d64716-045c-4d16-9662-98183bc4bd4d",
       "name": "minneola",
       "pluralName": "minneola's",
       "description": "Citrusvrucht; kruising grapefruit en mandarijn, zoetzuur.",
@@ -784,6 +846,7 @@
       "label": "Fruit"
     },
     {
+      "id": "510dabaf-b7e0-4788-9b83-def2557a9914",
       "name": "mirabel",
       "pluralName": "mirabellen",
       "description": "Kleine gele pruim; zoet in jam, taarten en desserts.",
@@ -798,6 +861,7 @@
       "label": "Fruit"
     },
     {
+      "id": "dd230c24-c597-4c2c-80db-11ac9a510278",
       "name": "mispel",
       "pluralName": "mispels",
       "description": "Oud vruchtgewas; bruin zacht vruchtvlees, voor gelei of moes.",
@@ -805,6 +869,7 @@
       "label": "Fruit"
     },
     {
+      "id": "57cf1e0b-ff65-45a4-a4f2-591aff5c54b5",
       "name": "moerbei",
       "pluralName": "moerbeien",
       "description": "Zoete bes; vers in desserts of gedroogd in ontbijtgranen.",
@@ -819,6 +884,7 @@
       "label": "Fruit"
     },
     {
+      "id": "29c9114d-bd57-495b-9442-153a730691b3",
       "name": "morel",
       "pluralName": "morellen",
       "description": "Zure kers; voor vlaaien, jam en op siroop.",
@@ -833,6 +899,7 @@
       "label": "Fruit"
     },
     {
+      "id": "1efdb9fc-4f08-4c3b-a3ef-0da1db9ab65b",
       "name": "nectarine",
       "pluralName": "nectarines",
       "description": "Steenvrucht met gladde schil; zoet, vers of in taart.",
@@ -840,6 +907,7 @@
       "label": "Fruit"
     },
     {
+      "id": "f6c15afe-d87d-4cf9-b616-ba824c0f24d3",
       "name": "papaja",
       "pluralName": "papaja's",
       "description": "Tropische vrucht; zoet oranje vruchtvlees, vers of in salsa.",
@@ -854,6 +922,7 @@
       "label": "Fruit"
     },
     {
+      "id": "4a148b3d-e03d-41a9-9650-5863c154b7b5",
       "name": "passievrucht",
       "pluralName": "passievruchten",
       "description": "Tropische vrucht met zuurzoete pulp; voor desserts, drankjes en sauzen.",
@@ -868,6 +937,7 @@
       "label": "Fruit"
     },
     {
+      "id": "8b8b4de1-da71-4ce5-bd2e-61b0c3317058",
       "name": "peer",
       "pluralName": "peren",
       "description": "Fruit; zoet sappig vruchtvlees, vers of gepoecheerd.",
@@ -875,6 +945,7 @@
       "label": "Fruit"
     },
     {
+      "id": "da14b0d4-03fd-4d53-9d49-05c5cd2a8f4d",
       "name": "perzik",
       "pluralName": "perziken",
       "description": "Steenvrucht; zoet sappig oranje vruchtvlees met donzige schil.",
@@ -882,6 +953,7 @@
       "label": "Fruit"
     },
     {
+      "id": "5f903c26-dfbe-45d6-a959-19dfaef39609",
       "name": "pomelo",
       "pluralName": "pomelo's",
       "description": "Grote citrusvrucht; mildzoet wit vruchtvlees, vers als partjes.",
@@ -889,6 +961,7 @@
       "label": "Fruit"
     },
     {
+      "id": "785e46f9-ee7b-4f8c-a333-7f157f578e7c",
       "name": "pruim",
       "pluralName": "pruimen",
       "description": "Steenvrucht; zoet sappig vruchtvlees, vers gegeten of in desserts.",
@@ -896,6 +969,7 @@
       "label": "Fruit"
     },
     {
+      "id": "e4769b36-ce8d-40ac-8c0b-5bb1c5fbf1ef",
       "name": "pruim [gedroogd]",
       "pluralName": "pruimen [gedroogd]",
       "description": "Gedroogde pruim; zoet, voor stoofgerechten en gebak.",
@@ -922,6 +996,7 @@
       "label": "Fruit"
     },
     {
+      "id": "9f5251ec-d38b-435e-bb0a-458db7f7bae5",
       "name": "ramboetan",
       "pluralName": "ramboetans",
       "description": "Tropische vrucht met rode harige schil; zoet wit vruchtvlees.",
@@ -933,6 +1008,7 @@
       "label": "Fruit"
     },
     {
+      "id": "08830d83-4c26-40e9-af55-59bb498e8017",
       "name": "rode bosbes",
       "pluralName": "rode bosbessen",
       "description": "Kleine rode zure bes; voor compote bij wild.",
@@ -947,6 +1023,7 @@
       "label": "Fruit"
     },
     {
+      "id": "67d626e6-4987-479c-a23e-e1b626dadfcb",
       "name": "rozenbottel",
       "pluralName": "rozenbottels",
       "description": "Vrucht van wilde roos; voor siroop, jam of thee.",
@@ -954,6 +1031,7 @@
       "label": "Fruit"
     },
     {
+      "id": "73d278d0-df32-4b54-8874-49d582097d78",
       "name": "rozijn",
       "pluralName": "rozijnen",
       "description": "Gedroogde druiven; zoet, voor gebak, brood en als snack.",
@@ -961,6 +1039,7 @@
       "label": "Fruit"
     },
     {
+      "id": "6c279af3-1b9b-4a3d-8f17-3b47f4d747a0",
       "name": "salak",
       "pluralName": "salaks",
       "description": "Slangenfruit met schubbige schil; wit zoetzuur vruchtvlees.",
@@ -972,6 +1051,7 @@
       "label": "Fruit"
     },
     {
+      "id": "9abbbc62-1fc6-4420-9b64-24b6eadf0b5b",
       "name": "satsuma",
       "pluralName": "satsuma's",
       "description": "Pitloze mandarijn; makkelijk te pellen en zoet.",
@@ -979,6 +1059,7 @@
       "label": "Fruit"
     },
     {
+      "id": "a26622ed-64f5-4134-8993-fec5b8933438",
       "name": "shatkora",
       "pluralName": "shatkora",
       "description": "Bittere citrusvrucht uit bangladesh; kenmerkend voor sylheti keuken.",
@@ -990,6 +1071,7 @@
       "label": "Fruit"
     },
     {
+      "id": "5caa86cc-9069-4205-9201-8ca3f7354daa",
       "name": "sinaasappel",
       "pluralName": "sinaasappels",
       "description": "Zoete citrusvrucht; vers gegeten of in salades, desserts en sauzen.",
@@ -1016,6 +1098,7 @@
       "label": "Fruit"
     },
     {
+      "id": "327b0cfd-1483-4d1d-9a8b-0fdac94946ad",
       "name": "sinaasappel [rasp]",
       "pluralName": "sinaasappel [rasp]",
       "description": "Sinaasappelrasp; aromatisch voor gebak, desserts en saus.",
@@ -1036,6 +1119,7 @@
       "label": "Fruit"
     },
     {
+      "id": "78e758df-a933-49af-8079-f93f332f2805",
       "name": "sinaasappel [sap]",
       "pluralName": "sinaasappel [sap]",
       "description": "Sinaasappelsap; voor sauzen, marinades, baksels en drankjes.",
@@ -1053,6 +1137,7 @@
       "label": "Fruit"
     },
     {
+      "id": "76bb7474-03d1-40be-a62a-2436534b5599",
       "name": "sinaasappel [schil]",
       "pluralName": "sinaasappel [schil]",
       "description": "Sinaasappelschil; in repen voor stoofgerechten, confijt en likeuren.",
@@ -1070,6 +1155,7 @@
       "label": "Fruit"
     },
     {
+      "id": "853ac361-1ad8-4323-b43e-305055ef7dce",
       "name": "stoofpeer",
       "pluralName": "stoofperen",
       "description": "Peer geschikt om te stoven; langzaam gekookt in wijn of siroop.",
@@ -1081,6 +1167,7 @@
       "label": "Fruit"
     },
     {
+      "id": "e73231b0-bff9-440f-875c-352482603e81",
       "name": "tamarillo",
       "pluralName": "tamarillo's",
       "description": "Boomtomaat; oranje-rode ovale vrucht, zuurzoet.",
@@ -1092,6 +1179,7 @@
       "label": "Fruit"
     },
     {
+      "id": "13f8431c-fdba-4639-89a5-ecdd7b052501",
       "name": "tutti frutti",
       "pluralName": "tutti frutti",
       "description": "Mengsel van gekonfijt en gedroogd fruit; voor gebak en ijs.",
@@ -1106,6 +1194,7 @@
       "label": "Fruit"
     },
     {
+      "id": "a541b40a-57d6-4196-9622-8f4f0e46a942",
       "name": "vijg",
       "pluralName": "vijgen",
       "description": "Zachte zoete vrucht; vers in salades, desserts of bij kaas.",
@@ -1113,6 +1202,7 @@
       "label": "Fruit"
     },
     {
+      "id": "5d0908fc-8509-4b56-bb0a-dae350138bec",
       "name": "vijg [gedroogd]",
       "pluralName": "vijgen [gedroogd]",
       "description": "Gedroogde vijg; zoet in gebak, ontbijt of bij kaas.",
@@ -1133,6 +1223,7 @@
       "label": "Fruit"
     },
     {
+      "id": "29a2c2df-2ec4-472c-b2a6-795097bbe2c4",
       "name": "vlierbes",
       "pluralName": "vlierbessen",
       "description": "Donkerpaarse bes van vlier; gekookt tot siroop of sap.",
@@ -1140,6 +1231,7 @@
       "label": "Fruit"
     },
     {
+      "id": "7c8a447a-baf2-4fb8-a4b2-8325cd010f94",
       "name": "watermeloen",
       "pluralName": "watermeloenen",
       "description": "Grote vrucht met rood sappig vruchtvlees; verfrissend.",
@@ -1147,6 +1239,7 @@
       "label": "Fruit"
     },
     {
+      "id": "a24188d1-17ca-43f0-a7a9-e67f2286c948",
       "name": "witte bes",
       "pluralName": "witte bessen",
       "description": "Witte aalbes; mildzuur transparant besje, voor jam.",
@@ -1154,6 +1247,7 @@
       "label": "Fruit"
     },
     {
+      "id": "676224fd-000a-4820-abe9-da7f15ded6d1",
       "name": "yuzu",
       "pluralName": "yuzu",
       "description": "Japanse citrusvrucht; aromatisch sap als smaakmaker.",
@@ -1161,6 +1255,7 @@
       "label": "Fruit"
     },
     {
+      "id": "d0839555-375d-4293-a326-1a3c10cef32f",
       "name": "zuurzak",
       "pluralName": "zuurzakken",
       "description": "Tropische vrucht met wit zuurzoet vruchtvlees; voor sap of ijs.",
@@ -1175,6 +1270,7 @@
       "label": "Fruit"
     },
     {
+      "id": "3fb137f7-ed7c-465b-a232-29438d31f12d",
       "name": "zwarte bes",
       "pluralName": "zwarte bessen",
       "description": "Aromatische donkere bes; voor siroop, likeur of jam.",

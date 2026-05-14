@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "a4e3e0d0-ab12-4403-be75-2aa87c7d6123",
       "name": "alcoholvrij bier",
       "pluralName": "alcoholvrij bier",
       "description": "Bier zonder alcohol; voor marinades en beslag zonder alcohol.",
@@ -15,6 +16,7 @@
       "label": "Bier"
     },
     {
+      "id": "5560dd0b-08d9-4c06-b4dd-85beb199b206",
       "name": "bier",
       "pluralName": "bier",
       "description": "Alcoholische drank van gegist graan; voor marinades, beslag en stoofpotten.",
@@ -26,6 +28,7 @@
       "label": "Bier"
     },
     {
+      "id": "ce0e325e-1e3a-40ed-bbb9-f91b43fd4de0",
       "name": "blond bier",
       "pluralName": "blond bier",
       "description": "Licht bier; mild en fris van smaak.",
@@ -33,6 +36,7 @@
       "label": "Bier"
     },
     {
+      "id": "58c99151-0833-4b8e-9094-b3f2e19c46eb",
       "name": "bockbier",
       "pluralName": "bockbier",
       "description": "Donker seizoensbier; vol en zoet, voor stoofvlees.",
@@ -53,6 +57,7 @@
       "label": "Bier"
     },
     {
+      "id": "deb53f5c-4025-4b6f-931b-246d8834e015",
       "name": "bruinbier",
       "pluralName": "bruinbier",
       "description": "Donker bier; moutig en zoetig, klassiek voor stoofvlees.",
@@ -64,6 +69,7 @@
       "label": "Bier"
     },
     {
+      "id": "b85873e8-dd02-42a7-bc13-044f243eea90",
       "name": "dubbel",
       "pluralName": "dubbel",
       "description": "Belgisch donker abdijbier; moutig met karamel- en pruimensmaak.",
@@ -71,6 +77,7 @@
       "label": "Bier"
     },
     {
+      "id": "0c59b6a3-2b3c-4338-bf16-9ab60b0490e0",
       "name": "geuze",
       "pluralName": "geuze",
       "description": "Belgisch spontaan gegist bier; zuur en complex.",
@@ -85,6 +92,7 @@
       "label": "Bier"
     },
     {
+      "id": "d20b7d1e-efa9-48d9-94d6-1bf418693778",
       "name": "IPA",
       "pluralName": "IPA",
       "description": "India Pale Ale; hoprijk bier met bittere en fruitige smaak.",
@@ -96,6 +104,7 @@
       "label": "Bier"
     },
     {
+      "id": "dcfc4591-8b38-4198-8da4-ff180abf5c1b",
       "name": "kriek",
       "pluralName": "kriek",
       "description": "Belgisch kersenbier; zoetzuur fruitbier.",
@@ -107,6 +116,7 @@
       "label": "Bier"
     },
     {
+      "id": "3598ae23-160a-4826-9417-1d2f23d179c4",
       "name": "lager",
       "pluralName": "lager",
       "description": "Ondergegist blond bier; neutraal en fris, vaak gebruikt in koken.",
@@ -118,6 +128,7 @@
       "label": "Bier"
     },
     {
+      "id": "16863c98-305e-4ddd-a257-be556debbb5c",
       "name": "lambiek",
       "pluralName": "lambiek",
       "description": "Spontaan gegist Belgisch bier; basis voor geuze, vaak licht zuur.",
@@ -129,6 +140,7 @@
       "label": "Bier"
     },
     {
+      "id": "70a4fe54-e5a5-47f9-83c1-e215c4a411ff",
       "name": "pils",
       "pluralName": "pils",
       "description": "Blonde lager; helder en verfrissend, meest gedronken biersoort.",
@@ -140,6 +152,7 @@
       "label": "Bier"
     },
     {
+      "id": "c4134663-9e02-4dab-9da7-beb2ed4d8f67",
       "name": "porter",
       "pluralName": "porter",
       "description": "Donker bier met gebrande mout; moutig met koffie- en chocoladetonen.",
@@ -151,6 +164,7 @@
       "label": "Bier"
     },
     {
+      "id": "3ec8327e-febf-4a18-8c6a-4655d45682e4",
       "name": "stout",
       "pluralName": "stout",
       "description": "Donker bier met gebrande mout; koffie- en chocoladesmaak.",
@@ -158,6 +172,7 @@
       "label": "Bier"
     },
     {
+      "id": "7a5ab2a6-317a-4a9b-94a3-5d6ec8a0e814",
       "name": "tarwebier",
       "pluralName": "tarwebier",
       "description": "Bier met veel tarwemout; fris en licht, gebruikt in beslag en sauzen.",
@@ -169,6 +184,7 @@
       "label": "Bier"
     },
     {
+      "id": "5eb06812-2f7d-483b-b5f0-4483e7a0230c",
       "name": "tripel",
       "pluralName": "tripel",
       "description": "Belgisch sterk blond bier; fruitig en kruidig.",
@@ -176,6 +192,7 @@
       "label": "Bier"
     },
     {
+      "id": "55a67520-6229-4540-a619-523341f1773b",
       "name": "witbier",
       "pluralName": "witbier",
       "description": "Belgisch tarwebier; troebel, fris met koriander en sinaasappelschil.",

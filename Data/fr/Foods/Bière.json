@@ -1,0 +1,207 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "a4e3e0d0-ab12-4403-be75-2aa87c7d6123",
+      "name": "bière sans alcool",
+      "pluralName": "bière sans alcool",
+      "description": "Bière sans alcool; pour les marinades et les pâtes à frire sans alcool.",
+      "aliases": [
+        {
+          "name": "bière 0.0"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "5560dd0b-08d9-4c06-b4dd-85beb199b206",
+      "name": "bière",
+      "pluralName": "bière",
+      "description": "Boisson alcoolisée à base de céréales fermentées; pour les marinades, les pâtes à frire et les ragoûts.",
+      "aliases": [
+        {
+          "name": "beer"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "ce0e325e-1e3a-40ed-bbb9-f91b43fd4de0",
+      "name": "bière blonde",
+      "pluralName": "bière blonde",
+      "description": "Bière claire; douce et fraîche en goût.",
+      "aliases": [],
+      "label": "Bière"
+    },
+    {
+      "id": "58c99151-0833-4b8e-9094-b3f2e19c46eb",
+      "name": "bock",
+      "pluralName": "bock",
+      "description": "Bière saisonnière brune; riche et douce, idéale pour le bœuf braisé.",
+      "aliases": [
+        {
+          "name": "bock d’automne"
+        },
+        {
+          "name": "bok d’automne"
+        },
+        {
+          "name": "bière bock"
+        },
+        {
+          "name": "bock"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "deb53f5c-4025-4b6f-931b-246d8834e015",
+      "name": "bière brune",
+      "pluralName": "bière brune",
+      "description": "Bière brune; maltée et légèrement sucrée, classique pour les plats mijotés.",
+      "aliases": [
+        {
+          "name": "bière brune"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "b85873e8-dd02-42a7-bc13-044f243eea90",
+      "name": "dubbel",
+      "pluralName": "dubbel",
+      "description": "Bière d’abbaye belge brune; maltée avec des notes de caramel et de prune.",
+      "aliases": [],
+      "label": "Bière"
+    },
+    {
+      "id": "0c59b6a3-2b3c-4338-bf16-9ab60b0490e0",
+      "name": "gueuze",
+      "pluralName": "gueuze",
+      "description": "Bière belge à fermentation spontanée; acide et complexe.",
+      "aliases": [
+        {
+          "name": "gueuze"
+        },
+        {
+          "name": "bière gueuze"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "d20b7d1e-efa9-48d9-94d6-1bf418693778",
+      "name": "IPA",
+      "pluralName": "IPA",
+      "description": "India Pale Ale; bière très houblonnée aux saveurs amères et fruitées.",
+      "aliases": [
+        {
+          "name": "India Pale Ale"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "dcfc4591-8b38-4198-8da4-ff180abf5c1b",
+      "name": "kriek",
+      "pluralName": "kriek",
+      "description": "Bière belge à la cerise; bière fruitée aigre-douce.",
+      "aliases": [
+        {
+          "name": "bière kriek"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "3598ae23-160a-4826-9417-1d2f23d179c4",
+      "name": "lager",
+      "pluralName": "lager",
+      "description": "Bière blonde de fermentation basse; neutre et fraîche, souvent utilisée en cuisine.",
+      "aliases": [
+        {
+          "name": "bière lager"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "16863c98-305e-4ddd-a257-be556debbb5c",
+      "name": "lambic",
+      "pluralName": "lambic",
+      "description": "Bière belge à fermentation spontanée; base de la gueuze, souvent légèrement acide.",
+      "aliases": [
+        {
+          "name": "lambic"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "70a4fe54-e5a5-47f9-83c1-e215c4a411ff",
+      "name": "pils",
+      "pluralName": "pils",
+      "description": "Lager blonde; claire et rafraîchissante, la variété de bière la plus consommée.",
+      "aliases": [
+        {
+          "name": "pilsner"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "c4134663-9e02-4dab-9da7-beb2ed4d8f67",
+      "name": "porter",
+      "pluralName": "porter",
+      "description": "Bière brune au malt torréfié; maltée avec des notes de café et de chocolat.",
+      "aliases": [
+        {
+          "name": "bière porter"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "3ec8327e-febf-4a18-8c6a-4655d45682e4",
+      "name": "stout",
+      "pluralName": "stout",
+      "description": "Bière brune au malt torréfié; saveurs de café et de chocolat.",
+      "aliases": [],
+      "label": "Bière"
+    },
+    {
+      "id": "7a5ab2a6-317a-4a9b-94a3-5d6ec8a0e814",
+      "name": "bière de blé",
+      "pluralName": "bière de blé",
+      "description": "Bière riche en malt de blé; fraîche et légère, utilisée dans les pâtes à frire et les sauces.",
+      "aliases": [
+        {
+          "name": "bière de blé"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "5eb06812-2f7d-483b-b5f0-4483e7a0230c",
+      "name": "tripel",
+      "pluralName": "tripel",
+      "description": "Bière belge blonde forte; fruitée et épicée.",
+      "aliases": [],
+      "label": "Bière"
+    },
+    {
+      "id": "55a67520-6229-4540-a619-523341f1773b",
+      "name": "bière blanche",
+      "pluralName": "bière blanche",
+      "description": "Bière belge de blé; trouble, fraîche avec de la coriandre et de l’écorce d’orange.",
+      "aliases": [
+        {
+          "name": "bière blanche"
+        }
+      ],
+      "label": "Bière"
+    }
+  ]
+}

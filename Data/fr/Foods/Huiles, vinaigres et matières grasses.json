@@ -1,0 +1,505 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "db68a871-2c2e-42c4-8ace-cdca4532459a",
+      "name": "vinaigre balsamique",
+      "pluralName": "vinaigre balsamique",
+      "description": "Vinaigre italien de moût de raisin, originaire de Modène; aigre-doux, pour les vinaigrettes et marinades.",
+      "aliases": [
+        {
+          "name": "vinaigre balsamique"
+        },
+        {
+          "name": "balsamique"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "9fce2713-8cf6-410d-9070-4fae6019321f",
+      "name": "vinaigre de cidre",
+      "pluralName": "vinaigre de cidre",
+      "description": "Vinaigre de pommes fermentées; acidité douce, pour les vinaigrettes et marinades.",
+      "aliases": [
+        {
+          "name": "vinaigre de cidre de pomme"
+        },
+        {
+          "name": "vinaigre de cidre"
+        },
+        {
+          "name": "vinaigre de pomme"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "5ebc4354-1362-40e0-aaf8-4fd56077c710",
+      "name": "huile d’arachide",
+      "pluralName": "huile d’arachide",
+      "description": "Huile d’arachides; point de fumée élevé, pour les sautés et la friture.",
+      "aliases": [
+        {
+          "name": "huile de peanut"
+        },
+        {
+          "name": "huile de cacahuète"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "ffcaeb9c-e7eb-49c9-87ab-3a606f6ae794",
+      "name": "huile d’avocat",
+      "pluralName": "huile d’avocat",
+      "description": "Huile extraite de la chair d’avocat; point de fumée élevé, saveur douce.",
+      "aliases": [
+        {
+          "name": "huile avocat"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "78655052-9b64-4a7a-ba8b-c98395d28783",
+      "name": "vinaigre",
+      "pluralName": "vinaigre",
+      "description": "Liquide acide générique; agent aromatique et conservateur.",
+      "aliases": [
+        {
+          "name": "vinaigre nature"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "f1819ef2-ffb3-4266-bc26-cee5774bd925",
+      "name": "crème balsamique",
+      "pluralName": "crème balsamique",
+      "description": "Vinaigre balsamique réduit; sirupeux et sucré, pour la finition et les desserts.",
+      "aliases": [
+        {
+          "name": "crème de balsamique"
+        },
+        {
+          "name": "crema di balsamico"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "6f38a658-4df7-4947-b9ca-d19aa8f23256",
+      "name": "huile de chili",
+      "pluralName": "huile de chili",
+      "description": "Huile infusée aux piments; condiment piquant à verser sur les plats.",
+      "aliases": [
+        {
+          "name": "huile chili"
+        },
+        {
+          "name": "huile au chili"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "9dc452a7-66e5-4b4d-8b9b-90c179e23fc1",
+      "name": "huile de pépins de raisin",
+      "pluralName": "huile de pépins de raisin",
+      "description": "Huile légère de pépins de raisin; saveur neutre, point de fumée élevé.",
+      "aliases": [
+        {
+          "name": "huile de raisin"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "c8e918c2-193e-45ad-896f-e1b21cc48cc6",
+      "name": "vinaigre de framboise",
+      "pluralName": "vinaigre de framboise",
+      "description": "Vinaigre aromatisé à la framboise; fruité, pour les salades et sauces.",
+      "aliases": [
+        {
+          "name": "vinaigre framboise"
+        },
+        {
+          "name": "vinaigre à la framboise"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "06d73dfb-800b-450f-9760-2afc8301c1a3",
+      "name": "huile de noisette",
+      "pluralName": "huile de noisette",
+      "description": "Huile de noisettes; arôme de noix, pour les vinaigrettes et la cuisson douce.",
+      "aliases": [
+        {
+          "name": "huile de noisettes"
+        },
+        {
+          "name": "huile noisette"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "fee6afb6-aa8a-412e-affb-b42c1d6c73a5",
+      "name": "huile de coco",
+      "pluralName": "huile de coco",
+      "description": "Matière grasse de noix de coco; solide à température ambiante, pour la cuisson et la cuisine asiatique.",
+      "aliases": [
+        {
+          "name": "gras de coco"
+        },
+        {
+          "name": "huile de coconut"
+        },
+        {
+          "name": "huile de noix de coco"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "2d06d15a-0188-4acb-b5d1-dc4b465bfe83",
+      "name": "huile de colza",
+      "pluralName": "huile de colza",
+      "description": "Huile neutre de colza; convient à la cuisson et à la friture.",
+      "aliases": [
+        {
+          "name": "huile de canola"
+        },
+        {
+          "name": "huile de navette"
+        },
+        {
+          "name": "canola"
+        },
+        {
+          "name": "huile canola"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "321a134a-b9ec-41a6-8bf9-d93c650c9812",
+      "name": "huile de sésame claire",
+      "pluralName": "huile de sésame claire",
+      "description": "Huile de sésame non grillée; douce, adaptée à la cuisson.",
+      "aliases": [
+        {
+          "name": "huile gingelly"
+        },
+        {
+          "name": "huile gingelly"
+        },
+        {
+          "name": "gingely oil"
+        },
+        {
+          "name": "huile de sésame non grillée"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "35dc2d8a-3c96-4aff-aab2-c756429537c1",
+      "name": "huile de lin",
+      "pluralName": "huile de lin",
+      "description": "Huile de graines de lin; riche en oméga-3, à ne pas chauffer, pour les vinaigrettes.",
+      "aliases": [
+        {
+          "name": "huile lin"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "6c70c55f-48d6-4bec-89db-906c54b3803d",
+      "name": "huile de maïs",
+      "pluralName": "huile de maïs",
+      "description": "Huile végétale de germe de maïs; goût neutre, pour la cuisson.",
+      "aliases": [
+        {
+          "name": "huile mais"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "9fa350e2-afcc-42e5-b6a5-7e4be367ba29",
+      "name": "huile de moutarde",
+      "pluralName": "huile de moutarde",
+      "description": "Huile piquante de graines de moutarde; pour les plats indiens et bengalis.",
+      "aliases": [
+        {
+          "name": "huile moutarde"
+        },
+        {
+          "name": "huile de graines de moutarde"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "98aa9094-0761-4cab-a028-c63e57a58971",
+      "name": "vinaigre de malt",
+      "pluralName": "vinaigre de malt",
+      "description": "Vinaigre à base d’orge fermentée; pour le fish and chips et les marinades.",
+      "aliases": [
+        {
+          "name": "vinaigre brun"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "e8bbfaed-c7f1-4687-a7f2-18a325502ffc",
+      "name": "huile",
+      "pluralName": "huile",
+      "description": "Matière grasse liquide générique; pour cuire, frire ou assaisonner.",
+      "aliases": [
+        {
+          "name": "huile de cuisson"
+        },
+        {
+          "name": "huile à salade"
+        },
+        {
+          "name": "huile alimentaire"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "21815ff5-1404-4d77-af73-2017494a33ea",
+      "name": "huile d’olive",
+      "pluralName": "huile d’olive",
+      "description": "Huile d’olives; polyvalente, pour la cuisson et les vinaigrettes.",
+      "aliases": [
+        {
+          "name": "huile olive"
+        },
+        {
+          "name": "olive oil"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "8137b6ad-8e8b-43c8-8ff5-e20313817ffd",
+      "name": "huile d’olive extra vierge",
+      "pluralName": "huile d’olive extra vierge",
+      "description": "Huile d’olive pressée à froid de première extraction; fruitée, pour l’usage à froid.",
+      "aliases": [
+        {
+          "name": "extra vierge huile d’olive"
+        },
+        {
+          "name": "huile d’olive extra virgin"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "6ebaf6ef-af09-46bd-a7a5-a6262cf41411",
+      "name": "gras de bœuf",
+      "pluralName": "gras de bœuf",
+      "description": "Graisse de bœuf fondue; pour la friture traditionnelle des pommes de terre.",
+      "aliases": [
+        {
+          "name": "gras bovin"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "f3feba78-510a-4208-b4b4-df18825375f2",
+      "name": "huile de palme",
+      "pluralName": "huile de palme",
+      "description": "Matière grasse végétale du palmier à huile; stable à la cuisson, de couleur rougeâtre.",
+      "aliases": [
+        {
+          "name": "gras de palme"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "11ca4abb-3ebf-4e5c-9e73-eb02e8cd4795",
+      "name": "huile végétale",
+      "pluralName": "huile végétale",
+      "description": "Mélange d’huiles végétales; neutre, pour la cuisson et la friture.",
+      "aliases": [
+        {
+          "name": "gras végétal"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "dddd9ecb-fb91-425c-bc18-04be287ac4e8",
+      "name": "saindoux",
+      "pluralName": "saindoux",
+      "description": "Graisse de porc fondue; matière grasse traditionnelle pour la pâtisserie et les pommes de terre.",
+      "aliases": [
+        {
+          "name": "gras de porc"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "3de1fb48-ec27-4e0f-83c4-82eeadd82045",
+      "name": "vinaigre de riz",
+      "pluralName": "vinaigre de riz",
+      "description": "Vinaigre de riz fermenté; doux, pour les sushis et les vinaigrettes asiatiques.",
+      "aliases": [
+        {
+          "name": "vinaigre de vin de riz"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "63314e49-9552-425e-9e2b-c10324eb957e",
+      "name": "huile de riz",
+      "pluralName": "huile de riz",
+      "description": "Huile de son de riz; douce, point de fumée élevé, pour les sautés.",
+      "aliases": [
+        {
+          "name": "huile de son de riz"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "77788332-d977-4923-a53b-e03e476bb9ff",
+      "name": "vinaigre de vin rouge",
+      "pluralName": "vinaigre de vin rouge",
+      "description": "Vinaigre de vin rouge; robuste, pour les vinaigrettes et les plats mijotés.",
+      "aliases": [
+        {
+          "name": "vinaigre vin rouge"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "34722c3c-af0f-4b48-8585-43170a56b9b6",
+      "name": "huile de sésame",
+      "pluralName": "huile de sésame",
+      "description": "Huile de sésame grillé; foncée et noisettée, utilisée comme assaisonnement.",
+      "aliases": [
+        {
+          "name": "huile sésame"
+        },
+        {
+          "name": "huile de sésame grillée"
+        },
+        {
+          "name": "huile de sésame foncée"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "83b99eb1-4866-4905-a448-c772bb822585",
+      "name": "vinaigre de xérès",
+      "pluralName": "vinaigre de xérès",
+      "description": "Vinaigre de vin de xérès; complexe et noisetté, pour les plats espagnols.",
+      "aliases": [
+        {
+          "name": "vinaigre xérès"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "e5e02bac-0092-4a53-be2a-61bf3423b1a1",
+      "name": "huile de truffe",
+      "pluralName": "huile de truffe",
+      "description": "Huile aromatisée à la truffe; à utiliser en petites touches comme assaisonnement luxueux.",
+      "aliases": [
+        {
+          "name": "huile truffe"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "eaa1df03-d980-46c6-80a6-cd2b9f6933ca",
+      "name": "huile de noix",
+      "pluralName": "huile de noix",
+      "description": "Huile de noix; saveur de noix, pour les salades et sans chauffage.",
+      "aliases": [
+        {
+          "name": "huile de noix de Grenoble"
+        },
+        {
+          "name": "huile noix"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "1b375610-1f6a-4c25-9ed7-d6b166f5f6f1",
+      "name": "balsamique blanc",
+      "pluralName": "balsamique blanc",
+      "description": "Vinaigre balsamique clair; aigre-doux sans colorer, pour les vinaigrettes claires.",
+      "aliases": [
+        {
+          "name": "vinaigre balsamique blanc"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "8e3dfc31-dc14-47cb-8ec3-cb045f18d79b",
+      "name": "vinaigre de vin blanc",
+      "pluralName": "vinaigre de vin blanc",
+      "description": "Vinaigre de vin blanc; doux et vif, pour les vinaigrettes.",
+      "aliases": [
+        {
+          "name": "vinaigre vin blanc"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "2362c0e8-f874-42b1-b56e-8c5d729e11c6",
+      "name": "huile à wok",
+      "pluralName": "huile à wok",
+      "description": "Huile à point de fumée élevé; souvent aromatisée, pour les sautés au wok.",
+      "aliases": [
+        {
+          "name": "huile wok"
+        },
+        {
+          "name": "huile à sauté"
+        },
+        {
+          "name": "huile pour wok"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
+      "id": "18eb9f24-2368-42df-8fad-91a34d746725",
+      "name": "huile de tournesol",
+      "pluralName": "huile de tournesol",
+      "description": "Huile neutre de graines de tournesol; polyvalente pour la cuisson et la friture.",
+      "aliases": [
+        {
+          "name": "huile tournesol"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "48a8559e-b5cf-4f34-bccf-3812dc977f2f",
+      "name": "pigeon",
+      "pluralName": "pigeons",
+      "description": "Volaille; petit oiseau giboyeux à la chair foncée et savoureuse.",
+      "aliases": [
+        {
+          "name": "pigeon entier"
+        },
+        {
+          "name": "pigeon"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "cb170e3e-8d90-4e26-a320-79061ee5ee8a",
+      "name": "canard",
+      "pluralName": "canards",
+      "description": "Volaille; viande grasse au goût riche.",
+      "aliases": [
+        {
+          "name": "canard entier"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "66b46310-0636-4e39-98fe-66974d3fd561",
+      "name": "magret de canard",
+      "pluralName": "magrets de canard",
+      "description": "Volaille; poitrine maigre avec couche de gras, cuite rapidement à la poêle.",
+      "aliases": [
+        {
+          "name": "magret de canard"
+        },
+        {
+          "name": "poitrine de canard"
+        },
+        {
+          "name": "magret"
+        },
+        {
+          "name": "duck breast"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "fa5be9b5-d66b-438d-a373-aa9f964e17a3",
+      "name": "cuisse de canard",
+      "pluralName": "cuisses de canard",
+      "description": "Volaille; morceau juteux, idéal pour une cuisson lente.",
+      "aliases": [
+        {
+          "name": "patte de canard"
+        },
+        {
+          "name": "pattes de canard"
+        },
+        {
+          "name": "cuisse de canard"
+        },
+        {
+          "name": "cuisses de canard"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "f71f94e1-f2ff-4c15-88b9-f78e7d8dc4ed",
+      "name": "carcasse de canard",
+      "pluralName": "carcasses de canard",
+      "description": "Volaille; carcasse de canard, pour bouillon et sauce.",
+      "aliases": [
+        {
+          "name": "carcasse de canard"
+        },
+        {
+          "name": "carcasses de canard"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "ea6d0f24-7713-4e12-a308-789359fa2556",
+      "name": "foie de canard",
+      "pluralName": "foies de canard",
+      "description": "Volaille; foie de canard, pour pâté ou cuisson à la poêle.",
+      "aliases": [
+        {
+          "name": "foie de canard"
+        },
+        {
+          "name": "foies de canard"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "a77cd117-c61d-4ec3-94f5-23abf2e7d8c3",
+      "name": "aile de canard",
+      "pluralName": "ailes de canard",
+      "description": "Volaille; aile de canard, pour le four, le confit ou le bouillon.",
+      "aliases": [
+        {
+          "name": "aile de canard"
+        },
+        {
+          "name": "ailes de canard"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "8519cb6f-a667-413c-b64d-c53295f3b7f1",
+      "name": "faisan",
+      "pluralName": "faisans",
+      "description": "Volaille; oiseau de gibier à la saveur maigre et sauvage.",
+      "aliases": [
+        {
+          "name": "faisan entier"
+        },
+        {
+          "name": "pheasant"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "d46ee9bf-bb26-44cb-9c4a-6a559b89ea52",
+      "name": "oie",
+      "pluralName": "oies",
+      "description": "Volaille; viande festive, souvent rôtie farcie.",
+      "aliases": [
+        {
+          "name": "oie entière"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "c4f21896-3a5b-4679-969f-806997a988a4",
+      "name": "poitrine d’oie",
+      "pluralName": "poitrines d’oie",
+      "description": "Volaille; poitrine d’oie, grasse et savoureuse.",
+      "aliases": [
+        {
+          "name": "blanc d’oie"
+        },
+        {
+          "name": "blancs d’oie"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "9c54d152-2cdc-4a68-b9b3-d73f7b2096f4",
+      "name": "cuisse d’oie",
+      "pluralName": "cuisses d’oie",
+      "description": "Volaille; cuisse d’oie, idéale pour une cuisson lente.",
+      "aliases": [
+        {
+          "name": "cuisse d’oie"
+        },
+        {
+          "name": "cuisses d’oie"
+        },
+        {
+          "name": "patte d’oie"
+        },
+        {
+          "name": "pattes d’oie"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "2181782b-4cf5-4c83-be24-f68835bb275a",
+      "name": "carcasse d’oie",
+      "pluralName": "carcasses d’oie",
+      "description": "Volaille; carcasse d’oie, base pour bouillon et fond.",
+      "aliases": [
+        {
+          "name": "carcasse d’oie"
+        },
+        {
+          "name": "carcasses d’oie"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "ff7c2e60-f711-4f4c-98a2-0a7f0e244009",
+      "name": "foie d’oie",
+      "pluralName": "foies d’oie",
+      "description": "Volaille; foie d’oie, pour pâté ou cuisson à la poêle.",
+      "aliases": [
+        {
+          "name": "foie d’oie"
+        },
+        {
+          "name": "foies d’oie"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "61e4b184-cdaf-4d63-b888-f28345849dea",
+      "name": "aile d’oie",
+      "pluralName": "ailes d’oie",
+      "description": "Volaille; aile d’oie, pour le four ou le bouillon.",
+      "aliases": [
+        {
+          "name": "aile d’oie"
+        },
+        {
+          "name": "ailes d’oie"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "faad365e-e07f-4a6c-9ba5-f78fb858a2ea",
+      "name": "dinde",
+      "pluralName": "dindes",
+      "description": "Volaille; grande pièce de viande, entière ou en morceaux.",
+      "aliases": [
+        {
+          "name": "dinde entière"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "a4496443-2364-4c66-beff-5238d66ad7d7",
+      "name": "haut de cuisse de dinde",
+      "pluralName": "hauts de cuisse de dinde",
+      "description": "Volaille; viande foncée de dinde, juteuse en braisé.",
+      "aliases": [],
+      "label": "Volailles"
+    },
+    {
+      "id": "c8eb8e58-a0a1-4c8b-8fb3-e4539ccab991",
+      "name": "filet de dinde",
+      "pluralName": "filets de dinde",
+      "description": "Volaille; viande maigre de poitrine de dinde.",
+      "aliases": [
+        {
+          "name": "poitrine de dinde"
+        },
+        {
+          "name": "blanc de dinde"
+        },
+        {
+          "name": "turkey breast"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "bf0d4dd4-c4c5-416a-a78d-444e9361c4e5",
+      "name": "dinde hachée",
+      "pluralName": "dinde hachée",
+      "description": "Volaille; viande de dinde hachée, alternative maigre à la viande hachée.",
+      "aliases": [
+        {
+          "name": "ground turkey"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "a951d2c6-e5c0-465a-9f2d-21409677cebf",
+      "name": "carcasse de dinde",
+      "pluralName": "carcasses de dinde",
+      "description": "Volaille; carcasse de dinde, base pour bouillon et fond.",
+      "aliases": [],
+      "label": "Volailles"
+    },
+    {
+      "id": "3c593903-e73f-41da-b675-5319d087574c",
+      "name": "foie de dinde",
+      "pluralName": "foies de dinde",
+      "description": "Volaille; foie de dinde, pour pâté ou cuisson à la poêle.",
+      "aliases": [],
+      "label": "Volailles"
+    },
+    {
+      "id": "b2feace7-d3d8-4c41-8a38-c8ed5d913f55",
+      "name": "cou de dinde",
+      "pluralName": "cous de dinde",
+      "description": "Volaille; cou de dinde, pour bouillon ou ragoût.",
+      "aliases": [],
+      "label": "Volailles"
+    },
+    {
+      "id": "bd2669da-20ec-4016-9e1a-efc0af651249",
+      "name": "pilon de dinde",
+      "pluralName": "pilons de dinde",
+      "description": "Volaille; grande patte ou pilon, juteux en cuisson lente.",
+      "aliases": [
+        {
+          "name": "drumstick de dinde"
+        },
+        {
+          "name": "drumsticks de dinde"
+        },
+        {
+          "name": "turkey leg"
+        },
+        {
+          "name": "turkey drumstick"
+        },
+        {
+          "name": "turkey drumsticks"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "0a28599b-87e0-4d33-bf90-bac65eeae01c",
+      "name": "aile de dinde",
+      "pluralName": "ailes de dinde",
+      "description": "Volaille; aile de dinde, pour le four ou le bouillon.",
+      "aliases": [],
+      "label": "Volailles"
+    },
+    {
+      "id": "95fa1f3c-1adc-4ac9-b217-8f166865987d",
+      "name": "poulet",
+      "pluralName": "poulets",
+      "description": "Volaille; viande polyvalente, poulet entier ou en morceaux.",
+      "aliases": [
+        {
+          "name": "poulet entier"
+        },
+        {
+          "name": "viande de poulet"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "ad780866-bc57-4001-8bb7-bb087e20e298",
+      "name": "filet de poulet",
+      "pluralName": "filets de poulet",
+      "description": "Volaille; viande maigre de poitrine de poulet, rapide à cuire.",
+      "aliases": [
+        {
+          "name": "poitrine de poulet"
+        },
+        {
+          "name": "blanc de poulet"
+        },
+        {
+          "name": "filet de poulet"
+        },
+        {
+          "name": "chicken breast"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "0d216363-08d3-4e74-aace-148350feb269",
+      "name": "poulet haché",
+      "pluralName": "poulet haché",
+      "description": "Volaille; viande de poulet hachée, pour boulettes ou burgers.",
+      "aliases": [
+        {
+          "name": "ground chicken"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "4d7b461f-3934-481e-8757-c1a0ed72bcfc",
+      "name": "aiguillette de poulet",
+      "pluralName": "aiguillettes de poulet",
+      "description": "Volaille; morceau tendre, rapide à poêler ou à griller.",
+      "aliases": [
+        {
+          "name": "aiguillette"
+        },
+        {
+          "name": "chicken tender"
+        },
+        {
+          "name": "chicken tenders"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "3afac728-8405-475a-80f6-1484b19b3d91",
+      "name": "carcasse de poulet",
+      "pluralName": "carcasses de poulet",
+      "description": "Volaille; carcasse et os, base pour bouillon et fond.",
+      "aliases": [
+        {
+          "name": "carcasse de poulet"
+        },
+        {
+          "name": "carcasses de poulet"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "daf6fe9d-cfe7-4b8b-a2f5-3e05ee5d7d6a",
+      "name": "cuisse de poulet",
+      "pluralName": "cuisses de poulet",
+      "description": "Volaille; haut de cuisse et pilon ensemble, viande brune juteuse.",
+      "aliases": [],
+      "label": "Volailles"
+    },
+    {
+      "id": "e21541b4-66e2-43ed-a6c2-5261ac4a8f56",
+      "name": "désossé de cuisse de poulet",
+      "pluralName": "désossés de cuisse de poulet",
+      "description": "Volaille; cuisse désossée, viande juteuse pour wok ou four.",
+      "aliases": [
+        {
+          "name": "cuisse de poulet désossée"
+        },
+        {
+          "name": "cuisses de poulet désossées"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "7214d0b6-f782-45a1-8ac4-2628495b2243",
+      "name": "haut de cuisse de poulet",
+      "pluralName": "hauts de cuisse de poulet",
+      "description": "Volaille; viande brune juteuse, idéale pour mijoter ou griller.",
+      "aliases": [],
+      "label": "Volailles"
+    },
+    {
+      "id": "0bb248ff-5829-4a1c-9639-9e43e60b5be5",
+      "name": "cœur de poulet",
+      "pluralName": "cœurs de poulet",
+      "description": "Volaille; petits cœurs, poêlés rapidement ou mijotés.",
+      "aliases": [
+        {
+          "name": "cœur de poulet"
+        },
+        {
+          "name": "cœurs de poulet"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "b7575806-d6af-41ec-8c76-cf319bb6c577",
+      "name": "foie de poulet",
+      "pluralName": "foies de poulet",
+      "description": "Volaille; abat de poulet, pour pâté ou cuisson à la poêle.",
+      "aliases": [
+        {
+          "name": "foie de poulet"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "d1a116ea-ac12-438e-9fc9-2ea4f4b36e22",
+      "name": "gésier de poulet",
+      "pluralName": "gésiers de poulet",
+      "description": "Volaille; gésiers, cuits lentement ou sautés.",
+      "aliases": [
+        {
+          "name": "gésiers de poulet"
+        },
+        {
+          "name": "gésier"
+        },
+        {
+          "name": "gésiers"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "c569a507-7446-4869-b3a3-a62e96cf6b97",
+      "name": "cou de poulet",
+      "pluralName": "cous de poulet",
+      "description": "Volaille; cou, pour bouillon, ragoût ou mijoté.",
+      "aliases": [
+        {
+          "name": "cou de poulet"
+        },
+        {
+          "name": "cous de poulet"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "28152679-acae-4dee-b9b7-a430465c047b",
+      "name": "pilon de poulet",
+      "pluralName": "pilons de poulet",
+      "description": "Volaille; drumstick, populaire grillé ou frit.",
+      "aliases": [
+        {
+          "name": "drumstick de poulet"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "f31daf43-cc26-4196-add4-728d142527f4",
+      "name": "peau de poulet",
+      "pluralName": "peaux de poulet",
+      "description": "Volaille; peau de poulet, à faire griller ou pour le bouillon.",
+      "aliases": [
+        {
+          "name": "peau de poulet"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "4203a2be-a986-42d0-a9f4-0fc9ad1994f1",
+      "name": "aile de poulet",
+      "pluralName": "ailes de poulet",
+      "description": "Volaille; petites ailes, souvent servies en collation ou finger food.",
+      "aliases": [
+        {
+          "name": "chicken wings"
+        },
+        {
+          "name": "aile de poulet"
+        },
+        {
+          "name": "ailes de poulet"
+        },
+        {
+          "name": "chicken wing"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "4dce2681-c026-4e65-91f3-60dd2cb95c6c",
+      "name": "patte de poulet",
+      "pluralName": "pattes de poulet",
+      "description": "Volaille; pattes de poulet, pour bouillon ou plats mijotés asiatiques.",
+      "aliases": [
+        {
+          "name": "chicken feet"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "36893321-0eb6-4a7f-b819-0d92f0aee3a6",
+      "name": "escalope de poulet panée",
+      "pluralName": "escalopes de poulet panées",
+      "description": "Filet de poulet pané; prêt à cuire, à la poêle ou au four.",
+      "aliases": [],
+      "label": "Volailles"
+    },
+    {
+      "id": "1af95e0a-3536-481d-b605-4f27ab2bedfe",
+      "name": "poussin",
+      "pluralName": "poussins",
+      "description": "Volaille; jeune poulet, tendre et rapide à cuire.",
+      "aliases": [
+        {
+          "name": "poussin"
+        },
+        {
+          "name": "jeune poulet"
+        },
+        {
+          "name": "poussin entier"
+        },
+        {
+          "name": "petit poulet entier"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "733f4edc-5cff-4ab6-93d3-9928007ad6c1",
+      "name": "caille",
+      "pluralName": "cailles",
+      "description": "Volaille; petit oiseau giboyeux à la chair délicate et foncée.",
+      "aliases": [
+        {
+          "name": "caille entière"
+        },
+        {
+          "name": "quail"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "4d020c9d-8da8-49a6-bb02-6ce13229a569",
+      "name": "pintade",
+      "pluralName": "pintades",
+      "description": "Volaille; goût légèrement giboyeux, rôtie ou mijotée.",
+      "aliases": [
+        {
+          "name": "pintadeau"
+        },
+        {
+          "name": "pintade entière"
+        },
+        {
+          "name": "guinea fowl"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "a01b8b56-903c-4d0f-9e80-5c71f3d13b3d",
+      "name": "perdrix",
+      "pluralName": "perdrix",
+      "description": "Volaille; petit oiseau giboyeux à la saveur fine, généralement rôti.",
+      "aliases": [
+        {
+          "name": "partridge"
+        },
+        {
+          "name": "partridges"
+        },
+        {
+          "name": "perdrix entière"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
+      "id": "6358c9ef-25df-401f-ac5c-bcec24e85146",
+      "name": "poule à bouillir",
+      "pluralName": "poules à bouillir",
+      "description": "Volaille; vieille poule à chair ferme, idéale pour le bouillon.",
+      "aliases": [
+        {
+          "name": "stewing hen"
+        },
+        {
+          "name": "poule à pot"
+        },
+        {
+          "name": "poule à bouillir entière"
+        }
+      ],
+      "label": "Volailles"
+    }
+  ]
+}

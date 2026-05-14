@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "d67aef3d-c1eb-4e5d-a3a9-08aecc852bad",
       "name": "aardappelzetmeel",
       "pluralName": "aardappelzetmeel",
       "description": "Zetmeel uit aardappelen; bindmiddel voor sauzen en glutenvrij bakken.",
@@ -11,6 +12,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "71e4644e-911f-418e-a724-ea0a4ba95c54",
       "name": "agar-agar",
       "pluralName": "agar-agar",
       "description": "Vegetarisch geleermiddel uit zeewier; alternatief voor gelatine.",
@@ -22,6 +24,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "8e97757d-3b35-43a7-bc97-9e76889ac8cc",
       "name": "amandelextract",
       "pluralName": "amandelextract",
       "description": "Vloeibaar amandel-aroma; voor gebak en desserts.",
@@ -33,6 +36,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "b72e21af-aa25-4b38-aae4-f2743e8e3609",
       "name": "amandelmeel",
       "pluralName": "amandelmeel",
       "description": "Meel van gemalen amandelen; glutenvrij, voor macarons en cakes.",
@@ -53,6 +57,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "f297ab10-4d2f-44b4-9c46-9b623cf055cf",
       "name": "amandelspijs",
       "pluralName": "amandelspijs",
       "description": "Zoete pasta van gemalen amandelen en suiker; vulling voor gebak.",
@@ -64,6 +69,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "42df19d8-fa06-47ea-aac8-fcfc7ef61b4a",
       "name": "bakpoeder",
       "pluralName": "bakpoeder",
       "description": "Rijsmiddel; combinatie van zuiveringszout en zuur, voor luchtig gebak.",
@@ -75,6 +81,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "998a9492-4db4-467a-b940-465c0086631b",
       "name": "basterdsuiker",
       "pluralName": "basterdsuiker",
       "description": "Fijne suiker met stroop; vochtig, voor speculaas en koek.",
@@ -82,6 +89,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "c532ea1d-b8c2-4feb-8f12-caffc74348f8",
       "name": "bikarbonaat",
       "pluralName": "bikarbonaat",
       "description": "Zuiveringszout; rijsmiddel, reageert met zuur voor luchtig gebak.",
@@ -102,6 +110,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "e907423b-e22f-46ee-aaba-dd1b4dac36a4",
       "name": "bloemmengsel",
       "pluralName": "bloemmengsels",
       "description": "Mix van bloemsoorten; voor speciaal brood of gebak.",
@@ -109,6 +118,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "3ecf2bbe-04da-4658-9591-be0312b9cdb7",
       "name": "boekweitmeel",
       "pluralName": "boekweitmeel",
       "description": "Meel van boekweit; nootachtig, glutenvrij, voor pannenkoeken en blini's.",
@@ -116,6 +126,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "7dcb23e6-6d7a-4e2a-8965-822871d8c242",
       "name": "bruine suiker",
       "pluralName": "bruine suiker",
       "description": "Suiker met melasse; aromatisch zoetmiddel met karamelsmaak.",
@@ -123,6 +134,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "4319cda5-226b-4f48-a758-4cac50b7b47c",
       "name": "cacao",
       "pluralName": "cacao",
       "description": "Ongezoet cacaopoeder; donker bitter poeder voor chocoladegebak.",
@@ -134,6 +146,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "83cf1244-c81d-46b7-9957-ff2350eda26a",
       "name": "cacaoboter",
       "pluralName": "cacaoboter",
       "description": "Plantaardig vet uit cacaobonen; basis voor chocolade.",
@@ -141,6 +154,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "791c13b5-3714-41df-8819-679256c19a1b",
       "name": "citroenzuur",
       "pluralName": "citroenzuur",
       "description": "Smaakstof en conserveermiddel; zorgt voor zure smaak in gebak en snoep.",
@@ -148,6 +162,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "04e1edad-8c02-40d6-b2fd-d6e46917a95d",
       "name": "custardpoeder",
       "pluralName": "custardpoeder",
       "description": "Gele poeder voor custard; gemengd met melk voor romige vulling.",
@@ -159,6 +174,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "b63d47c2-e093-4565-9d9e-f356ffc4c9c0",
       "name": "demerara",
       "pluralName": "demerara",
       "description": "Grofkorrelige rietsuiker; knapperig, voor koffie en crumbles.",
@@ -173,6 +189,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "9d3f28de-9b11-4809-a4cc-089fd7bbcd90",
       "name": "fijne kristalsuiker",
       "pluralName": "fijne kristalsuiker",
       "description": "Fijnkorrelige suiker; lost snel op, ideaal voor bakken en meringue.",
@@ -180,6 +197,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "e60aff20-e665-4a3f-8fca-5b40dea5beae",
       "name": "gelatinepoeder",
       "pluralName": "gelatinepoeder",
       "description": "Poedervorm van gelatine; geleermiddel voor mousses en bavarois.",
@@ -187,6 +205,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "51dca465-eee8-4463-ba62-f88f86d3ab70",
       "name": "geleisuiker",
       "pluralName": "geleisuiker",
       "description": "Suiker met pectine en zuur; voor jam en confituur.",
@@ -207,6 +226,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "f75cf669-2853-4c0c-90c9-b755e405e2c3",
       "name": "gerstemoutstroop",
       "pluralName": "gerstemoutstroop",
       "description": "Moutstroop van gerst; zoetmiddel met karamelsmaak voor brood en koek.",
@@ -218,6 +238,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "9f43812c-bed6-4991-aa82-644da29ba44e",
       "name": "gist [gedroogd]",
       "pluralName": "gist [gedroogd]",
       "description": "Gedroogde gist; rijsmiddel voor brood en pizzadeeg.",
@@ -244,6 +265,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "b0a2df42-3f1b-4eff-9b2e-64cd75be5ce9",
       "name": "gist [vers]",
       "pluralName": "gist [vers]",
       "description": "Verse bakkersgist; rijsmiddel voor brood en deeg.",
@@ -267,6 +289,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "d48d883b-347f-49d0-b0ac-30a1de1bc4f0",
       "name": "glucose",
       "pluralName": "glucose",
       "description": "Vloeibare druivensuiker; voorkomt kristallisatie in snoep en ijs.",
@@ -278,6 +301,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "168ea1b6-b5fd-414d-adc4-c590012c4e84",
       "name": "griesmeel",
       "pluralName": "griesmeel",
       "description": "Grof gemalen tarwe; voor griespudding, gnocchi en hartige koek.",
@@ -292,6 +316,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "aa6b775f-333d-4ee3-9737-d77a253cd607",
       "name": "havermeel",
       "pluralName": "havermeel",
       "description": "Meel van gemalen haver; voor koekjes en brood.",
@@ -299,6 +324,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "1f2e300d-b1fe-4b9d-acc9-a7a5ce7733a4",
       "name": "hertshoornzout",
       "pluralName": "hertshoornzout",
       "description": "Rijsmiddel met ammoniumcarbonaat; voor koekjes en speculaas.",
@@ -319,6 +345,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "318981bb-c037-405c-8f62-bed00dd508b4",
       "name": "invertsuiker",
       "pluralName": "invertsuiker",
       "description": "Glucose-fructosestroop; vochtig zoetmiddel voor gebak en sorbets.",
@@ -326,6 +353,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "f8554145-6852-4fc9-8525-3b17d98a0394",
       "name": "jaggery",
       "pluralName": "jaggery",
       "description": "Ongeraffineerde riet- of palmsuiker; vaste blokken met karamelachtige smaak.",
@@ -340,6 +368,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "32033297-b3b2-4959-8864-bd24bfcbdd24",
       "name": "johannesbroodpitmeel",
       "pluralName": "johannesbroodpitmeel",
       "description": "Verdikkingsmiddel (E410); voor pudding, ijs en babyvoeding.",
@@ -347,6 +376,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "09d91347-2690-45f2-a834-317601edde71",
       "name": "kaneelsuiker",
       "pluralName": "kaneelsuiker",
       "description": "Mengsel van suiker en kaneel; strooisuiker voor poffertjes en wafels.",
@@ -354,6 +384,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "4ef30f53-d56f-4b1e-8f32-9c41bf55872b",
       "name": "karamelessence",
       "pluralName": "karamelessence",
       "description": "Geconcentreerd karamel-aroma; voor desserts en gebak.",
@@ -365,6 +396,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "eff08eb9-8f2c-42c2-a69d-f58d6538f0da",
       "name": "kastanjemeel",
       "pluralName": "kastanjemeel",
       "description": "Meel van gedroogde kastanjes; glutenvrij, zoetig, voor pannenkoeken.",
@@ -372,6 +404,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "167f1f9e-1d45-4218-ae6e-be7f00ca40f4",
       "name": "kokosbloesemsuiker",
       "pluralName": "kokosbloesemsuiker",
       "description": "Suiker uit kokosbloesemsap; karamelachtig, laag glycemisch.",
@@ -383,6 +416,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "2bb062d9-cc67-4ef5-9ff8-7ca72e87ed6a",
       "name": "kokosmeel",
       "pluralName": "kokosmeel",
       "description": "Meel van gedroogd kokosvlees; glutenvrij, vezelrijk.",
@@ -400,6 +434,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "1c9082ca-a0a4-4a52-b72e-090eea4644c4",
       "name": "kruimelsuiker",
       "pluralName": "kruimelsuiker",
       "description": "Grove kristalsuiker; voor suikerbrood en op Deense broodjes.",
@@ -414,6 +449,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "24646cf6-cc0d-4057-9db5-79641dffff11",
       "name": "lichte basterdsuiker",
       "pluralName": "lichte basterdsuiker",
       "description": "Fijne lichtbruine suiker met stroop; voor koek en speculaas.",
@@ -421,6 +457,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "bb4e2a03-e862-4967-8309-23de564a849c",
       "name": "maïsmeel",
       "pluralName": "maïsmeel",
       "description": "Fijn gemalen maïsmeel; gebruikt voor polenta, pap en bakken.",
@@ -441,6 +478,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "7c4a0405-e60e-4ec2-8820-b458a0f929dd",
       "name": "maïsstroop",
       "pluralName": "maïsstroop",
       "description": "Glucosestroop uit maïs; voorkomt kristallisatie in snoep en icing.",
@@ -455,6 +493,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "37936126-5c3c-449c-91a4-7f0bd7879106",
       "name": "maïszetmeel",
       "pluralName": "maïszetmeel",
       "description": "Fijn zetmeel uit maïs; bindmiddel voor sauzen, soepen en pudding.",
@@ -475,6 +514,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "1f2b33a3-a1d5-42a6-b991-269c3ccccf32",
       "name": "maltose",
       "pluralName": "maltose",
       "description": "Moutsuiker; minder zoet dan sucrose, voor Aziatisch gebak.",
@@ -486,6 +526,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "859ab28f-04b7-4eb3-beff-797ca170b38f",
       "name": "melasse",
       "pluralName": "melasse",
       "description": "Dikke bruine stroop; bijproduct suikerproductie, bitterzoet.",
@@ -497,6 +538,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "7ae794e8-79c7-40bb-a1a7-bee4147c151a",
       "name": "oliebollenmix",
       "pluralName": "oliebollenmix",
       "description": "Bakmix voor oliebollen; bloem, gist en melkpoeder, toevoegen water/ei.",
@@ -504,6 +546,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "73e33a43-886f-480d-88ae-56d62055fb03",
       "name": "pectine",
       "pluralName": "pectine",
       "description": "Geleermiddel uit fruit; bindt jam, gelei en vulling.",
@@ -521,6 +564,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "61fc6c23-6b6a-4a13-9b28-aff55fb7a082",
       "name": "plaatgelatine",
       "pluralName": "plaatgelatine",
       "description": "Gelatineblaadjes; weken en oplossen voor mousses en bavarois.",
@@ -532,6 +576,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "91b7d5da-8c63-4094-ab70-9ac83c8796c5",
       "name": "poedersuiker",
       "pluralName": "poedersuiker",
       "description": "Zeer fijn gemalen suiker; voor glazuur en bestuiven.",
@@ -543,6 +588,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "1916b718-06f4-48ad-822c-4210820921f7",
       "name": "puddingpoeder",
       "pluralName": "puddingpoeder",
       "description": "Dessertpoeder; gemengd met melk voor pudding.",
@@ -550,6 +596,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "ee8f190b-82b3-4211-a0b2-417b977dbdd6",
       "name": "red velvet mix",
       "pluralName": "red velvet mix",
       "description": "Bakmix voor red velvet cake; chocoladecake met rode kleurstof.",
@@ -557,6 +604,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "78d495fe-5930-48a0-a1f9-9ff60306fdf4",
       "name": "rietsuiker",
       "pluralName": "rietsuiker",
       "description": "Suiker uit suikerriet; lichte karamelsmaak.",
@@ -564,6 +612,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "8ff16398-c9a4-4596-a31c-ec28a683d05e",
       "name": "rijstmeel",
       "pluralName": "rijstmeel",
       "description": "Meel van gemalen rijst; glutenvrij, voor mochi en rijstwafels.",
@@ -571,6 +620,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "36ed552d-0165-4215-90aa-eae36f0480ee",
       "name": "roggemeel",
       "pluralName": "roggemeel",
       "description": "Meel van rogge; voor roggebrood en ontbijtkoek.",
@@ -578,6 +628,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "55f4936c-6639-44b2-a778-5861bd808596",
       "name": "rozenwater",
       "pluralName": "rozenwater",
       "description": "Rozenwater; geurig smaakwater voor desserts, koekjes en dranken.",
@@ -601,6 +652,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "1ad16896-b257-4871-bb10-8701796574aa",
       "name": "slagroomversteviger",
       "pluralName": "slagroomversteviger",
       "description": "Poeder om slagroom stijf te houden; toevoegen tijdens kloppen.",
@@ -608,6 +660,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "2e03fb99-e5e0-4b6c-9abe-f925ab30650a",
       "name": "slagschuim",
       "pluralName": "slagschuim",
       "description": "Zoete poedermix voor slagschuim; klop op met koude melk.",
@@ -628,6 +681,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "25be1a34-5ab0-4fd7-9e49-1f7236471e6b",
       "name": "speltmeel",
       "pluralName": "speltmeel",
       "description": "Meel van spelt; nootachtig, alternatief voor tarwemeel.",
@@ -635,6 +689,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "6f76b394-84ac-4c90-8c2c-4d807af0b9e7",
       "name": "stevia",
       "pluralName": "stevia",
       "description": "Natuurlijke zoetstof uit steviaplant; zeer zoet, vrijwel calorievrij.",
@@ -642,6 +697,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "ee2be0f2-cae7-488b-8314-c69a562cca8f",
       "name": "suiker",
       "pluralName": "suiker",
       "description": "Kristalsuiker van suikerbiet of riet; algemeen zoetmiddel.",
@@ -659,6 +715,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "f3a305ea-9e88-4637-9ec2-c49a00e36baf",
       "name": "sukade",
       "pluralName": "sukade",
       "description": "Gekonfijte citrusschil; in blokjes voor stol en gebak.",
@@ -682,6 +739,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "d5018a9c-231d-4ff7-bca0-c079e541b370",
       "name": "tapiocazetmeel",
       "pluralName": "tapiocazetmeel",
       "description": "Zetmeel uit cassave; bindmiddel, voor bubble tea parels.",
@@ -693,6 +751,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "c19061c2-845b-4862-9ed7-fae3f8fe0c5c",
       "name": "tarwebloem",
       "pluralName": "tarwebloem",
       "description": "Fijn gemalen tarwe zonder zemelen; basis voor gebak en sauzen.",
@@ -707,6 +766,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "6951da1c-8604-486f-890c-c84226d91efc",
       "name": "tarwemeel",
       "pluralName": "tarwemeel",
       "description": "Meel van tarwe; voor brood, pannenkoeken en gebak.",
@@ -721,6 +781,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "d8d94e39-aa5a-4e23-850d-70b353bf16f4",
       "name": "vanille-extract",
       "pluralName": "vanille-extract",
       "description": "Vloeibaar vanille-aroma; voor gebak en desserts.",
@@ -738,6 +799,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "075a01e6-b23c-46c5-8f2a-2f4f3951e608",
       "name": "vanillesuiker",
       "pluralName": "vanillesuiker",
       "description": "Suiker met vanillearoma; voor gebak en desserts.",
@@ -745,6 +807,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "a5be716f-8168-4c1e-826b-cfe66d821f53",
       "name": "volkoren broodmix",
       "pluralName": "volkoren broodmix",
       "description": "Bloemmix voor volkorenbrood; volkorenmeel, gist, zout, mout.",
@@ -756,6 +819,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "243e046c-a329-4e13-acbd-bf5c7e94239a",
       "name": "volkorenmeel",
       "pluralName": "volkorenmeel",
       "description": "Gemalen volkoren graan inclusief zemelen en kiem; voor bruin brood.",
@@ -767,6 +831,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "9ab1c0a7-3ab4-4757-915d-0781afb4e4b4",
       "name": "vruchtzout",
       "pluralName": "vruchtzout",
       "description": "Bruisend rijsmiddel met bicarbonaat en citroenzuur; alternatief voor bakpoeder.",
@@ -778,6 +843,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "020999e2-3a0a-49b2-92c7-b4a46de09a3d",
       "name": "wijnsteen",
       "pluralName": "wijnsteen",
       "description": "Zuur zout (cream of tartar); stabiliseert eiwit en werkt met baksoda.",
@@ -795,6 +861,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "aa733542-c889-4673-aebd-493776069d82",
       "name": "witte basterdsuiker",
       "pluralName": "witte basterdsuiker",
       "description": "Fijne witte suiker met stroop; vochtig, voor koek.",
@@ -802,6 +869,7 @@
       "label": "Bakproducten"
     },
     {
+      "id": "5f057004-28e9-43d2-8c1f-61eb660ab031",
       "name": "zelfrijzend bakmeel",
       "pluralName": "zelfrijzend bakmeel",
       "description": "Bloem met bakpoeder; voor cakes en muffins.",

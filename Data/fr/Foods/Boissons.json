@@ -1,0 +1,190 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "75a7e57a-eff6-4014-9d39-d855d8ea8f89",
+      "name": "jus de pomme",
+      "pluralName": "jus de pomme",
+      "description": "Jus de pommes pressées; clair ou trouble.",
+      "aliases": [],
+      "label": "Boissons"
+    },
+    {
+      "id": "601ea350-c9c7-4742-8a2b-bd4b05197d19",
+      "name": "jus de betterave",
+      "pluralName": "jus de betterave",
+      "description": "Jus de betteraves rouges; saveur douce et terreuse, comme boisson ou colorant.",
+      "aliases": [],
+      "label": "Boissons"
+    },
+    {
+      "id": "c9c0e868-b43d-4309-93ab-4f940c3f4fb9",
+      "name": "bitter lemon",
+      "pluralName": "bitter lemon",
+      "description": "Boisson citronnée gazeuse; amère et rafraîchissante.",
+      "aliases": [
+        {
+          "name": "bitter lemon"
+        }
+      ],
+      "label": "Boissons"
+    },
+    {
+      "id": "9b621d9e-0ca5-49f8-b2c6-4cc28a8a93c6",
+      "name": "eau gazeuse",
+      "pluralName": "eaux gazeuses",
+      "description": "Eau gazéifiée; rafraîchissante, base pour les boissons mélangées.",
+      "aliases": [
+        {
+          "name": "eau pétillante"
+        },
+        {
+          "name": "eau gazeuse"
+        },
+        {
+          "name": "eau pétillante"
+        },
+        {
+          "name": "eau gazéifiée"
+        }
+      ],
+      "label": "Boissons"
+    },
+    {
+      "id": "9c9c9d2e-7c5d-4f36-b0dc-0d1fbd50006e",
+      "name": "sirop de cassis",
+      "pluralName": "sirops de cassis",
+      "description": "Sirop de cassis; sucré, pour la limonade et les cocktails.",
+      "aliases": [],
+      "label": "Boissons"
+    },
+    {
+      "id": "4d70deca-ec02-4dea-83b3-3376107b5ad8",
+      "name": "cola",
+      "pluralName": "colas",
+      "description": "Boisson gazeuse sucrée; saveur de caramel et d’épices.",
+      "aliases": [],
+      "label": "Boissons"
+    },
+    {
+      "id": "709fdb1f-70ca-4c3c-8427-3faa5b018919",
+      "name": "jus de canneberge",
+      "pluralName": "jus de canneberge",
+      "description": "Jus de canneberge; acidulé et sucré, pour les cocktails ou comme boisson.",
+      "aliases": [
+        {
+          "name": "jus d’airelle"
+        }
+      ],
+      "label": "Boissons"
+    },
+    {
+      "id": "f4e1828b-cb6e-4b28-bf61-4a9a8d4e3f07",
+      "name": "ginger ale",
+      "pluralName": "ginger ale",
+      "description": "Boisson gazeuse au gingembre; sucrée et légèrement piquante.",
+      "aliases": [
+        {
+          "name": "ginger ale"
+        }
+      ],
+      "label": "Boissons"
+    },
+    {
+      "id": "af6c8dc6-bc08-4825-9ac1-cdd82489190e",
+      "name": "ginger beer",
+      "pluralName": "ginger beer",
+      "description": "Boisson au gingembre relevée; goût plus prononcé que le ginger ale, utilisée pour le Moscow mule.",
+      "aliases": [
+        {
+          "name": "ginger beer"
+        }
+      ],
+      "label": "Boissons"
+    },
+    {
+      "id": "6b00b347-29c5-4e9b-b148-6fe7af763be3",
+      "name": "grenadine",
+      "pluralName": "grenadine",
+      "description": "Sirop rouge de grenade; sucré, pour les cocktails et la limonade.",
+      "aliases": [
+        {
+          "name": "sirop de grenadine"
+        }
+      ],
+      "label": "Boissons"
+    },
+    {
+      "id": "3d7b35a1-11cf-4268-bf93-1d41847b177d",
+      "name": "eau de coco",
+      "pluralName": "eaux de coco",
+      "description": "Liquide clair provenant de jeunes noix de coco; rafraîchissant et légèrement sucré.",
+      "aliases": [],
+      "label": "Boissons"
+    },
+    {
+      "id": "48810b46-d497-4c7b-8908-10c973e4e835",
+      "name": "sirop de limonade",
+      "pluralName": "sirops de limonade",
+      "description": "Sirop concentré; à diluer avec de l’eau.",
+      "aliases": [
+        {
+          "name": "sirop de limonade"
+        }
+      ],
+      "label": "Boissons"
+    },
+    {
+      "id": "e253983b-312d-4c6d-a08a-64785a142003",
+      "name": "eau minérale",
+      "pluralName": "eaux minérales",
+      "description": "Eau de source naturelle sans gaz; pour boire et cuisiner.",
+      "aliases": [
+        {
+          "name": "eau plate"
+        },
+        {
+          "name": "eau de source"
+        }
+      ],
+      "label": "Boissons"
+    },
+    {
+      "id": "fe2ee400-a412-4582-a957-a07c580d56a2",
+      "name": "jus de tomate",
+      "pluralName": "jus de tomate",
+      "description": "Jus de tomates; salé, pour le bloody mary ou comme boisson.",
+      "aliases": [],
+      "label": "Boissons"
+    },
+    {
+      "id": "e9cf276f-4cba-4287-9687-011c9f045a43",
+      "name": "tonic",
+      "pluralName": "tonics",
+      "description": "Boisson gazeuse au quinquina; amère, pour le gin tonic.",
+      "aliases": [
+        {
+          "name": "eau tonique"
+        },
+        {
+          "name": "tonic"
+        }
+      ],
+      "label": "Boissons"
+    },
+    {
+      "id": "2521b3c0-0003-4eec-a310-867926d83101",
+      "name": "eau",
+      "pluralName": "eaux",
+      "description": "Liquide de base; pour cuisiner, cuire, diluer et préparer des boissons.",
+      "aliases": [
+        {
+          "name": "eau du robinet"
+        }
+      ],
+      "label": "Boissons"
+    }
+  ]
+}

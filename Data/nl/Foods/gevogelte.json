@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "48a8559e-b5cf-4f34-bccf-3812dc977f2f",
       "name": "duif",
       "pluralName": "duiven",
       "description": "Gevogelte; klein wildvogel met donker, smaakrijk vlees.",
@@ -18,6 +19,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "cb170e3e-8d90-4e26-a320-79061ee5ee8a",
       "name": "eend",
       "pluralName": "eenden",
       "description": "Gevogelte; vetrijk vlees met rijke smaak.",
@@ -29,6 +31,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "66b46310-0636-4e39-98fe-66974d3fd561",
       "name": "eendenborst",
       "pluralName": "eendenborsten",
       "description": "Gevogelte; magere borst met vetlaag, kort gebakken.",
@@ -49,6 +52,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "fa5be9b5-d66b-438d-a373-aa9f964e17a3",
       "name": "eendenbout",
       "pluralName": "eendenbouten",
       "description": "Gevogelte; sappige bout, ideaal voor langzaam garen.",
@@ -69,6 +73,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "f71f94e1-f2ff-4c15-88b9-f78e7d8dc4ed",
       "name": "eendenkarkas",
       "pluralName": "eendenkarkassen",
       "description": "Gevogelte; karkas van eend, voor bouillon en saus.",
@@ -83,6 +88,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "ea6d0f24-7713-4e12-a308-789359fa2556",
       "name": "eendenlever",
       "pluralName": "eendenlevers",
       "description": "Gevogelte; lever van eend, voor paté of gebakken.",
@@ -97,6 +103,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "a77cd117-c61d-4ec3-94f5-23abf2e7d8c3",
       "name": "eendenvleugel",
       "pluralName": "eendenvleugels",
       "description": "Gevogelte; vleugel van eend, voor oven, confit of bouillon.",
@@ -111,6 +118,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "8519cb6f-a667-413c-b64d-c53295f3b7f1",
       "name": "fazant",
       "pluralName": "fazanten",
       "description": "Gevogelte; wildvogel met magere, wildachtige smaak.",
@@ -125,6 +133,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "d46ee9bf-bb26-44cb-9c4a-6a559b89ea52",
       "name": "gans",
       "pluralName": "ganzen",
       "description": "Gevogelte; feestelijk vlees, vaak gevuld gebraden.",
@@ -136,6 +145,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "c4f21896-3a5b-4679-969f-806997a988a4",
       "name": "ganzenborst",
       "pluralName": "ganzenborsten",
       "description": "Gevogelte; borst van gans, vetrijk en smaakvol.",
@@ -150,6 +160,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "9c54d152-2cdc-4a68-b9b3-d73f7b2096f4",
       "name": "ganzenbout",
       "pluralName": "ganzenbouten",
       "description": "Gevogelte; bout van gans, ideaal voor langzaam garen.",
@@ -170,6 +181,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "2181782b-4cf5-4c83-be24-f68835bb275a",
       "name": "ganzenkarkas",
       "pluralName": "ganzenkarkassen",
       "description": "Gevogelte; karkas van gans, basis voor bouillon en fond.",
@@ -184,6 +196,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "ff7c2e60-f711-4f4c-98a2-0a7f0e244009",
       "name": "ganzenlever",
       "pluralName": "ganzenlevers",
       "description": "Gevogelte; lever van gans, voor paté of gebakken.",
@@ -198,6 +211,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "61e4b184-cdaf-4d63-b888-f28345849dea",
       "name": "ganzenvleugel",
       "pluralName": "ganzenvleugels",
       "description": "Gevogelte; vleugel van gans, voor oven of bouillon.",
@@ -212,6 +226,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "faad365e-e07f-4a6c-9ba5-f78fb858a2ea",
       "name": "kalkoen",
       "pluralName": "kalkoenen",
       "description": "Gevogelte; groot vlees, hele kalkoen of in delen.",
@@ -223,6 +238,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "a4496443-2364-4c66-beff-5238d66ad7d7",
       "name": "kalkoendij",
       "pluralName": "kalkoendijen",
       "description": "Gevogelte; donker dijvlees van kalkoen, sappig gestoofd.",
@@ -230,6 +246,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "c8eb8e58-a0a1-4c8b-8fb3-e4539ccab991",
       "name": "kalkoenfilet",
       "pluralName": "kalkoenfilets",
       "description": "Gevogelte; mager borstvlees van kalkoen.",
@@ -247,6 +264,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "bf0d4dd4-c4c5-416a-a78d-444e9361c4e5",
       "name": "kalkoengehakt",
       "pluralName": "kalkoengehakt",
       "description": "Gevogelte; gemalen kalkoenvlees, mager alternatief voor gehakt.",
@@ -258,6 +276,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "a951d2c6-e5c0-465a-9f2d-21409677cebf",
       "name": "kalkoenkarkas",
       "pluralName": "kalkoenkarkassen",
       "description": "Gevogelte; karkas van kalkoen, basis voor bouillon en fond.",
@@ -265,6 +284,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "3c593903-e73f-41da-b675-5319d087574c",
       "name": "kalkoenlever",
       "pluralName": "kalkoenlevers",
       "description": "Gevogelte; lever van kalkoen, voor paté of gebakken.",
@@ -272,6 +292,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "b2feace7-d3d8-4c41-8a38-c8ed5d913f55",
       "name": "kalkoennek",
       "pluralName": "kalkoennekken",
       "description": "Gevogelte; nek van kalkoen, voor bouillon of stoof.",
@@ -279,6 +300,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "bd2669da-20ec-4016-9e1a-efc0af651249",
       "name": "kalkoenpoot",
       "pluralName": "kalkoenpoten",
       "description": "Gevogelte; grote poot/drumstick, sappig bij langzaam garen.",
@@ -302,6 +324,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "0a28599b-87e0-4d33-bf90-bac65eeae01c",
       "name": "kalkoenvleugel",
       "pluralName": "kalkoenvleugels",
       "description": "Gevogelte; vleugel van kalkoen, voor oven of bouillon.",
@@ -309,6 +332,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "95fa1f3c-1adc-4ac9-b217-8f166865987d",
       "name": "kip",
       "pluralName": "kippen",
       "description": "Gevogelte; veelzijdig vlees, hele kip of in delen.",
@@ -323,6 +347,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "ad780866-bc57-4001-8bb7-bb087e20e298",
       "name": "kipfilet",
       "pluralName": "kipfilets",
       "description": "Gevogelte; mager borstvlees van kip, snel te bereiden.",
@@ -343,6 +368,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "0d216363-08d3-4e74-aace-148350feb269",
       "name": "kipgehakt",
       "pluralName": "kipgehakt",
       "description": "Gevogelte; gemalen kipvlees, voor gehaktballen of burgers.",
@@ -354,6 +380,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "4d7b461f-3934-481e-8757-c1a0ed72bcfc",
       "name": "kiphaas",
       "pluralName": "kiphaasjes",
       "description": "Gevogelte; mals haasje, snel te bakken of te grillen.",
@@ -371,6 +398,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "3afac728-8405-475a-80f6-1484b19b3d91",
       "name": "kipkarkas",
       "pluralName": "kipkarkassen",
       "description": "Gevogelte; karkas/botten, basis voor bouillon en fond.",
@@ -385,6 +413,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "daf6fe9d-cfe7-4b8b-a2f5-3e05ee5d7d6a",
       "name": "kippenbout",
       "pluralName": "kippenbouten",
       "description": "Gevogelte; dij en drumstick aan elkaar, sappig donker vlees.",
@@ -392,6 +421,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "e21541b4-66e2-43ed-a6c2-5261ac4a8f56",
       "name": "kippenboutfilet",
       "pluralName": "kippenboutfilets",
       "description": "Gevogelte; ontbeende bout, sappig vlees voor wok of oven.",
@@ -406,6 +436,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "7214d0b6-f782-45a1-8ac4-2628495b2243",
       "name": "kippendij",
       "pluralName": "kippendijen",
       "description": "Gevogelte; sappig donker vlees, ideaal voor stoven of grillen.",
@@ -426,6 +457,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "0bb248ff-5829-4a1c-9639-9e43e60b5be5",
       "name": "kippenhart",
       "pluralName": "kippenharten",
       "description": "Gevogelte; hartjes, kort gebakken of gestoofd.",
@@ -440,6 +472,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "b7575806-d6af-41ec-8c76-cf319bb6c577",
       "name": "kippenlever",
       "pluralName": "kippenlevers",
       "description": "Gevogelte; orgaanvlees van kip, voor paté of gebakken.",
@@ -451,6 +484,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "d1a116ea-ac12-438e-9fc9-2ea4f4b36e22",
       "name": "kippenmaag",
       "pluralName": "kippenmagen",
       "description": "Gevogelte; maagjes, langzaam gestoofd of gebakken.",
@@ -468,6 +502,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "c569a507-7446-4869-b3a3-a62e96cf6b97",
       "name": "kippennek",
       "pluralName": "kippennekken",
       "description": "Gevogelte; nek, voor bouillon, ragout of stoof.",
@@ -482,6 +517,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "28152679-acae-4dee-b9b7-a430465c047b",
       "name": "kippenpoot",
       "pluralName": "kippenpoten",
       "description": "Gevogelte; drumstick, populair gegrild of gefrituurd.",
@@ -493,6 +529,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "f31daf43-cc26-4196-add4-728d142527f4",
       "name": "kippenvel",
       "pluralName": "kippenvellen",
       "description": "Gevogelte; vel/huid van kip, om uit te bakken of voor bouillon.",
@@ -504,6 +541,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "4203a2be-a986-42d0-a9f4-0fc9ad1994f1",
       "name": "kippenvleugel",
       "pluralName": "kippenvleugels",
       "description": "Gevogelte; kleine vleugels, vaak als snack of fingerfood.",
@@ -524,6 +562,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "4dce2681-c026-4e65-91f3-60dd2cb95c6c",
       "name": "kippenvoet",
       "pluralName": "kippenvoeten",
       "description": "Gevogelte; kippenvoeten, voor bouillon of Aziatische stoofgerechten.",
@@ -535,6 +574,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "36893321-0eb6-4a7f-b819-0d92f0aee3a6",
       "name": "kipschnitzel",
       "pluralName": "kipschnitzels",
       "description": "Gepaneerde kipfilet; kant-en-klaar, gebakken of in de oven.",
@@ -542,6 +582,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "1af95e0a-3536-481d-b605-4f27ab2bedfe",
       "name": "kuiken",
       "pluralName": "kuikens",
       "description": "Gevogelte; jonge kip, mals en snel bereid.",
@@ -562,6 +603,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "733f4edc-5cff-4ab6-93d3-9928007ad6c1",
       "name": "kwartel",
       "pluralName": "kwartels",
       "description": "Gevogelte; kleine wildvogel met delicaat, donker vlees.",
@@ -576,6 +618,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "4d020c9d-8da8-49a6-bb02-6ce13229a569",
       "name": "parelhoen",
       "pluralName": "parelhoenders",
       "description": "Gevogelte; wildachtige smaak, gebakken of gestoofd.",
@@ -593,6 +636,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "a01b8b56-903c-4d0f-9e80-5c71f3d13b3d",
       "name": "patrijs",
       "pluralName": "patrijzen",
       "description": "Gevogelte; kleine wildvogel met fijne wildsmaak, gebraden.",
@@ -610,6 +654,7 @@
       "label": "Gevogelte"
     },
     {
+      "id": "6358c9ef-25df-401f-ac5c-bcec24e85146",
       "name": "soepkip",
       "pluralName": "soepkippen",
       "description": "Gevogelte; oude kip, stevig vlees, ideaal voor bouillon.",

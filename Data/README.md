@@ -6,10 +6,10 @@ This folder contains ingredient and recipe metadata organized by language. Commu
 
 | Code    | Language       | Status                             | Contents                                      |
 | ------- | -------------- | ---------------------------------- | --------------------------------------------- |
-| `nl`    | Dutch          | ✅ Complete                         | Foods, Units, Labels, Categories, Tags, Tools |
+| `nl`    | Dutch          | ✅ Complete (1,312 foods)            | Foods, Units, Labels, Categories, Tags, Tools |
+| `fr`    | French         | ✅ Complete (1,311 foods)            | Foods, Units, Labels, Categories, Tags, Tools |
 | `en`    | English        | 💬 Open to contributions            | —                                             |
 | `de`    | German         | 💬 Open to contributions            | —                                             |
-| `fr`    | French         | 💬 Open to contributions            | —                                             |
 | *other* | Your language? | 💬 [Start here](#how-to-contribute) | —                                             |
 
 ## Folder Structure
@@ -28,9 +28,22 @@ Data/
 │   ├── Tags.json
 │   └── Tools.json
 │
+├── fr/                 # French
+│   ├── Foods/
+│   │   ├── Légumes.json
+│   │   ├── Fruits.json
+│   │   └── ...
+│   ├── Labels.json
+│   ├── Units.json
+│   ├── Categories.json
+│   ├── Tags.json
+│   └── Tools.json
+│
 └── {language-code}/    # Your language
     └── ...
 ```
+
+Food items share stable UUIDs across language files. When translating, keep the same `id` so that "aardappel" (NL) and "pomme de terre" (FR) are linked.
 
 ---
 
@@ -97,7 +110,7 @@ All files must use the MealieSync wrapper format:
 
 | Field                          | Required | Description                                               |
 | ------------------------------ | :------: | --------------------------------------------------------- |
-| `id`                           |    —     | UUID (auto-generated if missing, keep stable for updates) |
+| `id`                           |    —     | Stable UUID shared across languages. Mealie auto-generates one if missing. |
 | `name`                         |    ✅     | Primary name (singular)                                   |
 | `pluralName`                   |    —     | Plural form                                               |
 | `description`                  |    —     | Short description                                         |

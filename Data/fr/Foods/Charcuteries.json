@@ -1,0 +1,540 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "a8ef7684-d08a-44af-bb67-2f799e05887c",
+      "name": "jambon arrière",
+      "pluralName": "jambon arrière",
+      "description": "Jambon cuit de la cuisse arrière; pour les sandwiches.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "384d3b74-07db-4c4b-8f56-d3b86ec549e4",
+      "name": "bacon",
+      "pluralName": "bacon",
+      "description": "Bacon fumé et salé; frit jusqu’à devenir croustillant.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "571c7bca-0aba-488b-b94d-8b2ab92c81b2",
+      "name": "jambon à l’os",
+      "pluralName": "jambon à l’os",
+      "description": "Jambon préparé avec l’os; pour les petits pains garnis.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "e182d684-7d30-4ef5-878f-9b1567bc343c",
+      "name": "saucisse à la bière",
+      "pluralName": "saucisses à la bière",
+      "description": "Saucisse séchée et épicée; souvent servie avec la bière.",
+      "aliases": [
+        {
+          "name": "petite saucisse à la bière"
+        },
+        {
+          "name": "petites saucisses à la bière"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "3f6a3344-9237-414f-b28f-7ccad8f55c35",
+      "name": "boudin noir",
+      "pluralName": "boudins noirs",
+      "description": "Saucisse au sang de porc; poêlée ou mijotée.",
+      "aliases": [
+        {
+          "name": "boudin noir"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "d7cb2b37-8ff7-4125-a126-517e25132df0",
+      "name": "bockwurst",
+      "pluralName": "bockwursts",
+      "description": "Saucisse allemande cuite; saveur douce.",
+      "aliases": [
+        {
+          "name": "bockwurst"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "b8ffc72b-90f5-47de-afb8-77c6298eeac7",
+      "name": "saucisson à sandwich",
+      "pluralName": "saucisson à sandwich",
+      "description": "Saucisson tranché pour les sandwiches; saveur douce.",
+      "aliases": [
+        {
+          "name": "saucisson de lunch"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "4ca10b76-73f4-47bb-8e82-1a07436733b0",
+      "name": "saucisse à griller",
+      "pluralName": "saucisses à griller",
+      "description": "Saucisse fraîche pour la poêle ou le gril; viande de porc assaisonnée.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "78f63357-01ac-4219-85c3-fa1b12f9775a",
+      "name": "bresaola",
+      "pluralName": "bresaola",
+      "description": "Jambon de bœuf séché italien; tranché finement sur du pain ou en salade.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "967befb5-6915-4326-af60-2c12cb5a516c",
+      "name": "cervelas",
+      "pluralName": "cervelas",
+      "description": "Saucisson sec; saveur épicée, pour les sandwiches.",
+      "aliases": [
+        {
+          "name": "cervelat"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "ec80de42-83ae-4482-8bb5-cd9448b56552",
+      "name": "chipolata",
+      "pluralName": "chipolatas",
+      "description": "Fine saucisse épicée; pour le BBQ ou le déjeuner.",
+      "aliases": [
+        {
+          "name": "chipolata"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "1ee9221d-614d-4784-818c-76b30da8a203",
+      "name": "chorizo",
+      "pluralName": "chorizo",
+      "description": "Saucisse espagnole au paprika et à l’ail; fumée ou fraîche.",
+      "aliases": [
+        {
+          "name": "saucisse chorizo"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "cd61aa7b-fd17-45cb-bf1f-8d6ff8783362",
+      "name": "jambon de Cobourg",
+      "pluralName": "jambon de Cobourg",
+      "description": "Jambon fumé allemand; pour les sandwiches.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "d6a9c9fb-7964-4228-bae6-2e2e72105194",
+      "name": "coppa",
+      "pluralName": "coppa",
+      "description": "Jambon sec italien de l’échine; tranché finement.",
+      "aliases": [
+        {
+          "name": "coppa di parma"
+        },
+        {
+          "name": "capocollo"
+        },
+        {
+          "name": "capicola"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "0e1d29a6-1cf7-4dba-8797-59b76bd8f0a4",
+      "name": "corned-beef",
+      "pluralName": "corned-beef",
+      "description": "Bœuf salé, souvent en conserve; sur du pain ou dans un hash.",
+      "aliases": [
+        {
+          "name": "cornedbeef"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "e3261b42-f05a-4c51-a1fe-3bba79137989",
+      "name": "filet américain",
+      "pluralName": "filet américain",
+      "description": "Bœuf cru assaisonné; tartinade pour sandwich.",
+      "aliases": [
+        {
+          "name": "martino"
+        },
+        {
+          "name": "préparé"
+        },
+        {
+          "name": "prepare"
+        },
+        {
+          "name": "filet américain"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "3a62a84e-6cd6-4e6f-a5e6-4c57c9087ee2",
+      "name": "frankfurter",
+      "pluralName": "frankfurters",
+      "description": "Saucisse fumée allemande; pour les hot-dogs.",
+      "aliases": [
+        {
+          "name": "saucisse frankfurter"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "8725c168-d820-4d2d-ae5a-03bb1162a2a2",
+      "name": "jambon sec",
+      "pluralName": "jambon sec",
+      "description": "Jambon séché à l’air; tranché finement.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "9199e887-bffd-4259-be5f-58b2a02fc017",
+      "name": "filet de dinde fumé",
+      "pluralName": "filet de dinde fumé",
+      "description": "Poitrine de dinde fumée; pour les salades et les sandwiches.",
+      "aliases": [
+        {
+          "name": "lanières de dinde fumée"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "3d7f1719-23dc-4446-8d55-ac202bed193e",
+      "name": "filet de poulet fumé",
+      "pluralName": "filet de poulet fumé",
+      "description": "Poitrine de poulet fumée; pour les salades et les sandwiches.",
+      "aliases": [
+        {
+          "name": "filet de poulet fermier fumé"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "2358b877-f150-414c-84f2-fcc22bfe08cf",
+      "name": "saucisson grillé",
+      "pluralName": "saucissons grillés",
+      "description": "Saucisson cuit et assaisonné; servi froid en tranches comme charcuterie.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "1c2ba2b1-19b0-4083-b345-a905fd710fec",
+      "name": "guanciale",
+      "pluralName": "guanciale",
+      "description": "Joue de porc salée italienne; utilisée dans la carbonara et l’amatriciana.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "18b67774-67b5-4198-aac5-23f26fb5fba3",
+      "name": "jambon",
+      "pluralName": "jambon",
+      "description": "Viande de porc cuite ou fumée; charcuterie tranchée finement.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "5cf9c7fd-1307-4244-96b0-6edfe217c6af",
+      "name": "lanières de jambon",
+      "pluralName": "lanières de jambon",
+      "description": "Jambon coupé en lanières; pour les salades ou les pâtes.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "eb036d9b-d53c-4661-94b5-af80e02ebf26",
+      "name": "fromage de tête",
+      "pluralName": "fromage de tête",
+      "description": "Préparation de porc en gelée; charcuterie froide pour les sandwiches.",
+      "aliases": [
+        {
+          "name": "preskop"
+        },
+        {
+          "name": "zult"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "84150264-9bc9-4706-9162-13104e6ba594",
+      "name": "jambon ibérique",
+      "pluralName": "jambon ibérique",
+      "description": "Jambon espagnol de porc ibérique; délicatesse haut de gamme.",
+      "aliases": [
+        {
+          "name": "jambon iberico"
+        },
+        {
+          "name": "pata negra"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "4d5527fa-a4e9-4176-87bc-1bc3ff6b0742",
+      "name": "kasseler",
+      "pluralName": "kasseler",
+      "description": "Côte de porc fumée allemande; servie chaude ou froide.",
+      "aliases": [
+        {
+          "name": "kassler"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "86334a57-65ef-4c0c-88cf-0bae4a02f413",
+      "name": "jambon katen",
+      "pluralName": "jambon katen",
+      "description": "Jambon fumé pour les sandwiches; saveur douce.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "b780c8e0-b98a-4273-bc1b-fe6e2e5b19e9",
+      "name": "saucisse knack",
+      "pluralName": "saucisses knack",
+      "description": "Saucisse cuite; pour les hot-dogs ou servie chaude.",
+      "aliases": [
+        {
+          "name": "petite saucisse knack"
+        },
+        {
+          "name": "petites saucisses knack"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "8493f37f-1dbf-4a07-a8f7-4672bdb9ef15",
+      "name": "saucisse de foie",
+      "pluralName": "saucisse de foie",
+      "description": "Saucisse tartinable au foie; garniture salée pour les sandwiches.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "d1a3eb16-68ad-48f8-ab22-ef9bd0514e90",
+      "name": "merguez",
+      "pluralName": "merguez",
+      "description": "Saucisse nord-africaine à l’agneau; bien épicée.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "3965d890-9a4b-43ef-93d9-9688ec9bd7a3",
+      "name": "mortadelle",
+      "pluralName": "mortadelle",
+      "description": "Saucisse cuite italienne aux pistaches; tranchée finement.",
+      "aliases": [
+        {
+          "name": "mortadella di bologna"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "5d63e0ba-0862-4b2c-ae54-cb7900a16d1a",
+      "name": "nduja",
+      "pluralName": "nduja",
+      "description": "Saucisse italienne piquante à tartiner; pour les pâtes ou le pain.",
+      "aliases": [
+        {
+          "name": "'nduja"
+        },
+        {
+          "name": "’nduja"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "481b8c7e-59a1-41f1-bb6b-04420dbb3e3a",
+      "name": "bacon déjeuner",
+      "pluralName": "bacon déjeuner",
+      "description": "Bacon fumé tranché finement; frit jusqu’à devenir croustillant.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "0abceee8-adcf-454e-a2d7-cc82984f3f57",
+      "name": "pancetta",
+      "pluralName": "pancetta",
+      "description": "Poitrine de porc salée italienne; pour les pâtes et le risotto.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "ed5dacf7-f06c-4426-8752-e9a7f05dcbee",
+      "name": "pastrami",
+      "pluralName": "pastrami",
+      "description": "Bœuf fumé assaisonné; pour les sandwiches et les salades.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "ac3b2d9c-5abb-46f5-997a-1b0987e20b31",
+      "name": "pâté",
+      "pluralName": "pâté",
+      "description": "Pâte de viande à tartiner; garniture salée pour les sandwiches.",
+      "aliases": [
+        {
+          "name": "pate"
+        },
+        {
+          "name": "pâté de foie"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "472c3642-22f6-4214-aaba-74cd8c8ab46f",
+      "name": "pepperoni",
+      "pluralName": "pepperoni",
+      "description": "Saucisse piquante; pour la pizza.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "92eed77d-4f8c-4498-924d-115c2f51f2a4",
+      "name": "prosciutto crudo",
+      "pluralName": "prosciutto crudo",
+      "description": "Jambon cru italien; séché et tranché finement.",
+      "aliases": [
+        {
+          "name": "jambon de Parme"
+        },
+        {
+          "name": "prosciutto"
+        },
+        {
+          "name": "prosciutto di parma"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "cd34da46-695c-41fc-af26-3e8f73cd7567",
+      "name": "jambon cru",
+      "pluralName": "jambon cru",
+      "description": "Jambon non cuit séché; tranché finement comme antipasti.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "1f326b2d-9201-4a14-921f-07d058b7744c",
+      "name": "saucisse fumée",
+      "pluralName": "saucisses fumées",
+      "description": "Saucisse fumée néerlandaise; servie chaude avec un stoemp.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "b397601d-1670-402c-832b-7ae5f3bcf90e",
+      "name": "rosbif",
+      "pluralName": "rosbif",
+      "description": "Bœuf rôti; froid ou chaud, tranché finement.",
+      "aliases": [
+        {
+          "name": "roast beef"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "cf42f170-6bf1-44ba-9a1f-3d76391373c9",
+      "name": "salami",
+      "pluralName": "salami",
+      "description": "Saucisson sec fermenté; tranché finement sur du pain ou une pizza.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "515f0f54-a014-4460-9e4f-b3d685941680",
+      "name": "jambon d’épaule",
+      "pluralName": "jambon d’épaule",
+      "description": "Jambon de l’épaule; pour les sandwiches.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "ed68f0ec-cf19-4b44-b0f4-5581178d442a",
+      "name": "jambon serrano",
+      "pluralName": "jambon serrano",
+      "description": "Jambon espagnol séché; salé et affiné à l’air libre.",
+      "aliases": [
+        {
+          "name": "jamón serrano"
+        },
+        {
+          "name": "jamon serrano"
+        },
+        {
+          "name": "jambon serrano"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "7de6fdff-4e6a-4580-bd23-f2557dcbd99a",
+      "name": "saucisson à trancher",
+      "pluralName": "saucisson à trancher",
+      "description": "Saucisson économique en tranches; pour les sandwiches.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "fee2b10e-73bb-4f38-afc4-106b7b9b3608",
+      "name": "speck",
+      "pluralName": "speck",
+      "description": "Jambon fumé du Tyrol du Sud; aromatique et ferme.",
+      "aliases": [
+        {
+          "name": "speck du Tyrol"
+        }
+      ],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "c14afe64-ea54-4169-8cd5-b9f1d269fc46",
+      "name": "lard",
+      "pluralName": "lard",
+      "description": "Lard de porc salé ou fumé; pour la cuisson ou comme ingrédient.",
+      "aliases": [],
+      "label": "Charcuteries"
+    },
+    {
+      "id": "18629d4b-b9f0-4c52-98da-4a554d01e637",
+      "name": "jambon d’York",
+      "pluralName": "jambon d’York",
+      "description": "Jambon anglais légèrement fumé; pour les sandwiches.",
+      "aliases": [],
+      "label": "Charcuteries"
+    }
+  ]
+}

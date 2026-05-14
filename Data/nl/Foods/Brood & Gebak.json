@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "e3c02693-f00c-461a-aa43-cf4dc4266e19",
       "name": "bagel",
       "pluralName": "bagels",
       "description": "Rond broodje met gat; vaak geroosterd of belegd.",
@@ -18,6 +19,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "ce3ec77e-f223-4062-b6d6-efd28000556b",
       "name": "beschuit",
       "pluralName": "beschuiten",
       "description": "Dubbelgebakken broodproduct; licht en bros, vaak belegd.",
@@ -25,6 +27,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "b908fa0c-8578-4561-aab8-60c8b880bef4",
       "name": "bladerdeeg",
       "pluralName": "bladerdeeg",
       "description": "Gelaagd boterdeeg; voor hartige en zoete gebakjes.",
@@ -42,6 +45,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "0453b14f-f05f-4a26-ad1b-fcf54162079f",
       "name": "brioche",
       "pluralName": "brioches",
       "description": "Rijk brood met boter en ei; voor broodjes, burgers of tosti.",
@@ -59,6 +63,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "44f23e74-832b-4852-ba6b-1b68684ce60c",
       "name": "brood",
       "pluralName": "broden",
       "description": "Gebakken deegwaar van meel, water en gist; basisvoedsel.",
@@ -66,6 +71,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "179bedfc-07d1-47a2-a8c8-d72976918c41",
       "name": "broodkruim",
       "pluralName": "broodkruim",
       "description": "Grof broodkruim; voor vulling, binding of krokante topping.",
@@ -80,6 +86,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "d56ec9bb-1fa3-47fd-969a-cdd656437701",
       "name": "ciabatta",
       "pluralName": "ciabatta's",
       "description": "Italiaans witbrood; luchtig met grote gaten.",
@@ -94,6 +101,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "a8792cff-b74f-4171-81f2-d2ebc6eb1d27",
       "name": "croissant",
       "pluralName": "croissants",
       "description": "Frans bladerdeeggebak; boterig en gelaagd.",
@@ -101,6 +109,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "1ebd0bdc-5f3b-4bc0-8aec-33a6e7cdce0f",
       "name": "crouton",
       "pluralName": "croutons",
       "description": "Geroosterd broodblokje; krokante toevoeging in soep of salade.",
@@ -115,6 +124,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "04f0643a-244f-4e4e-a89c-586d11624bae",
       "name": "eierkoek",
       "pluralName": "eierkoeken",
       "description": "Luchtig plat cakeje met eieren; zacht, vaak als tussendoortje.",
@@ -122,6 +132,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "83695301-ab02-4ff9-a910-0f8b763f0781",
       "name": "filodeeg",
       "pluralName": "filodeeg",
       "description": "Zeer dun deegvel; voor baklava en hartige pasteitjes.",
@@ -145,6 +156,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "f034ea66-36e5-4e5a-8239-63da347c592a",
       "name": "focaccia",
       "pluralName": "focaccia's",
       "description": "Italiaans plat brood met olie; als bijgerecht of voor sandwiches.",
@@ -159,6 +171,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "8a8ddb2b-8a48-4994-9121-b517b0d88649",
       "name": "hamburgerbroodje",
       "pluralName": "hamburgerbroodjes",
       "description": "Rond zacht broodje; voor burgers.",
@@ -166,6 +179,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "57b00e77-989a-451d-bb5a-8d4611b8c131",
       "name": "hotdogbroodje",
       "pluralName": "hotdogbroodjes",
       "description": "Lang zacht broodje; voor hotdogs of worstjes.",
@@ -180,6 +194,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "4d7fa9ed-455c-45c1-ac8b-73e4026a1833",
       "name": "knäckebröd",
       "pluralName": "knäckebröd",
       "description": "Zweeds knapperbrood; krokant roggebrood.",
@@ -197,6 +212,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "066a7740-9bc9-4ad6-9001-e66fc518758f",
       "name": "libanees brood",
       "pluralName": "libanees brood",
       "description": "Dun platbrood; voor wraps en dips.",
@@ -204,6 +220,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "d719dea1-49d2-46d8-bffc-ee8a041a7c45",
       "name": "loempiavel",
       "pluralName": "loempiavellen",
       "description": "Dunne deegvellen voor loempia's; gevuld en gefrituurd.",
@@ -227,6 +244,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "6ea26efd-2a8c-49dd-a180-ceee8dc07cde",
       "name": "maïstortilla",
       "pluralName": "maïstortilla's",
       "description": "Mexicaans platbrood van maïsmeel; glutenvrij, voor taco's en enchiladas.",
@@ -247,6 +265,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "1aa5ba45-3bc4-45ce-9e91-bb15126f076e",
       "name": "matze",
       "pluralName": "matzes",
       "description": "Ongerezen Joods platbrood; dun en knapperig.",
@@ -264,6 +283,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "8e1cdd7c-3341-44e5-bcab-6be837b4640f",
       "name": "mini maïstortilla",
       "pluralName": "mini maïstortilla's",
       "description": "Kleine maïstortilla; ideaal voor street tacos.",
@@ -281,6 +301,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "f94b3bbd-c956-4697-b2a8-6eb3ba54f841",
       "name": "mini tarwetortilla",
       "pluralName": "mini tarwetortilla's",
       "description": "Kleine tarwetortilla; voor mini wraps en hapjes.",
@@ -295,6 +316,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "96890137-ff39-42ff-b096-d67ee27ae2df",
       "name": "naanbrood",
       "pluralName": "naanbrood",
       "description": "Indiaas platbrood; zacht, bij curry.",
@@ -309,6 +331,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "5ede8efe-bddf-4d80-9de0-4d8670cad37c",
       "name": "ontbijtkoek",
       "pluralName": "ontbijtkoeken",
       "description": "Nederlandse kruidkoek; zoet met roggebloem en specerijen.",
@@ -320,6 +343,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "eb49f884-c821-4c83-95cf-042e3194f3c3",
       "name": "paneermeel",
       "pluralName": "paneermeel",
       "description": "Fijn broodkruim; om te paneren of binden.",
@@ -334,6 +358,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "e557ac6f-fcf2-4a70-84f2-e3b51d522155",
       "name": "panko",
       "pluralName": "panko",
       "description": "Japans grof paneermeel; geeft extra krokante korst.",
@@ -348,6 +373,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "c72b763f-1fef-465a-a6a3-0610312b8fcc",
       "name": "pitabrood",
       "pluralName": "pitabroodjes",
       "description": "Rond hol Midden-Oosters brood; opent als zakje.",
@@ -365,6 +391,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "23f2e29a-d8f1-457b-a743-b049b3de7fce",
       "name": "pizzadeeg",
       "pluralName": "pizzadeeg",
       "description": "Kant-en-klaar deeg; voor pizza of flammkuchen.",
@@ -382,6 +409,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "17a0ca5a-260e-4911-8a0a-438654f10243",
       "name": "stokbrood",
       "pluralName": "stokbroden",
       "description": "Frans lang brood; knapperige korst.",
@@ -399,6 +427,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "6660aa1a-8667-4fc8-8e95-093cc6e9757d",
       "name": "tarwetortilla",
       "pluralName": "tarwetortilla's",
       "description": "Mexicaans platbrood van tarwebloem; zacht en buigzaam, voor wraps en burrito's.",
@@ -419,6 +448,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "459e988d-e462-4dcc-854a-45dca843c284",
       "name": "toastbrood",
       "pluralName": "toastbroden",
       "description": "Gesneden zacht brood; geschikt voor toast en sandwiches.",
@@ -436,6 +466,7 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "9d2cf2a5-ab84-41b3-ad7b-a1008659055b",
       "name": "turks brood",
       "pluralName": "turks brood",
       "description": "Groot plat brood; zacht, voor kebab en wraps.",

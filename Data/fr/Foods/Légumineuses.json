@@ -1,0 +1,885 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "a1f6dc01-0c27-4fac-a411-6174ba2b4b03",
+      "name": "haricot adzuki",
+      "pluralName": "haricots adzuki",
+      "description": "Petit haricot rouge asiatique; pour les pâtes sucrées et les soupes.",
+      "aliases": [
+        {
+          "name": "azuki"
+        },
+        {
+          "name": "haricot azuki"
+        },
+        {
+          "name": "haricots azuki"
+        },
+        {
+          "name": "adzuki"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "ee79a260-a7dc-4ab5-b305-a754a8f575e2",
+      "name": "lentille beluga",
+      "pluralName": "lentilles beluga",
+      "description": "Petites lentilles noires; gardent bien leur forme, pour les salades.",
+      "aliases": [
+        {
+          "name": "lentilles noires"
+        },
+        {
+          "name": "lentille beluga"
+        },
+        {
+          "name": "lentilles beluga"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "42760fc7-9df2-4e39-bddd-d7c98a0843b3",
+      "name": "haricot borlotti",
+      "pluralName": "haricots borlotti",
+      "description": "Haricot italien rouge et blanc moucheté; pour les soupes et ragoûts.",
+      "aliases": [
+        {
+          "name": "borlotti"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "cf27506f-f784-4ba7-9c55-b9d33fd93985",
+      "name": "haricot brun",
+      "pluralName": "haricots bruns",
+      "description": "Légumineuse traditionnelle; pour les soupes de haricots et purées.",
+      "aliases": [],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "cf00dbfd-7db3-4943-aea6-86cc55ed259b",
+      "name": "haricot cannellini",
+      "pluralName": "haricots cannellini",
+      "description": "Haricot blanc italien; doux, pour les soupes et salades.",
+      "aliases": [
+        {
+          "name": "cannellini"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "17726103-1dfc-4320-a5df-6269c983a4ee",
+      "name": "haricot cannellini [conserve]",
+      "pluralName": "haricots cannellini [conserve]",
+      "description": "Haricots cannellini en conserve; directement dans la soupe, la salade ou les plats mijotés.",
+      "aliases": [
+        {
+          "name": "cannellini en conserve"
+        },
+        {
+          "name": "conserve de cannellini"
+        },
+        {
+          "name": "haricot cannellini en conserve"
+        },
+        {
+          "name": "haricots cannellini en conserve"
+        },
+        {
+          "name": "boîte de cannellini"
+        },
+        {
+          "name": "cannellini en boîte"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "dc5c4990-5186-48db-8965-d8b403c39d22",
+      "name": "petit pois",
+      "pluralName": "petits pois",
+      "description": "Jeunes pois verts; doux et frais, frais ou surgelés.",
+      "aliases": [
+        {
+          "name": "pois vert"
+        },
+        {
+          "name": "pois verts"
+        },
+        {
+          "name": "pois du jardin"
+        },
+        {
+          "name": "pois de jardin"
+        },
+        {
+          "name": "pois"
+        },
+        {
+          "name": "pois"
+        },
+        {
+          "name": "pois surgelés"
+        },
+        {
+          "name": "petits pois surgelés"
+        },
+        {
+          "name": "petits pois congelés"
+        },
+        {
+          "name": "petits pois surgelé"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "bb290255-0b46-4f6e-a8f1-ff06896ec972",
+      "name": "edamame",
+      "pluralName": "edamame",
+      "description": "Jeunes fèves de soja en gousse; cuites comme collation ou en salade.",
+      "aliases": [
+        {
+          "name": "jeunes fèves de soja"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "b438bdae-e05b-4982-8692-ba2b2ddc54a3",
+      "name": "pois [sec]",
+      "pluralName": "pois [secs]",
+      "description": "Pois secs; pour les soupes, purées et plats mijotés.",
+      "aliases": [
+        {
+          "name": "pois sec"
+        },
+        {
+          "name": "pois secs"
+        },
+        {
+          "name": "pois séché"
+        },
+        {
+          "name": "pois séchés"
+        },
+        {
+          "name": "sec pois"
+        },
+        {
+          "name": "secs pois"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "715de582-af22-4e2d-8e2a-07274f824717",
+      "name": "pois jaune [sec]",
+      "pluralName": "pois jaunes [secs]",
+      "description": "Pois jaune sec; pour la soupe et la purée.",
+      "aliases": [
+        {
+          "name": "pois jaune sec"
+        },
+        {
+          "name": "pois jaunes secs"
+        },
+        {
+          "name": "pois jaune"
+        },
+        {
+          "name": "pois jaunes"
+        },
+        {
+          "name": "pois jaune séché"
+        },
+        {
+          "name": "pois jaunes séchés"
+        },
+        {
+          "name": "sec pois jaune"
+        },
+        {
+          "name": "secs pois jaunes"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "568c32c9-f4ba-4e75-9f35-d93a236f67b9",
+      "name": "pois cassé jaune",
+      "pluralName": "pois cassés jaunes",
+      "description": "Pois jaune cassé; pour les soupes, purées et plats mijotés.",
+      "aliases": [
+        {
+          "name": "yellow split pea"
+        },
+        {
+          "name": "yellow split peas"
+        },
+        {
+          "name": "pois jaune fendu"
+        },
+        {
+          "name": "pois jaunes fendus"
+        },
+        {
+          "name": "pois cassé jaune"
+        },
+        {
+          "name": "pois cassés jaunes"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "ade0ddfa-fc10-470f-bbbc-b6a0519775ea",
+      "name": "pois d’angole cassé",
+      "pluralName": "pois d’angole cassés",
+      "description": "Pois d’angole cassé; pour les dals, currys et soupes.",
+      "aliases": [
+        {
+          "name": "arhar dal"
+        },
+        {
+          "name": "toor dahl"
+        },
+        {
+          "name": "toordal"
+        },
+        {
+          "name": "tur dal"
+        },
+        {
+          "name": "tuvar dal"
+        },
+        {
+          "name": "toor dal"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "10a141ff-639c-4ca7-8c7c-5e641e271206",
+      "name": "lentille verte",
+      "pluralName": "lentilles vertes",
+      "description": "Lentilles avec peau; restent fermes, pour les salades et ragoûts.",
+      "aliases": [],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "4adf36f3-0bfd-457c-9802-bacbc5fc5e79",
+      "name": "pois capucin",
+      "pluralName": "pois capucins",
+      "description": "Pois gris-vert traditionnel; pour purées et plats rustiques.",
+      "aliases": [],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "4042a663-4297-4165-9c08-33b72ff0f70c",
+      "name": "haricot rouge",
+      "pluralName": "haricots rouges",
+      "description": "Haricot rouge en forme de rein; pour le chili con carne et la cuisine mexicaine.",
+      "aliases": [
+        {
+          "name": "haricot rouge"
+        },
+        {
+          "name": "haricots rouges"
+        },
+        {
+          "name": "kidney bean"
+        },
+        {
+          "name": "kidney beans"
+        },
+        {
+          "name": "kidneybean"
+        },
+        {
+          "name": "kidneybeans"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "7b251f66-d2b5-4853-a0b5-5197035eee51",
+      "name": "haricot rouge [conserve]",
+      "pluralName": "haricots rouges [conserve]",
+      "description": "Haricots rouges en conserve; rapides pour chili, curry ou salade.",
+      "aliases": [
+        {
+          "name": "haricots rouges en conserve"
+        },
+        {
+          "name": "haricot rouge en conserve"
+        },
+        {
+          "name": "kidney beans en conserve"
+        },
+        {
+          "name": "boîte de haricots rouges"
+        },
+        {
+          "name": "haricots rouges en boîte"
+        },
+        {
+          "name": "boîte de kidney beans"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "d0d80c2b-33a0-4929-846f-1fabce16cdad",
+      "name": "pois chiche",
+      "pluralName": "pois chiches",
+      "description": "Légumineuse ronde beige; pour le houmous, les falafels et les currys.",
+      "aliases": [
+        {
+          "name": "garbanzo"
+        },
+        {
+          "name": "garbanzo bean"
+        },
+        {
+          "name": "garbanzo beans"
+        },
+        {
+          "name": "pois garbanzo"
+        },
+        {
+          "name": "pois garbanzos"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "90a6673c-7ce4-4ca3-a080-4d9c29c010e8",
+      "name": "pois chiche [conserve]",
+      "pluralName": "pois chiches [conserve]",
+      "description": "Pois chiches en conserve; pratiques pour le houmous, les currys et les salades.",
+      "aliases": [
+        {
+          "name": "pois chiches en conserve"
+        },
+        {
+          "name": "pois chiche en conserve"
+        },
+        {
+          "name": "boîte de pois chiches"
+        },
+        {
+          "name": "pois chiches en boîte"
+        },
+        {
+          "name": "garbanzo en conserve"
+        },
+        {
+          "name": "garbanzo beans en conserve"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "ccf36b8b-c6f5-4d1f-b017-2fbc8391da8a",
+      "name": "haricot kilomètre",
+      "pluralName": "haricots kilomètre",
+      "description": "Long haricot vert; à cuire brièvement ou sauter au wok dans les plats surinamais et asiatiques.",
+      "aliases": [
+        {
+          "name": "haricot long"
+        },
+        {
+          "name": "haricots longs"
+        },
+        {
+          "name": "haricot asperge"
+        },
+        {
+          "name": "haricots asperges"
+        },
+        {
+          "name": "kouseband"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "8ec24c83-e26d-44e4-b13b-f5c7084a0d9f",
+      "name": "haricot de lima",
+      "pluralName": "haricots de lima",
+      "description": "Grand haricot blanc plat; crémeux, pour les plats mijotés.",
+      "aliases": [
+        {
+          "name": "haricot beurre"
+        },
+        {
+          "name": "haricots beurre"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "b4338bd7-560a-4de9-ad0c-ad65a96fe143",
+      "name": "lentille",
+      "pluralName": "lentilles",
+      "description": "Légumineuse riche en protéines; en diverses couleurs, pour soupes et ragoûts.",
+      "aliases": [
+        {
+          "name": "lentil"
+        },
+        {
+          "name": "lentils"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "8bc33885-c6c1-486a-b292-3a2ffa0dd86e",
+      "name": "lentille [conserve]",
+      "pluralName": "lentilles [conserve]",
+      "description": "Lentilles cuites en conserve; directement dans la salade, la soupe ou le curry.",
+      "aliases": [
+        {
+          "name": "lentilles en conserve"
+        },
+        {
+          "name": "lentille en conserve"
+        },
+        {
+          "name": "boîte de lentilles"
+        },
+        {
+          "name": "lentilles en boîte"
+        },
+        {
+          "name": "canned lentils"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "cfad59d1-7a45-44d7-b41e-6bd1385dff0f",
+      "name": "lupin",
+      "pluralName": "lupins",
+      "description": "Fève de lupin comestible; souvent marinée comme collation ou en salade.",
+      "aliases": [
+        {
+          "name": "lupini"
+        },
+        {
+          "name": "lupini beans"
+        },
+        {
+          "name": "fèves de lupin"
+        },
+        {
+          "name": "petits lupins"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "1f385702-0529-4ae5-9096-a0592a9056a7",
+      "name": "haricot mungo",
+      "pluralName": "haricots mungo",
+      "description": "Petit haricot vert; base des germes de soja et des nouilles de verre.",
+      "aliases": [
+        {
+          "name": "mung bean"
+        },
+        {
+          "name": "mung beans"
+        },
+        {
+          "name": "moong"
+        },
+        {
+          "name": "haricot moong"
+        },
+        {
+          "name": "haricots moong"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "337897e0-1b5d-4362-80f2-3a6a3caf6a96",
+      "name": "pois mange-tout",
+      "pluralName": "pois mange-tout",
+      "description": "Gousse comestible; brièvement cuite ou sautée.",
+      "aliases": [
+        {
+          "name": "sneeuwerwt"
+        },
+        {
+          "name": "sneeuwerwten"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "e89d6fad-48d2-4c03-b4d5-346732bc0847",
+      "name": "haricot pinto",
+      "pluralName": "haricots pinto",
+      "description": "Haricot beige tacheté de brun; pour le chili et la purée de haricots.",
+      "aliases": [
+        {
+          "name": "pinto bean"
+        },
+        {
+          "name": "pinto beans"
+        },
+        {
+          "name": "haricot pinto"
+        },
+        {
+          "name": "haricots pinto"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "c45b39f6-e085-4897-983b-c1f9699b10dc",
+      "name": "lentille du Puy",
+      "pluralName": "lentilles du Puy",
+      "description": "Petite lentille française vert-brun; reste ferme, pour les salades.",
+      "aliases": [
+        {
+          "name": "puy linze"
+        },
+        {
+          "name": "puy linzen"
+        },
+        {
+          "name": "le puy linze"
+        },
+        {
+          "name": "le puy linzen"
+        },
+        {
+          "name": "linze du puy"
+        },
+        {
+          "name": "linzen du puy"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "3a88f0c0-d8e3-4160-bb37-1efda8b4685f",
+      "name": "lentille rouge",
+      "pluralName": "lentilles rouges",
+      "description": "Lentilles orange décortiquées; se défont rapidement, pour la soupe et le dhal.",
+      "aliases": [
+        {
+          "name": "masoor dal"
+        },
+        {
+          "name": "masoor-dal"
+        },
+        {
+          "name": "red lentils"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "7fea9a5a-fddd-406d-ae10-443485afba80",
+      "name": "lentilles rouges cassées",
+      "pluralName": "lentilles rouges cassées",
+      "description": "Lentilles rouges fendues; cuisent rapidement pour dhal, soupe ou purée.",
+      "aliases": [
+        {
+          "name": "lentilles rouges fendues"
+        },
+        {
+          "name": "lentilles rouges cassées"
+        },
+        {
+          "name": "split red lentils"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "39831d5d-f070-4b0a-9c0d-cf7503e54666",
+      "name": "haricot plat",
+      "pluralName": "haricots plats",
+      "description": "Haricot large et plat; cuit en lanières ou braisé.",
+      "aliases": [],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "d130de53-2b43-408f-b36c-e3ec70f67778",
+      "name": "soja",
+      "pluralName": "graines de soja",
+      "description": "Légumineuse riche en protéines; base du tofu, du tempeh et du lait de soja.",
+      "aliases": [
+        {
+          "name": "soja"
+        },
+        {
+          "name": "soya bean"
+        },
+        {
+          "name": "soya beans"
+        },
+        {
+          "name": "soy bean"
+        },
+        {
+          "name": "soy beans"
+        },
+        {
+          "name": "soyabean"
+        },
+        {
+          "name": "soyaboon"
+        },
+        {
+          "name": "soybeans"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "88a23dbe-6538-41d9-86cf-b9849aeed181",
+      "name": "haricot coco",
+      "pluralName": "haricots coco",
+      "description": "Gros haricot; brièvement cuit ou en ragoût.",
+      "aliases": [],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "a163df65-f1a7-4277-bea7-68839dfa526d",
+      "name": "haricot vert",
+      "pluralName": "haricots verts",
+      "description": "Haricot vert; cuit à l’eau ou sauté.",
+      "aliases": [
+        {
+          "name": "haricots verts"
+        },
+        {
+          "name": "haricot princesse"
+        },
+        {
+          "name": "haricots princesse"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "83ee6ba2-faf8-41f7-99d0-08a0ef7482ae",
+      "name": "pois cassé",
+      "pluralName": "pois cassés",
+      "description": "Pois secs cassés en deux; pour la soupe aux pois.",
+      "aliases": [
+        {
+          "name": "split pea"
+        },
+        {
+          "name": "split pea"
+        },
+        {
+          "name": "pois cassé vert"
+        },
+        {
+          "name": "pois cassés verts"
+        },
+        {
+          "name": "pois vert cassé"
+        },
+        {
+          "name": "pois verts cassés"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "8eaabac4-a915-4869-ad7d-3a5c6b8a9d30",
+      "name": "pois chiche cassé",
+      "pluralName": "pois chiches cassés",
+      "description": "Pois chiche sec fendu; cuit tendre pour le dal et les currys.",
+      "aliases": [
+        {
+          "name": "chana dal"
+        },
+        {
+          "name": "pois chiche fendu"
+        },
+        {
+          "name": "pois chiches fendus"
+        },
+        {
+          "name": "pois chiche cassé"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "c7a2d5d4-8ae0-4090-b665-2ec87e9b7997",
+      "name": "pois sucré",
+      "pluralName": "pois sucrés",
+      "description": "Gousse croquante; brièvement cuite ou sautée.",
+      "aliases": [
+        {
+          "name": "sugar snap"
+        },
+        {
+          "name": "sugar snaps"
+        },
+        {
+          "name": "pois croquant"
+        },
+        {
+          "name": "pois croquants"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "08e0e8a4-7682-47b3-b446-e5497d55005a",
+      "name": "tempeh",
+      "pluralName": "tempeh",
+      "description": "Galette fermentée de soja; substitut de viande ferme à faire revenir.",
+      "aliases": [
+        {
+          "name": "tempé"
+        },
+        {
+          "name": "tempe"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "34940bef-2049-4b9e-b1a9-5ff373979992",
+      "name": "tofu",
+      "pluralName": "tofu",
+      "description": "Lait de soja caillé; substitut de viande doux qui absorbe les saveurs.",
+      "aliases": [
+        {
+          "name": "tahoe"
+        },
+        {
+          "name": "tofoe"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "03383b12-0514-4c04-bfe1-883ee91f6a48",
+      "name": "fève",
+      "pluralName": "fèves",
+      "description": "Grande fève verte plate; fraîche en saison, pour purée ou salade.",
+      "aliases": [
+        {
+          "name": "favaboon"
+        },
+        {
+          "name": "favabonen"
+        },
+        {
+          "name": "fava boon"
+        },
+        {
+          "name": "fava bonen"
+        },
+        {
+          "name": "fava bean"
+        },
+        {
+          "name": "fava beans"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "19e8a6bb-946f-42e2-a71f-acff294f4382",
+      "name": "haricot blanc",
+      "pluralName": "haricots blancs",
+      "description": "Haricot blanc doux; pour le cassoulet, les soupes et salades de haricots.",
+      "aliases": [],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "cbcaee69-c714-4d8c-bc51-876e82e3ea9a",
+      "name": "haricot blanc [conserve]",
+      "pluralName": "haricots blancs [conserve]",
+      "description": "Haricots blancs en conserve; pour la soupe, la salade et les plats mijotés.",
+      "aliases": [
+        {
+          "name": "haricots blancs en conserve"
+        },
+        {
+          "name": "haricot blanc en conserve"
+        },
+        {
+          "name": "boîte de haricots blancs"
+        },
+        {
+          "name": "haricots blancs en boîte"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "5023b278-fcb7-4ebf-8652-277a61b9fc14",
+      "name": "haricot noir",
+      "pluralName": "haricots noirs",
+      "description": "Petit haricot noir; pour les plats mexicains et brésiliens.",
+      "aliases": [],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "67a23dc5-c6f8-4c45-8ca2-525d1e1ca29a",
+      "name": "haricot noir [conserve]",
+      "pluralName": "haricots noirs [conserve]",
+      "description": "Haricots noirs en conserve; pour les tacos, bols-repas et plats mijotés.",
+      "aliases": [
+        {
+          "name": "haricots noirs en conserve"
+        },
+        {
+          "name": "haricot noir en conserve"
+        },
+        {
+          "name": "boîte de haricots noirs"
+        },
+        {
+          "name": "haricots noirs en boîte"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
+      "id": "f2cb8474-8fca-4195-88e1-51b1d31d94a1",
+      "name": "haricot à œil noir",
+      "pluralName": "haricots à œil noir",
+      "description": "Haricot crème avec point noir; pour les salades et ragoûts.",
+      "aliases": [
+        {
+          "name": "pois à œil noir"
+        },
+        {
+          "name": "pois à yeux noirs"
+        },
+        {
+          "name": "cowpea"
+        },
+        {
+          "name": "cowpeas"
+        }
+      ],
+      "label": "Légumineuses"
+    }
+  ]
+}

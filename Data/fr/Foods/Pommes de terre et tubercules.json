@@ -1,0 +1,536 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "28a08e27-3cff-460d-a59e-b519956d1963",
+      "name": "pomme de terre",
+      "pluralName": "pommes de terre",
+      "description": "Tubercule; très polyvalent: bouilli, rôti, réduit en purée ou frit.",
+      "aliases": [
+        {
+          "name": "patate"
+        },
+        {
+          "name": "patates"
+        },
+        {
+          "name": "petite pomme de terre"
+        },
+        {
+          "name": "petites pommes de terre"
+        },
+        {
+          "name": "pomme de terre à chair ferme"
+        },
+        {
+          "name": "pommes de terre à chair ferme"
+        },
+        {
+          "name": "pomme de terre farineuse"
+        },
+        {
+          "name": "pommes de terre farineuses"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "c177863c-2b24-4f96-9479-2d9e533b4488",
+      "name": "topinambour",
+      "pluralName": "topinambours",
+      "description": "Tubercule; saveur douce et noisettée, cru ou cuit.",
+      "aliases": [
+        {
+          "name": "artichaut de Jérusalem"
+        },
+        {
+          "name": "jerusalem artichoke"
+        },
+        {
+          "name": "artichaut jerusalem"
+        },
+        {
+          "name": "artichaut-de-jérusalem"
+        },
+        {
+          "name": "topinambour"
+        },
+        {
+          "name": "topinambours"
+        },
+        {
+          "name": "topinambours"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "b02546e7-ebca-40ad-b679-33a88ae6f60c",
+      "name": "patate douce",
+      "pluralName": "patates douces",
+      "description": "Patate douce; chair orange, rôtie ou en purée.",
+      "aliases": [
+        {
+          "name": "sweet potato"
+        },
+        {
+          "name": "sweet-potato"
+        },
+        {
+          "name": "sweetpotato"
+        },
+        {
+          "name": "patate douce"
+        },
+        {
+          "name": "patates douces"
+        },
+        {
+          "name": "patate-douce"
+        },
+        {
+          "name": "patates-douces"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "f6fe6fd3-39c0-4921-8964-98119a049ea7",
+      "name": "jeune carotte",
+      "pluralName": "jeunes carottes",
+      "description": "Jeune carotte avec ses fanes; crue ou rôtie.",
+      "aliases": [],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "f2f88609-0e9f-4a70-9d54-785420da549d",
+      "name": "manioc",
+      "pluralName": "maniocs",
+      "description": "Tubercule tropical; riche en amidon, bouilli ou frit.",
+      "aliases": [
+        {
+          "name": "cassave"
+        },
+        {
+          "name": "yuca"
+        },
+        {
+          "name": "racine de tapioca"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "23df18ef-5718-4829-aa1d-4230dc2da5a2",
+      "name": "betterave chioggia",
+      "pluralName": "betteraves chioggia",
+      "description": "Variété de betterave; chair rouge et blanche en anneaux, crue ou rôtie.",
+      "aliases": [
+        {
+          "name": "chioggia beet"
+        },
+        {
+          "name": "betterave candy cane"
+        },
+        {
+          "name": "candycane beet"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "02efcb36-276e-43db-8212-2fe680a57ff7",
+      "name": "daikon",
+      "pluralName": "daikons",
+      "description": "Radis japonais; cru, mariné ou braisé.",
+      "aliases": [
+        {
+          "name": "radis japonais"
+        },
+        {
+          "name": "mooli"
+        },
+        {
+          "name": "radis daikon"
+        },
+        {
+          "name": "daikon radis"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "dacbddc1-a6c0-4c2d-8788-6bfa92f97f93",
+      "name": "betterave jaune",
+      "pluralName": "betteraves jaunes",
+      "description": "Légume-racine; chair jaune doré, plus douce et plus sucrée que la betterave rouge.",
+      "aliases": [
+        {
+          "name": "golden beet"
+        },
+        {
+          "name": "betterave dorée"
+        },
+        {
+          "name": "betteraves dorées"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "5f675222-9c42-4210-a181-baf9e341a224",
+      "name": "jicama",
+      "pluralName": "jicamas",
+      "description": "Tubercule mexicain; chair blanche croquante, légèrement sucrée, crue en salade.",
+      "aliases": [
+        {
+          "name": "yam bean"
+        },
+        {
+          "name": "pomme de terre mexicaine"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "b83e342a-0504-483d-b88a-b3badb318392",
+      "name": "navet",
+      "pluralName": "navets",
+      "description": "Légume-racine; racine blanche et violette, goût doux, bouilli ou braisé.",
+      "aliases": [
+        {
+          "name": "turnip"
+        },
+        {
+          "name": "navet"
+        },
+        {
+          "name": "navet blanc"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "e1593083-4d0c-4ffd-bc50-4f33138b5487",
+      "name": "céleri-rave",
+      "pluralName": "céleris-raves",
+      "description": "Légume-racine; en soupe, en purée ou rôti.",
+      "aliases": [
+        {
+          "name": "racine de céleri"
+        },
+        {
+          "name": "racines de céleri"
+        },
+        {
+          "name": "céleri-rave"
+        },
+        {
+          "name": "celeriac"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "967b4bd6-63ee-494e-8b3a-e5d5375d2601",
+      "name": "rutabaga",
+      "pluralName": "rutabagas",
+      "description": "Légume-racine; grosse racine jaune pâle, douce et sucrée, braisée ou en purée.",
+      "aliases": [
+        {
+          "name": "rutabaga"
+        },
+        {
+          "name": "swede"
+        },
+        {
+          "name": "navet suédois"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "b8da5952-38b1-43f2-bd79-8b51d7e93ddd",
+      "name": "chou-rave",
+      "pluralName": "choux-raves",
+      "description": "Légume-racine; tige renflée, légèrement sucrée, crue ou cuite.",
+      "aliases": [
+        {
+          "name": "kohlrabi"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "aa11b14d-04f4-44e5-84ea-7686000a986a",
+      "name": "grenaille",
+      "pluralName": "grenailles",
+      "description": "Petites pommes de terre; rôties ou bouillies avec la peau.",
+      "aliases": [
+        {
+          "name": "pomme de terre grenaille"
+        },
+        {
+          "name": "pommes de terre grenaille"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "07c5defa-e483-43f1-a95c-4f227398d58e",
+      "name": "racine de lotus",
+      "pluralName": "racines de lotus",
+      "description": "Tubercule-racine; croquant dans les sautés, soupes ou fritures.",
+      "aliases": [
+        {
+          "name": "lotus root"
+        },
+        {
+          "name": "renkon"
+        },
+        {
+          "name": "racine renkon"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "5d93b213-be3c-4856-8342-759e262faaee",
+      "name": "navet de printemps",
+      "pluralName": "navets de printemps",
+      "description": "Petit navet printanier; goût doux, braisé ou cru.",
+      "aliases": [
+        {
+          "name": "navet nouveau"
+        },
+        {
+          "name": "navets nouveaux"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "cddc1f6d-3574-4f3e-8c3f-a8782e3ec560",
+      "name": "raifort",
+      "pluralName": "raifort",
+      "description": "Racine piquante; râpée comme condiment avec le poisson ou la viande.",
+      "aliases": [
+        {
+          "name": "horseradish"
+        },
+        {
+          "name": "raifort"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "0e1e4744-fa62-48ea-a419-3ec53ae1c39a",
+      "name": "panais",
+      "pluralName": "panais",
+      "description": "Légume-racine; rôti, bouilli ou en soupe.",
+      "aliases": [],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "8af6c6ec-3790-4c8c-8b5b-98b809ecc454",
+      "name": "racine de persil",
+      "pluralName": "racines de persil",
+      "description": "Légume-racine; dans les soupes ou en purée.",
+      "aliases": [
+        {
+          "name": "persil tubéreux"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "8acdbd23-6d4c-408d-9aa1-7a1eb7276c4f",
+      "name": "radis",
+      "pluralName": "radis",
+      "description": "Légume-racine; petits bulbes rouges piquants, crus en salade.",
+      "aliases": [
+        {
+          "name": "petit radis"
+        },
+        {
+          "name": "petits radis"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "8a06aba8-69fb-4d67-8f96-5c98489e2e19",
+      "name": "radis noir",
+      "pluralName": "radis noirs",
+      "description": "Radis noir; cru en salade ou en tranches.",
+      "aliases": [
+        {
+          "name": "radis noir"
+        },
+        {
+          "name": "black radish"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "f98c6c98-3b8a-4d4a-bda1-ab75f810a57c",
+      "name": "radis blanc",
+      "pluralName": "radis blancs",
+      "description": "Radis blanc d’hiver; cru, mariné ou en salade.",
+      "aliases": [
+        {
+          "name": "radis blanc"
+        },
+        {
+          "name": "radis d’hiver"
+        },
+        {
+          "name": "white radish"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "d338ed0a-76c1-447b-b724-ad2991361ea3",
+      "name": "betterave rouge",
+      "pluralName": "betteraves rouges",
+      "description": "Légume-racine; chair rouge foncé, saveur terreuse, bouillie ou rôtie.",
+      "aliases": [
+        {
+          "name": "betterave"
+        },
+        {
+          "name": "betteraves"
+        },
+        {
+          "name": "betterave rouge"
+        },
+        {
+          "name": "betteraves rouges"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "7f5a120c-b720-4a81-a49e-dca1341c8fd6",
+      "name": "salsifis noir",
+      "pluralName": "salsifis noirs",
+      "description": "Légume-racine; bouilli ou braisé comme accompagnement.",
+      "aliases": [
+        {
+          "name": "racine noire"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "e0a1688a-d31b-4332-b948-01e4c0116c35",
+      "name": "taro",
+      "pluralName": "taros",
+      "description": "Tubercule tropical; riche en amidon, bouilli ou frit.",
+      "aliases": [
+        {
+          "name": "dasheen"
+        },
+        {
+          "name": "colocasia"
+        },
+        {
+          "name": "racine de taro"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "c10213bc-9134-404c-8887-9fb3dc1cfbea",
+      "name": "châtaigne d’eau",
+      "pluralName": "châtaignes d’eau",
+      "description": "Tubercule aquatique; chair blanche croquante, utilisé dans les sautés.",
+      "aliases": [
+        {
+          "name": "water chestnut"
+        },
+        {
+          "name": "châtaigne d’eau chinoise"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "94e39f9a-74d7-4f33-aad2-55bb00ad138f",
+      "name": "radis pastèque",
+      "pluralName": "radis pastèques",
+      "description": "Radis à cœur rose; cru en salade.",
+      "aliases": [
+        {
+          "name": "watermelon radish"
+        },
+        {
+          "name": "watermelonradish"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "2c1754db-c7f6-4fac-b834-0efcf5f930e3",
+      "name": "carotte d’hiver",
+      "pluralName": "carottes d’hiver",
+      "description": "Grande carotte; en soupe, en ragoût ou rôtie.",
+      "aliases": [
+        {
+          "name": "grosse carotte"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "5397ef17-7331-48c9-97e4-09ef28418ab3",
+      "name": "carotte",
+      "pluralName": "carottes",
+      "description": "Légume-racine; crue, cuite ou rôtie.",
+      "aliases": [
+        {
+          "name": "carotte"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "ea6826f8-f8dd-4377-b7fe-6525b876fb52",
+      "name": "yacon",
+      "pluralName": "yacons",
+      "description": "Tubercule sucré; croquant cru ou rôti dans les plats.",
+      "aliases": [
+        {
+          "name": "racine pomme"
+        },
+        {
+          "name": "racine de yacon"
+        },
+        {
+          "name": "yacón"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
+      "id": "424fbbb6-3168-4791-8c75-58c45da79fe6",
+      "name": "igname",
+      "pluralName": "ignames",
+      "description": "Tubercule tropical; gros et riche en amidon, bouilli ou cuit au four.",
+      "aliases": [
+        {
+          "name": "yam"
+        },
+        {
+          "name": "racine d’igname"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    }
+  ]
+}

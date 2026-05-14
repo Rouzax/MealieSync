@@ -1,0 +1,115 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "9db17816-ce23-4f53-a9b0-173730d592e3",
+      "name": "flocon de sarrasin",
+      "pluralName": "flocons de sarrasin",
+      "description": "Sarrasin aplati; sans gluten, pour le porridge ou le muesli.",
+      "aliases": [],
+      "label": "Céréales du petit-déjeuner"
+    },
+    {
+      "id": "ef3e51c3-2e87-4e1d-a503-ab4ea73372b6",
+      "name": "cornflakes",
+      "pluralName": "cornflakes",
+      "description": "Flocons de maïs soufflés; céréale croustillante pour le déjeuner avec du lait.",
+      "aliases": [
+        {
+          "name": "corn flakes"
+        },
+        {
+          "name": "flocons de maïs"
+        },
+        {
+          "name": "corn-flakes"
+        }
+      ],
+      "label": "Céréales du petit-déjeuner"
+    },
+    {
+      "id": "584fe8e3-89fe-4fa2-a8cb-223b780d2bb4",
+      "name": "flocon d’orge",
+      "pluralName": "flocons d’orge",
+      "description": "Grains d’orge aplatis; pour le porridge ou dans le muesli.",
+      "aliases": [],
+      "label": "Céréales du petit-déjeuner"
+    },
+    {
+      "id": "820ab0f0-64d6-4ad1-9232-7124f8890b3f",
+      "name": "flocons d’avoine",
+      "pluralName": "flocons d’avoine",
+      "description": "Grains d’avoine aplatis; pour le porridge, les biscuits et la pâtisserie.",
+      "aliases": [
+        {
+          "name": "avoine roulée"
+        }
+      ],
+      "label": "Céréales du petit-déjeuner"
+    },
+    {
+      "id": "e753e223-1c89-403e-b5f0-1229832d94f4",
+      "name": "muesli croustillant",
+      "pluralName": "muesli croustillant",
+      "description": "Muesli rôti et croquant; avec du yogourt, du lait ou comme garniture.",
+      "aliases": [
+        {
+          "name": "cruesli"
+        },
+        {
+          "name": "granola"
+        },
+        {
+          "name": "muesli-croustillant"
+        }
+      ],
+      "label": "Céréales du petit-déjeuner"
+    },
+    {
+      "id": "923df563-2e12-49d1-af24-32bc329b6957",
+      "name": "muesli",
+      "pluralName": "muesli",
+      "description": "Mélange de flocons d’avoine, de noix et de fruits séchés; avec du lait ou du yogourt.",
+      "aliases": [
+        {
+          "name": "müsli"
+        }
+      ],
+      "label": "Céréales du petit-déjeuner"
+    },
+    {
+      "id": "ce086e72-1647-4a23-8514-d85a53e0a3a4",
+      "name": "flocon de quinoa",
+      "pluralName": "flocons de quinoa",
+      "description": "Quinoa aplati; sans gluten, pour le porridge ou le muesli.",
+      "aliases": [],
+      "label": "Céréales du petit-déjeuner"
+    },
+    {
+      "id": "4cb46f84-220f-4099-888e-2af120ad3e57",
+      "name": "flocon de seigle",
+      "pluralName": "flocons de seigle",
+      "description": "Grains de seigle aplatis; pour le porridge ou dans le pain.",
+      "aliases": [],
+      "label": "Céréales du petit-déjeuner"
+    },
+    {
+      "id": "79bfad73-aece-4240-9328-8f1a40954334",
+      "name": "flocon d’épeautre",
+      "pluralName": "flocons d’épeautre",
+      "description": "Grains d’épeautre aplatis; saveur de noisette, pour le porridge ou le muesli.",
+      "aliases": [],
+      "label": "Céréales du petit-déjeuner"
+    },
+    {
+      "id": "eb9fb80f-f36a-420b-9c01-437812b57fb2",
+      "name": "flocons d’avoine entiers",
+      "pluralName": "flocons d’avoine entiers",
+      "description": "Flocons d’avoine moins transformés et plus riches en fibres; pour le déjeuner, le porridge et la pâtisserie.",
+      "aliases": [],
+      "label": "Céréales du petit-déjeuner"
+    }
+  ]
+}

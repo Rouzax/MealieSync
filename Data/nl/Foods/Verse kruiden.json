@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "4d52b385-17e0-4064-b070-6d05f3253646",
       "name": "basilicum [vers]",
       "pluralName": "basilicum [vers]",
       "description": "Aromatisch groen kruid; in pesto, salades en pastasaus.",
@@ -21,6 +22,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "75d4469f-2b47-4043-a3f8-82d3f7bd5152",
       "name": "bernagie [vers]",
       "pluralName": "bernagie [vers]",
       "description": "Kruid met komkommeraroma; in salades, drankjes of als garnering.",
@@ -44,6 +46,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "17b4fbbe-dcca-48ce-810e-3f79adde3d01",
       "name": "bieslook [vers]",
       "pluralName": "bieslook [vers]",
       "description": "Milde uiensmaak; fijngehakt over ei, aardappel en salades.",
@@ -61,6 +64,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "d8d264a1-de7a-46c5-9e59-0fdf1c171039",
       "name": "bladselderij [vers]",
       "pluralName": "bladselderij [vers]",
       "description": "Selderijblad; in soep, bouillon en sauzen.",
@@ -90,6 +94,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "4e3fe72c-a9ce-49e9-abb0-676e7e1493b0",
       "name": "bonenkruid [vers]",
       "pluralName": "bonenkruid [vers]",
       "description": "Kruid met peperige smaak; meegekookt met bonen en peulvruchten.",
@@ -107,6 +112,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "5e464009-08f2-4839-8bd2-dc6c1510e55d",
       "name": "bouquet garni",
       "pluralName": "bouquet garni",
       "description": "Kruidenbundel; meegetrokken in bouillon en stoof.",
@@ -118,6 +124,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "0395ee2a-8ccd-4e1d-b173-6e61343396d5",
       "name": "brandnetel [vers]",
       "pluralName": "brandnetels [vers]",
       "description": "Jonge brandnetel; kort geblancheerd in soep, stamppot of thee.",
@@ -135,6 +142,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "e49a73bc-5315-43ed-8494-e48481100c1e",
       "name": "citroengras [vers]",
       "pluralName": "citroengras [vers]",
       "description": "Citrusachtige stengel; in Aziatische soepen en curry's.",
@@ -158,6 +166,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "0c529898-2c79-4503-97a8-7b1a6dd8bc19",
       "name": "citroenmelisse [vers]",
       "pluralName": "citroenmelisse [vers]",
       "description": "Fris citroenkruid; in thee, salades en desserts.",
@@ -190,6 +199,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "9d1f5554-8e92-41d8-926c-ee1b4a15cfa1",
       "name": "citroenverbena [vers]",
       "pluralName": "citroenverbena [vers]",
       "description": "Kruid met sterk citroenaroma; in thee en desserts.",
@@ -222,6 +232,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "18b5bc5d-6364-41a5-b1ce-0642d5b8e5a5",
       "name": "dille [vers]",
       "pluralName": "dille [vers]",
       "description": "Aromatisch kruid; bij vis, aardappel en komkommer.",
@@ -239,6 +250,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "2d449f5b-902a-4e5f-8476-fe834343d33e",
       "name": "dragon [vers]",
       "pluralName": "dragon [vers]",
       "description": "Anijsachtig kruid; in béarnaise, kip en sauzen.",
@@ -280,6 +292,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "b1acd4f9-5a0b-4d16-b426-51a7ee65e582",
       "name": "kerrieblad [vers]",
       "pluralName": "kerrieblaadjes [vers]",
       "description": "Aromatische blaadjes; meegebakken in Indiase curry's.",
@@ -315,6 +328,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "8d582feb-806c-4b98-ba64-f1cf37a333bf",
       "name": "kervel [vers]",
       "pluralName": "kervel [vers]",
       "description": "Zacht anijsachtig kruid; in soep, omelet en saus.",
@@ -332,6 +346,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "78482de9-075f-4546-9777-20a73da53c48",
       "name": "koriander [vers]",
       "pluralName": "koriander [vers]",
       "description": "Korianderblad; als frisse topping in Aziatische en Mexicaanse keuken.",
@@ -361,6 +376,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "ecd2503f-10ce-4b18-91fb-23a420c88a93",
       "name": "koriandersteel [vers]",
       "pluralName": "korianderstelen [vers]",
       "description": "Korianderstelen; fijngehakt in curry's, soepen en salsa.",
@@ -393,6 +409,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "ce6c2e76-24e3-4aee-8a96-da7185ddcba5",
       "name": "kruizemunt [vers]",
       "pluralName": "kruizemunt [vers]",
       "description": "Muntsoort met milde smaak; in salades, sauzen en thee.",
@@ -422,6 +439,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "a3445923-ee35-47dc-85c2-b7588d2c7a46",
       "name": "krulpeterselie [vers]",
       "pluralName": "krulpeterselie [vers]",
       "description": "Krulpeterselie; als garnering en in sauzen.",
@@ -457,6 +475,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "fe35d614-73ac-4720-af15-a00ba52ae8a6",
       "name": "laurierblad [vers]",
       "pluralName": "laurierblaadjes [vers]",
       "description": "Vers laurierblad; milder aroma, meegetrokken in lichte soep, saus en stoof.",
@@ -480,6 +499,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "786e14a3-a364-4c49-b40e-ebc5ffd2b13e",
       "name": "lavas [vers]",
       "pluralName": "lavas [vers]",
       "description": "Kruid met bouillonsmaak; in soep en bouillon.",
@@ -515,6 +535,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "b0f4e8b3-e084-4161-a563-64bc6c14b823",
       "name": "makrutlimoenblad [vers]",
       "pluralName": "makrutlimoenblaadjes [vers]",
       "description": "Citrusblad van makrutlimoen; in Thaise curry's en soep.",
@@ -550,6 +571,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "866c13ce-dc45-4761-aaae-e8002e2eb663",
       "name": "marjolein [vers]",
       "pluralName": "marjolein [vers]",
       "description": "Kruidig blad; in vleesgerechten, worst en stoofpot.",
@@ -579,6 +601,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "bf4774f1-52ff-4061-af62-12863f98015e",
       "name": "munt [vers]",
       "pluralName": "munt [vers]",
       "description": "Fris kruid; in thee, desserts en als garnering.",
@@ -602,6 +625,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "2d5040a4-8b49-478d-b44c-4904e5780ea4",
       "name": "oregano [vers]",
       "pluralName": "oregano [vers]",
       "description": "Aromatisch kruid; in tomatensaus, pizza en pasta.",
@@ -619,6 +643,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "e21dc5c2-737c-478e-872a-e036fa12f8ec",
       "name": "pepermunt [vers]",
       "pluralName": "pepermunt [vers]",
       "description": "Koele muntsoort; in thee, siroop en desserts.",
@@ -639,6 +664,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "c32dbac1-3108-4dd5-9be6-f85b790fbcd4",
       "name": "platte peterselie [vers]",
       "pluralName": "platte peterselie [vers]",
       "description": "Bladpeterselie; in chimichurri, soepen en salades.",
@@ -665,6 +691,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "ea755af5-f1d7-47c3-8c84-0f09e967c6f9",
       "name": "rozemarijn [vers]",
       "pluralName": "rozemarijn [vers]",
       "description": "Naaldvormig kruid; bij vlees, aardappel en brood.",
@@ -682,6 +709,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "75b5ba14-b09e-414f-9a7b-6b92982a0657",
       "name": "salie [vers]",
       "pluralName": "salie [vers]",
       "description": "Aromatisch blad; in boter, pasta en vleesgerechten.",
@@ -699,6 +727,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "a036a2df-fb19-4e07-a2ac-f8a6934c2b6c",
       "name": "thaise basilicum [vers]",
       "pluralName": "thaise basilicum [vers]",
       "description": "Anijsachtige basilicum; in wokgerechten en curry.",
@@ -722,6 +751,7 @@
       "label": "Verse kruiden"
     },
     {
+      "id": "9f5484a0-f4ed-4f26-89ec-6ef52167fb4f",
       "name": "tijm [vers]",
       "pluralName": "tijm [vers]",
       "description": "Aromatisch kruid; in stoofpot, vlees en groenten.",

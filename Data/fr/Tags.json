@@ -1,0 +1,207 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Tags",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "e042f01f-b808-48f6-95c2-b89328f82b67",
+      "name": "régime | diabétique"
+    },
+    {
+      "id": "5442e2d2-2863-4101-9958-3e3405071fb9",
+      "name": "régime | sans gluten"
+    },
+    {
+      "id": "bb270f29-af37-4510-b410-c694e38485d4",
+      "name": "régime | halal"
+    },
+    {
+      "id": "815d85d4-f93a-49fb-883e-3ebfddf25985",
+      "name": "régime | keto"
+    },
+    {
+      "id": "0a96ff24-0a9c-481a-b396-e9ee52cff87a",
+      "name": "régime | casher"
+    },
+    {
+      "id": "92130239-c165-4ad2-8d2a-3ae6a194c37e",
+      "name": "régime | sans lactose"
+    },
+    {
+      "id": "44fa2a64-4dc4-481c-a20e-9fff8bdd48ea",
+      "name": "régime | paléo"
+    },
+    {
+      "id": "e5e86ea0-d243-495d-ae84-660d1cf423b2",
+      "name": "régime | végane"
+    },
+    {
+      "id": "797cc8eb-d099-4056-98e3-9756cd100451",
+      "name": "régime | végétarien"
+    },
+    {
+      "id": "f353df57-b869-40aa-9f54-aa7383e01309",
+      "name": "régime | faible en gras"
+    },
+    {
+      "id": "2b343602-9ae0-4aa5-8e86-fcebabe1c975",
+      "name": "régime | faible en sel"
+    },
+    {
+      "id": "d3423ae8-518f-4653-8acc-3977d748c314",
+      "name": "protéine | poulet"
+    },
+    {
+      "id": "f4e50a8f-e427-4b15-89b0-e0108feb0f4e",
+      "name": "protéine | agneau"
+    },
+    {
+      "id": "b7d40899-a470-4370-89a6-43726a016820",
+      "name": "protéine | bœuf"
+    },
+    {
+      "id": "441562a8-3037-422b-8f2f-b336913d99ed",
+      "name": "protéine | crustacés et mollusques"
+    },
+    {
+      "id": "0dd123ae-2858-4df5-83f0-5ef61cdafa63",
+      "name": "protéine | porc"
+    },
+    {
+      "id": "c87a5d51-d42b-49e7-a0d5-8903461f72db",
+      "name": "protéine | poisson"
+    },
+    {
+      "id": "bc26ce0f-61fc-4b67-b334-f59f3d3c8b2f",
+      "name": "protéine | gibier"
+    },
+    {
+      "id": "161bc41d-48b4-46d6-983e-cf7378b09e01",
+      "name": "cuisine | américaine"
+    },
+    {
+      "id": "5ef2bd93-6be2-4760-b1e9-94f832b24ca3",
+      "name": "cuisine | asiatique"
+    },
+    {
+      "id": "71c43b7f-df95-4926-8424-81db01b7e02c",
+      "name": "cuisine | belge"
+    },
+    {
+      "id": "2a50fda1-1909-4bb3-9110-8a9c2eea3b6c",
+      "name": "cuisine | britannique"
+    },
+    {
+      "id": "116cecc8-5955-4e2f-87c5-06e54d05f595",
+      "name": "cuisine | caribéenne"
+    },
+    {
+      "id": "1b023124-bc91-4e6e-94cb-38f0deece7dc",
+      "name": "cuisine | chinoise"
+    },
+    {
+      "id": "1d4b88b1-5353-4266-b860-930fc5842b71",
+      "name": "cuisine | allemande"
+    },
+    {
+      "id": "6cdd3843-2402-424e-b7d8-00f06fcdc26d",
+      "name": "cuisine | française"
+    },
+    {
+      "id": "cf2710e8-8474-4456-8c85-268682b645b8",
+      "name": "cuisine | grecque"
+    },
+    {
+      "id": "e7dee7e1-06fb-4637-bcc8-d8acb2c390d1",
+      "name": "cuisine | indienne"
+    },
+    {
+      "id": "0f4cbd9f-0536-4d55-b5fb-b1fa3d88c746",
+      "name": "cuisine | indonésienne"
+    },
+    {
+      "id": "3db3259c-6510-4e34-8d64-fd2b69251fe4",
+      "name": "cuisine | italienne"
+    },
+    {
+      "id": "2a79432a-8184-4ac3-8dea-3ce383527206",
+      "name": "cuisine | japonaise"
+    },
+    {
+      "id": "92933ac6-6552-4b49-bf53-26525c06fa44",
+      "name": "cuisine | coréenne"
+    },
+    {
+      "id": "77c70c4a-569c-4076-83c7-4077ed1ba302",
+      "name": "cuisine | marocaine"
+    },
+    {
+      "id": "c5edc83c-69da-4914-8688-a0261d318f9e",
+      "name": "cuisine | méditerranéenne"
+    },
+    {
+      "id": "b52d75a7-e010-4047-9df2-0a539aeb29e9",
+      "name": "cuisine | mexicaine"
+    },
+    {
+      "id": "909ccb07-3f9a-4ad8-b428-ac06f8ccedc9",
+      "name": "cuisine | moyen-orientale"
+    },
+    {
+      "id": "245cbb86-87fe-4423-b955-9ad4c1118f37",
+      "name": "cuisine | néerlandaise"
+    },
+    {
+      "id": "d8dbd70d-c45e-4f9d-b22d-b31727a51f7c",
+      "name": "cuisine | scandinave"
+    },
+    {
+      "id": "296e7961-eb6b-4561-8c5a-f4a92b85dadf",
+      "name": "cuisine | espagnole"
+    },
+    {
+      "id": "3d24970a-3731-494d-a256-7ed9a2d1823d",
+      "name": "cuisine | surinamaise"
+    },
+    {
+      "id": "7f4f65ab-8d5d-4942-aa27-bb487a27ff5c",
+      "name": "cuisine | thaïlandaise"
+    },
+    {
+      "id": "d1ad537a-50c4-429a-b847-6fde2c2fe0a3",
+      "name": "cuisine | turque"
+    },
+    {
+      "id": "a5876311-70b5-4007-b639-706d8f1f3cd8",
+      "name": "cuisine | vietnamienne"
+    },
+    {
+      "id": "87852240-eb2c-45af-9c32-95c6b4d17d69",
+      "name": "cuisine | sud-américaine"
+    },
+    {
+      "id": "c807e19e-0b00-4ddf-8c1b-2670413776fa",
+      "name": "piquant | fort"
+    },
+    {
+      "id": "d101b358-8ea3-4338-bd8d-7ca796fe9b78",
+      "name": "piquant | moyen"
+    },
+    {
+      "id": "b8238022-43af-4cd4-865a-ce5bf5b015ac",
+      "name": "piquant | doux"
+    },
+    {
+      "id": "fa7dbc57-be16-4b6e-8d29-96a6dbea8573",
+      "name": "temps | 0-30"
+    },
+    {
+      "id": "5efa00ad-d2f0-41ef-afb9-0bc7c5dfcf16",
+      "name": "temps | 30-60"
+    },
+    {
+      "id": "c0671ee6-da69-4941-9e0c-746e87c20418",
+      "name": "temps | 60+"
+    }
+  ]
+}

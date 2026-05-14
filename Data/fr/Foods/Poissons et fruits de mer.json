@@ -1,0 +1,903 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "f36741a7-40de-42d5-95f2-9a7fee753a08",
+      "name": "anchois",
+      "pluralName": "anchois",
+      "description": "Petit poisson salé à l’huile; condiment au goût prononcé.",
+      "aliases": [
+        {
+          "name": "anchovis"
+        },
+        {
+          "name": "anchovy"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "3d8298f2-7fab-4265-8a86-2d68940f1995",
+      "name": "daurade",
+      "pluralName": "daurades",
+      "description": "Poisson de mer à chair blanche; souvent cuit entier au four ou grillé.",
+      "aliases": [
+        {
+          "name": "dorade"
+        },
+        {
+          "name": "goudbrasem"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "3ae61729-c9ae-4505-8cc3-4bee2eb30dc4",
+      "name": "filet de daurade",
+      "pluralName": "filets de daurade",
+      "description": "Filet de daurade; chair blanche, poêlée ou cuite à la vapeur.",
+      "aliases": [
+        {
+          "name": "dorade filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "7a596681-24b5-4d2c-a04e-11aa1c89b77b",
+      "name": "truite",
+      "pluralName": "truites",
+      "description": "Poisson d’eau douce à chair claire; souvent cuit entier.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "fc2c3f95-68af-448d-a6b3-bb20cacb8b9e",
+      "name": "gambas",
+      "pluralName": "gambas",
+      "description": "Grande crevette; poêlée ou grillée.",
+      "aliases": [
+        {
+          "name": "scampi"
+        },
+        {
+          "name": "scampis"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "7df31c06-fb53-4165-8998-feaf0a618f58",
+      "name": "crevette",
+      "pluralName": "crevettes",
+      "description": "Petit crustacé; cuit ou poêlé, pour salades et plats cuisinés.",
+      "aliases": [
+        {
+          "name": "shrimp"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "bd199e96-a367-4a1a-9af4-cf2301c69367",
+      "name": "truite fumée",
+      "pluralName": "truite fumée",
+      "description": "Poisson d’eau douce fumé; pour salades et entrées.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "1e739b00-aca9-4f88-b9a8-de8ef48edd1d",
+      "name": "flétan fumé",
+      "pluralName": "flétan fumé",
+      "description": "Poisson plat fumé; finement tranché pour toasts et salades.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "44478edb-57b3-4b92-bdf7-d65716f2a50d",
+      "name": "maquereau fumé",
+      "pluralName": "maquereau fumé",
+      "description": "Poisson gras fumé; pour salades et tartines.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "7133e3f3-9027-4aa6-9056-3ee51986ea39",
+      "name": "anguille fumée",
+      "pluralName": "anguille fumée",
+      "description": "Anguille fumée; poisson gras, préparation classique.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "ffae9466-1363-423e-94ee-52001c6f73d5",
+      "name": "saumon fumé",
+      "pluralName": "saumon fumé",
+      "description": "Filet de saumon fumé à froid; finement tranché sur toast ou dans les plats.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "883d5b0f-9c73-4e1f-9edf-c6f7a4d2e094",
+      "name": "hareng",
+      "pluralName": "harengs",
+      "description": "Poisson de mer; salé ou fumé, parfois consommé cru selon la préparation.",
+      "aliases": [
+        {
+          "name": "maatjesharing"
+        },
+        {
+          "name": "hareng salé"
+        },
+        {
+          "name": "haring"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "95445d9b-4ae5-4077-9aef-3b4ce11d42bf",
+      "name": "merlu",
+      "pluralName": "merlu",
+      "description": "Poisson blanc de mer; goût doux, poêlé ou cuit à la vapeur.",
+      "aliases": [
+        {
+          "name": "heek"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "ebfc6876-b11f-43c3-afe7-16355d26e940",
+      "name": "filet de merlu",
+      "pluralName": "filets de merlu",
+      "description": "Filet de merlu; chair blanche, poêlée ou cuite à la vapeur.",
+      "aliases": [
+        {
+          "name": "heek filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "450f8185-61f4-4463-a95c-af23b0c6f460",
+      "name": "flétan",
+      "pluralName": "flétan",
+      "description": "Grand poisson plat; chair blanche ferme.",
+      "aliases": [
+        {
+          "name": "heilbot"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "1d02669d-78e2-4aee-b4a0-3b368ac625b1",
+      "name": "filet de flétan",
+      "pluralName": "filets de flétan",
+      "description": "Filet de flétan; chair blanche ferme, poêlée ou pochée.",
+      "aliases": [
+        {
+          "name": "heilbot filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "91a5c550-538e-4dbf-a12c-85a31c743eba",
+      "name": "crevettes grises",
+      "pluralName": "crevettes grises",
+      "description": "Petites crevettes de la mer du Nord; décortiquées, pour cocktails et croquettes.",
+      "aliases": [
+        {
+          "name": "hollandse garnalen"
+        },
+        {
+          "name": "crevettes de la mer du Nord"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "e6b8eb82-45fa-40f8-a241-5978fe9f6df3",
+      "name": "calamar",
+      "pluralName": "calamars",
+      "description": "Mollusque; frit en anneaux ou utilisé dans les plats mijotés.",
+      "aliases": [
+        {
+          "name": "calamares"
+        },
+        {
+          "name": "pijlinktvis"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "8ff9ccec-ddca-49d4-95c8-f7ee1905d3e3",
+      "name": "anneaux de calamar",
+      "pluralName": "anneaux de calamar",
+      "description": "Calamar coupé en anneaux; destiné à la friture.",
+      "aliases": [
+        {
+          "name": "inktvis ringen"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "c7d5afa2-e8a9-4df9-b2fa-5d74d3121821",
+      "name": "cabillaud",
+      "pluralName": "cabillaud",
+      "description": "Poisson blanc de mer; ferme et doux, souvent frit ou poêlé.",
+      "aliases": [
+        {
+          "name": "cod"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "dfa8eaf6-4898-4c9e-9e12-83feb469ea31",
+      "name": "filet de cabillaud",
+      "pluralName": "filets de cabillaud",
+      "description": "Filet de cabillaud; chair blanche ferme, poêlée ou cuite à la vapeur.",
+      "aliases": [
+        {
+          "name": "kabeljauw filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "d00dee44-41bd-4a40-a421-9d8f5140faa2",
+      "name": "dos de cabillaud",
+      "pluralName": "dos de cabillaud",
+      "description": "Partie épaisse du filet de cabillaud; morceau juteux, poêlé ou poché.",
+      "aliases": [
+        {
+          "name": "kabeljauw haas"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "884aeb6f-9a33-49cb-a9f9-6e5f98d97656",
+      "name": "caviar",
+      "pluralName": "caviar",
+      "description": "Œufs d’esturgeon; mets délicat servi sur toast ou blini.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "fca6d46a-8785-44f0-a141-92818dca12ed",
+      "name": "coque",
+      "pluralName": "coques",
+      "description": "Petit coquillage; dans les pâtes ou les soupes.",
+      "aliases": [
+        {
+          "name": "kokkel"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "1610c334-0419-41aa-a9e6-ffee8edb0723",
+      "name": "kombu",
+      "pluralName": "kombu",
+      "description": "Algue séchée; pour dashi, bouillons et umami.",
+      "aliases": [
+        {
+          "name": "konbu"
+        },
+        {
+          "name": "algue kombu"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "6da74f43-e7bc-48af-a10f-96f9d81edc7f",
+      "name": "lieu jaune",
+      "pluralName": "lieux jaunes",
+      "description": "Poisson blanc de mer; doux, adapté à la cuisson à la poêle ou à la vapeur.",
+      "aliases": [
+        {
+          "name": "pollak"
+        },
+        {
+          "name": "koolvis"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "86d27dd9-6dce-4093-a9a8-a150d37d8833",
+      "name": "filet de lieu jaune",
+      "pluralName": "filets de lieu jaune",
+      "description": "Filet de lieu jaune; chair blanche douce, poêlée ou cuite à la vapeur.",
+      "aliases": [
+        {
+          "name": "koolvis filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "39c9c95d-0d8b-4501-8a8a-60de0431e397",
+      "name": "crabe",
+      "pluralName": "crabes",
+      "description": "Crustacé à chair blanche et douce; pour salades et croquettes.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "de73a116-0f19-451b-8679-7044cda0be35",
+      "name": "homard",
+      "pluralName": "homards",
+      "description": "Crustacé de luxe; pour plats festifs.",
+      "aliases": [
+        {
+          "name": "lobster"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "41b70a7e-1651-4e40-ab5e-6ccbf43a5526",
+      "name": "maquereau",
+      "pluralName": "maquereaux",
+      "description": "Poisson gras de mer; goût marqué, grillé ou poêlé.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "d06bf8f0-8c64-4136-a8c2-d34327c251d8",
+      "name": "moule",
+      "pluralName": "moules",
+      "description": "Coquillage; cuit au vin avec des légumes.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "10dfe072-3d4b-42f0-91b4-15c0508d884b",
+      "name": "nori",
+      "pluralName": "nori",
+      "description": "Feuille d’algue séchée; pour sushi et garniture.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "0bd89561-5554-4d46-aa44-2606697fe5cd",
+      "name": "poulpe",
+      "pluralName": "poulpes",
+      "description": "Mollusque; mijoté longuement ou grillé.",
+      "aliases": [
+        {
+          "name": "octopus"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "85bd8bc0-4674-46ab-9505-e5d568637471",
+      "name": "huître",
+      "pluralName": "huîtres",
+      "description": "Coquillage; cru avec citron ou gratiné.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "49a666d1-7884-4bf2-8d4e-39248f1d79d5",
+      "name": "anguille",
+      "pluralName": "anguilles",
+      "description": "Poisson d’eau douce allongé; le plus souvent consommé fumé.",
+      "aliases": [
+        {
+          "name": "aal"
+        },
+        {
+          "name": "paling"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "ce4e381b-96fb-4c7f-8683-fac7f836ec99",
+      "name": "pangasius",
+      "pluralName": "pangasius",
+      "description": "Poisson blanc d’eau douce; goût doux, poêlé ou cuit à la vapeur.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "c99b36e8-4cdc-4115-9e9d-35bf7b3dcd75",
+      "name": "filet de pangasius",
+      "pluralName": "filets de pangasius",
+      "description": "Filet de pangasius; chair blanche douce, poêlée ou cuite à la vapeur.",
+      "aliases": [
+        {
+          "name": "pangasius filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "57e04f75-ef56-401e-a007-08f2a6b4acb8",
+      "name": "écrevisse",
+      "pluralName": "écrevisses",
+      "description": "Petit crustacé d’eau douce; cuit à la vapeur ou à l’eau, pour salades.",
+      "aliases": [
+        {
+          "name": "rivierkreeft"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "1a10621a-dded-4a93-9fd6-e73869ebce97",
+      "name": "sébaste",
+      "pluralName": "sébastes",
+      "description": "Poisson de mer rouge-rosé; chair ferme, poêlée ou grillée.",
+      "aliases": [
+        {
+          "name": "roodbaars"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "43e658ea-8fed-4b87-912a-6f75b13866fc",
+      "name": "filet de sébaste",
+      "pluralName": "filets de sébaste",
+      "description": "Filet de sébaste; chair ferme, poêlée.",
+      "aliases": [
+        {
+          "name": "roodbaars filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "295d8448-9ccf-41e5-af78-c90af15a8e0a",
+      "name": "sardine",
+      "pluralName": "sardines",
+      "description": "Petit poisson gras; grillé frais ou conservé dans l’huile.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "832406e9-4b19-4449-b570-fa2103d09907",
+      "name": "couteau",
+      "pluralName": "couteaux",
+      "description": "Coquillage allongé; brièvement poêlé ou utilisé dans pâtes et risottos.",
+      "aliases": [
+        {
+          "name": "scheermesschelp"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "1b4c4267-0798-4185-8de6-072611b21402",
+      "name": "églefin",
+      "pluralName": "églefins",
+      "description": "Poisson blanc de mer; goût doux, souvent poché ou poêlé.",
+      "aliases": [
+        {
+          "name": "haddock"
+        },
+        {
+          "name": "schelvis"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "89268e2f-8787-47bf-81e1-da1f9d6a7c61",
+      "name": "filet d’églefin",
+      "pluralName": "filets d’églefin",
+      "description": "Filet d’églefin; chair blanche tendre, poêlée ou cuite à la vapeur.",
+      "aliases": [
+        {
+          "name": "schelvis filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "a13fd2bf-0564-4dfc-add7-b2d7eabb4c30",
+      "name": "plie",
+      "pluralName": "plies",
+      "description": "Poisson plat; chair blanche douce, poêlée ou pochée.",
+      "aliases": [
+        {
+          "name": "schol"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "0d07d1cd-aa26-419d-bcaf-9b67cb5767a8",
+      "name": "filet de plie",
+      "pluralName": "filets de plie",
+      "description": "Filet de plie; chair blanche fine, poêlée.",
+      "aliases": [
+        {
+          "name": "schol filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "16a5b765-a034-4b82-84e6-176e94489eb6",
+      "name": "saint-jacques",
+      "pluralName": "saint-jacques",
+      "description": "Coquillage à chair délicate; rapidement poêlé.",
+      "aliases": [
+        {
+          "name": "coquille Saint-Jacques"
+        },
+        {
+          "name": "coquilles Saint-Jacques"
+        },
+        {
+          "name": "coquille"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "999ae0ce-8250-4f21-8713-e3c939239ddf",
+      "name": "solette",
+      "pluralName": "solettes",
+      "description": "Petite sole; généralement cuite entière à la poêle.",
+      "aliases": [
+        {
+          "name": "sliptong"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "55e59353-038e-45c4-bc8f-6eb7f12efbb7",
+      "name": "sandre",
+      "pluralName": "sandres",
+      "description": "Poisson d’eau douce à chair blanche ferme; souvent cuisiné en filet.",
+      "aliases": [
+        {
+          "name": "snoekbaars"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "25a95067-f6de-46a1-afda-7bc09f4814f7",
+      "name": "surimi",
+      "pluralName": "surimi",
+      "description": "Pâte de poisson transformée; pour salades et sushi.",
+      "aliases": [
+        {
+          "name": "bâtonnet de crabe"
+        },
+        {
+          "name": "bâtonnets de crabe"
+        },
+        {
+          "name": "krabstick"
+        },
+        {
+          "name": "krabsticks"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "2412773f-f3fd-4f56-9eb5-5245083a45b0",
+      "name": "crevette tigrée",
+      "pluralName": "crevettes tigrées",
+      "description": "Grande crevette rayée; pour griller ou sauter au wok.",
+      "aliases": [
+        {
+          "name": "tijgergarnaal"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "bb2e131c-004f-46e7-ba06-d937e6cc2ad6",
+      "name": "tilapia",
+      "pluralName": "tilapia",
+      "description": "Poisson blanc d’eau douce; goût doux, poêlé ou cuit à la vapeur.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "4c9362a1-e0d7-40c4-80f3-d7083967a0cf",
+      "name": "filet de tilapia",
+      "pluralName": "filets de tilapia",
+      "description": "Filet de tilapia; chair blanche douce, poêlée ou cuite à la vapeur.",
+      "aliases": [
+        {
+          "name": "tilapia filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "ee872921-f1a8-4679-b11c-d54d0615b616",
+      "name": "sole",
+      "pluralName": "soles",
+      "description": "Poisson plat à chair blanche fine; poisson noble, souvent cuit entier.",
+      "aliases": [
+        {
+          "name": "zeetong"
+        },
+        {
+          "name": "tong"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "bcf18cd6-c08e-4704-af0d-67fa2c2e22dd",
+      "name": "filet de sole",
+      "pluralName": "filets de sole",
+      "description": "Filet de sole; chair blanche fine, poêlée.",
+      "aliases": [
+        {
+          "name": "tong filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "01cdbc50-cb83-4f11-a977-79379ff8c451",
+      "name": "thon",
+      "pluralName": "thon",
+      "description": "Grand poisson de mer à chair rouge; cru en sashimi ou en conserve.",
+      "aliases": [
+        {
+          "name": "tuna"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "1dba1480-7f2d-4a43-b9c6-51e191576310",
+      "name": "steak de thon",
+      "pluralName": "steaks de thon",
+      "description": "Tranche épaisse de thon frais; brièvement grillée ou poêlée.",
+      "aliases": [
+        {
+          "name": "tonijn steak"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "b624ae7c-a3dc-46d2-a375-b1e163fe8d44",
+      "name": "palourde",
+      "pluralName": "palourdes",
+      "description": "Petit coquillage comestible; classique dans les pâtes vongole.",
+      "aliases": [
+        {
+          "name": "vongole"
+        },
+        {
+          "name": "vongola"
+        },
+        {
+          "name": "venusschelp"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "60bc1549-d1b2-4ff8-b510-293cd0c0c8be",
+      "name": "perche du Nil",
+      "pluralName": "perches du Nil",
+      "description": "Poisson blanc d’eau douce d’Afrique; goût doux.",
+      "aliases": [
+        {
+          "name": "victoriabaars"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "05c233ac-70b7-4934-a14c-5593a141e563",
+      "name": "filet de perche du Nil",
+      "pluralName": "filets de perche du Nil",
+      "description": "Filet de perche du Nil; chair blanche, poêlée ou cuite à la vapeur.",
+      "aliases": [
+        {
+          "name": "victoriabaars filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "dd952ba7-207a-444c-a7cf-42dcad3e1cb4",
+      "name": "wakamé",
+      "pluralName": "wakamé",
+      "description": "Algue comestible; pour salades et soupe miso.",
+      "aliases": [
+        {
+          "name": "wakame"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "e63bc646-6fda-40e0-ac5e-a1c7f173abea",
+      "name": "saumon fumé à chaud",
+      "pluralName": "saumon fumé à chaud",
+      "description": "Filet de saumon fumé à chaud; texture plus ferme que le saumon fumé à froid.",
+      "aliases": [],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "3053a7aa-c73e-4c42-a0f1-4f167565582b",
+      "name": "merlan",
+      "pluralName": "merlans",
+      "description": "Poisson blanc de mer; léger et doux, poêlé ou en soupe.",
+      "aliases": [
+        {
+          "name": "wijting"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "f599b96b-8b6e-48e2-b55e-bcc861a015b8",
+      "name": "filet de merlan",
+      "pluralName": "filets de merlan",
+      "description": "Filet de merlan; chair blanche légère, poêlée ou cuite à la vapeur.",
+      "aliases": [
+        {
+          "name": "wijting filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "1ed3cc9d-0b76-4acd-b7db-5e00b6eac4f3",
+      "name": "saumon",
+      "pluralName": "saumon",
+      "description": "Poisson gras à chair rose; très polyvalent en cuisine.",
+      "aliases": [
+        {
+          "name": "salmon"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "a57cef35-1c78-4756-8499-98ec4c2a9083",
+      "name": "filet de saumon",
+      "pluralName": "filets de saumon",
+      "description": "Filet de saumon; poêlé, grillé ou cuit à la vapeur.",
+      "aliases": [
+        {
+          "name": "zalm filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "62532b80-cfad-4e35-a241-58ed6f285cb0",
+      "name": "darne de saumon",
+      "pluralName": "darnes de saumon",
+      "description": "Tranche épaisse de saumon avec arête; poêlée ou grillée.",
+      "aliases": [
+        {
+          "name": "zalm moot"
+        },
+        {
+          "name": "zalmsteak"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "075ace71-5f6b-44c3-a0fa-566b66f70edc",
+      "name": "bar",
+      "pluralName": "bars",
+      "description": "Poisson de mer à chair fine; entier en croûte de sel ou en filet.",
+      "aliases": [
+        {
+          "name": "zeebaars"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "5bc9d62e-f7aa-4e16-98ea-9b6acd888db0",
+      "name": "filet de bar",
+      "pluralName": "filets de bar",
+      "description": "Filet de bar; chair blanche fine, poêlée.",
+      "aliases": [
+        {
+          "name": "zeebaars filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "13bb511a-2de7-440c-a136-af8f5c28a7dc",
+      "name": "lotte",
+      "pluralName": "lottes",
+      "description": "Poisson de mer à chair ferme rappelant le homard; douce et légèrement sucrée.",
+      "aliases": [
+        {
+          "name": "zeeduivel"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "5763d2f9-c55b-40c3-9871-9a6b8c12070c",
+      "name": "queue de lotte",
+      "pluralName": "queues de lotte",
+      "description": "Queue de lotte; chair ferme, poêlée ou grillée.",
+      "aliases": [
+        {
+          "name": "zeeduivel staart"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "d9a79ac7-f42c-46f9-ba25-38624aa942d1",
+      "name": "loup de mer",
+      "pluralName": "loups de mer",
+      "description": "Poisson de mer à chair blanche ferme; poêlé ou cuit à la vapeur.",
+      "aliases": [
+        {
+          "name": "zeewolf"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "200a76a0-fd33-4b88-8c8e-5102cb39a66b",
+      "name": "filet de loup de mer",
+      "pluralName": "filets de loup de mer",
+      "description": "Filet de loup de mer; chair blanche ferme, poêlée.",
+      "aliases": [
+        {
+          "name": "zeewolf filet"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "480ea505-f072-4f08-aeb2-835b62ae2f8c",
+      "name": "espadon",
+      "pluralName": "espadon",
+      "description": "Grand poisson de mer à chair ferme; grillé en steak.",
+      "aliases": [
+        {
+          "name": "zwaardvis"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
+      "id": "2bbf0b1f-56e1-4bb6-a852-ed239e04aa1b",
+      "name": "steak d’espadon",
+      "pluralName": "steaks d’espadon",
+      "description": "Tranche épaisse d’espadon; grillée ou poêlée.",
+      "aliases": [
+        {
+          "name": "zwaardvis steak"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    }
+  ]
+}

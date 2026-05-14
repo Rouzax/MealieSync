@@ -4,6 +4,7 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "9db17816-ce23-4f53-a9b0-173730d592e3",
       "name": "boekweitvlok",
       "pluralName": "boekweitvlokken",
       "description": "Geplette boekweit; glutenvrij, voor pap of muesli.",
@@ -11,6 +12,7 @@
       "label": "Ontbijtgranen"
     },
     {
+      "id": "ef3e51c3-2e87-4e1d-a503-ab4ea73372b6",
       "name": "cornflakes",
       "pluralName": "cornflakes",
       "description": "Gepofte maïsvlokken; knapperig ontbijtgraan met melk.",
@@ -28,6 +30,7 @@
       "label": "Ontbijtgranen"
     },
     {
+      "id": "584fe8e3-89fe-4fa2-a8cb-223b780d2bb4",
       "name": "gerstevlok",
       "pluralName": "gerstevlokken",
       "description": "Geplette gerstekorrels; voor pap of in muesli.",
@@ -35,6 +38,7 @@
       "label": "Ontbijtgranen"
     },
     {
+      "id": "820ab0f0-64d6-4ad1-9232-7124f8890b3f",
       "name": "havermout",
       "pluralName": "havermout",
       "description": "Geplette haverkorrels; voor pap, koekjes en in bakken.",
@@ -46,6 +50,7 @@
       "label": "Ontbijtgranen"
     },
     {
+      "id": "e753e223-1c89-403e-b5f0-1229832d94f4",
       "name": "krokante muesli",
       "pluralName": "krokante muesli",
       "description": "Geroosterde muesli met crunch; met yoghurt, melk of als topping.",
@@ -63,6 +68,7 @@
       "label": "Ontbijtgranen"
     },
     {
+      "id": "923df563-2e12-49d1-af24-32bc329b6957",
       "name": "muesli",
       "pluralName": "muesli",
       "description": "Mengsel van havervlokken, noten en gedroogd fruit; met melk of yoghurt.",
@@ -74,6 +80,7 @@
       "label": "Ontbijtgranen"
     },
     {
+      "id": "ce086e72-1647-4a23-8514-d85a53e0a3a4",
       "name": "quinoavlok",
       "pluralName": "quinoavlokken",
       "description": "Geplette quinoa; glutenvrij, voor pap of muesli.",
@@ -81,6 +88,7 @@
       "label": "Ontbijtgranen"
     },
     {
+      "id": "4cb46f84-220f-4099-888e-2af120ad3e57",
       "name": "roggevlok",
       "pluralName": "roggevlokken",
       "description": "Geplette roggekorrels; voor pap of in brood.",
@@ -88,6 +96,7 @@
       "label": "Ontbijtgranen"
     },
     {
+      "id": "79bfad73-aece-4240-9328-8f1a40954334",
       "name": "speltvlok",
       "pluralName": "speltvlokken",
       "description": "Geplette speltkorrels; nootachtig, voor pap of muesli.",
@@ -95,6 +104,7 @@
       "label": "Ontbijtgranen"
     },
     {
+      "id": "eb9fb80f-f36a-420b-9c01-437812b57fb2",
       "name": "volkoren havermout",
       "pluralName": "volkoren havermout",
       "description": "Minder bewerkte havervlokken met meer vezels; voor ontbijt, pap en bakken.",

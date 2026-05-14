@@ -1,0 +1,870 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "ebe0cf4b-7a5b-4cd1-9cb7-5a6ce0da826d",
+      "name": "pâte d’achiote",
+      "pluralName": "pâte d’achiote",
+      "description": "Pâte de rocou; pâte rouge épicée pour marinades.",
+      "aliases": [
+        {
+          "name": "achiote pasta"
+        },
+        {
+          "name": "pasta de achiote"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "4042b14f-7853-4e01-9572-ca1790c9aecb",
+      "name": "sauce adobo",
+      "pluralName": "sauce adobo",
+      "description": "Sauce mexicaine à base de piments séchés et d’épices; utilisée pour marinades et plats mijotés.",
+      "aliases": [
+        {
+          "name": "adobo sauce"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "bbe67e00-5004-4244-9065-5c5e05061a8e",
+      "name": "aïoli",
+      "pluralName": "aïoli",
+      "description": "Mayonnaise à l’ail; sauce froide de la cuisine méditerranéenne.",
+      "aliases": [
+        {
+          "name": "allioli"
+        },
+        {
+          "name": "ajoaceite"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "adf1efb7-4742-4100-ac0a-5d694fc1343b",
+      "name": "ajvar",
+      "pluralName": "ajvar",
+      "description": "Tartinade serbe au poivron et à l’aubergine; condiment épicé ou accompagnement.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "bd99f53c-9e99-479b-8d43-c55eb0a92f68",
+      "name": "atjar tjampoer",
+      "pluralName": "atjar tjampoer",
+      "description": "Légumes marinés indonésiens; saveur aigre-douce.",
+      "aliases": [
+        {
+          "name": "atjar"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "04ee30ff-25ed-4f12-9e69-d2722d86c4e3",
+      "name": "sauce babi pangang",
+      "pluralName": "sauce babi pangang",
+      "description": "Sauce chinoise aigre-douce; servie avec le babi pangang.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "47a78321-046d-4636-87fe-2f035b16029d",
+      "name": "sauce barbecue",
+      "pluralName": "sauce barbecue",
+      "description": "Sauce sucrée-épicée; marinade ou glaçage pour viande.",
+      "aliases": [
+        {
+          "name": "bbq sauce"
+        },
+        {
+          "name": "bbq-sauce"
+        },
+        {
+          "name": "bbq saus"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "e17b7dc4-3453-4b50-b974-132f2c9d48bc",
+      "name": "bumbu",
+      "pluralName": "bumbu",
+      "description": "Pâte d’épices indonésienne; base pour currys et ragoûts.",
+      "aliases": [
+        {
+          "name": "boemboe"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "b8593691-3dfb-443a-a7ff-672c03708c24",
+      "name": "bumbu bali",
+      "pluralName": "bumbu bali",
+      "description": "Pâte d’épices indonésienne de Bali; relevée, pour viande et poisson.",
+      "aliases": [
+        {
+          "name": "boemboe bali"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "57011bb6-fe15-4378-ab75-72c2747aec6f",
+      "name": "bumbu satay",
+      "pluralName": "bumbu satay",
+      "description": "Pâte d’épices indonésienne pour sauce satay; mélangée avec beurre d’arachide pour les brochettes.",
+      "aliases": [
+        {
+          "name": "boemboe saté"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "b69cb240-6821-4b7f-86b3-370188077ed3",
+      "name": "salade de tomates pour bruschetta",
+      "pluralName": "salades de tomates pour bruschetta",
+      "description": "Garniture prête à l’emploi à base de tomate, ail et herbes; pour bruschetta ou accompagnement.",
+      "aliases": [
+        {
+          "name": "garniture pour bruschetta"
+        },
+        {
+          "name": "mélange pour bruschetta"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "a7ac6e02-7a6f-4233-881e-fb60df8d93a2",
+      "name": "chermoula",
+      "pluralName": "chermoula",
+      "description": "Pâte d’épices marocaine au persil, coriandre et citron; pour poisson ou viande.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "a2b453af-bf77-4ac9-bc42-56f8b409ad21",
+      "name": "sauce chili",
+      "pluralName": "sauce chili",
+      "description": "Sauce pimentée aigre-douce à base de chili; sauce à tremper ou pour wok.",
+      "aliases": [
+        {
+          "name": "chili sauce"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "94c2a250-0e39-4045-a2ae-656123848b53",
+      "name": "chimichurri",
+      "pluralName": "chimichurri",
+      "description": "Sauce aux herbes argentine; servie avec les viandes grillées.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "c4eef7db-a954-41b8-ab99-3599df8b6c1b",
+      "name": "chipotle en adobo",
+      "pluralName": "chipotle en adobo",
+      "description": "Piments jalapeños fumés dans une sauce adobo; condiment relevé de la cuisine mexicaine.",
+      "aliases": [
+        {
+          "name": "piment chipotle en sauce adobo"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "069d7d6e-c61b-4bf7-86f6-e956214dbbaa",
+      "name": "sauce cocktail",
+      "pluralName": "sauce cocktail",
+      "description": "Sauce rosée à base de mayonnaise et ketchup; pour crevettes et salades.",
+      "aliases": [
+        {
+          "name": "cocktail sauce"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "486123de-4565-4d5e-b53f-46945632bc73",
+      "name": "moutarde de Dijon",
+      "pluralName": "moutarde de Dijon",
+      "description": "Moutarde de style Dijon; pour vinaigrettes, sauces et marinades.",
+      "aliases": [
+        {
+          "name": "dijon mustard"
+        },
+        {
+          "name": "dijon mosterd"
+        },
+        {
+          "name": "moutarde dijon"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "bfdcb95e-32d1-4031-ba35-eb883c1c4048",
+      "name": "sauce soja foncée",
+      "pluralName": "sauce soja foncée",
+      "description": "Sauce soja épaisse et légèrement sucrée; utilisée dans les plats mijotés.",
+      "aliases": [
+        {
+          "name": "dark soy sauce"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "0bc957fd-c8d8-4fd2-8380-e8f11cea4bca",
+      "name": "sauce tomate frite",
+      "pluralName": "sauce tomate frite",
+      "description": "Base espagnole pour divers plats; sauce tomate cuite à l’huile.",
+      "aliases": [
+        {
+          "name": "tomate frito"
+        },
+        {
+          "name": "tomato frito"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "921365e2-93d7-4f0b-94bb-c5451ab3b403",
+      "name": "oignons frits",
+      "pluralName": "oignons frits",
+      "description": "Petits oignons frits croustillants; garniture pour plats asiatiques.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "5bc4df8b-3c72-4bac-81b8-acd98aaac853",
+      "name": "moutarde jaune",
+      "pluralName": "moutarde jaune",
+      "description": "Moutarde jaune américaine; douce.",
+      "aliases": [
+        {
+          "name": "yellow mustard"
+        },
+        {
+          "name": "moutarde américaine"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "ce3cfd3f-80fc-4340-8bfa-366aa6f658f9",
+      "name": "pâte de gingembre",
+      "pluralName": "pâte de gingembre",
+      "description": "Pâte de gingembre moulu; aromate pour currys, woks et marinades.",
+      "aliases": [
+        {
+          "name": "ginger paste"
+        },
+        {
+          "name": "gingerpaste"
+        },
+        {
+          "name": "gember pasta"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "43e127b1-ffb2-4fe2-9561-739aca9cd965",
+      "name": "sirop de gingembre",
+      "pluralName": "sirop de gingembre",
+      "description": "Sirop sucré infusé au gingembre; aromate pour boissons et desserts.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "2b9d982a-f138-4216-9ddc-540e757fdfdd",
+      "name": "gochujang",
+      "pluralName": "gochujang",
+      "description": "Pâte de piment fermentée coréenne; sucrée, relevée et riche en umami.",
+      "aliases": [
+        {
+          "name": "pâte de piment coréenne"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "77833f1c-11e7-4319-9abe-52ee21f451bb",
+      "name": "pâte de curry vert",
+      "pluralName": "pâte de curry vert",
+      "description": "Pâte thaïe aux piments verts; relevée et fraîche.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "de9ce81e-a6e0-4932-a22b-dbd35e3286d0",
+      "name": "harissa",
+      "pluralName": "harissa",
+      "description": "Pâte de piment nord-africaine; relevée.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "8cd562a2-726e-4852-be42-0098c44fa397",
+      "name": "sauce hoisin",
+      "pluralName": "sauce hoisin",
+      "description": "Sauce chinoise sucrée au soja et à l’ail; marinade ou sauce à tremper.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "4731010d-b633-4740-8ca0-1866fb950c2e",
+      "name": "moutarde au miel",
+      "pluralName": "moutarde au miel",
+      "description": "Sauce à base de moutarde et miel; douce et piquante, pour fromage ou salades.",
+      "aliases": [
+        {
+          "name": "honing mosterd"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "2aa0b8bb-5ed8-40d8-aec1-62d9a98a2bf1",
+      "name": "sauce piquante",
+      "pluralName": "sauce piquante",
+      "description": "Sauce rouge très relevée au chili; utilisée en petites quantités comme condiment.",
+      "aliases": [
+        {
+          "name": "hot sauce"
+        },
+        {
+          "name": "hotsauce"
+        },
+        {
+          "name": "hete saus"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "fbada578-5e98-4269-9ea3-ef036814747a",
+      "name": "houmous",
+      "pluralName": "houmous",
+      "description": "Trempette moyen-orientale aux pois chiches; onctueuse avec tahini, citron et ail.",
+      "aliases": [
+        {
+          "name": "hummus"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "807ccbd6-2bf0-4901-b873-5bcc828c5cee",
+      "name": "câpres",
+      "pluralName": "câpres",
+      "description": "Boutons floraux marinés; accent salé-acidulé dans sauces et salades.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "3b898e17-0e32-464a-bcb8-531e0383d2b3",
+      "name": "ketchup",
+      "pluralName": "ketchup",
+      "description": "Sauce tomate sucrée; sur frites et burgers.",
+      "aliases": [
+        {
+          "name": "ketchup de tomate"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "94d31794-841a-4517-9ea7-75d63b37a352",
+      "name": "sauce à l’ail",
+      "pluralName": "sauce à l’ail",
+      "description": "Sauce crémeuse à l’ail; pour kebab, frites ou légumes.",
+      "aliases": [
+        {
+          "name": "garlic sauce"
+        },
+        {
+          "name": "knoflooksaus"
+        },
+        {
+          "name": "knoflook saus"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "1678aa73-3e2e-4472-bcd3-dd2a9320e1cf",
+      "name": "salade de mangue",
+      "pluralName": "salades de mangue",
+      "description": "Salade prête à servir avec mangue, oignon et herbes; accompagnement frais ou garniture.",
+      "aliases": [
+        {
+          "name": "mango salade"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "ca3edcca-150e-4682-98ec-010b2908f9ea",
+      "name": "mayonnaise",
+      "pluralName": "mayonnaise",
+      "description": "Sauce froide à base d’œuf et d’huile; sur frites et dans les salades.",
+      "aliases": [
+        {
+          "name": "mayo"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "295f7ff0-e8fa-47dd-9012-a2b76717a7d9",
+      "name": "miso",
+      "pluralName": "miso",
+      "description": "Pâte de soja fermentée japonaise; base umami pour soupes et marinades.",
+      "aliases": [
+        {
+          "name": "pâte miso"
+        },
+        {
+          "name": "misopasta"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "36a1cdb8-869b-481c-8c84-a3f9f1210bce",
+      "name": "moutarde",
+      "pluralName": "moutarde",
+      "description": "Sauce piquante à base de graines de moutarde moulues; condiment pour viande et vinaigrette.",
+      "aliases": [
+        {
+          "name": "moutarde française"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "fbd5ee84-dfe1-4e3a-9f16-72efe788367c",
+      "name": "sauce aux huîtres",
+      "pluralName": "sauce aux huîtres",
+      "description": "Sauce foncée à l’extrait d’huître; condiment savoureux de la cuisine chinoise.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "14a4b96e-f91b-46c7-b520-9d4211059dee",
+      "name": "pâte d’olives",
+      "pluralName": "pâte d’olives",
+      "description": "Tapenade d’olives avec câpres et anchois; purée salée à tartiner.",
+      "aliases": [
+        {
+          "name": "tapenade"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "83f36a03-7d87-4a22-8ea0-291aa1fde69f",
+      "name": "pickles au vinaigre doux",
+      "pluralName": "pickles au vinaigre doux",
+      "description": "Mélange de légumes marinés; condiment aigre-doux de table.",
+      "aliases": [
+        {
+          "name": "ontbijtzuur"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "7ef787b0-7e86-4ee3-b44f-300b3a03b78f",
+      "name": "pâte de paprika",
+      "pluralName": "pâte de paprika",
+      "description": "Pâte de paprika et de chili; aromate pour plats hongrois.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "c3766b92-a886-4c7b-acbd-c71f674f77f8",
+      "name": "passata",
+      "pluralName": "passata",
+      "description": "Tomates passées; base pour sauces.",
+      "aliases": [
+        {
+          "name": "passata de tomate"
+        },
+        {
+          "name": "tomatenpassata"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "2df81322-50ae-4d6a-be2a-bfeb7723d73b",
+      "name": "pesto",
+      "pluralName": "pesto",
+      "description": "Sauce au basilic avec pignons et fromage; pour pâtes ou tartines.",
+      "aliases": [
+        {
+          "name": "pesto vert"
+        },
+        {
+          "name": "pesto genovese"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "bdeb6c30-1bc7-4446-91df-6404203b0f90",
+      "name": "piccalilli",
+      "pluralName": "piccalilli",
+      "description": "Condiment à la moutarde avec morceaux de légumes; servi avec viandes froides.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "e06d4bb8-ac79-4a46-a481-df5b73194ceb",
+      "name": "pickles",
+      "pluralName": "pickles",
+      "description": "Sauce belge lisse de type piccalilli à la moutarde; sauce aigre-douce jaune vif pour frites.",
+      "aliases": [
+        {
+          "name": "sauce pickles"
+        },
+        {
+          "name": "picklessaus"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "1e422da5-d453-4715-995d-87e99d174ffc",
+      "name": "ponzu",
+      "pluralName": "ponzu",
+      "description": "Sauce japonaise aux agrumes et soja; vinaigrette fraîche ou sauce à tremper.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "543135e8-e6ad-4ea2-b289-a6be919a6ec8",
+      "name": "sauce rémoulade",
+      "pluralName": "sauce rémoulade",
+      "description": "Sauce froide à la mayonnaise et aux herbes; pour poisson, frites et plats froids.",
+      "aliases": [
+        {
+          "name": "rémoulade"
+        },
+        {
+          "name": "remoulade saus"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "4282031d-5e20-4cc6-8955-8308c70b77c3",
+      "name": "pâte de curry rouge",
+      "pluralName": "pâte de curry rouge",
+      "description": "Pâte thaïe aux piments rouges; base pour curry.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "e3bec873-ef18-45d7-be10-0f1edb33e227",
+      "name": "pesto rouge",
+      "pluralName": "pesto rouge",
+      "description": "Sauce à base de tomates séchées et de noix; pour pâtes ou toasts.",
+      "aliases": [
+        {
+          "name": "pesto rosso"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "93cd3360-dcdb-4e1c-9300-c1cbec2540ab",
+      "name": "salsa",
+      "pluralName": "salsa",
+      "description": "Sauce tomate au chili; trempette ou garniture pour tacos et nachos.",
+      "aliases": [
+        {
+          "name": "salsa tomate"
+        },
+        {
+          "name": "salsa saus"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "e0c381c2-a8d1-45e6-9e91-030bc44a436e",
+      "name": "sambal",
+      "pluralName": "sambal",
+      "description": "Pâte de piment indonésienne; condiment relevé.",
+      "aliases": [
+        {
+          "name": "sambal oelek"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "aaa06fed-2abb-4981-9887-03cadcca1ae9",
+      "name": "sambal badjak",
+      "pluralName": "sambal badjak",
+      "description": "Sambal cuit avec oignon et trassi; saveur douce et relevée.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "c9adab5a-bd71-4956-b723-16c926ce7079",
+      "name": "tartinade à sandwich",
+      "pluralName": "tartinade à sandwich",
+      "description": "Sauce crémeuse aux légumes; tartinable salé avec petits morceaux de légumes.",
+      "aliases": [
+        {
+          "name": "sandwichspread"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "68c61448-7ee7-49f3-affb-8114c2df3d51",
+      "name": "sauce satay",
+      "pluralName": "sauce satay",
+      "description": "Sauce aux arachides; sauce relevée à base de beurre d’arachide et sauce soja sucrée, servie avec les brochettes.",
+      "aliases": [
+        {
+          "name": "sauce aux arachides"
+        },
+        {
+          "name": "pindasaus"
+        },
+        {
+          "name": "satesaus"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "e86cd15b-0b65-4dd0-a0c1-f88852eda2d9",
+      "name": "shoyu",
+      "pluralName": "shoyu",
+      "description": "Sauce soja japonaise; foncée et fermentée, pour sauces et sushi.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "8be8526f-147e-4b9c-960e-f57c6f797940",
+      "name": "sauce soja",
+      "pluralName": "sauce soja",
+      "description": "Sauce salée fermentée; base de la cuisine asiatique.",
+      "aliases": [
+        {
+          "name": "ketjap asin"
+        },
+        {
+          "name": "soy sauce"
+        },
+        {
+          "name": "soja saus"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "a1eaabbd-6bb1-4535-94da-eecc9f7d2733",
+      "name": "marinade pour travers de porc",
+      "pluralName": "marinade pour travers de porc",
+      "description": "Marinade prête à l’emploi pour côtes levées; sucrée et relevée.",
+      "aliases": [
+        {
+          "name": "spareribs marinade"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "6161e8cc-ae66-4b1c-bb23-763f4d85b918",
+      "name": "sriracha",
+      "pluralName": "sriracha",
+      "description": "Sauce chili thaïe; relevée avec de l’ail.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "58f031ad-6f1c-45ec-ac09-c5fd6e42b356",
+      "name": "tahini",
+      "pluralName": "tahini",
+      "description": "Pâte de sésame; graines de sésame moulues, utilisée dans houmous et sauces.",
+      "aliases": [
+        {
+          "name": "tahin"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "29725b37-89d0-4992-8fec-914d7a56f4aa",
+      "name": "tamari",
+      "pluralName": "tamari",
+      "description": "Sauce soja japonaise sans gluten; foncée et moins salée.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "4e8ca7f9-740b-4069-8460-52d59af72d36",
+      "name": "pâte de tamarin",
+      "pluralName": "pâte de tamarin",
+      "description": "Tamarin concentré; note acide en cuisine asiatique.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "19428ef7-8fb8-4f93-b06b-be43d64adf25",
+      "name": "eau de tamarin",
+      "pluralName": "eau de tamarin",
+      "description": "Pulpe de tamarin diluée; ingrédient liquide acidulé.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "062bc72c-3e13-4b60-815f-e04fb371f77d",
+      "name": "sauce teriyaki",
+      "pluralName": "sauce teriyaki",
+      "description": "Marinade japonaise sucrée à base de soja; glaçage pour grillades ou sauce pour wok.",
+      "aliases": [
+        {
+          "name": "teriyaki sauce"
+        },
+        {
+          "name": "marinade teriyaki"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "6bd9f4ab-a70c-4780-a97d-22ec148447d1",
+      "name": "vinaigrette Thousand Island",
+      "pluralName": "vinaigrette Thousand Island",
+      "description": "Vinaigrette américaine à la mayonnaise, ketchup et cornichon; pour salades.",
+      "aliases": [
+        {
+          "name": "thousand island dressing"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "b84b2ba8-3135-4bb7-af7f-47f340031734",
+      "name": "concentré de tomate",
+      "pluralName": "concentré de tomate",
+      "description": "Pâte de tomate concentrée; base aromatique pour sauces.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "e126f417-75bb-442e-aa68-c53113f0074c",
+      "name": "trassi",
+      "pluralName": "trassi",
+      "description": "Pâte de crevettes séchées; condiment puissant de la cuisine indonésienne.",
+      "aliases": [
+        {
+          "name": "terasi"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "f2885509-03d5-4d5d-ab99-d34df94bbfe1",
+      "name": "tapenade à la truffe",
+      "pluralName": "tapenade à la truffe",
+      "description": "Pâte d’olives à la truffe; tartinade raffinée pour toasts ou pâtes.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "e7d0a844-12f5-445f-ac58-f92487bd45f2",
+      "name": "tzatziki",
+      "pluralName": "tzatziki",
+      "description": "Trempette grecque au yogourt et concombre; accompagnement froid avec ail et aneth.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "5d49f63e-6915-495d-898e-4cf40af9b763",
+      "name": "sauce de poisson",
+      "pluralName": "sauce de poisson",
+      "description": "Sauce asiatique fermentée au poisson; liquide salé riche en umami pour currys et vinaigrettes.",
+      "aliases": [
+        {
+          "name": "nam pla"
+        },
+        {
+          "name": "nuoc mam"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "d04f1910-9cab-4a10-83c9-881a7784aac4",
+      "name": "wasabi",
+      "pluralName": "wasabi",
+      "description": "Raifort japonais; piquant et frais.",
+      "aliases": [],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "4433e963-94b8-4c9d-b7c5-fc47607d4ee7",
+      "name": "sauce Worcestershire",
+      "pluralName": "sauce Worcestershire",
+      "description": "Sauce anglaise fermentée; utilisée goutte à goutte comme condiment.",
+      "aliases": [
+        {
+          "name": "worcestershire sauce"
+        },
+        {
+          "name": "worchester saus"
+        },
+        {
+          "name": "worcestersaus"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "2ef89c64-1bfb-4477-a72d-ef14ad93627c",
+      "name": "sauce chili douce",
+      "pluralName": "sauce chili douce",
+      "description": "Sauce sucrée et relevée; sauce à tremper ou marinade.",
+      "aliases": [
+        {
+          "name": "sweet chili sauce"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "369f622b-6f20-4872-91f0-ade0d64a72ee",
+      "name": "sauce soja sucrée",
+      "pluralName": "sauce soja sucrée",
+      "description": "Sauce soja indonésienne épaisse et sucrée; utilisée dans les marinades.",
+      "aliases": [
+        {
+          "name": "ketjap manis"
+        }
+      ],
+      "label": "Sauces et condiments"
+    }
+  ]
+}
