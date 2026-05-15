@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Dutch food data files renamed to match their label names exactly (e.g., `groente.json` is now `Groente.json`). Consistent with the French dataset.
+- Fixed extra leading whitespace in `mealie-config-sample.json`.
+
 ### Fixed
 
 - Folder mirror no longer tries to delete items that belong to other files. Previously, each file in a folder mirror ran its own independent delete phase, causing massively inflated delete counts and potential data loss. Now all files are treated as one combined dataset for deletion.
