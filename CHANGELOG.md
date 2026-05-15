@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Folder mirror no longer tries to delete items that belong to other files. Previously, each file in a folder mirror ran its own independent delete phase, causing massively inflated delete counts and potential data loss. Now all files are treated as one combined dataset for deletion.
 - Same fix applied to unit folder mirror (`Sync-MealieUnits -Folder`).
+- Export with `-SplitByLabel` showed wrong file count when all foods shared one label (e.g., "101 foods in 101 files" instead of "101 foods in 1 files").
+- `-SplitByLabel` was silently accepted for non-Food types. Now shows a warning and ignores the flag.
+- `Get-Help .\Invoke-MealieSync.ps1` now shows full help (synopsis, description, examples). Previously showed only the syntax line.
+- File paths in console output no longer contain `./` artifacts (e.g., `/path/MealieSync/./Data/...`).
+- Import mode display no longer shows the "Replace aliases" hint for types that don't have aliases (Categories, Tags, Tools).
+- Backup tool output no longer interleaves export function messages with its own status lines.
 
 ### Added
 

@@ -30,7 +30,7 @@ You must provide either `-JsonPath` or `-Folder` for Export, Import, and Mirror 
 | Parameter         | Actions        | Description                                            |
 | ----------------- | -------------- | ------------------------------------------------------ |
 | `-UpdateExisting` | Import, Mirror | Update existing items instead of skipping them         |
-| `-ReplaceAliases` | Import, Mirror | Replace aliases instead of merging new ones in         |
+| `-ReplaceAliases` | Import, Mirror (Foods, Units only) | Replace aliases instead of merging new ones in         |
 | `-SkipBackup`     | Import, Mirror | Skip the automatic pre-operation backup                |
 | `-Force`          | Mirror         | Skip the confirmation prompt before making changes     |
 

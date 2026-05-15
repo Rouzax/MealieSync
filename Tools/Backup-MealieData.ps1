@@ -163,8 +163,7 @@ foreach ($type in $Types) {
     
     if ($PSCmdlet.ShouldProcess($filePath, "Export $type")) {
         try {
-            # Suppress the export function output and capture it
-            $null = & $exportFunctions[$type] $filePath
+            $null = & $exportFunctions[$type] $filePath 6>$null
             
             # Verify file was created
             if (Test-Path $filePath) {

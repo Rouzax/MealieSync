@@ -65,7 +65,7 @@ function Export-MealieFoods {
         }
         
         # Group foods by label
-        $grouped = $foods | Group-Object { if ($_.label) { $_.label.name } else { "_No_Label" } }
+        $grouped = @($foods | Group-Object { if ($_.label) { $_.label.name } else { "_No_Label" } })
         
         $totalExported = 0
         foreach ($group in $grouped) {

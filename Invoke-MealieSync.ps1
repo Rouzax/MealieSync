@@ -1,17 +1,16 @@
-#Requires -Version 7.0
 <#
 .SYNOPSIS
     Sync Foods and Units data with Mealie
 .DESCRIPTION
     Main script to import, export, and synchronize Foods and Units with your Mealie instance.
     Requires PowerShell 7.0 or later (PowerShell Core).
-    
+
     Actions:
     - List   : Display items from Mealie
     - Export : Export items to JSON file(s)
     - Import : Import items from JSON (add new, optionally update existing)
     - Mirror : Full sync - add, update, AND DELETE to match JSON exactly
-    
+
 .EXAMPLE
     .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\Dutch_Foods.json
     Import foods from JSON file (create only, skip existing)
@@ -56,6 +55,7 @@
     .\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -WhatIf
     Preview what would happen without making changes
 #>
+#Requires -Version 7.0
 [CmdletBinding(SupportsShouldProcess)]
 param(
     [Parameter(Mandatory)]
@@ -135,7 +135,7 @@ try {
         $ConfigPath
     }
     else {
-        Join-Path $PSScriptRoot $ConfigPath
+        [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot $ConfigPath))
     }
     
     $config = Get-MealieConfig -Path $configFullPath
@@ -182,11 +182,13 @@ try {
             else {
                 Write-Host "  [ ] Update existing items (use -UpdateExisting to enable)" -ForegroundColor DarkGray
             }
-            if ($ReplaceAliases) {
-                Write-Host "  [X] Replace aliases" -ForegroundColor Green
-            }
-            else {
-                Write-Host "  [ ] Replace aliases (merge mode, use -ReplaceAliases to replace)" -ForegroundColor DarkGray
+            if ($Type -in @('Foods', 'Units')) {
+                if ($ReplaceAliases) {
+                    Write-Host "  [X] Replace aliases" -ForegroundColor Green
+                }
+                else {
+                    Write-Host "  [ ] Replace aliases (merge mode, use -ReplaceAliases to replace)" -ForegroundColor DarkGray
+                }
             }
             if ($Label -and $Type -eq 'Foods') {
                 Write-Host "  [X] Label filter: $Label" -ForegroundColor Green
@@ -224,7 +226,7 @@ try {
                     $Folder
                 }
                 else {
-                    Join-Path (Get-Location) $Folder
+                    [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $Folder))
                 }
                 
                 if (-not (Test-Path $folderPath -PathType Container)) {
@@ -332,9 +334,9 @@ try {
                     $JsonPath
                 }
                 else {
-                    Join-Path (Get-Location) $JsonPath
+                    [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $JsonPath))
                 }
-                
+
                 Write-Host "`nImporting $Type from: $fullPath" -ForegroundColor Cyan
                 
                 $importParams.Path = $fullPath
@@ -351,6 +353,11 @@ try {
         }
         
         'Export' {
+            if ($SplitByLabel -and $Type -ne 'Foods') {
+                Write-Warning "-SplitByLabel is only supported for Foods. Ignoring flag."
+                $SplitByLabel = $false
+            }
+
             # For SplitByLabel, allow either -JsonPath or -Folder
             $exportPath = if ($SplitByLabel -and $Folder -and -not $JsonPath) {
                 $Folder
@@ -367,9 +374,9 @@ try {
                 $exportPath
             }
             else {
-                Join-Path (Get-Location) $exportPath
+                [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $exportPath))
             }
-            
+
             if ($SplitByLabel) {
                 Write-Host "`nExporting $Type to folder: $fullPath (split by label)" -ForegroundColor Cyan
             }
@@ -491,9 +498,9 @@ try {
                     $Folder
                 }
                 else {
-                    Join-Path (Get-Location) $Folder
+                    [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $Folder))
                 }
-                
+
                 if (-not (Test-Path $folderPath -PathType Container)) {
                     throw "Folder not found: $folderPath"
                 }
@@ -518,9 +525,9 @@ try {
                     $JsonPath
                 }
                 else {
-                    Join-Path (Get-Location) $JsonPath
+                    [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $JsonPath))
                 }
-                
+
                 Write-Host "`nMirroring $Type to match: $fullPath" -ForegroundColor Cyan
                 
                 $syncParams.Path = $fullPath
