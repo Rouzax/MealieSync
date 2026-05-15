@@ -6,7 +6,7 @@
     RootModule = 'MealieApi.psm1'
 
     # Version number of this module
-    ModuleVersion = '2.3.1'
+    ModuleVersion = '2.4.0'
 
     # ID used to uniquely identify this module
     GUID = 'a1b2c3d4-e5f6-7890-abcd-ef1234567890'
@@ -102,6 +102,9 @@
         # Conflict Detection
         'Test-MealieFoodConflicts'
         'Test-MealieUnitConflicts'
+
+        # Update Check
+        'Test-UpdateAvailable'
     )
 
     # Cmdlets to export from this module

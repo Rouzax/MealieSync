@@ -1,0 +1,51 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract version from tag
+        id: version
+        run: echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Extract changelog for this version
+        id: changelog
+        run: |
+          version="${{ steps.version.outputs.version }}"
+          changelog=$(awk "/^## \[${version}\]/{found=1; next} /^## \[/{if(found) exit} found{print}" CHANGELOG.md)
+          {
+            echo "body<<CHANGELOG_EOF"
+            echo "$changelog"
+            echo "CHANGELOG_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Build release ZIP
+        run: |
+          version="${{ steps.version.outputs.version }}"
+          dirname="MealieSync-v${version}"
+          mkdir "$dirname"
+          cp Invoke-MealieSync.ps1 MealieApi.psd1 MealieApi.psm1 "$dirname/"
+          cp mealie-config-sample.json README.md LICENSE CONTRIBUTING.md CHANGELOG.md "$dirname/"
+          cp -r Public Private Data Tools "$dirname/"
+          zip -r "MealieSync-v${version}.zip" "$dirname"
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+          BODY: ${{ steps.changelog.outputs.body }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            --title "v${VERSION}" \
+            --notes "$BODY" \
+            "MealieSync-v${VERSION}.zip"

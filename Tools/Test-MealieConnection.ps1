@@ -110,6 +110,30 @@ else {
 Write-Host ""
 
 # ============================================================================
+# Step 1b: Version Check
+# ============================================================================
+Write-Host "Version" -ForegroundColor White
+Write-Host ("-" * 30) -ForegroundColor Gray
+
+$manifest = Import-PowerShellDataFile $modulePath
+Write-Host "  MealieSync    : $($manifest.ModuleVersion)" -ForegroundColor White
+
+$updateInfo = Test-UpdateAvailable
+if ($updateInfo) {
+    if ($updateInfo.UpdateAvailable) {
+        Write-TestResult -Test "Update available: v$($updateInfo.LatestVersion)" -Success $false -Message $updateInfo.ReleaseUrl
+    }
+    else {
+        Write-TestResult -Test "Up to date" -Success $true
+    }
+}
+else {
+    Write-Host "  Could not check for updates" -ForegroundColor DarkGray
+}
+
+Write-Host ""
+
+# ============================================================================
 # Step 2: Configuration
 # ============================================================================
 Write-Host "Configuration" -ForegroundColor White

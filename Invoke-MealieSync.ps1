@@ -152,7 +152,15 @@ try {
     if (-not $connected) {
         exit 1
     }
-    
+
+    $updateInfo = Test-UpdateAvailable
+    if ($updateInfo -and $updateInfo.UpdateAvailable) {
+        Write-Host "  Update available: v$($updateInfo.LatestVersion) (you have v$($updateInfo.CurrentVersion))" -ForegroundColor Yellow
+        Write-Host "  Run 'git pull' to update, or download from:" -ForegroundColor DarkGray
+        Write-Host "  $($updateInfo.ReleaseUrl)" -ForegroundColor DarkGray
+        Write-Host ""
+    }
+
     # Execute action
     switch ($Action) {
         'Import' {
