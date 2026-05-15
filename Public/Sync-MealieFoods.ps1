@@ -146,7 +146,194 @@ function Sync-MealieFoods {
         Write-Host "  No conflicts found" -ForegroundColor Green
         Write-Host ""
         
-        # Process each file
+        # Read all files upfront to build combined import items for deletion comparison
+        $allImportItems = @()
+        foreach ($file in $jsonFiles) {
+            $importResult = Read-ImportFile -Path $file.FullName -ExpectedType 'Foods' -ValidateHouseholds
+
+            if (-not $importResult.ValidationResult.Valid) {
+                foreach ($err in $importResult.ValidationResult.Errors) {
+                    Write-Error $err
+                }
+                throw "Validation failed for file: $($file.Name)"
+            }
+            foreach ($warning in $importResult.ValidationResult.Warnings) {
+                Write-Warning $warning
+            }
+
+            $allImportItems += $importResult.Items
+        }
+
+        # Apply label filtering to combined set (for deletion comparison)
+        $filteredImportData = if ($Label) {
+            @($allImportItems | Where-Object { $_.label -eq $Label })
+        }
+        else {
+            $allImportItems
+        }
+        if ($null -eq $filteredImportData) { $filteredImportData = @() }
+
+        # Create backup once before any changes
+        $backupPath = $null
+        if (-not $SkipBackup -and -not $WhatIfPreference) {
+            $backupPath = Backup-BeforeImport -Type 'Foods' -BasePath $BasePath
+            if ($backupPath) {
+                Write-Host "Backup created: $backupPath" -ForegroundColor DarkGray
+            }
+        }
+
+        # Calculate items to delete using combined import data
+        $toDelete = @()
+
+        $calculateDeletions = {
+            $existingFoods = Get-MealieFoods -All
+
+            $deletionCandidates = if ($Label) {
+                @($existingFoods | Where-Object { $_.label -and $_.label.name -eq $Label })
+            }
+            else {
+                $existingFoods
+            }
+
+            $toDelete = @(Get-ItemsToDelete -ExistingItems $deletionCandidates -ImportItems $filteredImportData -MatchById)
+
+            if ($toDelete.Count -gt 0) {
+                Write-Host "  Checking recipe usage for $($toDelete.Count) item(s) to delete..." -ForegroundColor DarkGray
+                $usageResult = Test-FoodsInUse -Foods $toDelete
+
+                if ($usageResult.HasUsedItems) {
+                    Show-RecipeUsageWarning -UsageResult $usageResult
+                    $safeIds = $usageResult.SafeToDelete | ForEach-Object { $_.Id }
+                    $toDelete = @($toDelete | Where-Object { $_.id -in $safeIds })
+                }
+            }
+        }
+
+        if ($WhatIfPreference) {
+            # WhatIf: show per-file import output, then combined delete
+            $totalStats = @{
+                Created       = 0
+                Updated       = 0
+                Unchanged     = 0
+                Skipped       = 0
+                Errors        = 0
+                LabelWarnings = 0
+                Conflicts     = 0
+                Deleted       = 0
+            }
+
+            $sharedMatchedIds = @{}
+
+            foreach ($file in $jsonFiles) {
+                Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor DarkGray
+                Write-Host "  $($file.Name)" -ForegroundColor Cyan
+                Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor DarkGray
+
+                $fileParams = @{
+                    Path              = $file.FullName
+                    UpdateExisting    = $true
+                    ReplaceAliases    = $ReplaceAliases
+                    SkipBackup        = $true
+                    SkipConflictCheck = $true
+                    ThrottleMs        = 0
+                    MatchedIds        = $sharedMatchedIds
+                    BasePath          = $BasePath
+                    WhatIf            = $true
+                }
+                if ($Label) { $fileParams.Label = $Label }
+
+                $fileStats = Import-MealieFoods @fileParams
+
+                $totalStats.Created += $fileStats.Created
+                $totalStats.Updated += $fileStats.Updated
+                $totalStats.Unchanged += $fileStats.Unchanged
+                $totalStats.Skipped += $fileStats.Skipped
+                $totalStats.Errors += $fileStats.Errors
+                $totalStats.LabelWarnings += $fileStats.LabelWarnings
+                $totalStats.Conflicts += $fileStats.Conflicts
+            }
+
+            # Combined delete phase
+            Write-Host ""
+            Write-Host "Phase 2: Finding orphaned items..." -ForegroundColor Cyan
+            . $calculateDeletions
+
+            if ($toDelete.Count -gt 0) {
+                Write-Host ""
+                $current = 0
+                foreach ($item in $toDelete) {
+                    $current++
+                    $counter = Format-Counter -Current $current -Total $toDelete.Count
+                    Write-ImportResult -Counter $counter -Result 'WouldDelete' -ItemName $item.name
+                }
+            }
+            else {
+                Write-Host "  No orphaned items to delete." -ForegroundColor DarkGray
+            }
+
+            $totalStats.Deleted = @($toDelete).Count
+
+            # Combined summary
+            Write-Host ""
+            Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Cyan
+            Write-Host "  Combined Sync Summary ($($jsonFiles.Count) files)" -ForegroundColor Cyan
+            Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Cyan
+            Write-SyncSummary -ImportStats $totalStats -DeletedCount $totalStats.Deleted -Type "Foods" -WhatIf
+
+            return $totalStats
+        }
+
+        # Non-WhatIf: preview, confirm, execute
+
+        if (-not $Force) {
+            # Preview phase: get silent import stats + combined delete set
+            Write-Host "Analyzing changes..." -ForegroundColor Cyan
+
+            $previewParams = @{
+                Folder            = $Folder
+                UpdateExisting    = $true
+                SkipBackup        = $true
+                SkipConflictCheck = $true
+                ThrottleMs        = 0
+                BasePath          = $BasePath
+                WhatIf            = $true
+                Quiet             = $true
+            }
+            if ($Recurse) { $previewParams.Recurse = $true }
+            if ($ReplaceAliases) { $previewParams.ReplaceAliases = $true }
+            if ($Label) { $previewParams.Label = $Label }
+
+            $importPreview = Import-MealieFoods @previewParams
+
+            . $calculateDeletions
+
+            Show-MirrorPreview -ImportPreview $importPreview -DeleteItems $toDelete -Type 'Foods' -Label $Label -BackupPath $backupPath
+
+            $confirmed = Request-MirrorConfirmation -DeleteCount @($toDelete).Count -CreateCount $importPreview.Created -UpdateCount $importPreview.Updated
+
+            if (-not $confirmed) {
+                Write-Host "Operation cancelled by user." -ForegroundColor Yellow
+                return @{
+                    Created       = 0
+                    Updated       = 0
+                    Unchanged     = 0
+                    Skipped       = 0
+                    Errors        = 0
+                    Conflicts     = 0
+                    Deleted       = 0
+                    LabelWarnings = 0
+                    Cancelled     = $true
+                }
+            }
+
+            Write-Host ""
+        }
+
+        # Execute phase
+        Write-Host "Executing changes..." -ForegroundColor Cyan
+        Write-Host ""
+        Write-Host "Phase 1: Importing (add/update)..." -ForegroundColor Cyan
+
         $totalStats = @{
             Created       = 0
             Updated       = 0
@@ -157,34 +344,28 @@ function Sync-MealieFoods {
             Conflicts     = 0
             Deleted       = 0
         }
-        
-        $firstFile = $true
+
+        $sharedMatchedIds = @{}
+
         foreach ($file in $jsonFiles) {
             Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor DarkGray
-            Write-Host "  Syncing: $($file.Name)" -ForegroundColor Cyan
+            Write-Host "  $($file.Name)" -ForegroundColor Cyan
             Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor DarkGray
-            
+
             $fileParams = @{
-                Path           = $file.FullName
-                ReplaceAliases = $ReplaceAliases
-                SkipBackup     = (-not $firstFile) -or $SkipBackup
-                ThrottleMs     = $ThrottleMs
-                Force          = $Force
-                BasePath       = $BasePath
+                Path              = $file.FullName
+                UpdateExisting    = $true
+                ReplaceAliases    = $ReplaceAliases
+                SkipBackup        = $true
+                SkipConflictCheck = $true
+                ThrottleMs        = $ThrottleMs
+                MatchedIds        = $sharedMatchedIds
+                BasePath          = $BasePath
             }
             if ($Label) { $fileParams.Label = $Label }
-            if ($WhatIfPreference) { $fileParams.WhatIf = $true }
-            
-            $fileStats = Sync-MealieFoods @fileParams
-            
-            # Check if user cancelled
-            if ($fileStats.Cancelled) {
-                Write-Host ""
-                Write-Host "Folder sync cancelled by user." -ForegroundColor Yellow
-                return $totalStats
-            }
-            
-            # Aggregate stats
+
+            $fileStats = Import-MealieFoods @fileParams
+
             $totalStats.Created += $fileStats.Created
             $totalStats.Updated += $fileStats.Updated
             $totalStats.Unchanged += $fileStats.Unchanged
@@ -192,18 +373,55 @@ function Sync-MealieFoods {
             $totalStats.Errors += $fileStats.Errors
             $totalStats.LabelWarnings += $fileStats.LabelWarnings
             $totalStats.Conflicts += $fileStats.Conflicts
-            $totalStats.Deleted += $fileStats.Deleted
-            
-            $firstFile = $false
         }
-        
-        # Show combined summary
+
+        # Phase 2: Single combined delete
+        Write-Host ""
+        Write-Host "Phase 2: Deleting orphaned items..." -ForegroundColor Cyan
+
+        if ($Force) {
+            . $calculateDeletions
+        }
+
+        $deleteCount = @($toDelete).Count
+
+        if ($deleteCount -eq 0) {
+            Write-Host "  No orphaned items to delete." -ForegroundColor DarkGray
+            $deletedCount = 0
+        }
+        else {
+            Write-Host "  Deleting $deleteCount item(s)..." -ForegroundColor Magenta
+            Write-Host ""
+
+            $deletedCount = 0
+            $current = 0
+
+            foreach ($item in $toDelete) {
+                $current++
+                $counter = Format-Counter -Current $current -Total $deleteCount
+
+                try {
+                    Remove-MealieFood -Id $item.id | Out-Null
+                    Write-ImportResult -Counter $counter -Result 'Deleted' -ItemName $item.name
+                    $deletedCount++
+
+                    if ($ThrottleMs -gt 0) { Start-Sleep -Milliseconds $ThrottleMs }
+                }
+                catch {
+                    Write-Warning "  $counter Error deleting '$($item.name)': $_"
+                }
+            }
+        }
+
+        $totalStats.Deleted = $deletedCount
+
+        # Combined summary
         Write-Host ""
         Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Cyan
         Write-Host "  Combined Sync Summary ($($jsonFiles.Count) files)" -ForegroundColor Cyan
         Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Cyan
-        Write-SyncSummary -ImportStats $totalStats -DeletedCount $totalStats.Deleted -Type "Foods" -WhatIf:$WhatIfPreference
-        
+        Write-SyncSummary -ImportStats $totalStats -DeletedCount $totalStats.Deleted -Type "Foods"
+
         return $totalStats
     }
     

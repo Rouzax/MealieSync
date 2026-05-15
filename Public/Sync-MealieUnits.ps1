@@ -123,7 +123,35 @@ function Sync-MealieUnits {
         Write-Host "  No conflicts found" -ForegroundColor Green
         Write-Host ""
         
-        # Process each file
+        # Read all files upfront to build combined import items for deletion comparison
+        $allImportItems = @()
+        foreach ($file in $jsonFiles) {
+            $importResult = Read-ImportFile -Path $file.FullName -ExpectedType 'Units'
+
+            if (-not $importResult.ValidationResult.Valid) {
+                foreach ($err in $importResult.ValidationResult.Errors) {
+                    Write-Error $err
+                }
+                throw "Validation failed for file: $($file.Name)"
+            }
+            foreach ($warning in $importResult.ValidationResult.Warnings) {
+                Write-Warning $warning
+            }
+
+            $allImportItems += $importResult.Items
+        }
+
+        # Create backup once before any changes
+        if (-not $SkipBackup -and -not $WhatIfPreference) {
+            $backupPath = Backup-BeforeImport -Type 'Units' -BasePath $BasePath
+            if ($backupPath) {
+                Write-Host "Backup created: $backupPath" -ForegroundColor DarkGray
+            }
+        }
+
+        # Phase 1: Per-file import (visible output)
+        Write-Host "Phase 1: Importing (add/update)..." -ForegroundColor Cyan
+
         $totalStats = @{
             Created   = 0
             Updated   = 0
@@ -133,44 +161,65 @@ function Sync-MealieUnits {
             Conflicts = 0
             Deleted   = 0
         }
-        
-        $firstFile = $true
+
+        $sharedMatchedIds = @{}
+
         foreach ($file in $jsonFiles) {
             Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor DarkGray
-            Write-Host "  Syncing: $($file.Name)" -ForegroundColor Cyan
+            Write-Host "  $($file.Name)" -ForegroundColor Cyan
             Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor DarkGray
-            
+
             $fileParams = @{
-                Path           = $file.FullName
-                ReplaceAliases = $ReplaceAliases
-                SkipBackup     = (-not $firstFile) -or $SkipBackup
-                ThrottleMs     = $ThrottleMs
-                Force          = $Force
-                BasePath       = $BasePath
+                Path              = $file.FullName
+                UpdateExisting    = $true
+                ReplaceAliases    = $ReplaceAliases
+                SkipBackup        = $true
+                SkipConflictCheck = $true
+                ThrottleMs        = $ThrottleMs
+                MatchedIds        = $sharedMatchedIds
+                BasePath          = $BasePath
             }
             if ($WhatIfPreference) { $fileParams.WhatIf = $true }
-            
-            $fileStats = Sync-MealieUnits @fileParams
-            
-            # Aggregate stats
+
+            $fileStats = Import-MealieUnits @fileParams
+
             $totalStats.Created += $fileStats.Created
             $totalStats.Updated += $fileStats.Updated
             $totalStats.Unchanged += $fileStats.Unchanged
             $totalStats.Skipped += $fileStats.Skipped
             $totalStats.Errors += $fileStats.Errors
             $totalStats.Conflicts += $fileStats.Conflicts
-            $totalStats.Deleted += $fileStats.Deleted
-            
-            $firstFile = $false
         }
-        
-        # Show combined summary
+
+        # Phase 2: Single combined delete using all files' items
+        Write-Host ""
+        Write-Host "Phase 2: Finding orphaned items..." -ForegroundColor Cyan
+
+        $existingUnits = Get-MealieUnits -All
+        $toDelete = @(Get-ItemsToDelete -ExistingItems $existingUnits -ImportItems $allImportItems -MatchById)
+
+        $deleteCount = @($toDelete).Count
+
+        if ($deleteCount -eq 0) {
+            Write-Host "  No orphaned items to delete." -ForegroundColor DarkGray
+            $deletedCount = 0
+        }
+        else {
+            Write-Host ""
+            Write-Host "  Found $deleteCount item(s) to delete:" -ForegroundColor Magenta
+            Write-Host ""
+            $deletedCount = Remove-OrphanedItems -Items $toDelete -Type 'Units' -PSCmdlet $PSCmdlet -ThrottleMs $ThrottleMs
+        }
+
+        $totalStats.Deleted = $deletedCount
+
+        # Combined summary
         Write-Host ""
         Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Cyan
         Write-Host "  Combined Sync Summary ($($jsonFiles.Count) files)" -ForegroundColor Cyan
         Write-Host "═══════════════════════════════════════════════════════════════" -ForegroundColor Cyan
         Write-SyncSummary -ImportStats $totalStats -DeletedCount $totalStats.Deleted -Type "Units" -WhatIf:$WhatIfPreference
-        
+
         return $totalStats
     }
     

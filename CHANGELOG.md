@@ -5,6 +5,17 @@ All notable changes to MealieSync will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Fixed
+
+- Folder mirror no longer tries to delete items that belong to other files. Previously, each file in a folder mirror ran its own independent delete phase, causing massively inflated delete counts and potential data loss. Now all files are treated as one combined dataset for deletion.
+- Same fix applied to unit folder mirror (`Sync-MealieUnits -Folder`).
+
+### Added
+
+- Pester test suite with 12 tests covering folder mirror deletion logic and item matching.
+
 ## [2.4.0] - 2026-05-15
 
 ### Added
