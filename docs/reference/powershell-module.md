@@ -58,6 +58,9 @@ Sync-MealieFoods -Path .\Foods.json -Force
 Sync-MealieLabels -Path .\Labels.json
 ```
 
+!!! note
+    Module functions use `-Path` for file paths. The CLI script (`Invoke-MealieSync.ps1`) uses `-JsonPath` instead. The two are not interchangeable.
+
 ## Function Naming
 
 - **Public functions** follow the pattern `Verb-MealieNoun` (e.g., `Get-MealieFoods`, `Import-MealieUnits`)

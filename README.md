@@ -46,9 +46,12 @@ cd MealieSync
 
 # On Windows: unblock downloaded files
 Get-ChildItem -Recurse | Unblock-File
+
+# Create your config from the sample
+Copy-Item mealie-config-sample.json mealie-config.json
 ```
 
-Create `mealie-config.json` in the project root:
+Edit `mealie-config.json` with your Mealie URL and API token:
 
 ```json
 {
@@ -57,16 +60,21 @@ Create `mealie-config.json` in the project root:
 }
 ```
 
+To get your API token, go to **Mealie > Profile > Manage Your API Tokens**.
+
 ### Test and Import
 
 ```powershell
 # Test your connection
 .\Tools\Test-MealieConnection.ps1 -Detailed
 
-# Import the Dutch dataset
+# Import the Dutch dataset (labels first, since foods reference them)
 .\Invoke-MealieSync.ps1 -Action Import -Type Labels -JsonPath .\Data\nl\Labels.json
 .\Invoke-MealieSync.ps1 -Action Import -Type Foods -Folder .\Data\nl\Foods
 .\Invoke-MealieSync.ps1 -Action Import -Type Units -JsonPath .\Data\nl\Units.json
+.\Invoke-MealieSync.ps1 -Action Import -Type Tools -JsonPath .\Data\nl\Tools.json
+.\Invoke-MealieSync.ps1 -Action Import -Type Categories -JsonPath .\Data\nl\Categories.json
+.\Invoke-MealieSync.ps1 -Action Import -Type Tags -JsonPath .\Data\nl\Tags.json
 ```
 
 ## See It in Action
@@ -74,7 +82,7 @@ Create `mealie-config.json` in the project root:
 Preview what an import would do without making any changes:
 
 ```powershell
-.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -UpdateExisting -WhatIf
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Data\nl\Foods\groente.json -UpdateExisting -WhatIf
 ```
 
 ```

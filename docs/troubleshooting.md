@@ -37,6 +37,18 @@ By default, Import skips existing items. Add `-UpdateExisting` to update them:
 
 This also applies to Mirror, which always updates existing items as part of its import phase.
 
+## Items Skipped Instead of Created
+
+If you see `Skipped: N` and expected new items, the items already exist in Mealie (matched by name, plural name, or alias). MealieSync's smart matching prevents duplicates, so an import item that matches an existing Mealie item by any name variant is counted as "skipped" rather than "created".
+
+To see which items were matched and why, check the import output. Each skipped item shows the match method (e.g., "matched by name", "matched by alias").
+
+To update existing items instead of skipping them, add `-UpdateExisting`:
+
+```powershell
+.\Invoke-MealieSync.ps1 -Action Import -Type Foods -JsonPath .\Foods.json -UpdateExisting
+```
+
 ## Special Characters Garbled
 
 Ensure JSON files are saved as **UTF-8 without BOM**. MealieSync handles UTF-8 encoding for all API requests, but the source files must also be UTF-8.

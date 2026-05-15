@@ -2,6 +2,9 @@
 
 Import adds items from JSON files into Mealie. By default, existing items are skipped. Use `-UpdateExisting` to update them.
 
+!!! note "Import order"
+    Import Labels before Foods, since each food can be assigned to a label. The other types (Units, Categories, Tags, Tools) can be imported in any order.
+
 ## Basic Import
 
 ```powershell

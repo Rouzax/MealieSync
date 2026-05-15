@@ -52,6 +52,7 @@ nav:
       - API Endpoints: reference/api-endpoints.md
       - PowerShell Module: reference/powershell-module.md
   - Troubleshooting: troubleshooting.md
+  - Changelog: changelog.md
   - Contributing:
       - Guide: contributing/index.md
       - Data Contributions: contributing/data-guide.md
