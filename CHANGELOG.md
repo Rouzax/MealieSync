@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - File paths in console output no longer contain `./` artifacts (e.g., `/path/MealieSync/./Data/...`).
 - Import mode display no longer shows the "Replace aliases" hint for types that don't have aliases (Categories, Tags, Tools).
 - Backup tool output no longer interleaves export function messages with its own status lines.
+- Input file/folder existence is now validated before connecting to the Mealie API.
+- `-Force`, `-Label`, and other parameters now warn when used with actions or types where they have no effect, instead of being silently ignored.
 
 ### Added
 

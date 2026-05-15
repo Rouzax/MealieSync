@@ -145,6 +145,32 @@ try {
         exit 1
     }
     
+    # Validate input file/folder exists before connecting to API
+    if ($Action -in @('Import', 'Mirror', 'Export')) {
+        if ($JsonPath) {
+            $resolvedJsonPath = if ([System.IO.Path]::IsPathRooted($JsonPath)) {
+                $JsonPath
+            }
+            else {
+                [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $JsonPath))
+            }
+            if (-not $SplitByLabel -and -not (Test-Path $resolvedJsonPath)) {
+                throw "File not found: $resolvedJsonPath"
+            }
+        }
+        if ($Folder) {
+            $resolvedFolder = if ([System.IO.Path]::IsPathRooted($Folder)) {
+                $Folder
+            }
+            else {
+                [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $Folder))
+            }
+            if (-not (Test-Path $resolvedFolder -PathType Container)) {
+                throw "Folder not found: $resolvedFolder"
+            }
+        }
+    }
+
     # Initialize API
     Write-Host "Connecting to Mealie at: $($config.BaseUrl)" -ForegroundColor Cyan
     $connected = Initialize-MealieApi -BaseUrl $config.BaseUrl -Token $config.Token
@@ -164,15 +190,23 @@ try {
     # Execute action
     switch ($Action) {
         'Import' {
+            if ($Force) {
+                Write-Warning "-Force has no effect on Import. It is only used with Mirror to skip the confirmation prompt."
+            }
+            if ($Label -and $Type -ne 'Foods') {
+                Write-Warning "-Label is only supported for Foods. Ignoring flag."
+                $Label = ''
+            }
+
             # Validate: need either JsonPath or Folder
             if (-not $JsonPath -and -not $Folder) {
                 throw "Either -JsonPath or -Folder is required for Import action"
             }
-            
+
             if ($JsonPath -and $Folder) {
                 throw "Use either -JsonPath or -Folder, not both"
             }
-            
+
             # Show import mode
             Write-Host ""
             Write-Host "Import mode:" -ForegroundColor Cyan
@@ -357,6 +391,10 @@ try {
                 Write-Warning "-SplitByLabel is only supported for Foods. Ignoring flag."
                 $SplitByLabel = $false
             }
+            if ($Label -and $Type -ne 'Foods') {
+                Write-Warning "-Label is only supported for Foods. Ignoring flag."
+                $Label = ''
+            }
 
             # For SplitByLabel, allow either -JsonPath or -Folder
             $exportPath = if ($SplitByLabel -and $Folder -and -not $JsonPath) {
@@ -408,55 +446,82 @@ try {
         }
         
         'List' {
+            # Warn about parameters that have no effect on List
+            if ($JsonPath) { Write-Warning "-JsonPath has no effect on List." }
+            if ($Folder) { Write-Warning "-Folder has no effect on List." }
+            if ($UpdateExisting) { Write-Warning "-UpdateExisting has no effect on List." }
+            if ($ReplaceAliases) { Write-Warning "-ReplaceAliases has no effect on List." }
+            if ($Force) { Write-Warning "-Force has no effect on List." }
+            if ($SplitByLabel) { Write-Warning "-SplitByLabel has no effect on List." }
+            if ($SkipBackup) { Write-Warning "-SkipBackup has no effect on List." }
+            if ($Label) { Write-Warning "-Label filtering is not supported for List." }
+
             Write-Host "`nListing $Type from Mealie:" -ForegroundColor Cyan
-            
+
             switch ($Type) {
                 'Foods' {
                     $items = Get-MealieFoods -All
-                    $items | Select-Object name, pluralName, @{N = 'label'; E = { $_.label.name } }, @{N = 'aliases'; E = { ($_.aliases.name -join ', ') } } | 
-                        Sort-Object name |
-                        Format-Table -AutoSize
+                    if ($items.Count -gt 0) {
+                        $items | Select-Object name, pluralName, @{N = 'label'; E = { $_.label.name } }, @{N = 'aliases'; E = { ($_.aliases.name -join ', ') } } |
+                            Sort-Object name |
+                            Format-Table -AutoSize
+                    }
                     Write-Host "Total: $($items.Count) foods"
                 }
                 'Units' {
                     $items = Get-MealieUnits -All
-                    $items | Select-Object name, pluralName, abbreviation, @{N = 'aliases'; E = { ($_.aliases.name -join ', ') } } |
-                        Sort-Object name |
-                        Format-Table -AutoSize
+                    if ($items.Count -gt 0) {
+                        $items | Select-Object name, pluralName, abbreviation, @{N = 'aliases'; E = { ($_.aliases.name -join ', ') } } |
+                            Sort-Object name |
+                            Format-Table -AutoSize
+                    }
                     Write-Host "Total: $($items.Count) units"
                 }
                 'Labels' {
                     $items = Get-MealieLabels -All
-                    $items | Select-Object name, color |
-                        Sort-Object name |
-                        Format-Table -AutoSize
+                    if ($items.Count -gt 0) {
+                        $items | Select-Object name, color |
+                            Sort-Object name |
+                            Format-Table -AutoSize
+                    }
                     Write-Host "Total: $($items.Count) labels"
                 }
                 'Categories' {
                     $items = Get-MealieCategories -All
-                    $items | Select-Object name, slug |
-                        Sort-Object name |
-                        Format-Table -AutoSize
+                    if ($items.Count -gt 0) {
+                        $items | Select-Object name, slug |
+                            Sort-Object name |
+                            Format-Table -AutoSize
+                    }
                     Write-Host "Total: $($items.Count) categories"
                 }
                 'Tags' {
                     $items = Get-MealieTags -All
-                    $items | Select-Object name, slug |
-                        Sort-Object name |
-                        Format-Table -AutoSize
+                    if ($items.Count -gt 0) {
+                        $items | Select-Object name, slug |
+                            Sort-Object name |
+                            Format-Table -AutoSize
+                    }
                     Write-Host "Total: $($items.Count) tags"
                 }
                 'Tools' {
                     $items = Get-MealieTools -All
-                    $items | Select-Object name, slug |
-                        Sort-Object name |
-                        Format-Table -AutoSize
+                    if ($items.Count -gt 0) {
+                        $items | Select-Object name, slug |
+                            Sort-Object name |
+                            Format-Table -AutoSize
+                    }
                     Write-Host "Total: $($items.Count) tools"
                 }
             }
         }
         
         'Mirror' {
+            if ($Label -and $Type -ne 'Foods') {
+                Write-Warning "-Label is only supported for Foods. Ignoring flag."
+                $Label = ''
+            }
+
             # Mirror = Full sync: add, update, AND delete
             if (-not $JsonPath -and -not $Folder) {
                 throw "Either -JsonPath or -Folder is required for Mirror action"
