@@ -51,6 +51,14 @@ If you see "Missing type wrapper" or "Type mismatch":
 - Check that `$type` matches what you are importing (e.g., `"Foods"` when using `-Type Foods`).
 - If you have legacy files (raw JSON arrays), convert them with `Tools/Convert-MealieSyncJson.ps1`.
 
+## Food IDs Already Exist on This Server
+
+If you see "Food IDs already exist on this server" during a food import, it means the same dataset was already imported into another group or household on the same Mealie instance. Mealie stores all groups in one database, so food UUIDs must be globally unique.
+
+MealieSync handles this automatically: it detects the collision on the first food, switches to importing without IDs for the remaining items, and logs the message once. All foods are still imported successfully, but cross-language UUID linking (where Dutch "aardappel" and French "pomme de terre" share the same ID) will not be preserved for this import.
+
+This only affects multi-group setups on the same server. Importing to a different Mealie server works normally since each server has its own database.
+
 ## Conflicts Blocking Import
 
 If you see "Import aborted: N conflict(s) found", your data files contain duplicate items. See [Conflict Detection](usage/importing.md#pre-import-conflict-detection) for how to interpret and fix conflicts.

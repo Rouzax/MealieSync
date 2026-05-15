@@ -147,6 +147,12 @@ if ($result.HasConflicts) {
 }
 ```
 
+## Food UUIDs and Multi-Group Servers
+
+The included datasets contain stable UUIDs for each food, shared across language variants (so Dutch "aardappel" and French "pomme de terre" have the same ID). When importing to a fresh Mealie instance, these UUIDs are preserved.
+
+If you import the same dataset into a second group on the same Mealie server, the UUIDs will collide because all groups share one database. MealieSync detects this automatically, switches to importing without UUIDs, and shows a message. All foods are still created successfully; only the cross-language UUID linking is lost for that import.
+
 ## Backups
 
 An automatic backup is created before any import. Use `-SkipBackup` to disable this.

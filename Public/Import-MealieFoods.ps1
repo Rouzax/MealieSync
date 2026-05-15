@@ -330,6 +330,8 @@ function Import-MealieFoods {
     if (-not $MatchedIds) {
         $MatchedIds = @{}
     }
+
+    $skipIds = $false
     
     #endregion Initialize Stats and Tracking
     
@@ -523,7 +525,8 @@ function Import-MealieFoods {
                     $params = @{
                         Name = $itemName
                     }
-                    if (![string]::IsNullOrEmpty($item.id)) {
+                    $hasId = ![string]::IsNullOrEmpty($item.id) -and -not $skipIds
+                    if ($hasId) {
                         $params.Id = $item.id
                     }
                     if (![string]::IsNullOrEmpty($item.pluralName)) {
@@ -539,7 +542,24 @@ function Import-MealieFoods {
                         $params.LabelId = $resolvedLabelId
                     }
 
-                    New-MealieFood @params | Out-Null
+                    try {
+                        New-MealieFood @params | Out-Null
+                    }
+                    catch {
+                        if ($hasId -and $_ -match '400') {
+                            $params.Remove('Id')
+                            New-MealieFood @params | Out-Null
+                            $skipIds = $true
+                            Write-Host ""
+                            Write-Host "  Note: Food IDs already exist on this server." -ForegroundColor Yellow
+                            Write-Host "  Importing without IDs for remaining items." -ForegroundColor Yellow
+                            Write-Host "  Cross-language UUID linking will not be preserved for this import." -ForegroundColor Yellow
+                            Write-Host ""
+                        }
+                        else {
+                            throw
+                        }
+                    }
                     if (-not $Quiet) {
                         Write-ImportResult -Counter $counter -Result 'Created' -ItemName $itemName
                     }
