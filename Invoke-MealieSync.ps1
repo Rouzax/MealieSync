@@ -146,7 +146,8 @@ try {
     }
     
     # Validate input file/folder exists before connecting to API
-    if ($Action -in @('Import', 'Mirror', 'Export')) {
+    # Skip for Export (paths are output destinations, not inputs)
+    if ($Action -in @('Import', 'Mirror')) {
         if ($JsonPath) {
             $resolvedJsonPath = if ([System.IO.Path]::IsPathRooted($JsonPath)) {
                 $JsonPath
@@ -154,7 +155,7 @@ try {
             else {
                 [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $JsonPath))
             }
-            if (-not $SplitByLabel -and -not (Test-Path $resolvedJsonPath)) {
+            if (-not (Test-Path $resolvedJsonPath)) {
                 throw "File not found: $resolvedJsonPath"
             }
         }
