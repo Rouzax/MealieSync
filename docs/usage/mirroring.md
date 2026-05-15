@@ -48,6 +48,22 @@ Phase 2: Finding orphaned items...
   No orphaned items to delete.
 ```
 
+## Mirroring from a Folder
+
+When you use `-Folder`, all JSON files in the folder are treated as one combined dataset. MealieSync imports each file individually (so you can see which file contributes which changes), then runs a single delete pass comparing Mealie against all files combined. An item that exists in any file is kept; only items not found in any file are deleted.
+
+```powershell
+# Preview folder mirror
+.\Invoke-MealieSync.ps1 -Action Mirror -Type Foods -Folder .\Data\nl\Foods -WhatIf
+
+# Run folder mirror
+.\Invoke-MealieSync.ps1 -Action Mirror -Type Foods -Folder .\Data\nl\Foods
+```
+
+Cross-file conflict detection runs automatically before any changes. If two files define the same item, the operation is blocked until you fix the conflict.
+
+Folder mirror is supported for Foods and Units. For other types, use `-JsonPath` with a single file.
+
 ## Scoping Deletions with Labels
 
 You can scope Mirror to a specific label. This limits deletions to items with that label only, leaving everything else untouched:
