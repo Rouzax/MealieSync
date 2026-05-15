@@ -1,4 +1,4 @@
-# Mealie Ingredient Database — RULES.md (EN)
+# Mealie Ingredient Database: Food Rules (EN)
 
 ## Goal
 Build an ingredient database that is **consistent, predictable, and parsing-friendly**:
@@ -22,11 +22,11 @@ This document covers **Labels** and how to model **ingredients**.
 
 ## JSON conventions (import-ready)
 An ingredient object includes at minimum:
-- `name` (string) — canonical name (English)
-- `pluralName` (string) — common plural (or equal to `name` for mass nouns / fixed plurals)
-- `description` (string) — short: `definition; use/prep.`
-- `aliases` (array) — always present, at least `[]`, items as `{ "name": "..." }`
-- `label` (string) — exactly one label from your Mealie instance
+- `name` (string): canonical name (English)
+- `pluralName` (string): common plural (or equal to `name` for mass nouns / fixed plurals)
+- `description` (string): short: `definition; use/prep.`
+- `aliases` (array): always present, at least `[]`, items as `{ "name": "..." }`
+- `label` (string): exactly one label from your Mealie instance
 
 **Normalization**
 - trim spaces in `name`, `pluralName`, and alias names; no double spaces

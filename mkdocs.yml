@@ -1,0 +1,59 @@
+site_name: MealieSync
+site_description: A PowerShell toolkit for managing Mealie recipe data via REST API
+site_url: https://rouzax.github.io/MealieSync
+repo_url: https://github.com/Rouzax/MealieSync
+repo_name: Rouzax/MealieSync
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Usage:
+      - Overview: usage/overview.md
+      - Importing: usage/importing.md
+      - Exporting: usage/exporting.md
+      - Mirroring: usage/mirroring.md
+      - Tag Merging: usage/tag-merging.md
+      - Utility Tools: usage/utility-tools.md
+  - Reference:
+      - Parameters: reference/parameters.md
+      - JSON Format: reference/json-format.md
+      - API Endpoints: reference/api-endpoints.md
+      - PowerShell Module: reference/powershell-module.md
+  - Troubleshooting: troubleshooting.md
+  - Contributing:
+      - Guide: contributing/index.md
+      - Data Contributions: contributing/data-guide.md
+      - LLM Workflow: contributing/llm-workflow.md
+      - Color System: contributing/color-system.md

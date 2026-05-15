@@ -1,4 +1,4 @@
-# Mealie Ingrediënten Database — RULES.md
+# Mealie Ingrediënten Database: Food Rules (NL)
 
 ## Doel
 Een ingrediënten-database die **consistent, voorspelbaar en parse-vriendelijk** is:
@@ -20,11 +20,11 @@ Een ingrediënten-database die **consistent, voorspelbaar en parse-vriendelijk**
 
 ## JSON-conventies (import-ready)
 Een ingrediënt-object bevat minimaal:
-- `name` (string) — canonieke naam (NL, enkelvoud)
-- `pluralName` (string) — gangbaar meervoud (of gelijk aan `name` bij mass nouns)
-- `description` (string) — kort: `definitie; gebruik/bereiding.`
-- `aliases` (array) — altijd aanwezig, minstens `[]`, items als `{ "name": "..." }`
-- `label` (string) — exact één van de labels in deze file
+- `name` (string): canonieke naam (NL, enkelvoud)
+- `pluralName` (string): gangbaar meervoud (of gelijk aan `name` bij mass nouns)
+- `description` (string): kort: `definitie; gebruik/bereiding.`
+- `aliases` (array): altijd aanwezig, minstens `[]`, items als `{ "name": "..." }`
+- `label` (string): exact één van de labels in deze file
 
 **Normalisatie:**
 - `name`, `pluralName`, aliases: trim spaties; geen dubbele spaties
@@ -178,7 +178,7 @@ Voorbeeld:
   * `knoflook poeder`, `knoflook-poeder`
 * Als `name` een vierkante-haken-variant is, mag de poeder-samenstelling als alias waar gangbaar:
 
-  * `kaneel [gemalen]` — alias: `kaneelpoeder` (als je niet voor `kaneelpoeder` als `name` kiest)
+  * `kaneel [gemalen]`: alias `kaneelpoeder` (als je niet voor `kaneelpoeder` als `name` kiest)
 
 **Samenstellingen die we met vierkante haken modelleren mogen als alias:**
 
@@ -392,7 +392,7 @@ Verplaats aliases naar het juiste gesplitste item. Verwijder de oude ambigue ent
 ### Richtlijnen
 
 * Kort, informatief, geen marketing
-* Richtlijn: < ~80 tekens (conservatief)
+* Maximaal 100 tekens (incl. spaties)
 * Noem 1 kenmerk + 1 typische toepassing
 
 ### Voorbeelden

@@ -1,4 +1,4 @@
-# Base d’ingrédients Mealie — RULES.md (FR)
+# Base d’ingrédients Mealie: Food Rules (FR)
 
 ## Objectif
 Construire une base d’ingrédients **cohérente, prévisible et facile à parser** :
@@ -22,11 +22,11 @@ Ce document concerne les **Labels** et la modélisation des **ingrédients**.
 
 ## Conventions JSON (import-ready)
 Un objet ingrédient contient au minimum :
-- `name` (string) — nom canonique (français)
-- `pluralName` (string) — pluriel courant (ou identique à `name` pour les mass nouns / pluriels figés)
-- `description` (string) — court : `définition; usage/préparation.`
-- `aliases` (array) — toujours présent, au moins `[]`, éléments `{ "name": "..." }`
-- `label` (string) — exactement un label de votre instance Mealie
+- `name` (string): nom canonique (français)
+- `pluralName` (string): pluriel courant (ou identique à `name` pour les mass nouns / pluriels figés)
+- `description` (string): court : `définition; usage/préparation.`
+- `aliases` (array): toujours présent, au moins `[]`, éléments `{ "name": "..." }`
+- `label` (string): exactement un label de votre instance Mealie
 
 **Normalisation**
 - trim des espaces dans `name`, `pluralName` et les alias ; pas de doubles espaces

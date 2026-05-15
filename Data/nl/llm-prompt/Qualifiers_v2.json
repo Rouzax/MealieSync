@@ -1,0 +1,194 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "IngredientQualifiers",
+  "$version": "1.0",
+  "items": [
+    {
+      "name": "vers",
+      "category": "toestand",
+      "description": "Vers product (niet gedroogd).",
+      "alias_patterns": [
+        "{base} vers",
+        "verse {base}",
+        "vers {base}"
+      ],
+      "split_group": "toestand",
+      "disallowed_labels": [
+        "Groente",
+        "Fruit"
+      ],
+      "preferred_labels": [
+        "Verse kruiden"
+      ]
+    },
+    {
+      "name": "gedroogd",
+      "category": "toestand",
+      "description": "Gedroogd product.",
+      "alias_patterns": [
+        "{base} gedroogd",
+        "gedroogde {base}",
+        "gedroogd {base}"
+      ],
+      "split_group": "toestand"
+    },
+    {
+      "name": "heel",
+      "category": "maalvorm",
+      "description": "Hele stukken/ongeplet (niet gemalen).",
+      "alias_patterns": [
+        "{base} heel",
+        "hele {base}"
+      ],
+      "split_group": "maalvorm"
+    },
+    {
+      "name": "gemalen",
+      "category": "maalvorm",
+      "description": "Gemalen/poedervorm (tenzij Xpoeder canoniek is).",
+      "alias_patterns": [
+        "{base} gemalen",
+        "gemalen {base}"
+      ],
+      "split_group": "maalvorm"
+    },
+    {
+      "name": "korrel",
+      "category": "vorm",
+      "description": "Hele korrels.",
+      "alias_patterns": [
+        "{base} korrel",
+        "{base} korrels",
+        "{base}korrels"
+      ],
+      "split_group": "vorm"
+    },
+    {
+      "name": "vlokken",
+      "category": "vorm",
+      "description": "Vlokken (flakes).",
+      "alias_patterns": [
+        "{base} vlokken",
+        "{base}vlokken"
+      ],
+      "split_group": "vorm"
+    },
+    {
+      "name": "stokje",
+      "category": "vorm",
+      "description": "Stokje (bijv. kaneelstokje).",
+      "alias_patterns": [
+        "{base} stokje",
+        "{base}stokje",
+        "{base} stokjes",
+        "{base}stokjes"
+      ],
+      "split_group": "vorm"
+    },
+    {
+      "name": "sap",
+      "category": "afgeleid",
+      "description": "Het sap van het ingrediënt.",
+      "alias_patterns": [
+        "{base} sap",
+        "{base}sap"
+      ],
+      "split_group": "afgeleid"
+    },
+    {
+      "name": "rasp",
+      "category": "afgeleid",
+      "description": "Rasp/zest van de schil.",
+      "alias_patterns": [
+        "{base} rasp",
+        "{base}rasp"
+      ],
+      "split_group": "afgeleid"
+    },
+    {
+      "name": "schil",
+      "category": "afgeleid",
+      "description": "Schil (peel).",
+      "alias_patterns": [
+        "{base} schil",
+        "{base}schil"
+      ],
+      "split_group": "afgeleid"
+    },
+    {
+      "name": "blik",
+      "category": "bewaarvorm",
+      "description": "Uit blik/ingeblikt.",
+      "alias_patterns": [
+        "{base} blik",
+        "{base} uit blik",
+        "blik {base}"
+      ],
+      "split_group": "bewaarvorm"
+    },
+    {
+      "name": "diepvries",
+      "category": "bewaarvorm",
+      "description": "Diepvriesproduct.",
+      "alias_patterns": [
+        "{base} diepvries",
+        "{base} uit diepvries",
+        "diepvries {base}"
+      ],
+      "split_group": "bewaarvorm"
+    },
+    {
+      "name": "ingelegd",
+      "category": "bewaarvorm",
+      "description": "Ingelegd/pickled.",
+      "alias_patterns": [
+        "{base} ingelegd",
+        "ingelegde {base}",
+        "ingelegd {base}"
+      ],
+      "split_group": "bewaarvorm"
+    },
+    {
+      "name": "geroosterd",
+      "category": "bewerking",
+      "description": "Geroosterd (roasted).",
+      "alias_patterns": [
+        "{base} geroosterd",
+        "geroosterde {base}",
+        "geroosterd {base}"
+      ],
+      "split_group": "bewerking"
+    },
+    {
+      "name": "gerookt",
+      "category": "bewerking",
+      "description": "Gerookt (smoked).",
+      "alias_patterns": [
+        "{base} gerookt",
+        "gerookte {base}",
+        "gerookt {base}"
+      ],
+      "split_group": "bewerking"
+    },
+    {
+      "name": "gezouten",
+      "category": "zoutgehalte",
+      "description": "Gezouten variant.",
+      "alias_patterns": [
+        "{base} gezouten",
+        "gezouten {base}"
+      ],
+      "split_group": "zoutgehalte"
+    },
+    {
+      "name": "ongezouten",
+      "category": "zoutgehalte",
+      "description": "Ongezouten variant.",
+      "alias_patterns": [
+        "{base} ongezouten",
+        "ongezouten {base}"
+      ],
+      "split_group": "zoutgehalte"
+    }
+  ]
+}

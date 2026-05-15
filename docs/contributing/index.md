@@ -1,34 +1,34 @@
-# Contributing to MealieSync
+# Contributing
 
-Thank you for your interest in contributing to MealieSync! This document provides guidelines for contributing code, documentation, and data.
+Thank you for your interest in contributing to MealieSync!
 
 ## Ways to Contribute
 
-### 🌍 Data Contributions (Easiest)
+### Data Contributions (Easiest)
 
-Translate ingredient data to your language or expand existing databases. See [Data/README.md](Data/README.md) for detailed guidelines.
+Translate ingredient data to your language or expand existing databases. See the [data contribution guide](data-guide.md) for detailed guidelines.
 
-### 🐛 Bug Reports
+### Bug Reports
 
 Found a bug? [Open an issue](https://github.com/Rouzax/MealieSync/issues) with:
+
 - PowerShell version (`$PSVersionTable.PSVersion`)
 - Mealie version
 - Steps to reproduce
 - Expected vs actual behavior
 - Relevant error messages
 
-### 💡 Feature Requests
+### Feature Requests
 
 Have an idea? [Open an issue](https://github.com/Rouzax/MealieSync/issues) describing:
-- The problem you're trying to solve
+
+- The problem you are trying to solve
 - Your proposed solution
 - Alternative approaches you considered
 
-### 🔧 Code Contributions
+### Code Contributions
 
 Pull requests are welcome! Please follow the guidelines below.
-
----
 
 ## Development Setup
 
@@ -41,22 +41,15 @@ Pull requests are welcome! Please follow the guidelines below.
 ### Getting Started
 
 ```powershell
-# Clone the repository
 git clone https://github.com/Rouzax/MealieSync.git
 cd MealieSync
 
-# Create your config
 Copy-Item mealie-config-sample.json mealie-config.json
 # Edit mealie-config.json with your Mealie URL and token
 
-# Test the connection
 .\Tools\Test-MealieConnection.ps1 -Detailed
-
-# Run the module
 Import-Module .\MealieApi.psd1
 ```
-
----
 
 ## Code Guidelines
 
@@ -87,60 +80,27 @@ MealieSync/
 | Variables         | camelCase                      | `$existingItems`   |
 | Parameters        | PascalCase                     | `-UpdateExisting`  |
 
-### Console Output Colors
+### Console Output
 
-MealieSync uses consistent colors for user feedback. See the [color system](https://rouzax.github.io/MealieSync/contributing/color-system/) for the full guide.
-
-Key principles:
-- **Green** = success, new, created
-- **Yellow** = warnings, changes, attention needed
-- **Red** = errors, conflicts, blocking issues
-- **Gray** = secondary info, old values, skipped
-- **Dark Red** = destructive actions (deletions)
-
-### Example Function
-
-```powershell
-function Get-MealieExample {
-    <#
-    .SYNOPSIS
-        Brief description of what the function does.
-    .DESCRIPTION
-        Detailed explanation of the function's behavior.
-    .PARAMETER Name
-        Description of the Name parameter.
-    .EXAMPLE
-        Get-MealieExample -Name "test"
-        Shows what happens when you run the command.
-    #>
-    [CmdletBinding()]
-    param(
-        [Parameter(Mandatory)]
-        [string]$Name
-    )
-    
-    # Implementation
-}
-```
+MealieSync uses consistent colors for user feedback. See the [color system](color-system.md) for the full guide.
 
 ### Testing
 
 Before submitting:
+
 1. Test with `-WhatIf` to verify preview output
 2. Test against a real Mealie instance
-3. Verify UTF-8 encoding works (test with special characters)
+3. Verify UTF-8 encoding works (test with special characters like `jalapeño`, `maïs`)
 4. Check that existing functionality still works
-
----
 
 ## Pull Request Process
 
-1. **Fork** the repository
-2. **Create a branch** for your changes (`feature/my-feature` or `fix/bug-description`)
-3. **Make your changes** following the guidelines above
-4. **Test thoroughly** with your Mealie instance
-5. **Update documentation** if needed
-6. **Submit a pull request** with a clear description
+1. Fork the repository
+2. Create a branch for your changes (`feature/my-feature` or `fix/bug-description`)
+3. Make your changes following the guidelines above
+4. Test thoroughly with your Mealie instance
+5. Update documentation if needed
+6. Submit a pull request with a clear description
 
 ### PR Checklist
 
@@ -148,11 +108,8 @@ Before submitting:
 - [ ] Functions include comment-based help
 - [ ] Tested with PowerShell 7.x
 - [ ] No breaking changes (or clearly documented)
-- [ ] README updated if needed
-- [ ] CHANGELOG updated for significant changes
-
----
+- [ ] Documentation updated if needed
 
 ## Questions?
 
-Feel free to open an issue or start a discussion. We're happy to help!
+Feel free to [open an issue](https://github.com/Rouzax/MealieSync/issues) or start a discussion.
