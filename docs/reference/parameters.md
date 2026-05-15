@@ -22,7 +22,7 @@ You must provide either `-JsonPath` or `-Folder` for Export, Import, and Mirror 
 
 | Parameter      | Actions          | Description                                                              |
 | -------------- | ---------------- | ------------------------------------------------------------------------ |
-| `-Label`       | Export, Import, Mirror | Filter by label name. For Mirror, scopes deletions to that label only. |
+| `-Label`       | Export, Import, Mirror (Foods only) | Filter by label name. For Mirror, scopes deletions to that label only. |
 | `-SplitByLabel`| Export (Foods only) | Create one output file per label instead of a single file.             |
 
 ## Behavior Parameters
