@@ -5,12 +5,7 @@ All notable changes to MealieSync will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-
-### Changed
-
-- Dutch food data files renamed to match their label names exactly (e.g., `groente.json` is now `Groente.json`). Consistent with the French dataset.
-- Fixed extra leading whitespace in `mealie-config-sample.json`.
+## [2.5.0] - 2026-05-15
 
 ### Fixed
 
@@ -28,6 +23,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Pester test suite with 12 tests covering folder mirror deletion logic and item matching.
+- Changelog added to the documentation site navigation.
+- Troubleshooting entry for "Items Skipped Instead of Created".
+- Import order note on the importing documentation page.
+
+### Changed
+
+- Dutch food data files renamed to match their label names exactly (e.g., `groente.json` is now `Groente.json`), consistent with the French dataset.
+- README Quick Start now shows all 6 data types and uses `Copy-Item` for config setup.
+- CONTRIBUTING.md now links to the documentation site instead of duplicating its content.
+- `-Path` vs `-JsonPath` parameter difference clarified in PowerShell Module docs.
+- Fixed extra leading whitespace in `mealie-config-sample.json`.
 
 ## [2.4.0] - 2026-05-15
 
