@@ -342,6 +342,21 @@
       "label": "Groente"
     },
     {
+      "id": "d5bc109e-3e5c-43c4-8a61-ca68e809bc17",
+      "name": "flespompoen",
+      "pluralName": "flespompoenen",
+      "description": "Peervormige pompoen met zoet oranje vruchtvlees; roosteren of pureren.",
+      "aliases": [
+        {
+          "name": "butternut"
+        },
+        {
+          "name": "butternutpompoen"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "4eaa1841-19ba-41cb-9d30-5a6558b1121d",
       "name": "frisée",
       "pluralName": "frisée",
@@ -375,6 +390,12 @@
         },
         {
           "name": "bruine uien"
+        },
+        {
+          "name": "ui"
+        },
+        {
+          "name": "uien"
         }
       ],
       "label": "Groente"
@@ -686,6 +707,24 @@
       "pluralName": "palmharten",
       "description": "Hart van palm; rauw in salade of ingelegd uit pot.",
       "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "id": "535137d7-4151-4160-b46b-74b1d297dae9",
+      "name": "palmkool",
+      "pluralName": "palmkool",
+      "description": "Donkere Italiaanse bladkool; voor stoof, soep en pasta.",
+      "aliases": [
+        {
+          "name": "cavolo nero"
+        },
+        {
+          "name": "zwarte kool"
+        },
+        {
+          "name": "toscaanse kool"
+        }
+      ],
       "label": "Groente"
     },
     {

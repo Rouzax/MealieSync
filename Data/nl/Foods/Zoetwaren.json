@@ -186,6 +186,21 @@
       "label": "Zoetwaren"
     },
     {
+      "id": "ef6b3a09-9117-4f13-bc9f-186fab62a6f5",
+      "name": "dadelsiroop",
+      "pluralName": "dadelsiroop",
+      "description": "Dikke siroop van dadels; zoetmaker in gerechten.",
+      "aliases": [
+        {
+          "name": "dadelstroop"
+        },
+        {
+          "name": "dadel siroop"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
       "id": "9615245c-7357-4f26-8474-31027603cb78",
       "name": "drop",
       "pluralName": "drop",
