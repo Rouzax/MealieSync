@@ -186,6 +186,21 @@
       "label": "Confiseries"
     },
     {
+      "id": "ef6b3a09-9117-4f13-bc9f-186fab62a6f5",
+      "name": "sirop de dattes",
+      "pluralName": "sirop de dattes",
+      "description": "Sirop épais de dattes; édulcorant dans les plats.",
+      "aliases": [
+        {
+          "name": "mélasse de dattes"
+        },
+        {
+          "name": "sirop de datte"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
       "id": "9615245c-7357-4f26-8474-31027603cb78",
       "name": "réglisse",
       "pluralName": "réglisse",

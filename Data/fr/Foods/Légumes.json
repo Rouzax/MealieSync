@@ -339,6 +339,24 @@
       "label": "Légumes"
     },
     {
+      "id": "d5bc109e-3e5c-43c4-8a61-ca68e809bc17",
+      "name": "courge butternut",
+      "pluralName": "courges butternut",
+      "description": "Courge en forme de poire à chair orange sucrée; à rôtir ou en purée.",
+      "aliases": [
+        {
+          "name": "butternut"
+        },
+        {
+          "name": "doubeurre"
+        },
+        {
+          "name": "courge doubeurre"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "4eaa1841-19ba-41cb-9d30-5a6558b1121d",
       "name": "frisée",
       "pluralName": "frisée",
@@ -683,6 +701,27 @@
       "pluralName": "cœurs de palmier",
       "description": "Cœur de palmier; cru en salade ou mariné en bocal.",
       "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "535137d7-4151-4160-b46b-74b1d297dae9",
+      "name": "chou noir de Toscane",
+      "pluralName": "chou noir de Toscane",
+      "description": "Chou italien à feuilles sombres; pour ragoûts, soupes et pâtes.",
+      "aliases": [
+        {
+          "name": "cavolo nero"
+        },
+        {
+          "name": "chou noir"
+        },
+        {
+          "name": "chou toscan"
+        },
+        {
+          "name": "chou kale noir"
+        }
+      ],
       "label": "Légumes"
     },
     {

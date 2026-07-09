@@ -57,6 +57,21 @@
       "label": "Produits de boulangerie"
     },
     {
+      "id": "f297ab10-4d2f-44b4-9c46-9b623cf055cf",
+      "name": "pâte d’amande",
+      "pluralName": "pâte d’amande",
+      "description": "Pâte sucrée d’amandes moulues; garniture pour pâtisseries.",
+      "aliases": [
+        {
+          "name": "pâte d'amande"
+        },
+        {
+          "name": "pâte d’amandes"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
       "id": "42df19d8-fa06-47ea-aac8-fcfc7ef61b4a",
       "name": "poudre à pâte",
       "pluralName": "poudre à pâte",
