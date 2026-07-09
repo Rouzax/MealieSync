@@ -8,8 +8,8 @@ For the full data contribution guide, including quality guidelines, naming rules
 
 | Code    | Language       | Status                             | Contents                                      |
 | ------- | -------------- | ---------------------------------- | --------------------------------------------- |
-| `nl`    | Dutch          | 1,312 foods, actively maintained   | Foods, Units, Labels, Categories, Tags, Tools |
-| `fr`    | French         | 1,311 foods                        | Foods, Units, Labels, Categories, Tags, Tools |
+| `nl`    | Dutch          | 1,316 foods, actively maintained   | Foods, Units, Labels, Categories, Tags, Tools |
+| `fr`    | French         | 1,316 foods, mirrors `nl` by UUID  | Foods, Units, Labels, Categories, Tags, Tools |
 | `en`    | English        | Open to contributions              |                                               |
 | `de`    | German         | Open to contributions              |                                               |
 | *other* | Your language? | [Start here](#how-to-contribute)   |                                               |
