@@ -1757,6 +1757,21 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "b3f1c8a2-2d47-4e6a-9c3b-7f5a1e0d9c84",
+      "name": "zeezout [vlokken]",
+      "pluralName": "zeezout [vlokken]",
+      "description": "Zeezout in vlokken; voor knapperige afwerking van gerechten.",
+      "aliases": [
+        {
+          "name": "zeezoutvlokken"
+        },
+        {
+          "name": "zeezout vlokken"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "04f1a601-58b6-4281-bcc2-465ff146a861",
       "name": "zout",
       "pluralName": "zout",
