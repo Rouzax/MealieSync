@@ -1,0 +1,771 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "d67aef3d-c1eb-4e5d-a3a9-08aecc852bad",
+      "name": "potato starch",
+      "pluralName": "potato starch",
+      "description": "Starch extracted from potatoes; used as a thickening agent for sauces and gluten-free baking.",
+      "aliases": [
+        {
+          "name": "potato flour"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "71e4644e-911f-418e-a724-ea0a4ba95c54",
+      "name": "agar-agar",
+      "pluralName": "agar-agar",
+      "description": "Vegetarian gelling agent derived from seaweed; plant-based alternative to gelatin.",
+      "aliases": [
+        {
+          "name": "agar"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "8e97757d-3b35-43a7-bc97-9e76889ac8cc",
+      "name": "almond extract",
+      "pluralName": "almond extracts",
+      "description": "Liquid almond flavoring used in pastries, cakes, and desserts.",
+      "aliases": [
+        {
+          "name": "almond essence"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "b72e21af-aa25-4b38-aae4-f2743e8e3609",
+      "name": "almond flour",
+      "pluralName": "almond flour",
+      "description": "Flour made from finely ground blanched almonds; gluten-free, used for macarons and cakes.",
+      "aliases": [
+        {
+          "name": "ground almonds"
+        },
+        {
+          "name": "almond meal"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "f297ab10-4d2f-44b4-9c46-9b623cf055cf",
+      "name": "almond paste",
+      "pluralName": "almond pastes",
+      "description": "Sweet paste made from ground almonds and sugar; traditional filling for pastries.",
+      "aliases": [
+        {
+          "name": "amandelspijs"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "42df19d8-fa06-47ea-aac8-fcfc7ef61b4a",
+      "name": "baking powder",
+      "pluralName": "baking powders",
+      "description": "Chemical leavening agent combining baking soda and an acid for fluffy baked goods.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "998a9492-4db4-467a-b940-465c0086631b",
+      "name": "caster sugar",
+      "pluralName": "caster sugar",
+      "description": "Fine sugar with added syrup; soft and moist, ideal for cookies and spiced biscuits.",
+      "aliases": [
+        {
+          "name": "basterdsuiker"
+        },
+        {
+          "name": "soft sugar"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "c532ea1d-b8c2-4feb-8f12-caffc74348f8",
+      "name": "baking soda",
+      "pluralName": "baking soda",
+      "description": "Sodium bicarbonate leavener that reacts with acidic ingredients to make baked goods rise.",
+      "aliases": [
+        {
+          "name": "bicarbonate of soda"
+        },
+        {
+          "name": "sodium bicarbonate"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "e907423b-e22f-46ee-aaba-dd1b4dac36a4",
+      "name": "flour mix",
+      "pluralName": "flour mixes",
+      "description": "Blended combination of flours used for specialty breads or pastry baking.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "3ecf2bbe-04da-4658-9591-be0312b9cdb7",
+      "name": "buckwheat flour",
+      "pluralName": "buckwheat flour",
+      "description": "Nutty, gluten-free flour made from ground buckwheat; used for pancakes and blinis.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "7dcb23e6-6d7a-4e2a-8965-822871d8c242",
+      "name": "brown sugar",
+      "pluralName": "brown sugar",
+      "description": "Sugar containing molasses; aromatic sweetener with a distinct caramel flavor.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "4319cda5-226b-4f48-a758-4cac50b7b47c",
+      "name": "cocoa powder",
+      "pluralName": "cocoa powder",
+      "description": "Unsweetened cocoa powder; dark, rich powder used for chocolate baking.",
+      "aliases": [
+        {
+          "name": "cocoa"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "83cf1244-c81d-46b7-9957-ff2350eda26a",
+      "name": "cocoa butter",
+      "pluralName": "cocoa butter",
+      "description": "Edible vegetable fat extracted from cocoa beans; key ingredient in chocolate making.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "791c13b5-3714-41df-8819-679256c19a1b",
+      "name": "citric acid",
+      "pluralName": "citric acid",
+      "description": "Flavoring agent and preservative; imparts a tart, sour taste to candies and baked goods.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "04e1edad-8c02-40d6-b2fd-d6e46917a95d",
+      "name": "custard powder",
+      "pluralName": "custard powders",
+      "description": "Powdered mix combined with milk to create a rich, creamy custard filling.",
+      "aliases": [
+        {
+          "name": "custard"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "b63d47c2-e093-4565-9d9e-f356ffc4c9c0",
+      "name": "demerara sugar",
+      "pluralName": "demerara sugar",
+      "description": "Large-grain raw cane sugar; crunchy texture, ideal for topping crumbles and sweetening coffee.",
+      "aliases": [
+        {
+          "name": "demerara"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "9d3f28de-9b11-4809-a4cc-089fd7bbcd90",
+      "name": "superfine sugar",
+      "pluralName": "superfine sugar",
+      "description": "Finely granulated sugar that dissolves quickly; ideal for meringues and delicate baking.",
+      "aliases": [
+        {
+          "name": "caster sugar (fine)"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "e60aff20-e665-4a3f-8fca-5b40dea5beae",
+      "name": "powdered gelatin",
+      "pluralName": "powdered gelatin",
+      "description": "Granulated form of gelatin; gelling agent for mousses, bavarians, and jellies.",
+      "aliases": [
+        {
+          "name": "gelatin powder"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "51dca465-eee8-4463-ba62-f88f86d3ab70",
+      "name": "jam sugar",
+      "pluralName": "jam sugar",
+      "description": "Sugar blended with pectin and acid; used for setting homemade jams and preserves.",
+      "aliases": [
+        {
+          "name": "gelling sugar"
+        },
+        {
+          "name": "jelly sugar"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "f75cf669-2853-4c0c-90c9-b755e405e2c3",
+      "name": "barley malt syrup",
+      "pluralName": "barley malt syrups",
+      "description": "Malt syrup extracted from sprouted barley; caramel-flavored sweetener for breads and cookies.",
+      "aliases": [
+        {
+          "name": "malt syrup"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "9f43812c-bed6-4991-aa82-644da29ba44e",
+      "name": "yeast (dry)",
+      "pluralName": "yeast (dry)",
+      "description": "Dehydrated yeast granules; leavening agent for bread, dough, and pizza crusts.",
+      "aliases": [
+        {
+          "name": "dry yeast"
+        },
+        {
+          "name": "instant yeast"
+        },
+        {
+          "name": "active dry yeast"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "b0a2df42-3f1b-4eff-9b2e-64cd75be5ce9",
+      "name": "yeast (fresh)",
+      "pluralName": "yeast (fresh)",
+      "description": "Fresh cake yeast; active leavening agent used in artisan breads and pastries.",
+      "aliases": [
+        {
+          "name": "fresh yeast"
+        },
+        {
+          "name": "compressed yeast"
+        },
+        {
+          "name": "baker's yeast"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "d48d883b-347f-49d0-b0ac-30a1de1bc4f0",
+      "name": "glucose syrup",
+      "pluralName": "glucose syrups",
+      "description": "Liquid sugar syrup; prevents crystallization in candies, ice creams, and glazes.",
+      "aliases": [
+        {
+          "name": "glucose"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "168ea1b6-b5fd-414d-adc4-c590012c4e84",
+      "name": "semolina",
+      "pluralName": "semolina",
+      "description": "Coarsely ground durum wheat; used for puddings, pasta, gnocchi, and savory cakes.",
+      "aliases": [
+        {
+          "name": "semolina flour"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "aa6b775f-333d-4ee3-9737-d77a253cd607",
+      "name": "oat flour",
+      "pluralName": "oat flour",
+      "description": "Flour made from finely ground whole oats; used in baking bread and cookies.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "1f2e300d-b1fe-4b9d-acc9-a7a5ce7733a4",
+      "name": "baker's ammonia",
+      "pluralName": "baker's ammonia",
+      "description": "Ammonium carbonate leavener; yields extra crispness in cookies and crackers.",
+      "aliases": [
+        {
+          "name": "hartshorn"
+        },
+        {
+          "name": "ammonium carbonate"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "318981bb-c037-405c-8f62-bed00dd508b4",
+      "name": "invert sugar",
+      "pluralName": "invert sugar",
+      "description": "Glucose-fructose liquid sweetener; retains moisture in baked goods and sorbets.",
+      "aliases": [
+        {
+          "name": "invert sugar syrup"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "f8554145-6852-4fc9-8525-3b17d98a0394",
+      "name": "jaggery",
+      "pluralName": "jaggery",
+      "description": "Unrefined cane or palm sugar block; rich caramel-like flavor.",
+      "aliases": [
+        {
+          "name": "palm sugar"
+        },
+        {
+          "name": "gur"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "32033297-b3b2-4959-8864-bd24bfcbdd24",
+      "name": "locust bean gum",
+      "pluralName": "locust bean gum",
+      "description": "Natural thickening and stabilizing agent (E410) derived from carob seeds.",
+      "aliases": [
+        {
+          "name": "carob bean gum"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "09d91347-2690-45f2-a834-317601edde71",
+      "name": "cinnamon sugar",
+      "pluralName": "cinnamon sugar",
+      "description": "Aromatic blend of granulated sugar and ground cinnamon for dusting pastries and waffles.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "4ef30f53-d56f-4b1e-8f32-9c41bf55872b",
+      "name": "caramel extract",
+      "pluralName": "caramel extracts",
+      "description": "Concentrated caramel flavoring liquid used in desserts and baked goods.",
+      "aliases": [
+        {
+          "name": "caramel essence"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "eff08eb9-8f2c-42c2-a69d-f58d6538f0da",
+      "name": "chestnut flour",
+      "pluralName": "chestnut flour",
+      "description": "Naturally sweet, gluten-free flour ground from dried chestnuts; ideal for pancakes.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "167f1f9e-1d45-4218-ae6e-be7f00ca40f4",
+      "name": "coconut sugar",
+      "pluralName": "coconut sugar",
+      "description": "Unrefined natural sweetener made from coconut palm sap; subtle caramel note.",
+      "aliases": [
+        {
+          "name": "coconut palm sugar"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "2bb062d9-cc67-4ef5-9ff8-7ca72e87ed6a",
+      "name": "coconut flour",
+      "pluralName": "coconut flour",
+      "description": "High-fiber, gluten-free flour made from dried coconut meat.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "1c9082ca-a0a4-4a52-b72e-090eea4644c4",
+      "name": "pearl sugar",
+      "pluralName": "pearl sugar",
+      "description": "Coarse granulated white sugar crystals that do not melt during baking; used for sweet breads.",
+      "aliases": [
+        {
+          "name": "nib sugar"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "24646cf6-cc0d-4057-9db5-79641dffff11",
+      "name": "light brown sugar",
+      "pluralName": "light brown sugar",
+      "description": "Soft, fine light brown sugar with molasses syrup; used in cookies and spiced pastries.",
+      "aliases": [
+        {
+          "name": "light basterdsuiker"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "bb4e2a03-e862-4967-8309-23de564a849c",
+      "name": "cornmeal",
+      "pluralName": "cornmeal",
+      "description": "Coarsely or finely ground dried cornmeal; used for cornbread, polenta, and baking.",
+      "aliases": [
+        {
+          "name": "polenta flour"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "7c4a0405-e60e-4ec2-8820-b458a0f929dd",
+      "name": "corn syrup",
+      "pluralName": "corn syrups",
+      "description": "Liquid sweetener derived from cornstarch; inhibits sugar crystallization in icings and candy.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "37936126-5c3c-449c-91a4-7f0bd7879106",
+      "name": "cornstarch",
+      "pluralName": "cornstarch",
+      "description": "Fine starch powder from corn kernels; used as a thickening agent for puddings and sauces.",
+      "aliases": [
+        {
+          "name": "corn starch"
+        },
+        {
+          "name": "maizena"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "1f2b33a3-a1d5-42a6-b991-269c3ccccf32",
+      "name": "maltose",
+      "pluralName": "maltose",
+      "description": "Malt sugar syrup; less sweet than sucrose, commonly used in Asian baking and glazes.",
+      "aliases": [
+        {
+          "name": "malt sugar"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "859ab28f-04b7-4eb3-beff-797ca170b38f",
+      "name": "molasses",
+      "pluralName": "molasses",
+      "description": "Thick, dark syrup produced during sugar refining; rich and bittersweet.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "7ae794e8-79c7-40bb-a1a7-bee4147c151a",
+      "name": "oliebollen mix",
+      "pluralName": "oliebollen mixes",
+      "description": "Prepared baking mix for traditional Dutch fritters; requires water or milk and eggs.",
+      "aliases": [
+        {
+          "name": "oliebollenmix"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "73e33a43-886f-480d-88ae-56d62055fb03",
+      "name": "pectin",
+      "pluralName": "pectin",
+      "description": "Natural fruit-derived gelling agent used to thicken jams, jellies, and fruit fillings.",
+      "aliases": [
+        {
+          "name": "fruit pectin"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "61fc6c23-6b6a-4a13-9b28-aff55fb7a082",
+      "name": "gelatin sheets",
+      "pluralName": "gelatin sheets",
+      "description": "Thin sheets of dried gelatin soaked in water and dissolved to set mousses and jellies.",
+      "aliases": [
+        {
+          "name": "leaf gelatin"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "91b7d5da-8c63-4094-ab70-9ac83c8796c5",
+      "name": "powdered sugar",
+      "pluralName": "powdered sugar",
+      "description": "Finely ground sugar with anti-caking agent; ideal for icings, glazes, and dusting.",
+      "aliases": [
+        {
+          "name": "confectioners' sugar"
+        },
+        {
+          "name": "icing sugar"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "1916b718-06f4-48ad-822c-4210820921f7",
+      "name": "pudding powder",
+      "pluralName": "pudding powders",
+      "description": "Powdered dessert mix combined with heated milk to prepare pudding.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "ee8f190b-82b3-4211-a0b2-417b977dbdd6",
+      "name": "red velvet cake mix",
+      "pluralName": "red velvet cake mixes",
+      "description": "Prepared cake flour mix for making red velvet cocoa cakes.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "78d495fe-5930-48a0-a1f9-9ff60306fdf4",
+      "name": "cane sugar",
+      "pluralName": "cane sugar",
+      "description": "Granulated sugar refined from sugarcane; subtle caramel taste.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "8ff16398-c9a4-4596-a31c-ec28a683d05e",
+      "name": "rice flour",
+      "pluralName": "rice flour",
+      "description": "Gluten-free flour ground from milled rice; used for pastries and dumplings.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "36ed552d-0165-4215-90aa-eae36f0480ee",
+      "name": "rye flour",
+      "pluralName": "rye flour",
+      "description": "Flour ground from whole rye grain; used for artisan sourdough and dark breads.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "55f4936c-6639-44b2-a778-5861bd808596",
+      "name": "rose water",
+      "pluralName": "rose water",
+      "description": "Flavored floral distillate used to perfume pastries, sweets, and beverages.",
+      "aliases": [
+        {
+          "name": "rosewater"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "1ad16896-b257-4871-bb10-8701796574aa",
+      "name": "whipped cream stabilizer",
+      "pluralName": "whipped cream stabilizers",
+      "description": "Powdered additive mixed into heavy cream during whipping to help hold shape.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "2e03fb99-e5e0-4b6c-9abe-f925ab30650a",
+      "name": "whipped topping powder",
+      "pluralName": "whipped topping powders",
+      "description": "Sweetened powdered mix whipped with cold milk to make dessert topping.",
+      "aliases": [
+        {
+          "name": "klop klop"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "25be1a34-5ab0-4fd7-9e49-1f7236471e6b",
+      "name": "spelt flour",
+      "pluralName": "spelt flour",
+      "description": "Flour milled from spelt grain; distinct nutty flavor, alternative to wheat flour.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "6f76b394-84ac-4c90-8c2c-4d807af0b9e7",
+      "name": "stevia",
+      "pluralName": "stevia",
+      "description": "Zero-calorie plant-based natural sweetener derived from the Stevia rebaudiana plant.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "ee2be0f2-cae7-488b-8314-c69a562cca8f",
+      "name": "sugar",
+      "pluralName": "sugar",
+      "description": "Granulated white sugar from sugar beet or sugarcane; general-purpose sweetener.",
+      "aliases": [
+        {
+          "name": "granulated sugar"
+        },
+        {
+          "name": "white sugar"
+        },
+        {
+          "name": "table sugar"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "f3a305ea-9e88-4637-9ec2-c49a00e36baf",
+      "name": "candied citrus peel",
+      "pluralName": "candied citrus peels",
+      "description": "Diced candied fruit peel used in fruitcakes, stollen, and sweet rolls.",
+      "aliases": [
+        {
+          "name": "sukade"
+        },
+        {
+          "name": "candied lemon peel"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "d5018a9c-231d-4ff7-bca0-c079e541b370",
+      "name": "tapioca starch",
+      "pluralName": "tapioca starch",
+      "description": "Starch extracted from cassava root; gluten-free thickener used in baking and boba pearls.",
+      "aliases": [
+        {
+          "name": "tapioca flour"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "c19061c2-845b-4862-9ed7-fae3f8fe0c5c",
+      "name": "wheat flour",
+      "pluralName": "wheat flour",
+      "description": "Refined white flour without bran or germ; staple base for cakes, pastries, and sauces.",
+      "aliases": [
+        {
+          "name": "all-purpose flour"
+        },
+        {
+          "name": "flour"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "6951da1c-8604-486f-890c-c84226d91efc",
+      "name": "whole wheat flour",
+      "pluralName": "whole wheat flour",
+      "description": "Flour ground from whole wheat grains; used for breads, pancakes, and baking.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "d8d94e39-aa5a-4e23-850d-70b353bf16f4",
+      "name": "vanilla extract",
+      "pluralName": "vanilla extracts",
+      "description": "Liquid vanilla flavoring extract used in pastries, cakes, and sweet dishes.",
+      "aliases": [
+        {
+          "name": "vanilla essence"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "075a01e6-b23c-46c5-8f2a-2f4f3951e608",
+      "name": "vanilla sugar",
+      "pluralName": "vanilla sugar",
+      "description": "Sugar infused with vanilla aroma or beans; used for desserts and pastries.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "a5be716f-8168-4c1e-826b-cfe66d821f53",
+      "name": "whole wheat bread mix",
+      "pluralName": "whole wheat bread mixes",
+      "description": "Prepared flour blend for whole wheat bread; contains flour, yeast, salt, and malt.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "243e046c-a329-4e13-acbd-bf5c7e94239a",
+      "name": "whole grain flour",
+      "pluralName": "whole grain flour",
+      "description": "Flour ground from whole grain including bran and germ; used for brown bread.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "9ab1c0a7-3ab4-4757-915d-0781afb4e4b4",
+      "name": "fruit salt",
+      "pluralName": "fruit salts",
+      "description": "Effervescent leavening agent containing bicarbonate and citric acid.",
+      "aliases": [],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "020999e2-3a0a-49b2-92c7-b4a46de09a3d",
+      "name": "cream of tartar",
+      "pluralName": "cream of tartar",
+      "description": "Acidic salt (potassium bitartrate); stabilizes egg whites and activates baking soda.",
+      "aliases": [
+        {
+          "name": "potassium bitartrate"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "aa733542-c889-4673-aebd-493776069d82",
+      "name": "white caster sugar",
+      "pluralName": "white caster sugar",
+      "description": "Fine soft white sugar with syrup content; remains moist in baking.",
+      "aliases": [
+        {
+          "name": "witte basterdsuiker"
+        }
+      ],
+      "label": "Baking Goods"
+    },
+    {
+      "id": "5f057004-28e9-43d2-8c1f-61eb660ab031",
+      "name": "self-rising flour",
+      "pluralName": "self-rising flour",
+      "description": "Pre-mixed blend of flour and baking powder; used for cakes, biscuits, and muffins.",
+      "aliases": [
+        {
+          "name": "self-raising flour"
+        }
+      ],
+      "label": "Baking Goods"
+    }
+  ]
+}
