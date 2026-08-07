@@ -1,0 +1,1292 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "14522133-b54e-4af1-8b5e-fa14910a1a78",
+      "name": "alfalfa",
+      "pluralName": "alfalfa",
+      "description": "Sprouts; raw as a topping on salad or bread.",
+      "aliases": [
+        {
+          "name": "alfalfa sprouts"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+    "id": "6d3aa679-4a75-42b0-b47e-5f4f28b52cb0",
+    "name": "endive",
+    "pluralName": "endives",
+    "description": "Leaf vegetable; raw in salad or braised in mash.",
+    "aliases": [
+      {
+        "name": "escarole"
+      }
+    ],
+    "label": "Vegetables"
+  },
+    {
+      "id": "45c54c7d-30c1-4092-875a-c4e7b0bd5670",
+      "name": "artichoke",
+      "pluralName": "artichokes",
+      "description": "Flower bud vegetable; cooked and the heart eaten.",
+      "aliases": [
+        {
+          "name": "globe artichoke"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "81d0c167-8228-4c65-8b57-dc19fb9df336",
+      "name": "artichoke heart",
+      "pluralName": "artichoke hearts",
+      "description": "Artichoke heart; pickled or in pasta and salads.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "b4aada7e-1caf-42ab-8665-e217e63f213d",
+      "name": "asparagus",
+      "pluralName": "asparagus",
+      "description": "Stem vegetable; boiled, steamed, or grilled.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "d2be6817-2ffb-4543-aede-b4c239ac145d",
+      "name": "broccolini",
+      "pluralName": "broccolini",
+      "description": "Broccolini; quick stir-fried, steamed, or grilled.",
+      "aliases": [
+        {
+          "name": "bimi"
+        },
+        {
+          "name": "tenderstem broccoli"
+        },
+        {
+          "name": "baby broccoli"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "c7eae434-78b6-4850-ade8-12e66af55312",
+      "name": "eggplant",
+      "pluralName": "eggplants",
+      "description": "Fruit vegetable; grilled, fried, or stewed.",
+      "aliases": [
+        {
+          "name": "aubergine"
+        },
+        {
+          "name": "aubergines"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "e531899a-063b-42e7-9f80-ff9913c666c2",
+      "name": "pickle",
+      "pluralName": "pickles",
+      "description": "Pickled cucumber; as a garnish or in salads.",
+      "aliases": [
+        {
+          "name": "pickled cucumber"
+        },
+        {
+          "name": "cornichon"
+        },
+        {
+          "name": "gherkin"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "cd0a3291-23fa-405b-a810-cadf9717b584",
+      "name": "baby corn",
+      "pluralName": "baby corn",
+      "description": "Young ears of corn; stir-fried or in curries.",
+      "aliases": [
+        {
+          "name": "baby maize"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "f8266b43-31f3-49c2-b47f-103dc798a2c2",
+      "name": "bamboo shoot",
+      "pluralName": "bamboo shoots",
+      "description": "Young bamboo shoot; in stir-fries, soups, or curries.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "e8d7d095-cb4d-49ac-b6d8-f59faaacc33b",
+      "name": "shimeji mushroom",
+      "pluralName": "shimeji mushrooms",
+      "description": "Mushroom; briefly sautéed or in soup.",
+      "aliases": [
+        {
+          "name": "beech mushroom"
+        },
+        {
+          "name": "bunashimeji"
+        },
+        {
+          "name": "shimeji"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "9415095e-9e65-44d5-929a-175d7b83e7db",
+      "name": "celery",
+      "pluralName": "celery",
+      "description": "Stem vegetable; raw in salad or cooked in soup.",
+      "aliases": [
+        {
+          "name": "celery stalk"
+        },
+        {
+          "name": "celery stalks"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "8aabc8b7-c2d4-4a4c-8132-56aea04a96c1",
+      "name": "cauliflower",
+      "pluralName": "cauliflowers",
+      "description": "Brassica vegetable; boiled, roasted, or puréed.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "daf2d1b4-87cf-4090-9036-8eab571f7ac4",
+      "name": "kale",
+      "pluralName": "kale",
+      "description": "Leaf cabbage; stewed or in mashed potato dish.",
+      "aliases": [
+        {
+          "name": "borecole"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "99b73210-e867-4d48-b320-a29a2819cf9b",
+      "name": "green onion",
+      "pluralName": "green onions",
+      "description": "Young onion with greens; raw or briefly sautéed.",
+      "aliases": [
+        {
+          "name": "scallion"
+        },
+        {
+          "name": "scallions"
+        },
+        {
+          "name": "spring onion"
+        },
+        {
+          "name": "spring onions"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "4c696a44-555a-4bfc-9b72-238945114df7",
+      "name": "butterhead lettuce",
+      "pluralName": "butterhead lettuce",
+      "description": "Tender butterhead lettuce; raw in salad.",
+      "aliases": [
+        {
+          "name": "butter lettuce"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "21b93219-b8fe-462b-854a-1986b9f12675",
+      "name": "broccoli",
+      "pluralName": "broccoli",
+      "description": "Brassica vegetable; steamed, boiled, or stir-fried.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "05775ea0-0ef3-4f11-b7c4-31dfad75d3ea",
+      "name": "chanterelle",
+      "pluralName": "chanterelles",
+      "description": "Wild mushroom; sautéed or in sauce.",
+      "aliases": [
+        {
+          "name": "golden chanterelle"
+        },
+        {
+          "name": "girolle"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "4bc24669-5bf0-41f9-bd0b-515355534403",
+      "name": "white mushroom",
+      "pluralName": "white mushrooms",
+      "description": "Mushroom; sautéed or in sauces.",
+      "aliases": [
+        {
+          "name": "button mushroom"
+        },
+        {
+          "name": "button mushrooms"
+        },
+        {
+          "name": "champignon"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "bbd37eb7-8eac-4cab-9c15-d4b593ac2fa2",
+      "name": "chili pepper (pickled)",
+      "pluralName": "chili peppers (pickled)",
+      "description": "Pickled chili pepper; use as a spicy topping or in sauces.",
+      "aliases": [
+        {
+          "name": "pickled chili pepper"
+        },
+        {
+          "name": "pickled chili"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "ab16ecbd-9ef4-4239-9aa8-8ea6e00bfed4",
+      "name": "napa cabbage",
+      "pluralName": "napa cabbages",
+      "description": "Mild cabbage; in stir-fries, soups, or salads.",
+      "aliases": [
+        {
+          "name": "chinese cabbage"
+        },
+        {
+          "name": "wong bok"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "a2ce1ce7-578f-4466-a010-6e4623e3799e",
+      "name": "zucchini",
+      "pluralName": "zucchini",
+      "description": "Fruit vegetable; sautéed, grilled, or in soup.",
+      "aliases": [
+        {
+          "name": "courgette"
+        },
+        {
+          "name": "courgettes"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "f3b115e5-f022-4517-bb32-7a9e25698458",
+      "name": "porcini",
+      "pluralName": "porcini",
+      "description": "Fresh porcini; sautéed or in pasta and sauce.",
+      "aliases": [
+        {
+          "name": "porcini mushroom"
+        },
+        {
+          "name": "cèpe"
+        },
+        {
+          "name": "cepe"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "e863479c-a2fd-4666-918e-4199933a1904",
+      "name": "porcini (dried)",
+      "pluralName": "porcini (dried)",
+      "description": "Dried porcini; soaked for risotto, soup, or sauce.",
+      "aliases": [
+        {
+          "name": "dried porcini"
+        },
+        {
+          "name": "dried cèpes"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "de915f78-6473-4937-b92e-a26358d556c0",
+      "name": "oak leaf lettuce",
+      "pluralName": "oak leaf lettuce",
+      "description": "Loose-leaf lettuce; raw in salad.",
+      "aliases": [
+        {
+          "name": "oakleaf lettuce"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "d5bc109e-3e5c-43c4-8a61-ca68e809bc17",
+      "name": "butternut squash",
+      "pluralName": "butternut squashes",
+      "description": "Pear-shaped squash with sweet orange flesh; roast or purée.",
+      "aliases": [
+        {
+          "name": "butternut"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+    "id": "4eaa1841-19ba-41cb-9d30-5a6558b1121d",
+    "name": "frisée",
+    "pluralName": "frisée",
+    "description": "Curly endive; raw in salad or quickly stir-fried.",
+    "aliases": [
+      {
+        "name": "curly endive"
+      },
+      {
+        "name": "frisee"
+      }
+    ],
+    "label": "Vegetables"
+  },
+    {
+      "id": "42da8d42-1898-47a9-9044-7c0b127a7e4e",
+      "name": "yellow bell pepper",
+      "pluralName": "yellow bell peppers",
+      "description": "Sweet bell pepper; raw, roasted, or stuffed.",
+      "aliases": [
+        {
+          "name": "yellow pepper"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "feeffc79-af4a-4994-924e-e42ce1a25f3e",
+      "name": "yellow onion",
+      "pluralName": "yellow onions",
+      "description": "Bulb vegetable; staple ingredient, raw or sautéed.",
+      "aliases": [
+        {
+          "name": "brown onion"
+        },
+        {
+          "name": "brown onions"
+        },
+        {
+          "name": "onion"
+        },
+        {
+          "name": "onions"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "182a6bca-d566-457b-9cd1-895bc324ca05",
+      "name": "green asparagus",
+      "pluralName": "green asparagus",
+      "description": "Green asparagus; grilled, stir-fried, or steamed.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "4b7e6787-8490-4bed-bb67-9de217083b22",
+      "name": "green chili pepper",
+      "pluralName": "green chili peppers",
+      "description": "Green chili pepper; in salsa, curry, or stir-fry.",
+      "aliases": [
+        {
+          "name": "green chili"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "51a153fd-95fd-46e1-afd0-667d9073a38c",
+      "name": "green olive",
+      "pluralName": "green olives",
+      "description": "Green olive; pickled as a snack or in salads.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+    "id": "db5d8e16-57a5-4c55-95d7-0e1fface546f",
+    "name": "green bell pepper",
+    "pluralName": "green bell peppers",
+    "description": "Green bell pepper; raw or sautéed, slightly bitter.",
+    "aliases": [
+      {
+        "name": "green pepper"
+      }
+    ],
+    "label": "Vegetables"
+  },
+    {
+    "id": "06ca73ef-b280-4a15-85c2-e113e1f9ddb6",
+    "name": "green peppercorn",
+    "pluralName": "green peppercorns",
+    "description": "Unripe peppercorns with a fresh, mild to hot flavor; for salsas and stir-fries.",
+    "aliases": [
+      {
+        "name": "green peppercorns"
+      }
+    ],
+    "label": "Vegetables"
+  },
+    {
+      "id": "406f7e55-1b2c-493d-8fdf-68e155f65c5b",
+      "name": "habanero pepper",
+      "pluralName": "habanero peppers",
+      "description": "Hot chili pepper; finely chopped in salsa or sauces.",
+      "aliases": [
+        {
+          "name": "habanero"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "efd5ff08-750b-486e-a720-b3305ffa1cf9",
+      "name": "black trumpet",
+      "pluralName": "black trumpets",
+      "description": "Fresh black trumpet mushroom; sautéed or in sauce.",
+      "aliases": [
+        {
+          "name": "horn of plenty"
+        },
+        {
+          "name": "black chanterelle"
+        },
+        {
+          "name": "trompette de la mort"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "5539b82e-0e86-4e96-b85d-730e02f43c71",
+      "name": "black trumpet (dried)",
+      "pluralName": "black trumpets (dried)",
+      "description": "Dried black trumpet mushroom; soaked for sauce or risotto.",
+      "aliases": [
+        {
+          "name": "dried black trumpet"
+        },
+        {
+          "name": "dried horn of plenty"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "caae67aa-f4a0-4e3f-b329-7a7604938dd7",
+      "name": "iceberg lettuce",
+      "pluralName": "iceberg lettuce",
+      "description": "Crisp head lettuce; raw in salad.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "9316032f-582d-40e0-aa09-741cde108d7c",
+      "name": "jalapeño pepper",
+      "pluralName": "jalapeño peppers",
+      "description": "Mexican chili pepper; fresh or pickled in salsa and toppings.",
+      "aliases": [
+        {
+          "name": "jalapeño"
+        },
+        {
+          "name": "jalapeno"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "26807e1f-8744-4a86-a8e8-79e2b643d364",
+      "name": "cremini mushroom",
+      "pluralName": "cremini mushrooms",
+      "description": "Brown mushroom; sautéed or in sauces.",
+      "aliases": [
+        {
+          "name": "chestnut mushroom"
+        },
+        {
+          "name": "brown button mushroom"
+        },
+        {
+          "name": "baby bella"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "807f3b33-87bc-4ce9-a40e-773b49414248",
+      "name": "kimchi",
+      "pluralName": "kimchi",
+      "description": "Korean fermented cabbage; tangy, spicy side dish.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "bc661e13-4f9d-43e2-a049-c01c78694042",
+      "name": "garlic",
+      "pluralName": "garlic",
+      "description": "Bulb vegetable; finely minced or pressed as seasoning.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "98bb5d2a-79aa-4514-afb1-4361438cb071",
+      "name": "cucumber",
+      "pluralName": "cucumbers",
+      "description": "Fruit vegetable; raw in salad or as a snack.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "f849e53a-659b-4fd4-bac8-31f13c205019",
+      "name": "cabbage",
+      "pluralName": "cabbages",
+      "description": "Leaf vegetable; various types, boiled or braised.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "b983ffc9-87b7-4bb3-ae92-81c4fef58bbc",
+      "name": "little gem",
+      "pluralName": "little gems",
+      "description": "Small romaine lettuce; raw or briefly grilled.",
+      "aliases": [
+        {
+          "name": "little gem lettuce"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "be927e99-b076-464c-9d48-2364ae32a0ca",
+      "name": "corn",
+      "pluralName": "corn",
+      "description": "Sweet corn; boiled, grilled, or as kernels.",
+      "aliases": [
+        {
+          "name": "sweetcorn"
+        },
+        {
+          "name": "sweet corn"
+        },
+        {
+          "name": "corn kernels"
+        },
+        {
+          "name": "maize"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "f8d43679-fd21-4223-a9a0-daec096c3ee3",
+      "name": "agretti",
+      "pluralName": "agretti",
+      "description": "Sea vegetable; briefly boiled or sautéed.",
+      "aliases": [
+        {
+          "name": "monk's beard"
+        },
+        {
+          "name": "barba di frate"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "cdea837c-9a95-4baf-9253-003e43a30c85",
+      "name": "morel",
+      "pluralName": "morels",
+      "description": "Wild mushroom; in cream sauce or with meat.",
+      "aliases": [
+        {
+          "name": "morel mushroom"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "574ae9bf-04cd-4506-b85a-e9c859068b94",
+      "name": "nameko mushroom",
+      "pluralName": "nameko mushrooms",
+      "description": "Japanese mushroom; in soup or stir-fry.",
+      "aliases": [
+        {
+          "name": "nameko"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "2eae53ca-d11c-4f5d-bdb0-2ac3431422dd",
+      "name": "oyster mushroom",
+      "pluralName": "oyster mushrooms",
+      "description": "Mushroom; sautéed or as a meat substitute.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "a7260327-b3f8-421b-b75f-08bd9e44c6c4",
+      "name": "olive",
+      "pluralName": "olives",
+      "description": "Olive; pickled as a snack or in salads.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "4f133072-091f-4fe1-a38a-4e7167297968",
+      "name": "orange bell pepper",
+      "pluralName": "orange bell peppers",
+      "description": "Sweet bell pepper; raw, roasted, or stuffed.",
+      "aliases": [
+        {
+          "name": "orange pepper"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "e353eda2-40e8-4a6f-816a-798933cf8807",
+      "name": "mushroom (dried)",
+      "pluralName": "mushrooms (dried)",
+      "description": "Dried mushroom; in soups and sauces.",
+      "aliases": [
+        {
+          "name": "dried mushroom"
+        },
+        {
+          "name": "dried mushrooms"
+        },
+        {
+          "name": "freeze-dried mushroom"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "319507a0-69f1-487a-b35a-044d9d518502",
+      "name": "bok choy",
+      "pluralName": "bok choy",
+      "description": "Asian leafy vegetable; stir-frying or in soup.",
+      "aliases": [
+        {
+          "name": "pak choi"
+        },
+        {
+          "name": "pok choi"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "f6e7ba5b-9002-4def-b807-1c853afea69a",
+      "name": "heart of palm",
+      "pluralName": "hearts of palm",
+      "description": "Heart of palm; raw in salad or pickled from a jar.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "535137d7-4151-4160-b46b-74b1d297dae9",
+      "name": "lacinato kale",
+      "pluralName": "lacinato kale",
+      "description": "Dark Italian leaf cabbage; for stew, soup, and pasta.",
+      "aliases": [
+        {
+          "name": "cavolo nero"
+        },
+        {
+          "name": "black kale"
+        },
+        {
+          "name": "Tuscan kale"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "32777d3f-aed8-4af7-851d-04b751cef735",
+      "name": "bell pepper",
+      "pluralName": "bell peppers",
+      "description": "Fruit vegetable; raw, roasted, or stuffed.",
+      "aliases": [
+        {
+          "name": "sweet pepper"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "56593d5b-06aa-45e8-adfe-613de3bb62ce",
+      "name": "pattypan squash",
+      "pluralName": "pattypan squashes",
+      "description": "Squash variety; roasted, stuffed, or pickled.",
+      "aliases": [
+        {
+          "name": "patty pan"
+        },
+        {
+          "name": "scallop squash"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+    "id": "8eff2752-3704-44f0-b23f-665d37989c5a",
+    "name": "pumpkin",
+    "pluralName": "pumpkins",
+    "description": "Fruit vegetable; roasted or in soup and purée.",
+    "aliases": [
+      {
+        "name": "squash"
+      }
+    ],
+    "label": "Vegetables"
+  },
+    {
+      "id": "1f43aaa7-f58a-443b-89ee-3f7bde176b80",
+      "name": "portobello mushroom",
+      "pluralName": "portobello mushrooms",
+      "description": "Large mushroom; grilled or stuffed.",
+      "aliases": [
+        {
+          "name": "portobello"
+        },
+        {
+          "name": "portabella"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "c1f8e1fc-2355-48db-b88b-dc5f738f37e1",
+      "name": "purslane",
+      "pluralName": "purslane",
+      "description": "Leaf vegetable; raw in salad or briefly braised.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "875ce569-490e-4335-9059-1c8dc7c21414",
+      "name": "leek",
+      "pluralName": "leeks",
+      "description": "Onion relative; braised, sautéed, or in soup.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "ac20b997-c924-4e56-9d93-f88cd1546e8f",
+      "name": "sweet pointed pepper",
+      "pluralName": "sweet pointed peppers",
+      "description": "Elongated bell pepper; raw, roasted, or stuffed.",
+      "aliases": [
+        {
+          "name": "pointed pepper"
+        },
+        {
+          "name": "ramiro pepper"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "35794375-6cb0-4468-9377-49586cd22895",
+      "name": "turnip greens",
+      "pluralName": "turnip greens",
+      "description": "Young leaf vegetable; raw or briefly braised.",
+      "aliases": [
+        {
+          "name": "turnip tops"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "7f3a6d3f-8893-4497-b176-2784b35fe1c1",
+      "name": "rhubarb",
+      "pluralName": "rhubarb",
+      "description": "Tart stalks; stewed into compote or in pies.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+   {
+    "id": "f372a9e4-4e7b-4707-b43b-7b8e5111168b",
+    "name": "radicchio",
+    "pluralName": "radicchio",
+    "description": "Red chicory; raw in salad or grilled.",
+    "aliases": [
+      {
+        "name": "red chicory"
+      }
+    ],
+    "label": "Vegetables"
+  },
+    {
+      "id": "7e32ce51-92ed-4d79-b6b7-fa53f33de62d",
+      "name": "red chili pepper",
+      "pluralName": "red chili peppers",
+      "description": "Red chili pepper; fresh in curry, sauce, or stir-fry.",
+      "aliases": [
+        {
+          "name": "red chili"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "ef93f795-2302-4e88-92e2-ec3e39097629",
+      "name": "red chili pepper (dried)",
+      "pluralName": "red chili peppers (dried)",
+      "description": "Dried red chili pepper; use whole or crushed for heat.",
+      "aliases": [
+        {
+          "name": "dried red chili pepper"
+        },
+        {
+          "name": "dried red chili"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "bed31e3a-d7e2-4478-b156-f10fa1613f9a",
+      "name": "red cabbage",
+      "pluralName": "red cabbages",
+      "description": "Brassica vegetable; braised or raw in salad.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "73fbb330-6347-4ed5-b65a-76e4d3af2492",
+      "name": "red bell pepper",
+      "pluralName": "red bell peppers",
+      "description": "Sweet bell pepper; raw, roasted, or stuffed.",
+      "aliases": [
+        {
+          "name": "red pepper"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "ab08d92a-8d13-480b-9ca8-4a781badf371",
+      "name": "red onion",
+      "pluralName": "red onions",
+      "description": "Onion variety; raw in salad or sautéed.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "497c2e7b-d08e-4532-b6f0-a275fadc3b35",
+      "name": "romanesco",
+      "pluralName": "romanesco",
+      "description": "Brassica vegetable; boiled, steamed, or roasted.",
+      "aliases": [
+        {
+          "name": "romanesco broccoli"
+        },
+        {
+          "name": "romanesco cauliflower"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "e2b847ee-c47f-4341-9999-e600761daf66",
+      "name": "roma tomato",
+      "pluralName": "roma tomatoes",
+      "description": "Fleshy tomato; for sauce, oven dishes, and salad.",
+      "aliases": [
+        {
+          "name": "plum tomato"
+        },
+        {
+          "name": "plum tomatoes"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+    "id": "6302a6de-9724-421b-a967-b4cadf361a2e",
+    "name": "red belgian endive",
+    "pluralName": "red belgian endives",
+    "description": "Red chicory/endive; raw or braised, slightly bitter.",
+    "aliases": [
+      {
+        "name": "red endive"
+      }
+    ],
+    "label": "Vegetables"
+  },
+    {
+      "id": "e810a8e0-701d-47dc-8088-21a3db200077",
+      "name": "arugula",
+      "pluralName": "arugula",
+      "description": "Leaf vegetable; raw in salad or on pizza.",
+      "aliases": [
+        {
+          "name": "rocket"
+        },
+        {
+          "name": "rucola"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "91543434-3fe8-4405-b7f2-5ba72e5e3cf8",
+      "name": "savoy cabbage",
+      "pluralName": "savoy cabbages",
+      "description": "Brassica vegetable; braised or in casseroles.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "b24de356-ba37-4e44-9dbb-e5633d0806f1",
+      "name": "hedgehog mushroom",
+      "pluralName": "hedgehog mushrooms",
+      "description": "Wild mushroom; sautéed or in sauce.",
+      "aliases": [
+        {
+          "name": "pied de mouton"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "76cfa505-f21c-4f11-b768-338cf353979c",
+      "name": "serrano pepper",
+      "pluralName": "serrano peppers",
+      "description": "Chili pepper; fresh in salsa, curry, and stir-fry.",
+      "aliases": [
+        {
+          "name": "serrano"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "0084f5fa-7150-4848-a000-131f2b56e47d",
+      "name": "shiitake mushroom",
+      "pluralName": "shiitake mushrooms",
+      "description": "Mushroom; sautéed or in soup, rich in umami.",
+      "aliases": [
+        {
+          "name": "shiitake"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "c180136e-004e-44e5-a2f6-20a19f453d08",
+      "name": "shallot",
+      "pluralName": "shallots",
+      "description": "Small onion; finely chopped in sauces and dressings.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "79809477-92d7-4c33-97ec-4d4a14041ed3",
+      "name": "lettuce",
+      "pluralName": "lettuce",
+      "description": "Leaf vegetable; raw in salads.",
+      "aliases": [
+        {
+          "name": "head lettuce"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "9ac16eac-0373-443f-a4dd-cb142d7a574b",
+      "name": "swiss chard",
+      "pluralName": "swiss chard",
+      "description": "Leaf vegetable; braised or in quiche.",
+      "aliases": [
+        {
+          "name": "chard"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "93174079-20eb-49a5-8bd3-9b0b927c243b",
+      "name": "spinach",
+      "pluralName": "spinach",
+      "description": "Leaf vegetable; raw or briefly braised.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "f96373d9-7169-426a-9e78-71e01099a470",
+      "name": "pointed cabbage",
+      "pluralName": "pointed cabbages",
+      "description": "Mild cabbage; stir-fried, braised, or raw.",
+      "aliases": [
+        {
+          "name": "sweetheart cabbage"
+        },
+        {
+          "name": "hispi cabbage"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "12212848-2e4f-4747-96e1-b197e0f4887f",
+      "name": "brussels sprout",
+      "pluralName": "brussels sprouts",
+      "description": "Brassica vegetable; roasted, boiled, or sautéed.",
+      "aliases": [
+        {
+          "name": "brussels sprouts"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "b9a429af-54ce-4227-a89e-a0a4aeb187b4",
+      "name": "mung bean sprout",
+      "pluralName": "mung bean sprouts",
+      "description": "Sprouts; briefly stir-fried or raw in salad.",
+      "aliases": [
+        {
+          "name": "bean sprouts"
+        },
+        {
+          "name": "bean sprout"
+        },
+        {
+          "name": "taugé"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "de2b6456-11a6-47d7-afd1-326eee8919f6",
+      "name": "tomato",
+      "pluralName": "tomatoes",
+      "description": "Fruit vegetable; raw in salad or as a sauce base.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "8506b52b-b08f-43a7-8689-ab18dc065b02",
+      "name": "diced tomatoes (canned)",
+      "pluralName": "diced tomatoes (canned)",
+      "description": "Canned diced tomatoes; base for sauces, soups, and stews.",
+      "aliases": [
+        {
+          "name": "canned diced tomatoes"
+        },
+        {
+          "name": "canned chopped tomatoes"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "256b1daa-4c3e-4562-85b6-a3b50e444a0e",
+      "name": "vine tomato",
+      "pluralName": "vine tomatoes",
+      "description": "Tomato on the vine; raw or in sauce.",
+      "aliases": [
+        {
+          "name": "tomatoes on the vine"
+        },
+        {
+          "name": "vine-ripened tomato"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "2dc6fe60-7840-42fc-a322-27236afcb399",
+      "name": "truffle",
+      "pluralName": "truffles",
+      "description": "Aromatic fungus; grated as seasoning.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "06d71c0a-d042-4fa2-98e7-d40b6521351b",
+      "name": "garden cress",
+      "pluralName": "garden cress",
+      "description": "Sprouts; raw as a topping or in salad.",
+      "aliases": [
+        {
+          "name": "cress"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "a3b71afe-298b-49d5-98ec-815f947ef29f",
+      "name": "mâche",
+      "pluralName": "mâche",
+      "description": "Leaf vegetable; raw in salads.",
+      "aliases": [
+        {
+          "name": "lamb's lettuce"
+        },
+        {
+          "name": "corn salad"
+        },
+        {
+          "name": "mache"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "bc48ef1b-bb85-4ca6-8e4e-bfa76ead89d8",
+      "name": "fennel",
+      "pluralName": "fennel",
+      "description": "Bulb vegetable; raw or braised with anise flavor.",
+      "aliases": [
+        {
+          "name": "fennel bulb"
+        },
+        {
+          "name": "florence fennel"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "a7d18402-1718-48c9-aeb3-79f762029aff",
+      "name": "watercress",
+      "pluralName": "watercress",
+      "description": "Leaf vegetable; peppery, raw in salad or soup.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "cc572c41-816a-462e-9383-096515ab4538",
+      "name": "wild spinach",
+      "pluralName": "wild spinach",
+      "description": "Wild spinach; more intense flavor than regular spinach.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "45ee4ba5-d7e5-4c40-916e-fbef808ab3ea",
+      "name": "belgian endive",
+      "pluralName": "belgian endives",
+      "description": "Leaf vegetable; raw or braised, slightly bitter.",
+      "aliases": [
+        {
+          "name": "witloof"
+        },
+        {
+          "name": "chicory"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "bb4d10c9-ee44-4cb9-9076-00ac247d4cea",
+      "name": "white asparagus",
+      "pluralName": "white asparagus",
+      "description": "White asparagus; cooked as a seasonal vegetable.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "43a58aff-fb43-4d0f-9740-d6092257cdcd",
+      "name": "white cabbage",
+      "pluralName": "white cabbages",
+      "description": "Brassica vegetable; braised, in salad, or sauerkraut.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "4d0cf938-aacf-41b9-95cd-ea418b9ffbf8",
+      "name": "samphire",
+      "pluralName": "samphire",
+      "description": "Sea vegetable; briefly blanched or sautéed.",
+      "aliases": [
+        {
+          "name": "marsh samphire"
+        },
+        {
+          "name": "sea asparagus"
+        },
+        {
+          "name": "salicornia"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "984ea7ce-e813-406a-b197-b9bb2b28b474",
+      "name": "cocktail onion",
+      "pluralName": "cocktail onions",
+      "description": "Small onion; pickled in sweet and sour brine.",
+      "aliases": [
+        {
+          "name": "silverskin onion"
+        },
+        {
+          "name": "silverskin onions"
+        },
+        {
+          "name": "pickled onion"
+        }
+      ],
+      "label": "Vegetables"
+    },
+    {
+      "id": "91183a2e-93c7-49f1-af80-efdff99e9ca2",
+      "name": "sauerkraut",
+      "pluralName": "sauerkraut",
+      "description": "Fermented white cabbage; in mashed potato dish or casserole.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "74aab498-f470-47d0-9f43-6e41e12f3789",
+      "name": "black garlic",
+      "pluralName": "black garlic",
+      "description": "Fermented garlic; finely chopped in sauces and dips.",
+      "aliases": [],
+      "label": "Vegetables"
+    },
+    {
+      "id": "630cd9f4-bf4a-4dcc-85e4-f6ca818525df",
+      "name": "black olive",
+      "pluralName": "black olives",
+      "description": "Black olive; pickled as a snack or in salads.",
+      "aliases": [],
+      "label": "Vegetables"
+    }
+  ]
+}

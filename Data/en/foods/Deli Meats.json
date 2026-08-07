@@ -1,0 +1,517 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "a8ef7684-d08a-44af-bb67-2f799e05887c",
+      "name": "cooked ham",
+      "pluralName": "cooked ham",
+      "description": "Cooked ham from the hind leg; for sandwiches.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "384d3b74-07db-4c4b-8f56-d3b86ec549e4",
+      "name": "bacon",
+      "pluralName": "bacon",
+      "description": "Smoked and salted pork belly; fried crispy.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "571c7bca-0aba-488b-b94d-8b2ab92c81b2",
+      "name": "bone-in ham",
+      "pluralName": "bone-in ham",
+      "description": "Ham prepared on the bone; for sandwiches.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "e182d684-7d30-4ef5-878f-9b1567bc343c",
+      "name": "beer sausage",
+      "pluralName": "beer sausages",
+      "description": "Dried spiced sausage; often served with beer.",
+      "aliases": [
+        {
+          "name": "bierwurst"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "3f6a3344-9237-414f-b28f-7ccad8f55c35",
+      "name": "blood sausage",
+      "pluralName": "blood sausages",
+      "description": "Sausage with pork blood; fried or stewed.",
+      "aliases": [
+        {
+          "name": "black pudding"
+        },
+        {
+          "name": "boudin noir"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "d7cb2b37-8ff7-4125-a126-517e25132df0",
+      "name": "bockwurst",
+      "pluralName": "bockwursts",
+      "description": "German cooked sausage; mild flavor.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "b8ffc72b-90f5-47de-afb8-77c6298eeac7",
+      "name": "luncheon meat",
+      "pluralName": "luncheon meat",
+      "description": "Sliced sausage for sandwiches; mild flavor.",
+      "aliases": [
+        {
+          "name": "bologna"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "4ca10b76-73f4-47bb-8e82-1a07436733b0",
+      "name": "bratwurst",
+      "pluralName": "bratwursts",
+      "description": "Fresh sausage for frying or grilling; seasoned pork.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "78f63357-01ac-4219-85c3-fa1b12f9775a",
+      "name": "bresaola",
+      "pluralName": "bresaola",
+      "description": "Italian dried beef ham; thinly sliced on bread or salad.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "967befb5-6915-4326-af60-2c12cb5a516c",
+      "name": "cervelat",
+      "pluralName": "cervelats",
+      "description": "Dry sausage; spicy flavor, for sandwiches.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "ec80de42-83ae-4482-8bb5-cd9448b56552",
+      "name": "chipolata",
+      "pluralName": "chipolatas",
+      "description": "Thin spiced sausage; for BBQ or breakfast.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "1ee9221d-614d-4784-818c-76b30da8a203",
+      "name": "chorizo",
+      "pluralName": "chorizo",
+      "description": "Spanish sausage with paprika and garlic; smoked or fresh.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "cd61aa7b-fd17-45cb-bf1f-8d6ff8783362",
+      "name": "coburger ham",
+      "pluralName": "coburger ham",
+      "description": "German smoked ham; for sandwiches.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "d6a9c9fb-7964-4228-bae6-2e2e72105194",
+      "name": "coppa",
+      "pluralName": "coppa",
+      "description": "Italian dried neck ham; thinly sliced.",
+      "aliases": [
+        {
+          "name": "coppa di parma"
+        },
+        {
+          "name": "capocollo"
+        },
+        {
+          "name": "capicola"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "0e1d29a6-1cf7-4dba-8797-59b76bd8f0a4",
+      "name": "corned beef",
+      "pluralName": "corned beef",
+      "description": "Salted beef, often canned; on bread or in hash.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "e3261b42-f05a-4c51-a1fe-3bba79137989",
+      "name": "filet américain",
+      "pluralName": "filet américain",
+      "description": "Seasoned raw beef; spreadable sandwich topping.",
+      "aliases": [
+        {
+          "name": "steak tartare spread"
+        },
+        {
+          "name": "martino"
+        },
+        {
+          "name": "préparé"
+        },
+        {
+          "name": "prepare"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "3a62a84e-6cd6-4e6f-a5e6-4c57c9087ee2",
+      "name": "frankfurter",
+      "pluralName": "frankfurters",
+      "description": "German smoked sausage; for hot dogs.",
+      "aliases": [
+        {
+          "name": "hot dog sausage"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "8725c168-d820-4d2d-ae5a-03bb1162a2a2",
+      "name": "dry-cured ham",
+      "pluralName": "dry-cured ham",
+      "description": "Air-dried ham; thinly sliced.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "9199e887-bffd-4259-be5f-58b2a02fc017",
+      "name": "smoked turkey breast",
+      "pluralName": "smoked turkey breast",
+      "description": "Smoked turkey breast; for salads and sandwiches.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "3d7f1719-23dc-4446-8d55-ac202bed193e",
+      "name": "smoked chicken breast",
+      "pluralName": "smoked chicken breast",
+      "description": "Smoked chicken breast; for salads and sandwiches.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "2358b877-f150-414c-84f2-fcc22bfe08cf",
+      "name": "grill sausage",
+      "pluralName": "grill sausages",
+      "description": "Cooked spiced sausage; served cold sliced as a cold cut.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "1c2ba2b1-19b0-4083-b345-a905fd710fec",
+      "name": "guanciale",
+      "pluralName": "guanciale",
+      "description": "Italian cured pork cheek; used in carbonara and amatriciana.",
+      "aliases": [
+        {
+          "name": "wangspek"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "18b67774-67b5-4198-aac5-23f26fb5fba3",
+      "name": "ham",
+      "pluralName": "ham",
+      "description": "Cooked or smoked pork; thinly sliced cold cut.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "5cf9c7fd-1307-4244-96b0-6edfe217c6af",
+      "name": "ham strips",
+      "pluralName": "ham strips",
+      "description": "Ham cut into strips; for salads or pasta.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "eb036d9b-d53c-4661-94b5-af80e02ebf26",
+      "name": "head cheese",
+      "pluralName": "head cheese",
+      "description": "Pork meat jelly preparation; cold cut for sandwiches.",
+      "aliases": [
+        {
+          "name": "brawn"
+        },
+        {
+          "name": "preskop"
+        },
+        {
+          "name": "zult"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "84150264-9bc9-4706-9162-13104e6ba594",
+      "name": "ibérico ham",
+      "pluralName": "ibérico ham",
+      "description": "Spanish ham from the Ibérico pig; luxury delicacy.",
+      "aliases": [
+        {
+          "name": "iberico ham"
+        },
+        {
+          "name": "pata negra"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "4d5527fa-a4e9-4176-87bc-1bc3ff6b0742",
+      "name": "kassler",
+      "pluralName": "kassler",
+      "description": "German smoked pork chop; served hot or cold.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "86334a57-65ef-4c0c-88cf-0bae4a02f413",
+      "name": "katen ham",
+      "pluralName": "katen ham",
+      "description": "Smoked ham for sandwiches; mild flavor.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "b780c8e0-b98a-4273-bc1b-fe6e2e5b19e9",
+      "name": "vienna sausage",
+      "pluralName": "vienna sausages",
+      "description": "Cooked sausage; for hot dogs or served hot.",
+      "aliases": [
+        {
+          "name": "knakworst"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "8493f37f-1dbf-4a07-a8f7-4672bdb9ef15",
+      "name": "liverwurst",
+      "pluralName": "liverwurst",
+      "description": "Spreadable liver sausage; savory sandwich topping.",
+      "aliases": [
+        {
+          "name": "liver sausage"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "d1a3eb16-68ad-48f8-ab22-ef9bd0514e90",
+      "name": "merguez",
+      "pluralName": "merguez",
+      "description": "North African lamb sausage; spicy.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "3965d890-9a4b-43ef-93d9-9688ec9bd7a3",
+      "name": "mortadella",
+      "pluralName": "mortadella",
+      "description": "Italian cooked sausage with pistachios; thinly sliced.",
+      "aliases": [
+        {
+          "name": "mortadella di bologna"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "5d63e0ba-0862-4b2c-ae54-cb7900a16d1a",
+      "name": "nduja",
+      "pluralName": "nduja",
+      "description": "Spicy spreadable Italian sausage; for pasta or bread.",
+      "aliases": [
+        {
+          "name": "'nduja"
+        },
+        {
+          "name": "’nduja"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "481b8c7e-59a1-41f1-bb6b-04420dbb3e3a",
+      "name": "streaky bacon",
+      "pluralName": "streaky bacon",
+      "description": "Thinly sliced smoked pork belly; fried crispy.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "0abceee8-adcf-454e-a2d7-cc82984f3f57",
+      "name": "pancetta",
+      "pluralName": "pancetta",
+      "description": "Italian cured pork belly; for pasta and risotto.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "ed5dacf7-f06c-4426-8752-e9a7f05dcbee",
+      "name": "pastrami",
+      "pluralName": "pastrami",
+      "description": "Seasoned smoked beef; for sandwiches and salads.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "ac3b2d9c-5abb-46f5-997a-1b0987e20b31",
+      "name": "pâté",
+      "pluralName": "pâté",
+      "description": "Spreadable meat paste; savory sandwich topping.",
+      "aliases": [
+        {
+          "name": "pate"
+        },
+        {
+          "name": "liver paste"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "472c3642-22f6-4214-aaba-74cd8c8ab46f",
+      "name": "pepperoni",
+      "pluralName": "pepperoni",
+      "description": "Spicy sausage; for pizza.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "92eed77d-4f8c-4498-924d-115c2f51f2a4",
+      "name": "prosciutto crudo",
+      "pluralName": "prosciutto crudo",
+      "description": "Italian raw ham; dried, thinly sliced.",
+      "aliases": [
+        {
+          "name": "parma ham"
+        },
+        {
+          "name": "prosciutto"
+        },
+        {
+          "name": "prosciutto di parma"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "cd34da46-695c-41fc-af26-3e8f73cd7567",
+      "name": "raw ham",
+      "pluralName": "raw ham",
+      "description": "Uncooked dried ham; thinly sliced as antipasti.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "1f326b2d-9201-4a14-921f-07d058b7744c",
+      "name": "smoked sausage",
+      "pluralName": "smoked sausages",
+      "description": "Dutch smoked sausage; served hot with stamppot.",
+      "aliases": [
+        {
+          "name": "rookworst"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "b397601d-1670-402c-832b-7ae5f3bcf90e",
+      "name": "roast beef",
+      "pluralName": "roast beef",
+      "description": "Roasted beef; cold or hot, thinly sliced.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "cf42f170-6bf1-44ba-9a1f-3d76391373c9",
+      "name": "salami",
+      "pluralName": "salami",
+      "description": "Dry fermented sausage; thinly sliced on bread or pizza.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "515f0f54-a014-4460-9e4f-b3d685941680",
+      "name": "shoulder ham",
+      "pluralName": "shoulder ham",
+      "description": "Ham from the shoulder; for sandwiches.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "ed68f0ec-cf19-4b44-b0f4-5581178d442a",
+      "name": "serrano ham",
+      "pluralName": "serrano ham",
+      "description": "Spanish dried ham; salted and air-dried.",
+      "aliases": [
+        {
+          "name": "jamón serrano"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "7de6fdff-4e6a-4580-bd23-f2557dcbd99a",
+      "name": "sliced sausage",
+      "pluralName": "sliced sausage",
+      "description": "Economical sliced deli sausage; for sandwiches.",
+      "aliases": [],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "fee2b10e-73bb-4f38-afc4-106b7b9b3608",
+      "name": "speck",
+      "pluralName": "speck",
+      "description": "South Tyrolean smoked ham; aromatic and firm.",
+      "aliases": [
+        {
+          "name": "tyrolean speck"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "c14afe64-ea54-4169-8cd5-b9f1d269fc46",
+      "name": "slab bacon",
+      "pluralName": "slab bacon",
+      "description": "Salted or smoked pork bacon; for baking or as an ingredient.",
+      "aliases": [
+        {
+          "name": "spek"
+        },
+        {
+          "name": "lardons"
+        }
+      ],
+      "label": "Deli Meats"
+    },
+    {
+      "id": "18629d4b-b9f0-4c52-98da-4a554d01e637",
+      "name": "york ham",
+      "pluralName": "york ham",
+      "description": "English mildly smoked ham; for sandwiches.",
+      "aliases": [],
+      "label": "Deli Meats"
+    }
+  ]
+}

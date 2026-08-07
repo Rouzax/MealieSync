@@ -1,0 +1,482 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "a1f6dc01-0c27-4fac-a411-6174ba2b4b03",
+      "name": "adzuki bean",
+      "pluralName": "adzuki beans",
+      "description": "Small red Asian bean; for sweet paste and soups.",
+      "aliases": [
+        { "name": "azuki" },
+        { "name": "azuki bean" },
+        { "name": "azuki beans" },
+        { "name": "adzuki" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "ee79a260-a7dc-4ab5-b305-a754a8f575e2",
+      "name": "beluga lentil",
+      "pluralName": "beluga lentils",
+      "description": "Small black lentils; retain shape well, for salads.",
+      "aliases": [
+        { "name": "black lentils" },
+        { "name": "beluga lentils" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "42760fc7-9df2-4e39-bddd-d7c98a0843b3",
+      "name": "borlotti bean",
+      "pluralName": "borlotti beans",
+      "description": "Red and white speckled Italian bean; for soups and stews.",
+      "aliases": [
+        { "name": "borlotti" },
+        { "name": "cranberry bean" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "cf27506f-f784-4ba7-9c55-b9d33fd93985",
+      "name": "brown bean",
+      "pluralName": "brown beans",
+      "description": "Dutch legume; for brown bean soup and stamppot.",
+      "aliases": [
+        { "name": "bruine boon" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "cf00dbfd-7db3-4943-aea6-86cc55ed259b",
+      "name": "cannellini bean",
+      "pluralName": "cannellini beans",
+      "description": "White Italian bean; mild, for soups and salads.",
+      "aliases": [
+        { "name": "cannellini" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "17726103-1dfc-4320-a5df-6269c983a4ee",
+      "name": "cannellini bean (canned)",
+      "pluralName": "cannellini beans (canned)",
+      "description": "Canned cannellini beans; directly into soup, salad or stew.",
+      "aliases": [
+        { "name": "canned cannellini" },
+        { "name": "canned cannellini beans" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "dc5c4990-5186-48db-8965-d8b403c39d22",
+      "name": "green pea",
+      "pluralName": "green peas",
+      "description": "Young green peas; sweet and fresh, fresh or frozen.",
+      "aliases": [
+        { "name": "pea" },
+        { "name": "peas" },
+        { "name": "garden pea" },
+        { "name": "frozen peas" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "bb290255-0b46-4f6e-a8f1-ff06896ec972",
+      "name": "edamame",
+      "pluralName": "edamame",
+      "description": "Young soybeans in the pod; boiled as a snack or in salads.",
+      "aliases": [
+        { "name": "young soybeans" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "b438bdae-e05b-4982-8692-ba2b2ddc54a3",
+      "name": "pea (dried)",
+      "pluralName": "peas (dried)",
+      "description": "Dried peas; for pea soup, puree and stew.",
+      "aliases": [
+        { "name": "dried pea" },
+        { "name": "dried peas" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "715de582-af22-4e2d-8e2a-07274f824717",
+      "name": "yellow pea (dried)",
+      "pluralName": "yellow peas (dried)",
+      "description": "Dried yellow pea; for soup and puree.",
+      "aliases": [
+        { "name": "dried yellow pea" },
+        { "name": "dried yellow peas" },
+        { "name": "yellow pea" },
+        { "name": "yellow peas" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "568c32c9-f4ba-4e75-9f35-d93a236f67b9",
+      "name": "yellow split pea",
+      "pluralName": "yellow split peas",
+      "description": "Yellow split pea; for soups, purees and stews.",
+      "aliases": [
+        { "name": "yellow split peas" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "ade0ddfa-fc10-470f-bbbc-b6a0519775ea",
+      "name": "pigeon pea (split)",
+      "pluralName": "pigeon peas (split)",
+      "description": "Split pigeon pea; for dal, curries and soups.",
+      "aliases": [
+        { "name": "arhar dal" },
+        { "name": "toor dahl" },
+        { "name": "toordal" },
+        { "name": "tur dal" },
+        { "name": "tuvar dal" },
+        { "name": "toor dal" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "10a141ff-639c-4ca7-8c7c-5e641e271206",
+      "name": "green lentil",
+      "pluralName": "green lentils",
+      "description": "Lentils with skin; stay firm, for salads and stews.",
+      "aliases": [],
+      "label": "Legumes"
+    },
+    {
+      "id": "4adf36f3-0bfd-457c-9802-bacbc5fc5e79",
+      "name": "marrowfat pea",
+      "pluralName": "marrowfat peas",
+      "description": "Grey-green Dutch pea; for stamppot.",
+      "aliases": [
+        { "name": "kapucijner" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "4042a663-4297-4165-9c08-33b72ff0f70c",
+      "name": "kidney bean",
+      "pluralName": "kidney beans",
+      "description": "Red kidney-shaped bean; for chili con carne and Mexican dishes.",
+      "aliases": [
+        { "name": "red bean" },
+        { "name": "red beans" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "7b251f66-d2b5-4853-a0b5-5197035eee51",
+      "name": "kidney bean (canned)",
+      "pluralName": "kidney beans (canned)",
+      "description": "Canned kidney beans; quick addition to chili, curry or salad.",
+      "aliases": [
+        { "name": "canned kidney beans" },
+        { "name": "canned kidney bean" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "d0d80c2b-33a0-4929-846f-1fabce16cdad",
+      "name": "chickpea",
+      "pluralName": "chickpeas",
+      "description": "Round beige legume; for hummus, falafel and curry.",
+      "aliases": [
+        { "name": "garbanzo" },
+        { "name": "garbanzo bean" },
+        { "name": "garbanzo beans" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "90a6673c-7ce4-4ca3-a080-4d9c29c010e8",
+      "name": "chickpea (canned)",
+      "pluralName": "chickpeas (canned)",
+      "description": "Canned chickpeas; handy for hummus, curry and salad.",
+      "aliases": [
+        { "name": "canned chickpeas" },
+        { "name": "canned chickpea" },
+        { "name": "canned garbanzo" },
+        { "name": "canned garbanzo beans" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "ccf36b8b-c6f5-4d1f-b017-2fbc8391da8a",
+      "name": "yardlong bean",
+      "pluralName": "yardlong beans",
+      "description": "Long green bean; shortly boiled or stir-fried in Surinamese dishes.",
+      "aliases": [
+        { "name": "long bean" },
+        { "name": "long beans" },
+        { "name": "asparagus bean" },
+        { "name": "asparagus beans" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "8ec24c83-e26d-44e4-b13b-f5c7084a0d9f",
+      "name": "lima bean",
+      "pluralName": "lima beans",
+      "description": "Large flat white bean; creamy, for stews.",
+      "aliases": [
+        { "name": "butter bean" },
+        { "name": "butter beans" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "b4338bd7-560a-4de9-ad0c-ad65a96fe143",
+      "name": "lentil",
+      "pluralName": "lentils",
+      "description": "Protein-rich legume; in various colors, for soup and stews.",
+      "aliases": [],
+      "label": "Legumes"
+    },
+    {
+      "id": "8bc33885-c6c1-486a-b292-3a2ffa0dd86e",
+      "name": "lentil (canned)",
+      "pluralName": "lentils (canned)",
+      "description": "Cooked canned lentils; directly into salad, soup or curry.",
+      "aliases": [
+        { "name": "canned lentils" },
+        { "name": "canned lentil" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "cfad59d1-7a45-44d7-b41e-6bd1385dff0f",
+      "name": "lupini bean",
+      "pluralName": "lupini beans",
+      "description": "Edible lupin bean; often pickled as a snack or in salads.",
+      "aliases": [
+        { "name": "lupini" },
+        { "name": "lupin beans" },
+        { "name": "lupin bean" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "1f385702-0529-4ae5-9096-a0592a9056a7",
+      "name": "mung bean",
+      "pluralName": "mung beans",
+      "description": "Small green bean; base for bean sprouts and glass noodles.",
+      "aliases": [
+        { "name": "moong" },
+        { "name": "moong bean" },
+        { "name": "moong beans" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "337897e0-1b5d-4362-80f2-3a6a3caf6a96",
+      "name": "snow pea",
+      "pluralName": "snow peas",
+      "description": "Edible pod; shortly boiled or stir-fried.",
+      "aliases": [
+        { "name": "mangetout" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "e89d6fad-48d2-4c03-b4d5-346732bc0847",
+      "name": "pinto bean",
+      "pluralName": "pinto beans",
+      "description": "Beige bean with brown spots; for chili and bean purée.",
+      "aliases": [],
+      "label": "Legumes"
+    },
+    {
+      "id": "c45b39f6-e085-4897-983b-c1f9699b10dc",
+      "name": "puy lentil",
+      "pluralName": "puy lentils",
+      "description": "Small green-brown French lentil; stays firm, for salads.",
+      "aliases": [
+        { "name": "le puy lentil" },
+        { "name": "le puy lentils" },
+        { "name": "lentilles du puy" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "3a88f0c0-d8e3-4160-bb37-1efda8b4685f",
+      "name": "red lentil",
+      "pluralName": "red lentils",
+      "description": "Hulled orange lentils; fall apart quickly, for soup and dal.",
+      "aliases": [
+        { "name": "masoor dal" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "7fea9a5a-fddd-406d-ae10-443485afba80",
+      "name": "red split lentil",
+      "pluralName": "red split lentils",
+      "description": "Split red lentils; cook quickly for dal, soup or puree.",
+      "aliases": [
+        { "name": "split red lentils" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "39831d5d-f070-4b0a-9c0d-cf7503e54666",
+      "name": "runner bean",
+      "pluralName": "runner beans",
+      "description": "Flat bean; boiled in strips or stewed.",
+      "aliases": [
+        { "name": "flat bean" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "d130de53-2b43-408f-b36c-e3ec70f67778",
+      "name": "soybean",
+      "pluralName": "soybeans",
+      "description": "Protein-rich bean; base for tofu, tempeh and soy milk.",
+      "aliases": [
+        { "name": "soya bean" },
+        { "name": "soya beans" },
+        { "name": "soy bean" },
+        { "name": "soy beans" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "88a23dbe-6538-41d9-86cf-b9849aeed181",
+      "name": "pole bean",
+      "pluralName": "pole beans",
+      "description": "Large bean; shortly boiled or in stew.",
+      "aliases": [
+        { "name": "spekboon" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "a163df65-f1a7-4277-bea7-68839dfa526d",
+      "name": "green bean",
+      "pluralName": "green beans",
+      "description": "Green bean; boiled or stir-fried.",
+      "aliases": [
+        { "name": "haricots verts" },
+        { "name": "french bean" },
+        { "name": "french beans" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "83ee6ba2-faf8-41f7-99d0-08a0ef7482ae",
+      "name": "split pea",
+      "pluralName": "split peas",
+      "description": "Halved dried peas; for pea soup.",
+      "aliases": [
+        { "name": "green split pea" },
+        { "name": "green split peas" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "8eaabac4-a915-4869-ad7d-3a5c6b8a9d30",
+      "name": "split chickpea",
+      "pluralName": "split chickpeas",
+      "description": "Dried split chickpea; cook thoroughly for dal and curry.",
+      "aliases": [
+        { "name": "chana dal" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "c7a2d5d4-8ae0-4090-b665-2ec87e9b7997",
+      "name": "sugar snap pea",
+      "pluralName": "sugar snap peas",
+      "description": "Crunchy pod; shortly boiled or stir-fried.",
+      "aliases": [
+        { "name": "sugar snap" },
+        { "name": "sugar snaps" },
+        { "name": "snap pea" },
+        { "name": "snap peas" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "08e0e8a4-7682-47b3-b446-e5497d55005a",
+      "name": "tempeh",
+      "pluralName": "tempeh",
+      "description": "Fermented soy cake; firm meat substitute for frying.",
+      "aliases": [],
+      "label": "Legumes"
+    },
+    {
+      "id": "34940bef-2049-4b9e-b1a9-5ff373979992",
+      "name": "tofu",
+      "pluralName": "tofu",
+      "description": "Curdled soy milk; soft meat substitute that absorbs flavors.",
+      "aliases": [],
+      "label": "Legumes"
+    },
+    {
+      "id": "03383b12-0514-4c04-bfe1-883ee91f6a48",
+      "name": "broad bean",
+      "pluralName": "broad beans",
+      "description": "Large flat green bean; fresh in season, for puree or salad.",
+      "aliases": [
+        { "name": "fava bean" },
+        { "name": "fava beans" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "19e8a6bb-946f-42e2-a71f-acff294f4382",
+      "name": "white bean",
+      "pluralName": "white beans",
+      "description": "Mild white bean; for cassoulet, soups and white bean salad.",
+      "aliases": [],
+      "label": "Legumes"
+    },
+    {
+      "id": "cbcaee69-c714-4d8c-bc51-876e82e3ea9a",
+      "name": "white bean (canned)",
+      "pluralName": "white beans (canned)",
+      "description": "Canned white beans; for soup, salad and stews.",
+      "aliases": [
+        { "name": "canned white beans" },
+        { "name": "canned white bean" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "5023b278-fcb7-4ebf-8652-277a61b9fc14",
+      "name": "black bean",
+      "pluralName": "black beans",
+      "description": "Small black bean; for Mexican and Brazilian dishes.",
+      "aliases": [],
+      "label": "Legumes"
+    },
+    {
+      "id": "67a23dc5-c6f8-4c45-8ca2-525d1e1ca29a",
+      "name": "black bean (canned)",
+      "pluralName": "black beans (canned)",
+      "description": "Canned black beans; for tacos, bowls and stews.",
+      "aliases": [
+        { "name": "canned black beans" },
+        { "name": "canned black bean" }
+      ],
+      "label": "Legumes"
+    },
+    {
+      "id": "f2cb8474-8fca-4195-88e1-51b1d31d94a1",
+      "name": "black-eyed pea",
+      "pluralName": "black-eyed peas",
+      "description": "Cream-colored bean with a black spot; for salads and stews.",
+      "aliases": [
+        { "name": "cowpea" },
+        { "name": "cowpeas" }
+      ],
+      "label": "Legumes"
+    }
+  ]
+}

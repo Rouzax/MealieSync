@@ -1,0 +1,516 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "48a8559e-b5cf-4f34-bccf-3812dc977f2f",
+      "name": "pigeon",
+      "pluralName": "pigeons",
+      "description": "Poultry; small game bird with dark, flavorful meat.",
+      "aliases": [
+        {
+          "name": "whole pigeon"
+        },
+        {
+          "name": "squab"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "cb170e3e-8d90-4e26-a320-79061ee5ee8a",
+      "name": "duck",
+      "pluralName": "ducks",
+      "description": "Poultry; fatty meat with a rich flavor.",
+      "aliases": [
+        {
+          "name": "whole duck"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "66b46310-0636-4e39-98fe-66974d3fd561",
+      "name": "duck breast",
+      "pluralName": "duck breasts",
+      "description": "Poultry; lean breast with a layer of fat, pan-seared.",
+      "aliases": [
+        {
+          "name": "magret de canard"
+        },
+        {
+          "name": "magret"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "fa5be9b5-d66b-438d-a373-aa9f964e17a3",
+      "name": "duck leg",
+      "pluralName": "duck legs",
+      "description": "Poultry; juicy leg, ideal for slow cooking or confit.",
+      "aliases": [
+        {
+          "name": "duck leg quarter"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "f71f94e1-f2ff-4c15-88b9-f78e7d8dc4ed",
+      "name": "duck carcass",
+      "pluralName": "duck carcasses",
+      "description": "Poultry; duck carcass, for broth and sauce.",
+      "aliases": [
+        {
+          "name": "duck bones"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "ea6d0f24-7713-4e12-a308-789359fa2556",
+      "name": "duck liver",
+      "pluralName": "duck livers",
+      "description": "Poultry; duck liver, for pâté or pan-searing.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "a77cd117-c61d-4ec3-94f5-23abf2e7d8c3",
+      "name": "duck wing",
+      "pluralName": "duck wings",
+      "description": "Poultry; duck wing, for roasting, confit, or broth.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "8519cb6f-a667-413c-b64d-c53295f3b7f1",
+      "name": "pheasant",
+      "pluralName": "pheasants",
+      "description": "Poultry; game bird with a lean, gamey flavor.",
+      "aliases": [
+        {
+          "name": "whole pheasant"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "d46ee9bf-bb26-44cb-9c4a-6a559b89ea52",
+      "name": "goose",
+      "pluralName": "geese",
+      "description": "Poultry; festive meat, often roasted stuffed.",
+      "aliases": [
+        {
+          "name": "whole goose"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "c4f21896-3a5b-4679-969f-806997a988a4",
+      "name": "goose breast",
+      "pluralName": "goose breasts",
+      "description": "Poultry; goose breast, rich in fat and flavor.",
+      "aliases": [
+        {
+          "name": "goose breast filet"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "9c54d152-2cdc-4a68-b9b3-d73f7b2096f4",
+      "name": "goose leg",
+      "pluralName": "goose legs",
+      "description": "Poultry; goose leg, ideal for slow cooking.",
+      "aliases": [
+        {
+          "name": "goose leg quarter"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "2181782b-4cf5-4c83-be24-f68835bb275a",
+      "name": "goose carcass",
+      "pluralName": "goose carcasses",
+      "description": "Poultry; goose carcass, base for broth and stock.",
+      "aliases": [
+        {
+          "name": "goose bones"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "ff7c2e60-f711-4f4c-98a2-0a7f0e244009",
+      "name": "goose liver",
+      "pluralName": "goose livers",
+      "description": "Poultry; goose liver, for pâté or pan-searing.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "61e4b184-cdaf-4d63-b888-f28345849dea",
+      "name": "goose wing",
+      "pluralName": "goose wings",
+      "description": "Poultry; goose wing, for roasting or broth.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "faad365e-e07f-4a6c-9ba5-f78fb858a2ea",
+      "name": "turkey",
+      "pluralName": "turkeys",
+      "description": "Poultry; large bird, whole turkey or cut into pieces.",
+      "aliases": [
+        {
+          "name": "whole turkey"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "a4496443-2364-4c66-beff-5238d66ad7d7",
+      "name": "turkey thigh",
+      "pluralName": "turkey thighs",
+      "description": "Poultry; dark turkey thigh meat, juicy when braised.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "c8eb8e58-a0a1-4c8b-8fb3-e4539ccab991",
+      "name": "turkey breast",
+      "pluralName": "turkey breasts",
+      "description": "Poultry; lean turkey breast meat.",
+      "aliases": [
+        {
+          "name": "turkey breast filet"
+        },
+        {
+          "name": "turkey filet"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "bf0d4dd4-c4c5-416a-a78d-444e9361c4e5",
+      "name": "ground turkey",
+      "pluralName": "ground turkey",
+      "description": "Poultry; minced turkey meat, lean alternative to ground beef.",
+      "aliases": [
+        {
+          "name": "minced turkey"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "a951d2c6-e5c0-465a-9f2d-21409677cebf",
+      "name": "turkey carcass",
+      "pluralName": "turkey carcasses",
+      "description": "Poultry; turkey carcass, base for broth and stock.",
+      "aliases": [
+        {
+          "name": "turkey bones"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "3c593903-e73f-41da-b675-5319d087574c",
+      "name": "turkey liver",
+      "pluralName": "turkey livers",
+      "description": "Poultry; turkey liver, for pâté or pan-searing.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "b2feace7-d3d8-4c41-8a38-c8ed5d913f55",
+      "name": "turkey neck",
+      "pluralName": "turkey necks",
+      "description": "Poultry; turkey neck, for broth or stew.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "bd2669da-20ec-4016-9e1a-efc0af651249",
+      "name": "turkey leg",
+      "pluralName": "turkey legs",
+      "description": "Poultry; large leg or drumstick, juicy when slow-cooked.",
+      "aliases": [
+        {
+          "name": "turkey drumstick"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "0a28599b-87e0-4d33-bf90-bac65eeae01c",
+      "name": "turkey wing",
+      "pluralName": "turkey wings",
+      "description": "Poultry; turkey wing, for roasting or broth.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "95fa1f3c-1adc-4ac9-b217-8f166865987d",
+      "name": "chicken",
+      "pluralName": "chickens",
+      "description": "Poultry; versatile meat, whole chicken or in parts.",
+      "aliases": [
+        {
+          "name": "whole chicken"
+        },
+        {
+          "name": "chicken meat"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "ad780866-bc57-4001-8bb7-bb087e20e298",
+      "name": "chicken breast",
+      "pluralName": "chicken breasts",
+      "description": "Poultry; lean chicken breast meat, quick to prepare.",
+      "aliases": [
+        {
+          "name": "chicken filet"
+        },
+        {
+          "name": "chicken breast filet"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "0d216363-08d3-4e74-aace-148350feb269",
+      "name": "ground chicken",
+      "pluralName": "ground chicken",
+      "description": "Poultry; minced chicken meat, for meatballs or burgers.",
+      "aliases": [
+        {
+          "name": "minced chicken"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "4d7b461f-3934-481e-8757-c1a0ed72bcfc",
+      "name": "chicken tenderloin",
+      "pluralName": "chicken tenderloins",
+      "description": "Poultry; tender strip, quick to pan-fry or grill.",
+      "aliases": [
+        {
+          "name": "chicken tender"
+        },
+        {
+          "name": "chicken tenders"
+        },
+        {
+          "name": "chicken inner filet"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "3afac728-8405-475a-80f6-1484b19b3d91",
+      "name": "chicken carcass",
+      "pluralName": "chicken carcasses",
+      "description": "Poultry; carcass and bones, base for broth and stock.",
+      "aliases": [
+        {
+          "name": "chicken bones"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "daf6fe9d-cfe7-4b8b-a2f5-3e05ee5d7d6a",
+      "name": "chicken leg",
+      "pluralName": "chicken legs",
+      "description": "Poultry; thigh and drumstick attached, juicy dark meat.",
+      "aliases": [
+        {
+          "name": "chicken leg quarter"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "e21541b4-66e2-43ed-a6c2-5261ac4a8f56",
+      "name": "boneless chicken leg",
+      "pluralName": "boneless chicken legs",
+      "description": "Poultry; boneless leg, juicy meat for stir-fry or roasting.",
+      "aliases": [
+        {
+          "name": "boneless chicken leg quarter"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "7214d0b6-f782-45a1-8ac4-2628495b2243",
+      "name": "chicken thigh",
+      "pluralName": "chicken thighs",
+      "description": "Poultry; juicy dark meat, ideal for braising or grilling.",
+      "aliases": [
+        {
+          "name": "chicken thigh filet"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "0bb248ff-5829-4a1c-9639-9e43e60b5be5",
+      "name": "chicken heart",
+      "pluralName": "chicken hearts",
+      "description": "Poultry; small hearts, quickly pan-fried or stewed.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "b7575806-d6af-41ec-8c76-cf319bb6c577",
+      "name": "chicken liver",
+      "pluralName": "chicken livers",
+      "description": "Poultry; organ meat from chicken, for pâté or pan-searing.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "d1a116ea-ac12-438e-9fc9-2ea4f4b36e22",
+      "name": "chicken gizzard",
+      "pluralName": "chicken gizzards",
+      "description": "Poultry; gizzards, slow-stewed or pan-seared.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "c569a507-7446-4869-b3a3-a62e96cf6b97",
+      "name": "chicken neck",
+      "pluralName": "chicken necks",
+      "description": "Poultry; neck, for broth, ragout, or stew.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "28152679-acae-4dee-b9b7-a430465c047b",
+      "name": "chicken drumstick",
+      "pluralName": "chicken drumsticks",
+      "description": "Poultry; drumstick, popular grilled or fried.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "f31daf43-cc26-4196-add4-728d142527f4",
+      "name": "chicken skin",
+      "pluralName": "chicken skin",
+      "description": "Poultry; skin of chicken, to render crispy or for broth.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "4203a2be-a986-42d0-a9f4-0fc9ad1994f1",
+      "name": "chicken wing",
+      "pluralName": "chicken wings",
+      "description": "Poultry; small wings, often served as a snack or finger food.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "4dce2681-c026-4e65-91f3-60dd2cb95c6c",
+      "name": "chicken foot",
+      "pluralName": "chicken feet",
+      "description": "Poultry; chicken feet, for broth or Asian braised dishes.",
+      "aliases": [],
+      "label": "Poultry"
+    },
+    {
+      "id": "36893321-0eb6-4a7f-b819-0d92f0aee3a6",
+      "name": "chicken schnitzel",
+      "pluralName": "chicken schnitzels",
+      "description": "Breaded chicken breast; ready-to-cook, pan-fried or oven-baked.",
+      "aliases": [
+        {
+          "name": "breaded chicken cutlet"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "1af95e0a-3536-481d-b605-4f27ab2bedfe",
+      "name": "poussin",
+      "pluralName": "poussins",
+      "description": "Poultry; young chicken, tender and quick to cook.",
+      "aliases": [
+        {
+          "name": "spring chicken"
+        },
+        {
+          "name": "cornish hen"
+        },
+        {
+          "name": "whole poussin"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "733f4edc-5cff-4ab6-93d3-9928007ad6c1",
+      "name": "quail",
+      "pluralName": "quails",
+      "description": "Poultry; small game bird with delicate, dark meat.",
+      "aliases": [
+        {
+          "name": "whole quail"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "4d020c9d-8da8-49a6-bb02-6ce13229a569",
+      "name": "guinea fowl",
+      "pluralName": "guinea fowl",
+      "description": "Poultry; gamey flavor, roasted or braised.",
+      "aliases": [
+        {
+          "name": "guinea hen"
+        },
+        {
+          "name": "whole guinea fowl"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "a01b8b56-903c-4d0f-9e80-5c71f3d13b3d",
+      "name": "partridge",
+      "pluralName": "partridges",
+      "description": "Poultry; small game bird with a fine game flavor, roasted.",
+      "aliases": [
+        {
+          "name": "whole partridge"
+        }
+      ],
+      "label": "Poultry"
+    },
+    {
+      "id": "6358c9ef-25df-401f-ac5c-bcec24e85146",
+      "name": "stewing hen",
+      "pluralName": "stewing hens",
+      "description": "Poultry; older hen with tough meat, ideal for broth and soup.",
+      "aliases": [
+        {
+          "name": "boiling fowl"
+        },
+        {
+          "name": "soup chicken"
+        }
+      ],
+      "label": "Poultry"
+    }
+  ]
+}

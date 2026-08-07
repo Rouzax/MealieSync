@@ -1,0 +1,740 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "62fb6c14-7d7e-4ea8-ad96-90bbdf19a96e",
+      "name": "appenzeller",
+      "pluralName": "appenzeller",
+      "description": "Swiss semi-hard cheese; on a cheese board or in fondue.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "a2254ed0-0f1a-4f04-b4af-b6842d281414",
+      "name": "asiago",
+      "pluralName": "asiago",
+      "description": "Italian semi-hard to hard cheese; grated or on a cheese board.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "e3a384ac-cbc7-4db9-bc45-a12493104958",
+      "name": "mature cheese",
+      "pluralName": "mature cheese",
+      "description": "Matured Dutch cheese; on bread, in cubes, or toasted sandwich.",
+      "aliases": [
+        {
+          "name": "matured cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "9391ed18-ce8a-4518-b6c3-57afb39029b0",
+      "name": "mature cheese 20+",
+      "pluralName": "mature cheese 20+",
+      "description": "Very low-fat matured cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "20+ mature cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "e55b730e-62dc-4fd9-82d8-c390090b3e7a",
+      "name": "mature cheese 30+",
+      "pluralName": "mature cheese 30+",
+      "description": "Low-fat matured cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "30+ mature cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "484b19bf-7912-4128-aafa-d4f25e087ab2",
+      "name": "mature cheese 35+",
+      "pluralName": "mature cheese 35+",
+      "description": "Reduced-fat matured cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "35+ mature cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "cd42b3c9-280b-4c69-a97a-edb777af5ae4",
+      "name": "mature cheese 48+",
+      "pluralName": "mature cheese 48+",
+      "description": "Full-fat matured cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "48+ mature cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "2fec3246-d87c-4541-b7ee-7be421368c83",
+      "name": "blue cheese",
+      "pluralName": "blue cheese",
+      "description": "Blue-veined cheese; on a cheese board, in sauce, or salad.",
+      "aliases": [
+        {
+          "name": "blue mold cheese"
+        },
+        {
+          "name": "bleu cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "6a1c7a14-b5df-49ed-8394-ad13d77a5ae3",
+      "name": "farmer's cheese",
+      "pluralName": "farmer's cheese",
+      "description": "Dutch raw milk cheese; on bread or a cheese board.",
+      "aliases": [
+        {
+          "name": "farmers cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "ab459b21-bd9d-4fd8-a979-ef27bd55e1d7",
+      "name": "brie",
+      "pluralName": "brie",
+      "description": "Soft bloomy rind cheese; on a cheese board or baked.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "397d3438-3919-43dd-a0f8-611b24419673",
+      "name": "buffalo mozzarella",
+      "pluralName": "buffalo mozzarella",
+      "description": "Mozzarella made from buffalo milk; creamier than regular mozzarella.",
+      "aliases": [
+        {
+          "name": "mozzarella di bufala"
+        },
+        {
+          "name": "buffalo-mozzarella"
+        },
+        {
+          "name": "mozzarella bufala"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "71cd3719-5250-436f-9132-1e51b5d1002c",
+      "name": "burrata",
+      "pluralName": "burrata",
+      "description": "Fresh mozzarella with a cream filling; serve with tomato and bread.",
+      "aliases": [
+        {
+          "name": "burratta"
+        },
+        {
+          "name": "buratta"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "c3d2e7bb-9aca-43aa-b12b-aee6d97ad9c9",
+      "name": "camembert",
+      "pluralName": "camembert",
+      "description": "Soft bloomy rind cheese; on a cheese board or baked.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "9879eecd-9f91-4ea7-a4c7-bbd4421b059a",
+      "name": "cheddar",
+      "pluralName": "cheddar",
+      "description": "Hard cheese with a full flavor; melts well on burgers or toasted sandwiches.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "9cf0b280-bb3a-4470-817c-aa85b0544716",
+      "name": "comté",
+      "pluralName": "comté",
+      "description": "French hard cheese; for fondue, gratin, or a cheese board.",
+      "aliases": [
+        {
+          "name": "comte"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "6d79daae-61db-447e-be71-d4411c7cc0a7",
+      "name": "edam",
+      "pluralName": "edam",
+      "description": "Mild Dutch cheese; on bread or in cubes.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "8f129534-af02-4916-b96a-6153c884de27",
+      "name": "emmental",
+      "pluralName": "emmental",
+      "description": "Swiss cheese with holes; in toasted sandwiches, fondue, or gratin.",
+      "aliases": [
+        {
+          "name": "emmentaler"
+        },
+        {
+          "name": "emmenthal"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "74b1bb60-2bb3-430c-8fe9-403d2961ef56",
+      "name": "extra mature cheese",
+      "pluralName": "extra mature cheese",
+      "description": "Longer-matured Dutch cheese; on a cheese board or for grating.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "0a67b40d-272c-447f-bc08-8105002b1f63",
+      "name": "feta",
+      "pluralName": "feta",
+      "description": "White brined cheese; crumble in salad or baked dishes.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "8c50321b-64f2-429a-8231-53978832d57d",
+      "name": "fondue cheese",
+      "pluralName": "fondue cheese",
+      "description": "Cheese blend for fondue; melt with wine or broth.",
+      "aliases": [
+        {
+          "name": "cheese fondue mix"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "2fda22cf-5f6d-4fd2-a5fe-3d8db793a586",
+      "name": "goat cheese",
+      "pluralName": "goat cheese",
+      "description": "Cheese made from goat's milk; on toast, in salad, or gratin.",
+      "aliases": [
+        {
+          "name": "chèvre"
+        },
+        {
+          "name": "chevre"
+        },
+        {
+          "name": "goat's cheese"
+        },
+        {
+          "name": "goats cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "cb021132-f935-4ab0-aa01-1d954e510a53",
+      "name": "grated cheese",
+      "pluralName": "grated cheese",
+      "description": "Pre-grated cheese; handy for melting.",
+      "aliases": [
+        {
+          "name": "pizza cheese"
+        },
+        {
+          "name": "shredded cheese"
+        },
+        {
+          "name": "pizza mix"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "91c049a6-29a1-4f1d-8b33-fee9842b95c3",
+      "name": "gorgonzola",
+      "pluralName": "gorgonzola",
+      "description": "Italian blue cheese; in sauce, risotto, or on a cheese board.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "347a7e72-8f7b-487e-9d1a-096777c21fbb",
+      "name": "gouda",
+      "pluralName": "gouda",
+      "description": "Dutch cheese style; on bread, toasted sandwich, or a cheese board.",
+      "aliases": [
+        {
+          "name": "gouda cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "9cc66fed-d25c-4b77-a732-ea9d4f32c523",
+      "name": "grana padano",
+      "pluralName": "grana padano",
+      "description": "Italian hard cheese; grate over pasta or risotto.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "294dac91-841a-40c2-a26b-fdf2935c5d18",
+      "name": "gruyère",
+      "pluralName": "gruyère",
+      "description": "Swiss semi-hard to hard cheese; for fondue, gratin, or toasted sandwiches.",
+      "aliases": [
+        {
+          "name": "gruyere"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "59fd8591-5eec-40d5-99fa-edfc9d5bef38",
+      "name": "halloumi",
+      "pluralName": "halloumi",
+      "description": "Firm cheese that does not melt; grill or pan-fry in slices.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "f0a30e25-5c4a-4881-8c54-cfe30ba6bb86",
+      "name": "cottage cheese",
+      "pluralName": "cottage cheese",
+      "description": "Fresh curd cheese; in salad, breakfast, or as a topping.",
+      "aliases": [
+        {
+          "name": "hüttenkäse"
+        },
+        {
+          "name": "huttenkase"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "b451e916-eb93-4364-bdca-8c24ec525c6a",
+      "name": "young cheese",
+      "pluralName": "young cheese",
+      "description": "Briefly matured Dutch cheese; on bread or for toasted sandwiches.",
+      "aliases": [
+        {
+          "name": "mild cheese"
+        },
+        {
+          "name": "mild gouda"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "aaa2285e-6e7f-4df4-a068-fc54c29d98fe",
+      "name": "young cheese 20+",
+      "pluralName": "young cheese 20+",
+      "description": "Very low-fat young cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "20+ young cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "dc39d61e-a715-4796-ac9c-98720ca7ea6c",
+      "name": "young cheese 30+",
+      "pluralName": "young cheese 30+",
+      "description": "Low-fat young cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "30+ young cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "9f39ada4-3e24-458b-aef8-df53c14671ff",
+      "name": "young cheese 35+",
+      "pluralName": "young cheese 35+",
+      "description": "Reduced-fat young cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "35+ young cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "ba912f5b-0698-4aeb-84c4-365d41b01b3a",
+      "name": "young cheese 48+",
+      "pluralName": "young cheese 48+",
+      "description": "Full-fat young cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "48+ young cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "a3a06149-d1ca-4c60-8b21-ea2ad0c08b37",
+      "name": "cheese",
+      "pluralName": "cheese",
+      "description": "Curdled dairy product; on bread, in sauce, or baked dish.",
+      "aliases": [
+        {
+          "name": "cheese slice"
+        },
+        {
+          "name": "cheese slices"
+        },
+        {
+          "name": "sliced cheese"
+        },
+        {
+          "name": "cheese cubes"
+        },
+        {
+          "name": "diced cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "e4cbebd8-e37b-406b-afee-415b7119269e",
+      "name": "cumin cheese",
+      "pluralName": "cumin cheese",
+      "description": "Dutch cheese with cumin; on bread or a cheese board.",
+      "aliases": [
+        {
+          "name": "komijnekaas"
+        },
+        {
+          "name": "caraway cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "aca509af-689c-46ac-a37f-97c43ed1eab1",
+      "name": "herb cream cheese",
+      "pluralName": "herb cream cheese",
+      "description": "Cream cheese with herbs; as a spread or dip.",
+      "aliases": [
+        {
+          "name": "garlic and herb cream cheese"
+        },
+        {
+          "name": "herbed cream cheese"
+        },
+        {
+          "name": "boursin"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "1a514ebb-c1e1-4b42-9e4f-cfc9183bf428",
+      "name": "limburger",
+      "pluralName": "limburger",
+      "description": "Strong-smelling washed-rind cheese; on bread or a cheese board.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "d9c50fd9-85c2-4bc5-a225-c81bab2e9507",
+      "name": "maasdam",
+      "pluralName": "maasdam",
+      "description": "Dutch cheese with holes; in toasted sandwiches or on bread.",
+      "aliases": [
+        {
+          "name": "maasdammer"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "9077c4b9-99c6-42d8-8f4c-7f69331fcea0",
+      "name": "manchego",
+      "pluralName": "manchego",
+      "description": "Spanish sheep's milk cheese; on a cheese board or in tapas.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "eed78dd3-4de9-4b29-bd51-a9001f8ef91d",
+      "name": "mascarpone",
+      "pluralName": "mascarpone",
+      "description": "Italian cream cheese; for tiramisu or creamy sauces.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "a8ce8d72-be64-4745-9b07-96e20922a81f",
+      "name": "monterey jack",
+      "pluralName": "monterey jack",
+      "description": "Mild melting cheese; for tex-mex or quesadillas.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "c3ab5279-6dcc-4156-ab53-ffd3e1b17b0d",
+      "name": "morbier",
+      "pluralName": "morbier",
+      "description": "French semi-hard cheese; on a cheese board or in gratin.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "11f8dc41-c7e6-4c81-a81b-025413389b75",
+      "name": "mozzarella",
+      "pluralName": "mozzarella",
+      "description": "Fresh cheese with a mild flavor; on pizza or in salad.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "96bed57e-fc5e-4e6a-960d-c5578a541532",
+      "name": "munster",
+      "pluralName": "munster",
+      "description": "French washed-rind cheese; on a cheese board or baked.",
+      "aliases": [
+        {
+          "name": "muenster"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "dd97d1c0-5e16-4890-ba5d-80130a597fa3",
+      "name": "aged cheese",
+      "pluralName": "aged cheese",
+      "description": "Long-matured Dutch cheese; on a cheese board or grated in dishes.",
+      "aliases": [
+        {
+          "name": "old cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "28a501bc-6601-4d9a-9355-a128b4afa9fb",
+      "name": "aged cheese 20+",
+      "pluralName": "aged cheese 20+",
+      "description": "Very low-fat aged cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "20+ aged cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "dc054390-60a3-4a84-93a9-52824c9a6c8e",
+      "name": "aged cheese 30+",
+      "pluralName": "aged cheese 30+",
+      "description": "Low-fat aged cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "30+ aged cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "58084db0-c910-4d9d-ac38-8cc9ea507fb9",
+      "name": "aged cheese 35+",
+      "pluralName": "aged cheese 35+",
+      "description": "Reduced-fat aged cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "35+ aged cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "f689fecf-2c10-4c97-b9b4-1fe8ed81f5a7",
+      "name": "aged cheese 48+",
+      "pluralName": "aged cheese 48+",
+      "description": "Full-fat aged cheese; on bread, toasted sandwich, or in dishes.",
+      "aliases": [
+        {
+          "name": "48+ aged cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "2dbec8de-7b56-4538-b603-0292e31a60e9",
+      "name": "vintage cheese",
+      "pluralName": "vintage cheese",
+      "description": "Very long-matured cheese; crumbly on a cheese board or for grating.",
+      "aliases": [
+        {
+          "name": "extra aged cheese"
+        },
+        {
+          "name": "overjarige kaas"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "782c1dc3-183b-402c-a02d-bdff6527ac97",
+      "name": "paneer",
+      "pluralName": "paneer",
+      "description": "Indian fresh cheese; cubed in curry or fried.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "d6aa73a6-ff25-4142-8d73-6414dddd5e33",
+      "name": "parmesan",
+      "pluralName": "parmesan",
+      "description": "Italian hard cheese; grated over pasta or risotto.",
+      "aliases": [
+        {
+          "name": "parmesan cheese"
+        },
+        {
+          "name": "parmigiano reggiano"
+        },
+        {
+          "name": "parmigiano"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "25d34b51-0354-4639-8027-a23c9bcca504",
+      "name": "pecorino",
+      "pluralName": "pecorino",
+      "description": "Italian sheep's milk cheese; grate over pasta or in sauce.",
+      "aliases": [
+        {
+          "name": "pecorino romano"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "e8601406-40bd-4b8a-a202-0a3a65c6d1fc",
+      "name": "provolone",
+      "pluralName": "provolone",
+      "description": "Italian semi-hard cheese; melts well in toasted sandwiches or pasta.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "0f269e4b-1244-4af5-95e5-bb52f5b2aab2",
+      "name": "raclette",
+      "pluralName": "raclette",
+      "description": "Melting cheese for raclette; also delicious on potatoes or vegetables.",
+      "aliases": [
+        {
+          "name": "raclette cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "29ec8f38-36ec-48a6-a29e-844784c10796",
+      "name": "ricotta",
+      "pluralName": "ricotta",
+      "description": "Soft whey cheese; for fillings, pasta, or cheesecake.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "f60c3717-a13f-4245-a925-293431510439",
+      "name": "cream cheese",
+      "pluralName": "cream cheese",
+      "description": "Soft cream-based cheese spread; on toast or in cheesecake.",
+      "aliases": [
+        {
+          "name": "plain cream cheese"
+        },
+        {
+          "name": "creamcheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "4dd44139-8f85-4371-959b-9f709f545d05",
+      "name": "roquefort",
+      "pluralName": "roquefort",
+      "description": "French blue cheese; in dressing, sauce, or on a cheese board.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "4630eb44-62c3-44fb-9bae-98626ecddb3c",
+      "name": "sheep's milk cheese",
+      "pluralName": "sheep's milk cheese",
+      "description": "Cheese made from sheep's milk; in salad, pasta, or on a cheese board.",
+      "aliases": [
+        {
+          "name": "sheep cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "baf0265f-bf82-487d-b9d7-26372d96e51f",
+      "name": "cheese spread",
+      "pluralName": "cheese spread",
+      "description": "Processed spreadable cheese; as a bread topping or in sauce.",
+      "aliases": [
+        {
+          "name": "dairy spread"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "adbefa12-5fc4-48a7-b13d-f1921dc62ab2",
+      "name": "processed cheese",
+      "pluralName": "processed cheese",
+      "description": "Processed melting cheese; for toasted sandwiches, sauce, or on bread.",
+      "aliases": [
+        {
+          "name": "melting cheese"
+        }
+      ],
+      "label": "Cheese"
+    },
+    {
+      "id": "737c8427-a47b-4933-9513-9245ab979f25",
+      "name": "stilton",
+      "pluralName": "stilton",
+      "description": "English blue cheese; on a cheese board or in sauce.",
+      "aliases": [],
+      "label": "Cheese"
+    },
+    {
+      "id": "a93d816c-91a8-45b9-b0b7-391917232e87",
+      "name": "taleggio",
+      "pluralName": "taleggio",
+      "description": "Italian washed-rind cheese; in risotto or on a cheese board.",
+      "aliases": [],
+      "label": "Cheese"
+    }
+  ]
+}
