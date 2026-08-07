@@ -1,6 +1,6 @@
 # English (EN) Data
 
-This folder contains English ingredient data for Mealie, translated, adapted, and strictly mapped from the foundational Dutch (NL) dataset[cite: 11].
+This folder contains English ingredient data for Mealie, translated, adapted, and strictly mapped from the foundational Dutch (NL) dataset.
 
 ## Contents
 
@@ -16,7 +16,7 @@ This folder contains English ingredient data for Mealie, translated, adapted, an
 
 ## Import Order
 
-To sync this data to your local Mealie instance, execute the following commands from the MealieSync root folder[cite: 11]:
+To sync this data to your local Mealie instance, execute the following commands from the MealieSync root folder:
 
 ```powershell
 # 1. Labels first
