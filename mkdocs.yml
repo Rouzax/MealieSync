@@ -27,6 +27,17 @@ theme:
     - search.highlight
     - content.code.copy
 
+# Renders a small icon row in the footer of every page. Icon names resolve
+# against the sets mkdocs-material bundles under templates/.icons.
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Rouzax/MealieSync
+      name: MealieSync on GitHub
+    - icon: simple/kofi
+      link: https://ko-fi.com/O0W221GBUG
+      name: Support MealieSync on Ko-fi
+
 markdown_extensions:
   - admonition
   - pymdownx.details

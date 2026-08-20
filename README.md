@@ -4,6 +4,7 @@
 [![Mealie v2.x](https://img.shields.io/badge/Mealie-v2.x-green.svg)](https://mealie.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-rouzax.github.io%2FMealieSync-blue)](https://rouzax.github.io/MealieSync)
+[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/O0W221GBUG)
 
 A PowerShell toolkit for managing [Mealie](https://mealie.io) recipe data via REST API. Import, export, and synchronize your ingredients, units, labels, and more, with smart duplicate prevention, change detection, and full bidirectional sync.
 
@@ -142,6 +143,12 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 | --- | --- |
 | [@Rouzax](https://github.com/Rouzax) | Author, Dutch dataset, core module |
 | [@sochartgit](https://github.com/sochartgit) | French dataset ([#1](https://github.com/Rouzax/MealieSync/issues/1)) |
+
+## Support
+
+Building tools that solve my own problems and sharing them in the hope they solve yours too. If MealieSync saved you from retyping a thousand ingredients into a web form one at a time, a coffee is always welcome.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O0W221GBUG)
 
 ## License
 
