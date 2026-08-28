@@ -1,0 +1,119 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "9db17816-ce23-4f53-a9b0-173730d592e3",
+      "name": "buckwheat flake",
+      "pluralName": "buckwheat flakes",
+      "description": "Flattened buckwheat; gluten-free, for porridge or muesli.",
+      "aliases": [],
+      "label": "Breakfast Cereals"
+    },
+    {
+      "id": "ef3e51c3-2e87-4e1d-a503-ab4ea73372b6",
+      "name": "cornflakes",
+      "pluralName": "cornflakes",
+      "description": "Puffed corn flakes; crunchy breakfast cereal with milk.",
+      "aliases": [
+        {
+          "name": "corn flakes"
+        },
+        {
+          "name": "maize flakes"
+        },
+        {
+          "name": "corn-flakes"
+        }
+      ],
+      "label": "Breakfast Cereals"
+    },
+    {
+      "id": "584fe8e3-89fe-4fa2-a8cb-223b780d2bb4",
+      "name": "barley flake",
+      "pluralName": "barley flakes",
+      "description": "Flattened barley grains; for porridge or in muesli.",
+      "aliases": [],
+      "label": "Breakfast Cereals"
+    },
+    {
+      "id": "820ab0f0-64d6-4ad1-9232-7124f8890b3f",
+      "name": "rolled oats",
+      "pluralName": "rolled oats",
+      "description": "Flattened oat grains; for porridge, cookies, and baking.",
+      "aliases": [
+        {
+          "name": "oatmeal"
+        },
+        {
+          "name": "oat flakes"
+        }
+      ],
+      "label": "Breakfast Cereals"
+    },
+    {
+      "id": "e753e223-1c89-403e-b5f0-1229832d94f4",
+      "name": "granola",
+      "pluralName": "granola",
+      "description": "Roasted muesli with crunch; with yogurt, milk, or as a topping.",
+      "aliases": [
+        {
+          "name": "crunchy muesli"
+        },
+        {
+          "name": "cruesli"
+        }
+      ],
+      "label": "Breakfast Cereals"
+    },
+    {
+      "id": "923df563-2e12-49d1-af24-32bc329b6957",
+      "name": "muesli",
+      "pluralName": "muesli",
+      "description": "Mixture of rolled oats, nuts, and dried fruit; with milk or yogurt.",
+      "aliases": [
+        {
+          "name": "Swiss muesli"
+        }
+      ],
+      "label": "Breakfast Cereals"
+    },
+    {
+      "id": "ce086e72-1647-4a23-8514-d85a53e0a3a4",
+      "name": "quinoa flake",
+      "pluralName": "quinoa flakes",
+      "description": "Flattened quinoa; gluten-free, for porridge or muesli.",
+      "aliases": [],
+      "label": "Breakfast Cereals"
+    },
+    {
+      "id": "4cb46f84-220f-4099-888e-2af120ad3e57",
+      "name": "rye flake",
+      "pluralName": "rye flakes",
+      "description": "Flattened rye grains; for porridge or in bread.",
+      "aliases": [],
+      "label": "Breakfast Cereals"
+    },
+    {
+      "id": "79bfad73-aece-4240-9328-8f1a40954334",
+      "name": "spelt flake",
+      "pluralName": "spelt flakes",
+      "description": "Flattened spelt grains; nutty, for porridge or muesli.",
+      "aliases": [],
+      "label": "Breakfast Cereals"
+    },
+    {
+      "id": "eb9fb80f-f36a-420b-9c01-437812b57fb2",
+      "name": "whole grain rolled oats",
+      "pluralName": "whole grain rolled oats",
+      "description": "Less processed oat flakes with more fiber; for breakfast, porridge, and baking.",
+      "aliases": [
+        {
+          "name": "whole grain oats"
+        }
+      ],
+      "label": "Breakfast Cereals"
+    }
+  ]
+}

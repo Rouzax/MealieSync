@@ -1,0 +1,70 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "5a304aab-229d-4cc9-ab0f-374aa9de1cf2",
+      "name": "egg",
+      "pluralName": "eggs",
+      "description": "Chicken egg; binds and enriches batters, doughs, and sauces.",
+      "aliases": [
+        {
+          "name": "chicken egg"
+        },
+        {
+          "name": "free-range egg"
+        },
+        {
+          "name": "ei"
+        }
+      ],
+      "label": "Eggs"
+    },
+    {
+      "id": "d3f61d92-0864-45c4-a6eb-48140fb641e9",
+      "name": "egg yolk",
+      "pluralName": "egg yolks",
+      "description": "Egg yolk; emulsifier and binder for sauces and pastries.",
+      "aliases": [
+        {
+          "name": "yolk"
+        },
+        {
+          "name": "yolks"
+        },
+        {
+          "name": "eidooier"
+        }
+      ],
+      "label": "Eggs"
+    },
+    {
+      "id": "a42814d9-ce2e-400d-8221-93f32e32de1f",
+      "name": "egg white",
+      "pluralName": "egg whites",
+      "description": "Egg white; whipped for meringues, foams, and airy desserts.",
+      "aliases": [
+        {
+          "name": "albumen"
+        },
+        {
+          "name": "eiwit"
+        }
+      ],
+      "label": "Eggs"
+    },
+    {
+      "id": "8d5dfd3c-7ef4-478d-84de-df4362e55e31",
+      "name": "quail egg",
+      "pluralName": "quail eggs",
+      "description": "Small speckled quail egg; used for garnishes and quick cooking.",
+      "aliases": [
+        {
+          "name": "kwartelei"
+        }
+      ],
+      "label": "Eggs"
+    }
+  ]
+}

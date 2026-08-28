@@ -1,0 +1,412 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "db68a871-2c2e-42c4-8ace-cdca4532459a",
+      "name": "balsamic vinegar",
+      "pluralName": "balsamic vinegar",
+      "description": "Italian grape must vinegar from Modena; sweet and sour, for dressings and marinades.",
+      "aliases": [
+        {
+          "name": "aceto balsamico"
+        },
+        {
+          "name": "balsamic"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "9fce2713-8cf6-410d-9070-4fae6019321f",
+      "name": "apple cider vinegar",
+      "pluralName": "apple cider vinegar",
+      "description": "Vinegar from fermented apples; mildly acidic, for dressings and marinades.",
+      "aliases": [
+        {
+          "name": "cider vinegar"
+        },
+        {
+          "name": "apple vinegar"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "5ebc4354-1362-40e0-aaf8-4fd56077c710",
+      "name": "peanut oil",
+      "pluralName": "peanut oil",
+      "description": "Oil from peanuts; high smoke point, for stir-frying and deep-frying.",
+      "aliases": [
+        {
+          "name": "groundnut oil"
+        },
+        {
+          "name": "arachis oil"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "ffcaeb9c-e7eb-49c9-87ab-3a606f6ae794",
+      "name": "avocado oil",
+      "pluralName": "avocado oil",
+      "description": "Oil from avocado flesh; high smoke point, mild flavor.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "78655052-9b64-4a7a-ba8b-c98395d28783",
+      "name": "vinegar",
+      "pluralName": "vinegar",
+      "description": "Generic acidic liquid; flavoring and preservative.",
+      "aliases": [
+        {
+          "name": "white vinegar"
+        },
+        {
+          "name": "spirit vinegar"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "f1819ef2-ffb3-4266-bc26-cee5774bd925",
+      "name": "balsamic glaze",
+      "pluralName": "balsamic glaze",
+      "description": "Reduced balsamic vinegar; syrupy and sweet, for garnishing and desserts.",
+      "aliases": [
+        {
+          "name": "balsamic cream"
+        },
+        {
+          "name": "crema di balsamico"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "6f38a658-4df7-4947-b9ca-d19aa8f23256",
+      "name": "chili oil",
+      "pluralName": "chili oil",
+      "description": "Oil infused with chili peppers; spicy condiment to drizzle over dishes.",
+      "aliases": [
+        {
+          "name": "hot chili oil"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "9dc452a7-66e5-4b4d-8b9b-90c179e23fc1",
+      "name": "grapeseed oil",
+      "pluralName": "grapeseed oil",
+      "description": "Light oil from grape seeds; neutral flavor, high smoke point.",
+      "aliases": [
+        {
+          "name": "grape seed oil"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "c8e918c2-193e-45ad-896f-e1b21cc48cc6",
+      "name": "raspberry vinegar",
+      "pluralName": "raspberry vinegar",
+      "description": "Vinegar flavored with raspberries; fruity, for salads and sauces.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "06d73dfb-800b-450f-9760-2afc8301c1a3",
+      "name": "hazelnut oil",
+      "pluralName": "hazelnut oil",
+      "description": "Oil from hazelnuts; nutty aroma, for dressings and gentle baking.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "fee6afb6-aa8a-412e-affb-b42c1d6c73a5",
+      "name": "coconut oil",
+      "pluralName": "coconut oil",
+      "description": "Fat from coconut; solid at room temperature, for baking and Asian cuisine.",
+      "aliases": [
+        {
+          "name": "coconut fat"
+        },
+        {
+          "name": "copra oil"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "2d06d15a-0188-4acb-b5d1-dc4b465bfe83",
+      "name": "rapeseed oil",
+      "pluralName": "rapeseed oil",
+      "description": "Neutral oil from rapeseed; suitable for baking and deep-frying.",
+      "aliases": [
+        {
+          "name": "canola oil"
+        },
+        {
+          "name": "colza oil"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "321a134a-b9ec-41a6-8bf9-d93c650c9812",
+      "name": "light sesame oil",
+      "pluralName": "light sesame oil",
+      "description": "Untoasted sesame oil; mild, suitable for cooking.",
+      "aliases": [
+        {
+          "name": "untoasted sesame oil"
+        },
+        {
+          "name": "gingelly oil"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "35dc2d8a-3c96-4aff-aab2-c756429537c1",
+      "name": "flaxseed oil",
+      "pluralName": "flaxseed oil",
+      "description": "Oil from flaxseeds; rich in omega-3, do not heat, for dressings.",
+      "aliases": [
+        {
+          "name": "linseed oil"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "6c70c55f-48d6-4bec-89db-906c54b3803d",
+      "name": "corn oil",
+      "pluralName": "corn oil",
+      "description": "Vegetable oil from corn germ; neutral flavor, for cooking.",
+      "aliases": [
+        {
+          "name": "maize oil"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "9fa350e2-afcc-42e5-b6a5-7e4be367ba29",
+      "name": "mustard oil",
+      "pluralName": "mustard oil",
+      "description": "Pungent oil from mustard seeds; for Indian and Bengali dishes.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "98aa9094-0761-4cab-a028-c63e57a58971",
+      "name": "malt vinegar",
+      "pluralName": "malt vinegar",
+      "description": "Vinegar based on fermented barley; for fish and chips and pickles.",
+      "aliases": [
+        {
+          "name": "brown vinegar"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "e8bbfaed-c7f1-4687-a7f2-18a325502ffc",
+      "name": "oil",
+      "pluralName": "oil",
+      "description": "Generic liquid fat; for cooking, frying, or dressings.",
+      "aliases": [
+        {
+          "name": "cooking oil"
+        },
+        {
+          "name": "salad oil"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "21815ff5-1404-4d77-af73-2017494a33ea",
+      "name": "olive oil",
+      "pluralName": "olive oil",
+      "description": "Oil from olives; versatile, for cooking and dressings.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "8137b6ad-8e8b-43c8-8ff5-e20313817ffd",
+      "name": "extra virgin olive oil",
+      "pluralName": "extra virgin olive oil",
+      "description": "Cold-pressed olive oil from the first extraction; fruity, for cold use.",
+      "aliases": [
+        {
+          "name": "evoo"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "6ebaf6ef-af09-46bd-a7a5-a6262cf41411",
+      "name": "beef dripping",
+      "pluralName": "beef dripping",
+      "description": "Rendered beef fat; for traditional frying of chips.",
+      "aliases": [
+        {
+          "name": "beef tallow"
+        },
+        {
+          "name": "tallow"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "f3feba78-510a-4208-b4b4-df18825375f2",
+      "name": "palm oil",
+      "pluralName": "palm oil",
+      "description": "Vegetable fat from the oil palm; stable cooking fat, reddish in color.",
+      "aliases": [
+        {
+          "name": "palm fat"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "11ca4abb-3ebf-4e5c-9e73-eb02e8cd4795",
+      "name": "vegetable oil",
+      "pluralName": "vegetable oil",
+      "description": "Blend of vegetable oils; neutral, for baking and deep-frying.",
+      "aliases": [
+        {
+          "name": "vegetable fat"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "dddd9ecb-fb91-425c-bc18-04be287ac4e8",
+      "name": "lard",
+      "pluralName": "lard",
+      "description": "Rendered pork fat; traditional cooking fat for pastries and chips.",
+      "aliases": [
+        {
+          "name": "pork fat"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "3de1fb48-ec27-4e0f-83c4-82eeadd82045",
+      "name": "rice vinegar",
+      "pluralName": "rice vinegar",
+      "description": "Vinegar from fermented rice; mild, for sushi and Asian dressings.",
+      "aliases": [
+        {
+          "name": "rice wine vinegar"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "63314e49-9552-425e-9e2b-c10324eb957e",
+      "name": "rice bran oil",
+      "pluralName": "rice bran oil",
+      "description": "Oil from rice bran; mild, high smoke point, for stir-frying.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "77788332-d977-4923-a53b-e03e476bb9ff",
+      "name": "red wine vinegar",
+      "pluralName": "red wine vinegar",
+      "description": "Vinegar from red wine; robust, for vinaigrettes and stews.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "34722c3c-af0f-4b48-8585-43170a56b9b6",
+      "name": "sesame oil",
+      "pluralName": "sesame oil",
+      "description": "Toasted sesame oil; dark and nutty, used as a seasoning.",
+      "aliases": [
+        {
+          "name": "toasted sesame oil"
+        },
+        {
+          "name": "dark sesame oil"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "83b99eb1-4866-4905-a448-c772bb822585",
+      "name": "sherry vinegar",
+      "pluralName": "sherry vinegar",
+      "description": "Vinegar from sherry wine; complex and nutty, for Spanish dishes.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "e5e02bac-0092-4a53-be2a-61bf3423b1a1",
+      "name": "truffle oil",
+      "pluralName": "truffle oil",
+      "description": "Oil flavored with truffle; use in drops as a luxury seasoning.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "eaa1df03-d980-46c6-80a6-cd2b9f6933ca",
+      "name": "walnut oil",
+      "pluralName": "walnut oil",
+      "description": "Oil from walnuts; nutty, for salads and do not heat.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "1b375610-1f6a-4c25-9ed7-d6b166f5f6f1",
+      "name": "white balsamic vinegar",
+      "pluralName": "white balsamic vinegar",
+      "description": "Light balsamic vinegar; sweet and sour without discoloring, for light dressings.",
+      "aliases": [
+        {
+          "name": "white balsamic"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "8e3dfc31-dc14-47cb-8ec3-cb045f18d79b",
+      "name": "white wine vinegar",
+      "pluralName": "white wine vinegar",
+      "description": "Vinegar from white wine; mild and crisp, for vinaigrettes.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "2362c0e8-f874-42b1-b56e-8c5d729e11c6",
+      "name": "stir-fry oil",
+      "pluralName": "stir-fry oil",
+      "description": "Oil with a high smoke point; often flavored, for wok frying.",
+      "aliases": [
+        {
+          "name": "wok oil"
+        }
+      ],
+      "label": "Oils, Vinegars & Fats"
+    },
+    {
+      "id": "18eb9f24-2368-42df-8fad-91a34d746725",
+      "name": "sunflower oil",
+      "pluralName": "sunflower oil",
+      "description": "Neutral oil from sunflower seeds; versatile for baking and deep-frying.",
+      "aliases": [],
+      "label": "Oils, Vinegars & Fats"
+    }
+  ]
+}

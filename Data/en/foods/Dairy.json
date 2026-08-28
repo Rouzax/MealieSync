@@ -1,0 +1,585 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "63c5eea5-e2b8-44c7-9f63-4e108e949f68",
+      "name": "almond milk",
+      "pluralName": "almond milk",
+      "description": "Plant-based milk made from almonds; dairy alternative.",
+      "aliases": [
+        {
+          "name": "almond beverage"
+        },
+        {
+          "name": "amandelmelk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "e1ef94b7-8a16-427f-ad69-f4859b612acc",
+      "name": "ayran",
+      "pluralName": "ayran",
+      "description": "Turkish yogurt drink with salt; refreshing with spicy food.",
+      "aliases": [],
+      "label": "Dairy"
+    },
+    {
+      "id": "b784eaf9-47d9-4156-9275-7124a84f650e",
+      "name": "cooking butter",
+      "pluralName": "cooking butter",
+      "description": "Butter for cooking and baking; handles high heat well.",
+      "aliases": [
+        {
+          "name": "bakboter"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "9c5e9c0b-e7b8-44fc-90c0-1a3b3e2979f3",
+      "name": "butter",
+      "pluralName": "butter",
+      "description": "Dairy fat from cow's milk; for baking and spreading.",
+      "aliases": [
+        {
+          "name": "boter"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "a49bd5b0-9e2b-45ca-a6fe-656e6888da85",
+      "name": "roasting butter",
+      "pluralName": "roasting butter",
+      "description": "Butter meant for roasting; handles high heat well.",
+      "aliases": [
+        {
+          "name": "liquid frying butter"
+        },
+        {
+          "name": "braadboter"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "b5b92307-0aeb-49c8-af92-ac1f5bb9529e",
+      "name": "clotted cream",
+      "pluralName": "clotted cream",
+      "description": "Thick English cream; for scones and desserts.",
+      "aliases": [
+        {
+          "name": "devonshire cream"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "e1e42d28-732e-471b-9754-bf4c4cc92938",
+      "name": "crème fraîche",
+      "pluralName": "crème fraîche",
+      "description": "Slightly soured cream; for sauces, does not curdle when heated.",
+      "aliases": [
+        {
+          "name": "creme fraiche"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "2acd4259-348a-4224-9559-eb0a3f0f6c9f",
+      "name": "sweetened condensed milk",
+      "pluralName": "sweetened condensed milk",
+      "description": "Evaporated sweetened milk; for desserts and coffee.",
+      "aliases": [
+        {
+          "name": "condensed milk"
+        },
+        {
+          "name": "gecondenseerde melk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "4e59190c-b852-4498-a659-b255a881ce81",
+      "name": "salted butter",
+      "pluralName": "salted butter",
+      "description": "Butter with salt; for spreading.",
+      "aliases": [
+        {
+          "name": "gezouten boter"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "429b9b2b-e39c-43e4-9e02-73a6b7d7e203",
+      "name": "ghee",
+      "pluralName": "ghee",
+      "description": "Clarified butter; handles high heat well, used in Indian cuisine.",
+      "aliases": [
+        {
+          "name": "clarified butter"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "e3ee4e8a-9168-4ea8-a904-46fc80d34955",
+      "name": "greek yogurt",
+      "pluralName": "greek yogurt",
+      "description": "Thick and creamy yogurt; for dips and desserts.",
+      "aliases": [
+        {
+          "name": "greek yoghurt"
+        },
+        {
+          "name": "griekse yoghurt"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "430510f4-ee17-4d85-8730-46939cb0d577",
+      "name": "semi-skimmed milk",
+      "pluralName": "semi-skimmed milk",
+      "description": "Milk with reduced fat content; approx 1.5% fat.",
+      "aliases": [
+        {
+          "name": "reduced fat milk"
+        },
+        {
+          "name": "2% milk"
+        },
+        {
+          "name": "halfvolle melk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "81131dbc-1164-4aa9-958b-c0485eb0bc7a",
+      "name": "oat milk",
+      "pluralName": "oat milk",
+      "description": "Plant-based milk made from oats; popular dairy alternative.",
+      "aliases": [
+        {
+          "name": "oat beverage"
+        },
+        {
+          "name": "havermelk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "e2030982-fe43-4709-96ff-b42f85801161",
+      "name": "buttermilk",
+      "pluralName": "buttermilk",
+      "description": "Slightly sour milk remaining after churning butter; fresh and lean.",
+      "aliases": [
+        {
+          "name": "karnemelk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "576ff75f-ccfd-4272-bb6c-9291802fd252",
+      "name": "kefir",
+      "pluralName": "kefir",
+      "description": "Fermented milk drink; slightly effervescent, probiotic.",
+      "aliases": [],
+      "label": "Dairy"
+    },
+    {
+      "id": "d40d6ddc-7e98-4b8f-bcd4-e0fdf6b61433",
+      "name": "evaporated milk",
+      "pluralName": "evaporated milk",
+      "description": "Evaporated milk; long shelf-life, used for coffee.",
+      "aliases": [
+        {
+          "name": "coffee milk"
+        },
+        {
+          "name": "koffiemelk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "cb8f1dd4-90ba-4ea6-b2f8-56347d3aa23b",
+      "name": "coconut milk",
+      "pluralName": "coconut milk",
+      "description": "Milk from grated coconut; for curries and desserts.",
+      "aliases": [
+        {
+          "name": "kokosmelk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "ab885eb4-8f7d-4faa-abdb-c7510ccbb70a",
+      "name": "coconut cream",
+      "pluralName": "coconut cream",
+      "description": "Thick coconut cream; for desserts and curries.",
+      "aliases": [
+        {
+          "name": "kokosroom"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "4ef31dbc-c998-49dc-aabf-77d7d1fad19a",
+      "name": "cooking cream",
+      "pluralName": "cooking cream",
+      "description": "Cream designed for cooking; does not curdle when heated.",
+      "aliases": [
+        {
+          "name": "culinary cream"
+        },
+        {
+          "name": "kookroom"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "7f7b5c54-d53b-4185-9e91-aab94d35bdc0",
+      "name": "herb butter",
+      "pluralName": "herb butter",
+      "description": "Butter flavored with herbs; for meat or baguette.",
+      "aliases": [
+        {
+          "name": "garlic butter"
+        },
+        {
+          "name": "kruidenboter"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "9c16f555-1759-4b3f-8367-7dc36eaeba4d",
+      "name": "quark",
+      "pluralName": "quark",
+      "description": "Fresh dairy product; soft and creamy, for desserts or sauces.",
+      "aliases": [
+        {
+          "name": "fromage blanc"
+        },
+        {
+          "name": "kwark"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "c3f9c607-dfef-4a49-92a1-b0e68b513711",
+      "name": "fat-free quark",
+      "pluralName": "fat-free quark",
+      "description": "Quark without fat; for desserts or as a protein source.",
+      "aliases": [
+        {
+          "name": "skimmed quark"
+        },
+        {
+          "name": "low-fat quark"
+        },
+        {
+          "name": "magere kwark"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "2ab4996d-a3b4-4962-8495-7d211e67d230",
+      "name": "skim milk",
+      "pluralName": "skim milk",
+      "description": "Milk without fat; approx 0% fat.",
+      "aliases": [
+        {
+          "name": "skimmed milk"
+        },
+        {
+          "name": "fat-free milk"
+        },
+        {
+          "name": "magere melk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "ab6be708-7d21-4acd-a3e1-c945df5169b8",
+      "name": "fat-free yogurt",
+      "pluralName": "fat-free yogurt",
+      "description": "Yogurt without fat; light and fresh.",
+      "aliases": [
+        {
+          "name": "low-fat yogurt"
+        },
+        {
+          "name": "skim milk yogurt"
+        },
+        {
+          "name": "magere yoghurt"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "45fb395b-5c36-46ea-ab67-aee47e442892",
+      "name": "margarine",
+      "pluralName": "margarine",
+      "description": "Plant-based spreadable fat; for spreading or baking.",
+      "aliases": [],
+      "label": "Dairy"
+    },
+    {
+      "id": "1f9f7fe7-63cc-4e01-9258-25125105a5f3",
+      "name": "milk",
+      "pluralName": "milk",
+      "description": "Cow's milk; base for drinking and cooking.",
+      "aliases": [
+        {
+          "name": "cow's milk"
+        },
+        {
+          "name": "melk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "dce57a36-b21f-4367-b287-c130757ab481",
+      "name": "milk powder",
+      "pluralName": "milk powder",
+      "description": "Dehydrated milk; for baking and instant drinks.",
+      "aliases": [
+        {
+          "name": "powdered milk"
+        },
+        {
+          "name": "melkpoeder"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "02e604a1-a853-4b6f-a246-0a944b85da9f",
+      "name": "niter kibbeh",
+      "pluralName": "niter kibbeh",
+      "description": "Ethiopian spiced clarified butter; used as cooking fat.",
+      "aliases": [
+        {
+          "name": "niter qibe"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "cf2afb49-a12e-4d64-9ddd-b1bf747c4dd1",
+      "name": "unsalted butter",
+      "pluralName": "unsalted butter",
+      "description": "Butter without salt; for cooking and baking.",
+      "aliases": [
+        {
+          "name": "ongezouten boter"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "4c6afdfb-d087-4802-adf1-beea1fd92e86",
+      "name": "rice milk",
+      "pluralName": "rice milk",
+      "description": "Plant-based milk made from rice; lightly sweetened, dairy alternative.",
+      "aliases": [
+        {
+          "name": "rice beverage"
+        },
+        {
+          "name": "rijstmelk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "4c711011-1c27-4e20-bfac-e30bf003312f",
+      "name": "cream",
+      "pluralName": "cream",
+      "description": "High-fat dairy cream; for whipping or preparing sauces.",
+      "aliases": [
+        {
+          "name": "heavy cream"
+        },
+        {
+          "name": "whipping cream"
+        },
+        {
+          "name": "room"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "01e3a6b3-d382-4689-b324-c0aa7f8ccd03",
+      "name": "dairy butter",
+      "pluralName": "dairy butter",
+      "description": "Butter made from cream; rich flavor, for spreading and baking.",
+      "aliases": [
+        {
+          "name": "real butter"
+        },
+        {
+          "name": "roomboter"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "08ad5185-ac8e-42ef-b12c-2293280a0e0d",
+      "name": "creamed coconut",
+      "pluralName": "creamed coconut",
+      "description": "Coconut concentrate; dissolves in warm liquid for curries and soups.",
+      "aliases": [
+        {
+          "name": "coconut cream concentrate"
+        },
+        {
+          "name": "santen"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "8b498289-38fe-4031-a77d-bb1185f1bba5",
+      "name": "skyr",
+      "pluralName": "skyr",
+      "description": "Icelandic dairy product; thick and protein-rich.",
+      "aliases": [],
+      "label": "Dairy"
+    },
+    {
+      "id": "94af5660-250e-49a1-95cc-1f0a7d645d4a",
+      "name": "soy milk",
+      "pluralName": "soy milk",
+      "description": "Plant-based milk made from soy; dairy alternative.",
+      "aliases": [
+        {
+          "name": "soya milk"
+        },
+        {
+          "name": "soy beverage"
+        },
+        {
+          "name": "sojamelk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "7c07a174-f916-4ef3-9d29-3880140d462e",
+      "name": "soy yogurt",
+      "pluralName": "soy yogurt",
+      "description": "Plant-based yogurt made from soy; dairy alternative.",
+      "aliases": [
+        {
+          "name": "soya yogurt"
+        },
+        {
+          "name": "sojayoghurt"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "1ef80003-5d2f-4a20-aa52-95e2cc49267c",
+      "name": "turkish yogurt",
+      "pluralName": "turkish yogurt",
+      "description": "Thick creamy yogurt; richer than Greek yogurt.",
+      "aliases": [
+        {
+          "name": "süzme yogurt"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "afbe7fa0-71c9-4598-bba2-db24905d4acf",
+      "name": "full-fat quark",
+      "pluralName": "full-fat quark",
+      "description": "Creamy quark with fat; for desserts.",
+      "aliases": [
+        {
+          "name": "volle kwark"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "eae8e9eb-01a7-41da-af69-71367ee097be",
+      "name": "whole milk",
+      "pluralName": "whole milk",
+      "description": "Milk with full fat content; approx 3.5% fat.",
+      "aliases": [
+        {
+          "name": "full-fat milk"
+        },
+        {
+          "name": "volle melk"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "325df6ab-20f5-4fc6-bbeb-97175c20108e",
+      "name": "whole milk yogurt",
+      "pluralName": "whole milk yogurt",
+      "description": "Creamy yogurt; higher fat content.",
+      "aliases": [
+        {
+          "name": "full-fat yogurt"
+        },
+        {
+          "name": "volle yoghurt"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "c5dfb2d9-f84b-419f-a946-f39bc3378a21",
+      "name": "yogurt",
+      "pluralName": "yogurt",
+      "description": "Fermented milk; tart and fresh, for breakfast or sauces.",
+      "aliases": [
+        {
+          "name": "yoghurt"
+        }
+      ],
+      "label": "Dairy"
+    },
+    {
+      "id": "54d7cd54-7d50-442f-b79c-ef4df381fd05",
+      "name": "sour cream",
+      "pluralName": "sour cream",
+      "description": "Soured cream; as a topping for tacos or soups.",
+      "aliases": [
+        {
+          "name": "schmand"
+        },
+        {
+          "name": "zure room"
+        }
+      ],
+      "label": "Dairy"
+    }
+  ]
+}

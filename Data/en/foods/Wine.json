@@ -1,0 +1,724 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "5595ff04-e19f-455a-b149-e6abb4ec2b8f",
+      "name": "albariño",
+      "pluralName": "albariño",
+      "description": "Aromatic white wine; with shellfish and seafood.",
+      "aliases": [
+        {
+          "name": "albarino"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "fd99ad54-40c6-46e0-85c0-ec1e054c597a",
+      "name": "amontillado",
+      "pluralName": "amontillado",
+      "description": "Medium dry sherry; amber-colored and nutty.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "d00ec101-2df0-424a-bc6a-ca653c85f7fd",
+      "name": "barbera",
+      "pluralName": "barbera",
+      "description": "Italian red wine; fresh acidity, with pasta and ragù.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "a2d0bddf-483f-4edc-8bb7-1a78e1006d38",
+      "name": "barolo",
+      "pluralName": "barolo",
+      "description": "Italian red wine (nebbiolo); with game and truffle.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "48dd1046-21a7-4ad3-8cb3-e1890da03767",
+      "name": "beaujolais",
+      "pluralName": "beaujolais",
+      "description": "Light French red wine; with chicken, pâté, and charcuterie.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "f4868404-feeb-41c4-9c75-bec6b482a159",
+      "name": "cabernet franc",
+      "pluralName": "cabernet franc",
+      "description": "Red grape/wine; with poultry, pasta, and charcuterie.",
+      "aliases": [
+        {
+          "name": "cabernet-franc"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "38d05bda-534d-450a-979b-afb1762d9de2",
+      "name": "cabernet sauvignon",
+      "pluralName": "cabernet sauvignon",
+      "description": "Powerful red wine; with red meats and sauces.",
+      "aliases": [
+        {
+          "name": "cabernet-sauvignon"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "b504b1a7-740b-4e10-a617-b12979000273",
+      "name": "cava",
+      "pluralName": "cava",
+      "description": "Spanish sparkling wine; alternative to champagne.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "68f361ea-6c48-42f3-b66b-2bbbc12b754b",
+      "name": "chablis",
+      "pluralName": "chablis",
+      "description": "Burgundy white wine; crisp and mineral, with oysters and fish.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "a7f6cc3e-5741-4a1e-995e-e7fa171154a4",
+      "name": "champagne",
+      "pluralName": "champagne",
+      "description": "French sparkling wine from Champagne; festive aperitif.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "6e76617f-3a10-489f-8f1e-9de86542edad",
+      "name": "chardonnay",
+      "pluralName": "chardonnay",
+      "description": "Full-bodied white wine; with creamy sauces and chicken.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "6624f012-df79-47c8-bcb2-f4aada84d36f",
+      "name": "chenin blanc",
+      "pluralName": "chenin blanc",
+      "description": "White wine, dry to sweet; with fish and sauces.",
+      "aliases": [
+        {
+          "name": "chenin-blanc"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "5e5ea7a2-cc3f-4c3a-bcfa-efa57bb02824",
+      "name": "chianti",
+      "pluralName": "chianti",
+      "description": "Tuscan red wine; with pasta and tomato dishes.",
+      "aliases": [
+        {
+          "name": "chianti classico"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "54c5a06f-6b1b-4ab2-b735-50f5c05837ea",
+      "name": "côtes du rhône",
+      "pluralName": "côtes du rhône",
+      "description": "French Rhône wine; often red, with stews and grilled meats.",
+      "aliases": [
+        {
+          "name": "cotes du rhone"
+        },
+        {
+          "name": "cotes-du-rhone"
+        },
+        {
+          "name": "côtes-du-rhône"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "1f249284-e206-420d-b237-7c2b2f2f66a6",
+      "name": "crémant",
+      "pluralName": "crémant",
+      "description": "French sparkling wine outside of Champagne; fine bubbles.",
+      "aliases": [
+        {
+          "name": "cremant"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "ce8ee5af-7ea0-40e4-b70b-4ce792352149",
+      "name": "dry red wine",
+      "pluralName": "dry red wine",
+      "description": "Dry red wine; for stews, gravy, and red sauces.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "278c7c6f-0549-42bf-9662-de873635f917",
+      "name": "dry vermouth",
+      "pluralName": "dry vermouth",
+      "description": "Herbal fortified wine; for cocktails and fish sauces.",
+      "aliases": [
+        {
+          "name": "white vermouth"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "4c56c40f-34d8-40b5-b094-5fe83dc3d9d4",
+      "name": "dry white wine",
+      "pluralName": "dry white wine",
+      "description": "Dry white wine; base for risotto and white sauces.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "9ef94048-5aa0-479d-93b1-e3e9030084a7",
+      "name": "ice wine",
+      "pluralName": "ice wine",
+      "description": "Very sweet wine, made from frozen grapes.",
+      "aliases": [
+        {
+          "name": "eiswein"
+        },
+        {
+          "name": "vin de glace"
+        },
+        {
+          "name": "ijswijn"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "7286bf12-bc68-4a0c-bfab-67d29af3b5b5",
+      "name": "fino",
+      "pluralName": "fino",
+      "description": "Dry light sherry; as an aperitif or with tapas.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "0defceea-68ed-4067-b788-2eb42bc27d2d",
+      "name": "franciacorta",
+      "pluralName": "franciacorta",
+      "description": "Italian sparkling wine; dry bubbles.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "0886bef5-da66-4065-a88d-375284e76fb5",
+      "name": "gewürztraminer",
+      "pluralName": "gewürztraminer",
+      "description": "Aromatic white wine; with Asian and spicy food.",
+      "aliases": [
+        {
+          "name": "gewurztraminer"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "5d44b182-8719-4eff-8e06-e7186bfc7513",
+      "name": "grenache",
+      "pluralName": "grenache",
+      "description": "Fruity red wine; in blends, with stews and grilled meats.",
+      "aliases": [
+        {
+          "name": "garnacha"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "5db5b051-70a7-4279-9d7c-5edd18b2a427",
+      "name": "grüner veltliner",
+      "pluralName": "grüner veltliner",
+      "description": "Austrian white wine; peppery, with asparagus.",
+      "aliases": [
+        {
+          "name": "gruner veltliner"
+        },
+        {
+          "name": "gruner-veltliner"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "32bdd344-8e5a-41f7-99af-fe42afdd3f62",
+      "name": "cooking wine",
+      "pluralName": "cooking wine",
+      "description": "Wine for cooking; cheap alternative, often salted.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "f5ad154f-ad68-44ae-89e9-39a5a752245e",
+      "name": "lambrusco",
+      "pluralName": "lambrusco",
+      "description": "Italian lightly sparkling red wine; with pizza.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "2c04ba09-693c-4943-88cf-bc772d18a336",
+      "name": "madeira",
+      "pluralName": "madeira",
+      "description": "Portuguese fortified wine; for sauces and desserts.",
+      "aliases": [
+        {
+          "name": "madeira wine"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "54f6b4d3-472a-40ce-939f-e438977cbc3f",
+      "name": "malbec",
+      "pluralName": "malbec",
+      "description": "Dark red wine; with grilled meats and hearty sauces.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "ccd70ec5-5f31-4323-8954-dd4ffd7b05f1",
+      "name": "marsala",
+      "pluralName": "marsala",
+      "description": "Italian fortified wine; for tiramisu and sauces.",
+      "aliases": [
+        {
+          "name": "marsala wine"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "eb4d7690-9a7c-4f7e-94e6-56f1c64fe516",
+      "name": "merlot",
+      "pluralName": "merlot",
+      "description": "Soft red wine; with pasta, stews, and sauces.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "9f7c6837-30c3-4109-a8d8-8fa0c82bce63",
+      "name": "mirin",
+      "pluralName": "mirin",
+      "description": "Japanese sweet rice wine; for teriyaki and marinades.",
+      "aliases": [
+        {
+          "name": "mirin wine"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "c556899f-1c83-47ad-998d-20cfd5c1da0b",
+      "name": "moscato d'asti",
+      "pluralName": "moscato d'asti",
+      "description": "Sweet, lightly sparkling; as dessert or with fruit.",
+      "aliases": [
+        {
+          "name": "moscato d asti"
+        },
+        {
+          "name": "moscato d’asti"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "29eed73a-5146-4666-a2db-a7e0dc6574ab",
+      "name": "sparkling wine",
+      "pluralName": "sparkling wine",
+      "description": "Effervescent wine; for sabayon or a festive aperitif.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "8084ad29-cb5e-46e7-a910-57635d3e3c64",
+      "name": "muscadet",
+      "pluralName": "muscadet",
+      "description": "Dry Loire white wine; with oysters, mussels, and fish.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "0543e627-2558-4398-8674-79de21c64171",
+      "name": "muscat wine",
+      "pluralName": "muscat wine",
+      "description": "Sweet wine from muscat grapes; as a dessert wine.",
+      "aliases": [
+        {
+          "name": "moscatel"
+        },
+        {
+          "name": "muscat"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "ffb23f74-e31c-4a1e-b094-9f63e1a4b9ed",
+      "name": "nebbiolo",
+      "pluralName": "nebbiolo",
+      "description": "Tannic red wine; with game and truffle.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "537922d7-1f9e-4599-b20a-028112cff752",
+      "name": "oloroso",
+      "pluralName": "oloroso",
+      "description": "Full dry sherry; dark and powerful.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "ef51f293-9758-4511-8f95-bae23998d5ff",
+      "name": "pedro ximénez",
+      "pluralName": "pedro ximénez",
+      "description": "Sweet dark sherry; syrupy, for desserts.",
+      "aliases": [
+        {
+          "name": "pedro ximenez"
+        },
+        {
+          "name": "px"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "edc84e39-ba36-4391-b47f-26a05b392da0",
+      "name": "pineau des charentes",
+      "pluralName": "pineau des charentes",
+      "description": "French aperitif wine with cognac; sweet and fruity.",
+      "aliases": [
+        {
+          "name": "pineau de charentes"
+        },
+        {
+          "name": "pineau"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "0deb6658-de23-46f1-ac08-a6b08cd84708",
+      "name": "pinot blanc",
+      "pluralName": "pinot blanc",
+      "description": "Fresh white wine; with light dishes and asparagus.",
+      "aliases": [
+        {
+          "name": "pinot-blanc"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "293ba11e-fdeb-4ae6-a61e-dccc6621464f",
+      "name": "pinot grigio",
+      "pluralName": "pinot grigio",
+      "description": "Light white wine; neutral, for risotto and fish.",
+      "aliases": [
+        {
+          "name": "pinot gris"
+        },
+        {
+          "name": "pinotgrigio"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "d7f44ecd-9906-4321-a2f2-e56bd31b5e69",
+      "name": "pinot noir",
+      "pluralName": "pinot noir",
+      "description": "Elegant red wine; with mushrooms and poultry.",
+      "aliases": [
+        {
+          "name": "pinot-noir"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "334da928-c97f-41db-8bbc-9721d89afad9",
+      "name": "port",
+      "pluralName": "port",
+      "description": "Portuguese fortified wine; sweet, as a digestif or in sauces.",
+      "aliases": [
+        {
+          "name": "port wine"
+        },
+        {
+          "name": "porto"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "e1e31bde-904f-47bc-b4fc-8d862f5330a8",
+      "name": "primitivo",
+      "pluralName": "primitivo",
+      "description": "Italian red wine; full and fruity, with barbecue.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "50909e12-a90f-427e-a39b-f4792856da85",
+      "name": "prosecco",
+      "pluralName": "prosecco",
+      "description": "Italian sparkling wine; light and fresh.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "be8a84a1-6a63-4171-aa61-5d4bd8e2f703",
+      "name": "riesling",
+      "pluralName": "riesling",
+      "description": "Aromatic white wine; dry to sweet, from Germany.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "17f2237b-a7fd-475c-b3d5-af7e04977fd6",
+      "name": "rioja",
+      "pluralName": "rioja",
+      "description": "Spanish red wine; often oaked, with lamb and tapas.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "c43a23ca-7a32-430b-83a6-53c11059396f",
+      "name": "sweet vermouth",
+      "pluralName": "sweet vermouth",
+      "description": "Sweet spiced fortified wine; for cocktails.",
+      "aliases": [
+        {
+          "name": "red vermouth"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "6f7e1dac-ffa7-487c-8f1d-2276f08e834d",
+      "name": "red wine",
+      "pluralName": "red wine",
+      "description": "Wine from black grapes; for drinking or cooking.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "06d4fc50-fc8e-4b10-9d67-bdbeae8cfae2",
+      "name": "rosé",
+      "pluralName": "rosé",
+      "description": "Pale pink wine; fresh, for drinking or cooking.",
+      "aliases": [
+        {
+          "name": "rose"
+        },
+        {
+          "name": "rosé wine"
+        },
+        {
+          "name": "rose wine"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "d040d26f-89b7-49cb-9772-b15a5ac79e7b",
+      "name": "sake",
+      "pluralName": "sake",
+      "description": "Japanese rice wine; hot or cold, also for marinades.",
+      "aliases": [
+        {
+          "name": "saké"
+        },
+        {
+          "name": "nihonshu"
+        },
+        {
+          "name": "japanese rice wine"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "a0214d50-efd7-4c26-aa8f-ad527c269f80",
+      "name": "sancerre",
+      "pluralName": "sancerre",
+      "description": "Loire white wine (sauvignon); with goat cheese and salads.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "236259c1-3a92-4cb7-aafa-c6eba7205f1d",
+      "name": "sangiovese",
+      "pluralName": "sangiovese",
+      "description": "Italian red wine; with tomato sauce and pasta.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "a32dc1b1-7ce4-464c-a799-36e672a209ba",
+      "name": "sauternes",
+      "pluralName": "sauternes",
+      "description": "French sweet wine; noble rot, for foie gras and desserts.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "4a2d3c0f-78d8-46d7-8483-6d6fd3bf2ee3",
+      "name": "sauvignon blanc",
+      "pluralName": "sauvignon blanc",
+      "description": "Crisp white wine; with fish, salads, and sauces.",
+      "aliases": [
+        {
+          "name": "sauvignon-blanc"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "2552fffa-c9d2-4ea2-9d43-ee525736f871",
+      "name": "shaoxing wine",
+      "pluralName": "shaoxing wine",
+      "description": "Chinese rice wine; for stir-fries and marinades.",
+      "aliases": [
+        {
+          "name": "shaoxing"
+        },
+        {
+          "name": "shaohsing"
+        },
+        {
+          "name": "chinese rice wine"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "b9254c07-f948-442e-8b44-1c9a1fe026cd",
+      "name": "sherry",
+      "pluralName": "sherry",
+      "description": "Spanish fortified wine; dry to sweet, for cooking or drinking.",
+      "aliases": [
+        {
+          "name": "jerez"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "1003eca8-7003-40b9-b4d6-bd04b2252c86",
+      "name": "syrah",
+      "pluralName": "syrah",
+      "description": "Spicy red wine; with barbecue, lamb, and stews.",
+      "aliases": [
+        {
+          "name": "shiraz"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "aecba864-2b14-4935-a4ad-3884bee755f4",
+      "name": "tempranillo",
+      "pluralName": "tempranillo",
+      "description": "Spanish red wine; with tapas, stews, and paella.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "293ae938-58ab-4784-9408-2dfc55a81ef9",
+      "name": "tokaji",
+      "pluralName": "tokaji",
+      "description": "Hungarian sweet wine; with desserts and blue cheese.",
+      "aliases": [
+        {
+          "name": "tokaj"
+        },
+        {
+          "name": "tokaj aszú"
+        },
+        {
+          "name": "tokaj aszu"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "1a7e22c6-0b01-4489-b268-272e80dfa271",
+      "name": "verdejo",
+      "pluralName": "verdejo",
+      "description": "Spanish crisp white wine; with tapas and seafood.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "7972a039-df73-4900-b170-996f4206dc87",
+      "name": "vermouth",
+      "pluralName": "vermouth",
+      "description": "Flavored fortified wine; for cocktails like martini.",
+      "aliases": [
+        {
+          "name": "vermout"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "250bd1a8-3afb-4877-b193-bdd9508f2d9b",
+      "name": "vin santo",
+      "pluralName": "vin santo",
+      "description": "Italian dessert wine; served with biscotti for dipping.",
+      "aliases": [
+        {
+          "name": "vinsanto"
+        }
+      ],
+      "label": "Wine"
+    },
+    {
+      "id": "3e351741-9432-4727-9c63-eaf60b3a64eb",
+      "name": "viognier",
+      "pluralName": "viognier",
+      "description": "Aromatic white wine; with spicy chicken and cream sauces.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "035ae12c-f784-451f-beb5-4031d52afb1f",
+      "name": "white wine",
+      "pluralName": "white wine",
+      "description": "Wine from white grapes; for drinking or cooking.",
+      "aliases": [],
+      "label": "Wine"
+    },
+    {
+      "id": "d5fee86e-a753-41b7-873e-5fff29980826",
+      "name": "zinfandel",
+      "pluralName": "zinfandel",
+      "description": "Rich red wine; with barbecue and spicy foods.",
+      "aliases": [],
+      "label": "Wine"
+    }
+  ]
+}

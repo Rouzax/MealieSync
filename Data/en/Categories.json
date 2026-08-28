@@ -1,0 +1,95 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Categories",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "c5cdf8e0-68ac-4eef-b9dc-d8c0a0e114f0",
+      "name": "BBQ"
+    },
+    {
+      "id": "8b7918f5-11e2-4ccf-8132-ac5067fab8b0",
+      "name": "Side Dish"
+    },
+    {
+      "id": "06509793-27bc-4d85-94fd-3b524f632cd7",
+      "name": "Finger Foods"
+    },
+    {
+      "id": "2f8a584e-b229-4c61-9bcd-081545f15e0e",
+      "name": "Bread"
+    },
+    {
+      "id": "85e08a84-58c1-4155-a075-1bcbb8cafa43",
+      "name": "Brunch"
+    },
+    {
+      "id": "d79435ec-726a-49c5-aec8-e75c0c1511a1",
+      "name": "Drinks & Cocktails"
+    },
+    {
+      "id": "cf5cc800-56ac-4016-b92b-5f849962ff32",
+      "name": "Dressing"
+    },
+    {
+      "id": "5e837c33-72bf-4d9f-a8a9-9baa4cd69f2b",
+      "name": "Pastries"
+    },
+    {
+      "id": "8233c199-bb49-4a71-b92b-7f2811701820",
+      "name": "Main Course"
+    },
+    {
+      "id": "0fb00a86-680d-4300-8923-67bfd76265ab",
+      "name": "Ingredients"
+    },
+    {
+      "id": "e1c2c3f5-8a13-433f-a560-064d79f10253",
+      "name": "Cookies"
+    },
+    {
+      "id": "0d06c6f5-6ba3-4e7c-b78f-0895b03fb6df",
+      "name": "Lunch"
+    },
+    {
+      "id": "52c701ca-6c65-459c-9fef-be39fad875fb",
+      "name": "Marinade"
+    },
+    {
+      "id": "514a86db-5dde-4e89-90c0-2dc91b3fa521",
+      "name": "Dessert"
+    },
+    {
+      "id": "c3ce697d-12f4-4f97-af7a-d829805f6399",
+      "name": "Breakfast"
+    },
+    {
+      "id": "2b6730b2-83d7-43f6-9de9-cbcb6d3e4b58",
+      "name": "Salad"
+    },
+    {
+      "id": "ce8ddc0f-21d5-4330-acff-fbc3490f2db1",
+      "name": "Sauce"
+    },
+    {
+      "id": "71adcd4d-a0b4-4400-8bc9-936b1b9d0e29",
+      "name": "Snack"
+    },
+    {
+      "id": "a72abbc3-f8d0-4463-8351-f54290d31a5a",
+      "name": "Soup"
+    },
+    {
+      "id": "16f946fc-e3a4-4b6b-94ff-418177284e8f",
+      "name": "Pie & Tart"
+    },
+    {
+      "id": "63ac5853-9a72-4491-8125-0c2ef30c0459",
+      "name": "Light Bites"
+    },
+    {
+      "id": "56ac2703-915f-43c1-9721-6b0b52c89042",
+      "name": "Appetizer"
+    }
+  ]
+}

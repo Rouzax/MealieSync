@@ -1,0 +1,277 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "4f40db24-3625-452a-ac3a-503983234cce",
+      "name": "decaffeinated coffee",
+      "pluralName": "decaffeinated coffee",
+      "description": "Coffee without caffeine; for low-caffeine drinking or desserts.",
+      "aliases": [
+        {
+          "name": "decaf coffee"
+        },
+        {
+          "name": "decaf"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "cdf856a6-03b6-4330-9463-9e55feff9274",
+      "name": "decaffeinated tea",
+      "pluralName": "decaffeinated tea",
+      "description": "Tea without caffeine; mild choice for evening or low-caffeine diet.",
+      "aliases": [
+        {
+          "name": "decaf tea"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "3e0f4de8-0998-4bd9-aaa9-30ab6ccb4e6d",
+      "name": "chai",
+      "pluralName": "chai",
+      "description": "Spiced tea; with cinnamon, cardamom, and ginger.",
+      "aliases": [
+        {
+          "name": "chai tea"
+        },
+        {
+          "name": "masala chai"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "c73b960e-933f-4523-b24f-f8a4e7a3e495",
+      "name": "earl grey",
+      "pluralName": "earl grey",
+      "description": "Black tea with bergamot; aromatic.",
+      "aliases": [
+        {
+          "name": "earl grey tea"
+        },
+        {
+          "name": "earl gray"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "09e29bd0-c587-4105-a1e6-2c53f7436c25",
+      "name": "espresso",
+      "pluralName": "espresso",
+      "description": "Strong coffee; concentrated, base for coffee drinks.",
+      "aliases": [
+        {
+          "name": "expresso"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "c816b0ae-0bfb-4cf8-9f45-273572ccf547",
+      "name": "ginger tea",
+      "pluralName": "ginger tea",
+      "description": "Herbal tea made from ginger; warming and spicy.",
+      "aliases": [],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "2d13a0f7-5aab-496e-bed5-7038d97e906c",
+      "name": "grain coffee",
+      "pluralName": "grain coffee",
+      "description": "Coffee substitute made from grains or chicory; caffeine-free.",
+      "aliases": [
+        {
+          "name": "cereal coffee"
+        },
+        {
+          "name": "chicory coffee"
+        },
+        {
+          "name": "coffee substitute"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "dd52e0bc-9795-4d49-b2a6-a88c49d8842f",
+      "name": "green tea",
+      "pluralName": "green tea",
+      "description": "Unfermented tea; mild and slightly bitter.",
+      "aliases": [],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "0188d90f-0df1-4473-b27f-184b9ee75c80",
+      "name": "iced tea",
+      "pluralName": "iced tea",
+      "description": "Sweetened cold tea; refreshing drink.",
+      "aliases": [
+        {
+          "name": "ice tea"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "e1509e92-56fd-4634-982e-947e3bb14b0a",
+      "name": "instant coffee",
+      "pluralName": "instant coffee",
+      "description": "Soluble coffee; quick to prepare.",
+      "aliases": [
+        {
+          "name": "soluble coffee"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "4be47ae8-2248-42c5-a626-dd8162c94fd9",
+      "name": "jasmine tea",
+      "pluralName": "jasmine tea",
+      "description": "Green tea with jasmine; floral aroma.",
+      "aliases": [],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "1dc81966-fc40-4907-aea5-e38a208adb9e",
+      "name": "chamomile tea",
+      "pluralName": "chamomile tea",
+      "description": "Herbal tea made from chamomile; soothing, caffeine-free.",
+      "aliases": [
+        {
+          "name": "camomile tea"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "acb686bd-4970-44cb-96f0-ab2cc0bee2d8",
+      "name": "coffee",
+      "pluralName": "coffee",
+      "description": "Beverage made from coffee beans; hot or cold.",
+      "aliases": [
+        {
+          "name": "black coffee"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "f8a32bbf-30e6-44f8-b6db-339d8415fb6f",
+      "name": "coffee (ground)",
+      "pluralName": "coffee (ground)",
+      "description": "Ground coffee; for filter coffee, percolator, and baking.",
+      "aliases": [
+        {
+          "name": "filter coffee"
+        },
+        {
+          "name": "ground coffee"
+        },
+        {
+          "name": "coffee powder"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "01af2331-ed49-49cc-8862-c641afbfade5",
+      "name": "coffee bean",
+      "pluralName": "coffee beans",
+      "description": "Roasted coffee bean; to be ground for coffee.",
+      "aliases": [
+        {
+          "name": "whole coffee beans"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "e5329c05-be74-4e96-be02-5ca9e543c1d8",
+      "name": "matcha",
+      "pluralName": "matcha",
+      "description": "Japanese green tea powder; intense and creamy.",
+      "aliases": [
+        {
+          "name": "matcha powder"
+        },
+        {
+          "name": "matcha tea"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "d2c6a6d8-d0ce-47a4-b1a0-b77514c7d447",
+      "name": "mint tea",
+      "pluralName": "mint tea",
+      "description": "Herbal tea made from mint; refreshing, caffeine-free.",
+      "aliases": [
+        {
+          "name": "peppermint tea"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "7f4fcdde-7253-4ee3-b21a-681bb4edce75",
+      "name": "oolong",
+      "pluralName": "oolong",
+      "description": "Semi-fermented tea; between green and black.",
+      "aliases": [
+        {
+          "name": "oolong tea"
+        },
+        {
+          "name": "wulong"
+        },
+        {
+          "name": "wulong tea"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "f17f5272-eed6-444d-9801-21f14aa63a60",
+      "name": "rooibos tea",
+      "pluralName": "rooibos tea",
+      "description": "South African herbal tea; caffeine-free, slightly sweet.",
+      "aliases": [
+        {
+          "name": "rooibos"
+        }
+      ],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "6b9aa371-ae63-4ce4-a8c7-324566b70647",
+      "name": "tea",
+      "pluralName": "tea",
+      "description": "Beverage made from tea leaves; base for many varieties of tea.",
+      "aliases": [],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "da413507-4f49-450c-b13d-9719af0e736e",
+      "name": "white tea",
+      "pluralName": "white tea",
+      "description": "Lightly fermented tea; delicate and mild.",
+      "aliases": [],
+      "label": "Coffee & Tea"
+    },
+    {
+      "id": "1f5ad6e2-0259-4dab-b266-0495bcae3738",
+      "name": "black tea",
+      "pluralName": "black tea",
+      "description": "Fully fermented tea; strong, contains caffeine.",
+      "aliases": [],
+      "label": "Coffee & Tea"
+    }
+  ]
+}
