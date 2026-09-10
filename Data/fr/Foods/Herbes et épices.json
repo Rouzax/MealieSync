@@ -1775,6 +1775,21 @@
       "label": "Herbes et épices"
     },
     {
+      "id": "8e4e5579-63c5-47c8-9639-934a5c066e8a",
+      "name": "sel noir",
+      "pluralName": "sel noir",
+      "description": "Sel gemme indien sulfureux; note saline dans les chaats et les koftas.",
+      "aliases": [
+        {
+          "name": "kala namak"
+        },
+        {
+          "name": "sel noir indien"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
       "id": "0d8eaa7e-46f2-4f61-a5b7-cf839f33b64d",
       "name": "sumac",
       "pluralName": "sumac",

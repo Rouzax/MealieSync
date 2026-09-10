@@ -324,6 +324,21 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "eefc7056-9003-4d13-af28-72747a622cd0",
+      "name": "pâte de gingembre et d'ail",
+      "pluralName": "pâte de gingembre et d'ail",
+      "description": "Pâte de gingembre et d'ail; base des currys et marinades indiens.",
+      "aliases": [
+        {
+          "name": "ginger garlic paste"
+        },
+        {
+          "name": "pâte gingembre-ail"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "7ef787b0-7e86-4ee3-b44f-300b3a03b78f",
       "name": "pâte de paprika",
       "pluralName": "pâte de paprika",

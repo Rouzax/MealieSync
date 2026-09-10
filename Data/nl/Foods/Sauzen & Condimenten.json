@@ -248,6 +248,30 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "eefc7056-9003-4d13-af28-72747a622cd0",
+      "name": "gember-knoflookpasta",
+      "pluralName": "gember-knoflookpasta",
+      "description": "Pasta van gember en knoflook; basis voor Indiase curry's en marinades.",
+      "aliases": [
+        {
+          "name": "gember knoflookpasta"
+        },
+        {
+          "name": "gemberknoflookpasta"
+        },
+        {
+          "name": "gember-knoflook pasta"
+        },
+        {
+          "name": "ginger garlic paste"
+        },
+        {
+          "name": "ginger-garlic paste"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "ce3cfd3f-80fc-4340-8bfa-366aa6f658f9",
       "name": "gemberpasta",
       "pluralName": "gemberpasta",

@@ -1841,6 +1841,27 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "8e4e5579-63c5-47c8-9639-934a5c066e8a",
+      "name": "zwart zout",
+      "pluralName": "zwart zout",
+      "description": "Zwavelig Indiaas steenzout; zilt accent in chaat en koftamengsels.",
+      "aliases": [
+        {
+          "name": "kala namak"
+        },
+        {
+          "name": "kalanamak"
+        },
+        {
+          "name": "black salt"
+        },
+        {
+          "name": "zwart indiaas zout"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "634d448d-97e9-4e4d-b082-766c09c33198",
       "name": "zwarte kardemompeul",
       "pluralName": "zwarte kardemompeulen",
