@@ -461,16 +461,25 @@
       "id": "3a88f0c0-d8e3-4160-bb37-1efda8b4685f",
       "name": "lentille rouge",
       "pluralName": "lentilles rouges",
-      "description": "Lentilles orange décortiquées; se défont rapidement, pour la soupe et le dhal.",
+      "description": "Lentilles rouges décortiquées; cuisent rapidement pour dhal, soupe ou purée.",
       "aliases": [
+        {
+          "name": "lentilles rouges cassees"
+        },
+        {
+          "name": "lentilles rouges cassées"
+        },
+        {
+          "name": "lentilles rouges fendues"
+        },
         {
           "name": "masoor dal"
         },
         {
-          "name": "masoor-dal"
+          "name": "red lentils"
         },
         {
-          "name": "red lentils"
+          "name": "split red lentils"
         }
       ],
       "label": "Légumineuses"
@@ -481,24 +490,6 @@
       "pluralName": "lentilles vertes",
       "description": "Lentilles avec peau; restent fermes, pour les salades et ragoûts.",
       "aliases": [],
-      "label": "Légumineuses"
-    },
-    {
-      "id": "7fea9a5a-fddd-406d-ae10-443485afba80",
-      "name": "lentilles rouges cassées",
-      "pluralName": "lentilles rouges cassées",
-      "description": "Lentilles rouges fendues; cuisent rapidement pour dhal, soupe ou purée.",
-      "aliases": [
-        {
-          "name": "lentilles rouges fendues"
-        },
-        {
-          "name": "lentilles rouges cassées"
-        },
-        {
-          "name": "split red lentils"
-        }
-      ],
       "label": "Légumineuses"
     },
     {

@@ -577,8 +577,11 @@
       "id": "3a88f0c0-d8e3-4160-bb37-1efda8b4685f",
       "name": "rode linze",
       "pluralName": "rode linzen",
-      "description": "Gepelde oranje linzen; vallen snel uiteen, voor soep en dhal.",
+      "description": "Gepelde rode linzen; koken snel zacht voor dhal, soep of puree.",
       "aliases": [
+        {
+          "name": "gesplitste rode linzen"
+        },
         {
           "name": "masoor dal"
         },
@@ -587,21 +590,18 @@
         },
         {
           "name": "red lentils"
-        }
-      ],
-      "label": "Peulvruchten"
-    },
-    {
-      "id": "7fea9a5a-fddd-406d-ae10-443485afba80",
-      "name": "rode splitlinzen",
-      "pluralName": "rode splitlinzen",
-      "description": "Gesplitste rode linzen; kook snel gaar voor dahl, soep of puree.",
-      "aliases": [
+        },
         {
-          "name": "gesplitste rode linzen"
+          "name": "rode linze gesplitst"
         },
         {
           "name": "rode linzen gesplitst"
+        },
+        {
+          "name": "rode splitlinze"
+        },
+        {
+          "name": "rode splitlinzen"
         },
         {
           "name": "split rode linzen"
