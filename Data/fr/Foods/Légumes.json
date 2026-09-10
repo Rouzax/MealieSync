@@ -610,6 +610,21 @@
       "label": "Légumes"
     },
     {
+      "id": "ad953f49-895c-4546-bef8-8da3b9e2baac",
+      "name": "laitue romaine",
+      "pluralName": "laitues romaines",
+      "description": "Laitue aux feuilles croquantes; pour la salade César et les wraps.",
+      "aliases": [
+        {
+          "name": "romaine"
+        },
+        {
+          "name": "cos"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "b983ffc9-87b7-4bb3-ae92-81c4fef58bbc",
       "name": "little gem",
       "pluralName": "little gems",

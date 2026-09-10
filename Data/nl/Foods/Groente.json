@@ -911,6 +911,30 @@
       "label": "Groente"
     },
     {
+      "id": "ad953f49-895c-4546-bef8-8da3b9e2baac",
+      "name": "romainesla",
+      "pluralName": "romainesla",
+      "description": "Sla met stevige, knapperige blaadjes; voor caesarsalade, wraps en fajita's.",
+      "aliases": [
+        {
+          "name": "romaine sla"
+        },
+        {
+          "name": "romeinse sla"
+        },
+        {
+          "name": "babyromaine"
+        },
+        {
+          "name": "baby romaine"
+        },
+        {
+          "name": "romaine lettuce"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "497c2e7b-d08e-4532-b6f0-a275fadc3b35",
       "name": "romanesco",
       "pluralName": "romanesco",
