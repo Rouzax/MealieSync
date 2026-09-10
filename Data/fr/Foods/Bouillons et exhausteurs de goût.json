@@ -208,6 +208,18 @@
       "label": "Bouillons et exhausteurs de goût"
     },
     {
+      "id": "3cf2974c-32db-4918-8630-51857c7e4124",
+      "name": "fond de volaille",
+      "pluralName": "fond de volaille",
+      "description": "Fond de volaille corsé; base des soupes et des sauces.",
+      "aliases": [
+        {
+          "name": "bouillon de volaille concentré"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
       "id": "f433544a-5e73-49e2-824a-459c78f0903a",
       "name": "MSG",
       "pluralName": "MSG",

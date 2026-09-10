@@ -142,6 +142,21 @@
       "label": "Bouillon & Smaakmakers"
     },
     {
+      "id": "3cf2974c-32db-4918-8630-51857c7e4124",
+      "name": "kippenfond",
+      "pluralName": "kippenfond",
+      "description": "Krachtige fond van kip; basis voor soep en saus.",
+      "aliases": [
+        {
+          "name": "kippen fond"
+        },
+        {
+          "name": "kippenbouillonfond"
+        }
+      ],
+      "label": "Bouillon & Smaakmakers"
+    },
+    {
       "id": "f433544a-5e73-49e2-824a-459c78f0903a",
       "name": "MSG",
       "pluralName": "MSG",
