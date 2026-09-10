@@ -351,6 +351,27 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "52d6ff9d-3802-4cf5-aada-bd2499284439",
+      "name": "grove mosterd",
+      "pluralName": "grove mosterd",
+      "description": "Mosterd met hele zaadjes; bij vlees, in dressing en stamppot.",
+      "aliases": [
+        {
+          "name": "graanmosterd"
+        },
+        {
+          "name": "mosterd à l'ancienne"
+        },
+        {
+          "name": "grove franse mosterd"
+        },
+        {
+          "name": "wholegrain mustard"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "de9ce81e-a6e0-4932-a22b-dbd35e3286d0",
       "name": "harissa",
       "pluralName": "harissa",

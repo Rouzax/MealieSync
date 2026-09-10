@@ -186,6 +186,24 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "84a1c895-b884-4540-b622-15d72398779e",
+      "name": "burritokruiden",
+      "pluralName": "burritokruiden",
+      "description": "Kruidenmix voor burrito's; chili, komijn, knoflook en oregano.",
+      "aliases": [
+        {
+          "name": "burrito kruidenmix"
+        },
+        {
+          "name": "burrito seasoning"
+        },
+        {
+          "name": "burritokruidenmix"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "4e1346d8-aeab-46ba-a7a8-ab1ada8aac94",
       "name": "cajunkruiden",
       "pluralName": "cajunkruiden",

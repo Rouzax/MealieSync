@@ -222,6 +222,21 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "52d6ff9d-3802-4cf5-aada-bd2499284439",
+      "name": "moutarde à l'ancienne",
+      "pluralName": "moutarde à l'ancienne",
+      "description": "Moutarde aux grains entiers; avec les viandes, en vinaigrette et purées.",
+      "aliases": [
+        {
+          "name": "moutarde en grains"
+        },
+        {
+          "name": "wholegrain mustard"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "4731010d-b633-4740-8ca0-1866fb950c2e",
       "name": "moutarde au miel",
       "pluralName": "moutarde au miel",

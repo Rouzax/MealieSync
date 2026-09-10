@@ -163,6 +163,18 @@
       "label": "Pain et pâtisserie"
     },
     {
+      "id": "3c1e1000-d065-4ad7-8036-c6b3f97c2e84",
+      "name": "gordita",
+      "pluralName": "gorditas",
+      "description": "Petit pain de maïs mexicain épais; s'ouvre en pochette à garnir.",
+      "aliases": [
+        {
+          "name": "galette de maïs mexicaine"
+        }
+      ],
+      "label": "Pain et pâtisserie"
+    },
+    {
       "id": "1aa5ba45-3bc4-45ce-9e91-bb15126f076e",
       "name": "matza",
       "pluralName": "matzas",

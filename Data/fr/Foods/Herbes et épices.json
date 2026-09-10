@@ -339,6 +339,18 @@
       "label": "Herbes et épices"
     },
     {
+      "id": "84a1c895-b884-4540-b622-15d72398779e",
+      "name": "épices à burritos",
+      "pluralName": "épices à burritos",
+      "description": "Mélange pour burritos; chili, cumin, ail et origan.",
+      "aliases": [
+        {
+          "name": "burrito seasoning"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
       "id": "e6fc10c2-1742-41dc-ac10-2a04ff1493ce",
       "name": "épices à pain d’épices",
       "pluralName": "épices à pain d’épices",

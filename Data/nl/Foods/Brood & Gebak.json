@@ -171,6 +171,21 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "3c1e1000-d065-4ad7-8036-c6b3f97c2e84",
+      "name": "gordita",
+      "pluralName": "gordita's",
+      "description": "Dik Mexicaans maïsbroodje; opent als zakje voor vulling.",
+      "aliases": [
+        {
+          "name": "gorditas"
+        },
+        {
+          "name": "gordita broodje"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
       "id": "8a8ddb2b-8a48-4994-9121-b517b0d88649",
       "name": "hamburgerbroodje",
       "pluralName": "hamburgerbroodjes",
