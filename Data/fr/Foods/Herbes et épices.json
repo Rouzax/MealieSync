@@ -174,6 +174,24 @@
       "label": "Herbes et épices"
     },
     {
+      "id": "f1cc9c8a-4b30-4bff-93e2-d8e3ddcc01f7",
+      "name": "chaat masala",
+      "pluralName": "chaat masala",
+      "description": "Mélange d’épices indien; salé et acidulé pour chaat, snacks et plats au yaourt.",
+      "aliases": [
+        {
+          "name": "chaat-masala"
+        },
+        {
+          "name": "chaatmasala"
+        },
+        {
+          "name": "chat masala"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
       "id": "b634aa8e-adc3-479e-9381-e95091c89477",
       "name": "clou de girofle [entier]",
       "pluralName": "clous de girofle [entiers]",
@@ -1839,6 +1857,9 @@
       "aliases": [
         {
           "name": "zaatar"
+        },
+        {
+          "name": "za’atar"
         }
       ],
       "label": "Herbes et épices"

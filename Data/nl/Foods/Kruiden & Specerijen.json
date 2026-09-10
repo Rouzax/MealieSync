@@ -186,6 +186,24 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "f1cc9c8a-4b30-4bff-93e2-d8e3ddcc01f7",
+      "name": "chaat masala",
+      "pluralName": "chaat masala",
+      "description": "Indiase kruidenmix; zilt-zuur voor chaat, snacks en yoghurtgerechten.",
+      "aliases": [
+        {
+          "name": "chaat-masala"
+        },
+        {
+          "name": "chaatmasala"
+        },
+        {
+          "name": "chat masala"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "e419dc35-65b2-4425-bfea-2c3e541f7a47",
       "name": "chili [vlokken]",
       "pluralName": "chili [vlokken]",
@@ -1744,6 +1762,9 @@
       "aliases": [
         {
           "name": "zaatar"
+        },
+        {
+          "name": "za’atar"
         }
       ],
       "label": "Kruiden & Specerijen"
