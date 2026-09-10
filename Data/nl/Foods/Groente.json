@@ -656,6 +656,24 @@
       "label": "Groente"
     },
     {
+      "id": "30b8d2a4-2c46-4f70-8bfa-59fb758d8ff6",
+      "name": "koningsoesterzwam",
+      "pluralName": "koningsoesterzwammen",
+      "description": "Dikke stevige oesterzwam; vlezig, om te bakken of te roosteren.",
+      "aliases": [
+        {
+          "name": "eryngii"
+        },
+        {
+          "name": "king oyster"
+        },
+        {
+          "name": "kruisdistelzwam"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "f849e53a-659b-4fd4-bac8-31f13c205019",
       "name": "kool",
       "pluralName": "kool",

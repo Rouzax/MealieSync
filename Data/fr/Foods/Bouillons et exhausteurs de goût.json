@@ -40,6 +40,18 @@
       "label": "Bouillons et exhausteurs de goût"
     },
     {
+      "id": "e0049d65-a99e-4817-8df5-b7f21682d411",
+      "name": "bouillon de champignons",
+      "pluralName": "bouillon de champignons",
+      "description": "Bouillon de champignons; base umami pour risottos et soupes.",
+      "aliases": [
+        {
+          "name": "fond de champignons"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
       "id": "2b807574-6227-446d-82d0-904ef53baa23",
       "name": "bouillon de légumes",
       "pluralName": "bouillon de légumes",

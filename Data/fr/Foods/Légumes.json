@@ -1019,6 +1019,18 @@
       "label": "Légumes"
     },
     {
+      "id": "30b8d2a4-2c46-4f70-8bfa-59fb758d8ff6",
+      "name": "pleurote du panicaut",
+      "pluralName": "pleurotes du panicaut",
+      "description": "Pleurote épais et ferme; charnu, à poêler ou rôtir.",
+      "aliases": [
+        {
+          "name": "king oyster"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "875ce569-490e-4335-9059-1c8dc7c21414",
       "name": "poireau",
       "pluralName": "poireaux",

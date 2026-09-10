@@ -34,6 +34,27 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "043b6b1f-ed42-4a58-8570-cb95c46e9cb7",
+      "name": "aleppopeper [vlokken]",
+      "pluralName": "aleppopeper [vlokken]",
+      "description": "Milde Syrische chilivlokken; fruitig en licht pittig, om af te werken.",
+      "aliases": [
+        {
+          "name": "aleppopeper"
+        },
+        {
+          "name": "aleppo chilivlokken"
+        },
+        {
+          "name": "pul biber"
+        },
+        {
+          "name": "halepbiber"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "d5d68702-93db-4e11-afe2-52cf91ecb631",
       "name": "amchoor",
       "pluralName": "amchoor",

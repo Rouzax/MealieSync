@@ -172,6 +172,21 @@
       "label": "Bouillon & Smaakmakers"
     },
     {
+      "id": "e0049d65-a99e-4817-8df5-b7f21682d411",
+      "name": "paddenstoelenbouillon",
+      "pluralName": "paddenstoelenbouillon",
+      "description": "Bouillon van paddenstoelen; umami-rijke basis voor risotto en soep.",
+      "aliases": [
+        {
+          "name": "champignonbouillon"
+        },
+        {
+          "name": "bospaddenstoelenbouillon"
+        }
+      ],
+      "label": "Bouillon & Smaakmakers"
+    },
+    {
       "id": "00058fcf-f17a-4aed-a20f-a453da7d7792",
       "name": "paddenstoelenbouillonblokje",
       "pluralName": "paddenstoelenbouillonblokjes",
