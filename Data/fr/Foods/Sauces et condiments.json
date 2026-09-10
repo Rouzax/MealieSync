@@ -290,6 +290,18 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "3a6ff084-744c-45ce-b617-236ea5c0ec43",
+      "name": "pâte d'ail",
+      "pluralName": "pâte d'ail",
+      "description": "Pâte d'ail moulu; aromate pour currys, woks et marinades.",
+      "aliases": [
+        {
+          "name": "garlic paste"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "4282031d-5e20-4cc6-8955-8308c70b77c3",
       "name": "pâte de curry rouge",
       "pluralName": "pâte de curry rouge",

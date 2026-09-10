@@ -393,6 +393,24 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "3a6ff084-744c-45ce-b617-236ea5c0ec43",
+      "name": "knoflookpasta",
+      "pluralName": "knoflookpasta",
+      "description": "Pasta van gemalen knoflook; smaakmaker in curry's, wok en marinades.",
+      "aliases": [
+        {
+          "name": "knoflook pasta"
+        },
+        {
+          "name": "garlic paste"
+        },
+        {
+          "name": "garlicpaste"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "94d31794-841a-4517-9ea7-75d63b37a352",
       "name": "knoflooksaus",
       "pluralName": "knoflooksaus",

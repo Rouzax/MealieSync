@@ -256,6 +256,27 @@
       "label": "Noten & Zaden"
     },
     {
+      "id": "1a1862cd-598e-4b29-a9e2-102139d146b3",
+      "name": "meloenzaad",
+      "pluralName": "meloenzaden",
+      "description": "Gepeld meloenzaad; bindmiddel in Mughlai-curry's en zoete vullingen.",
+      "aliases": [
+        {
+          "name": "magaz"
+        },
+        {
+          "name": "charmagaz"
+        },
+        {
+          "name": "melon seeds"
+        },
+        {
+          "name": "meloenpit"
+        }
+      ],
+      "label": "Noten & Zaden"
+    },
+    {
       "id": "5273a2c6-ac00-4b0a-82f7-db27aae09419",
       "name": "notenmix",
       "pluralName": "notenmix",

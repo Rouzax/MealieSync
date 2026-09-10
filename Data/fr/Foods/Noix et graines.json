@@ -236,6 +236,21 @@
       "label": "Noix et graines"
     },
     {
+      "id": "1a1862cd-598e-4b29-a9e2-102139d146b3",
+      "name": "graines de melon",
+      "pluralName": "graines de melon",
+      "description": "Graines de melon décortiquées; liant des currys moghols et des farces sucrées.",
+      "aliases": [
+        {
+          "name": "magaz"
+        },
+        {
+          "name": "melon seeds"
+        }
+      ],
+      "label": "Noix et graines"
+    },
+    {
       "id": "b64b3c07-83b4-452b-a5fc-817c4fbdb7d5",
       "name": "graines de pavot",
       "pluralName": "graines de pavot",
