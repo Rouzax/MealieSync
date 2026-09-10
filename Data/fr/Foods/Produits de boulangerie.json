@@ -453,11 +453,8 @@
       "id": "f8554145-6852-4fc9-8525-3b17d98a0394",
       "name": "jaggery",
       "pluralName": "jaggery",
-      "description": "Sucre non raffiné de canne ou de palme; blocs solides au goût caramélisé.",
+      "description": "Sucre de canne non raffiné indien; blocs solides au goût caramélisé.",
       "aliases": [
-        {
-          "name": "sucre de palme"
-        },
         {
           "name": "gur"
         }
@@ -828,6 +825,21 @@
         },
         {
           "name": "kokossuiker"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "de036a68-1193-440a-9085-d0dc7598e0c4",
+      "name": "sucre de palme",
+      "pluralName": "sucre de palme",
+      "description": "Sucre de sève de palmier; en blocs ou disques, goût caramélisé, cuisine asiatique.",
+      "aliases": [
+        {
+          "name": "gula jawa"
+        },
+        {
+          "name": "gula melaka"
         }
       ],
       "label": "Produits de boulangerie"

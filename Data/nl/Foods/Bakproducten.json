@@ -356,11 +356,8 @@
       "id": "f8554145-6852-4fc9-8525-3b17d98a0394",
       "name": "jaggery",
       "pluralName": "jaggery",
-      "description": "Ongeraffineerde riet- of palmsuiker; vaste blokken met karamelachtige smaak.",
+      "description": "Ongeraffineerde rietsuiker uit India; vaste blokken met karamelachtige smaak.",
       "aliases": [
-        {
-          "name": "palmsuiker"
-        },
         {
           "name": "gur"
         }
@@ -543,6 +540,27 @@
       "pluralName": "oliebollenmix",
       "description": "Bakmix voor oliebollen; bloem, gist en melkpoeder, toevoegen water/ei.",
       "aliases": [],
+      "label": "Bakproducten"
+    },
+    {
+      "id": "de036a68-1193-440a-9085-d0dc7598e0c4",
+      "name": "palmsuiker",
+      "pluralName": "palmsuiker",
+      "description": "Suiker uit palmsap; blokjes of schijven met karamelsmaak, voor Aziatische gerechten.",
+      "aliases": [
+        {
+          "name": "gula jawa"
+        },
+        {
+          "name": "gula djawa"
+        },
+        {
+          "name": "gula melaka"
+        },
+        {
+          "name": "arensuiker"
+        }
+      ],
       "label": "Bakproducten"
     },
     {
