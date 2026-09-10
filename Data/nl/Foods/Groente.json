@@ -248,6 +248,24 @@
       "label": "Groente"
     },
     {
+      "id": "cb255c88-6b9f-4ec5-b4dc-6cbce34a9dbe",
+      "name": "cascabel chilipeper [gedroogd]",
+      "pluralName": "cascabel chilipepers [gedroogd]",
+      "description": "Gedroogde cascabel; mild en nootachtig, gemalen in rubs en sauzen.",
+      "aliases": [
+        {
+          "name": "cascabel"
+        },
+        {
+          "name": "cascabelpeper"
+        },
+        {
+          "name": "cascabel chili"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "4bc24669-5bf0-41f9-bd0b-515355534403",
       "name": "champignon",
       "pluralName": "champignons",

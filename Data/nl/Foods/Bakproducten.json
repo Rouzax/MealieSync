@@ -126,6 +126,27 @@
       "label": "Bakproducten"
     },
     {
+      "id": "3f2f3afb-7427-4ea7-9099-36ec394a8e65",
+      "name": "broodbloem",
+      "pluralName": "broodbloem",
+      "description": "Sterke tarwebloem met veel eiwit; voor brood en pizzadeeg.",
+      "aliases": [
+        {
+          "name": "sterke bloem"
+        },
+        {
+          "name": "sterke witte broodbloem"
+        },
+        {
+          "name": "bread flour"
+        },
+        {
+          "name": "tarwebloem type 550"
+        }
+      ],
+      "label": "Bakproducten"
+    },
+    {
       "id": "7dcb23e6-6d7a-4e2a-8965-822871d8c242",
       "name": "bruine suiker",
       "pluralName": "bruine suiker",

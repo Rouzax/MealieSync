@@ -864,6 +864,18 @@
       "label": "Légumes"
     },
     {
+      "id": "cb255c88-6b9f-4ec5-b4dc-6cbce34a9dbe",
+      "name": "piment cascabel [séché]",
+      "pluralName": "piments cascabel [séchés]",
+      "description": "Cascabel séché; doux et noisetté, moulu dans rubs et sauces.",
+      "aliases": [
+        {
+          "name": "cascabel"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "bbd37eb7-8eac-4cab-9c15-d4b593ac2fa2",
       "name": "piment chili [mariné]",
       "pluralName": "piments chili [marinés]",
