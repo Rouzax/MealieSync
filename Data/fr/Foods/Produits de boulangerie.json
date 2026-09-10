@@ -298,6 +298,21 @@
       "label": "Produits de boulangerie"
     },
     {
+      "id": "d319409a-f17c-4ed7-8e93-129892dc5d91",
+      "name": "farine de pois chiches",
+      "pluralName": "farine de pois chiches",
+      "description": "Farine de pois chiches; sans gluten, pour pakoras et pâtes d'épices indiennes.",
+      "aliases": [
+        {
+          "name": "besan"
+        },
+        {
+          "name": "gram flour"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
       "id": "8ff16398-c9a4-4596-a31c-ec28a683d05e",
       "name": "farine de riz",
       "pluralName": "farine de riz",

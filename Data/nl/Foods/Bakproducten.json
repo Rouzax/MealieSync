@@ -434,6 +434,30 @@
       "label": "Bakproducten"
     },
     {
+      "id": "d319409a-f17c-4ed7-8e93-129892dc5d91",
+      "name": "kikkererwtenmeel",
+      "pluralName": "kikkererwtenmeel",
+      "description": "Meel van gemalen kikkererwten; glutenvrij, voor pakora en Indiase kruidenpasta's.",
+      "aliases": [
+        {
+          "name": "besan"
+        },
+        {
+          "name": "gram flour"
+        },
+        {
+          "name": "chickpea flour"
+        },
+        {
+          "name": "kikkererwten meel"
+        },
+        {
+          "name": "kikkererwten-meel"
+        }
+      ],
+      "label": "Bakproducten"
+    },
+    {
       "id": "167f1f9e-1d45-4218-ae6e-be7f00ca40f4",
       "name": "kokosbloesemsuiker",
       "pluralName": "kokosbloesemsuiker",
