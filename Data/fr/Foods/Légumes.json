@@ -1090,6 +1090,18 @@
       "label": "Légumes"
     },
     {
+      "id": "14ff11b3-1be5-46e0-898d-ccc13db567ab",
+      "name": "tomate cerise",
+      "pluralName": "tomates cerises",
+      "description": "Petite tomate sucrée; crue, rôtie ou grillée.",
+      "aliases": [
+        {
+          "name": "tomate-cerise"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "256b1daa-4c3e-4562-85b6-a3b50e444a0e",
       "name": "tomate en grappe",
       "pluralName": "tomates en grappe",

@@ -614,7 +614,14 @@
       "name": "snijboon",
       "pluralName": "snijbonen",
       "description": "Platte boon; in reepjes gekookt of gestoofd.",
-      "aliases": [],
+      "aliases": [
+        {
+          "name": "pronkboon"
+        },
+        {
+          "name": "pronkbonen"
+        }
+      ],
       "label": "Peulvruchten"
     },
     {

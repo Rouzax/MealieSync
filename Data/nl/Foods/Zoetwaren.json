@@ -323,6 +323,24 @@
       "label": "Zoetwaren"
     },
     {
+      "id": "1b3ae6ed-7048-4302-8f04-7928b91ab72b",
+      "name": "johannesbroodsiroop",
+      "pluralName": "johannesbroodsiroop",
+      "description": "Stroop van johannesbrood; zoet en moutig, over dessert of yoghurt.",
+      "aliases": [
+        {
+          "name": "carobsiroop"
+        },
+        {
+          "name": "carob siroop"
+        },
+        {
+          "name": "johannesbroodstroop"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
       "id": "433c8819-46eb-48dd-bd8d-15f790af3590",
       "name": "karamel dessertsaus",
       "pluralName": "karamel dessertsaus",

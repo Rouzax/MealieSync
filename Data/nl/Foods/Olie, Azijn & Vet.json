@@ -52,6 +52,21 @@
       "label": "Olie, Azijn & Vet"
     },
     {
+      "id": "37577294-1f38-4afc-a4fe-e05dbca40431",
+      "name": "arganolie",
+      "pluralName": "arganolie",
+      "description": "Marokkaanse olie uit arganpitten; nootachtig, als smaakmaker.",
+      "aliases": [
+        {
+          "name": "argan olie"
+        },
+        {
+          "name": "argan-olie"
+        }
+      ],
+      "label": "Olie, Azijn & Vet"
+    },
+    {
       "id": "ffcaeb9c-e7eb-49c9-87ab-3a606f6ae794",
       "name": "avocado-olie",
       "pluralName": "avocado-olie",

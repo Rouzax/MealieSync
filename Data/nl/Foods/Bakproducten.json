@@ -154,6 +154,24 @@
       "label": "Bakproducten"
     },
     {
+      "id": "843078af-6711-45d7-8c39-bead8f6c4f71",
+      "name": "cacaonibs",
+      "pluralName": "cacaonibs",
+      "description": "Gebroken geroosterde cacaobonen; knapperig in baksel en als topping.",
+      "aliases": [
+        {
+          "name": "cacao nibs"
+        },
+        {
+          "name": "cocoa nibs"
+        },
+        {
+          "name": "cacaobrokjes"
+        }
+      ],
+      "label": "Bakproducten"
+    },
+    {
       "id": "791c13b5-3714-41df-8819-679256c19a1b",
       "name": "citroenzuur",
       "pluralName": "citroenzuur",
@@ -812,6 +830,24 @@
         },
         {
           "name": "vanillearoma"
+        }
+      ],
+      "label": "Bakproducten"
+    },
+    {
+      "id": "f2968ea1-580c-43ce-96eb-32aa440861a3",
+      "name": "vanillebonenpasta",
+      "pluralName": "vanillebonenpasta",
+      "description": "Pasta van vanillemerg; vervangt een vanillestokje in zoet baksel.",
+      "aliases": [
+        {
+          "name": "vanille bonenpasta"
+        },
+        {
+          "name": "vanillepasta"
+        },
+        {
+          "name": "vanilla bean paste"
         }
       ],
       "label": "Bakproducten"

@@ -316,6 +316,18 @@
       "label": "Huiles, vinaigres et matières grasses"
     },
     {
+      "id": "37577294-1f38-4afc-a4fe-e05dbca40431",
+      "name": "huile d’argan",
+      "pluralName": "huile d’argan",
+      "description": "Huile marocaine d’argan; noisettée, comme assaisonnement.",
+      "aliases": [
+        {
+          "name": "huile argan"
+        }
+      ],
+      "label": "Huiles, vinaigres et matières grasses"
+    },
+    {
       "id": "ffcaeb9c-e7eb-49c9-87ab-3a606f6ae794",
       "name": "huile d’avocat",
       "pluralName": "huile d’avocat",

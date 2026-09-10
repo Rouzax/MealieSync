@@ -235,6 +235,27 @@
       "label": "Groente"
     },
     {
+      "id": "14ff11b3-1be5-46e0-898d-ccc13db567ab",
+      "name": "cherrytomaat",
+      "pluralName": "cherrytomaten",
+      "description": "Kleine zoete tomaat; rauw, geroosterd of gegrild.",
+      "aliases": [
+        {
+          "name": "kerstomaat"
+        },
+        {
+          "name": "kerstomaatjes"
+        },
+        {
+          "name": "cherrytomaatje"
+        },
+        {
+          "name": "cherrytomaatjes"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "bbd37eb7-8eac-4cab-9c15-d4b593ac2fa2",
       "name": "chilipeper [ingelegd]",
       "pluralName": "chilipepers [ingelegd]",

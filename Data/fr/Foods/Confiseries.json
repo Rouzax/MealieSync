@@ -421,6 +421,18 @@
       "label": "Confiseries"
     },
     {
+      "id": "1b3ae6ed-7048-4302-8f04-7928b91ab72b",
+      "name": "sirop de caroube",
+      "pluralName": "sirop de caroube",
+      "description": "Sirop de caroube; sucré et malté, sur les desserts et le yaourt.",
+      "aliases": [
+        {
+          "name": "mélasse de caroube"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
       "id": "b29cf9f1-8e0b-4630-8554-ab66dff344ae",
       "name": "sirop de cuisine",
       "pluralName": "sirop de cuisine",

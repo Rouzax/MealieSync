@@ -450,6 +450,21 @@
       "label": "Produits de boulangerie"
     },
     {
+      "id": "843078af-6711-45d7-8c39-bead8f6c4f71",
+      "name": "grué de cacao",
+      "pluralName": "grué de cacao",
+      "description": "Fèves de cacao torréfiées concassées; croquantes en pâtisserie et en topping.",
+      "aliases": [
+        {
+          "name": "éclats de cacao"
+        },
+        {
+          "name": "nibs de cacao"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
       "id": "f8554145-6852-4fc9-8525-3b17d98a0394",
       "name": "jaggery",
       "pluralName": "jaggery",
@@ -590,6 +605,18 @@
         },
         {
           "name": "slagschuimpoeder"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
+      "id": "f2968ea1-580c-43ce-96eb-32aa440861a3",
+      "name": "pâte de vanille",
+      "pluralName": "pâte de vanille",
+      "description": "Pâte de graines de vanille; remplace la gousse en pâtisserie.",
+      "aliases": [
+        {
+          "name": "pâte de gousse de vanille"
         }
       ],
       "label": "Produits de boulangerie"
