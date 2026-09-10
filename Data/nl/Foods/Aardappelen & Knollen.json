@@ -162,6 +162,30 @@
       "label": "Aardappelen & Knollen"
     },
     {
+      "id": "9e7d7748-78ec-4df5-b150-e913fdbd1260",
+      "name": "friet",
+      "pluralName": "frieten",
+      "description": "Reepjes aardappel om te frituren of af te bakken; als bijgerecht of snack.",
+      "aliases": [
+        {
+          "name": "patat"
+        },
+        {
+          "name": "frites"
+        },
+        {
+          "name": "ovenfriet"
+        },
+        {
+          "name": "oven friet"
+        },
+        {
+          "name": "diepvriesfriet"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
       "id": "dacbddc1-a6c0-4c2d-8788-6bfa92f97f93",
       "name": "gele biet",
       "pluralName": "gele bieten",

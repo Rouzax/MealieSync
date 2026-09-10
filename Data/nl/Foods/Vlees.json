@@ -669,6 +669,9 @@
       "aliases": [
         {
           "name": "runder riblap"
+        },
+        {
+          "name": "ribrunderlap"
         }
       ],
       "label": "Vlees"

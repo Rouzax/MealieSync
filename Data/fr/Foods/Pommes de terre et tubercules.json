@@ -154,6 +154,21 @@
       "label": "Pommes de terre et tubercules"
     },
     {
+      "id": "9e7d7748-78ec-4df5-b150-e913fdbd1260",
+      "name": "frites",
+      "pluralName": "frites",
+      "description": "Bâtonnets de pomme de terre à frire ou à cuire au four; en accompagnement.",
+      "aliases": [
+        {
+          "name": "pommes frites"
+        },
+        {
+          "name": "frites au four"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
       "id": "aa11b14d-04f4-44e5-84ea-7686000a986a",
       "name": "grenaille",
       "pluralName": "grenailles",

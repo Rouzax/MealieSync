@@ -666,6 +666,30 @@
       "label": "Légumes"
     },
     {
+      "id": "84ea7333-e5d7-4ef8-a700-4f1b98e1f3aa",
+      "name": "maïs [conserve]",
+      "pluralName": "maïs [conserve]",
+      "description": "Maïs doux en conserve; prêt à l'emploi en salade et en soupe.",
+      "aliases": [
+        {
+          "name": "maïs en conserve"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "1ecb2290-904a-4180-af38-419d2c18b838",
+      "name": "mélange de légumes pour wok",
+      "pluralName": "mélanges de légumes pour wok",
+      "description": "Mélange de légumes prêt à l'emploi; pour sauter au wok.",
+      "aliases": [
+        {
+          "name": "légumes pour wok"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "cd0a3291-23fa-405b-a810-cadf9717b584",
       "name": "mini-maïs",
       "pluralName": "mini-maïs",
@@ -953,6 +977,18 @@
       "pluralName": "poivrons",
       "description": "Légume-fruit; cru, rôti ou farci.",
       "aliases": [],
+      "label": "Légumes"
+    },
+    {
+      "id": "8984445a-997f-4d06-a7f5-8eee78342dbc",
+      "name": "poivron grillé [conserve]",
+      "pluralName": "poivrons grillés [conserve]",
+      "description": "Poivron grillé en bocal; doux et fondant en salade, soupe et dip.",
+      "aliases": [
+        {
+          "name": "poivrons grillés"
+        }
+      ],
       "label": "Légumes"
     },
     {

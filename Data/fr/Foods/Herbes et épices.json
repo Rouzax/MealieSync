@@ -76,6 +76,18 @@
       "label": "Herbes et épices"
     },
     {
+      "id": "7c7ad38a-2ac2-41b3-ab4b-27251b068feb",
+      "name": "baharat",
+      "pluralName": "baharat",
+      "description": "Mélange d'épices moyen-oriental; piment de la Jamaïque, cumin et cannelle.",
+      "aliases": [
+        {
+          "name": "mélange baharat"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
       "id": "1cf042af-b40d-4732-9b2d-0e6ee221c4b6",
       "name": "baie de genièvre",
       "pluralName": "baies de genièvre",
@@ -1004,21 +1016,30 @@
     },
     {
       "id": "c5bd2cec-d27f-4079-be15-1d89d61785c8",
-      "name": "macis",
-      "pluralName": "macis",
-      "description": "Enveloppe de la muscade; aromatique dans sauces et pâtisseries.",
+      "name": "macis [entier]",
+      "pluralName": "macis [entier]",
+      "description": "Enveloppe entière de la muscade; aromatique dans sauces et pâtisseries.",
       "aliases": [
         {
           "name": "macis en lame"
-        },
-        {
-          "name": "bladfoelie"
         },
         {
           "name": "mace"
         },
         {
           "name": "fleur de muscade"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "44a2157d-feef-4c51-bcae-05cde3cc5fb6",
+      "name": "macis [moulu]",
+      "pluralName": "macis [moulu]",
+      "description": "Macis moulu; chaleureux dans les ragoûts, sauces et pâtisseries.",
+      "aliases": [
+        {
+          "name": "macis en poudre"
         }
       ],
       "label": "Herbes et épices"

@@ -640,6 +640,27 @@
       "label": "Groente"
     },
     {
+      "id": "84ea7333-e5d7-4ef8-a700-4f1b98e1f3aa",
+      "name": "maïs [blik]",
+      "pluralName": "maïs [blik]",
+      "description": "Suikermaïs uit blik; direct te gebruiken in salade, soep en wraps.",
+      "aliases": [
+        {
+          "name": "mais uit blik"
+        },
+        {
+          "name": "maïs uit blik"
+        },
+        {
+          "name": "blik mais"
+        },
+        {
+          "name": "maiskorrels uit blik"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "f8d43679-fd21-4223-a9a0-daec096c3ee3",
       "name": "monniksbaard",
       "pluralName": "monniksbaard",
@@ -772,6 +793,27 @@
       "pluralName": "paprika's",
       "description": "Vruchtgroente; rauw, geroosterd of gevuld.",
       "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "id": "8984445a-997f-4d06-a7f5-8eee78342dbc",
+      "name": "paprika [geroosterd]",
+      "pluralName": "paprika [geroosterd]",
+      "description": "Geroosterde paprika uit pot; zoet en zacht in salade, soep en dip.",
+      "aliases": [
+        {
+          "name": "gegrilde paprika"
+        },
+        {
+          "name": "geroosterde paprika"
+        },
+        {
+          "name": "gegrilde paprika uit pot"
+        },
+        {
+          "name": "paprika uit pot"
+        }
+      ],
       "label": "Groente"
     },
     {
@@ -908,6 +950,24 @@
       "pluralName": "rode uien",
       "description": "Uiensoort; rauw in salade of meegebakken.",
       "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "id": "1ecb2290-904a-4180-af38-419d2c18b838",
+      "name": "roerbakgroente",
+      "pluralName": "roerbakgroente",
+      "description": "Kant-en-klare groentemix voor de wok; snel roerbakken.",
+      "aliases": [
+        {
+          "name": "wokgroente"
+        },
+        {
+          "name": "roerbakmix"
+        },
+        {
+          "name": "wokmix"
+        }
+      ],
       "label": "Groente"
     },
     {

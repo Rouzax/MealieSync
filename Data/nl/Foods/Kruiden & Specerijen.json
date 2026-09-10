@@ -112,6 +112,21 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "7c7ad38a-2ac2-41b3-ab4b-27251b068feb",
+      "name": "baharat",
+      "pluralName": "baharat",
+      "description": "Midden-Oosterse kruidenmix; warm van piment, komijn en kaneel.",
+      "aliases": [
+        {
+          "name": "baharat kruidenmix"
+        },
+        {
+          "name": "baharatkruiden"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "9dd488a2-1ce7-4921-8d5d-e8a89a4d7fb2",
       "name": "bamikruiden",
       "pluralName": "bamikruiden",
@@ -393,16 +408,37 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "44a2157d-feef-4c51-bcae-05cde3cc5fb6",
+      "name": "foelie [gemalen]",
+      "pluralName": "foelie [gemalen]",
+      "description": "Gemalen foelie; warm-aromatisch in stoof, saus en gebak.",
+      "aliases": [
+        {
+          "name": "gemalen foelie"
+        },
+        {
+          "name": "foelie gemalen"
+        },
+        {
+          "name": "gemalen mace"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "c5bd2cec-d27f-4079-be15-1d89d61785c8",
-      "name": "foelie",
-      "pluralName": "foelie",
-      "description": "Vlies van nootmuskaat; aromatisch in saus en gebak.",
+      "name": "foelie [heel]",
+      "pluralName": "foelie [heel]",
+      "description": "Heel vlies van nootmuskaat; aromatisch in saus, stoof en gebak.",
       "aliases": [
         {
           "name": "blad foelie"
         },
         {
           "name": "bladfoelie"
+        },
+        {
+          "name": "foelieblad"
         },
         {
           "name": "mace"
