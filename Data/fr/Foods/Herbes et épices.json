@@ -353,14 +353,6 @@
       "label": "Herbes et épices"
     },
     {
-      "id": "4aaed244-7118-4f97-aa68-11130b81cf98",
-      "name": "épices chili con carne",
-      "pluralName": "épices chili con carne",
-      "description": "Mélange d’épices pour chili con carne; avec chili et cumin.",
-      "aliases": [],
-      "label": "Herbes et épices"
-    },
-    {
       "id": "ee4d1365-5b7a-4017-9708-efd9deb5ba9c",
       "name": "épices gyros",
       "pluralName": "épices gyros",
@@ -1050,6 +1042,51 @@
       "label": "Herbes et épices"
     },
     {
+      "id": "7e0855d7-8939-4473-b1a8-bd39fd62d546",
+      "name": "mélange d'épices mexicain",
+      "pluralName": "mélanges d'épices mexicains",
+      "description": "Mélange large au chili, cumin et paprika; pour plats mexicains et tex-mex.",
+      "aliases": [
+        {
+          "name": "épices mexicaines"
+        },
+        {
+          "name": "mexican seasoning"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "6c3bb3eb-2076-4b42-b20f-5f1391bd5f61",
+      "name": "mélange d'épices pour tacos",
+      "pluralName": "mélanges d'épices pour tacos",
+      "description": "Mélange d'épices au chili, cumin et paprika; pour tacos et burritos.",
+      "aliases": [
+        {
+          "name": "épices à tacos"
+        },
+        {
+          "name": "taco seasoning"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "4aaed244-7118-4f97-aa68-11130b81cf98",
+      "name": "mélange pour chili con carne",
+      "pluralName": "mélanges pour chili con carne",
+      "description": "Mélange d'épices pour chili con carne; au chili, cumin et origan.",
+      "aliases": [
+        {
+          "name": "épices chili con carne"
+        },
+        {
+          "name": "chili con carne seasoning"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
       "id": "2295b117-3dbd-4efe-94f6-a3684dbdc2fe",
       "name": "menthe [séchée]",
       "pluralName": "menthe [séchée]",
@@ -1469,6 +1506,21 @@
         },
         {
           "name": "lal mirch"
+        },
+        {
+          "name": "red chili powder"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "c91d8f60-8bee-4757-b9cd-eb1ae7b30318",
+      "name": "poudre de chili américaine",
+      "pluralName": "poudre de chili américaine",
+      "description": "Mélange d'épices américain au chili, cumin et origan; pour chili con carne et Tex-Mex.",
+      "aliases": [
+        {
+          "name": "american chili powder"
         }
       ],
       "label": "Herbes et épices"

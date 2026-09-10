@@ -46,6 +46,24 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "c91d8f60-8bee-4757-b9cd-eb1ae7b30318",
+      "name": "amerikaans chilipoeder",
+      "pluralName": "amerikaans chilipoeder",
+      "description": "Amerikaanse specerijenmix met chili, komijn en oregano; voor chili con carne en Tex-Mex.",
+      "aliases": [
+        {
+          "name": "american chili powder"
+        },
+        {
+          "name": "amerikaanse chili powder"
+        },
+        {
+          "name": "chili powder amerikaans"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "7d8f68cd-31c3-4d66-8796-ccb02c539b38",
       "name": "anijs",
       "pluralName": "anijs",
@@ -226,10 +244,20 @@
     },
     {
       "id": "4aaed244-7118-4f97-aa68-11130b81cf98",
-      "name": "chili con carne kruiden",
-      "pluralName": "chili con carne kruiden",
-      "description": "Kruidenmix voor chili con carne; met chili en komijn.",
-      "aliases": [],
+      "name": "chili con carne kruidenmix",
+      "pluralName": "chili con carne kruidenmixen",
+      "description": "Specerijenmix voor chili con carne; met chili, komijn en oregano.",
+      "aliases": [
+        {
+          "name": "chili con carne kruiden"
+        },
+        {
+          "name": "chili con carne seasoning"
+        },
+        {
+          "name": "mix voor chili con carne"
+        }
+      ],
       "label": "Kruiden & Specerijen"
     },
     {
@@ -258,6 +286,9 @@
         },
         {
           "name": "lal mirch"
+        },
+        {
+          "name": "red chili powder"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -1148,6 +1179,24 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "7e0855d7-8939-4473-b1a8-bd39fd62d546",
+      "name": "mexicaanse kruidenmix",
+      "pluralName": "mexicaanse kruidenmixen",
+      "description": "Brede specerijenmix met chili, komijn en paprika; voor Mexicaanse en Tex-Mex-gerechten.",
+      "aliases": [
+        {
+          "name": "mexicaanse kruiden"
+        },
+        {
+          "name": "mexican seasoning"
+        },
+        {
+          "name": "mexican spice mix"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "2295b117-3dbd-4efe-94f6-a3684dbdc2fe",
       "name": "munt [gedroogd]",
       "pluralName": "munt [gedroogd]",
@@ -1587,6 +1636,24 @@
         },
         {
           "name": "sichuan pepper"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
+      "id": "6c3bb3eb-2076-4b42-b20f-5f1391bd5f61",
+      "name": "taco kruidenmix",
+      "pluralName": "taco kruidenmixen",
+      "description": "Specerijenmix met chili, komijn en paprika; voor taco's en burrito's.",
+      "aliases": [
+        {
+          "name": "taco kruiden"
+        },
+        {
+          "name": "tacokruiden"
+        },
+        {
+          "name": "taco seasoning"
         }
       ],
       "label": "Kruiden & Specerijen"
