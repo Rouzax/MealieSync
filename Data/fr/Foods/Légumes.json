@@ -1090,6 +1090,21 @@
       "label": "Légumes"
     },
     {
+      "id": "22260179-637c-4b3c-b2c2-732536935828",
+      "name": "tomate [séchée]",
+      "pluralName": "tomates [séchées]",
+      "description": "Tomate séchée au soleil; goût intense en pâtes, salades et gratins.",
+      "aliases": [
+        {
+          "name": "tomates séchées"
+        },
+        {
+          "name": "sun-dried tomatoes"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "14ff11b3-1be5-46e0-898d-ccc13db567ab",
       "name": "tomate cerise",
       "pluralName": "tomates cerises",

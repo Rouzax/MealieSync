@@ -1076,6 +1076,27 @@
       "label": "Groente"
     },
     {
+      "id": "22260179-637c-4b3c-b2c2-732536935828",
+      "name": "tomaat [gedroogd]",
+      "pluralName": "tomaten [gedroogd]",
+      "description": "Zongedroogde tomaat; intens zoetzuur in pasta, salade en stamppot.",
+      "aliases": [
+        {
+          "name": "zongedroogde tomaat"
+        },
+        {
+          "name": "zongedroogde tomaten"
+        },
+        {
+          "name": "gedroogde tomaat"
+        },
+        {
+          "name": "sun-dried tomatoes"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "8506b52b-b08f-43a7-8689-ab18dc065b02",
       "name": "tomatenblokjes [blik]",
       "pluralName": "tomatenblokjes [blik]",
