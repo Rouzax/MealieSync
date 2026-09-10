@@ -236,7 +236,7 @@
       "id": "de596c37-abfc-4e52-8673-a864b5edc467",
       "name": "chilipoeder",
       "pluralName": "chilipoeder",
-      "description": "Specerijenmix; gemalen chili met o.a. komijn en oregano.",
+      "description": "Gemalen rode chilipeper; puur en pittig, basis in Indiase curry's.",
       "aliases": [
         {
           "name": "chili poeder"
@@ -245,7 +245,19 @@
           "name": "chili-poeder"
         },
         {
-          "name": "chili powder"
+          "name": "chilli powder"
+        },
+        {
+          "name": "red chilli powder"
+        },
+        {
+          "name": "rode chilipoeder"
+        },
+        {
+          "name": "rood chilipoeder"
+        },
+        {
+          "name": "lal mirch"
         }
       ],
       "label": "Kruiden & Specerijen"

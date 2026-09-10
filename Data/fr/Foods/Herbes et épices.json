@@ -1456,16 +1456,19 @@
       "id": "de596c37-abfc-4e52-8673-a864b5edc467",
       "name": "poudre de chili",
       "pluralName": "poudre de chili",
-      "description": "Mélange d’épices; chili moulu avec notamment cumin et origan.",
+      "description": "Piment rouge moulu; pur et relevé, base des currys indiens.",
       "aliases": [
         {
-          "name": "poudre de chili"
+          "name": "piment rouge moulu"
         },
         {
-          "name": "chili-poeder"
+          "name": "poudre de piment rouge"
         },
         {
-          "name": "chili powder"
+          "name": "red chilli powder"
+        },
+        {
+          "name": "lal mirch"
         }
       ],
       "label": "Herbes et épices"
