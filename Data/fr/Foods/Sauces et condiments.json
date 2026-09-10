@@ -39,6 +39,18 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "19ffc5b0-55c4-47a2-9ee8-0565075fd2c7",
+      "name": "bloc de tamarin",
+      "pluralName": "blocs de tamarin",
+      "description": "Pulpe de tamarin pressée en bloc; à tremper pour obtenir l'eau de tamarin.",
+      "aliases": [
+        {
+          "name": "pulpe de tamarin"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "e17b7dc4-3453-4b50-b974-132f2c9d48bc",
       "name": "bumbu",
       "pluralName": "bumbu",

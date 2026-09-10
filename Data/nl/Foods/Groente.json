@@ -19,6 +19,27 @@
       "label": "Groente"
     },
     {
+      "id": "0592507e-9d8e-4fbe-81ea-cde69f18af2e",
+      "name": "ancho chilipeper [gedroogd]",
+      "pluralName": "ancho chilipepers [gedroogd]",
+      "description": "Gedroogde poblano; mild en rozijnzoet, basis voor Mexicaanse sauzen.",
+      "aliases": [
+        {
+          "name": "ancho"
+        },
+        {
+          "name": "anchopeper"
+        },
+        {
+          "name": "ancho chili"
+        },
+        {
+          "name": "gedroogde ancho"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "6d3aa679-4a75-42b0-b47e-5f4f28b52cb0",
       "name": "andijvie",
       "pluralName": "andijvie",
@@ -279,6 +300,24 @@
       "pluralName": "chinese kolen",
       "description": "Milde kool; in roerbak, soep of salade.",
       "aliases": [],
+      "label": "Groente"
+    },
+    {
+      "id": "dae7d797-9c3b-46fb-8adb-d8febf913319",
+      "name": "chipotle chilipeper [gedroogd]",
+      "pluralName": "chipotle chilipepers [gedroogd]",
+      "description": "Gerookte gedroogde jalapeño; rokerig pittig in rubs en sauzen.",
+      "aliases": [
+        {
+          "name": "chipotlepeper"
+        },
+        {
+          "name": "chipotle chili"
+        },
+        {
+          "name": "gedroogde chipotle"
+        }
+      ],
       "label": "Groente"
     },
     {

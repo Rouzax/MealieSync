@@ -777,6 +777,24 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "19ffc5b0-55c4-47a2-9ee8-0565075fd2c7",
+      "name": "tamarindeblok",
+      "pluralName": "tamarindeblokken",
+      "description": "Geperste tamarindepulp in blok; weken en zeven voor tamarindewater.",
+      "aliases": [
+        {
+          "name": "tamarinde uit blok"
+        },
+        {
+          "name": "tamarindepulp"
+        },
+        {
+          "name": "tamarind block"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "4e8ca7f9-740b-4069-8460-52d59af72d36",
       "name": "tamarindepasta",
       "pluralName": "tamarindepasta",

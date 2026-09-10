@@ -852,6 +852,18 @@
       "label": "Légumes"
     },
     {
+      "id": "0592507e-9d8e-4fbe-81ea-cde69f18af2e",
+      "name": "piment ancho [séché]",
+      "pluralName": "piments ancho [séchés]",
+      "description": "Poblano séché; doux et fruité, base des sauces mexicaines.",
+      "aliases": [
+        {
+          "name": "ancho"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "bbd37eb7-8eac-4cab-9c15-d4b593ac2fa2",
       "name": "piment chili [mariné]",
       "pluralName": "piments chili [marinés]",
@@ -865,6 +877,18 @@
         },
         {
           "name": "chili mariné"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
+      "id": "dae7d797-9c3b-46fb-8adb-d8febf913319",
+      "name": "piment chipotle [séché]",
+      "pluralName": "piments chipotle [séchés]",
+      "description": "Jalapeño fumé et séché; fumé et relevé dans rubs et sauces.",
+      "aliases": [
+        {
+          "name": "chipotle"
         }
       ],
       "label": "Légumes"
