@@ -948,6 +948,21 @@
       "label": "Légumes"
     },
     {
+      "id": "d7337c26-20bf-4034-9d7c-d03fcf0c75eb",
+      "name": "piment thaï",
+      "pluralName": "piments thaïs",
+      "description": "Petit piment thaï très fort; pour currys, soupes et sambals.",
+      "aliases": [
+        {
+          "name": "oeil d'oiseau"
+        },
+        {
+          "name": "bird's eye chili"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "4b7e6787-8490-4bed-bb67-9de217083b22",
       "name": "piment vert",
       "pluralName": "piments verts",

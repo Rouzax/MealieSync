@@ -1170,6 +1170,27 @@
       "label": "Groente"
     },
     {
+      "id": "d7337c26-20bf-4034-9d7c-d03fcf0c75eb",
+      "name": "thaise chilipeper",
+      "pluralName": "thaise chilipepers",
+      "description": "Klein en heet Thais pepertje; voor curry, soep en sambal.",
+      "aliases": [
+        {
+          "name": "thais pepertje"
+        },
+        {
+          "name": "bird's eye chili"
+        },
+        {
+          "name": "birdseye chilipeper"
+        },
+        {
+          "name": "rawit"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "de2b6456-11a6-47d7-afd1-326eee8919f6",
       "name": "tomaat",
       "pluralName": "tomaten",
