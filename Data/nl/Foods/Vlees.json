@@ -210,6 +210,21 @@
       "label": "Vlees"
     },
     {
+      "id": "7b7a343b-4242-416b-afdb-c877c4e45337",
+      "name": "hertenbiefstuk",
+      "pluralName": "hertenbiefstukken",
+      "description": "Biefstuk van hert; mager wildvlees, kort en rosé gebakken.",
+      "aliases": [
+        {
+          "name": "hertenbiefstukje"
+        },
+        {
+          "name": "hertensteak"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
       "id": "bb8280be-dafc-461b-b7c9-6d4934cb3aba",
       "name": "hertenvlees",
       "pluralName": "hertenvlees",

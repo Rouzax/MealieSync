@@ -209,6 +209,21 @@
         }
       ],
       "label": "Bouillon & Smaakmakers"
+    },
+    {
+      "id": "3e595e97-a72e-45db-be2e-1340c1f8535b",
+      "name": "wildfond",
+      "pluralName": "wildfond",
+      "description": "Krachtige fond van wild; basis voor jus en saus bij wildgerechten.",
+      "aliases": [
+        {
+          "name": "wild fond"
+        },
+        {
+          "name": "wildbouillon"
+        }
+      ],
+      "label": "Bouillon & Smaakmakers"
     }
   ]
 }

@@ -184,6 +184,18 @@
       "label": "Bouillons et exhausteurs de goût"
     },
     {
+      "id": "3e595e97-a72e-45db-be2e-1340c1f8535b",
+      "name": "fond de gibier",
+      "pluralName": "fond de gibier",
+      "description": "Fond corsé de gibier; base des jus et sauces pour le gibier.",
+      "aliases": [
+        {
+          "name": "bouillon de gibier"
+        }
+      ],
+      "label": "Bouillons et exhausteurs de goût"
+    },
+    {
       "id": "9798d767-3f11-430c-89e7-93c9cbb2c9dc",
       "name": "fond de veau",
       "pluralName": "fond de veau",

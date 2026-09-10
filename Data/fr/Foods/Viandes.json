@@ -970,6 +970,18 @@
       "label": "Viandes"
     },
     {
+      "id": "7b7a343b-4242-416b-afdb-c877c4e45337",
+      "name": "steak de cerf",
+      "pluralName": "steaks de cerf",
+      "description": "Steak de cerf; viande de gibier maigre, saisie rosée.",
+      "aliases": [
+        {
+          "name": "pavé de cerf"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
       "id": "7555d754-c954-450e-97f8-68695396b08e",
       "name": "steak de tende de tranche",
       "pluralName": "steaks de tende de tranche",
