@@ -4,29 +4,6 @@
   "$version": "1.0",
   "items": [
     {
-      "id": "d2091932-dce6-48c6-a3bd-c1f252bb4357",
-      "name": "groseille rouge",
-      "pluralName": "groseilles rouges",
-      "description": "Petites grappes de baies rouges ou blanches; acidulées, pour les confitures et les sauces.",
-      "aliases": [
-        {
-          "name": "groseille rouge"
-        },
-        {
-          "name": "groseilles rouges"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "760ab880-c16c-4a6d-8dba-79a0eede232d",
-      "name": "fraise",
-      "pluralName": "fraises",
-      "description": "Petit fruit rouge sucré et tendre; frais, en desserts ou comme arôme.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
       "id": "8e25d23c-2ab4-4ed9-a0b2-44b668a67cfc",
       "name": "abricot",
       "pluralName": "abricots",
@@ -69,6 +46,18 @@
       "label": "Fruits"
     },
     {
+      "id": "08830d83-4c26-40e9-af55-59bb498e8017",
+      "name": "airelle rouge",
+      "pluralName": "airelles rouges",
+      "description": "Petite baie rouge acidulée; pour les compotes avec le gibier.",
+      "aliases": [
+        {
+          "name": "lingonberry"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
       "id": "e4e57fa4-2994-4153-806f-6a8633705108",
       "name": "ananas",
       "pluralName": "ananas",
@@ -77,22 +66,41 @@
       "label": "Fruits"
     },
     {
-      "id": "335cc390-d3ef-405c-9ff7-1eb89d6c3a31",
-      "name": "pomme",
-      "pluralName": "pommes",
-      "description": "Fruit; frais, en desserts, en salades ou comme collation.",
+      "id": "8f9caf7e-4f73-488d-ba1b-5e9700e6e917",
+      "name": "avocat",
+      "pluralName": "avocats",
+      "description": "Fruit à chair crémeuse; pour les salades, le guacamole ou sur des rôties.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "0442d597-ee5d-4a9e-be78-be3809bb0025",
+      "name": "baie de goji",
+      "pluralName": "baies de goji",
+      "description": "Petite baie rouge séchée; superaliment, dans les smoothies et le muesli.",
       "aliases": [
         {
-          "name": "petite pomme"
+          "name": "goji"
+        },
+        {
+          "name": "baie de lyciet"
         }
       ],
       "label": "Fruits"
     },
     {
-      "id": "8f9caf7e-4f73-488d-ba1b-5e9700e6e917",
-      "name": "avocat",
-      "pluralName": "avocats",
-      "description": "Fruit à chair crémeuse; pour les salades, le guacamole ou sur des rôties.",
+      "id": "29a2c2df-2ec4-472c-b2a6-795097bbe2c4",
+      "name": "baie de sureau",
+      "pluralName": "baies de sureau",
+      "description": "Baie violet foncé du sureau; cuite en sirop ou en jus.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "adf36e91-a33b-4879-a7c3-703dd89f95e1",
+      "name": "banane",
+      "pluralName": "bananes",
+      "description": "Fruit tropical; jaune, sucré, riche en potassium.",
       "aliases": [],
       "label": "Fruits"
     },
@@ -109,164 +117,6 @@
           "name": "banane à cuire"
         }
       ],
-      "label": "Fruits"
-    },
-    {
-      "id": "adf36e91-a33b-4879-a7c3-703dd89f95e1",
-      "name": "banane",
-      "pluralName": "bananes",
-      "description": "Fruit tropical; jaune, sucré, riche en potassium.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
-      "id": "fac36d7b-5b8b-4518-a386-79fdddee1fc1",
-      "name": "orange sanguine",
-      "pluralName": "oranges sanguines",
-      "description": "Orange à chair rouge; fraîche ou en jus.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
-      "id": "7076c424-8cdd-4db1-9950-6b683beabbed",
-      "name": "myrtille",
-      "pluralName": "myrtilles",
-      "description": "Petites baies bleues; fraîches ou en desserts et pâtisseries.",
-      "aliases": [
-        {
-          "name": "blueberry"
-        },
-        {
-          "name": "blueberries"
-        },
-        {
-          "name": "bleuet"
-        },
-        {
-          "name": "bleuets"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "f3ad29ea-c0b3-4212-9fac-2bb5915e968f",
-      "name": "mûre",
-      "pluralName": "mûres",
-      "description": "Baies tendres violet foncé; fraîches ou en confiture.",
-      "aliases": [
-        {
-          "name": "blackberry"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "034e98b7-44e4-4488-91ed-5cede2e7bf53",
-      "name": "fruit à pain",
-      "pluralName": "fruits à pain",
-      "description": "Fruit tropical à chair féculente; bouilli ou frit.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
-      "id": "80b0f948-5384-40c1-b091-592b6d6502e3",
-      "name": "cantaloup",
-      "pluralName": "cantaloups",
-      "description": "Variété de melon; chair orange, aromatique et sucrée.",
-      "aliases": [
-        {
-          "name": "melon cantaloup"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "76a50ee7-c9ef-4e26-89f7-1f87a29fc635",
-      "name": "citron",
-      "pluralName": "citrons",
-      "description": "Agrume jaune; en quartiers ou en tranches pour cuisiner, pâtisser et les boissons.",
-      "aliases": [
-        {
-          "name": "citron frais"
-        },
-        {
-          "name": "citron frais"
-        },
-        {
-          "name": "citron frais"
-        },
-        {
-          "name": "citron jaune"
-        },
-        {
-          "name": "citrons frais"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "6c8607c2-d06b-4176-8466-7c9c47981ca0",
-      "name": "citron [zeste]",
-      "pluralName": "citron [zeste]",
-      "description": "Zeste de citron; aromatique pour les pâtisseries, les desserts et les sauces.",
-      "aliases": [
-        {
-          "name": "zeste de citron"
-        },
-        {
-          "name": "zeste de citron"
-        },
-        {
-          "name": "zeste de citron"
-        },
-        {
-          "name": "zeste de citron"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "4ca347f7-253f-4f16-bc30-ff5f237c5c1f",
-      "name": "citron [jus]",
-      "pluralName": "citron [jus]",
-      "description": "Jus de citron; pour les vinaigrettes, les marinades et comme note acidulée.",
-      "aliases": [
-        {
-          "name": "jus de citron"
-        },
-        {
-          "name": "jus de citron"
-        },
-        {
-          "name": "lemon juice"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "3e7a380c-3de9-4d60-a044-a76a359e9cbb",
-      "name": "citron [écorce]",
-      "pluralName": "citron [écorce]",
-      "description": "Écorce de citron; en lanières pour les plats mijotés, les liqueurs et les fruits confits.",
-      "aliases": [
-        {
-          "name": "écorce de citron"
-        },
-        {
-          "name": "écorce de citron"
-        },
-        {
-          "name": "lemon peel"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "ce8a20d6-ceee-4dbf-92d0-0bafca256d2a",
-      "name": "clémentine",
-      "pluralName": "clémentines",
-      "description": "Petit agrume sucré; sans pépins, facile à peler.",
-      "aliases": [],
       "label": "Fruits"
     },
     {
@@ -306,6 +156,177 @@
           "name": "canneberges séchées"
         }
       ],
+      "label": "Fruits"
+    },
+    {
+      "id": "80b0f948-5384-40c1-b091-592b6d6502e3",
+      "name": "cantaloup",
+      "pluralName": "cantaloups",
+      "description": "Variété de melon; chair orange, aromatique et sucrée.",
+      "aliases": [
+        {
+          "name": "melon cantaloup"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "3fb137f7-ed7c-465b-a232-29438d31f12d",
+      "name": "cassis",
+      "pluralName": "cassis",
+      "description": "Baie sombre et aromatique; pour les sirops, liqueurs ou confitures.",
+      "aliases": [
+        {
+          "name": "baie de cassis"
+        },
+        {
+          "name": "cassis noir"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "ed6165a9-091e-4d01-b310-dcf2a54d37a8",
+      "name": "cerise",
+      "pluralName": "cerises",
+      "description": "Petit fruit rouge à noyau; sucré ou acide, frais ou en pâtisserie.",
+      "aliases": [
+        {
+          "name": "cherry"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "76a50ee7-c9ef-4e26-89f7-1f87a29fc635",
+      "name": "citron",
+      "pluralName": "citrons",
+      "description": "Agrume jaune; en quartiers ou en tranches pour cuisiner, pâtisser et les boissons.",
+      "aliases": [
+        {
+          "name": "citron frais"
+        },
+        {
+          "name": "citron frais"
+        },
+        {
+          "name": "citron frais"
+        },
+        {
+          "name": "citron jaune"
+        },
+        {
+          "name": "citrons frais"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "3e7a380c-3de9-4d60-a044-a76a359e9cbb",
+      "name": "citron [écorce]",
+      "pluralName": "citron [écorce]",
+      "description": "Écorce de citron; en lanières pour les plats mijotés, les liqueurs et les fruits confits.",
+      "aliases": [
+        {
+          "name": "écorce de citron"
+        },
+        {
+          "name": "écorce de citron"
+        },
+        {
+          "name": "lemon peel"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "4ca347f7-253f-4f16-bc30-ff5f237c5c1f",
+      "name": "citron [jus]",
+      "pluralName": "citron [jus]",
+      "description": "Jus de citron; pour les vinaigrettes, les marinades et comme note acidulée.",
+      "aliases": [
+        {
+          "name": "jus de citron"
+        },
+        {
+          "name": "jus de citron"
+        },
+        {
+          "name": "lemon juice"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "6c8607c2-d06b-4176-8466-7c9c47981ca0",
+      "name": "citron [zeste]",
+      "pluralName": "citron [zeste]",
+      "description": "Zeste de citron; aromatique pour les pâtisseries, les desserts et les sauces.",
+      "aliases": [
+        {
+          "name": "zeste de citron"
+        },
+        {
+          "name": "zeste de citron"
+        },
+        {
+          "name": "zeste de citron"
+        },
+        {
+          "name": "zeste de citron"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "ce8a20d6-ceee-4dbf-92d0-0bafca256d2a",
+      "name": "clémentine",
+      "pluralName": "clémentines",
+      "description": "Petit agrume sucré; sans pépins, facile à peler.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "3a5170be-1c4d-482f-b1cb-f7642816aab7",
+      "name": "coing",
+      "pluralName": "coings",
+      "description": "Fruit jaune et ferme; cuit en gelée ou en compote.",
+      "aliases": [
+        {
+          "name": "coing"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "d0839555-375d-4293-a326-1a3c10cef32f",
+      "name": "corossol",
+      "pluralName": "corossols",
+      "description": "Fruit tropical à chair blanche aigre-douce; pour les jus ou les desserts glacés.",
+      "aliases": [
+        {
+          "name": "guanabana"
+        },
+        {
+          "name": "soursop"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "3c15d706-941c-417e-bc58-2138372d692f",
+      "name": "currant",
+      "pluralName": "currants",
+      "description": "Petits raisins secs foncés; pour les pâtisseries et le pain.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "67d626e6-4987-479c-a23e-e1b626dadfcb",
+      "name": "cynorhodon",
+      "pluralName": "cynorhodons",
+      "description": "Fruit de l’églantier; pour les sirops, confitures ou tisanes.",
+      "aliases": [],
       "label": "Fruits"
     },
     {
@@ -362,29 +383,6 @@
       "label": "Fruits"
     },
     {
-      "id": "328f074a-f96e-44c9-8a61-f6367d9a8429",
-      "name": "fruit du dragon",
-      "pluralName": "fruits du dragon",
-      "description": "Fruit rose vif à chair blanche ou rouge; légèrement sucré.",
-      "aliases": [
-        {
-          "name": "pitaya"
-        },
-        {
-          "name": "pitahaya"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "d8690fdd-04f3-4121-87d4-71fdcd37a113",
-      "name": "raisin",
-      "pluralName": "raisins",
-      "description": "Fruit; frais comme raisin de table ou pressé en jus et en vin.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
       "id": "1136b110-8229-491d-93e0-fb64d6f74f08",
       "name": "elstar",
       "pluralName": "elstars",
@@ -397,6 +395,43 @@
       "label": "Fruits"
     },
     {
+      "id": "a541b40a-57d6-4196-9622-8f4f0e46a942",
+      "name": "figue",
+      "pluralName": "figues",
+      "description": "Fruit tendre et sucré; frais en salades, desserts ou avec du fromage.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "5d0908fc-8509-4b56-bb0a-dae350138bec",
+      "name": "figue [séchée]",
+      "pluralName": "figues [séchées]",
+      "description": "Figue séchée; sucrée en pâtisserie, au déjeuner ou avec du fromage.",
+      "aliases": [
+        {
+          "name": "figue séchée"
+        },
+        {
+          "name": "figues séchées"
+        },
+        {
+          "name": "figue séchée"
+        },
+        {
+          "name": "figues séchées"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "760ab880-c16c-4a6d-8dba-79a0eede232d",
+      "name": "fraise",
+      "pluralName": "fraises",
+      "description": "Petit fruit rouge sucré et tendre; frais, en desserts ou comme arôme.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
       "id": "f1918a4f-42ae-4906-ab88-3e5d3aff4248",
       "name": "framboise",
       "pluralName": "framboises",
@@ -404,6 +439,44 @@
       "aliases": [
         {
           "name": "raspberry"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "034e98b7-44e4-4488-91ed-5cede2e7bf53",
+      "name": "fruit à pain",
+      "pluralName": "fruits à pain",
+      "description": "Fruit tropical à chair féculente; bouilli ou frit.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "4a148b3d-e03d-41a9-9650-5863c154b7b5",
+      "name": "fruit de la passion",
+      "pluralName": "fruits de la passion",
+      "description": "Fruit tropical à pulpe aigre-douce; pour les desserts, les boissons et les sauces.",
+      "aliases": [
+        {
+          "name": "passionfruit"
+        },
+        {
+          "name": "maracuja"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "328f074a-f96e-44c9-8a61-f6367d9a8429",
+      "name": "fruit du dragon",
+      "pluralName": "fruits du dragon",
+      "description": "Fruit rose vif à chair blanche ou rouge; légèrement sucré.",
+      "aliases": [
+        {
+          "name": "pitaya"
+        },
+        {
+          "name": "pitahaya"
         }
       ],
       "label": "Fruits"
@@ -421,25 +494,10 @@
       "label": "Fruits"
     },
     {
-      "id": "0442d597-ee5d-4a9e-be78-be3809bb0025",
-      "name": "baie de goji",
-      "pluralName": "baies de goji",
-      "description": "Petite baie rouge séchée; superaliment, dans les smoothies et le muesli.",
-      "aliases": [
-        {
-          "name": "goji"
-        },
-        {
-          "name": "baie de lyciet"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "ac895b82-1f97-4325-9200-3ccdfc3ea0ce",
-      "name": "grenade",
-      "pluralName": "grenades",
-      "description": "Fruit rempli de graines rouges juteuses; pour les salades et en garniture.",
+      "id": "567af627-de3e-4d1b-b0dd-b4288c019604",
+      "name": "goyave",
+      "pluralName": "goyaves",
+      "description": "Fruit tropical; chair aromatique aigre-douce, fraîche ou en jus.",
       "aliases": [],
       "label": "Fruits"
     },
@@ -456,29 +514,55 @@
       "label": "Fruits"
     },
     {
-      "id": "96373953-4bed-45fc-8d44-370cd7d7f37b",
-      "name": "pamplemousse",
-      "pluralName": "pamplemousses",
-      "description": "Grand agrume; amer et acidulé, en fruit de déjeuner ou en jus.",
+      "id": "ac895b82-1f97-4325-9200-3ccdfc3ea0ce",
+      "name": "grenade",
+      "pluralName": "grenades",
+      "description": "Fruit rempli de graines rouges juteuses; pour les salades et en garniture.",
       "aliases": [],
       "label": "Fruits"
     },
     {
-      "id": "567af627-de3e-4d1b-b0dd-b4288c019604",
-      "name": "goyave",
-      "pluralName": "goyaves",
-      "description": "Fruit tropical; chair aromatique aigre-douce, fraîche ou en jus.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
-      "id": "af844723-61b6-439a-a25c-596ebba2d404",
-      "name": "melon miel",
-      "pluralName": "melons miel",
-      "description": "Melon vert sucré; frais en dessert ou en salade de fruits.",
+      "id": "29c9114d-bd57-495b-9442-153a730691b3",
+      "name": "griotte",
+      "pluralName": "griottes",
+      "description": "Cerise acide; pour les tartes, les confitures et au sirop.",
       "aliases": [
         {
-          "name": "melon honeydew"
+          "name": "cerise acide"
+        },
+        {
+          "name": "griotte"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "859dce96-4f08-4e61-a10e-1678b00c2f03",
+      "name": "groseille à maquereau",
+      "pluralName": "groseilles à maquereau",
+      "description": "Petite baie verte aigre-douce; pour les confitures et les desserts.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "a24188d1-17ca-43f0-a7a9-e67f2286c948",
+      "name": "groseille blanche",
+      "pluralName": "groseilles blanches",
+      "description": "Groseille blanche; petite baie translucide légèrement acidulée, pour la confiture.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "d2091932-dce6-48c6-a3bd-c1f252bb4357",
+      "name": "groseille rouge",
+      "pluralName": "groseilles rouges",
+      "description": "Petites grappes de baies rouges ou blanches; acidulées, pour les confitures et les sauces.",
+      "aliases": [
+        {
+          "name": "groseille rouge"
+        },
+        {
+          "name": "groseilles rouges"
         }
       ],
       "label": "Fruits"
@@ -524,18 +608,6 @@
       "label": "Fruits"
     },
     {
-      "id": "6ca8aaa3-b9a5-4b79-83a8-01ae426f6505",
-      "name": "physalis",
-      "pluralName": "physalis",
-      "description": "Petites baies orange dans une enveloppe de papier; sucrées et acidulées.",
-      "aliases": [
-        {
-          "name": "physalis"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
       "id": "33baf553-62be-464a-99cf-5d42aadd2866",
       "name": "kaki",
       "pluralName": "kakis",
@@ -549,18 +621,6 @@
         },
         {
           "name": "fruit sharon"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "ed6165a9-091e-4d01-b310-dcf2a54d37a8",
-      "name": "cerise",
-      "pluralName": "cerises",
-      "description": "Petit fruit rouge à noyau; sucré ou acide, frais ou en pâtisserie.",
-      "aliases": [
-        {
-          "name": "cherry"
         }
       ],
       "label": "Fruits"
@@ -595,34 +655,6 @@
       "label": "Fruits"
     },
     {
-      "id": "cf97fcd4-ea87-48e6-bf85-07c67cc9f9ed",
-      "name": "noix de coco",
-      "pluralName": "noix de coco",
-      "description": "Fruit tropical à chair de coco; pour les currys, la pâtisserie et le lait de coco.",
-      "aliases": [
-        {
-          "name": "coco"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "3c15d706-941c-417e-bc58-2138372d692f",
-      "name": "currant",
-      "pluralName": "currants",
-      "description": "Petits raisins secs foncés; pour les pâtisseries et le pain.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
-      "id": "859dce96-4f08-4e61-a10e-1678b00c2f03",
-      "name": "groseille à maquereau",
-      "pluralName": "groseilles à maquereau",
-      "description": "Petite baie verte aigre-douce; pour les confitures et les desserts.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
       "id": "49c85083-fcbe-4923-a834-51cd11d23602",
       "name": "kumquat",
       "pluralName": "kumquats",
@@ -633,18 +665,6 @@
         },
         {
           "name": "kumkwat"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "3a5170be-1c4d-482f-b1cb-f7642816aab7",
-      "name": "coing",
-      "pluralName": "coings",
-      "description": "Fruit jaune et ferme; cuit en gelée ou en compote.",
-      "aliases": [
-        {
-          "name": "coing"
         }
       ],
       "label": "Fruits"
@@ -677,22 +697,19 @@
       "label": "Fruits"
     },
     {
-      "id": "887bae4d-b7a6-4590-91b8-1bc7ac19f0d4",
-      "name": "lime [zeste]",
-      "pluralName": "lime [zeste]",
-      "description": "Zeste de lime; aromatique pour les desserts, currys et vinaigrettes.",
+      "id": "50f9e3f9-637a-4cec-bf25-9ec462782940",
+      "name": "lime [écorce]",
+      "pluralName": "lime [écorce]",
+      "description": "Écorce de lime; en lanières pour les currys, les liqueurs et les sirops.",
       "aliases": [
         {
-          "name": "zeste de lime"
+          "name": "écorce de lime"
         },
         {
-          "name": "zeste de lime"
+          "name": "écorce de lime"
         },
         {
-          "name": "zeste de lime"
-        },
-        {
-          "name": "zeste de lime"
+          "name": "lime peel"
         }
       ],
       "label": "Fruits"
@@ -716,39 +733,22 @@
       "label": "Fruits"
     },
     {
-      "id": "50f9e3f9-637a-4cec-bf25-9ec462782940",
-      "name": "lime [écorce]",
-      "pluralName": "lime [écorce]",
-      "description": "Écorce de lime; en lanières pour les currys, les liqueurs et les sirops.",
+      "id": "887bae4d-b7a6-4590-91b8-1bc7ac19f0d4",
+      "name": "lime [zeste]",
+      "pluralName": "lime [zeste]",
+      "description": "Zeste de lime; aromatique pour les desserts, currys et vinaigrettes.",
       "aliases": [
         {
-          "name": "écorce de lime"
+          "name": "zeste de lime"
         },
         {
-          "name": "écorce de lime"
+          "name": "zeste de lime"
         },
         {
-          "name": "lime peel"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "f8384a04-9962-4937-89d7-f469da397696",
-      "name": "longane",
-      "pluralName": "longanes",
-      "description": "Fruit tropical apparenté au litchi; chair blanche et sucrée.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
-      "id": "f9fff026-3fad-48a3-9e53-b2c782d9e696",
-      "name": "nèfle du Japon",
-      "pluralName": "nèfles du Japon",
-      "description": "Nèfle du Japon; jaune-orangé, aigre-douce, fraîche ou en confiture.",
-      "aliases": [
+          "name": "zeste de lime"
+        },
         {
-          "name": "nèfle du Japon"
+          "name": "zeste de lime"
         }
       ],
       "label": "Fruits"
@@ -766,6 +766,14 @@
       "label": "Fruits"
     },
     {
+      "id": "f8384a04-9962-4937-89d7-f469da397696",
+      "name": "longane",
+      "pluralName": "longanes",
+      "description": "Fruit tropical apparenté au litchi; chair blanche et sucrée.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
       "id": "da1e5a2b-b2cf-40bb-9938-588067238705",
       "name": "mandarine",
       "pluralName": "mandarines",
@@ -773,6 +781,18 @@
       "aliases": [
         {
           "name": "tangerine"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "2cf87c0a-d038-46c9-9951-a06db35dec0b",
+      "name": "mangoustan",
+      "pluralName": "mangoustans",
+      "description": "Fruit tropical violet; quartiers blancs à la saveur douce et aromatique.",
+      "aliases": [
+        {
+          "name": "mangoustan"
         }
       ],
       "label": "Fruits"
@@ -807,23 +827,23 @@
       "label": "Fruits"
     },
     {
-      "id": "2cf87c0a-d038-46c9-9951-a06db35dec0b",
-      "name": "mangoustan",
-      "pluralName": "mangoustans",
-      "description": "Fruit tropical violet; quartiers blancs à la saveur douce et aromatique.",
-      "aliases": [
-        {
-          "name": "mangoustan"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
       "id": "9c425bff-3037-4d09-874a-35e5f17835d0",
       "name": "melon",
       "pluralName": "melons",
       "description": "Melon sucré à chair juteuse; frais en salade de fruits ou en dessert.",
       "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "af844723-61b6-439a-a25c-596ebba2d404",
+      "name": "melon miel",
+      "pluralName": "melons miel",
+      "description": "Melon vert sucré; frais en dessert ou en salade de fruits.",
+      "aliases": [
+        {
+          "name": "melon honeydew"
+        }
+      ],
       "label": "Fruits"
     },
     {
@@ -854,11 +874,15 @@
       "label": "Fruits"
     },
     {
-      "id": "dd230c24-c597-4c2c-80db-11ac9a510278",
-      "name": "nèfle",
-      "pluralName": "nèfles",
-      "description": "Ancien fruit; chair brune et tendre, pour gelées ou compotes.",
-      "aliases": [],
+      "id": "f3ad29ea-c0b3-4212-9fac-2bb5915e968f",
+      "name": "mûre",
+      "pluralName": "mûres",
+      "description": "Baies tendres violet foncé; fraîches ou en confiture.",
+      "aliases": [
+        {
+          "name": "blackberry"
+        }
+      ],
       "label": "Fruits"
     },
     {
@@ -877,16 +901,22 @@
       "label": "Fruits"
     },
     {
-      "id": "29c9114d-bd57-495b-9442-153a730691b3",
-      "name": "griotte",
-      "pluralName": "griottes",
-      "description": "Cerise acide; pour les tartes, les confitures et au sirop.",
+      "id": "7076c424-8cdd-4db1-9950-6b683beabbed",
+      "name": "myrtille",
+      "pluralName": "myrtilles",
+      "description": "Petites baies bleues; fraîches ou en desserts et pâtisseries.",
       "aliases": [
         {
-          "name": "cerise acide"
+          "name": "blueberry"
         },
         {
-          "name": "griotte"
+          "name": "blueberries"
+        },
+        {
+          "name": "bleuet"
+        },
+        {
+          "name": "bleuets"
         }
       ],
       "label": "Fruits"
@@ -896,6 +926,138 @@
       "name": "nectarine",
       "pluralName": "nectarines",
       "description": "Fruit à noyau à peau lisse; sucré, frais ou en tarte.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "dd230c24-c597-4c2c-80db-11ac9a510278",
+      "name": "nèfle",
+      "pluralName": "nèfles",
+      "description": "Ancien fruit; chair brune et tendre, pour gelées ou compotes.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "f9fff026-3fad-48a3-9e53-b2c782d9e696",
+      "name": "nèfle du Japon",
+      "pluralName": "nèfles du Japon",
+      "description": "Nèfle du Japon; jaune-orangé, aigre-douce, fraîche ou en confiture.",
+      "aliases": [
+        {
+          "name": "nèfle du Japon"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "cf97fcd4-ea87-48e6-bf85-07c67cc9f9ed",
+      "name": "noix de coco",
+      "pluralName": "noix de coco",
+      "description": "Fruit tropical à chair de coco; pour les currys, la pâtisserie et le lait de coco.",
+      "aliases": [
+        {
+          "name": "coco"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "5caa86cc-9069-4205-9201-8ca3f7354daa",
+      "name": "orange",
+      "pluralName": "oranges",
+      "description": "Agrume sucré; fraîche ou dans les salades, desserts et sauces.",
+      "aliases": [
+        {
+          "name": "orange fraîche"
+        },
+        {
+          "name": "orange fraîche"
+        },
+        {
+          "name": "orange fraîche"
+        },
+        {
+          "name": "orange"
+        },
+        {
+          "name": "oranges"
+        },
+        {
+          "name": "oranges fraîches"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "76bb7474-03d1-40be-a62a-2436534b5599",
+      "name": "orange [écorce]",
+      "pluralName": "orange [écorce]",
+      "description": "Écorce d’orange; en lanières pour les plats mijotés, les fruits confits et les liqueurs.",
+      "aliases": [
+        {
+          "name": "écorce d’orange"
+        },
+        {
+          "name": "écorce d’orange"
+        },
+        {
+          "name": "orange peel"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "78e758df-a933-49af-8079-f93f332f2805",
+      "name": "orange [jus]",
+      "pluralName": "orange [jus]",
+      "description": "Jus d’orange; pour les sauces, marinades, pâtisseries et boissons.",
+      "aliases": [
+        {
+          "name": "jus d’orange"
+        },
+        {
+          "name": "jus d’orange"
+        },
+        {
+          "name": "orange juice"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "327b0cfd-1483-4d1d-9a8b-0fdac94946ad",
+      "name": "orange [zeste]",
+      "pluralName": "orange [zeste]",
+      "description": "Zeste d’orange; aromatique pour les pâtisseries, les desserts et les sauces.",
+      "aliases": [
+        {
+          "name": "zeste d’orange"
+        },
+        {
+          "name": "zeste d’orange"
+        },
+        {
+          "name": "zeste d’orange"
+        },
+        {
+          "name": "zeste d’orange"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
+      "id": "fac36d7b-5b8b-4518-a386-79fdddee1fc1",
+      "name": "orange sanguine",
+      "pluralName": "oranges sanguines",
+      "description": "Orange à chair rouge; fraîche ou en jus.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "96373953-4bed-45fc-8d44-370cd7d7f37b",
+      "name": "pamplemousse",
+      "pluralName": "pamplemousses",
+      "description": "Grand agrume; amer et acidulé, en fruit de déjeuner ou en jus.",
       "aliases": [],
       "label": "Fruits"
     },
@@ -915,16 +1077,29 @@
       "label": "Fruits"
     },
     {
-      "id": "4a148b3d-e03d-41a9-9650-5863c154b7b5",
-      "name": "fruit de la passion",
-      "pluralName": "fruits de la passion",
-      "description": "Fruit tropical à pulpe aigre-douce; pour les desserts, les boissons et les sauces.",
+      "id": "7c8a447a-baf2-4fb8-a4b2-8325cd010f94",
+      "name": "pastèque",
+      "pluralName": "pastèques",
+      "description": "Gros fruit à chair rouge et juteuse; très rafraîchissant.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "da14b0d4-03fd-4d53-9d49-05c5cd2a8f4d",
+      "name": "pêche",
+      "pluralName": "pêches",
+      "description": "Fruit à noyau; chair orange juteuse et sucrée avec peau duveteuse.",
+      "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "6ca8aaa3-b9a5-4b79-83a8-01ae426f6505",
+      "name": "physalis",
+      "pluralName": "physalis",
+      "description": "Petites baies orange dans une enveloppe de papier; sucrées et acidulées.",
       "aliases": [
         {
-          "name": "passionfruit"
-        },
-        {
-          "name": "maracuja"
+          "name": "physalis"
         }
       ],
       "label": "Fruits"
@@ -938,11 +1113,15 @@
       "label": "Fruits"
     },
     {
-      "id": "da14b0d4-03fd-4d53-9d49-05c5cd2a8f4d",
-      "name": "pêche",
-      "pluralName": "pêches",
-      "description": "Fruit à noyau; chair orange juteuse et sucrée avec peau duveteuse.",
-      "aliases": [],
+      "id": "853ac361-1ad8-4323-b43e-305055ef7dce",
+      "name": "poire à cuire",
+      "pluralName": "poires à cuire",
+      "description": "Poire adaptée à la cuisson; mijotée lentement dans le vin ou le sirop.",
+      "aliases": [
+        {
+          "name": "poire à cuire"
+        }
+      ],
       "label": "Fruits"
     },
     {
@@ -951,6 +1130,18 @@
       "pluralName": "pomelos",
       "description": "Gros agrume; chair blanche légèrement sucrée, fraîche en quartiers.",
       "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "335cc390-d3ef-405c-9ff7-1eb89d6c3a31",
+      "name": "pomme",
+      "pluralName": "pommes",
+      "description": "Fruit; frais, en desserts, en salades ou comme collation.",
+      "aliases": [
+        {
+          "name": "petite pomme"
+        }
+      ],
       "label": "Fruits"
     },
     {
@@ -989,34 +1180,10 @@
       "label": "Fruits"
     },
     {
-      "id": "9f5251ec-d38b-435e-bb0a-458db7f7bae5",
-      "name": "ramboutan",
-      "pluralName": "ramboutans",
-      "description": "Fruit tropical à peau rouge et poilue; chair blanche et sucrée.",
-      "aliases": [
-        {
-          "name": "rambutan"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "08830d83-4c26-40e9-af55-59bb498e8017",
-      "name": "airelle rouge",
-      "pluralName": "airelles rouges",
-      "description": "Petite baie rouge acidulée; pour les compotes avec le gibier.",
-      "aliases": [
-        {
-          "name": "lingonberry"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "67d626e6-4987-479c-a23e-e1b626dadfcb",
-      "name": "cynorhodon",
-      "pluralName": "cynorhodons",
-      "description": "Fruit de l’églantier; pour les sirops, confitures ou tisanes.",
+      "id": "d8690fdd-04f3-4121-87d4-71fdcd37a113",
+      "name": "raisin",
+      "pluralName": "raisins",
+      "description": "Fruit; frais comme raisin de table ou pressé en jus et en vin.",
       "aliases": [],
       "label": "Fruits"
     },
@@ -1026,6 +1193,18 @@
       "pluralName": "raisins secs",
       "description": "Raisins séchés; sucrés, pour les pâtisseries, le pain et comme collation.",
       "aliases": [],
+      "label": "Fruits"
+    },
+    {
+      "id": "9f5251ec-d38b-435e-bb0a-458db7f7bae5",
+      "name": "ramboutan",
+      "pluralName": "ramboutans",
+      "description": "Fruit tropical à peau rouge et poilue; chair blanche et sucrée.",
+      "aliases": [
+        {
+          "name": "rambutan"
+        }
+      ],
       "label": "Fruits"
     },
     {
@@ -1061,102 +1240,6 @@
       "label": "Fruits"
     },
     {
-      "id": "5caa86cc-9069-4205-9201-8ca3f7354daa",
-      "name": "orange",
-      "pluralName": "oranges",
-      "description": "Agrume sucré; fraîche ou dans les salades, desserts et sauces.",
-      "aliases": [
-        {
-          "name": "orange fraîche"
-        },
-        {
-          "name": "orange fraîche"
-        },
-        {
-          "name": "orange fraîche"
-        },
-        {
-          "name": "orange"
-        },
-        {
-          "name": "oranges"
-        },
-        {
-          "name": "oranges fraîches"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "327b0cfd-1483-4d1d-9a8b-0fdac94946ad",
-      "name": "orange [zeste]",
-      "pluralName": "orange [zeste]",
-      "description": "Zeste d’orange; aromatique pour les pâtisseries, les desserts et les sauces.",
-      "aliases": [
-        {
-          "name": "zeste d’orange"
-        },
-        {
-          "name": "zeste d’orange"
-        },
-        {
-          "name": "zeste d’orange"
-        },
-        {
-          "name": "zeste d’orange"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "78e758df-a933-49af-8079-f93f332f2805",
-      "name": "orange [jus]",
-      "pluralName": "orange [jus]",
-      "description": "Jus d’orange; pour les sauces, marinades, pâtisseries et boissons.",
-      "aliases": [
-        {
-          "name": "jus d’orange"
-        },
-        {
-          "name": "jus d’orange"
-        },
-        {
-          "name": "orange juice"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "76bb7474-03d1-40be-a62a-2436534b5599",
-      "name": "orange [écorce]",
-      "pluralName": "orange [écorce]",
-      "description": "Écorce d’orange; en lanières pour les plats mijotés, les fruits confits et les liqueurs.",
-      "aliases": [
-        {
-          "name": "écorce d’orange"
-        },
-        {
-          "name": "écorce d’orange"
-        },
-        {
-          "name": "orange peel"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "853ac361-1ad8-4323-b43e-305055ef7dce",
-      "name": "poire à cuire",
-      "pluralName": "poires à cuire",
-      "description": "Poire adaptée à la cuisson; mijotée lentement dans le vin ou le sirop.",
-      "aliases": [
-        {
-          "name": "poire à cuire"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
       "id": "e73231b0-bff9-440f-875c-352482603e81",
       "name": "tamarillo",
       "pluralName": "tamarillos",
@@ -1184,94 +1267,11 @@
       "label": "Fruits"
     },
     {
-      "id": "a541b40a-57d6-4196-9622-8f4f0e46a942",
-      "name": "figue",
-      "pluralName": "figues",
-      "description": "Fruit tendre et sucré; frais en salades, desserts ou avec du fromage.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
-      "id": "5d0908fc-8509-4b56-bb0a-dae350138bec",
-      "name": "figue [séchée]",
-      "pluralName": "figues [séchées]",
-      "description": "Figue séchée; sucrée en pâtisserie, au déjeuner ou avec du fromage.",
-      "aliases": [
-        {
-          "name": "figue séchée"
-        },
-        {
-          "name": "figues séchées"
-        },
-        {
-          "name": "figue séchée"
-        },
-        {
-          "name": "figues séchées"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "29a2c2df-2ec4-472c-b2a6-795097bbe2c4",
-      "name": "baie de sureau",
-      "pluralName": "baies de sureau",
-      "description": "Baie violet foncé du sureau; cuite en sirop ou en jus.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
-      "id": "7c8a447a-baf2-4fb8-a4b2-8325cd010f94",
-      "name": "pastèque",
-      "pluralName": "pastèques",
-      "description": "Gros fruit à chair rouge et juteuse; très rafraîchissant.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
-      "id": "a24188d1-17ca-43f0-a7a9-e67f2286c948",
-      "name": "groseille blanche",
-      "pluralName": "groseilles blanches",
-      "description": "Groseille blanche; petite baie translucide légèrement acidulée, pour la confiture.",
-      "aliases": [],
-      "label": "Fruits"
-    },
-    {
       "id": "676224fd-000a-4820-abe9-da7f15ded6d1",
       "name": "yuzu",
       "pluralName": "yuzu",
       "description": "Agrume japonais; jus très aromatique comme assaisonnement.",
       "aliases": [],
-      "label": "Fruits"
-    },
-    {
-      "id": "d0839555-375d-4293-a326-1a3c10cef32f",
-      "name": "corossol",
-      "pluralName": "corossols",
-      "description": "Fruit tropical à chair blanche aigre-douce; pour les jus ou les desserts glacés.",
-      "aliases": [
-        {
-          "name": "guanabana"
-        },
-        {
-          "name": "soursop"
-        }
-      ],
-      "label": "Fruits"
-    },
-    {
-      "id": "3fb137f7-ed7c-465b-a232-29438d31f12d",
-      "name": "cassis",
-      "pluralName": "cassis",
-      "description": "Baie sombre et aromatique; pour les sirops, liqueurs ou confitures.",
-      "aliases": [
-        {
-          "name": "baie de cassis"
-        },
-        {
-          "name": "cassis noir"
-        }
-      ],
       "label": "Fruits"
     }
   ]

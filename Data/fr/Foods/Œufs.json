@@ -4,28 +4,19 @@
   "$version": "1.0",
   "items": [
     {
-      "id": "5a304aab-229d-4cc9-ab0f-374aa9de1cf2",
-      "name": "œuf",
-      "pluralName": "œufs",
-      "description": "Œuf de poule; lie et enrichit les pâtes, les appareils et les sauces.",
+      "id": "a42814d9-ce2e-400d-8221-93f32e32de1f",
+      "name": "blanc d’œuf",
+      "pluralName": "blancs d’œufs",
+      "description": "Blanc d’œuf; monté en neige pour les mousses, meringues et desserts aériens.",
       "aliases": [
         {
-          "name": "œuf de poule"
+          "name": "blanc d'oeuf"
         },
         {
-          "name": "œufs de poule"
+          "name": "albumen"
         },
         {
-          "name": "petit œuf"
-        },
-        {
-          "name": "petits œufs"
-        },
-        {
-          "name": "œuf"
-        },
-        {
-          "name": "œuf de poule"
+          "name": "blancs d’œufs"
         }
       ],
       "label": "Œufs"
@@ -55,19 +46,28 @@
       "label": "Œufs"
     },
     {
-      "id": "a42814d9-ce2e-400d-8221-93f32e32de1f",
-      "name": "blanc d’œuf",
-      "pluralName": "blancs d’œufs",
-      "description": "Blanc d’œuf; monté en neige pour les mousses, meringues et desserts aériens.",
+      "id": "5a304aab-229d-4cc9-ab0f-374aa9de1cf2",
+      "name": "œuf",
+      "pluralName": "œufs",
+      "description": "Œuf de poule; lie et enrichit les pâtes, les appareils et les sauces.",
       "aliases": [
         {
-          "name": "blanc d'oeuf"
+          "name": "œuf de poule"
         },
         {
-          "name": "albumen"
+          "name": "œufs de poule"
         },
         {
-          "name": "blancs d’œufs"
+          "name": "petit œuf"
+        },
+        {
+          "name": "petits œufs"
+        },
+        {
+          "name": "œuf"
+        },
+        {
+          "name": "œuf de poule"
         }
       ],
       "label": "Œufs"

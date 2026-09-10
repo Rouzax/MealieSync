@@ -19,29 +19,29 @@
       "label": "Pain et pâtisserie"
     },
     {
+      "id": "17a0ca5a-260e-4911-8a0a-438654f10243",
+      "name": "baguette",
+      "pluralName": "baguettes",
+      "description": "Long pain français; croûte croustillante.",
+      "aliases": [
+        {
+          "name": "baguette"
+        },
+        {
+          "name": "baguettes"
+        },
+        {
+          "name": "petites baguettes"
+        }
+      ],
+      "label": "Pain et pâtisserie"
+    },
+    {
       "id": "ce3ec77e-f223-4062-b6d6-efd28000556b",
       "name": "biscotte",
       "pluralName": "biscottes",
       "description": "Produit de boulangerie cuit deux fois; léger et croustillant, souvent tartiné.",
       "aliases": [],
-      "label": "Pain et pâtisserie"
-    },
-    {
-      "id": "b908fa0c-8578-4561-aab8-60c8b880bef4",
-      "name": "pâte feuilletée",
-      "pluralName": "pâte feuilletée",
-      "description": "Pâte beurrée en couches; pour les pâtisseries salées et sucrées.",
-      "aliases": [
-        {
-          "name": "puff pastry"
-        },
-        {
-          "name": "abaisse de pâte feuilletée"
-        },
-        {
-          "name": "abaisses de pâte feuilletée"
-        }
-      ],
       "label": "Pain et pâtisserie"
     },
     {
@@ -63,24 +63,16 @@
       "label": "Pain et pâtisserie"
     },
     {
-      "id": "44f23e74-832b-4852-ba6b-1b68684ce60c",
-      "name": "pain",
-      "pluralName": "pains",
-      "description": "Pâte cuite à base de farine, d’eau et de levure; aliment de base.",
-      "aliases": [],
-      "label": "Pain et pâtisserie"
-    },
-    {
-      "id": "179bedfc-07d1-47a2-a8c8-d72976918c41",
-      "name": "mie de pain",
-      "pluralName": "mie de pain",
-      "description": "Mie de pain grossière; pour les farces, le liant ou une garniture croustillante.",
+      "id": "eb49f884-c821-4c83-95cf-042e3194f3c3",
+      "name": "chapelure",
+      "pluralName": "chapelure",
+      "description": "Mie de pain fine; pour paner ou lier.",
       "aliases": [
         {
-          "name": "miettes de pain"
+          "name": "breadcrumbs"
         },
         {
-          "name": "mie"
+          "name": "chapelure fine"
         }
       ],
       "label": "Pain et pâtisserie"
@@ -124,33 +116,25 @@
       "label": "Pain et pâtisserie"
     },
     {
-      "id": "04f0643a-244f-4e4e-a89c-586d11624bae",
-      "name": "gâteau aux œufs",
-      "pluralName": "gâteaux aux œufs",
-      "description": "Petit gâteau plat et moelleux aux œufs; souvent mangé en collation.",
-      "aliases": [],
-      "label": "Pain et pâtisserie"
-    },
-    {
-      "id": "83695301-ab02-4ff9-a910-0f8b763f0781",
-      "name": "pâte filo",
-      "pluralName": "pâte filo",
-      "description": "Feuille de pâte très fine; pour le baklava et les feuilletés salés.",
+      "id": "d719dea1-49d2-46d8-bffc-ee8a041a7c45",
+      "name": "feuille pour rouleau impérial",
+      "pluralName": "feuilles pour rouleaux impériaux",
+      "description": "Fines feuilles de pâte pour rouleaux impériaux; garnies puis frites.",
       "aliases": [
         {
-          "name": "pâte phyllo"
+          "name": "feuille à rouleau impérial"
         },
         {
-          "name": "filo"
+          "name": "feuilles à rouleaux impériaux"
         },
         {
-          "name": "phyllo"
+          "name": "feuille de spring roll"
         },
         {
-          "name": "pâte phyllo"
+          "name": "feuilles de spring roll"
         },
         {
-          "name": "pâte filo"
+          "name": "feuilles à spring rolls"
         }
       ],
       "label": "Pain et pâtisserie"
@@ -168,6 +152,88 @@
           "name": "pain de focaccia"
         }
       ],
+      "label": "Pain et pâtisserie"
+    },
+    {
+      "id": "04f0643a-244f-4e4e-a89c-586d11624bae",
+      "name": "gâteau aux œufs",
+      "pluralName": "gâteaux aux œufs",
+      "description": "Petit gâteau plat et moelleux aux œufs; souvent mangé en collation.",
+      "aliases": [],
+      "label": "Pain et pâtisserie"
+    },
+    {
+      "id": "1aa5ba45-3bc4-45ce-9e91-bb15126f076e",
+      "name": "matza",
+      "pluralName": "matzas",
+      "description": "Pain plat juif non levé; fin et croustillant.",
+      "aliases": [
+        {
+          "name": "matzo"
+        },
+        {
+          "name": "matzot"
+        },
+        {
+          "name": "matsa"
+        }
+      ],
+      "label": "Pain et pâtisserie"
+    },
+    {
+      "id": "179bedfc-07d1-47a2-a8c8-d72976918c41",
+      "name": "mie de pain",
+      "pluralName": "mie de pain",
+      "description": "Mie de pain grossière; pour les farces, le liant ou une garniture croustillante.",
+      "aliases": [
+        {
+          "name": "miettes de pain"
+        },
+        {
+          "name": "mie"
+        }
+      ],
+      "label": "Pain et pâtisserie"
+    },
+    {
+      "id": "f94b3bbd-c956-4697-b2a8-6eb3ba54f841",
+      "name": "mini tortilla de blé",
+      "pluralName": "mini tortillas de blé",
+      "description": "Petite tortilla de blé; pour les mini-wraps et bouchées.",
+      "aliases": [
+        {
+          "name": "mini flour tortilla"
+        },
+        {
+          "name": "petite tortilla de blé"
+        }
+      ],
+      "label": "Pain et pâtisserie"
+    },
+    {
+      "id": "8e1cdd7c-3341-44e5-bcab-6be837b4640f",
+      "name": "mini tortilla de maïs",
+      "pluralName": "mini tortillas de maïs",
+      "description": "Petite tortilla de maïs; idéale pour les tacos de rue.",
+      "aliases": [
+        {
+          "name": "mini corn tortilla"
+        },
+        {
+          "name": "mini tortilla"
+        },
+        {
+          "name": "petite tortilla de maïs"
+        }
+      ],
+      "label": "Pain et pâtisserie"
+    },
+    {
+      "id": "44f23e74-832b-4852-ba6b-1b68684ce60c",
+      "name": "pain",
+      "pluralName": "pains",
+      "description": "Pâte cuite à base de farine, d’eau et de levure; aliment de base.",
+      "aliases": [],
       "label": "Pain et pâtisserie"
     },
     {
@@ -212,120 +278,19 @@
       "label": "Pain et pâtisserie"
     },
     {
-      "id": "066a7740-9bc9-4ad6-9001-e66fc518758f",
-      "name": "pain libanais",
-      "pluralName": "pains libanais",
-      "description": "Pain plat mince; pour les wraps et les trempettes.",
-      "aliases": [],
-      "label": "Pain et pâtisserie"
-    },
-    {
-      "id": "d719dea1-49d2-46d8-bffc-ee8a041a7c45",
-      "name": "feuille pour rouleau impérial",
-      "pluralName": "feuilles pour rouleaux impériaux",
-      "description": "Fines feuilles de pâte pour rouleaux impériaux; garnies puis frites.",
+      "id": "459e988d-e462-4dcc-854a-45dca843c284",
+      "name": "pain de mie",
+      "pluralName": "pains de mie",
+      "description": "Pain tendre tranché; adapté aux rôties et sandwiches.",
       "aliases": [
         {
-          "name": "feuille à rouleau impérial"
+          "name": "pain à toast"
         },
         {
-          "name": "feuilles à rouleaux impériaux"
+          "name": "toast"
         },
         {
-          "name": "feuille de spring roll"
-        },
-        {
-          "name": "feuilles de spring roll"
-        },
-        {
-          "name": "feuilles à spring rolls"
-        }
-      ],
-      "label": "Pain et pâtisserie"
-    },
-    {
-      "id": "6ea26efd-2a8c-49dd-a180-ceee8dc07cde",
-      "name": "tortilla de maïs",
-      "pluralName": "tortillas de maïs",
-      "description": "Pain plat mexicain à base de farine de maïs; sans gluten, pour les tacos et enchiladas.",
-      "aliases": [
-        {
-          "name": "tortilla maïs"
-        },
-        {
-          "name": "tortillas maïs"
-        },
-        {
-          "name": "corn tortilla"
-        },
-        {
-          "name": "corn tortillas"
-        }
-      ],
-      "label": "Pain et pâtisserie"
-    },
-    {
-      "id": "1aa5ba45-3bc4-45ce-9e91-bb15126f076e",
-      "name": "matza",
-      "pluralName": "matzas",
-      "description": "Pain plat juif non levé; fin et croustillant.",
-      "aliases": [
-        {
-          "name": "matzo"
-        },
-        {
-          "name": "matzot"
-        },
-        {
-          "name": "matsa"
-        }
-      ],
-      "label": "Pain et pâtisserie"
-    },
-    {
-      "id": "8e1cdd7c-3341-44e5-bcab-6be837b4640f",
-      "name": "mini tortilla de maïs",
-      "pluralName": "mini tortillas de maïs",
-      "description": "Petite tortilla de maïs; idéale pour les tacos de rue.",
-      "aliases": [
-        {
-          "name": "mini corn tortilla"
-        },
-        {
-          "name": "mini tortilla"
-        },
-        {
-          "name": "petite tortilla de maïs"
-        }
-      ],
-      "label": "Pain et pâtisserie"
-    },
-    {
-      "id": "f94b3bbd-c956-4697-b2a8-6eb3ba54f841",
-      "name": "mini tortilla de blé",
-      "pluralName": "mini tortillas de blé",
-      "description": "Petite tortilla de blé; pour les mini-wraps et bouchées.",
-      "aliases": [
-        {
-          "name": "mini flour tortilla"
-        },
-        {
-          "name": "petite tortilla de blé"
-        }
-      ],
-      "label": "Pain et pâtisserie"
-    },
-    {
-      "id": "96890137-ff39-42ff-b096-d67ee27ae2df",
-      "name": "pain naan",
-      "pluralName": "pains naan",
-      "description": "Pain plat indien; moelleux, servi avec les currys.",
-      "aliases": [
-        {
-          "name": "naan"
-        },
-        {
-          "name": "naans"
+          "name": "pain à sandwich"
         }
       ],
       "label": "Pain et pâtisserie"
@@ -343,31 +308,24 @@
       "label": "Pain et pâtisserie"
     },
     {
-      "id": "eb49f884-c821-4c83-95cf-042e3194f3c3",
-      "name": "chapelure",
-      "pluralName": "chapelure",
-      "description": "Mie de pain fine; pour paner ou lier.",
-      "aliases": [
-        {
-          "name": "breadcrumbs"
-        },
-        {
-          "name": "chapelure fine"
-        }
-      ],
+      "id": "066a7740-9bc9-4ad6-9001-e66fc518758f",
+      "name": "pain libanais",
+      "pluralName": "pains libanais",
+      "description": "Pain plat mince; pour les wraps et les trempettes.",
+      "aliases": [],
       "label": "Pain et pâtisserie"
     },
     {
-      "id": "e557ac6f-fcf2-4a70-84f2-e3b51d522155",
-      "name": "panko",
-      "pluralName": "panko",
-      "description": "Chapelure japonaise grossière; donne une croûte très croustillante.",
+      "id": "96890137-ff39-42ff-b096-d67ee27ae2df",
+      "name": "pain naan",
+      "pluralName": "pains naan",
+      "description": "Pain plat indien; moelleux, servi avec les currys.",
       "aliases": [
         {
-          "name": "panko breadcrumbs"
+          "name": "naan"
         },
         {
-          "name": "chapelure panko"
+          "name": "naans"
         }
       ],
       "label": "Pain et pâtisserie"
@@ -391,6 +349,36 @@
       "label": "Pain et pâtisserie"
     },
     {
+      "id": "9d2cf2a5-ab84-41b3-ad7b-a1008659055b",
+      "name": "pain turc",
+      "pluralName": "pains turcs",
+      "description": "Grand pain plat; moelleux, pour le kebab et les wraps.",
+      "aliases": [
+        {
+          "name": "pide"
+        },
+        {
+          "name": "pain plat turc"
+        }
+      ],
+      "label": "Pain et pâtisserie"
+    },
+    {
+      "id": "e557ac6f-fcf2-4a70-84f2-e3b51d522155",
+      "name": "panko",
+      "pluralName": "panko",
+      "description": "Chapelure japonaise grossière; donne une croûte très croustillante.",
+      "aliases": [
+        {
+          "name": "panko breadcrumbs"
+        },
+        {
+          "name": "chapelure panko"
+        }
+      ],
+      "label": "Pain et pâtisserie"
+    },
+    {
       "id": "23f2e29a-d8f1-457b-a743-b049b3de7fce",
       "name": "pâte à pizza",
       "pluralName": "pâte à pizza",
@@ -409,19 +397,43 @@
       "label": "Pain et pâtisserie"
     },
     {
-      "id": "17a0ca5a-260e-4911-8a0a-438654f10243",
-      "name": "baguette",
-      "pluralName": "baguettes",
-      "description": "Long pain français; croûte croustillante.",
+      "id": "b908fa0c-8578-4561-aab8-60c8b880bef4",
+      "name": "pâte feuilletée",
+      "pluralName": "pâte feuilletée",
+      "description": "Pâte beurrée en couches; pour les pâtisseries salées et sucrées.",
       "aliases": [
         {
-          "name": "baguette"
+          "name": "puff pastry"
         },
         {
-          "name": "baguettes"
+          "name": "abaisse de pâte feuilletée"
         },
         {
-          "name": "petites baguettes"
+          "name": "abaisses de pâte feuilletée"
+        }
+      ],
+      "label": "Pain et pâtisserie"
+    },
+    {
+      "id": "83695301-ab02-4ff9-a910-0f8b763f0781",
+      "name": "pâte filo",
+      "pluralName": "pâte filo",
+      "description": "Feuille de pâte très fine; pour le baklava et les feuilletés salés.",
+      "aliases": [
+        {
+          "name": "pâte phyllo"
+        },
+        {
+          "name": "filo"
+        },
+        {
+          "name": "phyllo"
+        },
+        {
+          "name": "pâte phyllo"
+        },
+        {
+          "name": "pâte filo"
         }
       ],
       "label": "Pain et pâtisserie"
@@ -448,34 +460,22 @@
       "label": "Pain et pâtisserie"
     },
     {
-      "id": "459e988d-e462-4dcc-854a-45dca843c284",
-      "name": "pain de mie",
-      "pluralName": "pains de mie",
-      "description": "Pain tendre tranché; adapté aux rôties et sandwiches.",
+      "id": "6ea26efd-2a8c-49dd-a180-ceee8dc07cde",
+      "name": "tortilla de maïs",
+      "pluralName": "tortillas de maïs",
+      "description": "Pain plat mexicain à base de farine de maïs; sans gluten, pour les tacos et enchiladas.",
       "aliases": [
         {
-          "name": "pain à toast"
+          "name": "tortilla maïs"
         },
         {
-          "name": "toast"
+          "name": "tortillas maïs"
         },
         {
-          "name": "pain à sandwich"
-        }
-      ],
-      "label": "Pain et pâtisserie"
-    },
-    {
-      "id": "9d2cf2a5-ab84-41b3-ad7b-a1008659055b",
-      "name": "pain turc",
-      "pluralName": "pains turcs",
-      "description": "Grand pain plat; moelleux, pour le kebab et les wraps.",
-      "aliases": [
-        {
-          "name": "pide"
+          "name": "corn tortilla"
         },
         {
-          "name": "pain plat turc"
+          "name": "corn tortillas"
         }
       ],
       "label": "Pain et pâtisserie"

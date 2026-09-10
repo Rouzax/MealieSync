@@ -4,6 +4,18 @@
   "$version": "1.0",
   "items": [
     {
+      "id": "18b5bc5d-6364-41a5-b1ce-0642d5b8e5a5",
+      "name": "aneth [frais]",
+      "pluralName": "aneth [frais]",
+      "description": "Herbe aromatique; avec poisson, pommes de terre et concombre.",
+      "aliases": [
+        {
+          "name": "aneth frais"
+        }
+      ],
+      "label": "Herbes fraîches"
+    },
+    {
       "id": "4d52b385-17e0-4064-b070-6d05f3253646",
       "name": "basilic [frais]",
       "pluralName": "basilic [frais]",
@@ -11,6 +23,36 @@
       "aliases": [
         {
           "name": "basilic frais"
+        }
+      ],
+      "label": "Herbes fraîches"
+    },
+    {
+      "id": "a036a2df-fb19-4e07-a2ac-f8a6934c2b6c",
+      "name": "basilic thaï [frais]",
+      "pluralName": "basilic thaï [frais]",
+      "description": "Basilic au parfum anisé; dans sautés et currys.",
+      "aliases": [
+        {
+          "name": "basilic asiatique"
+        },
+        {
+          "name": "thai basil"
+        },
+        {
+          "name": "basilic thaï frais"
+        }
+      ],
+      "label": "Herbes fraîches"
+    },
+    {
+      "id": "5e464009-08f2-4839-8bd2-dc6c1510e55d",
+      "name": "bouquet garni",
+      "pluralName": "bouquets garnis",
+      "description": "Bouquet d’herbes; infusé dans bouillons et plats mijotés.",
+      "aliases": [
+        {
+          "name": "bouquet-garni"
         }
       ],
       "label": "Herbes fraîches"
@@ -34,6 +76,18 @@
       "label": "Herbes fraîches"
     },
     {
+      "id": "8d582feb-806c-4b98-ba64-f1cf37a333bf",
+      "name": "cerfeuil [frais]",
+      "pluralName": "cerfeuil [frais]",
+      "description": "Herbe douce anisée; dans soupes, omelettes et sauces.",
+      "aliases": [
+        {
+          "name": "cerfeuil frais"
+        }
+      ],
+      "label": "Herbes fraîches"
+    },
+    {
       "id": "17b4fbbe-dcca-48ce-810e-3f79adde3d01",
       "name": "ciboulette [fraîche]",
       "pluralName": "ciboulette [fraîche]",
@@ -41,63 +95,6 @@
       "aliases": [
         {
           "name": "ciboulette fraîche"
-        }
-      ],
-      "label": "Herbes fraîches"
-    },
-    {
-      "id": "d8d264a1-de7a-46c5-9e59-0fdf1c171039",
-      "name": "feuilles de céleri [fraîches]",
-      "pluralName": "feuilles de céleri [fraîches]",
-      "description": "Feuilles de céleri; dans les soupes, bouillons et sauces.",
-      "aliases": [
-        {
-          "name": "celery leaves"
-        },
-        {
-          "name": "feuille de céleri"
-        },
-        {
-          "name": "feuilles de céleri"
-        },
-        {
-          "name": "céleri à couper"
-        }
-      ],
-      "label": "Herbes fraîches"
-    },
-    {
-      "id": "4e3fe72c-a9ce-49e9-abb0-676e7e1493b0",
-      "name": "sarriette [fraîche]",
-      "pluralName": "sarriette [fraîche]",
-      "description": "Herbe au goût poivré; cuite avec haricots et légumineuses.",
-      "aliases": [
-        {
-          "name": "sarriette fraîche"
-        }
-      ],
-      "label": "Herbes fraîches"
-    },
-    {
-      "id": "5e464009-08f2-4839-8bd2-dc6c1510e55d",
-      "name": "bouquet garni",
-      "pluralName": "bouquets garnis",
-      "description": "Bouquet d’herbes; infusé dans bouillons et plats mijotés.",
-      "aliases": [
-        {
-          "name": "bouquet-garni"
-        }
-      ],
-      "label": "Herbes fraîches"
-    },
-    {
-      "id": "0395ee2a-8ccd-4e1d-b173-6e61343396d5",
-      "name": "ortie [fraîche]",
-      "pluralName": "orties [fraîches]",
-      "description": "Jeune ortie; brièvement blanchie dans soupes, purées ou tisanes.",
-      "aliases": [
-        {
-          "name": "ortie fraîche"
         }
       ],
       "label": "Herbes fraîches"
@@ -121,52 +118,22 @@
       "label": "Herbes fraîches"
     },
     {
-      "id": "0c529898-2c79-4503-97a8-7b1a6dd8bc19",
-      "name": "mélisse [fraîche]",
-      "pluralName": "mélisse [fraîche]",
-      "description": "Herbe fraîche citronnée; dans les tisanes, salades et desserts.",
+      "id": "78482de9-075f-4546-9777-20a73da53c48",
+      "name": "coriandre [fraîche]",
+      "pluralName": "coriandre [fraîche]",
+      "description": "Feuilles de coriandre; garniture fraîche en cuisine asiatique et mexicaine.",
       "aliases": [
         {
-          "name": "lemon balm"
+          "name": "cilantro"
         },
         {
-          "name": "citronmelisse"
+          "name": "feuille de coriandre"
         },
         {
-          "name": "mélisse"
+          "name": "feuilles de coriandre"
         },
         {
-          "name": "mélisse fraîche"
-        }
-      ],
-      "label": "Herbes fraîches"
-    },
-    {
-      "id": "9d1f5554-8e92-41d8-926c-ee1b4a15cfa1",
-      "name": "verveine citronnelle [fraîche]",
-      "pluralName": "verveine citronnelle [fraîche]",
-      "description": "Herbe au fort arôme citronné; pour tisanes et desserts.",
-      "aliases": [
-        {
-          "name": "lemon verbena"
-        },
-        {
-          "name": "verveine"
-        },
-        {
-          "name": "verveine citronnelle fraîche"
-        }
-      ],
-      "label": "Herbes fraîches"
-    },
-    {
-      "id": "18b5bc5d-6364-41a5-b1ce-0642d5b8e5a5",
-      "name": "aneth [frais]",
-      "pluralName": "aneth [frais]",
-      "description": "Herbe aromatique; avec poisson, pommes de terre et concombre.",
-      "aliases": [
-        {
-          "name": "aneth frais"
+          "name": "coriandre fraîche"
         }
       ],
       "label": "Herbes fraîches"
@@ -214,91 +181,43 @@
       "label": "Herbes fraîches"
     },
     {
-      "id": "8d582feb-806c-4b98-ba64-f1cf37a333bf",
-      "name": "cerfeuil [frais]",
-      "pluralName": "cerfeuil [frais]",
-      "description": "Herbe douce anisée; dans soupes, omelettes et sauces.",
+      "id": "d8d264a1-de7a-46c5-9e59-0fdf1c171039",
+      "name": "feuilles de céleri [fraîches]",
+      "pluralName": "feuilles de céleri [fraîches]",
+      "description": "Feuilles de céleri; dans les soupes, bouillons et sauces.",
       "aliases": [
         {
-          "name": "cerfeuil frais"
+          "name": "celery leaves"
+        },
+        {
+          "name": "feuille de céleri"
+        },
+        {
+          "name": "feuilles de céleri"
+        },
+        {
+          "name": "céleri à couper"
         }
       ],
       "label": "Herbes fraîches"
     },
     {
-      "id": "78482de9-075f-4546-9777-20a73da53c48",
-      "name": "coriandre [fraîche]",
-      "pluralName": "coriandre [fraîche]",
-      "description": "Feuilles de coriandre; garniture fraîche en cuisine asiatique et mexicaine.",
+      "id": "b0f4e8b3-e084-4161-a563-64bc6c14b823",
+      "name": "feuilles de combava [fraîches]",
+      "pluralName": "feuilles de combava [fraîches]",
+      "description": "Feuille d’agrume de combava; dans currys et soupes thaïlandaises.",
       "aliases": [
         {
-          "name": "cilantro"
+          "name": "makrut lime leaves"
         },
         {
-          "name": "feuille de coriandre"
+          "name": "feuille de combava"
         },
         {
-          "name": "feuilles de coriandre"
+          "name": "combava"
         },
         {
-          "name": "coriandre fraîche"
-        }
-      ],
-      "label": "Herbes fraîches"
-    },
-    {
-      "id": "ecd2503f-10ce-4b18-91fb-23a420c88a93",
-      "name": "tiges de coriandre [fraîches]",
-      "pluralName": "tiges de coriandre [fraîches]",
-      "description": "Tiges de coriandre; finement hachées dans currys, soupes et salsa.",
-      "aliases": [
-        {
-          "name": "tige de coriandre"
-        },
-        {
-          "name": "tiges de coriandre"
-        },
-        {
-          "name": "queue de coriandre"
-        },
-        {
-          "name": "queues de coriandre"
-        }
-      ],
-      "label": "Herbes fraîches"
-    },
-    {
-      "id": "ce6c2e76-24e3-4aee-8a96-da7185ddcba5",
-      "name": "menthe verte [fraîche]",
-      "pluralName": "menthe verte [fraîche]",
-      "description": "Variété de menthe au goût doux; dans salades, sauces et tisanes.",
-      "aliases": [
-        {
-          "name": "spearmint"
-        },
-        {
-          "name": "menthe douce"
-        },
-        {
-          "name": "menthe verte fraîche"
-        }
-      ],
-      "label": "Herbes fraîches"
-    },
-    {
-      "id": "a3445923-ee35-47dc-85c2-b7588d2c7a46",
-      "name": "persil frisé [frais]",
-      "pluralName": "persil frisé [frais]",
-      "description": "Persil frisé; en garniture et dans les sauces.",
-      "aliases": [
-        {
-          "name": "curly parsley"
-        },
-        {
-          "name": "persil frisé"
-        },
-        {
-          "name": "persil frais"
+          "name": "feuilles de makrut"
         }
       ],
       "label": "Herbes fraîches"
@@ -337,27 +256,6 @@
       "label": "Herbes fraîches"
     },
     {
-      "id": "b0f4e8b3-e084-4161-a563-64bc6c14b823",
-      "name": "feuilles de combava [fraîches]",
-      "pluralName": "feuilles de combava [fraîches]",
-      "description": "Feuille d’agrume de combava; dans currys et soupes thaïlandaises.",
-      "aliases": [
-        {
-          "name": "makrut lime leaves"
-        },
-        {
-          "name": "feuille de combava"
-        },
-        {
-          "name": "combava"
-        },
-        {
-          "name": "feuilles de makrut"
-        }
-      ],
-      "label": "Herbes fraîches"
-    },
-    {
       "id": "866c13ce-dc45-4761-aaae-e8002e2eb663",
       "name": "marjolaine [fraîche]",
       "pluralName": "marjolaine [fraîche]",
@@ -368,6 +266,27 @@
         },
         {
           "name": "marjolaine fraîche"
+        }
+      ],
+      "label": "Herbes fraîches"
+    },
+    {
+      "id": "0c529898-2c79-4503-97a8-7b1a6dd8bc19",
+      "name": "mélisse [fraîche]",
+      "pluralName": "mélisse [fraîche]",
+      "description": "Herbe fraîche citronnée; dans les tisanes, salades et desserts.",
+      "aliases": [
+        {
+          "name": "lemon balm"
+        },
+        {
+          "name": "citronmelisse"
+        },
+        {
+          "name": "mélisse"
+        },
+        {
+          "name": "mélisse fraîche"
         }
       ],
       "label": "Herbes fraîches"
@@ -391,6 +310,39 @@
       "label": "Herbes fraîches"
     },
     {
+      "id": "e21dc5c2-737c-478e-872a-e036fa12f8ec",
+      "name": "menthe poivrée [fraîche]",
+      "pluralName": "menthe poivrée [fraîche]",
+      "description": "Variété de menthe très fraîche; dans tisanes, sirops et desserts.",
+      "aliases": [
+        {
+          "name": "peppermint"
+        },
+        {
+          "name": "menthe poivrée fraîche"
+        }
+      ],
+      "label": "Herbes fraîches"
+    },
+    {
+      "id": "ce6c2e76-24e3-4aee-8a96-da7185ddcba5",
+      "name": "menthe verte [fraîche]",
+      "pluralName": "menthe verte [fraîche]",
+      "description": "Variété de menthe au goût doux; dans salades, sauces et tisanes.",
+      "aliases": [
+        {
+          "name": "spearmint"
+        },
+        {
+          "name": "menthe douce"
+        },
+        {
+          "name": "menthe verte fraîche"
+        }
+      ],
+      "label": "Herbes fraîches"
+    },
+    {
       "id": "2d5040a4-8b49-478d-b44c-4904e5780ea4",
       "name": "origan [frais]",
       "pluralName": "origan [frais]",
@@ -406,16 +358,31 @@
       "label": "Herbes fraîches"
     },
     {
-      "id": "e21dc5c2-737c-478e-872a-e036fa12f8ec",
-      "name": "menthe poivrée [fraîche]",
-      "pluralName": "menthe poivrée [fraîche]",
-      "description": "Variété de menthe très fraîche; dans tisanes, sirops et desserts.",
+      "id": "0395ee2a-8ccd-4e1d-b173-6e61343396d5",
+      "name": "ortie [fraîche]",
+      "pluralName": "orties [fraîches]",
+      "description": "Jeune ortie; brièvement blanchie dans soupes, purées ou tisanes.",
       "aliases": [
         {
-          "name": "peppermint"
+          "name": "ortie fraîche"
+        }
+      ],
+      "label": "Herbes fraîches"
+    },
+    {
+      "id": "a3445923-ee35-47dc-85c2-b7588d2c7a46",
+      "name": "persil frisé [frais]",
+      "pluralName": "persil frisé [frais]",
+      "description": "Persil frisé; en garniture et dans les sauces.",
+      "aliases": [
+        {
+          "name": "curly parsley"
         },
         {
-          "name": "menthe poivrée fraîche"
+          "name": "persil frisé"
+        },
+        {
+          "name": "persil frais"
         }
       ],
       "label": "Herbes fraîches"
@@ -454,6 +421,18 @@
       "label": "Herbes fraîches"
     },
     {
+      "id": "4e3fe72c-a9ce-49e9-abb0-676e7e1493b0",
+      "name": "sarriette [fraîche]",
+      "pluralName": "sarriette [fraîche]",
+      "description": "Herbe au goût poivré; cuite avec haricots et légumineuses.",
+      "aliases": [
+        {
+          "name": "sarriette fraîche"
+        }
+      ],
+      "label": "Herbes fraîches"
+    },
+    {
       "id": "75b5ba14-b09e-414f-9a7b-6b92982a0657",
       "name": "sauge [fraîche]",
       "pluralName": "sauge [fraîche]",
@@ -466,24 +445,6 @@
       "label": "Herbes fraîches"
     },
     {
-      "id": "a036a2df-fb19-4e07-a2ac-f8a6934c2b6c",
-      "name": "basilic thaï [frais]",
-      "pluralName": "basilic thaï [frais]",
-      "description": "Basilic au parfum anisé; dans sautés et currys.",
-      "aliases": [
-        {
-          "name": "basilic asiatique"
-        },
-        {
-          "name": "thai basil"
-        },
-        {
-          "name": "basilic thaï frais"
-        }
-      ],
-      "label": "Herbes fraîches"
-    },
-    {
       "id": "9f5484a0-f4ed-4f26-89ec-6ef52167fb4f",
       "name": "thym [frais]",
       "pluralName": "thym [frais]",
@@ -491,6 +452,45 @@
       "aliases": [
         {
           "name": "thym frais"
+        }
+      ],
+      "label": "Herbes fraîches"
+    },
+    {
+      "id": "ecd2503f-10ce-4b18-91fb-23a420c88a93",
+      "name": "tiges de coriandre [fraîches]",
+      "pluralName": "tiges de coriandre [fraîches]",
+      "description": "Tiges de coriandre; finement hachées dans currys, soupes et salsa.",
+      "aliases": [
+        {
+          "name": "tige de coriandre"
+        },
+        {
+          "name": "tiges de coriandre"
+        },
+        {
+          "name": "queue de coriandre"
+        },
+        {
+          "name": "queues de coriandre"
+        }
+      ],
+      "label": "Herbes fraîches"
+    },
+    {
+      "id": "9d1f5554-8e92-41d8-926c-ee1b4a15cfa1",
+      "name": "verveine citronnelle [fraîche]",
+      "pluralName": "verveine citronnelle [fraîche]",
+      "description": "Herbe au fort arôme citronné; pour tisanes et desserts.",
+      "aliases": [
+        {
+          "name": "lemon verbena"
+        },
+        {
+          "name": "verveine"
+        },
+        {
+          "name": "verveine citronnelle fraîche"
         }
       ],
       "label": "Herbes fraîches"

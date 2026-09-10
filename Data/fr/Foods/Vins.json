@@ -161,45 +161,6 @@
       "label": "Vins"
     },
     {
-      "id": "ce8ee5af-7ea0-40e4-b70b-4ce792352149",
-      "name": "vin rouge sec",
-      "pluralName": "vin rouge sec",
-      "description": "Vin rouge sec; pour les mijotés, jus et sauces rouges.",
-      "aliases": [
-        {
-          "name": "dry red wine"
-        }
-      ],
-      "label": "Vins"
-    },
-    {
-      "id": "278c7c6f-0549-42bf-9662-de873635f917",
-      "name": "vermouth sec",
-      "pluralName": "vermouth sec",
-      "description": "Vin fortifié aux herbes; pour les cocktails et sauces de poisson.",
-      "aliases": [
-        {
-          "name": "dry vermouth"
-        },
-        {
-          "name": "vermouth blanc"
-        }
-      ],
-      "label": "Vins"
-    },
-    {
-      "id": "4c56c40f-34d8-40b5-b094-5fe83dc3d9d4",
-      "name": "vin blanc sec",
-      "pluralName": "vin blanc sec",
-      "description": "Vin blanc sec; base pour le risotto et les sauces blanches.",
-      "aliases": [
-        {
-          "name": "dry white wine"
-        }
-      ],
-      "label": "Vins"
-    },
-    {
       "id": "9ef94048-5aa0-479d-93b1-e3e9030084a7",
       "name": "eiswein",
       "pluralName": "eiswein",
@@ -267,14 +228,6 @@
           "name": "gruner-veltliner"
         }
       ],
-      "label": "Vins"
-    },
-    {
-      "id": "32bdd344-8e5a-41f7-99af-fe42afdd3f62",
-      "name": "vin de cuisine",
-      "pluralName": "vin de cuisine",
-      "description": "Vin destiné à la cuisson; alternative économique, souvent salée.",
-      "aliases": [],
       "label": "Vins"
     },
     {
@@ -356,38 +309,11 @@
       "label": "Vins"
     },
     {
-      "id": "29eed73a-5146-4666-a2db-a7e0dc6574ab",
-      "name": "vin mousseux",
-      "pluralName": "vin mousseux",
-      "description": "Vin effervescent; pour le sabayon ou l’apéritif festif.",
-      "aliases": [
-        {
-          "name": "sparkling wine"
-        }
-      ],
-      "label": "Vins"
-    },
-    {
       "id": "8084ad29-cb5e-46e7-a910-57635d3e3c64",
       "name": "muscadet",
       "pluralName": "muscadet",
       "description": "Vin blanc sec de Loire; avec les huîtres, moules et poissons.",
       "aliases": [],
-      "label": "Vins"
-    },
-    {
-      "id": "0543e627-2558-4398-8674-79de21c64171",
-      "name": "vin muscat",
-      "pluralName": "vin muscat",
-      "description": "Vin doux de raisins muscat; comme vin de dessert.",
-      "aliases": [
-        {
-          "name": "moscatel"
-        },
-        {
-          "name": "muscat"
-        }
-      ],
       "label": "Vins"
     },
     {
@@ -523,33 +449,6 @@
       "label": "Vins"
     },
     {
-      "id": "c43a23ca-7a32-430b-83a6-53c11059396f",
-      "name": "vermouth rouge",
-      "pluralName": "vermouth rouge",
-      "description": "Vin fortifié aromatisé sucré; pour les cocktails.",
-      "aliases": [
-        {
-          "name": "sweet vermouth"
-        },
-        {
-          "name": "vermouth doux"
-        }
-      ],
-      "label": "Vins"
-    },
-    {
-      "id": "6f7e1dac-ffa7-487c-8f1d-2276f08e834d",
-      "name": "vin rouge",
-      "pluralName": "vin rouge",
-      "description": "Vin issu de raisins noirs; à boire ou à cuisiner.",
-      "aliases": [
-        {
-          "name": "vinrouge"
-        }
-      ],
-      "label": "Vins"
-    },
-    {
       "id": "06d4fc50-fc8e-4b10-9d67-bdbeae8cfae2",
       "name": "rosé",
       "pluralName": "rosé",
@@ -619,36 +518,6 @@
       "label": "Vins"
     },
     {
-      "id": "2552fffa-c9d2-4ea2-9d43-ee525736f871",
-      "name": "vin de Shaoxing",
-      "pluralName": "vin de Shaoxing",
-      "description": "Vin de riz chinois; pour les sautés et les marinades.",
-      "aliases": [
-        {
-          "name": "shaoxing wijn"
-        },
-        {
-          "name": "shaohsing"
-        },
-        {
-          "name": "vin de riz chinois"
-        }
-      ],
-      "label": "Vins"
-    },
-    {
-      "id": "b9254c07-f948-442e-8b44-1c9a1fe026cd",
-      "name": "xérès",
-      "pluralName": "xérès",
-      "description": "Vin fortifié espagnol; sec à doux, pour cuisiner ou boire.",
-      "aliases": [
-        {
-          "name": "jerez"
-        }
-      ],
-      "label": "Vins"
-    },
-    {
       "id": "1003eca8-7003-40b9-b4d6-bd04b2252c86",
       "name": "syrah",
       "pluralName": "syrah",
@@ -707,6 +576,137 @@
       "label": "Vins"
     },
     {
+      "id": "c43a23ca-7a32-430b-83a6-53c11059396f",
+      "name": "vermouth rouge",
+      "pluralName": "vermouth rouge",
+      "description": "Vin fortifié aromatisé sucré; pour les cocktails.",
+      "aliases": [
+        {
+          "name": "sweet vermouth"
+        },
+        {
+          "name": "vermouth doux"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "278c7c6f-0549-42bf-9662-de873635f917",
+      "name": "vermouth sec",
+      "pluralName": "vermouth sec",
+      "description": "Vin fortifié aux herbes; pour les cocktails et sauces de poisson.",
+      "aliases": [
+        {
+          "name": "dry vermouth"
+        },
+        {
+          "name": "vermouth blanc"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "035ae12c-f784-451f-beb5-4031d52afb1f",
+      "name": "vin blanc",
+      "pluralName": "vin blanc",
+      "description": "Vin issu de raisins blancs; à boire ou à cuisiner.",
+      "aliases": [
+        {
+          "name": "vinblanc"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "4c56c40f-34d8-40b5-b094-5fe83dc3d9d4",
+      "name": "vin blanc sec",
+      "pluralName": "vin blanc sec",
+      "description": "Vin blanc sec; base pour le risotto et les sauces blanches.",
+      "aliases": [
+        {
+          "name": "dry white wine"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "32bdd344-8e5a-41f7-99af-fe42afdd3f62",
+      "name": "vin de cuisine",
+      "pluralName": "vin de cuisine",
+      "description": "Vin destiné à la cuisson; alternative économique, souvent salée.",
+      "aliases": [],
+      "label": "Vins"
+    },
+    {
+      "id": "2552fffa-c9d2-4ea2-9d43-ee525736f871",
+      "name": "vin de Shaoxing",
+      "pluralName": "vin de Shaoxing",
+      "description": "Vin de riz chinois; pour les sautés et les marinades.",
+      "aliases": [
+        {
+          "name": "shaoxing wijn"
+        },
+        {
+          "name": "shaohsing"
+        },
+        {
+          "name": "vin de riz chinois"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "29eed73a-5146-4666-a2db-a7e0dc6574ab",
+      "name": "vin mousseux",
+      "pluralName": "vin mousseux",
+      "description": "Vin effervescent; pour le sabayon ou l’apéritif festif.",
+      "aliases": [
+        {
+          "name": "sparkling wine"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "0543e627-2558-4398-8674-79de21c64171",
+      "name": "vin muscat",
+      "pluralName": "vin muscat",
+      "description": "Vin doux de raisins muscat; comme vin de dessert.",
+      "aliases": [
+        {
+          "name": "moscatel"
+        },
+        {
+          "name": "muscat"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "6f7e1dac-ffa7-487c-8f1d-2276f08e834d",
+      "name": "vin rouge",
+      "pluralName": "vin rouge",
+      "description": "Vin issu de raisins noirs; à boire ou à cuisiner.",
+      "aliases": [
+        {
+          "name": "vinrouge"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
+      "id": "ce8ee5af-7ea0-40e4-b70b-4ce792352149",
+      "name": "vin rouge sec",
+      "pluralName": "vin rouge sec",
+      "description": "Vin rouge sec; pour les mijotés, jus et sauces rouges.",
+      "aliases": [
+        {
+          "name": "dry red wine"
+        }
+      ],
+      "label": "Vins"
+    },
+    {
       "id": "250bd1a8-3afb-4877-b193-bdd9508f2d9b",
       "name": "vin santo",
       "pluralName": "vin santo",
@@ -727,13 +727,13 @@
       "label": "Vins"
     },
     {
-      "id": "035ae12c-f784-451f-beb5-4031d52afb1f",
-      "name": "vin blanc",
-      "pluralName": "vin blanc",
-      "description": "Vin issu de raisins blancs; à boire ou à cuisiner.",
+      "id": "b9254c07-f948-442e-8b44-1c9a1fe026cd",
+      "name": "xérès",
+      "pluralName": "xérès",
+      "description": "Vin fortifié espagnol; sec à doux, pour cuisiner ou boire.",
       "aliases": [
         {
-          "name": "vinblanc"
+          "name": "jerez"
         }
       ],
       "label": "Vins"

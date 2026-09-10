@@ -67,6 +67,29 @@
       "label": "Spiritueux et liqueurs"
     },
     {
+      "id": "54a5785b-9900-455d-9e9e-55e19b30e584",
+      "name": "amer à cocktail",
+      "pluralName": "amers à cocktail",
+      "description": "Bitters aromatiques; quelques gouttes comme assaisonnement dans les cocktails.",
+      "aliases": [
+        {
+          "name": "aromatic bitters"
+        },
+        {
+          "name": "cocktail bitters"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "6ba14b81-1250-4b04-a64a-7b11a05c0947",
+      "name": "amer aux herbes",
+      "pluralName": "amers aux herbes",
+      "description": "Liqueur douce-amère aux herbes; digestif.",
+      "aliases": [],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
       "id": "9e7ea09f-978e-45a6-8f80-e3271b872165",
       "name": "anisette",
       "pluralName": "anisette",
@@ -109,24 +132,6 @@
       "label": "Spiritueux et liqueurs"
     },
     {
-      "id": "08e23c6c-559f-4a3c-b5db-1a1bed7fe671",
-      "name": "curaçao bleu",
-      "pluralName": "curaçao bleu",
-      "description": "Liqueur d’orange bleu vif; pour les cocktails.",
-      "aliases": [
-        {
-          "name": "curacao bleu"
-        },
-        {
-          "name": "blue curacao"
-        },
-        {
-          "name": "blue curaçao"
-        }
-      ],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
       "id": "f5f86977-0e5c-4b7c-a284-0cfeae27a6b2",
       "name": "bourbon",
       "pluralName": "bourbon",
@@ -154,21 +159,6 @@
       "label": "Spiritueux et liqueurs"
     },
     {
-      "id": "2449eabc-44d8-4e35-9dfa-8100f2f942b4",
-      "name": "rhum brun",
-      "pluralName": "rhums bruns",
-      "description": "Rhum foncé vieilli; pour les cocktails et desserts.",
-      "aliases": [
-        {
-          "name": "dark rum"
-        },
-        {
-          "name": "rhum noir"
-        }
-      ],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
       "id": "a7a2af01-9133-447e-9ee5-7b70f8648123",
       "name": "cachaça",
       "pluralName": "cachaça",
@@ -186,33 +176,6 @@
       "pluralName": "calvados",
       "description": "Eau-de-vie de pomme française de Normandie; pour les sauces et desserts.",
       "aliases": [],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "8c8fbf15-efc2-411d-8491-60b9b55f8162",
-      "name": "liqueur au chocolat",
-      "pluralName": "liqueur au chocolat",
-      "description": "Liqueur au cacao; pour les cocktails et desserts.",
-      "aliases": [
-        {
-          "name": "liqueur de cacao"
-        }
-      ],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "54a5785b-9900-455d-9e9e-55e19b30e584",
-      "name": "amer à cocktail",
-      "pluralName": "amers à cocktail",
-      "description": "Bitters aromatiques; quelques gouttes comme assaisonnement dans les cocktails.",
-      "aliases": [
-        {
-          "name": "aromatic bitters"
-        },
-        {
-          "name": "cocktail bitters"
-        }
-      ],
       "label": "Spiritueux et liqueurs"
     },
     {
@@ -278,63 +241,29 @@
       "label": "Spiritueux et liqueurs"
     },
     {
+      "id": "08e23c6c-559f-4a3c-b5db-1a1bed7fe671",
+      "name": "curaçao bleu",
+      "pluralName": "curaçao bleu",
+      "description": "Liqueur d’orange bleu vif; pour les cocktails.",
+      "aliases": [
+        {
+          "name": "curacao bleu"
+        },
+        {
+          "name": "blue curacao"
+        },
+        {
+          "name": "blue curaçao"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
       "id": "cd2e39a0-ad48-49f4-8e12-834defb30f0a",
       "name": "falernum",
       "pluralName": "falernum",
       "description": "Liqueur caribéenne à la lime, à l’amande et au clou de girofle; pour les cocktails tiki.",
       "aliases": [],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "83b64e10-2730-44e0-802e-7ecf79e6f4b3",
-      "name": "liqueur de framboise",
-      "pluralName": "liqueurs de framboise",
-      "description": "Liqueur de framboise; pour les cocktails, desserts et sauces.",
-      "aliases": [
-        {
-          "name": "raspberry liqueur"
-        }
-      ],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "a2c78012-5f8c-4870-ad62-95802c97332d",
-      "name": "rhum épicé",
-      "pluralName": "rhums épicés",
-      "description": "Rhum aromatisé aux herbes et épices; pour les boissons mélangées et la pâtisserie.",
-      "aliases": [
-        {
-          "name": "spiced rum"
-        }
-      ],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "cbaea413-fc7f-43c5-8831-74f579152b2f",
-      "name": "gin",
-      "pluralName": "gin",
-      "description": "Spiritueux distillé à base de céréales et de genièvre; pour les cocktails.",
-      "aliases": [],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "95ca943f-6444-42db-88d5-0f6844912ea7",
-      "name": "grappa",
-      "pluralName": "grappa",
-      "description": "Eau-de-vie italienne de marc de raisin; digestif.",
-      "aliases": [],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "32e5d772-721c-467a-ba78-0abc8d2356a7",
-      "name": "liqueur de noisette",
-      "pluralName": "liqueurs de noisette",
-      "description": "Liqueur sucrée à la noisette; pour le café, les desserts et cocktails.",
-      "aliases": [
-        {
-          "name": "hazelnut liqueur"
-        }
-      ],
       "label": "Spiritueux et liqueurs"
     },
     {
@@ -356,6 +285,22 @@
       "label": "Spiritueux et liqueurs"
     },
     {
+      "id": "cbaea413-fc7f-43c5-8831-74f579152b2f",
+      "name": "gin",
+      "pluralName": "gin",
+      "description": "Spiritueux distillé à base de céréales et de genièvre; pour les cocktails.",
+      "aliases": [],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "95ca943f-6444-42db-88d5-0f6844912ea7",
+      "name": "grappa",
+      "pluralName": "grappa",
+      "description": "Eau-de-vie italienne de marc de raisin; digestif.",
+      "aliases": [],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
       "id": "e627616e-74ac-40e9-80d4-637dc2308fe1",
       "name": "kirsch",
       "pluralName": "kirsch",
@@ -363,6 +308,44 @@
       "aliases": [
         {
           "name": "kirschwasser"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "6743087b-e5c7-4c6c-baba-418e2b87a212",
+      "name": "limoncello",
+      "pluralName": "limoncello",
+      "description": "Liqueur italienne au citron; servie glacée comme digestif.",
+      "aliases": [],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "049c626b-2984-442b-8cae-ad41f8b56e65",
+      "name": "liqueur à la crème",
+      "pluralName": "liqueurs à la crème",
+      "description": "Liqueur crémeuse à base de crème; pour le café, les cocktails et desserts.",
+      "aliases": [
+        {
+          "name": "cream liqueur"
+        },
+        {
+          "name": "irish cream"
+        },
+        {
+          "name": "irish cream liqueur"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "8c8fbf15-efc2-411d-8491-60b9b55f8162",
+      "name": "liqueur au chocolat",
+      "pluralName": "liqueur au chocolat",
+      "description": "Liqueur au cacao; pour les cocktails et desserts.",
+      "aliases": [
+        {
+          "name": "liqueur de cacao"
         }
       ],
       "label": "Spiritueux et liqueurs"
@@ -392,19 +375,89 @@
       "label": "Spiritueux et liqueurs"
     },
     {
-      "id": "6ba14b81-1250-4b04-a64a-7b11a05c0947",
-      "name": "amer aux herbes",
-      "pluralName": "amers aux herbes",
-      "description": "Liqueur douce-amère aux herbes; digestif.",
+      "id": "e45b61d1-a68d-4bb1-9f06-3fea11e59b94",
+      "name": "liqueur de fleur de sureau",
+      "pluralName": "liqueurs de fleur de sureau",
+      "description": "Liqueur florale aromatique; pour les spritz et cocktails.",
+      "aliases": [
+        {
+          "name": "elderflower liqueur"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "83b64e10-2730-44e0-802e-7ecf79e6f4b3",
+      "name": "liqueur de framboise",
+      "pluralName": "liqueurs de framboise",
+      "description": "Liqueur de framboise; pour les cocktails, desserts et sauces.",
+      "aliases": [
+        {
+          "name": "raspberry liqueur"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "9d3010bb-9f9f-4fd1-9d59-4ed1c564950c",
+      "name": "liqueur de fruit de la passion",
+      "pluralName": "liqueurs de fruit de la passion",
+      "description": "Liqueur sucrée au fruit de la passion; pour les cocktails.",
       "aliases": [],
       "label": "Spiritueux et liqueurs"
     },
     {
-      "id": "6743087b-e5c7-4c6c-baba-418e2b87a212",
-      "name": "limoncello",
-      "pluralName": "limoncello",
-      "description": "Liqueur italienne au citron; servie glacée comme digestif.",
-      "aliases": [],
+      "id": "32e5d772-721c-467a-ba78-0abc8d2356a7",
+      "name": "liqueur de noisette",
+      "pluralName": "liqueurs de noisette",
+      "description": "Liqueur sucrée à la noisette; pour le café, les desserts et cocktails.",
+      "aliases": [
+        {
+          "name": "hazelnut liqueur"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "3efd4493-b113-4b2b-b6f1-15e105a9224b",
+      "name": "liqueur de pêche",
+      "pluralName": "liqueurs de pêche",
+      "description": "Liqueur de pêche; pour les cocktails et desserts.",
+      "aliases": [
+        {
+          "name": "peach liqueur"
+        },
+        {
+          "name": "peach schnapps"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "ca225ffc-4e8b-4e14-8580-2b79d89dbb40",
+      "name": "liqueur de prunelle",
+      "pluralName": "liqueurs de prunelle",
+      "description": "Liqueur de prunelle; souvent utilisée dans les cocktails.",
+      "aliases": [
+        {
+          "name": "sloe gin"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "3604b120-4c41-4f81-867f-83b49313f8a6",
+      "name": "liqueur de whisky",
+      "pluralName": "liqueurs de whisky",
+      "description": "Liqueur sucrée épicée à base de whisky; digestif ou dans les cocktails.",
+      "aliases": [
+        {
+          "name": "whiskey liqueur"
+        },
+        {
+          "name": "whisky liqueur"
+        }
+      ],
       "label": "Spiritueux et liqueurs"
     },
     {
@@ -432,34 +485,11 @@
       "label": "Spiritueux et liqueurs"
     },
     {
-      "id": "9d3010bb-9f9f-4fd1-9d59-4ed1c564950c",
-      "name": "liqueur de fruit de la passion",
-      "pluralName": "liqueurs de fruit de la passion",
-      "description": "Liqueur sucrée au fruit de la passion; pour les cocktails.",
-      "aliases": [],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
       "id": "6bb7e126-d0e7-4225-aaf4-d10c0517e2dc",
       "name": "pastis",
       "pluralName": "pastis",
       "description": "Boisson anisée française; apéritif allongé à l’eau.",
       "aliases": [],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "3efd4493-b113-4b2b-b6f1-15e105a9224b",
-      "name": "liqueur de pêche",
-      "pluralName": "liqueurs de pêche",
-      "description": "Liqueur de pêche; pour les cocktails et desserts.",
-      "aliases": [
-        {
-          "name": "peach liqueur"
-        },
-        {
-          "name": "peach schnapps"
-        }
-      ],
       "label": "Spiritueux et liqueurs"
     },
     {
@@ -471,24 +501,6 @@
       "label": "Spiritueux et liqueurs"
     },
     {
-      "id": "049c626b-2984-442b-8cae-ad41f8b56e65",
-      "name": "liqueur à la crème",
-      "pluralName": "liqueurs à la crème",
-      "description": "Liqueur crémeuse à base de crème; pour le café, les cocktails et desserts.",
-      "aliases": [
-        {
-          "name": "cream liqueur"
-        },
-        {
-          "name": "irish cream"
-        },
-        {
-          "name": "irish cream liqueur"
-        }
-      ],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
       "id": "756a285a-d22a-4df4-9a32-d6de2d6419dc",
       "name": "rhum",
       "pluralName": "rhum",
@@ -497,23 +509,53 @@
       "label": "Spiritueux et liqueurs"
     },
     {
+      "id": "fba12171-f964-4e05-b32d-85a80bbe50e3",
+      "name": "rhum blanc",
+      "pluralName": "rhums blancs",
+      "description": "Rhum léger; pour le mojito et le daiquiri.",
+      "aliases": [
+        {
+          "name": "white rum"
+        },
+        {
+          "name": "rhum léger"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "2449eabc-44d8-4e35-9dfa-8100f2f942b4",
+      "name": "rhum brun",
+      "pluralName": "rhums bruns",
+      "description": "Rhum foncé vieilli; pour les cocktails et desserts.",
+      "aliases": [
+        {
+          "name": "dark rum"
+        },
+        {
+          "name": "rhum noir"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
+      "id": "a2c78012-5f8c-4870-ad62-95802c97332d",
+      "name": "rhum épicé",
+      "pluralName": "rhums épicés",
+      "description": "Rhum aromatisé aux herbes et épices; pour les boissons mélangées et la pâtisserie.",
+      "aliases": [
+        {
+          "name": "spiced rum"
+        }
+      ],
+      "label": "Spiritueux et liqueurs"
+    },
+    {
       "id": "4023b1a1-25ac-4acf-bbff-91c5711ba355",
       "name": "sambuca",
       "pluralName": "sambuca",
       "description": "Liqueur italienne anisée; digestif ou dans le café.",
       "aliases": [],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "ca225ffc-4e8b-4e14-8580-2b79d89dbb40",
-      "name": "liqueur de prunelle",
-      "pluralName": "liqueurs de prunelle",
-      "description": "Liqueur de prunelle; souvent utilisée dans les cocktails.",
-      "aliases": [
-        {
-          "name": "sloe gin"
-        }
-      ],
       "label": "Spiritueux et liqueurs"
     },
     {
@@ -530,18 +572,6 @@
       "pluralName": "triple sec",
       "description": "Liqueur d’orange; pour les cocktails.",
       "aliases": [],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "e45b61d1-a68d-4bb1-9f06-3fea11e59b94",
-      "name": "liqueur de fleur de sureau",
-      "pluralName": "liqueurs de fleur de sureau",
-      "description": "Liqueur florale aromatique; pour les spritz et cocktails.",
-      "aliases": [
-        {
-          "name": "elderflower liqueur"
-        }
-      ],
       "label": "Spiritueux et liqueurs"
     },
     {
@@ -564,36 +594,6 @@
       "aliases": [
         {
           "name": "whiskey"
-        }
-      ],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "3604b120-4c41-4f81-867f-83b49313f8a6",
-      "name": "liqueur de whisky",
-      "pluralName": "liqueurs de whisky",
-      "description": "Liqueur sucrée épicée à base de whisky; digestif ou dans les cocktails.",
-      "aliases": [
-        {
-          "name": "whiskey liqueur"
-        },
-        {
-          "name": "whisky liqueur"
-        }
-      ],
-      "label": "Spiritueux et liqueurs"
-    },
-    {
-      "id": "fba12171-f964-4e05-b32d-85a80bbe50e3",
-      "name": "rhum blanc",
-      "pluralName": "rhums blancs",
-      "description": "Rhum léger; pour le mojito et le daiquiri.",
-      "aliases": [
-        {
-          "name": "white rum"
-        },
-        {
-          "name": "rhum léger"
         }
       ],
       "label": "Spiritueux et liqueurs"

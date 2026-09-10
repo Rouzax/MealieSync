@@ -4,73 +4,19 @@
   "$version": "1.0",
   "items": [
     {
-      "id": "1c2b7da6-0b4f-4c9c-8032-b7bd97d94a97",
-      "name": "confiture de fraises",
-      "pluralName": "confiture de fraises",
-      "description": "Confiture de fraises; garniture sucrée aux fruits.",
+      "id": "65751b36-d670-4716-995c-3ec484d25b57",
+      "name": "beurre d’arachide",
+      "pluralName": "beurre d’arachide",
+      "description": "Pâte à tartiner à base d’arachides moulues; garniture salée-sucrée pour le pain.",
       "aliases": [
         {
-          "name": "confiture de fraise"
+          "name": "beurre de peanuts"
         },
         {
-          "name": "confiture fraise"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "ee6162cd-aa81-416c-b7e4-9c356f950c08",
-      "name": "confiture d’abricots",
-      "pluralName": "confiture d’abricots",
-      "description": "Confiture d’abricots; pour le pain et les pâtisseries.",
-      "aliases": [
-        {
-          "name": "confiture abricot"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "82cefbdb-1224-43c6-bd2d-cbdf1cec0341",
-      "name": "sirop d’agave",
-      "pluralName": "sirop d’agave",
-      "description": "Édulcorant liquide à base d’agave; alternative au miel.",
-      "aliases": [
-        {
-          "name": "sirop d’agave"
+          "name": "peanut butter"
         },
         {
-          "name": "sirop agave"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "b9220bfa-09bf-4fa9-84be-21ff344b9639",
-      "name": "sirop d’érable",
-      "pluralName": "sirop d’érable",
-      "description": "Sirop sucré issu de la sève d’érable; pour les crêpes et les desserts.",
-      "aliases": [
-        {
-          "name": "maple syrup"
-        },
-        {
-          "name": "sirop d’érable"
-        },
-        {
-          "name": "sirop érable"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "6d7ae7d6-86fc-4042-b39a-51f69da9f037",
-      "name": "sirop de pommes",
-      "pluralName": "sirop de pommes",
-      "description": "Sirop épais à base de pommes; spécialité régionale du Limbourg.",
-      "aliases": [
-        {
-          "name": "sirop de pomme"
+          "name": "pâte d’arachide"
         }
       ],
       "label": "Confiseries"
@@ -81,6 +27,27 @@
       "pluralName": "biscuits Bastogne",
       "description": "Biscuit croquant de type spéculoos; souvent utilisé comme base pour les gâteaux au fromage et les desserts.",
       "aliases": [],
+      "label": "Confiseries"
+    },
+    {
+      "id": "b87939d3-d5dc-4842-9e0e-6c9d158a9a29",
+      "name": "biscuit cuillère",
+      "pluralName": "biscuits cuillère",
+      "description": "Biscuit léger de type génoise; utilisé dans le tiramisu et les desserts.",
+      "aliases": [
+        {
+          "name": "biscuit-cuillère"
+        },
+        {
+          "name": "biscuits cuillère"
+        },
+        {
+          "name": "ladyfinger"
+        },
+        {
+          "name": "savoiardi"
+        }
+      ],
       "label": "Confiseries"
     },
     {
@@ -108,46 +75,103 @@
       "label": "Confiseries"
     },
     {
-      "id": "bae496bd-0178-42d5-892a-d17114267a9e",
-      "name": "pépites de chocolat",
-      "pluralName": "pépites de chocolat",
-      "description": "Petits morceaux de chocolat; pour les biscuits et les muffins.",
+      "id": "66dc121e-c7ed-4318-bd9e-eca093738223",
+      "name": "chocolat au lait",
+      "pluralName": "chocolat au lait",
+      "description": "Chocolat au lait; sucré, pour grignoter et pour la pâtisserie.",
       "aliases": [
         {
-          "name": "chocolate chips"
+          "name": "chocolat au lait"
         },
         {
-          "name": "pépites chocolat"
-        },
-        {
-          "name": "brisures de chocolat"
+          "name": "chocolat lait"
         }
       ],
       "label": "Confiseries"
     },
     {
-      "id": "c0d12394-cb5a-4480-8be6-3b9418dde588",
-      "name": "vermicelles au chocolat",
-      "pluralName": "vermicelles au chocolat",
-      "description": "Petits bâtonnets de chocolat; garniture à saupoudrer sur le pain.",
+      "id": "45a79a93-c8ea-44b3-afa3-bdd707205625",
+      "name": "chocolat blanc",
+      "pluralName": "chocolat blanc",
+      "description": "Chocolat sans pâte de cacao; sucré et crémeux.",
       "aliases": [
         {
-          "name": "hagelslag"
+          "name": "chocolat blanc"
         },
         {
-          "name": "vermicelles chocolat"
+          "name": "blanc chocolat"
         }
       ],
       "label": "Confiseries"
     },
     {
-      "id": "436a4d03-dfd6-4e6b-babd-44c0940336fb",
-      "name": "pâte à tartiner au chocolat",
-      "pluralName": "pâte à tartiner au chocolat",
-      "description": "Chocolat à tartiner; garniture sucrée pour le pain.",
+      "id": "047b3009-48e8-431e-b006-8d778fc8d7e4",
+      "name": "chocolat noir",
+      "pluralName": "chocolat noir",
+      "description": "Chocolat noir à forte teneur en cacao; pour la pâtisserie.",
       "aliases": [
         {
-          "name": "pâte chocolatée"
+          "name": "chocolat noir"
+        },
+        {
+          "name": "chocolat foncé"
+        },
+        {
+          "name": "noir"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "950a7e2a-a623-4b19-90e6-0bef6b5cfb8d",
+      "name": "confiture",
+      "pluralName": "confiture",
+      "description": "Tartinade sucrée aux fruits; fruits cuits avec du sucre.",
+      "aliases": [
+        {
+          "name": "confiture"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "1c2b7da6-0b4f-4c9c-8032-b7bd97d94a97",
+      "name": "confiture de fraises",
+      "pluralName": "confiture de fraises",
+      "description": "Confiture de fraises; garniture sucrée aux fruits.",
+      "aliases": [
+        {
+          "name": "confiture de fraise"
+        },
+        {
+          "name": "confiture fraise"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "ddd53dc0-ca63-46a8-bf5a-262f29e092e8",
+      "name": "confiture de framboises",
+      "pluralName": "confiture de framboises",
+      "description": "Confiture de framboises; tartinade aux fruits avec morceaux.",
+      "aliases": [
+        {
+          "name": "confiture de framboise"
+        },
+        {
+          "name": "confiture framboise"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "ee6162cd-aa81-416c-b7e4-9c356f950c08",
+      "name": "confiture d’abricots",
+      "pluralName": "confiture d’abricots",
+      "description": "Confiture d’abricots; pour le pain et les pâtisseries.",
+      "aliases": [
+        {
+          "name": "confiture abricot"
         }
       ],
       "label": "Confiseries"
@@ -186,36 +210,6 @@
       "label": "Confiseries"
     },
     {
-      "id": "ef6b3a09-9117-4f13-bc9f-186fab62a6f5",
-      "name": "sirop de dattes",
-      "pluralName": "sirop de dattes",
-      "description": "Sirop épais de dattes; édulcorant dans les plats.",
-      "aliases": [
-        {
-          "name": "mélasse de dattes"
-        },
-        {
-          "name": "sirop de datte"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "9615245c-7357-4f26-8474-31027603cb78",
-      "name": "réglisse",
-      "pluralName": "réglisse",
-      "description": "Confiserie à la réglisse; sucrée ou salée.",
-      "aliases": [
-        {
-          "name": "bonbons à la réglisse"
-        },
-        {
-          "name": "réglisse"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
       "id": "933bad3d-0ba9-4b03-81bc-c78c501268d3",
       "name": "dulce de leche",
       "pluralName": "dulce de leche",
@@ -243,119 +237,6 @@
       "label": "Confiseries"
     },
     {
-      "id": "ddd53dc0-ca63-46a8-bf5a-262f29e092e8",
-      "name": "confiture de framboises",
-      "pluralName": "confiture de framboises",
-      "description": "Confiture de framboises; tartinade aux fruits avec morceaux.",
-      "aliases": [
-        {
-          "name": "confiture de framboise"
-        },
-        {
-          "name": "confiture framboise"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "1d4e7ac6-6a37-4f71-9229-e2298d97f848",
-      "name": "muisjes écrasés",
-      "pluralName": "muisjes écrasés",
-      "description": "Graines d’anis sucrées finement broyées; traditionnellement servies sur une biscotte.",
-      "aliases": [],
-      "label": "Confiseries"
-    },
-    {
-      "id": "567fcec4-4c42-4c1f-8c61-2b382b8e4277",
-      "name": "sirop de Gouda",
-      "pluralName": "sirop de Gouda",
-      "description": "Sirop de sucre clair; pour les gaufres au sirop et les biscuits.",
-      "aliases": [
-        {
-          "name": "sirop clair"
-        },
-        {
-          "name": "sirop blanc"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "ddbf4b43-7a44-4e87-a268-b0beb3ff82b6",
-      "name": "pâte aux noisettes",
-      "pluralName": "pâte aux noisettes",
-      "description": "Pâte sucrée aux noisettes et au cacao; garniture pour le pain.",
-      "aliases": [
-        {
-          "name": "pâte de noix"
-        },
-        {
-          "name": "pâte de noisette"
-        },
-        {
-          "name": "chocopâte"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "6ed83705-89b6-442b-bb72-7e2f1b354b29",
-      "name": "miel",
-      "pluralName": "miel",
-      "description": "Nectar d’abeille; édulcorant pour le pain et les boissons.",
-      "aliases": [
-        {
-          "name": "miel d’abeille"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "950a7e2a-a623-4b19-90e6-0bef6b5cfb8d",
-      "name": "confiture",
-      "pluralName": "confiture",
-      "description": "Tartinade sucrée aux fruits; fruits cuits avec du sucre.",
-      "aliases": [
-        {
-          "name": "confiture"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "433c8819-46eb-48dd-bd8d-15f790af3590",
-      "name": "sauce dessert au caramel",
-      "pluralName": "sauce dessert au caramel",
-      "description": "Sauce sucrée à base de sucre caramélisé et de crème; pour la crème glacée, les crêpes et les desserts.",
-      "aliases": [
-        {
-          "name": "sauce caramel"
-        },
-        {
-          "name": "sauce au caramel"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "b29cf9f1-8e0b-4630-8554-ab66dff344ae",
-      "name": "sirop de cuisine",
-      "pluralName": "sirop de cuisine",
-      "description": "Sirop foncé; pour le pain et les crêpes.",
-      "aliases": [
-        {
-          "name": "sirop foncé"
-        },
-        {
-          "name": "sirop cuisine"
-        },
-        {
-          "name": "sirop à verser"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
       "id": "69e74471-91d9-4529-8db0-28fed841d31b",
       "name": "gelée de coing",
       "pluralName": "gelée de coing",
@@ -366,42 +247,6 @@
         },
         {
           "name": "membrillo"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "b87939d3-d5dc-4842-9e0e-6c9d158a9a29",
-      "name": "biscuit cuillère",
-      "pluralName": "biscuits cuillère",
-      "description": "Biscuit léger de type génoise; utilisé dans le tiramisu et les desserts.",
-      "aliases": [
-        {
-          "name": "biscuit-cuillère"
-        },
-        {
-          "name": "biscuits cuillère"
-        },
-        {
-          "name": "ladyfinger"
-        },
-        {
-          "name": "savoiardi"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "29d4d3c4-fca0-4b6a-8543-be28f7f96d8a",
-      "name": "sirop de Liège",
-      "pluralName": "sirop de Liège",
-      "description": "Sirop de fruits épais et foncé; spécialité régionale belge.",
-      "aliases": [
-        {
-          "name": "sirop de liège"
-        },
-        {
-          "name": "sirop de liege"
         }
       ],
       "label": "Confiseries"
@@ -427,16 +272,13 @@
       "label": "Confiseries"
     },
     {
-      "id": "66dc121e-c7ed-4318-bd9e-eca093738223",
-      "name": "chocolat au lait",
-      "pluralName": "chocolat au lait",
-      "description": "Chocolat au lait; sucré, pour grignoter et pour la pâtisserie.",
+      "id": "6ed83705-89b6-442b-bb72-7e2f1b354b29",
+      "name": "miel",
+      "pluralName": "miel",
+      "description": "Nectar d’abeille; édulcorant pour le pain et les boissons.",
       "aliases": [
         {
-          "name": "chocolat au lait"
-        },
-        {
-          "name": "chocolat lait"
+          "name": "miel d’abeille"
         }
       ],
       "label": "Confiseries"
@@ -450,6 +292,14 @@
       "label": "Confiseries"
     },
     {
+      "id": "1d4e7ac6-6a37-4f71-9229-e2298d97f848",
+      "name": "muisjes écrasés",
+      "pluralName": "muisjes écrasés",
+      "description": "Graines d’anis sucrées finement broyées; traditionnellement servies sur une biscotte.",
+      "aliases": [],
+      "label": "Confiseries"
+    },
+    {
       "id": "b319b382-264c-481a-bc2d-f045e005c604",
       "name": "nougat",
       "pluralName": "nougat",
@@ -458,61 +308,31 @@
       "label": "Confiseries"
     },
     {
-      "id": "268b92d6-7a64-4179-aa4b-ca6ff97a49b4",
-      "name": "sirop de poires",
-      "pluralName": "sirop de poires",
-      "description": "Sirop épais à base de poires; sucré et foncé.",
+      "id": "436a4d03-dfd6-4e6b-babd-44c0940336fb",
+      "name": "pâte à tartiner au chocolat",
+      "pluralName": "pâte à tartiner au chocolat",
+      "description": "Chocolat à tartiner; garniture sucrée pour le pain.",
       "aliases": [
         {
-          "name": "sirop de poire"
+          "name": "pâte chocolatée"
         }
       ],
       "label": "Confiseries"
     },
     {
-      "id": "65751b36-d670-4716-995c-3ec484d25b57",
-      "name": "beurre d’arachide",
-      "pluralName": "beurre d’arachide",
-      "description": "Pâte à tartiner à base d’arachides moulues; garniture salée-sucrée pour le pain.",
+      "id": "ddbf4b43-7a44-4e87-a268-b0beb3ff82b6",
+      "name": "pâte aux noisettes",
+      "pluralName": "pâte aux noisettes",
+      "description": "Pâte sucrée aux noisettes et au cacao; garniture pour le pain.",
       "aliases": [
         {
-          "name": "beurre de peanuts"
+          "name": "pâte de noix"
         },
         {
-          "name": "peanut butter"
+          "name": "pâte de noisette"
         },
         {
-          "name": "pâte d’arachide"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "047b3009-48e8-431e-b006-8d778fc8d7e4",
-      "name": "chocolat noir",
-      "pluralName": "chocolat noir",
-      "description": "Chocolat noir à forte teneur en cacao; pour la pâtisserie.",
-      "aliases": [
-        {
-          "name": "chocolat noir"
-        },
-        {
-          "name": "chocolat foncé"
-        },
-        {
-          "name": "noir"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "183c6b24-c373-4354-af34-522ce162fac2",
-      "name": "schuddebuikjes",
-      "pluralName": "schuddebuikjes",
-      "description": "Petites perles de sucre colorées; garniture à saupoudrer sur le pain.",
-      "aliases": [
-        {
-          "name": "discodip"
+          "name": "chocopâte"
         }
       ],
       "label": "Confiseries"
@@ -533,11 +353,158 @@
       "label": "Confiseries"
     },
     {
+      "id": "bae496bd-0178-42d5-892a-d17114267a9e",
+      "name": "pépites de chocolat",
+      "pluralName": "pépites de chocolat",
+      "description": "Petits morceaux de chocolat; pour les biscuits et les muffins.",
+      "aliases": [
+        {
+          "name": "chocolate chips"
+        },
+        {
+          "name": "pépites chocolat"
+        },
+        {
+          "name": "brisures de chocolat"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "9615245c-7357-4f26-8474-31027603cb78",
+      "name": "réglisse",
+      "pluralName": "réglisse",
+      "description": "Confiserie à la réglisse; sucrée ou salée.",
+      "aliases": [
+        {
+          "name": "bonbons à la réglisse"
+        },
+        {
+          "name": "réglisse"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "433c8819-46eb-48dd-bd8d-15f790af3590",
+      "name": "sauce dessert au caramel",
+      "pluralName": "sauce dessert au caramel",
+      "description": "Sauce sucrée à base de sucre caramélisé et de crème; pour la crème glacée, les crêpes et les desserts.",
+      "aliases": [
+        {
+          "name": "sauce caramel"
+        },
+        {
+          "name": "sauce au caramel"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "183c6b24-c373-4354-af34-522ce162fac2",
+      "name": "schuddebuikjes",
+      "pluralName": "schuddebuikjes",
+      "description": "Petites perles de sucre colorées; garniture à saupoudrer sur le pain.",
+      "aliases": [
+        {
+          "name": "discodip"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
       "id": "a7d6c969-8ff9-46c7-a0bd-c1f0ac91fed9",
       "name": "sirop",
       "pluralName": "sirop",
       "description": "Liquide sucré et épais; pour le pain et les crêpes.",
       "aliases": [],
+      "label": "Confiseries"
+    },
+    {
+      "id": "b29cf9f1-8e0b-4630-8554-ab66dff344ae",
+      "name": "sirop de cuisine",
+      "pluralName": "sirop de cuisine",
+      "description": "Sirop foncé; pour le pain et les crêpes.",
+      "aliases": [
+        {
+          "name": "sirop foncé"
+        },
+        {
+          "name": "sirop cuisine"
+        },
+        {
+          "name": "sirop à verser"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "ef6b3a09-9117-4f13-bc9f-186fab62a6f5",
+      "name": "sirop de dattes",
+      "pluralName": "sirop de dattes",
+      "description": "Sirop épais de dattes; édulcorant dans les plats.",
+      "aliases": [
+        {
+          "name": "mélasse de dattes"
+        },
+        {
+          "name": "sirop de datte"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "567fcec4-4c42-4c1f-8c61-2b382b8e4277",
+      "name": "sirop de Gouda",
+      "pluralName": "sirop de Gouda",
+      "description": "Sirop de sucre clair; pour les gaufres au sirop et les biscuits.",
+      "aliases": [
+        {
+          "name": "sirop clair"
+        },
+        {
+          "name": "sirop blanc"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "29d4d3c4-fca0-4b6a-8543-be28f7f96d8a",
+      "name": "sirop de Liège",
+      "pluralName": "sirop de Liège",
+      "description": "Sirop de fruits épais et foncé; spécialité régionale belge.",
+      "aliases": [
+        {
+          "name": "sirop de liège"
+        },
+        {
+          "name": "sirop de liege"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "268b92d6-7a64-4179-aa4b-ca6ff97a49b4",
+      "name": "sirop de poires",
+      "pluralName": "sirop de poires",
+      "description": "Sirop épais à base de poires; sucré et foncé.",
+      "aliases": [
+        {
+          "name": "sirop de poire"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "6d7ae7d6-86fc-4042-b39a-51f69da9f037",
+      "name": "sirop de pommes",
+      "pluralName": "sirop de pommes",
+      "description": "Sirop épais à base de pommes; spécialité régionale du Limbourg.",
+      "aliases": [
+        {
+          "name": "sirop de pomme"
+        }
+      ],
       "label": "Confiseries"
     },
     {
@@ -559,6 +526,39 @@
       "label": "Confiseries"
     },
     {
+      "id": "82cefbdb-1224-43c6-bd2d-cbdf1cec0341",
+      "name": "sirop d’agave",
+      "pluralName": "sirop d’agave",
+      "description": "Édulcorant liquide à base d’agave; alternative au miel.",
+      "aliases": [
+        {
+          "name": "sirop d’agave"
+        },
+        {
+          "name": "sirop agave"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "b9220bfa-09bf-4fa9-84be-21ff344b9639",
+      "name": "sirop d’érable",
+      "pluralName": "sirop d’érable",
+      "description": "Sirop sucré issu de la sève d’érable; pour les crêpes et les desserts.",
+      "aliases": [
+        {
+          "name": "maple syrup"
+        },
+        {
+          "name": "sirop d’érable"
+        },
+        {
+          "name": "sirop érable"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
       "id": "30d3fa01-1736-443f-b017-eebf1dbb5d1b",
       "name": "toffee",
       "pluralName": "toffees",
@@ -571,6 +571,21 @@
       "label": "Confiseries"
     },
     {
+      "id": "c0d12394-cb5a-4480-8be6-3b9418dde588",
+      "name": "vermicelles au chocolat",
+      "pluralName": "vermicelles au chocolat",
+      "description": "Petits bâtonnets de chocolat; garniture à saupoudrer sur le pain.",
+      "aliases": [
+        {
+          "name": "hagelslag"
+        },
+        {
+          "name": "vermicelles chocolat"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
       "id": "ad4dc6df-f80a-46f5-a076-a63b381e2c74",
       "name": "vermicelles aux fruits",
       "pluralName": "vermicelles aux fruits",
@@ -578,21 +593,6 @@
       "aliases": [
         {
           "name": "vermicelles fruits"
-        }
-      ],
-      "label": "Confiseries"
-    },
-    {
-      "id": "45a79a93-c8ea-44b3-afa3-bdd707205625",
-      "name": "chocolat blanc",
-      "pluralName": "chocolat blanc",
-      "description": "Chocolat sans pâte de cacao; sucré et crémeux.",
-      "aliases": [
-        {
-          "name": "chocolat blanc"
-        },
-        {
-          "name": "blanc chocolat"
         }
       ],
       "label": "Confiseries"

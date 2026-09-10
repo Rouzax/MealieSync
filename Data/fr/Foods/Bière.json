@@ -4,18 +4,6 @@
   "$version": "1.0",
   "items": [
     {
-      "id": "a4e3e0d0-ab12-4403-be75-2aa87c7d6123",
-      "name": "bière sans alcool",
-      "pluralName": "bière sans alcool",
-      "description": "Bière sans alcool; pour les marinades et les pâtes à frire sans alcool.",
-      "aliases": [
-        {
-          "name": "bière 0.0"
-        }
-      ],
-      "label": "Bière"
-    },
-    {
       "id": "5560dd0b-08d9-4c06-b4dd-85beb199b206",
       "name": "bière",
       "pluralName": "bière",
@@ -28,11 +16,59 @@
       "label": "Bière"
     },
     {
+      "id": "55a67520-6229-4540-a619-523341f1773b",
+      "name": "bière blanche",
+      "pluralName": "bière blanche",
+      "description": "Bière belge de blé; trouble, fraîche avec de la coriandre et de l’écorce d’orange.",
+      "aliases": [
+        {
+          "name": "bière blanche"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
       "id": "ce0e325e-1e3a-40ed-bbb9-f91b43fd4de0",
       "name": "bière blonde",
       "pluralName": "bière blonde",
       "description": "Bière claire; douce et fraîche en goût.",
       "aliases": [],
+      "label": "Bière"
+    },
+    {
+      "id": "deb53f5c-4025-4b6f-931b-246d8834e015",
+      "name": "bière brune",
+      "pluralName": "bière brune",
+      "description": "Bière brune; maltée et légèrement sucrée, classique pour les plats mijotés.",
+      "aliases": [
+        {
+          "name": "bière brune"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "7a5ab2a6-317a-4a9b-94a3-5d6ec8a0e814",
+      "name": "bière de blé",
+      "pluralName": "bière de blé",
+      "description": "Bière riche en malt de blé; fraîche et légère, utilisée dans les pâtes à frire et les sauces.",
+      "aliases": [
+        {
+          "name": "bière de blé"
+        }
+      ],
+      "label": "Bière"
+    },
+    {
+      "id": "a4e3e0d0-ab12-4403-be75-2aa87c7d6123",
+      "name": "bière sans alcool",
+      "pluralName": "bière sans alcool",
+      "description": "Bière sans alcool; pour les marinades et les pâtes à frire sans alcool.",
+      "aliases": [
+        {
+          "name": "bière 0.0"
+        }
+      ],
       "label": "Bière"
     },
     {
@@ -52,18 +88,6 @@
         },
         {
           "name": "bock"
-        }
-      ],
-      "label": "Bière"
-    },
-    {
-      "id": "deb53f5c-4025-4b6f-931b-246d8834e015",
-      "name": "bière brune",
-      "pluralName": "bière brune",
-      "description": "Bière brune; maltée et légèrement sucrée, classique pour les plats mijotés.",
-      "aliases": [
-        {
-          "name": "bière brune"
         }
       ],
       "label": "Bière"
@@ -172,35 +196,11 @@
       "label": "Bière"
     },
     {
-      "id": "7a5ab2a6-317a-4a9b-94a3-5d6ec8a0e814",
-      "name": "bière de blé",
-      "pluralName": "bière de blé",
-      "description": "Bière riche en malt de blé; fraîche et légère, utilisée dans les pâtes à frire et les sauces.",
-      "aliases": [
-        {
-          "name": "bière de blé"
-        }
-      ],
-      "label": "Bière"
-    },
-    {
       "id": "5eb06812-2f7d-483b-b5f0-4483e7a0230c",
       "name": "tripel",
       "pluralName": "tripel",
       "description": "Bière belge blonde forte; fruitée et épicée.",
       "aliases": [],
-      "label": "Bière"
-    },
-    {
-      "id": "55a67520-6229-4540-a619-523341f1773b",
-      "name": "bière blanche",
-      "pluralName": "bière blanche",
-      "description": "Bière belge de blé; trouble, fraîche avec de la coriandre et de l’écorce d’orange.",
-      "aliases": [
-        {
-          "name": "bière blanche"
-        }
-      ],
       "label": "Bière"
     }
   ]
