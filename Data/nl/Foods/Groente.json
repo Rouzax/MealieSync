@@ -717,6 +717,24 @@
       "label": "Groente"
     },
     {
+      "id": "f86a4b0d-2527-435e-b714-f6f0a511744a",
+      "name": "paddenstoel",
+      "pluralName": "paddenstoelen",
+      "description": "Verse gemengde paddenstoelen; voor risotto, pasta en roerbak.",
+      "aliases": [
+        {
+          "name": "bospaddenstoelen"
+        },
+        {
+          "name": "gemengde paddenstoelen"
+        },
+        {
+          "name": "paddenstoelenmix"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "e353eda2-40e8-4a6f-816a-798933cf8807",
       "name": "paddenstoel [gedroogd]",
       "pluralName": "paddenstoelen [gedroogd]",

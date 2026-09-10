@@ -243,6 +243,18 @@
       "label": "Légumes"
     },
     {
+      "id": "f86a4b0d-2527-435e-b714-f6f0a511744a",
+      "name": "champignons mélangés",
+      "pluralName": "champignons mélangés",
+      "description": "Mélange de champignons frais; pour risotto, pâtes et sautés.",
+      "aliases": [
+        {
+          "name": "champignons des bois"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "05775ea0-0ef3-4f11-b7c4-31dfad75d3ea",
       "name": "chanterelle",
       "pluralName": "chanterelles",
