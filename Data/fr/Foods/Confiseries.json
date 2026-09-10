@@ -252,6 +252,18 @@
       "label": "Confiseries"
     },
     {
+      "id": "876eca6b-beed-4f02-ac65-e29ebb8735a5",
+      "name": "glace à la cannelle",
+      "pluralName": "glaces à la cannelle",
+      "description": "Crème glacée à la cannelle; avec les tartes et gâteaux chauds.",
+      "aliases": [
+        {
+          "name": "crème glacée à la cannelle"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
       "id": "7acb74c1-75e7-4344-a056-dd4ac16f9f96",
       "name": "marmelade",
       "pluralName": "marmelade",

@@ -341,6 +341,21 @@
       "label": "Zoetwaren"
     },
     {
+      "id": "876eca6b-beed-4f02-ac65-e29ebb8735a5",
+      "name": "kaneelijs",
+      "pluralName": "kaneelijs",
+      "description": "Roomijs met kaneel; bij warme taart, cobbler en appelgebak.",
+      "aliases": [
+        {
+          "name": "kaneel ijs"
+        },
+        {
+          "name": "cinnamon ice cream"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
       "id": "433c8819-46eb-48dd-bd8d-15f790af3590",
       "name": "karamel dessertsaus",
       "pluralName": "karamel dessertsaus",
