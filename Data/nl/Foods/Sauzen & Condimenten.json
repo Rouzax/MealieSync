@@ -251,6 +251,21 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "00511d11-cc58-4215-91d6-5f61df1efaa8",
+      "name": "gele currypasta",
+      "pluralName": "gele currypasta",
+      "description": "Thaise kruidenpasta met gele kerrie; milde basis voor curry met kokosmelk.",
+      "aliases": [
+        {
+          "name": "gele curry pasta"
+        },
+        {
+          "name": "yellow curry paste"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "5bc4df8b-3c72-4bac-81b8-acd98aaac853",
       "name": "gele mosterd",
       "pluralName": "gele mosterd",

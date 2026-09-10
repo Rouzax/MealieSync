@@ -302,6 +302,18 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "00511d11-cc58-4215-91d6-5f61df1efaa8",
+      "name": "pâte de curry jaune",
+      "pluralName": "pâte de curry jaune",
+      "description": "Pâte thaïe au curry jaune; base douce des currys au lait de coco.",
+      "aliases": [
+        {
+          "name": "yellow curry paste"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "4282031d-5e20-4cc6-8955-8308c70b77c3",
       "name": "pâte de curry rouge",
       "pluralName": "pâte de curry rouge",

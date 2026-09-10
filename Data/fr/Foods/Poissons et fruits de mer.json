@@ -678,6 +678,21 @@
       "label": "Poissons et fruits de mer"
     },
     {
+      "id": "bb44c096-8378-4110-8a90-9e87384c0352",
+      "name": "poisson blanc",
+      "pluralName": "poissons blancs",
+      "description": "Poisson blanc doux comme le cabillaud ou le lieu; à poêler ou en curry.",
+      "aliases": [
+        {
+          "name": "white fish"
+        },
+        {
+          "name": "filet de poisson blanc"
+        }
+      ],
+      "label": "Poissons et fruits de mer"
+    },
+    {
       "id": "0bd89561-5554-4d46-aa44-2606697fe5cd",
       "name": "poulpe",
       "pluralName": "poulpes",

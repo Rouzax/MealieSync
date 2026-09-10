@@ -686,6 +686,24 @@
       "label": "Vis & Zeevruchten"
     },
     {
+      "id": "bb44c096-8378-4110-8a90-9e87384c0352",
+      "name": "witvis",
+      "pluralName": "witvis",
+      "description": "Milde witte zeevis zoals kabeljauw of koolvis; voor bakken, stomen en curry.",
+      "aliases": [
+        {
+          "name": "witvisfilet"
+        },
+        {
+          "name": "white fish"
+        },
+        {
+          "name": "witte vis"
+        }
+      ],
+      "label": "Vis & Zeevruchten"
+    },
+    {
       "id": "1ed3cc9d-0b76-4acd-b7db-5e00b6eac4f3",
       "name": "zalm",
       "pluralName": "zalm",
