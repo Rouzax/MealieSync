@@ -86,6 +86,21 @@
       "label": "Produits de boulangerie"
     },
     {
+      "id": "20ed9baf-c178-493b-a04e-ca36cd1e85c5",
+      "name": "colorant alimentaire",
+      "pluralName": "colorants alimentaires",
+      "description": "Colorant comestible; colore glaçages, pâtes et currys.",
+      "aliases": [
+        {
+          "name": "colorant"
+        },
+        {
+          "name": "food colouring"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
       "id": "020999e2-3a0a-49b2-92c7-b4a46de09a3d",
       "name": "crème de tartre",
       "pluralName": "crème de tartre",

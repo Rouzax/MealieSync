@@ -876,6 +876,27 @@
       "label": "Bakproducten"
     },
     {
+      "id": "20ed9baf-c178-493b-a04e-ca36cd1e85c5",
+      "name": "voedingskleurstof",
+      "pluralName": "voedingskleurstoffen",
+      "description": "Eetbare kleurstof; kleurt glazuur, deeg of een curry.",
+      "aliases": [
+        {
+          "name": "eetbare kleurstof"
+        },
+        {
+          "name": "levensmiddelenkleurstof"
+        },
+        {
+          "name": "food colouring"
+        },
+        {
+          "name": "food coloring"
+        }
+      ],
+      "label": "Bakproducten"
+    },
+    {
       "id": "a5be716f-8168-4c1e-826b-cfe66d821f53",
       "name": "volkoren broodmix",
       "pluralName": "volkoren broodmix",
