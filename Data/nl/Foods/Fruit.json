@@ -953,6 +953,24 @@
       "label": "Fruit"
     },
     {
+      "id": "dca8ea23-d47c-4b7c-9eed-867682958633",
+      "name": "perzik [blik]",
+      "pluralName": "perziken [blik]",
+      "description": "Perzik op siroop uit blik; direct te gebruiken in dessert en gebak.",
+      "aliases": [
+        {
+          "name": "perziken uit blik"
+        },
+        {
+          "name": "perzik op siroop"
+        },
+        {
+          "name": "blik perziken"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
       "id": "5f903c26-dfbe-45d6-a959-19dfaef39609",
       "name": "pomelo",
       "pluralName": "pomelo's",

@@ -1093,6 +1093,18 @@
       "label": "Fruits"
     },
     {
+      "id": "dca8ea23-d47c-4b7c-9eed-867682958633",
+      "name": "pêche [conserve]",
+      "pluralName": "pêches [conserve]",
+      "description": "Pêche au sirop en conserve; prête à l'emploi en dessert et pâtisserie.",
+      "aliases": [
+        {
+          "name": "pêches en conserve"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
       "id": "6ca8aaa3-b9a5-4b79-83a8-01ae426f6505",
       "name": "physalis",
       "pluralName": "physalis",
