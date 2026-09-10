@@ -116,6 +116,24 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "fa39227b-f2a0-40ca-b442-1d2d7fbd8ff3",
+      "name": "bolognesesaus",
+      "pluralName": "bolognesesaus",
+      "description": "Italiaanse vleessaus van gehakt en tomaat; voor pasta en lasagne.",
+      "aliases": [
+        {
+          "name": "bolognese saus"
+        },
+        {
+          "name": "bolognese"
+        },
+        {
+          "name": "ragù alla bolognese"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "b69cb240-6821-4b7f-86b3-370188077ed3",
       "name": "bruschetta tomaatsalade",
       "pluralName": "bruschetta tomaatsalades",

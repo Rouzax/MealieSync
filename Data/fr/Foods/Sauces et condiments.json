@@ -590,6 +590,21 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "fa39227b-f2a0-40ca-b442-1d2d7fbd8ff3",
+      "name": "sauce bolognaise",
+      "pluralName": "sauce bolognaise",
+      "description": "Sauce italienne à la viande et à la tomate; pour pâtes et lasagnes.",
+      "aliases": [
+        {
+          "name": "bolognaise"
+        },
+        {
+          "name": "ragù alla bolognese"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "a2b453af-bf77-4ac9-bc42-56f8b409ad21",
       "name": "sauce chili",
       "pluralName": "sauce chili",
