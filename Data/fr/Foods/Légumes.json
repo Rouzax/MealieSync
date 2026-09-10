@@ -1117,6 +1117,18 @@
       "label": "Légumes"
     },
     {
+      "id": "891fbd74-cc43-49a7-8c63-a18756dbdd45",
+      "name": "tomate pelée [conserve]",
+      "pluralName": "tomates pelées [conserve]",
+      "description": "Tomates pelées entières en conserve; base pour sauces et mijotés.",
+      "aliases": [
+        {
+          "name": "tomates pelées en conserve"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "e2b847ee-c47f-4341-9999-e600761daf66",
       "name": "tomate Roma",
       "pluralName": "tomates Roma",

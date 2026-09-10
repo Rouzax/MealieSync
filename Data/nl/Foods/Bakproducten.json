@@ -207,6 +207,21 @@
       "label": "Bakproducten"
     },
     {
+      "id": "66bf9159-41d9-462b-a45a-5522875ae254",
+      "name": "donkere basterdsuiker",
+      "pluralName": "donkere basterdsuiker",
+      "description": "Fijne donkerbruine suiker met stroop; voor speculaas en ontbijtkoek.",
+      "aliases": [
+        {
+          "name": "donker basterdsuiker"
+        },
+        {
+          "name": "bruine basterdsuiker"
+        }
+      ],
+      "label": "Bakproducten"
+    },
+    {
       "id": "9d3f28de-9b11-4809-a4cc-089fd7bbcd90",
       "name": "fijne kristalsuiker",
       "pluralName": "fijne kristalsuiker",

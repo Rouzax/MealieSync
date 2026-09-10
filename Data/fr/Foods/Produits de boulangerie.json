@@ -970,6 +970,18 @@
       "description": "Sucre fin brun clair avec sirop; pour biscuits et spéculoos.",
       "aliases": [],
       "label": "Produits de boulangerie"
+    },
+    {
+      "id": "66bf9159-41d9-462b-a45a-5522875ae254",
+      "name": "vergeoise brune",
+      "pluralName": "vergeoise brune",
+      "description": "Sucre fin brun foncé avec sirop; pour spéculoos et pain d’épices.",
+      "aliases": [
+        {
+          "name": "cassonade brune"
+        }
+      ],
+      "label": "Produits de boulangerie"
     }
   ]
 }

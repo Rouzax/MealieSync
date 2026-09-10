@@ -1405,6 +1405,24 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "79600b6a-3f10-415e-861c-7f23128b2511",
+      "name": "rasam masala",
+      "pluralName": "rasam masala",
+      "description": "Zuid-Indiase kruidenmix; peperig en zuur, voor rasam en linzensoep.",
+      "aliases": [
+        {
+          "name": "rasampoeder"
+        },
+        {
+          "name": "rasam poeder"
+        },
+        {
+          "name": "rasam powder"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "dc172b04-8cb3-47f8-afaf-4fd124a5b7bc",
       "name": "roze peper",
       "pluralName": "roze peper",

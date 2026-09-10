@@ -1642,6 +1642,18 @@
       "label": "Herbes et épices"
     },
     {
+      "id": "79600b6a-3f10-415e-861c-7f23128b2511",
+      "name": "rasam masala",
+      "pluralName": "rasam masala",
+      "description": "Mélange d’épices sud-indien; poivré et acidulé, pour le rasam et les soupes.",
+      "aliases": [
+        {
+          "name": "poudre de rasam"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
       "id": "ba11f66d-d1ec-459f-81e6-7c54487f7c46",
       "name": "romarin [séché]",
       "pluralName": "romarin [séché]",

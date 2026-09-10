@@ -422,6 +422,24 @@
       "label": "Groente"
     },
     {
+      "id": "891fbd74-cc43-49a7-8c63-a18756dbdd45",
+      "name": "gepelde tomaat [blik]",
+      "pluralName": "gepelde tomaten [blik]",
+      "description": "Hele gepelde tomaten uit blik; basis voor saus en stoofgerechten.",
+      "aliases": [
+        {
+          "name": "gepelde tomaten uit blik"
+        },
+        {
+          "name": "blik gepelde tomaten"
+        },
+        {
+          "name": "hele gepelde tomaten"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "182a6bca-d566-457b-9cd1-895bc324ca05",
       "name": "groene asperge",
       "pluralName": "groene asperges",
