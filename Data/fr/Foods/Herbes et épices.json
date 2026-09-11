@@ -1075,6 +1075,18 @@
       "label": "Herbes et épices"
     },
     {
+      "id": "d887602e-e4c4-4aef-951c-3121bc1709d1",
+      "name": "mélange d'épices aux agrumes",
+      "pluralName": "mélanges d'épices aux agrumes",
+      "description": "Mélange au cumin grillé, zeste de citron, nigelle et sumac; en rub ou en marinade.",
+      "aliases": [
+        {
+          "name": "citrus and spice blend"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
       "id": "7e0855d7-8939-4473-b1a8-bd39fd62d546",
       "name": "mélange d'épices mexicain",
       "pluralName": "mélanges d'épices mexicains",
@@ -1100,6 +1112,30 @@
         },
         {
           "name": "taco seasoning"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "94cf266a-7700-4473-8ddf-fdc25e169498",
+      "name": "mélange de piments d'Alep",
+      "pluralName": "mélanges de piments d'Alep",
+      "description": "Mélange de piments autour de l'Alep; chaleur, fumé et fruité, comme des flocons.",
+      "aliases": [
+        {
+          "name": "aleppo and other chillies blend"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
+      "id": "84ae90cd-2e17-498e-99ff-cb9c8a9a2231",
+      "name": "mélange doux et fumé",
+      "pluralName": "mélanges doux et fumés",
+      "description": "Mélange salé, fumé et sucré; en rub sur les viandes ou sur les légumes rôtis.",
+      "aliases": [
+        {
+          "name": "sweet and smokey blend"
         }
       ],
       "label": "Herbes et épices"

@@ -34,6 +34,24 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "94cf266a-7700-4473-8ddf-fdc25e169498",
+      "name": "aleppo-chilimix",
+      "pluralName": "aleppo-chilimix",
+      "description": "Mix van chilisoorten rond aleppopeper; hitte, rook en fruit, te gebruiken als chilivlokken.",
+      "aliases": [
+        {
+          "name": "aleppo- en andere chilimix"
+        },
+        {
+          "name": "aleppo and other chillies blend"
+        },
+        {
+          "name": "aleppo chilimix"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "043b6b1f-ed42-4a58-8570-cb95c46e9cb7",
       "name": "aleppopeper [vlokken]",
       "pluralName": "aleppopeper [vlokken]",
@@ -343,6 +361,27 @@
         },
         {
           "name": "red chili powder"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
+      "id": "d887602e-e4c4-4aef-951c-3121bc1709d1",
+      "name": "citruskruidenmix",
+      "pluralName": "citruskruidenmix",
+      "description": "Kruidenmix met geroosterde komijn, citroenschil, nigella en sumak; als rub of in marinade.",
+      "aliases": [
+        {
+          "name": "citrus- en specerijenmix"
+        },
+        {
+          "name": "citrus and spice blend"
+        },
+        {
+          "name": "ottolenghi citrus and spice blend"
+        },
+        {
+          "name": "citrus-kruidenmix"
         }
       ],
       "label": "Kruiden & Specerijen"
@@ -1984,6 +2023,24 @@
         },
         {
           "name": "zeezout vlokken"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
+      "id": "84ae90cd-2e17-498e-99ff-cb9c8a9a2231",
+      "name": "zoet-rokerige kruidenmix",
+      "pluralName": "zoet-rokerige kruidenmix",
+      "description": "Kruidenmix van hartig, rokerig en zoet; als rub voor vlees of over geroosterde groente.",
+      "aliases": [
+        {
+          "name": "zoete en rokerige specerijenmix"
+        },
+        {
+          "name": "sweet and smokey blend"
+        },
+        {
+          "name": "zoet-rokerige specerijenmix"
         }
       ],
       "label": "Kruiden & Specerijen"
