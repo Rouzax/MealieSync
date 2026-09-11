@@ -92,6 +92,27 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "180a357c-9439-4c1f-948e-be73f125caa1",
+      "name": "basiscurrysaus",
+      "pluralName": "basiscurrysaus",
+      "description": "Milde uien-tomatensaus als basis voor curry; in batch gemaakt en per gerecht op smaak gebracht.",
+      "aliases": [
+        {
+          "name": "basis currysaus"
+        },
+        {
+          "name": "curry base"
+        },
+        {
+          "name": "base gravy"
+        },
+        {
+          "name": "basisgravy"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "e17b7dc4-3453-4b50-b974-132f2c9d48bc",
       "name": "boemboe",
       "pluralName": "boemboe",
@@ -300,6 +321,9 @@
         },
         {
           "name": "ginger-garlic paste"
+        },
+        {
+          "name": "knoflook-gemberpasta"
         }
       ],
       "label": "Sauzen & Condimenten"
@@ -341,6 +365,21 @@
         },
         {
           "name": "gochujangpasta"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
+      "id": "d0c2c46f-7afb-43ad-b7ad-4a2bc2f4dffc",
+      "name": "groene chilipasta",
+      "pluralName": "groene chilipasta",
+      "description": "Pasta van groene chilipepers; pittige basis in curry en marinade.",
+      "aliases": [
+        {
+          "name": "green chilli paste"
+        },
+        {
+          "name": "groene chili pasta"
         }
       ],
       "label": "Sauzen & Condimenten"

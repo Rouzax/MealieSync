@@ -398,6 +398,18 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "d0c2c46f-7afb-43ad-b7ad-4a2bc2f4dffc",
+      "name": "pâte de piment vert",
+      "pluralName": "pâtes de piment vert",
+      "description": "Pâte de piments verts; base relevée des currys et des marinades.",
+      "aliases": [
+        {
+          "name": "green chilli paste"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "4e8ca7f9-740b-4069-8460-52d59af72d36",
       "name": "pâte de tamarin",
       "pluralName": "pâte de tamarin",
@@ -699,6 +711,21 @@
       "aliases": [
         {
           "name": "cocktail sauce"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "180a357c-9439-4c1f-948e-be73f125caa1",
+      "name": "sauce curry de base",
+      "pluralName": "sauces curry de base",
+      "description": "Sauce douce à l'oignon et à la tomate; base des currys, préparée en grande quantité.",
+      "aliases": [
+        {
+          "name": "curry base"
+        },
+        {
+          "name": "base gravy"
         }
       ],
       "label": "Sauces et condiments"

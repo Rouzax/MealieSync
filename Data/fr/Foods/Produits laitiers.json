@@ -356,6 +356,18 @@
       "label": "Produits laitiers"
     },
     {
+      "id": "90f29242-8b66-4259-8d1a-cfef768493db",
+      "name": "lait de coco concentré sucré",
+      "pluralName": "lait de coco concentré sucré",
+      "description": "Lait de coco sucré et concentré; pour les glaces, desserts et cafés.",
+      "aliases": [
+        {
+          "name": "condensed coconut milk"
+        }
+      ],
+      "label": "Produits laitiers"
+    },
+    {
       "id": "2ab4996d-a3b4-4962-8495-7d211e67d230",
       "name": "lait écrémé",
       "pluralName": "lait écrémé",

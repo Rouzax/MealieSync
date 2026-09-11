@@ -96,6 +96,24 @@
       "label": "Zuivel"
     },
     {
+      "id": "90f29242-8b66-4259-8d1a-cfef768493db",
+      "name": "gecondenseerde kokosmelk",
+      "pluralName": "gecondenseerde kokosmelk",
+      "description": "Ingedikte gezoete kokosmelk; voor ijs, desserts en koffie.",
+      "aliases": [
+        {
+          "name": "condensed coconut milk"
+        },
+        {
+          "name": "gecondenseerde kokos melk"
+        },
+        {
+          "name": "kokoscondens"
+        }
+      ],
+      "label": "Zuivel"
+    },
+    {
       "id": "2acd4259-348a-4224-9559-eb0a3f0f6c9f",
       "name": "gecondenseerde melk",
       "pluralName": "gecondenseerde melk",
