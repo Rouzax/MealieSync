@@ -383,6 +383,24 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "27ba6416-96c6-42ac-bd7e-93a0f080cc01",
+      "name": "hawaijpasta",
+      "pluralName": "hawaijpasta",
+      "description": "Jemenitische kruidenpasta met gember, kardemom en kurkuma; voor soep, rub of marinade.",
+      "aliases": [
+        {
+          "name": "hawaij paste"
+        },
+        {
+          "name": "hawaij-pasta"
+        },
+        {
+          "name": "ottolenghi hawaij paste"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "8cd562a2-726e-4852-be42-0098c44fa397",
       "name": "hoisinsaus",
       "pluralName": "hoisinsaus",

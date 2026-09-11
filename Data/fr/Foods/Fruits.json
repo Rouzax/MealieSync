@@ -395,6 +395,21 @@
       "label": "Fruits"
     },
     {
+      "id": "e7a491ac-ba56-4fe4-ac3d-9d405f286024",
+      "name": "épine-vinette [séchée]",
+      "pluralName": "épines-vinettes [séchées]",
+      "description": "Baie d'épine-vinette séchée de la cuisine persane; acidulée dans le riz et le pilaf.",
+      "aliases": [
+        {
+          "name": "barberry"
+        },
+        {
+          "name": "zereshk"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
       "id": "a541b40a-57d6-4196-9622-8f4f0e46a942",
       "name": "figue",
       "pluralName": "figues",

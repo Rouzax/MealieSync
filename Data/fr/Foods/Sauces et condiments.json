@@ -433,6 +433,18 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "27ba6416-96c6-42ac-bd7e-93a0f080cc01",
+      "name": "pâte hawaij",
+      "pluralName": "pâte hawaij",
+      "description": "Pâte d'épices yéménite au gingembre, cardamome et curcuma; en soupe ou en marinade.",
+      "aliases": [
+        {
+          "name": "hawaij paste"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "2df81322-50ae-4d6a-be2a-bfeb7723d73b",
       "name": "pesto",
       "pluralName": "pesto",

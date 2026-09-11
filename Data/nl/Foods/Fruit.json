@@ -1273,6 +1273,30 @@
       "label": "Fruit"
     },
     {
+      "id": "e7a491ac-ba56-4fe4-ac3d-9d405f286024",
+      "name": "zuurbes [gedroogd]",
+      "pluralName": "zuurbessen [gedroogd]",
+      "description": "Gedroogde zuurbes uit de Perzische keuken; friszuur in rijstgerechten en pilav.",
+      "aliases": [
+        {
+          "name": "barberry"
+        },
+        {
+          "name": "barberries"
+        },
+        {
+          "name": "zereshk"
+        },
+        {
+          "name": "gedroogde zuurbes"
+        },
+        {
+          "name": "gedroogde zuurbessen"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
       "id": "d0839555-375d-4293-a326-1a3c10cef32f",
       "name": "zuurzak",
       "pluralName": "zuurzakken",
