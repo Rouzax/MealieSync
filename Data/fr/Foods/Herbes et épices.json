@@ -1299,6 +1299,21 @@
       "label": "Herbes et épices"
     },
     {
+      "id": "807fa4b9-00f9-4f64-9e20-d52d172c6ef8",
+      "name": "piment d'Urfa [flocons]",
+      "pluralName": "piment d'Urfa [flocons]",
+      "description": "Flocons de piment turc sombres; fumés et doux en piquant.",
+      "aliases": [
+        {
+          "name": "urfa biber"
+        },
+        {
+          "name": "isot biber"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
       "id": "0b631ef7-044d-4ba0-9245-5e0d31afd3fc",
       "name": "piment de la Jamaïque [grain]",
       "pluralName": "piment de la Jamaïque [grains]",

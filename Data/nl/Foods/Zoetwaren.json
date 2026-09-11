@@ -276,6 +276,30 @@
         },
         {
           "name": "witte stroop"
+        },
+        {
+          "name": "golden syrup"
+        },
+        {
+          "name": "goudstroop"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "id": "b2480091-33ff-4031-a3e5-086ce61bbc54",
+      "name": "halva",
+      "pluralName": "halva",
+      "description": "Oosterse lekkernij van sesampasta en suiker; kruimelig, bij koffie of in gebak.",
+      "aliases": [
+        {
+          "name": "sesamhalva"
+        },
+        {
+          "name": "halwa"
+        },
+        {
+          "name": "halva van sesam"
         }
       ],
       "label": "Zoetwaren"
@@ -306,6 +330,27 @@
       "aliases": [
         {
           "name": "bijenhoning"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
+      "id": "c130115a-c106-4bba-a610-effa67648531",
+      "name": "honingraatkaramel",
+      "pluralName": "honingraatkaramel",
+      "description": "Krokante luchtige karamel met baksoda; gebroken als topping bij desserts en ijs.",
+      "aliases": [
+        {
+          "name": "honingraat"
+        },
+        {
+          "name": "honeycomb"
+        },
+        {
+          "name": "cinder toffee"
+        },
+        {
+          "name": "honingraatsnoep"
         }
       ],
       "label": "Zoetwaren"

@@ -63,6 +63,21 @@
       "label": "Confiseries"
     },
     {
+      "id": "c130115a-c106-4bba-a610-effa67648531",
+      "name": "caramel alvéolé",
+      "pluralName": "caramel alvéolé",
+      "description": "Caramel croustillant et aéré au bicarbonate; brisé sur les desserts et les glaces.",
+      "aliases": [
+        {
+          "name": "honeycomb"
+        },
+        {
+          "name": "cinder toffee"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
       "id": "5c5cfece-3fa1-4ae3-96d3-ead573a0d772",
       "name": "chocolat",
       "pluralName": "chocolat",
@@ -259,6 +274,21 @@
       "aliases": [
         {
           "name": "crème glacée à la cannelle"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
+      "id": "b2480091-33ff-4031-a3e5-086ce61bbc54",
+      "name": "halva",
+      "pluralName": "halva",
+      "description": "Confiserie orientale à la pâte de sésame et au sucre; friable, au café ou en gâteau.",
+      "aliases": [
+        {
+          "name": "halva de sésame"
+        },
+        {
+          "name": "halwa"
         }
       ],
       "label": "Confiseries"

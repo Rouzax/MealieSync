@@ -1833,6 +1833,30 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "807fa4b9-00f9-4f64-9e20-d52d172c6ef8",
+      "name": "urfapeper [vlokken]",
+      "pluralName": "urfapeper [vlokken]",
+      "description": "Donkere Turkse chilivlokken; rokerig-zoet en mild van hitte.",
+      "aliases": [
+        {
+          "name": "urfapeper"
+        },
+        {
+          "name": "urfa biber"
+        },
+        {
+          "name": "isot biber"
+        },
+        {
+          "name": "urfa chilivlokken"
+        },
+        {
+          "name": "urfa chili"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "00146f10-54d5-4326-a7fa-691602d3f1d8",
       "name": "vanille [stokje]",
       "pluralName": "vanille [stokjes]",

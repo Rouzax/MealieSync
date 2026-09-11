@@ -105,6 +105,9 @@
         },
         {
           "name": "bicarbonaat"
+        },
+        {
+          "name": "baksoda"
         }
       ],
       "label": "Bakproducten"
@@ -608,6 +611,27 @@
       "aliases": [
         {
           "name": "molasse"
+        }
+      ],
+      "label": "Bakproducten"
+    },
+    {
+      "id": "a57807e1-f960-4056-8e68-b82dd21744b3",
+      "name": "muscovadosuiker",
+      "pluralName": "muscovadosuiker",
+      "description": "Ongeraffineerde rietsuiker met melasse; donker en vochtig, voor cake en marinade.",
+      "aliases": [
+        {
+          "name": "muscovado"
+        },
+        {
+          "name": "muscovado suiker"
+        },
+        {
+          "name": "donkere muscovadosuiker"
+        },
+        {
+          "name": "muscovado sugar"
         }
       ],
       "label": "Bakproducten"

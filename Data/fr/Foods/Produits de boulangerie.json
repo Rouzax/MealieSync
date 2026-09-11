@@ -967,6 +967,21 @@
       "label": "Produits de boulangerie"
     },
     {
+      "id": "a57807e1-f960-4056-8e68-b82dd21744b3",
+      "name": "sucre muscovado",
+      "pluralName": "sucre muscovado",
+      "description": "Sucre de canne non raffiné à la mélasse; foncé et humide, en pâtisserie.",
+      "aliases": [
+        {
+          "name": "muscovado"
+        },
+        {
+          "name": "sucre mascobado"
+        }
+      ],
+      "label": "Produits de boulangerie"
+    },
+    {
       "id": "1c9082ca-a0a4-4a52-b72e-090eea4644c4",
       "name": "sucre perlé",
       "pluralName": "sucre perlé",
