@@ -89,6 +89,21 @@
       "label": "Fruit"
     },
     {
+      "id": "f7ec3eca-3332-4d30-a95f-cc589ba3f18e",
+      "name": "appelmoes",
+      "pluralName": "appelmoes",
+      "description": "Gezoete puree van appel; klassiek bijgerecht bij stamppot en vlees.",
+      "aliases": [
+        {
+          "name": "appelcompote"
+        },
+        {
+          "name": "apple sauce"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
       "id": "8f9caf7e-4f73-488d-ba1b-5e9700e6e917",
       "name": "avocado",
       "pluralName": "avocado's",

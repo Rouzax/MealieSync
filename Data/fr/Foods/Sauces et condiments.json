@@ -631,6 +631,18 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "1624045d-8749-4b43-8cf6-b8ae85a36d35",
+      "name": "sauce asiatique sucrée",
+      "pluralName": "sauce asiatique sucrée",
+      "description": "Sauce soja sucrée à l'ail et au gingembre; pour sauter nouilles et légumes.",
+      "aliases": [
+        {
+          "name": "sweet asian sauce"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "fbd5ee84-dfe1-4e3a-9f16-72efe788367c",
       "name": "sauce aux huîtres",
       "pluralName": "sauce aux huîtres",

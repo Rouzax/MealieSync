@@ -1022,6 +1022,21 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "1624045d-8749-4b43-8cf6-b8ae85a36d35",
+      "name": "zoete aziatische saus",
+      "pluralName": "zoete aziatische saus",
+      "description": "Zoete sojasaus met knoflook en gember; roerbaksaus voor noedels en groenten.",
+      "aliases": [
+        {
+          "name": "zoete aziatische wok saus"
+        },
+        {
+          "name": "sweet asian sauce"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "2ef89c64-1bfb-4477-a72d-ef14ad93627c",
       "name": "zoete chilisaus",
       "pluralName": "zoete chilisaus",

@@ -445,6 +445,21 @@
       "label": "Pasta, Rijst & Noedels"
     },
     {
+      "id": "ea08e13b-2122-47b4-81f4-d413b25a387e",
+      "name": "noedel",
+      "pluralName": "noedels",
+      "description": "Aziatische slierten van tarwe, rijst of boekweit; voor soep en roerbakgerechten.",
+      "aliases": [
+        {
+          "name": "noodles"
+        },
+        {
+          "name": "mie"
+        }
+      ],
+      "label": "Pasta, Rijst & Noedels"
+    },
+    {
       "id": "93e4d171-4c74-405e-a8df-180ea471b4db",
       "name": "orecchiette",
       "pluralName": "orecchiette",

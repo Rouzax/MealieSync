@@ -16,6 +16,18 @@
       "label": "Légumineuses"
     },
     {
+      "id": "e5844286-d8f2-4b12-9bef-89302d267bb0",
+      "name": "émincés végétariens",
+      "pluralName": "émincés végétariens",
+      "description": "Substitut de viande à base de soja ou de blé; en lamelles, pour les sautés.",
+      "aliases": [
+        {
+          "name": "emincés végétariens"
+        }
+      ],
+      "label": "Légumineuses"
+    },
+    {
       "id": "03383b12-0514-4c04-bfe1-883ee91f6a48",
       "name": "fève",
       "pluralName": "fèves",

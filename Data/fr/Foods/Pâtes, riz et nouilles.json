@@ -289,6 +289,18 @@
       "label": "Pâtes, riz et nouilles"
     },
     {
+      "id": "ea08e13b-2122-47b4-81f4-d413b25a387e",
+      "name": "nouille",
+      "pluralName": "nouilles",
+      "description": "Nouilles asiatiques de blé, riz ou sarrasin; en soupe ou sautées.",
+      "aliases": [
+        {
+          "name": "noodles"
+        }
+      ],
+      "label": "Pâtes, riz et nouilles"
+    },
+    {
       "id": "0d873ebd-a51a-4efd-8128-7f9f1a1fb341",
       "name": "nouille de riz",
       "pluralName": "nouilles de riz",

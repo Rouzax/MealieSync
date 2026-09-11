@@ -810,6 +810,24 @@
       "label": "Peulvruchten"
     },
     {
+      "id": "e5844286-d8f2-4b12-9bef-89302d267bb0",
+      "name": "vegetarische runderstukjes",
+      "pluralName": "vegetarische runderstukjes",
+      "description": "Vleesvervanger op basis van soja of tarwe-eiwit; in reepjes, voor roerbak en wok.",
+      "aliases": [
+        {
+          "name": "vegetarische rundstukjes"
+        },
+        {
+          "name": "vega runderstukjes"
+        },
+        {
+          "name": "vegetarische stukjes"
+        }
+      ],
+      "label": "Peulvruchten"
+    },
+    {
       "id": "19e8a6bb-946f-42e2-a71f-acff294f4382",
       "name": "witte boon",
       "pluralName": "witte bonen",

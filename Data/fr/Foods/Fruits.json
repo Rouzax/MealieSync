@@ -314,6 +314,18 @@
       "label": "Fruits"
     },
     {
+      "id": "f7ec3eca-3332-4d30-a95f-cc589ba3f18e",
+      "name": "compote de pommes",
+      "pluralName": "compote de pommes",
+      "description": "Purée de pommes sucrée; accompagnement classique des plats mijotés.",
+      "aliases": [
+        {
+          "name": "apple sauce"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
       "id": "d0839555-375d-4293-a326-1a3c10cef32f",
       "name": "corossol",
       "pluralName": "corossols",
