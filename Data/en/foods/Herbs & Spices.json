@@ -1,0 +1,1391 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "2cd203f7-95b0-4382-ac64-6b5f7ae840c4",
+      "name": "ajwain seed",
+      "pluralName": "ajwain seeds",
+      "description": "Aromatic spice seed (ajwain); toast or grind for curry and bread.",
+      "aliases": [
+        {
+          "name": "ajwain"
+        },
+        {
+          "name": "ajowan"
+        },
+        {
+          "name": "carom seed"
+        },
+        {
+          "name": "carom seeds"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "d5d68702-93db-4e11-afe2-52cf91ecb631",
+      "name": "amchoor",
+      "pluralName": "amchoor",
+      "description": "Dried mango powder; tart spice for Indian curry.",
+      "aliases": [
+        {
+          "name": "amchur"
+        },
+        {
+          "name": "dried mango powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "7d8f68cd-31c3-4d66-8796-ccb02c539b38",
+      "name": "anise",
+      "pluralName": "anise",
+      "description": "Anise seed; sweet aroma in baked goods and drinks.",
+      "aliases": [
+        {
+          "name": "aniseed"
+        },
+        {
+          "name": "anise seed"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "f42a9507-4fd4-4cf6-adc4-4f8e1273c3c6",
+      "name": "annatto seed",
+      "pluralName": "annatto seeds",
+      "description": "Annatto seed; colors adobo and rice red.",
+      "aliases": [
+        {
+          "name": "achiote"
+        },
+        {
+          "name": "achiote seed"
+        },
+        {
+          "name": "annatto"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "04b17678-94ae-491e-9ac6-01b363bc974f",
+      "name": "asafoetida",
+      "pluralName": "asafoetida",
+      "description": "Aromatic resin or powder; onion-garlic flavor in Indian curries.",
+      "aliases": [
+        {
+          "name": "asafetida"
+        },
+        {
+          "name": "hing"
+        },
+        {
+          "name": "asafoetida powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "9dd488a2-1ce7-4921-8d5d-e8a89a4d7fb2",
+      "name": "bami spice mix",
+      "pluralName": "bami spice mixes",
+      "description": "Spice mix for bami; aromatic and mildly spicy.",
+      "aliases": [
+        {
+          "name": "bami spices"
+        },
+        {
+          "name": "bami seasoning"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "64964b9e-6087-4aea-bf6a-5380f8e3433a",
+      "name": "basil (dried)",
+      "pluralName": "basil (dried)",
+      "description": "Dried basil; for pasta, pizza, and tomato sauce.",
+      "aliases": [
+        {
+          "name": "dried basil"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "32580aa1-8a09-42ed-a42e-255796d31de7",
+      "name": "berbere",
+      "pluralName": "berbere",
+      "description": "Ethiopian spice mix; spicy for stews.",
+      "aliases": [
+        {
+          "name": "berbere spice mix"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "cf55f9a3-3533-40fb-a078-1216c3ae8805",
+      "name": "brown mustard seed",
+      "pluralName": "brown mustard seeds",
+      "description": "Brown mustard seed; pungent for curries and pickles.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "4e1346d8-aeab-46ba-a7a8-ab1ada8aac94",
+      "name": "cajun seasoning",
+      "pluralName": "cajun seasoning",
+      "description": "Spice mix for Cajun dishes; spicy with paprika and cayenne.",
+      "aliases": [
+        {
+          "name": "cajun spices"
+        },
+        {
+          "name": "cajun spice mix"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "3b798ec1-bf4e-47f7-96af-4717ba93afa6",
+      "name": "cayenne pepper",
+      "pluralName": "cayenne pepper",
+      "description": "Ground cayenne; hot and sharp seasoning.",
+      "aliases": [
+        {
+          "name": "cayenne"
+        },
+        {
+          "name": "cayenne powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "e419dc35-65b2-4425-bfea-2c3e541f7a47",
+      "name": "chili (flakes)",
+      "pluralName": "chili (flakes)",
+      "description": "Dried chili flakes; spicy sprinkle for pasta and pizza.",
+      "aliases": [
+        {
+          "name": "chili flakes"
+        },
+        {
+          "name": "chilli flakes"
+        },
+        {
+          "name": "red pepper flakes"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "4aaed244-7118-4f97-aa68-11130b81cf98",
+      "name": "chili con carne seasoning",
+      "pluralName": "chili con carne seasoning",
+      "description": "Spice mix for chili con carne; with chili and cumin.",
+      "aliases": [
+        {
+          "name": "chili seasoning"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "de596c37-abfc-4e52-8673-a864b5edc467",
+      "name": "chili powder",
+      "pluralName": "chili powder",
+      "description": "Spice mix; ground chili with cumin and oregano.",
+      "aliases": [
+        {
+          "name": "chilli powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "7b29de45-bbd1-4138-b1a8-84603aeb0cad",
+      "name": "dill (dried)",
+      "pluralName": "dill (dried)",
+      "description": "Dried dill; anise-like flavor with fish and cucumber.",
+      "aliases": [
+        {
+          "name": "dried dill"
+        },
+        {
+          "name": "dill weed"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "30b9884f-f9c4-40c1-81e4-bd196bf03214",
+      "name": "tarragon (dried)",
+      "pluralName": "tarragon (dried)",
+      "description": "Dried tarragon; anise-like flavor in sauces and poultry.",
+      "aliases": [
+        {
+          "name": "dried tarragon"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "684680dd-cfbd-49c3-8e13-9be6f2663cf2",
+      "name": "fajita seasoning",
+      "pluralName": "fajita seasoning",
+      "description": "Spice mix for fajitas; with chili, cumin, and garlic.",
+      "aliases": [
+        {
+          "name": "fajita spices"
+        },
+        {
+          "name": "fajita spice mix"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "bb02313b-26f3-4d14-a48f-1fc76da786e3",
+      "name": "fenugreek leaves",
+      "pluralName": "fenugreek leaves",
+      "description": "Dried fenugreek leaves; bitter and herbaceous in curries.",
+      "aliases": [
+        {
+          "name": "kasuri methi"
+        },
+        {
+          "name": "kasoeri methi"
+        },
+        {
+          "name": "dried fenugreek leaves"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "059c661b-809c-4bb7-926d-bfb6d7081cc0",
+      "name": "fenugreek seed",
+      "pluralName": "fenugreek seeds",
+      "description": "Fenugreek seed; bittersweet in curries and breads.",
+      "aliases": [
+        {
+          "name": "fenugreek"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "e300308c-eed5-4680-804e-a56a7a43f476",
+      "name": "fleur de sel",
+      "pluralName": "fleur de sel",
+      "description": "Delicate sea salt; finishing salt for salads and fish.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "c5bd2cec-d27f-4079-be15-1d89d61785c8",
+      "name": "mace",
+      "pluralName": "mace",
+      "description": "Nutmeg covering; aromatic in sauces and baked goods.",
+      "aliases": [
+        {
+          "name": "mace blade"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "04e2584d-e20d-47e4-9040-df4d1fcf4169",
+      "name": "garam masala",
+      "pluralName": "garam masala",
+      "description": "Indian spice mix; warm and aromatic for curries.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "363c7346-057f-44a9-a8b5-617bb616fc49",
+      "name": "yellow mustard seed",
+      "pluralName": "yellow mustard seeds",
+      "description": "Yellow mustard seed; mildly pungent for curries and marinades.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "0b33f855-4701-4234-86ff-f5d889aadb5b",
+      "name": "minced meat seasoning",
+      "pluralName": "minced meat seasoning",
+      "description": "Spice mix for ground meat; often with paprika and nutmeg.",
+      "aliases": [
+        {
+          "name": "ground meat seasoning"
+        },
+        {
+          "name": "hamburger seasoning"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "4cbeff3b-783f-4650-8958-34aff2be2be3",
+      "name": "ginger",
+      "pluralName": "ginger",
+      "description": "Rhizome; spicy in stir-fries, curries, teas, or marinades.",
+      "aliases": [
+        {
+          "name": "fresh ginger"
+        },
+        {
+          "name": "ginger root"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "35ec932b-8837-4467-b8d8-d167554d3ffc",
+      "name": "ginger powder",
+      "pluralName": "ginger powder",
+      "description": "Ground ginger; for cookies, chai, and curries.",
+      "aliases": [
+        {
+          "name": "ground ginger"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "b58b5574-5d2f-4a52-8f77-dd50e80c5429",
+      "name": "smoked paprika",
+      "pluralName": "smoked paprika",
+      "description": "Smoked paprika powder; smoky aroma for rubs and stews.",
+      "aliases": [
+        {
+          "name": "pimenton"
+        },
+        {
+          "name": "pimentón"
+        },
+        {
+          "name": "smoked paprika powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "8f7ca84b-79b4-4dfd-af31-e00d8196ae15",
+      "name": "mulled wine spices",
+      "pluralName": "mulled wine spices",
+      "description": "Spice mix for mulled wine; with cinnamon, clove, and star anise.",
+      "aliases": [
+        {
+          "name": "gluhwein spices"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "13fd9e80-eed3-4d77-ad0f-7973adb3f591",
+      "name": "grill seasoning",
+      "pluralName": "grill seasoning",
+      "description": "Spice mix for grilling; often with paprika, garlic, and pepper.",
+      "aliases": [
+        {
+          "name": "BBQ rub"
+        },
+        {
+          "name": "grill spices"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "b8576a7f-1e2d-45b3-a0be-d19d0ecb688f",
+      "name": "green cardamom pod",
+      "pluralName": "green cardamom pods",
+      "description": "Green cardamom pod; crush and use in curries, chai, and baking.",
+      "aliases": [
+        {
+          "name": "green cardamom"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "ee4d1365-5b7a-4017-9708-efd9deb5ba9c",
+      "name": "gyros seasoning",
+      "pluralName": "gyros seasoning",
+      "description": "Greek spice mix; includes oregano and garlic for meat.",
+      "aliases": [
+        {
+          "name": "gyros spices"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "76c78a1f-e757-4f48-84cc-f8508aeec257",
+      "name": "Indian bay leaf",
+      "pluralName": "Indian bay leaves",
+      "description": "Indian bay leaf; gives a cinnamon-like aroma to curries and rice.",
+      "aliases": [
+        {
+          "name": "tej patta"
+        },
+        {
+          "name": "tejpatta"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "bb44434b-8101-412d-be2a-ab5c668e2234",
+      "name": "Italian seasoning",
+      "pluralName": "Italian seasoning",
+      "description": "Herb mix; includes oregano, basil, and thyme for pasta.",
+      "aliases": [
+        {
+          "name": "Italian herbs"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "1cf042af-b40d-4732-9b2d-0e6ee221c4b6",
+      "name": "juniper berry",
+      "pluralName": "juniper berries",
+      "description": "Dried juniper berries; aromatic with game and sauerkraut.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "80514593-cd78-4615-adaa-496502144f56",
+      "name": "jerk seasoning",
+      "pluralName": "jerk seasoning",
+      "description": "Jerk spice mix; spicy with allspice, thyme, and chili.",
+      "aliases": [
+        {
+          "name": "jerk spices"
+        },
+        {
+          "name": "Jamaican jerk seasoning"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "00a1fc6f-eef0-40e4-9e7a-1aaf8d124dbd",
+      "name": "cinnamon (stick)",
+      "pluralName": "cinnamon (sticks)",
+      "description": "Cinnamon stick; simmered in stews, compotes, and hot drinks.",
+      "aliases": [
+        {
+          "name": "cinnamon stick"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "45c2f56b-485d-41f2-90cf-5131dd565032",
+      "name": "cinnamon powder",
+      "pluralName": "cinnamon powder",
+      "description": "Ground cinnamon; for baked goods, porridge, and stews.",
+      "aliases": [
+        {
+          "name": "ground cinnamon"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "52b88514-0af4-4260-8ae6-7efd18ee1610",
+      "name": "cardamom (ground)",
+      "pluralName": "cardamom (ground)",
+      "description": "Ground cardamom; warm and aromatic for baking and curries.",
+      "aliases": [
+        {
+          "name": "ground cardamom"
+        },
+        {
+          "name": "cardamom powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "88b94c9c-a3d6-4523-8044-36cd6a986758",
+      "name": "caraway seed",
+      "pluralName": "caraway seeds",
+      "description": "Caraway seed; anise-like flavor for breads and cabbage dishes.",
+      "aliases": [
+        {
+          "name": "caraway"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "af39e6a2-4a46-4f3f-968a-edd4a6dea825",
+      "name": "Kashmiri chili (dried)",
+      "pluralName": "Kashmiri chilies (dried)",
+      "description": "Dried Kashmiri chili; mildly spicy and colors curries and sauces red.",
+      "aliases": [
+        {
+          "name": "dried Kashmiri chili"
+        },
+        {
+          "name": "whole Kashmiri chilies"
+        },
+        {
+          "name": "Kashmiri mirch"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "9c4f68ce-d41f-4b09-a1e9-fc6f8a98aa3b",
+      "name": "Kashmiri chili powder",
+      "pluralName": "Kashmiri chili powder",
+      "description": "Mildly spicy red chili powder from Kashmiri peppers; colors curries and tandoori.",
+      "aliases": [
+        {
+          "name": "Kashmiri red chili powder"
+        },
+        {
+          "name": "Kashmiri mirch powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "f0744964-c124-4727-aaf9-bb703dd3fc4f",
+      "name": "cassia",
+      "pluralName": "cassia",
+      "description": "Cassia bark; cinnamon-like aroma in Asian cuisine.",
+      "aliases": [
+        {
+          "name": "cassia cinnamon"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "b0b71e4a-f24e-4d90-bce3-f3797fc206b7",
+      "name": "curry powder",
+      "pluralName": "curry powder",
+      "description": "Curry spice mix; for curries and rice dishes.",
+      "aliases": [
+        {
+          "name": "curry"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "3be3ba5c-3709-4dca-8285-9ea406dd8ff4",
+      "name": "Madras curry powder",
+      "pluralName": "Madras curry powder",
+      "description": "Spicy curry mix; for South Indian dishes.",
+      "aliases": [
+        {
+          "name": "Madras curry"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "e09efaee-c08c-4131-94e5-ca24c5d2b898",
+      "name": "garlic powder",
+      "pluralName": "garlic powder",
+      "description": "Garlic powder; for rubs, marinades, and sauces.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "e6fc10c2-1742-41dc-ac10-2a04ff1493ce",
+      "name": "gingerbread spice mix",
+      "pluralName": "gingerbread spice mixes",
+      "description": "Spice mix for gingerbread; with cinnamon and ginger.",
+      "aliases": [
+        {
+          "name": "koekkruiden"
+        },
+        {
+          "name": "gingerbread spices"
+        },
+        {
+          "name": "Dutch mixed spice"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "a2085178-2417-4382-a6e7-6eb1a3423cb5",
+      "name": "cumin (ground)",
+      "pluralName": "cumin (ground)",
+      "description": "Ground cumin; warm and earthy for curries and chili.",
+      "aliases": [
+        {
+          "name": "ground cumin"
+        },
+        {
+          "name": "cumin powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "13710348-8846-47a1-8ce1-90003c31c37b",
+      "name": "cumin (whole)",
+      "pluralName": "cumin (whole)",
+      "description": "Whole cumin; warm and earthy for curries and cheese.",
+      "aliases": [
+        {
+          "name": "cumin seeds"
+        },
+        {
+          "name": "whole cumin"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "506f3027-2c26-4501-8788-f7d060f8455e",
+      "name": "coriander seed (ground)",
+      "pluralName": "coriander seed (ground)",
+      "description": "Ground coriander seed; citrusy flavor for curries and rubs.",
+      "aliases": [
+        {
+          "name": "ground coriander"
+        },
+        {
+          "name": "coriander powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "53c21163-887a-48a9-9052-efe7292da7a5",
+      "name": "coriander seed (whole)",
+      "pluralName": "coriander seeds (whole)",
+      "description": "Whole coriander seed; citrusy flavor for curries and marinades.",
+      "aliases": [
+        {
+          "name": "whole coriander seeds"
+        },
+        {
+          "name": "coriander seeds"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "00055bb2-9ad7-44c2-aa29-43a1c3c998e2",
+      "name": "herb salt",
+      "pluralName": "herb salt",
+      "description": "Salt with herbs; quick seasoning for savory dishes.",
+      "aliases": [
+        {
+          "name": "seasoned salt"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "264cd990-88ef-4e16-9477-4f7c06ef1f50",
+      "name": "clove (ground)",
+      "pluralName": "clove (ground)",
+      "description": "Ground clove; warm and sweet in baked goods and stews.",
+      "aliases": [
+        {
+          "name": "ground clove"
+        },
+        {
+          "name": "ground cloves"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "b634aa8e-adc3-479e-9381-e95091c89477",
+      "name": "clove (whole)",
+      "pluralName": "cloves (whole)",
+      "description": "Whole clove; highly aromatic for stews and baked goods.",
+      "aliases": [
+        {
+          "name": "whole cloves"
+        },
+        {
+          "name": "cloves"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "969d65ca-e3c8-4693-a45f-9134bb9dd842",
+      "name": "turmeric (fresh)",
+      "pluralName": "turmeric (fresh)",
+      "description": "Fresh turmeric root; bright and earthy for curries and teas.",
+      "aliases": [
+        {
+          "name": "fresh turmeric"
+        },
+        {
+          "name": "turmeric root"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "d82d519f-5605-4892-86b5-9a046d7c763f",
+      "name": "turmeric powder",
+      "pluralName": "turmeric powder",
+      "description": "Turmeric powder; colors curries and rice dishes yellow.",
+      "aliases": [
+        {
+          "name": "ground turmeric"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "d46109c6-3638-4fbe-8a8a-3619ed118d47",
+      "name": "galangal (ground)",
+      "pluralName": "galangal (ground)",
+      "description": "Ground galangal; aromatic for Southeast Asian dishes.",
+      "aliases": [
+        {
+          "name": "ground galangal"
+        },
+        {
+          "name": "galangal powder"
+        },
+        {
+          "name": "laos powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "ea0cc21e-92e9-4277-9a62-5d677a5b8666",
+      "name": "galangal (fresh)",
+      "pluralName": "galangal (fresh)",
+      "description": "Fresh galangal; aromatic root from Southeast Asia.",
+      "aliases": [
+        {
+          "name": "fresh galangal"
+        },
+        {
+          "name": "galangal root"
+        },
+        {
+          "name": "laos root"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "62555682-51c0-410a-9f8a-067fee4ba1a4",
+      "name": "bay leaf",
+      "pluralName": "bay leaves",
+      "description": "Bay leaf; simmered in soups, sauces, and stews.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "554b19df-bfd0-4ee3-aedb-396d1accdd5f",
+      "name": "marjoram (dried)",
+      "pluralName": "marjoram (dried)",
+      "description": "Dried marjoram; sweet flavor for sausages and stews.",
+      "aliases": [
+        {
+          "name": "dried marjoram"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "2295b117-3dbd-4efe-94f6-a3684dbdc2fe",
+      "name": "mint (dried)",
+      "pluralName": "mint (dried)",
+      "description": "Dried mint; fresh and herbaceous for sauces and marinades.",
+      "aliases": [
+        {
+          "name": "dried mint"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "f848ca86-7562-4185-b00b-64c855454149",
+      "name": "nasi seasoning",
+      "pluralName": "nasi seasoning",
+      "description": "Spice mix for nasi goreng; aromatic and savory.",
+      "aliases": [
+        {
+          "name": "nasi spices"
+        },
+        {
+          "name": "nasi spice mix"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "00e569c0-537b-43e8-9c87-9d7e212b02b7",
+      "name": "nigella seed",
+      "pluralName": "nigella seeds",
+      "description": "Nigella seed; nutty flavor for breads and curries.",
+      "aliases": [
+        {
+          "name": "kalonji"
+        },
+        {
+          "name": "black cumin seed"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "9135af39-30c5-4f6f-bc9d-110c004f4a7e",
+      "name": "nutmeg (ground)",
+      "pluralName": "nutmeg (ground)",
+      "description": "Ground nutmeg; warm and aromatic for mash and sauces.",
+      "aliases": [
+        {
+          "name": "ground nutmeg"
+        },
+        {
+          "name": "nutmeg powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "ccab7467-866b-4ff6-9862-e41e4096079a",
+      "name": "nutmeg (whole)",
+      "pluralName": "nutmegs (whole)",
+      "description": "Whole nutmeg; freshly grated for purees and sauces.",
+      "aliases": [
+        {
+          "name": "whole nutmeg"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "a5d9dd2e-3aa4-4cce-8ed1-26910acea942",
+      "name": "oregano (dried)",
+      "pluralName": "oregano (dried)",
+      "description": "Dried oregano; aromatic for pizza and Greek cuisine.",
+      "aliases": [
+        {
+          "name": "dried oregano"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "a16fe5de-f7c9-406f-94de-983bcd6c2846",
+      "name": "paella seasoning",
+      "pluralName": "paella seasoning",
+      "description": "Spice mix for paella; often with paprika and saffron.",
+      "aliases": [
+        {
+          "name": "paella spices"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "10a38cd0-06f5-4c94-ac1c-4c8a04ff68aa",
+      "name": "panch phoron",
+      "pluralName": "panch phoron",
+      "description": "Bengali five-spice mix; includes fennel and mustard seeds.",
+      "aliases": [
+        {
+          "name": "panch poran"
+        },
+        {
+          "name": "Bengali five-spice"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "30ab4735-507e-48b5-8d24-a671c55d7cd2",
+      "name": "paprika powder",
+      "pluralName": "paprika powder",
+      "description": "Paprika powder; mildly sweet or slightly spicy.",
+      "aliases": [
+        {
+          "name": "paprika"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "aa5c08d6-f025-4dd4-875a-a1a4ee982c14",
+      "name": "pepper",
+      "pluralName": "pepper",
+      "description": "Pungent seasoning; as peppercorns or ground.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "d091dae8-4216-4a84-8fbc-8494ad7fb69e",
+      "name": "parsley (dried)",
+      "pluralName": "parsley (dried)",
+      "description": "Dried parsley; mild herbaceous flavor as a garnish.",
+      "aliases": [
+        {
+          "name": "dried parsley"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "0643759b-43f7-4556-a883-feb0c0c044d2",
+      "name": "allspice (ground)",
+      "pluralName": "allspice (ground)",
+      "description": "Ground allspice; warm and spicy for stews and baking.",
+      "aliases": [
+        {
+          "name": "ground allspice"
+        },
+        {
+          "name": "allspice powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "0b631ef7-044d-4ba0-9245-5e0d31afd3fc",
+      "name": "allspice (whole)",
+      "pluralName": "allspice (whole)",
+      "description": "Allspice berries; flavor between clove, cinnamon, and nutmeg.",
+      "aliases": [
+        {
+          "name": "allspice berries"
+        },
+        {
+          "name": "whole allspice"
+        },
+        {
+          "name": "Jamaica pepper"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "c555903f-824d-46bd-986d-d7392f75f050",
+      "name": "Espelette pepper",
+      "pluralName": "Espelette pepper",
+      "description": "Basque chili pepper; mildly spicy and aromatic.",
+      "aliases": [
+        {
+          "name": "piment d'Espelette"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "76e89101-79da-44da-8c14-7e581bc61abf",
+      "name": "pizza seasoning",
+      "pluralName": "pizza seasoning",
+      "description": "Herb mix for pizza; includes oregano, basil, and thyme.",
+      "aliases": [
+        {
+          "name": "pizza spices"
+        },
+        {
+          "name": "pizza herbs"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "5790bbae-f477-43ad-826e-3e3597c420e5",
+      "name": "herbes de Provence",
+      "pluralName": "herbes de Provence",
+      "description": "Herb mix from Provence; includes thyme and rosemary.",
+      "aliases": [
+        {
+          "name": "Provencal herbs"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "f8831156-c27d-4019-8eca-cd781546b402",
+      "name": "ras el hanout",
+      "pluralName": "ras el hanout",
+      "description": "Moroccan spice mix; complex blend for stews and couscous.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "dc172b04-8cb3-47f8-afaf-4fd124a5b7bc",
+      "name": "pink peppercorn",
+      "pluralName": "pink peppercorns",
+      "description": "Pink peppercorn; sweet and fruity as a finishing touch.",
+      "aliases": [
+        {
+          "name": "pink pepper"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "ba11f66d-d1ec-459f-81e6-7c54487f7c46",
+      "name": "rosemary (dried)",
+      "pluralName": "rosemary (dried)",
+      "description": "Dried rosemary; woody aroma for potatoes and meat.",
+      "aliases": [
+        {
+          "name": "dried rosemary"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "6df2edc5-dd8c-40ba-9c1e-f5cf17930902",
+      "name": "saffron",
+      "pluralName": "saffron",
+      "description": "Saffron threads; colors rice, paella, and broths yellow.",
+      "aliases": [
+        {
+          "name": "saffron threads"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "8b4a7fd3-d2ed-4a00-ba6b-b906c0165b21",
+      "name": "sage (dried)",
+      "pluralName": "sage (dried)",
+      "description": "Dried sage; herbaceous and slightly bitter for butter and poultry.",
+      "aliases": [
+        {
+          "name": "dried sage"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "46f90781-1636-4d38-9da7-21d5510b8465",
+      "name": "celery seed",
+      "pluralName": "celery seeds",
+      "description": "Celery seed; savory aroma for marinades and spice mixes.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "6cfe6904-edcd-49f2-9a34-92220a5a859d",
+      "name": "celery salt",
+      "pluralName": "celery salt",
+      "description": "Salt with celery; savory seasoning for salads and soups.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "9c5d78cb-f58d-4e4a-962c-4b3d827cfa20",
+      "name": "shawarma seasoning",
+      "pluralName": "shawarma seasoning",
+      "description": "Spice mix for shawarma; warm and aromatic for meat.",
+      "aliases": [
+        {
+          "name": "shawarma spices"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "f0630d07-5f87-4f69-bc46-1b8e53f2abe8",
+      "name": "speculaas spice mix",
+      "pluralName": "speculaas spice mixes",
+      "description": "Spice mix for speculaas cookies; with cinnamon and clove.",
+      "aliases": [
+        {
+          "name": "speculoos spices"
+        },
+        {
+          "name": "Biscoff spice"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "4a3e8149-294b-40e8-adaa-1feb60182331",
+      "name": "star anise",
+      "pluralName": "star anise",
+      "description": "Star anise; anise flavor for stews, pho, and tea.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "0d8eaa7e-46f2-4f61-a5b7-cf839f33b64d",
+      "name": "sumac",
+      "pluralName": "sumac",
+      "description": "Ground sumac; tart and fresh for salads and kebabs.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "6550a174-b6cd-4f63-8c0a-a5fd72c0241c",
+      "name": "Sichuan peppercorn",
+      "pluralName": "Sichuan peppercorns",
+      "description": "Sichuan peppercorn; citrusy and numbing for Chinese dishes.",
+      "aliases": [
+        {
+          "name": "Szechuan pepper"
+        },
+        {
+          "name": "Sichuan pepper"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "e10e4501-70b9-4f96-a810-930d638819fb",
+      "name": "tandoori masala",
+      "pluralName": "tandoori masala",
+      "description": "Indian spice mix; for tandoori marinade or to season meat, fish, or veg.",
+      "aliases": [
+        {
+          "name": "tandoori spice mix"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "154713db-a2d8-479c-93d5-fe8ac668f281",
+      "name": "tandoori seasoning",
+      "pluralName": "tandoori seasoning",
+      "description": "Spice mix for tandoori; red and aromatic for marinades.",
+      "aliases": [
+        {
+          "name": "tandoori spices"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "0398a1fc-3cf3-4cc4-b14e-070f4bf99fcb",
+      "name": "Tex-Mex seasoning",
+      "pluralName": "Tex-Mex seasoning",
+      "description": "Tex-Mex spice mix; spicy for tacos and burritos.",
+      "aliases": [
+        {
+          "name": "Tex-Mex spices"
+        },
+        {
+          "name": "Tex Mex seasoning"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "4d621087-8741-41cc-ad3a-727f71e6bc00",
+      "name": "thyme (dried)",
+      "pluralName": "thyme (dried)",
+      "description": "Dried thyme; aromatic for stews and vegetables.",
+      "aliases": [
+        {
+          "name": "dried thyme"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "259e288d-a7f5-4257-8125-b3d1a5358b38",
+      "name": "onion powder",
+      "pluralName": "onion powder",
+      "description": "Onion powder; for rubs, marinades, and sauces.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "00146f10-54d5-4326-a7fa-691602d3f1d8",
+      "name": "vanilla (bean)",
+      "pluralName": "vanilla (beans)",
+      "description": "Vanilla bean; scrape seeds for desserts.",
+      "aliases": [
+        {
+          "name": "vanilla pod"
+        },
+        {
+          "name": "vanilla stick"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "eecbb31f-ebde-4f3c-983e-3ae950cba872",
+      "name": "fennel seed",
+      "pluralName": "fennel seeds",
+      "description": "Fennel seed; anise-like flavor for sausages and breads.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "58695269-09d4-4861-8e9f-cca10d2ca42c",
+      "name": "Chinese five-spice powder",
+      "pluralName": "Chinese five-spice powder",
+      "description": "Chinese five-spice mix; includes star anise and cinnamon.",
+      "aliases": [
+        {
+          "name": "five-spice powder"
+        },
+        {
+          "name": "five spice"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "58cd30ff-949e-40df-a955-50aa6268236f",
+      "name": "fish seasoning",
+      "pluralName": "fish seasoning",
+      "description": "Spice mix for fish; fresh and herbaceous with dill.",
+      "aliases": [
+        {
+          "name": "fish spices"
+        },
+        {
+          "name": "seafood seasoning"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "d7f31afb-1fb9-43af-9605-bb2b4a35efcf",
+      "name": "white pepper (ground)",
+      "pluralName": "white pepper (ground)",
+      "description": "Ground white pepper; mild for light-colored sauces.",
+      "aliases": [
+        {
+          "name": "ground white pepper"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "c3878afd-3f7a-471c-8512-eacf172028f5",
+      "name": "white peppercorn",
+      "pluralName": "white peppercorns",
+      "description": "White peppercorns; whole peppercorns for a grinder.",
+      "aliases": [
+        {
+          "name": "whole white pepper"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "ea8f87fd-a3cd-4241-bdb7-310deb9eb2c2",
+      "name": "za'atar",
+      "pluralName": "za'atar",
+      "description": "Middle Eastern spice mix; with thyme, sumac, and sesame.",
+      "aliases": [
+        {
+          "name": "zaatar"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "dbe97176-9de0-473b-a903-a22092fc00fe",
+      "name": "sea salt",
+      "pluralName": "sea salt",
+      "description": "Sea salt; for cooking and finishing, often coarser grain.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "b3f1c8a2-2d47-4e6a-9c3b-7f5a1e0d9c84",
+      "name": "sea salt (flakes)",
+      "pluralName": "sea salt (flakes)",
+      "description": "Flaked sea salt; for a crispy finishing touch on dishes.",
+      "aliases": [
+        {
+          "name": "flaky sea salt"
+        },
+        {
+          "name": "sea salt flakes"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "04f1a601-58b6-4281-bcc2-465ff146a861",
+      "name": "salt",
+      "pluralName": "salt",
+      "description": "Table salt; main flavor enhancer in savory dishes.",
+      "aliases": [
+        {
+          "name": "table salt"
+        },
+        {
+          "name": "cooking salt"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "67499307-b9c5-4b85-9322-5f154c4cbe26",
+      "name": "black mustard seed",
+      "pluralName": "black mustard seeds",
+      "description": "Black mustard seed; more pungent than yellow, for curries and tadka.",
+      "aliases": [],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "634d448d-97e9-4e4d-b082-766c09c33198",
+      "name": "black cardamom pod",
+      "pluralName": "black cardamom pods",
+      "description": "Black cardamom pod; smoky aroma in stews and masala.",
+      "aliases": [
+        {
+          "name": "black cardamom"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "3b1018f5-e33b-4e35-9780-2c51bfa2c291",
+      "name": "black pepper (ground)",
+      "pluralName": "black pepper (ground)",
+      "description": "Ground black pepper; pungent seasoning for almost everything.",
+      "aliases": [
+        {
+          "name": "ground black pepper"
+        },
+        {
+          "name": "black pepper powder"
+        }
+      ],
+      "label": "Herbs & Spices"
+    },
+    {
+      "id": "83a97a16-e6e7-4177-a2ef-fdfe5788b2b7",
+      "name": "black peppercorn",
+      "pluralName": "black peppercorns",
+      "description": "Black peppercorns; whole peppercorns for a grinder.",
+      "aliases": [
+        {
+          "name": "whole black pepper"
+        },
+        {
+          "name": "black peppercorns"
+        }
+      ],
+      "label": "Herbs & Spices"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "6d03ad2a-3abc-461b-94a4-b55b981b9d0f",
+      "name": "liquid seasoning",
+      "pluralName": "liquid seasoning",
+      "description": "Liquid savory seasoning; spicy umami aroma for soups and sauces.",
+      "aliases": [
+        {
+          "name": "liquid aroma"
+        },
+        {
+          "name": "savory seasoning"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "48171d3a-705d-4eb6-b388-df8e37ee263d",
+      "name": "broth",
+      "pluralName": "broths",
+      "description": "Simmered soup base; for soups and sauces.",
+      "aliases": [
+        {
+          "name": "bouillon"
+        },
+        {
+          "name": "stock"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "0ad4afdf-00b2-4cfc-9139-524da57885b4",
+      "name": "bouillon cube",
+      "pluralName": "bouillon cubes",
+      "description": "Concentrated broth in cube form; to dissolve in water.",
+      "aliases": [
+        {
+          "name": "stock cube"
+        },
+        {
+          "name": "broth cube"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "49e72157-f704-4ff6-b9bf-c072b6b27551",
+      "name": "bouillon powder",
+      "pluralName": "bouillon powder",
+      "description": "Dehydrated broth in powder form; to dissolve in water.",
+      "aliases": [
+        {
+          "name": "broth powder"
+        },
+        {
+          "name": "stock powder"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "8eca611c-5887-44a8-a52f-b2cff9a88d01",
+      "name": "consommé",
+      "pluralName": "consommés",
+      "description": "Clear, clarified broth; rich and flavorful.",
+      "aliases": [
+        {
+          "name": "consomme"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "1d0fca89-b433-4505-9205-a2733cba5978",
+      "name": "dashi",
+      "pluralName": "dashi",
+      "description": "Japanese broth made from kombu and bonito; base for miso soup and noodle dishes.",
+      "aliases": [
+        {
+          "name": "dashi stock"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "542b2881-a525-47e0-8338-409336c2aed1",
+      "name": "stock concentrate",
+      "pluralName": "stock concentrates",
+      "description": "Reduced broth; concentrated base for sauces.",
+      "aliases": [
+        {
+          "name": "fond"
+        },
+        {
+          "name": "reduced stock"
+        },
+        {
+          "name": "jus"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "2b807574-6227-446d-82d0-904ef53baa23",
+      "name": "vegetable broth",
+      "pluralName": "vegetable broths",
+      "description": "Broth made from vegetables; vegetarian base for soups and sauces.",
+      "aliases": [
+        {
+          "name": "vegetable stock"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "6a886b81-6923-465a-81d0-b30a630ee9ea",
+      "name": "vegetable bouillon cube",
+      "pluralName": "vegetable bouillon cubes",
+      "description": "Vegetable broth in cube form; to dissolve in water.",
+      "aliases": [
+        {
+          "name": "vegetable stock cube"
+        },
+        {
+          "name": "vegetable broth cube"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "9798d767-3f11-430c-89e7-93c9cbb2c9dc",
+      "name": "veal stock concentrate",
+      "pluralName": "veal stock concentrates",
+      "description": "Reduced stock made from veal bones; rich base for classic sauces.",
+      "aliases": [
+        {
+          "name": "veal fond"
+        },
+        {
+          "name": "veal stock"
+        },
+        {
+          "name": "veal broth"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "18ec30df-4b00-40a8-bd37-ec373570d9e6",
+      "name": "chicken broth",
+      "pluralName": "chicken broths",
+      "description": "Broth made from chicken; versatile base for soups and risotto.",
+      "aliases": [
+        {
+          "name": "chicken stock"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "77baafd1-20ff-41b9-866c-8206f5cf111d",
+      "name": "chicken bouillon cube",
+      "pluralName": "chicken bouillon cubes",
+      "description": "Chicken broth in cube form; to dissolve in water.",
+      "aliases": [
+        {
+          "name": "chicken stock cube"
+        },
+        {
+          "name": "chicken broth cube"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "f433544a-5e73-49e2-824a-459c78f0903a",
+      "name": "MSG",
+      "pluralName": "MSG",
+      "description": "Monosodium glutamate; flavor enhancer for umami.",
+      "aliases": [
+        {
+          "name": "monosodium glutamate"
+        },
+        {
+          "name": "ve-tsin"
+        },
+        {
+          "name": "E621"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "00058fcf-f17a-4aed-a20f-a453da7d7792",
+      "name": "mushroom bouillon cube",
+      "pluralName": "mushroom bouillon cubes",
+      "description": "Broth cube with mushroom flavor; rich in umami.",
+      "aliases": [
+        {
+          "name": "mushroom stock cube"
+        },
+        {
+          "name": "mushroom broth cube"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "c263af64-b312-4084-9711-a355ddc1846d",
+      "name": "beef broth",
+      "pluralName": "beef broths",
+      "description": "Broth made from beef; robust base for gravies and stews.",
+      "aliases": [
+        {
+          "name": "beef stock"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "6f6d8f62-0ead-4370-ad18-3cd908bd6e59",
+      "name": "beef bouillon cube",
+      "pluralName": "beef bouillon cubes",
+      "description": "Beef broth in cube form; to dissolve in water.",
+      "aliases": [
+        {
+          "name": "beef stock cube"
+        },
+        {
+          "name": "beef broth cube"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    },
+    {
+      "id": "ce0f7fae-032e-420c-a677-c184a6326456",
+      "name": "fish stock",
+      "pluralName": "fish stocks",
+      "description": "Broth made from fish bones; base for fish soup and sauces.",
+      "aliases": [
+        {
+          "name": "fish broth"
+        },
+        {
+          "name": "fish fumet"
+        }
+      ],
+      "label": "Broth & Seasonings"
+    }
+  ]
+}

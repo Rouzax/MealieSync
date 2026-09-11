@@ -1,0 +1,353 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "709198ed-e612-4fd2-b362-fbe947ac72ce",
+      "name": "almond",
+      "pluralName": "almonds",
+      "description": "Mild nut; used in pastries, desserts, and as a snack.",
+      "aliases": [
+        {
+          "name": "unroasted almond"
+        },
+        {
+          "name": "unroasted almonds"
+        },
+        {
+          "name": "raw almond"
+        },
+        {
+          "name": "raw almonds"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "04c65e70-a2cd-4f9f-87c0-d45bff4d9941",
+      "name": "almond (roasted)",
+      "pluralName": "almonds (roasted)",
+      "description": "Roasted almond; as a snack or in salads.",
+      "aliases": [
+        {
+          "name": "roasted almond"
+        },
+        {
+          "name": "roasted almonds"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "ef7c0f94-e301-41f3-bfdd-1c59fba28a0a",
+      "name": "sliced almonds",
+      "pluralName": "sliced almonds",
+      "description": "Thinly sliced almonds; garnish for pastries and desserts.",
+      "aliases": [
+        {
+          "name": "flaked almonds"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "85088dde-9b74-45d4-bdcb-2448c6ea1385",
+      "name": "slivered almond",
+      "pluralName": "slivered almonds",
+      "description": "Almond cut into strips; used in cookies and pastries.",
+      "aliases": [],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "5edeeba1-da4f-4559-b366-a38e85b8be7f",
+      "name": "cashew",
+      "pluralName": "cashews",
+      "description": "Creamy nut; used in curries, stir-fries, and as a snack.",
+      "aliases": [
+        {
+          "name": "cashew nut"
+        },
+        {
+          "name": "cashew nuts"
+        },
+        {
+          "name": "unsalted cashews"
+        },
+        {
+          "name": "unroasted cashews"
+        },
+        {
+          "name": "raw cashews"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "8444d48b-d772-40eb-87eb-466ffbfd2ae4",
+      "name": "chia seed",
+      "pluralName": "chia seeds",
+      "description": "Seed that forms a gel with liquid; used in puddings, smoothies, and breakfasts.",
+      "aliases": [
+        {
+          "name": "chia"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "145c2d40-d1b6-4d77-bbcd-cb9e77b0dae6",
+      "name": "hazelnut",
+      "pluralName": "hazelnuts",
+      "description": "Aromatic nut; used in praline, pastries, and chocolate.",
+      "aliases": [],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "8243284f-520c-4e72-8094-97c479d6ae18",
+      "name": "hazelnut flour",
+      "pluralName": "hazelnut flour",
+      "description": "Ground hazelnuts; used in cookies and cakes as a flour substitute.",
+      "aliases": [
+        {
+          "name": "ground hazelnuts"
+        },
+        {
+          "name": "hazelnut meal"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "20aaa4b1-5159-4700-b402-f25ff3662cde",
+      "name": "hemp seed",
+      "pluralName": "hemp seeds",
+      "description": "Mild nutty seed; used in yogurt, muesli, and salads.",
+      "aliases": [
+        {
+          "name": "hemp"
+        },
+        {
+          "name": "hemp hearts"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "fd41a01b-c53a-4cfa-992a-e5581bdd6783",
+      "name": "shredded coconut",
+      "pluralName": "shredded coconut",
+      "description": "Dried grated coconut; used in pastries, desserts, and curries.",
+      "aliases": [
+        {
+          "name": "desiccated coconut"
+        },
+        {
+          "name": "grated coconut"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "7c760d39-2fba-4a07-9841-bf9d3e03def0",
+      "name": "coconut flake",
+      "pluralName": "coconut flakes",
+      "description": "Coarse coconut flakes; used in muesli, granola, and as a garnish.",
+      "aliases": [],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "210de45c-b3e7-4c5c-a4e0-630613700f3d",
+      "name": "flaxseed (ground)",
+      "pluralName": "flaxseeds (ground)",
+      "description": "Ground flaxseed; used as a binder in baking and porridge.",
+      "aliases": [
+        {
+          "name": "ground flaxseed"
+        },
+        {
+          "name": "flax meal"
+        },
+        {
+          "name": "linseed meal"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "9886fb33-2eea-45f1-ba85-b1790a60bbda",
+      "name": "flaxseed (whole)",
+      "pluralName": "flaxseeds (whole)",
+      "description": "Whole flaxseed; used in bread, muesli, and as a topping.",
+      "aliases": [
+        {
+          "name": "linseed"
+        },
+        {
+          "name": "whole flaxseed"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "b64b3c07-83b4-452b-a5fc-817c4fbdb7d5",
+      "name": "poppy seed",
+      "pluralName": "poppy seeds",
+      "description": "Small seed; used on bread and in pastries.",
+      "aliases": [],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "dd26c5b3-ad4e-4e51-877a-fe0bd5b83f0a",
+      "name": "macadamia nut",
+      "pluralName": "macadamia nuts",
+      "description": "Buttery nut; used in cookies, salads, and as a snack.",
+      "aliases": [
+        {
+          "name": "macadamia"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "5273a2c6-ac00-4b0a-82f7-db27aae09419",
+      "name": "mixed nuts",
+      "pluralName": "mixed nuts",
+      "description": "Mixture of nuts; as a snack or over salads.",
+      "aliases": [
+        {
+          "name": "nut mix"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "fbea5db3-23b9-4130-a30e-94c1f54bdb4c",
+      "name": "Brazil nut",
+      "pluralName": "Brazil nuts",
+      "description": "Fatty nut; used in nut mixes, granola, and pastries.",
+      "aliases": [],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "1d8abfe1-f6b1-4653-b0cb-e819f3320a19",
+      "name": "pecan",
+      "pluralName": "pecans",
+      "description": "Sweet nut; used in pecan pie, cookies, and granola.",
+      "aliases": [
+        {
+          "name": "pecan nut"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "54719883-4504-413f-9dab-6a93b5757aa4",
+      "name": "pine nut",
+      "pluralName": "pine nuts",
+      "description": "Seed from the pine tree; used in pesto, salads, and pasta.",
+      "aliases": [
+        {
+          "name": "pignoli"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "64741d83-a0ea-4cd5-af43-9c8cf1310704",
+      "name": "peanut",
+      "pluralName": "peanuts",
+      "description": "Legume eaten as a nut; used in snacks and sauces.",
+      "aliases": [
+        {
+          "name": "groundnut"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "7091f03c-3c53-4a54-9e1e-44ba6922697f",
+      "name": "pistachio",
+      "pluralName": "pistachios",
+      "description": "Green nut; used as a snack and in desserts and ice cream.",
+      "aliases": [
+        {
+          "name": "pistachio nut"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "a69de23f-8c11-46c3-8bcb-094ff07c9dd6",
+      "name": "pumpkin seed",
+      "pluralName": "pumpkin seeds",
+      "description": "Pumpkin seed; roasted as a snack or used on bread and salads.",
+      "aliases": [
+        {
+          "name": "pepita"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "6cfa59d7-8f8c-4f50-a28e-5abc03ed65bb",
+      "name": "sesame seed",
+      "pluralName": "sesame seeds",
+      "description": "Small seed; used on bread and in Asian dishes.",
+      "aliases": [
+        {
+          "name": "sesame"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "afaa4380-915e-4d2a-a3df-b189ae2c9012",
+      "name": "chestnut",
+      "pluralName": "chestnuts",
+      "description": "Edible chestnut; roasted, boiled, or puréed.",
+      "aliases": [
+        {
+          "name": "sweet chestnut"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "7787f992-1357-40e3-8fea-aaba8dd91ced",
+      "name": "walnut",
+      "pluralName": "walnuts",
+      "description": "Nut with a slightly bitter taste; used in salads, pastries, and on cheese boards.",
+      "aliases": [],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "b6d7161f-f478-4b94-8039-7cd9f411a9ce",
+      "name": "white poppy seed",
+      "pluralName": "white poppy seeds",
+      "description": "White poppy seed; used in Indian dishes and sauces.",
+      "aliases": [],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "ffbf36dd-5ec5-4252-ae29-cc53ee4a4423",
+      "name": "sunflower seed",
+      "pluralName": "sunflower seeds",
+      "description": "Sunflower seed; used in bread, salads, and as a snack.",
+      "aliases": [],
+      "label": "Nuts & Seeds"
+    },
+    {
+      "id": "a59bb6e9-cceb-4597-a418-3ee28b4a140b",
+      "name": "black sesame seed",
+      "pluralName": "black sesame seeds",
+      "description": "Black sesame; used in sushi, bowls, and desserts.",
+      "aliases": [
+        {
+          "name": "black sesame"
+        }
+      ],
+      "label": "Nuts & Seeds"
+    }
+  ]
+}

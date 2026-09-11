@@ -1,0 +1,445 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "4d52b385-17e0-4064-b070-6d05f3253646",
+      "name": "basil (fresh)",
+      "pluralName": "basil (fresh)",
+      "description": "Aromatic green herb; in pesto, salads, and pasta sauce.",
+      "aliases": [
+        {
+          "name": "fresh basil"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "75d4469f-2b47-4043-a3f8-82d3f7bd5152",
+      "name": "borage (fresh)",
+      "pluralName": "borage (fresh)",
+      "description": "Herb with cucumber aroma; in salads, drinks, or as a garnish.",
+      "aliases": [
+        {
+          "name": "fresh borage"
+        },
+        {
+          "name": "starflower"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "17b4fbbe-dcca-48ce-810e-3f79adde3d01",
+      "name": "chives (fresh)",
+      "pluralName": "chives (fresh)",
+      "description": "Mild onion flavor; finely chopped over egg, potato, and salads.",
+      "aliases": [
+        {
+          "name": "fresh chives"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "d8d264a1-de7a-46c5-9e59-0fdf1c171039",
+      "name": "celery leaves (fresh)",
+      "pluralName": "celery leaves (fresh)",
+      "description": "Celery leaves; in soups, broths, and sauces.",
+      "aliases": [
+        {
+          "name": "fresh celery leaves"
+        },
+        {
+          "name": "leaf celery"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "4e3fe72c-a9ce-49e9-abb0-676e7e1493b0",
+      "name": "savory (fresh)",
+      "pluralName": "savory (fresh)",
+      "description": "Herb with a peppery taste; cooked with beans and legumes.",
+      "aliases": [
+        {
+          "name": "fresh savory"
+        },
+        {
+          "name": "summer savory"
+        },
+        {
+          "name": "winter savory"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "5e464009-08f2-4839-8bd2-dc6c1510e55d",
+      "name": "bouquet garni",
+      "pluralName": "bouquets garnis",
+      "description": "Herb bundle; steeped in broths and stews.",
+      "aliases": [
+        {
+          "name": "herb bundle"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "0395ee2a-8ccd-4e1d-b173-6e61343396d5",
+      "name": "nettle (fresh)",
+      "pluralName": "nettles (fresh)",
+      "description": "Young nettle; briefly blanched in soups, stews, or tea.",
+      "aliases": [
+        {
+          "name": "fresh nettle"
+        },
+        {
+          "name": "stinging nettle"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "e49a73bc-5315-43ed-8494-e48481100c1e",
+      "name": "lemongrass (fresh)",
+      "pluralName": "lemongrass (fresh)",
+      "description": "Citrus-scented stalk; in Asian soups and curries.",
+      "aliases": [
+        {
+          "name": "fresh lemongrass"
+        },
+        {
+          "name": "sereh"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "0c529898-2c79-4503-97a8-7b1a6dd8bc19",
+      "name": "lemon balm (fresh)",
+      "pluralName": "lemon balm (fresh)",
+      "description": "Fresh lemon herb; in teas, salads, and desserts.",
+      "aliases": [
+        {
+          "name": "fresh lemon balm"
+        },
+        {
+          "name": "melissa"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "9d1f5554-8e92-41d8-926c-ee1b4a15cfa1",
+      "name": "lemon verbena (fresh)",
+      "pluralName": "lemon verbena (fresh)",
+      "description": "Herb with strong lemon aroma; for teas and desserts.",
+      "aliases": [
+        {
+          "name": "fresh lemon verbena"
+        },
+        {
+          "name": "verveine"
+        },
+        {
+          "name": "lemon beebrush"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "18b5bc5d-6364-41a5-b1ce-0642d5b8e5a5",
+      "name": "dill (fresh)",
+      "pluralName": "dill (fresh)",
+      "description": "Aromatic herb; with fish, potatoes, and cucumber.",
+      "aliases": [
+        {
+          "name": "fresh dill"
+        },
+        {
+          "name": "dill weed"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "2d449f5b-902a-4e5f-8476-fe834343d33e",
+      "name": "tarragon (fresh)",
+      "pluralName": "tarragon (fresh)",
+      "description": "Anise-flavored herb; in béarnaise, chicken, and sauces.",
+      "aliases": [
+        {
+          "name": "fresh tarragon"
+        },
+        {
+          "name": "estragon"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "b1acd4f9-5a0b-4d16-b426-51a7ee65e582",
+      "name": "curry leaf (fresh)",
+      "pluralName": "curry leaves (fresh)",
+      "description": "Aromatic leaves; fried in Indian curries.",
+      "aliases": [
+        {
+          "name": "fresh curry leaves"
+        },
+        {
+          "name": "sweet neem leaves"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "8d582feb-806c-4b98-ba64-f1cf37a333bf",
+      "name": "chervil (fresh)",
+      "pluralName": "chervil (fresh)",
+      "description": "Delicate anise-like herb; in soups, omelettes, and sauces.",
+      "aliases": [
+        {
+          "name": "fresh chervil"
+        },
+        {
+          "name": "french parsley"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "78482de9-075f-4546-9777-20a73da53c48",
+      "name": "coriander (fresh)",
+      "pluralName": "coriander (fresh)",
+      "description": "Coriander leaves; fresh garnish in Asian and Mexican cuisine.",
+      "aliases": [
+        {
+          "name": "fresh coriander"
+        },
+        {
+          "name": "cilantro (fresh)"
+        },
+        {
+          "name": "fresh cilantro"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "ecd2503f-10ce-4b18-91fb-23a420c88a93",
+      "name": "coriander stem (fresh)",
+      "pluralName": "coriander stems (fresh)",
+      "description": "Coriander stems; finely chopped in curries, soups, and salsas.",
+      "aliases": [
+        {
+          "name": "fresh coriander stems"
+        },
+        {
+          "name": "cilantro stems"
+        },
+        {
+          "name": "fresh cilantro stems"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "ce6c2e76-24e3-4aee-8a96-da7185ddcba5",
+      "name": "spearmint (fresh)",
+      "pluralName": "spearmint (fresh)",
+      "description": "Mild flavored mint variety; in salads, sauces, and teas.",
+      "aliases": [
+        {
+          "name": "fresh spearmint"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "a3445923-ee35-47dc-85c2-b7588d2c7a46",
+      "name": "curly parsley (fresh)",
+      "pluralName": "curly parsley (fresh)",
+      "description": "Curly parsley; as a garnish and in sauces.",
+      "aliases": [
+        {
+          "name": "fresh curly parsley"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "fe35d614-73ac-4720-af15-a00ba52ae8a6",
+      "name": "bay leaf (fresh)",
+      "pluralName": "bay leaves (fresh)",
+      "description": "Fresh bay leaf; milder aroma, steeped in light soups, sauces, and stews.",
+      "aliases": [
+        {
+          "name": "fresh bay leaf"
+        },
+        {
+          "name": "fresh bay leaves"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "786e14a3-a364-4c49-b40e-ebc5ffd2b13e",
+      "name": "lovage (fresh)",
+      "pluralName": "lovage (fresh)",
+      "description": "Herb with a broth-like flavor; in soups and broths.",
+      "aliases": [
+        {
+          "name": "fresh lovage"
+        },
+        {
+          "name": "maggi herb"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "b0f4e8b3-e084-4161-a563-64bc6c14b823",
+      "name": "makrut lime leaf (fresh)",
+      "pluralName": "makrut lime leaves (fresh)",
+      "description": "Citrus leaf of the makrut lime; in Thai curries and soups.",
+      "aliases": [
+        {
+          "name": "fresh makrut lime leaves"
+        },
+        {
+          "name": "kaffir lime leaf"
+        },
+        {
+          "name": "kaffir lime leaves"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "866c13ce-dc45-4761-aaae-e8002e2eb663",
+      "name": "marjoram (fresh)",
+      "pluralName": "marjoram (fresh)",
+      "description": "Aromatic herb; in meat dishes, sausages, and stews.",
+      "aliases": [
+        {
+          "name": "fresh marjoram"
+        },
+        {
+          "name": "sweet marjoram"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "bf4774f1-52ff-4061-af62-12863f98015e",
+      "name": "mint (fresh)",
+      "pluralName": "mint (fresh)",
+      "description": "Fresh herb; in teas, desserts, and as a garnish.",
+      "aliases": [
+        {
+          "name": "fresh mint"
+        },
+        {
+          "name": "mint leaves"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "2d5040a4-8b49-478d-b44c-4904e5780ea4",
+      "name": "oregano (fresh)",
+      "pluralName": "oregano (fresh)",
+      "description": "Aromatic herb; in tomato sauce, pizza, and pasta.",
+      "aliases": [
+        {
+          "name": "fresh oregano"
+        },
+        {
+          "name": "wild marjoram"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "e21dc5c2-737c-478e-872a-e036fa12f8ec",
+      "name": "peppermint (fresh)",
+      "pluralName": "peppermint (fresh)",
+      "description": "Cool mint variety; in teas, syrups, and desserts.",
+      "aliases": [
+        {
+          "name": "fresh peppermint"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "c32dbac1-3108-4dd5-9be6-f85b790fbcd4",
+      "name": "flat-leaf parsley (fresh)",
+      "pluralName": "flat-leaf parsley (fresh)",
+      "description": "Flat-leaf parsley; in chimichurri, soups, and salads.",
+      "aliases": [
+        {
+          "name": "fresh flat-leaf parsley"
+        },
+        {
+          "name": "italian parsley"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "ea755af5-f1d7-47c3-8c84-0f09e967c6f9",
+      "name": "rosemary (fresh)",
+      "pluralName": "rosemary (fresh)",
+      "description": "Needle-like herb; with meat, potatoes, and bread.",
+      "aliases": [
+        {
+          "name": "fresh rosemary"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "75b5ba14-b09e-414f-9a7b-6b92982a0657",
+      "name": "sage (fresh)",
+      "pluralName": "sage (fresh)",
+      "description": "Aromatic leaf; with butter, pasta, and meat dishes.",
+      "aliases": [
+        {
+          "name": "fresh sage"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "a036a2df-fb19-4e07-a2ac-f8a6934c2b6c",
+      "name": "thai basil (fresh)",
+      "pluralName": "thai basil (fresh)",
+      "description": "Anise-like basil; in stir-fries and curries.",
+      "aliases": [
+        {
+          "name": "fresh thai basil"
+        },
+        {
+          "name": "asian basil"
+        }
+      ],
+      "label": "Fresh Herbs"
+    },
+    {
+      "id": "9f5484a0-f4ed-4f26-89ec-6ef52167fb4f",
+      "name": "thyme (fresh)",
+      "pluralName": "thyme (fresh)",
+      "description": "Aromatic herb; in stews, meat, and vegetables.",
+      "aliases": [
+        {
+          "name": "fresh thyme"
+        }
+      ],
+      "label": "Fresh Herbs"
+    }
+  ]
+}

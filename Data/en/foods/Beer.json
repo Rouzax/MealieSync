@@ -1,0 +1,255 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "a4e3e0d0-ab12-4403-be75-2aa87c7d6123",
+      "name": "non-alcoholic beer",
+      "pluralName": "non-alcoholic beers",
+      "description": "Alcohol-free beer; used in alcohol-free marinades and batters.",
+      "aliases": [
+        {
+          "name": "0.0 beer"
+        },
+        {
+          "name": "alcohol-free beer"
+        },
+        {
+          "name": "NA beer"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "5560dd0b-08d9-4c06-b4dd-85beb199b206",
+      "name": "beer",
+      "pluralName": "beers",
+      "description": "Alcoholic beverage made from fermented grain; used in marinades, batters, and stews.",
+      "aliases": [],
+      "label": "Beer"
+    },
+    {
+      "id": "ce0e325e-1e3a-40ed-bbb9-f91b43fd4de0",
+      "name": "blonde ale",
+      "pluralName": "blonde ales",
+      "description": "Light-colored beer; mild and crisp in flavor.",
+      "aliases": [
+        {
+          "name": "blond beer"
+        },
+        {
+          "name": "blonde beer"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "58c99151-0833-4b8e-9094-b3f2e19c46eb",
+      "name": "bock",
+      "pluralName": "bocks",
+      "description": "Dark seasonal beer; rich and sweet, ideal for beef stews.",
+      "aliases": [
+        {
+          "name": "bock beer"
+        },
+        {
+          "name": "autumn bock"
+        },
+        {
+          "name": "herfstbock"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "deb53f5c-4025-4b6f-931b-246d8834e015",
+      "name": "brown ale",
+      "pluralName": "brown ales",
+      "description": "Dark beer; malty and slightly sweet, classic for stews.",
+      "aliases": [
+        {
+          "name": "brown beer"
+        },
+        {
+          "name": "dark beer"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "b85873e8-dd02-42a7-bc13-044f243eea90",
+      "name": "dubbel",
+      "pluralName": "dubbels",
+      "description": "Belgian dark abbey beer; malty with caramel and plum notes.",
+      "aliases": [
+        {
+          "name": "Belgian dubbel"
+        },
+        {
+          "name": "abbey dubbel"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "0c59b6a3-2b3c-4338-bf16-9ab60b0490e0",
+      "name": "gueuze",
+      "pluralName": "gueuzes",
+      "description": "Spontaneously fermented Belgian beer; sour and complex.",
+      "aliases": [
+        {
+          "name": "geuze"
+        },
+        {
+          "name": "gueuze beer"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "d20b7d1e-efa9-48d9-94d6-1bf418693778",
+      "name": "IPA",
+      "pluralName": "IPAs",
+      "description": "India Pale Ale; hoppy beer with bitter and fruity notes.",
+      "aliases": [
+        {
+          "name": "India Pale Ale"
+        },
+        {
+          "name": "india pale ale"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "dcfc4591-8b38-4198-8da4-ff180abf5c1b",
+      "name": "kriek",
+      "pluralName": "krieks",
+      "description": "Belgian cherry beer; sweet-and-sour fruit beer.",
+      "aliases": [
+        {
+          "name": "kriek beer"
+        },
+        {
+          "name": "cherry lambic"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "3598ae23-160a-4826-9417-1d2f23d179c4",
+      "name": "lager",
+      "pluralName": "lagers",
+      "description": "Bottom-fermented pale beer; neutral and crisp, frequently used in cooking.",
+      "aliases": [
+        {
+          "name": "lager beer"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "16863c98-305e-4ddd-a257-be556debbb5c",
+      "name": "lambic",
+      "pluralName": "lambics",
+      "description": "Spontaneously fermented Belgian beer; base for gueuze, often slightly sour.",
+      "aliases": [
+        {
+          "name": "lambic beer"
+        },
+        {
+          "name": "lambiek"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "70a4fe54-e5a5-47f9-83c1-e215c4a411ff",
+      "name": "pilsner",
+      "pluralName": "pilsners",
+      "description": "Pale lager; clear and refreshing, the most widely consumed beer style.",
+      "aliases": [
+        {
+          "name": "pils"
+        },
+        {
+          "name": "pilsener"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "c4134663-9e02-4dab-9da7-beb2ed4d8f67",
+      "name": "porter",
+      "pluralName": "porters",
+      "description": "Dark beer with roasted malt; malty with coffee and chocolate notes.",
+      "aliases": [
+        {
+          "name": "porter beer"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "3ec8327e-febf-4a18-8c6a-4655d45682e4",
+      "name": "stout",
+      "pluralName": "stouts",
+      "description": "Dark beer with roasted malt; coffee and chocolate flavors.",
+      "aliases": [
+        {
+          "name": "stout beer"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "7a5ab2a6-317a-4a9b-94a3-5d6ec8a0e814",
+      "name": "wheat beer",
+      "pluralName": "wheat beers",
+      "description": "Beer brewed with a high proportion of wheat; light and crisp, used in batters and sauces.",
+      "aliases": [
+        {
+          "name": "hefeweizen"
+        },
+        {
+          "name": "tarwebier"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "5eb06812-2f7d-483b-b5f0-4483e7a0230c",
+      "name": "tripel",
+      "pluralName": "tripels",
+      "description": "Strong Belgian blonde beer; fruity and spicy.",
+      "aliases": [
+        {
+          "name": "Belgian tripel"
+        },
+        {
+          "name": "abbey tripel"
+        }
+      ],
+      "label": "Beer"
+    },
+    {
+      "id": "55a67520-6229-4540-a619-523341f1773b",
+      "name": "witbier",
+      "pluralName": "witbiers",
+      "description": "Belgian white wheat beer; hazy and crisp with coriander and orange peel.",
+      "aliases": [
+        {
+          "name": "white beer"
+        },
+        {
+          "name": "Belgian wit"
+        },
+        {
+          "name": "wit bier"
+        }
+      ],
+      "label": "Beer"
+    }
+  ]
+}

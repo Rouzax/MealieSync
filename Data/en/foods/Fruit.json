@@ -1,0 +1,1094 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "d2091932-dce6-48c6-a3bd-c1f252bb4357",
+      "name": "redcurrant",
+      "pluralName": "redcurrants",
+      "description": "Red or white clusters of berries; tart, used for jams and sauces.",
+      "aliases": [
+        {
+          "name": "red currant"
+        },
+        {
+          "name": "aalbes"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "760ab880-c16c-4a6d-8dba-79a0eede232d",
+      "name": "strawberry",
+      "pluralName": "strawberries",
+      "description": "Sweet red soft fruit; fresh, in desserts, or as flavoring.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "8e25d23c-2ab4-4ed9-a0b2-44b668a67cfc",
+      "name": "apricot",
+      "pluralName": "apricots",
+      "description": "Orange stone fruit; eaten fresh or used in pastries and jams.",
+      "aliases": [
+        {
+          "name": "fresh apricot"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "98c5a626-61c8-4a25-84a9-cf234aebaaaf",
+      "name": "apricot (dried)",
+      "pluralName": "apricots (dried)",
+      "description": "Dried apricot; sweet in tagines, muesli, and pastries.",
+      "aliases": [
+        {
+          "name": "dried apricot"
+        },
+        {
+          "name": "dried apricots"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "e4e57fa4-2994-4153-806f-6a8633705108",
+      "name": "pineapple",
+      "pluralName": "pineapples",
+      "description": "Tropical fruit; sweet-and-sour yellow flesh.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "335cc390-d3ef-405c-9ff7-1eb89d6c3a31",
+      "name": "apple",
+      "pluralName": "apples",
+      "description": "Fresh fruit; eaten raw, in desserts, salads, or as a snack.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "8f9caf7e-4f73-488d-ba1b-5e9700e6e917",
+      "name": "avocado",
+      "pluralName": "avocados",
+      "description": "Fruit with creamy flesh; for salads, guacamole, or on toast.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "cc3868ed-7b93-4e67-b3c7-7c5ae1041474",
+      "name": "plantain",
+      "pluralName": "plantains",
+      "description": "Starchy cooking banana; eaten fried or boiled.",
+      "aliases": [
+        {
+          "name": "cooking banana"
+        },
+        {
+          "name": "bakbanaan"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "adf36e91-a33b-4879-a7c3-703dd89f95e1",
+      "name": "banana",
+      "pluralName": "bananas",
+      "description": "Tropical fruit; yellow, sweet, rich in potassium.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "fac36d7b-5b8b-4518-a386-79fdddee1fc1",
+      "name": "blood orange",
+      "pluralName": "blood oranges",
+      "description": "Orange with red flesh; fresh or as juice.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "7076c424-8cdd-4db1-9950-6b683beabbed",
+      "name": "blueberry",
+      "pluralName": "blueberries",
+      "description": "Small blue berries; fresh or in desserts and pastries.",
+      "aliases": [
+        {
+          "name": "bilberry"
+        },
+        {
+          "name": "bosbes"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "f3ad29ea-c0b3-4212-9fac-2bb5915e968f",
+      "name": "blackberry",
+      "pluralName": "blackberries",
+      "description": "Dark purple soft berries; fresh or in jam.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "034e98b7-44e4-4488-91ed-5cede2e7bf53",
+      "name": "breadfruit",
+      "pluralName": "breadfruits",
+      "description": "Tropical fruit with starchy flesh; boiled or fried.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "80b0f948-5384-40c1-b091-592b6d6502e3",
+      "name": "cantaloupe",
+      "pluralName": "cantaloupes",
+      "description": "Melon variety; orange flesh, aromatically sweet.",
+      "aliases": [
+        {
+          "name": "cantaloupe melon"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "76a50ee7-c9ef-4e26-89f7-1f87a29fc635",
+      "name": "lemon",
+      "pluralName": "lemons",
+      "description": "Yellow citrus fruit; in wedges or slices for cooking, baking, and drinks.",
+      "aliases": [
+        {
+          "name": "fresh lemon"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "6c8607c2-d06b-4176-8466-7c9c47981ca0",
+      "name": "lemon (zest)",
+      "pluralName": "lemon (zest)",
+      "description": "Lemon zest; aromatic for pastries, desserts, and sauces.",
+      "aliases": [
+        {
+          "name": "lemon zest"
+        },
+        {
+          "name": "grated lemon peel"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "4ca347f7-253f-4f16-bc30-ff5f237c5c1f",
+      "name": "lemon (juice)",
+      "pluralName": "lemon (juice)",
+      "description": "Lemon juice; for dressings, marinades, and as a fresh flavor note.",
+      "aliases": [
+        {
+          "name": "lemon juice"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "3e7a380c-3de9-4d60-a044-a76a359e9cbb",
+      "name": "lemon (peel)",
+      "pluralName": "lemon (peel)",
+      "description": "Lemon peel; in strips for stews, liqueurs, and candied peels.",
+      "aliases": [
+        {
+          "name": "lemon peel"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "ce8a20d6-ceee-4dbf-92d0-0bafca256d2a",
+      "name": "clementine",
+      "pluralName": "clementines",
+      "description": "Small sweet citrus fruit; seedless, easy to peel.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "200ab77b-be7f-4ccb-8f1c-58655297a2d1",
+      "name": "cranberry",
+      "pluralName": "cranberries",
+      "description": "Tart red berry; fresh in sauces, compotes, or with game.",
+      "aliases": [
+        {
+          "name": "veenbes"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "0ba02825-c6f4-4981-b6f6-976e95c0bdf1",
+      "name": "cranberry (dried)",
+      "pluralName": "cranberries (dried)",
+      "description": "Dried cranberry; sweet and sour in muesli, pastries, or salads.",
+      "aliases": [
+        {
+          "name": "dried cranberry"
+        },
+        {
+          "name": "dried cranberries"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "9f55abbe-e7cb-468e-b1d5-271ddd51d64b",
+      "name": "date",
+      "pluralName": "dates",
+      "description": "Fresh date; juicy and sweet as a snack, in salads, or in desserts.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "eacfda2b-85fe-4368-b9d2-e6649a6ca1d3",
+      "name": "date (dried)",
+      "pluralName": "dates (dried)",
+      "description": "Dried date; sweet in baked goods, snacks, and energy balls.",
+      "aliases": [
+        {
+          "name": "dried date"
+        },
+        {
+          "name": "dried dates"
+        },
+        {
+          "name": "medjool date"
+        },
+        {
+          "name": "medjool dates"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "dcbf729a-a61e-43de-a00c-816b751c3de9",
+      "name": "durian",
+      "pluralName": "durians",
+      "description": "Tropical fruit with a strong odor; creamy flesh.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "328f074a-f96e-44c9-8a61-f6367d9a8429",
+      "name": "dragon fruit",
+      "pluralName": "dragon fruits",
+      "description": "Bright pink fruit with white or red flesh; mildly sweet.",
+      "aliases": [
+        {
+          "name": "pitaya"
+        },
+        {
+          "name": "pitahaya"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "d8690fdd-04f3-4121-87d4-71fdcd37a113",
+      "name": "grape",
+      "pluralName": "grapes",
+      "description": "Fruit; fresh as table grapes or pressed into juice and wine.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "1136b110-8229-491d-93e0-fb64d6f74f08",
+      "name": "elstar apple",
+      "pluralName": "elstar apples",
+      "description": "Dutch apple variety; sweet-and-sour, ideal for apple pie.",
+      "aliases": [
+        {
+          "name": "elstar"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "f1918a4f-42ae-4906-ab88-3e5d3aff4248",
+      "name": "raspberry",
+      "pluralName": "raspberries",
+      "description": "Sweet and tart red berry; fresh or in desserts and jam.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "ac42bc4b-97bc-4d47-815f-881eb072bba7",
+      "name": "galia melon",
+      "pluralName": "galia melons",
+      "description": "Melon variety; green-yellow, sweet and juicy.",
+      "aliases": [
+        {
+          "name": "galia"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "0442d597-ee5d-4a9e-be78-be3809bb0025",
+      "name": "goji berry",
+      "pluralName": "goji berries",
+      "description": "Small red dried berry; superfood, used in smoothies and muesli.",
+      "aliases": [
+        {
+          "name": "goji"
+        },
+        {
+          "name": "wolfberry"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "ac895b82-1f97-4325-9200-3ccdfc3ea0ce",
+      "name": "pomegranate",
+      "pluralName": "pomegranates",
+      "description": "Fruit filled with juicy red seeds; for salads and garnish.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "ad49dad1-0ad2-40f6-8bf2-68f35495e289",
+      "name": "pomegranate seed",
+      "pluralName": "pomegranate seeds",
+      "description": "Red seeds from pomegranate; used as garnish or in salads.",
+      "aliases": [
+        {
+          "name": "pomegranate arils"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "96373953-4bed-45fc-8d44-370cd7d7f37b",
+      "name": "grapefruit",
+      "pluralName": "grapefruits",
+      "description": "Large citrus fruit; bitter-sour, eaten for breakfast or pressed for juice.",
+      "aliases": [
+        {
+          "name": "pompelmoes"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "567af627-de3e-4d1b-b0dd-b4288c019604",
+      "name": "guava",
+      "pluralName": "guavas",
+      "description": "Tropical fruit; aromatic sweet-and-sour flesh, fresh or as juice.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "af844723-61b6-439a-a25c-596ebba2d404",
+      "name": "honeydew melon",
+      "pluralName": "honeydew melons",
+      "description": "Sweet green melon; fresh in desserts or fruit salads.",
+      "aliases": [
+        {
+          "name": "honeydew"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "50c953ba-5482-485f-a22c-a9cd74edb6dc",
+      "name": "jackfruit",
+      "pluralName": "jackfruits",
+      "description": "Large tropical fruit; young jackfruit is used as a meat substitute.",
+      "aliases": [
+        {
+          "name": "nangka"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "63fb1523-dde1-4dbe-8ed5-a10664a8674a",
+      "name": "jonagold apple",
+      "pluralName": "jonagold apples",
+      "description": "Large red-yellow apple variety; sweet-and-sour, for fresh eating and baking.",
+      "aliases": [
+        {
+          "name": "jonagold"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "ef8f12ba-13bb-4cbc-bf09-5e29034614e0",
+      "name": "jostaberry",
+      "pluralName": "jostaberries",
+      "description": "Cross between blackcurrant and gooseberry; deep purple, sweet-and-sour.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "858ab100-76a9-469c-86d6-ae9fe8a3c24d",
+      "name": "jujube",
+      "pluralName": "jujubes",
+      "description": "Chinese date; reddish-brown, fresh or dried in teas and desserts.",
+      "aliases": [
+        {
+          "name": "red date"
+        },
+        {
+          "name": "chinese date"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "6ca8aaa3-b9a5-4b79-83a8-01ae426f6505",
+      "name": "cape gooseberry",
+      "pluralName": "cape gooseberries",
+      "description": "Small orange berries in a paper husk; sweet and tart.",
+      "aliases": [
+        {
+          "name": "physalis"
+        },
+        {
+          "name": "golden berry"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "33baf553-62be-464a-99cf-5d42aadd2866",
+      "name": "persimmon",
+      "pluralName": "persimmons",
+      "description": "Orange Asian fruit; sweet, eaten fresh or dried.",
+      "aliases": [
+        {
+          "name": "kaki"
+        },
+        {
+          "name": "sharon fruit"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "ed6165a9-091e-4d01-b310-dcf2a54d37a8",
+      "name": "cherry",
+      "pluralName": "cherries",
+      "description": "Small red stone fruit; sweet or sour, fresh or in pastries.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "caa6e76c-8ed5-4c0b-babb-993b9f45fbc0",
+      "name": "kiwi",
+      "pluralName": "kiwis",
+      "description": "Fruit with green flesh; sweet-and-sour, rich in vitamin C.",
+      "aliases": [
+        {
+          "name": "kiwifruit"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "772c3787-7278-4309-9466-b5cd5850d55c",
+      "name": "kiwiberry",
+      "pluralName": "kiwiberries",
+      "description": "Mini kiwi with edible skin; sweet and tart in snacks and desserts.",
+      "aliases": [
+        {
+          "name": "baby kiwi"
+        },
+        {
+          "name": "mini kiwi"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "cf97fcd4-ea87-48e6-bf85-07c67cc9f9ed",
+      "name": "coconut",
+      "pluralName": "coconuts",
+      "description": "Tropical fruit with coconut flesh; used in curries, baking, and coconut milk.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "3c15d706-941c-417e-bc58-2138372d692f",
+      "name": "zante currant",
+      "pluralName": "zante currants",
+      "description": "Small dark dried grapes; used for baked goods and bread.",
+      "aliases": [
+        {
+          "name": "dried currant"
+        },
+        {
+          "name": "currant"
+        },
+        {
+          "name": "krent"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "859dce96-4f08-4e61-a10e-1678b00c2f03",
+      "name": "gooseberry",
+      "pluralName": "gooseberries",
+      "description": "Small green sweet-and-sour berry; used for jam and desserts.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "49c85083-fcbe-4923-a834-51cd11d23602",
+      "name": "kumquat",
+      "pluralName": "kumquats",
+      "description": "Small citrus fruit eaten skin and all; sweet and tart as a snack or in jam.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "3a5170be-1c4d-482f-b1cb-f7642816aab7",
+      "name": "quince",
+      "pluralName": "quinces",
+      "description": "Firm yellow fruit; cooked into jelly or compote.",
+      "aliases": [
+        {
+          "name": "kweepeer"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "477e1570-41de-4632-9e87-295b113e312c",
+      "name": "lime",
+      "pluralName": "limes",
+      "description": "Green citrus fruit; in wedges for cooking, desserts, and cocktails.",
+      "aliases": [
+        {
+          "name": "fresh lime"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "887bae4d-b7a6-4590-91b8-1bc7ac19f0d4",
+      "name": "lime (zest)",
+      "pluralName": "lime (zest)",
+      "description": "Lime zest; aromatic for desserts, curries, and dressings.",
+      "aliases": [
+        {
+          "name": "lime zest"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "cef93fbf-ddb9-41a0-a437-7295e67c08ab",
+      "name": "lime (juice)",
+      "pluralName": "lime (juice)",
+      "description": "Lime juice; for dressings, marinades, and cocktails.",
+      "aliases": [
+        {
+          "name": "lime juice"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "50f9e3f9-637a-4cec-bf25-9ec462782940",
+      "name": "lime (peel)",
+      "pluralName": "lime (peel)",
+      "description": "Lime peel; in strips for curries, liqueurs, and syrups.",
+      "aliases": [
+        {
+          "name": "lime peel"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "f8384a04-9962-4937-89d7-f469da397696",
+      "name": "longan",
+      "pluralName": "longans",
+      "description": "Tropical fruit related to lychee; sweet white flesh.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "f9fff026-3fad-48a3-9e53-b2c782d9e696",
+      "name": "loquat",
+      "pluralName": "loquats",
+      "description": "Japanese medlar; orange-yellow, sweet and sour, eaten fresh or made into jam.",
+      "aliases": [
+        {
+          "name": "japanese medlar"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "56eda86c-e996-4429-8f04-d78bf7d86a8c",
+      "name": "lychee",
+      "pluralName": "lychees",
+      "description": "Tropical fruit with juicy white flesh; sweet and aromatic.",
+      "aliases": [
+        {
+          "name": "litchi"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "da1e5a2b-b2cf-40bb-9938-588067238705",
+      "name": "mandarin orange",
+      "pluralName": "mandarin oranges",
+      "description": "Sweet small citrus fruit; easy to peel, eaten fresh or in desserts.",
+      "aliases": [
+        {
+          "name": "mandarin"
+        },
+        {
+          "name": "tangerine"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "756c3919-b36b-42cb-9223-8b965e2c42f4",
+      "name": "mango",
+      "pluralName": "mangoes",
+      "description": "Tropical fruit; sweet orange flesh, eaten fresh or in chutney.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "0b55878f-c278-4881-be03-0bccd178a52e",
+      "name": "mango (dried)",
+      "pluralName": "mangoes (dried)",
+      "description": "Dried mango; sweet as a snack, in muesli, or in baked goods.",
+      "aliases": [
+        {
+          "name": "dried mango"
+        },
+        {
+          "name": "dried mangoes"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "2cf87c0a-d038-46c9-9951-a06db35dec0b",
+      "name": "mangosteen",
+      "pluralName": "mangosteens",
+      "description": "Purple tropical fruit; white segmented flesh, aromatically sweet.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "9c425bff-3037-4d09-874a-35e5f17835d0",
+      "name": "melon",
+      "pluralName": "melons",
+      "description": "Sweet melon with juicy flesh; fresh in fruit salad or dessert.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "34d64716-045c-4d16-9662-98183bc4bd4d",
+      "name": "minneola",
+      "pluralName": "minneolas",
+      "description": "Citrus fruit; cross between grapefruit and mandarin, sweet and sour.",
+      "aliases": [
+        {
+          "name": "tangelo"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "510dabaf-b7e0-4788-9b83-def2557a9914",
+      "name": "mirabelle plum",
+      "pluralName": "mirabelle plums",
+      "description": "Small yellow plum; sweet in jam, tarts, and desserts.",
+      "aliases": [
+        {
+          "name": "mirabelle"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "dd230c24-c597-4c2c-80db-11ac9a510278",
+      "name": "medlar",
+      "pluralName": "medlars",
+      "description": "Ancient fruit crop; brown soft flesh, used for jelly or purée.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "57cf1e0b-ff65-45a4-a4f2-591aff5c54b5",
+      "name": "mulberry",
+      "pluralName": "mulberries",
+      "description": "Sweet berry; fresh in desserts or dried in breakfast cereals.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "29c9114d-bd57-495b-9442-153a730691b3",
+      "name": "sour cherry",
+      "pluralName": "sour cherries",
+      "description": "Sour cherry; used for pies, jams, and in syrup.",
+      "aliases": [
+        {
+          "name": "morello cherry"
+        },
+        {
+          "name": "morello"
+        },
+        {
+          "name": "griotte"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "1efdb9fc-4f08-4c3b-a3ef-0da1db9ab65b",
+      "name": "nectarine",
+      "pluralName": "nectarines",
+      "description": "Stone fruit with smooth skin; sweet, fresh or in pie.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "f6c15afe-d87d-4cf9-b616-ba824c0f24d3",
+      "name": "papaya",
+      "pluralName": "papayas",
+      "description": "Tropical fruit; sweet orange flesh, fresh or in salsa.",
+      "aliases": [
+        {
+          "name": "pawpaw"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "4a148b3d-e03d-41a9-9650-5863c154b7b5",
+      "name": "passion fruit",
+      "pluralName": "passion fruits",
+      "description": "Tropical fruit with sweet-and-sour pulp; for desserts, drinks, and sauces.",
+      "aliases": [
+        {
+          "name": "passionfruit"
+        },
+        {
+          "name": "maracuja"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "8b8b4de1-da71-4ce5-bd2e-61b0c3317058",
+      "name": "pear",
+      "pluralName": "pears",
+      "description": "Fruit; sweet juicy flesh, fresh or poached.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "da14b0d4-03fd-4d53-9d49-05c5cd2a8f4d",
+      "name": "peach",
+      "pluralName": "peaches",
+      "description": "Stone fruit; sweet juicy orange flesh with fuzzy skin.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "5f903c26-dfbe-45d6-a959-19dfaef39609",
+      "name": "pomelo",
+      "pluralName": "pomelos",
+      "description": "Large citrus fruit; mildly sweet white flesh, eaten fresh in segments.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "785e46f9-ee7b-4f8c-a333-7f157f578e7c",
+      "name": "plum",
+      "pluralName": "plums",
+      "description": "Stone fruit; sweet juicy flesh, eaten fresh or in desserts.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "e4769b36-ce8d-40ac-8c0b-5bb1c5fbf1ef",
+      "name": "prune",
+      "pluralName": "prunes",
+      "description": "Dried plum; sweet, used for stews and baked goods.",
+      "aliases": [
+        {
+          "name": "dried plum"
+        },
+        {
+          "name": "dried plums"
+        },
+        {
+          "name": "plum (dried)"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "9f5251ec-d38b-435e-bb0a-458db7f7bae5",
+      "name": "rambutan",
+      "pluralName": "rambutans",
+      "description": "Tropical fruit with red hairy skin; sweet white flesh.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "08830d83-4c26-40e9-af55-59bb498e8017",
+      "name": "lingonberry",
+      "pluralName": "lingonberries",
+      "description": "Small red tart berry; used for compote paired with game.",
+      "aliases": [
+        {
+          "name": "cowberry"
+        },
+        {
+          "name": "mountain cranberry"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "67d626e6-4987-479c-a23e-e1b626dadfcb",
+      "name": "rose hip",
+      "pluralName": "rose hips",
+      "description": "Fruit of the wild rose; used for syrup, jam, or tea.",
+      "aliases": [
+        {
+          "name": "rosehip"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "73d278d0-df32-4b54-8874-49d582097d78",
+      "name": "raisin",
+      "pluralName": "raisins",
+      "description": "Dried grapes; sweet, used in pastries, bread, and as a snack.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "6c279af3-1b9b-4a3d-8f17-3b47f4d747a0",
+      "name": "snake fruit",
+      "pluralName": "snake fruits",
+      "description": "Snake fruit with scaly skin; white sweet-and-sour flesh.",
+      "aliases": [
+        {
+          "name": "salak"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "9abbbc62-1fc6-4420-9b64-24b6eadf0b5b",
+      "name": "satsuma",
+      "pluralName": "satsumas",
+      "description": "Seedless mandarin orange; easy to peel and sweet.",
+      "aliases": [
+        {
+          "name": "satsuma mandarin"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "a26622ed-64f5-4134-8993-fec5b8933438",
+      "name": "shatkora",
+      "pluralName": "shatkora",
+      "description": "Bitter citrus fruit from Bangladesh; characteristic of Sylheti cuisine.",
+      "aliases": [
+        {
+          "name": "satkora"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "5caa86cc-9069-4205-9201-8ca3f7354daa",
+      "name": "orange",
+      "pluralName": "oranges",
+      "description": "Sweet citrus fruit; eaten fresh or used in salads, desserts, and sauces.",
+      "aliases": [
+        {
+          "name": "sweet orange"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "327b0cfd-1483-4d1d-9a8b-0fdac94946ad",
+      "name": "orange (zest)",
+      "pluralName": "orange (zest)",
+      "description": "Orange zest; aromatic for baked goods, desserts, and sauces.",
+      "aliases": [
+        {
+          "name": "orange zest"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "78e758df-a933-49af-8079-f93f332f2805",
+      "name": "orange (juice)",
+      "pluralName": "orange (juice)",
+      "description": "Orange juice; for sauces, marinades, baked goods, and drinks.",
+      "aliases": [
+        {
+          "name": "orange juice"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "76bb7474-03d1-40be-a62a-2436534b5599",
+      "name": "orange (peel)",
+      "pluralName": "orange (peel)",
+      "description": "Orange peel; strips for stews, candied peels, and liqueurs.",
+      "aliases": [
+        {
+          "name": "orange peel"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "853ac361-1ad8-4323-b43e-305055ef7dce",
+      "name": "poaching pear",
+      "pluralName": "poaching pears",
+      "description": "Pear variety suitable for cooking; slowly simmered in wine or syrup.",
+      "aliases": [
+        {
+          "name": "cooking pear"
+        },
+        {
+          "name": "stoofpeer"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "e73231b0-bff9-440f-875c-352482603e81",
+      "name": "tamarillo",
+      "pluralName": "tamarillos",
+      "description": "Tree tomato; orange-red oval fruit, sweet and tart.",
+      "aliases": [
+        {
+          "name": "tree tomato"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "13f8431c-fdba-4639-89a5-ecdd7b052501",
+      "name": "tutti frutti",
+      "pluralName": "tutti frutti",
+      "description": "Mix of candied and dried fruits; for baked goods and ice cream.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "a541b40a-57d6-4196-9622-8f4f0e46a942",
+      "name": "fig",
+      "pluralName": "figs",
+      "description": "Soft sweet fruit; fresh in salads, desserts, or with cheese.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "5d0908fc-8509-4b56-bb0a-dae350138bec",
+      "name": "fig (dried)",
+      "pluralName": "figs (dried)",
+      "description": "Dried fig; sweet in baked goods, breakfast, or served with cheese.",
+      "aliases": [
+        {
+          "name": "dried fig"
+        },
+        {
+          "name": "dried figs"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "29a2c2df-2ec4-472c-b2a6-795097bbe2c4",
+      "name": "elderberry",
+      "pluralName": "elderberries",
+      "description": "Dark purple berry from the elder tree; cooked into syrup or juice.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "7c8a447a-baf2-4fb8-a4b2-8325cd010f94",
+      "name": "watermelon",
+      "pluralName": "watermelons",
+      "description": "Large fruit with red juicy flesh; refreshing.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "a24188d1-17ca-43f0-a7a9-e67f2286c948",
+      "name": "whitecurrant",
+      "pluralName": "whitecurrants",
+      "description": "White redcurrant cultivar; mildly sour translucent berry, used for jam.",
+      "aliases": [
+        {
+          "name": "white currant"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "676224fd-000a-4820-abe9-da7f15ded6d1",
+      "name": "yuzu",
+      "pluralName": "yuzu",
+      "description": "Japanese citrus fruit; highly aromatic juice used as seasoning.",
+      "aliases": [],
+      "label": "Fruit"
+    },
+    {
+      "id": "d0839555-375d-4293-a326-1a3c10cef32f",
+      "name": "soursop",
+      "pluralName": "soursops",
+      "description": "Tropical fruit with white sweet-and-sour flesh; used for juice or frozen desserts.",
+      "aliases": [
+        {
+          "name": "guanabana"
+        },
+        {
+          "name": "zuurzak"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
+      "id": "3fb137f7-ed7c-465b-a232-29438d31f12d",
+      "name": "blackcurrant",
+      "pluralName": "blackcurrants",
+      "description": "Aromatic dark berry; used for syrup, liqueur, or jam.",
+      "aliases": [
+        {
+          "name": "black currant"
+        },
+        {
+          "name": "cassis"
+        }
+      ],
+      "label": "Fruit"
+    }
+  ]
+}

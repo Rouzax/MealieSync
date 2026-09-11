@@ -1,0 +1,1197 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "f36741a7-40de-42d5-95f2-9a7fee753a08",
+      "name": "anchovy",
+      "pluralName": "anchovies",
+      "description": "Small salted fish in oil; strong flavor enhancer.",
+      "aliases": [
+        {
+          "name": "ansjovis"
+        },
+        {
+          "name": "anchois"
+        },
+        {
+          "name": "anchovis"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "3d8298f2-7fab-4265-8a86-2d68940f1995",
+      "name": "sea bream",
+      "pluralName": "sea bream",
+      "description": "White sea fish; often baked whole or grilled.",
+      "aliases": [
+        {
+          "name": "dorade"
+        },
+        {
+          "name": "daurade"
+        },
+        {
+          "name": "goudbrasem"
+        },
+        {
+          "name": "gilt-head bream"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "3ae61729-c9ae-4505-8cc3-4bee2eb30dc4",
+      "name": "sea bream fillet",
+      "pluralName": "sea bream fillets",
+      "description": "Fillet of sea bream; white flesh, baked or steamed.",
+      "aliases": [
+        {
+          "name": "dorade filet"
+        },
+        {
+          "name": "filet de daurade"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "7a596681-24b5-4d2c-a04e-11aa1c89b77b",
+      "name": "trout",
+      "pluralName": "trout",
+      "description": "Freshwater fish with light flesh; often baked whole.",
+      "aliases": [
+        {
+          "name": "forel"
+        },
+        {
+          "name": "truite"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "fc2c3f95-68af-448d-a6b3-bb20cacb8b9e",
+      "name": "king prawn",
+      "pluralName": "king prawns",
+      "description": "Large prawn; baked or grilled.",
+      "aliases": [
+        {
+          "name": "gamba"
+        },
+        {
+          "name": "gambas"
+        },
+        {
+          "name": "scampi"
+        },
+        {
+          "name": "scampi's"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "7df31c06-fb53-4165-8998-feaf0a618f58",
+      "name": "shrimp",
+      "pluralName": "shrimp",
+      "description": "Small crustacean; boiled or fried, for salads and dishes.",
+      "aliases": [
+        {
+          "name": "garnaal"
+        },
+        {
+          "name": "crevette"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "bd199e96-a367-4a1a-9af4-cf2301c69367",
+      "name": "smoked trout",
+      "pluralName": "smoked trout",
+      "description": "Smoked freshwater fish; for salads and appetizers.",
+      "aliases": [
+        {
+          "name": "gerookte forel"
+        },
+        {
+          "name": "truite fumée"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "1e739b00-aca9-4f88-b9a8-de8ef48edd1d",
+      "name": "smoked halibut",
+      "pluralName": "smoked halibut",
+      "description": "Smoked flatfish; thinly sliced for toast and salads.",
+      "aliases": [
+        {
+          "name": "gerookte heilbot"
+        },
+        {
+          "name": "flétan fumé"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "44478edb-57b3-4b92-bdf7-d65716f2a50d",
+      "name": "smoked mackerel",
+      "pluralName": "smoked mackerel",
+      "description": "Smoked oily fish; for salads and on bread.",
+      "aliases": [
+        {
+          "name": "gerookte makreel"
+        },
+        {
+          "name": "maquereau fumé"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "7133e3f3-9027-4aa6-9056-3ee51986ea39",
+      "name": "smoked eel",
+      "pluralName": "smoked eel",
+      "description": "Smoked eel; oily fish, a classic Dutch preparation.",
+      "aliases": [
+        {
+          "name": "gerookte paling"
+        },
+        {
+          "name": "anguille fumée"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "ffae9466-1363-423e-94ee-52001c6f73d5",
+      "name": "smoked salmon",
+      "pluralName": "smoked salmon",
+      "description": "Cold-smoked salmon fillet; thinly sliced on toast or in dishes.",
+      "aliases": [
+        {
+          "name": "gerookte zalm"
+        },
+        {
+          "name": "saumon fumé"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "883d5b0f-9c73-4e1f-9edf-c6f7a4d2e094",
+      "name": "herring",
+      "pluralName": "herring",
+      "description": "Sea fish; salted or smoked, sometimes eaten raw with onions.",
+      "aliases": [
+        {
+          "name": "haring"
+        },
+        {
+          "name": "hareng"
+        },
+        {
+          "name": "Hollandse nieuwe"
+        },
+        {
+          "name": "maatjesharing"
+        },
+        {
+          "name": "zoute haring"
+        },
+        {
+          "name": "hareng salé"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "95445d9b-4ae5-4077-9aef-3b4ce11d42bf",
+      "name": "hake",
+      "pluralName": "hake",
+      "description": "White sea fish; mild flavor, baked or steamed.",
+      "aliases": [
+        {
+          "name": "heek"
+        },
+        {
+          "name": "merlu"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "ebfc6876-b11f-43c3-afe7-16355d26e940",
+      "name": "hake fillet",
+      "pluralName": "hake fillets",
+      "description": "Fillet of hake; white flesh, baked or steamed.",
+      "aliases": [
+        {
+          "name": "heek filet"
+        },
+        {
+          "name": "filet de merlu"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "450f8185-61f4-4463-a95c-af23b0c6f460",
+      "name": "halibut",
+      "pluralName": "halibut",
+      "description": "Large flatfish; firm white flesh.",
+      "aliases": [
+        {
+          "name": "heilbot"
+        },
+        {
+          "name": "flétan"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "1d02669d-78e2-4aee-b4a0-3b368ac625b1",
+      "name": "halibut fillet",
+      "pluralName": "halibut fillets",
+      "description": "Fillet of halibut; firm white flesh, baked or poached.",
+      "aliases": [
+        {
+          "name": "heilbot filet"
+        },
+        {
+          "name": "filet de flétan"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "91a5c550-538e-4dbf-a12c-85a31c743eba",
+      "name": "brown shrimp",
+      "pluralName": "brown shrimp",
+      "description": "Small North Sea shrimp; peeled, for shrimp cocktails and croquettes.",
+      "aliases": [
+        {
+          "name": "hollandse garnalen"
+        },
+        {
+          "name": "crevettes grises"
+        },
+        {
+          "name": "grijze garnalen"
+        },
+        {
+          "name": "noordzeegarnalen"
+        },
+        {
+          "name": "crevettes de la mer du Nord"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "e6b8eb82-45fa-40f8-a241-5978fe9f6df3",
+      "name": "squid",
+      "pluralName": "squid",
+      "description": "Mollusk; fried as calamari rings or used in stews.",
+      "aliases": [
+        {
+          "name": "inktvis"
+        },
+        {
+          "name": "calamar"
+        },
+        {
+          "name": "calamares"
+        },
+        {
+          "name": "pijlinktvis"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "8ff9ccec-ddca-49d4-95c8-f7ee1905d3e3",
+      "name": "squid rings",
+      "pluralName": "squid rings",
+      "description": "Squid cut into rings; intended for frying.",
+      "aliases": [
+        {
+          "name": "inktvis ringen"
+        },
+        {
+          "name": "anneaux de calamar"
+        },
+        {
+          "name": "calamari rings"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "c7d5afa2-e8a9-4df9-b2fa-5d74d3121821",
+      "name": "cod",
+      "pluralName": "cod",
+      "description": "White sea fish; firm and mild, often fried or baked.",
+      "aliases": [
+        {
+          "name": "kabeljauw"
+        },
+        {
+          "name": "cabillaud"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "dfa8eaf6-4898-4c9e-9e12-83feb469ea31",
+      "name": "cod fillet",
+      "pluralName": "cod fillets",
+      "description": "Fillet of cod; firm white flesh, baked or steamed.",
+      "aliases": [
+        {
+          "name": "kabeljauw filet"
+        },
+        {
+          "name": "filet de cabillaud"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "d00dee44-41bd-4a40-a421-9d8f5140faa2",
+      "name": "cod loin",
+      "pluralName": "cod loins",
+      "description": "Thick section of cod fillet; juicy center cut, baked or poached.",
+      "aliases": [
+        {
+          "name": "kabeljauw haas"
+        },
+        {
+          "name": "dos de cabillaud"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "884aeb6f-9a33-49cb-a9f9-6e5f98d97656",
+      "name": "caviar",
+      "pluralName": "caviar",
+      "description": "Sturgeon roe; luxury delicacy served on toast or blinis.",
+      "aliases": [],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "fca6d46a-8785-44f0-a141-92818dca12ed",
+      "name": "cockle",
+      "pluralName": "cockles",
+      "description": "Small edible shell; in pasta or soups.",
+      "aliases": [
+        {
+          "name": "kokkel"
+        },
+        {
+          "name": "coque"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "1610c334-0419-41aa-a9e6-ffee8edb0723",
+      "name": "kombu",
+      "pluralName": "kombu",
+      "description": "Dried seaweed; for dashi, broths, and umami.",
+      "aliases": [
+        {
+          "name": "konbu"
+        },
+        {
+          "name": "kombu zeewier"
+        },
+        {
+          "name": "algue kombu"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "6da74f43-e7bc-48af-a10f-96f9d81edc7f",
+      "name": "pollock",
+      "pluralName": "pollock",
+      "description": "White sea fish; mild, suitable for pan-frying or steaming.",
+      "aliases": [
+        {
+          "name": "koolvis"
+        },
+        {
+          "name": "lieu jaune"
+        },
+        {
+          "name": "pollak"
+        },
+        {
+          "name": "coley"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "86d27dd9-6dce-4093-a9a8-a150d37d8833",
+      "name": "pollock fillet",
+      "pluralName": "pollock fillets",
+      "description": "Fillet of pollock; mild white flesh, baked or steamed.",
+      "aliases": [
+        {
+          "name": "koolvis filet"
+        },
+        {
+          "name": "filet de lieu jaune"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "39c9c95d-0d8b-4501-8a8a-60de0431e397",
+      "name": "crab",
+      "pluralName": "crabs",
+      "description": "Crustacean with sweet white flesh; for salads and croquettes.",
+      "aliases": [
+        {
+          "name": "krab"
+        },
+        {
+          "name": "crabe"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "de73a116-0f19-451b-8679-7044cda0be35",
+      "name": "lobster",
+      "pluralName": "lobsters",
+      "description": "Luxury crustacean; for festive dishes.",
+      "aliases": [
+        {
+          "name": "kreeft"
+        },
+        {
+          "name": "homard"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "41b70a7e-1651-4e40-ab5e-6ccbf43a5526",
+      "name": "mackerel",
+      "pluralName": "mackerel",
+      "description": "Oily sea fish; strong flavor, grilled or pan-fried.",
+      "aliases": [
+        {
+          "name": "makreel"
+        },
+        {
+          "name": "maquereau"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "d06bf8f0-8c64-4136-a8c2-d34327c251d8",
+      "name": "mussel",
+      "pluralName": "mussels",
+      "description": "Bivalve mollusk; steamed in wine with vegetables.",
+      "aliases": [
+        {
+          "name": "mossel"
+        },
+        {
+          "name": "moule"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "10dfe072-3d4b-42f0-91b4-15c0508d884b",
+      "name": "nori",
+      "pluralName": "nori",
+      "description": "Dried seaweed sheet; for sushi and as a garnish.",
+      "aliases": [],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "0bd89561-5554-4d46-aa44-2606697fe5cd",
+      "name": "octopus",
+      "pluralName": "octopuses",
+      "description": "Mollusk; slowly braised or grilled.",
+      "aliases": [
+        {
+          "name": "poulpe"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "85bd8bc0-4674-46ab-9505-e5d568637471",
+      "name": "oyster",
+      "pluralName": "oysters",
+      "description": "Mollusk; eaten raw with lemon or baked.",
+      "aliases": [
+        {
+          "name": "oester"
+        },
+        {
+          "name": "huître"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "49a666d1-7884-4bf2-8d4e-39248f1d79d5",
+      "name": "eel",
+      "pluralName": "eels",
+      "description": "Elongated freshwater fish; usually eaten smoked.",
+      "aliases": [
+        {
+          "name": "paling"
+        },
+        {
+          "name": "anguille"
+        },
+        {
+          "name": "aal"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "ce4e381b-96fb-4c7f-8683-fac7f836ec99",
+      "name": "pangasius",
+      "pluralName": "pangasius",
+      "description": "White freshwater fish; mild flavor, baked or steamed.",
+      "aliases": [
+        {
+          "name": "basa"
+        },
+        {
+          "name": "swai"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "c99b36e8-4cdc-4115-9e9d-35bf7b3dcd75",
+      "name": "pangasius fillet",
+      "pluralName": "pangasius fillets",
+      "description": "Fillet of pangasius; mild white flesh, baked or steamed.",
+      "aliases": [
+        {
+          "name": "pangasius filet"
+        },
+        {
+          "name": "filet de pangasius"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "57e04f75-ef56-401e-a007-08f2a6b4acb8",
+      "name": "crayfish",
+      "pluralName": "crayfish",
+      "description": "Small freshwater crustacean; steamed or boiled, for salads.",
+      "aliases": [
+        {
+          "name": "rivierkreeft"
+        },
+        {
+          "name": "écrevisse"
+        },
+        {
+          "name": "crawfish"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "1a10621a-dded-4a93-9fd6-e73869ebce97",
+      "name": "rosefish",
+      "pluralName": "rosefish",
+      "description": "Pink-red sea fish; firm flesh, baked or grilled.",
+      "aliases": [
+        {
+          "name": "roodbaars"
+        },
+        {
+          "name": "sébaste"
+        },
+        {
+          "name": "redfish"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "43e658ea-8fed-4b87-912a-6f75b13866fc",
+      "name": "rosefish fillet",
+      "pluralName": "rosefish fillets",
+      "description": "Fillet of rosefish; firm flesh, baked.",
+      "aliases": [
+        {
+          "name": "roodbaars filet"
+        },
+        {
+          "name": "filet de sébaste"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "295d8448-9ccf-41e5-af78-c90af15a8e0a",
+      "name": "sardine",
+      "pluralName": "sardines",
+      "description": "Small oily fish; grilled fresh or canned in oil.",
+      "aliases": [],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "832406e9-4b19-4449-b570-fa2103d09907",
+      "name": "razor clam",
+      "pluralName": "razor clams",
+      "description": "Elongated shell; briefly pan-fried or used in pasta and risotto.",
+      "aliases": [
+        {
+          "name": "scheermes"
+        },
+        {
+          "name": "couteau"
+        },
+        {
+          "name": "scheermesschelp"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "1b4c4267-0798-4185-8de6-072611b21402",
+      "name": "haddock",
+      "pluralName": "haddock",
+      "description": "White sea fish; mild flavor, often poached or baked.",
+      "aliases": [
+        {
+          "name": "schelvis"
+        },
+        {
+          "name": "églefin"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "89268e2f-8787-47bf-81e1-da1f9d6a7c61",
+      "name": "haddock fillet",
+      "pluralName": "haddock fillets",
+      "description": "Fillet of haddock; tender white flesh, baked or steamed.",
+      "aliases": [
+        {
+          "name": "schelvis filet"
+        },
+        {
+          "name": "filet d’églefin"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "a13fd2bf-0564-4dfc-add7-b2d7eabb4c30",
+      "name": "plaice",
+      "pluralName": "plaice",
+      "description": "Flatfish; mild white flesh, baked or poached.",
+      "aliases": [
+        {
+          "name": "schol"
+        },
+        {
+          "name": "plie"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "0d07d1cd-aa26-419d-bcaf-9b67cb5767a8",
+      "name": "plaice fillet",
+      "pluralName": "plaice fillets",
+      "description": "Fillet of plaice; fine white flesh, baked.",
+      "aliases": [
+        {
+          "name": "schol filet"
+        },
+        {
+          "name": "filet de plie"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "16a5b765-a034-4b82-84e6-176e94489eb6",
+      "name": "scallop",
+      "pluralName": "scallops",
+      "description": "Shellfish with delicate meat; quickly pan-fried.",
+      "aliases": [
+        {
+          "name": "sint-jakobsschelp"
+        },
+        {
+          "name": "saint-jacques"
+        },
+        {
+          "name": "coquille"
+        },
+        {
+          "name": "coquilles"
+        },
+        {
+          "name": "coquille Saint-Jacques"
+        },
+        {
+          "name": "coquilles Saint-Jacques"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "999ae0ce-8250-4f21-8713-e3c939239ddf",
+      "name": "slip sole",
+      "pluralName": "slip soles",
+      "description": "Small sole species; usually pan-fried whole.",
+      "aliases": [
+        {
+          "name": "sliptong"
+        },
+        {
+          "name": "solette"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "55e59353-038e-45c4-bc8f-6eb7f12efbb7",
+      "name": "zander",
+      "pluralName": "zander",
+      "description": "Freshwater fish with firm white flesh; often cooked as fillets.",
+      "aliases": [
+        {
+          "name": "snoekbaars"
+        },
+        {
+          "name": "sandre"
+        },
+        {
+          "name": "pikeperch"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "25a95067-f6de-46a1-afda-7bc09f4814f7",
+      "name": "surimi",
+      "pluralName": "surimi",
+      "description": "Processed fish paste; for salads and sushi.",
+      "aliases": [
+        {
+          "name": "krabstick"
+        },
+        {
+          "name": "krabsticks"
+        },
+        {
+          "name": "bâtonnet de crabe"
+        },
+        {
+          "name": "bâtonnets de crabe"
+        },
+        {
+          "name": "crab stick"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "2412773f-f3fd-4f56-9eb5-5245083a45b0",
+      "name": "tiger prawn",
+      "pluralName": "tiger prawns",
+      "description": "Large striped prawn; for grilling or stir-frying.",
+      "aliases": [
+        {
+          "name": "tijgergarnaal"
+        },
+        {
+          "name": "crevette tigrée"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "bb2e131c-004f-46e7-ba06-d937e6cc2ad6",
+      "name": "tilapia",
+      "pluralName": "tilapia",
+      "description": "White freshwater fish; mild flavor, baked or steamed.",
+      "aliases": [],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "4c9362a1-e0d7-40c4-80f3-d7083967a0cf",
+      "name": "tilapia fillet",
+      "pluralName": "tilapia fillets",
+      "description": "Fillet of tilapia; mild white flesh, baked or steamed.",
+      "aliases": [
+        {
+          "name": "tilapia filet"
+        },
+        {
+          "name": "filet de tilapia"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "ee872921-f1a8-4679-b11c-d54d0615b616",
+      "name": "sole",
+      "pluralName": "soles",
+      "description": "Flatfish with fine white flesh; luxury fish, often baked whole.",
+      "aliases": [
+        {
+          "name": "tong"
+        },
+        {
+          "name": "zeetong"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "bcf18cd6-c08e-4704-af0d-67fa2c2e22dd",
+      "name": "sole fillet",
+      "pluralName": "sole fillets",
+      "description": "Fillet of sole; fine white flesh, pan-fried.",
+      "aliases": [
+        {
+          "name": "tong filet"
+        },
+        {
+          "name": "filet de sole"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "01cdbc50-cb83-4f11-a977-79379ff8c451",
+      "name": "tuna",
+      "pluralName": "tuna",
+      "description": "Large sea fish with red meat; raw as sashimi or canned.",
+      "aliases": [
+        {
+          "name": "tonijn"
+        },
+        {
+          "name": "thon"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "1dba1480-7f2d-4a43-b9c6-51e191576310",
+      "name": "tuna steak",
+      "pluralName": "tuna steaks",
+      "description": "Thick slice of fresh tuna; briefly grilled or pan-fried.",
+      "aliases": [
+        {
+          "name": "tonijn steak"
+        },
+        {
+          "name": "steak de thon"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "b624ae7c-a3dc-46d2-a375-b1e163fe8d44",
+      "name": "clam",
+      "pluralName": "clams",
+      "description": "Small edible shell; classically used in pasta vongole.",
+      "aliases": [
+        {
+          "name": "venusschelp"
+        },
+        {
+          "name": "palourde"
+        },
+        {
+          "name": "vongole"
+        },
+        {
+          "name": "vongola"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "60bc1549-d1b2-4ff8-b510-293cd0c0c8be",
+      "name": "Nile perch",
+      "pluralName": "Nile perch",
+      "description": "White freshwater fish from Africa; mild flavor.",
+      "aliases": [
+        {
+          "name": "victoriabaars"
+        },
+        {
+          "name": "perche du Nil"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "05c233ac-70b7-4934-a14c-5593a141e563",
+      "name": "Nile perch fillet",
+      "pluralName": "Nile perch fillets",
+      "description": "Fillet of Nile perch; white flesh, baked or steamed.",
+      "aliases": [
+        {
+          "name": "victoriabaars filet"
+        },
+        {
+          "name": "filet de perche du Nil"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "dd952ba7-207a-444c-a7cf-42dcad3e1cb4",
+      "name": "wakame",
+      "pluralName": "wakame",
+      "description": "Edible seaweed; for salads and miso soup.",
+      "aliases": [
+        {
+          "name": "wakamé"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "e63bc646-6fda-40e0-ac5e-a1c7f173abea",
+      "name": "hot-smoked salmon",
+      "pluralName": "hot-smoked salmon",
+      "description": "Hot-smoked salmon fillet; firmer texture than cold-smoked.",
+      "aliases": [
+        {
+          "name": "warm gerookte zalm"
+        },
+        {
+          "name": "saumon fumé à chaud"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "3053a7aa-c73e-4c42-a0f1-4f167565582b",
+      "name": "whiting",
+      "pluralName": "whiting",
+      "description": "White sea fish; light and mild, baked or in soup.",
+      "aliases": [
+        {
+          "name": "wijting"
+        },
+        {
+          "name": "merlan"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "f599b96b-8b6e-48e2-b55e-bcc861a015b8",
+      "name": "whiting fillet",
+      "pluralName": "whiting fillets",
+      "description": "Fillet of whiting; light white flesh, baked or steamed.",
+      "aliases": [
+        {
+          "name": "wijting filet"
+        },
+        {
+          "name": "filet de merlan"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "1ed3cc9d-0b76-4acd-b7db-5e00b6eac4f3",
+      "name": "salmon",
+      "pluralName": "salmon",
+      "description": "Oily fish with pink flesh; highly versatile for preparation.",
+      "aliases": [
+        {
+          "name": "zalm"
+        },
+        {
+          "name": "saumon"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "a57cef35-1c78-4756-8499-98ec4c2a9083",
+      "name": "salmon fillet",
+      "pluralName": "salmon fillets",
+      "description": "Fillet of salmon; pan-fried, grilled, or steamed.",
+      "aliases": [
+        {
+          "name": "zalm filet"
+        },
+        {
+          "name": "filet de saumon"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "62532b80-cfad-4e35-a241-58ed6f285cb0",
+      "name": "salmon steak",
+      "pluralName": "salmon steaks",
+      "description": "Thick slice of salmon with bone; pan-fried or grilled.",
+      "aliases": [
+        {
+          "name": "zalm moot"
+        },
+        {
+          "name": "zalmsteak"
+        },
+        {
+          "name": "darne de saumon"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "075ace71-5f6b-44c3-a0fa-566b66f70edc",
+      "name": "sea bass",
+      "pluralName": "sea bass",
+      "description": "White sea fish with fine flesh; whole in salt crust or filleted.",
+      "aliases": [
+        {
+          "name": "zeebaars"
+        },
+        {
+          "name": "bar"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "5bc9d62e-f7aa-4e16-98ea-9b6acd888db0",
+      "name": "sea bass fillet",
+      "pluralName": "sea bass fillets",
+      "description": "Fillet of sea bass; fine white flesh, pan-fried.",
+      "aliases": [
+        {
+          "name": "zeebaars filet"
+        },
+        {
+          "name": "filet de bar"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "13bb511a-2de7-440c-a136-af8f5c28a7dc",
+      "name": "monkfish",
+      "pluralName": "monkfish",
+      "description": "Sea fish with lobster-like flesh; firm and sweet.",
+      "aliases": [
+        {
+          "name": "zeeduivel"
+        },
+        {
+          "name": "lotte"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "5763d2f9-c55b-40c3-9871-9a6b8c12070c",
+      "name": "monkfish tail",
+      "pluralName": "monkfish tails",
+      "description": "Tail of monkfish; firm flesh, baked or grilled.",
+      "aliases": [
+        {
+          "name": "zeeduivel staart"
+        },
+        {
+          "name": "queue de lotte"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "d9a79ac7-f42c-46f9-ba25-38624aa942d1",
+      "name": "wolffish",
+      "pluralName": "wolffish",
+      "description": "Sea fish with firm white flesh; baked or steamed.",
+      "aliases": [
+        {
+          "name": "zeewolf"
+        },
+        {
+          "name": "loup de mer"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "200a76a0-fd33-4b88-8c8e-5102cb39a66b",
+      "name": "wolffish fillet",
+      "pluralName": "wolffish fillets",
+      "description": "Fillet of wolffish; firm white flesh, pan-fried.",
+      "aliases": [
+        {
+          "name": "zeewolf filet"
+        },
+        {
+          "name": "filet de loup de mer"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "480ea505-f072-4f08-aeb2-835b62ae2f8c",
+      "name": "swordfish",
+      "pluralName": "swordfish",
+      "description": "Large sea fish with firm flesh; grilled as a steak.",
+      "aliases": [
+        {
+          "name": "zwaardvis"
+        },
+        {
+          "name": "espadon"
+        }
+      ],
+      "label": "Fish & Seafood"
+    },
+    {
+      "id": "2bbf0b1f-56e1-4bb6-a852-ed239e04aa1b",
+      "name": "swordfish steak",
+      "pluralName": "swordfish steaks",
+      "description": "Thick slice of swordfish; grilled or pan-fried.",
+      "aliases": [
+        {
+          "name": "zwaardvis steak"
+        },
+        {
+          "name": "steak d’espadon"
+        }
+      ],
+      "label": "Fish & Seafood"
+    }
+  ]
+}

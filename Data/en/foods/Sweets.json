@@ -1,0 +1,558 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "1c2b7da6-0b4f-4c9c-8032-b7bd97d94a97",
+      "name": "strawberry jam",
+      "pluralName": "strawberry jam",
+      "description": "Jam made from strawberries; sweet fruit spread.",
+      "aliases": [
+        {
+          "name": "strawberry preserves"
+        },
+        {
+          "name": "aardbeienjam"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "ee6162cd-aa81-416c-b7e4-9c356f950c08",
+      "name": "apricot jam",
+      "pluralName": "apricot jam",
+      "description": "Jam made from apricots; for bread and pastries.",
+      "aliases": [
+        {
+          "name": "apricot preserves"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "82cefbdb-1224-43c6-bd2d-cbdf1cec0341",
+      "name": "agave nectar",
+      "pluralName": "agave nectar",
+      "description": "Liquid sweetener made from agave; alternative to honey.",
+      "aliases": [
+        {
+          "name": "agave syrup"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "b9220bfa-09bf-4fa9-84be-21ff344b9639",
+      "name": "maple syrup",
+      "pluralName": "maple syrup",
+      "description": "Sweet syrup from maple tree sap; for pancakes and desserts.",
+      "aliases": [
+        {
+          "name": "maple"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "6d7ae7d6-86fc-4042-b39a-51f69da9f037",
+      "name": "apple syrup",
+      "pluralName": "apple syrup",
+      "description": "Thick syrup made from apples; Limburg regional product.",
+      "aliases": [
+        {
+          "name": "apple butter"
+        },
+        {
+          "name": "apple molasses"
+        },
+        {
+          "name": "appelstroop"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "22cdab8a-b8d4-4835-9323-6ed92603d0b1",
+      "name": "bastogne biscuit",
+      "pluralName": "bastogne biscuits",
+      "description": "Crunchy speculoos-style candy sugar biscuits; often used as a base for cheesecakes and desserts.",
+      "aliases": [
+        {
+          "name": "candy sugar cookie"
+        },
+        {
+          "name": "bastognekoek"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "73b14605-368f-4bbc-b262-77003a60f64b",
+      "name": "caramel",
+      "pluralName": "caramel",
+      "description": "Caramelized sugar; for sauces and candies.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "5c5cfece-3fa1-4ae3-96d3-ead573a0d772",
+      "name": "chocolate",
+      "pluralName": "chocolate",
+      "description": "Sweet product made from cocoa; dark, milk, or white.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "bae496bd-0178-42d5-892a-d17114267a9e",
+      "name": "chocolate chip",
+      "pluralName": "chocolate chips",
+      "description": "Small pieces of chocolate; for cookies and muffins.",
+      "aliases": [
+        {
+          "name": "chocolate drops"
+        },
+        {
+          "name": "chocolate morsels"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "c0d12394-cb5a-4480-8be6-3b9418dde588",
+      "name": "chocolate sprinkles",
+      "pluralName": "chocolate sprinkles",
+      "description": "Small chocolate sticks; sprinkle topping for bread.",
+      "aliases": [
+        {
+          "name": "hagelslag"
+        },
+        {
+          "name": "chocolate vermicelli"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "436a4d03-dfd6-4e6b-babd-44c0940336fb",
+      "name": "chocolate spread",
+      "pluralName": "chocolate spread",
+      "description": "Spreadable chocolate; sweet bread topping.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "50f1fe89-9c54-44e8-bdae-6acc264aa143",
+      "name": "chocolate flakes",
+      "pluralName": "chocolate flakes",
+      "description": "Chocolate shavings; sprinkle topping for bread.",
+      "aliases": [
+        {
+          "name": "vlokken"
+        },
+        {
+          "name": "chocolate shavings"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "f948e7e5-8725-4e1c-970e-23b3a13d1b10",
+      "name": "lemon curd",
+      "pluralName": "lemon curd",
+      "description": "Sweet-tart English spread made from lemon, egg, and butter.",
+      "aliases": [
+        {
+          "name": "citroencrème"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "ef6b3a09-9117-4f13-bc9f-186fab62a6f5",
+      "name": "date syrup",
+      "pluralName": "date syrup",
+      "description": "Thick syrup made from dates; sweetener in dishes.",
+      "aliases": [
+        {
+          "name": "date molasses"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "9615245c-7357-4f26-8474-31027603cb78",
+      "name": "licorice",
+      "pluralName": "licorice",
+      "description": "Candy made from licorice root; sweet or salty.",
+      "aliases": [
+        {
+          "name": "liquorice"
+        },
+        {
+          "name": "drop"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "933bad3d-0ba9-4b03-81bc-c78c501268d3",
+      "name": "dulce de leche",
+      "pluralName": "dulce de leche",
+      "description": "Latin American caramel paste; made from cooked condensed milk.",
+      "aliases": [
+        {
+          "name": "caramel spread"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "d5f96e7a-3093-48c6-bd5a-d3674dc4a16c",
+      "name": "fondant",
+      "pluralName": "fondant",
+      "description": "Malleable sugar paste; for cake decoration.",
+      "aliases": [
+        {
+          "name": "sugar paste"
+        },
+        {
+          "name": "rolled fondant"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "ddd53dc0-ca63-46a8-bf5a-262f29e092e8",
+      "name": "raspberry jam",
+      "pluralName": "raspberry jam",
+      "description": "Jam made from raspberries; fruit spread with fruit pieces.",
+      "aliases": [
+        {
+          "name": "raspberry preserves"
+        },
+        {
+          "name": "raspberry confiture"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "1d4e7ac6-6a37-4f71-9229-e2298d97f848",
+      "name": "crushed aniseed powder",
+      "pluralName": "crushed aniseed powder",
+      "description": "Finely crushed aniseeds with sugar; traditionally served on rusk.",
+      "aliases": [
+        {
+          "name": "gestampte muisjes"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "567fcec4-4c42-4c1f-8c61-2b382b8e4277",
+      "name": "light treacle",
+      "pluralName": "light treacle",
+      "description": "Light sugar syrup; for stroopwafels and cakes.",
+      "aliases": [
+        {
+          "name": "gouda syrup"
+        },
+        {
+          "name": "light syrup"
+        },
+        {
+          "name": "goudse stroop"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "ddbf4b43-7a44-4e87-a268-b0beb3ff82b6",
+      "name": "hazelnut spread",
+      "pluralName": "hazelnut spread",
+      "description": "Sweet paste of hazelnuts and cocoa; bread topping.",
+      "aliases": [
+        {
+          "name": "chocolate hazelnut spread"
+        },
+        {
+          "name": "nutella"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "6ed83705-89b6-442b-bb72-7e2f1b354b29",
+      "name": "honey",
+      "pluralName": "honey",
+      "description": "Bee nectar; sweetener for bread and drinks.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "950a7e2a-a623-4b19-90e6-0bef6b5cfb8d",
+      "name": "jam",
+      "pluralName": "jam",
+      "description": "Sweet fruit spread; fruit cooked down with sugar.",
+      "aliases": [
+        {
+          "name": "fruit spread"
+        },
+        {
+          "name": "preserves"
+        },
+        {
+          "name": "confiture"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "433c8819-46eb-48dd-bd8d-15f790af3590",
+      "name": "caramel sauce",
+      "pluralName": "caramel sauce",
+      "description": "Sweet sauce made from caramelized sugar and cream; for ice cream, pancakes, and desserts.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "b29cf9f1-8e0b-4630-8554-ab66dff344ae",
+      "name": "dark treacle",
+      "pluralName": "dark treacle",
+      "description": "Dark syrup; for bread and pancakes.",
+      "aliases": [
+        {
+          "name": "dutch dark syrup"
+        },
+        {
+          "name": "pancake syrup"
+        },
+        {
+          "name": "keukenstroop"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "69e74471-91d9-4529-8db0-28fed841d31b",
+      "name": "quince paste",
+      "pluralName": "quince paste",
+      "description": "Jelly made from quinces; sweet spread or accompaniment for cheese.",
+      "aliases": [
+        {
+          "name": "membrillo"
+        },
+        {
+          "name": "quince jelly"
+        },
+        {
+          "name": "quince cheese"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "b87939d3-d5dc-4842-9e0e-6c9d158a9a29",
+      "name": "ladyfinger",
+      "pluralName": "ladyfingers",
+      "description": "Light sponge biscuit; used in tiramisu and desserts.",
+      "aliases": [
+        {
+          "name": "sponge finger"
+        },
+        {
+          "name": "savoiardi"
+        },
+        {
+          "name": "lange vinger"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "29d4d3c4-fca0-4b6a-8543-be28f7f96d8a",
+      "name": "liège syrup",
+      "pluralName": "liège syrup",
+      "description": "Thick dark fruit syrup; Belgian regional product.",
+      "aliases": [
+        {
+          "name": "sirop de liège"
+        },
+        {
+          "name": "belgian apple and pear syrup"
+        },
+        {
+          "name": "luikse stroop"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "7acb74c1-75e7-4344-a056-dd4ac16f9f96",
+      "name": "marmalade",
+      "pluralName": "marmalade",
+      "description": "Jam made from citrus fruits; containing pieces of peel.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "1cfb5499-449b-4acc-9cb4-bdb718a701fa",
+      "name": "marzipan",
+      "pluralName": "marzipan",
+      "description": "Sweet almond paste; for figures or as filling.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "66dc121e-c7ed-4318-bd9e-eca093738223",
+      "name": "milk chocolate",
+      "pluralName": "milk chocolate",
+      "description": "Chocolate with milk; sweet, for snacking and baking.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "b820c1a7-f3f8-4c22-b5d8-5695df198739",
+      "name": "sugared aniseeds",
+      "pluralName": "sugared aniseeds",
+      "description": "Aniseeds with a colored sugar coating; traditionally served on rusk.",
+      "aliases": [
+        {
+          "name": "muisjes"
+        },
+        {
+          "name": "anise sprinkles"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "b319b382-264c-481a-bc2d-f045e005c604",
+      "name": "nougat",
+      "pluralName": "nougat",
+      "description": "Soft candy made of sugar, nuts, and egg white; sweet.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "268b92d6-7a64-4179-aa4b-ca6ff97a49b4",
+      "name": "pear syrup",
+      "pluralName": "pear syrup",
+      "description": "Thick syrup made from pears; sweet and dark.",
+      "aliases": [
+        {
+          "name": "pear molasses"
+        },
+        {
+          "name": "perenstroop"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "65751b36-d670-4716-995c-3ec484d25b57",
+      "name": "peanut butter",
+      "pluralName": "peanut butter",
+      "description": "Spreadable paste made from ground peanuts; savory-sweet bread topping.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "047b3009-48e8-431e-b006-8d778fc8d7e4",
+      "name": "dark chocolate",
+      "pluralName": "dark chocolate",
+      "description": "Dark chocolate with high cocoa content; for baking.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "183c6b24-c373-4354-af34-522ce162fac2",
+      "name": "speculoos sprinkles",
+      "pluralName": "speculoos sprinkles",
+      "description": "Small spiced cookie drops; sprinkle topping for bread.",
+      "aliases": [
+        {
+          "name": "schuddebuikjes"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "afbba353-fa8a-4ce5-a74a-7b395dd42088",
+      "name": "cookie butter",
+      "pluralName": "cookie butter",
+      "description": "Spreadable paste made from speculoos cookies; sweet spiced bread topping.",
+      "aliases": [
+        {
+          "name": "speculoos spread"
+        },
+        {
+          "name": "biscoff spread"
+        },
+        {
+          "name": "speculoospasta"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "a7d6c969-8ff9-46c7-a0bd-c1f0ac91fed9",
+      "name": "syrup",
+      "pluralName": "syrup",
+      "description": "Thick sweet liquid; for bread and pancakes.",
+      "aliases": [
+        {
+          "name": "treacle"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "08a10470-30dd-4c0e-a4b3-914b80782957",
+      "name": "simple syrup",
+      "pluralName": "simple syrup",
+      "description": "Liquid sugar solution; for cocktails and desserts.",
+      "aliases": [
+        {
+          "name": "sugar syrup"
+        },
+        {
+          "name": "gomme"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "30d3fa01-1736-443f-b017-eebf1dbb5d1b",
+      "name": "toffee",
+      "pluralName": "toffees",
+      "description": "Caramel candy; soft or hard, made from sugar and butter.",
+      "aliases": [],
+      "label": "Sweets"
+    },
+    {
+      "id": "ad4dc6df-f80a-46f5-a076-a63b381e2c74",
+      "name": "fruit sprinkles",
+      "pluralName": "fruit sprinkles",
+      "description": "Colored sugar sticks; sprinkle topping for bread.",
+      "aliases": [
+        {
+          "name": "vruchtenhagel"
+        },
+        {
+          "name": "fruit vermicelli"
+        }
+      ],
+      "label": "Sweets"
+    },
+    {
+      "id": "45a79a93-c8ea-44b3-afa3-bdd707205625",
+      "name": "white chocolate",
+      "pluralName": "white chocolate",
+      "description": "Chocolate without cocoa mass; sweet and creamy.",
+      "aliases": [],
+      "label": "Sweets"
+    }
+  ]
+}

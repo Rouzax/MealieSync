@@ -1,0 +1,209 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "75a7e57a-eff6-4014-9d39-d855d8ea8f89",
+      "name": "apple juice",
+      "pluralName": "apple juice",
+      "description": "Pressed apple juice; clear or cloudy.",
+      "aliases": [
+        {
+          "name": "appelsap"
+        }
+      ],
+      "label": "Beverages"
+    },
+    {
+      "id": "601ea350-c9c7-4742-8a2b-bd4b05197d19",
+      "name": "beet juice",
+      "pluralName": "beet juice",
+      "description": "Beetroot juice; sweet and earthy, used as a drink or food coloring.",
+      "aliases": [
+        {
+          "name": "beetroot juice"
+        }
+      ],
+      "label": "Beverages"
+    },
+    {
+      "id": "c9c0e868-b43d-4309-93ab-4f940c3f4fb9",
+      "name": "bitter lemon",
+      "pluralName": "bitter lemon",
+      "description": "Carbonated lemon beverage flavored with quinine; bitter and refreshing.",
+      "aliases": [
+        {
+          "name": "bitter lemon drink"
+        }
+      ],
+      "label": "Beverages"
+    },
+    {
+      "id": "9b621d9e-0ca5-49f8-b2c6-4cc28a8a93c6",
+      "name": "sparkling water",
+      "pluralName": "sparkling water",
+      "description": "Carbonated water; refreshing, base for mixed drinks.",
+      "aliases": [
+        {
+          "name": "carbonated water"
+        },
+        {
+          "name": "soda water"
+        },
+        {
+          "name": "fizzy water"
+        },
+        {
+          "name": "bruiswater"
+        }
+      ],
+      "label": "Beverages"
+    },
+{
+  "id": "9c9c9d2e-7c5d-4f36-b0dc-0d1fbd50006e",
+  "name": "blackcurrant syrup",
+  "pluralName": "blackcurrant syrup",
+  "description": "Sweet syrup made from blackcurrants; used for drinks, lemonade, and cocktails.",
+  "aliases": [
+    {
+      "name": "cassis syrup"
+    },
+    {
+      "name": "cassis drink"
+    },
+    {
+      "name": "black currant syrup"
+    }
+  ],
+  "label": "Beverages"
+},    {
+      "id": "4d70deca-ec02-4dea-83b3-3376107b5ad8",
+      "name": "cola",
+      "pluralName": "colas",
+      "description": "Carbonated soft drink; sweet with caramel and spice flavor.",
+      "aliases": [
+        {
+          "name": "coke"
+        }
+      ],
+      "label": "Beverages"
+    },
+    {
+      "id": "709fdb1f-70ca-4c3c-8427-3faa5b018919",
+      "name": "cranberry juice",
+      "pluralName": "cranberry juice",
+      "description": "Cranberry juice; tart and sweet, used in cocktails or as a beverage.",
+      "aliases": [],
+      "label": "Beverages"
+    },
+    {
+      "id": "f4e1828b-cb6e-4b28-bf61-4a9a8d4e3f07",
+      "name": "ginger ale",
+      "pluralName": "ginger ale",
+      "description": "Carbonated ginger-flavored soft drink; sweet and mild.",
+      "aliases": [],
+      "label": "Beverages"
+    },
+    {
+      "id": "af6c8dc6-bc08-4825-9ac1-cdd82489190e",
+      "name": "ginger beer",
+      "pluralName": "ginger beer",
+      "description": "Spicy carbonated ginger beverage; stronger flavor than ginger ale, used for Moscow mules.",
+      "aliases": [],
+      "label": "Beverages"
+    },
+    {
+      "id": "6b00b347-29c5-4e9b-b148-6fe7af763be3",
+      "name": "grenadine",
+      "pluralName": "grenadine",
+      "description": "Red pomegranate syrup; sweet, used for cocktails and non-alcoholic drinks.",
+      "aliases": [
+        {
+          "name": "grenadine syrup"
+        }
+      ],
+      "label": "Beverages"
+    },
+    {
+      "id": "3d7b35a1-11cf-4268-bf93-1d41847b177d",
+      "name": "coconut water",
+      "pluralName": "coconut water",
+      "description": "Clear liquid from young green coconuts; refreshing and mildly sweet.",
+      "aliases": [],
+      "label": "Beverages"
+    },
+    {
+      "id": "48810b46-d497-4c7b-8908-10c973e4e835",
+      "name": "drink syrup",
+      "pluralName": "drink syrups",
+      "description": "Concentrated fruit syrup meant to be diluted with water.",
+      "aliases": [
+        {
+          "name": "cordial"
+        },
+        
+        {
+          "name": "fruit squash"
+        },
+        {
+          "name": "ranja"
+        },
+        {
+          "name": "limonadesiroop"
+        }
+      ],
+      "label": "Beverages"
+    },
+    {
+      "id": "e253983b-312d-4c6d-a08a-64785a142003",
+      "name": "still mineral water",
+      "pluralName": "still mineral water",
+      "description": "Natural uncarbonated spring water; for drinking and cooking.",
+      "aliases": [
+        {
+          "name": "still water"
+        },
+        {
+          "name": "spring water"
+        },
+        {
+          "name": "mineral water"
+        }
+      ],
+      "label": "Beverages"
+    },
+    {
+      "id": "fe2ee400-a412-4582-a957-a07c580d56a2",
+      "name": "tomato juice",
+      "pluralName": "tomato juice",
+      "description": "Tomato juice; savory, used for Bloody Marys or as a beverage.",
+      "aliases": [],
+      "label": "Beverages"
+    },
+    {
+      "id": "e9cf276f-4cba-4287-9687-011c9f045a43",
+      "name": "tonic water",
+      "pluralName": "tonic water",
+      "description": "Carbonated soft drink containing quinine; bitter, used for gin and tonic.",
+      "aliases": [
+        {
+          "name": "tonic"
+        }
+      ],
+      "label": "Beverages"
+    },
+    {
+      "id": "2521b3c0-0003-4eec-a310-867926d83101",
+      "name": "water",
+      "pluralName": "water",
+      "description": "Essential liquid; for cooking, baking, diluting, and beverages.",
+      "aliases": [
+        {
+          "name": "tap water"
+        }
+      ],
+      "label": "Beverages"
+    }
+  ]
+}

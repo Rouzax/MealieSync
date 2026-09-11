@@ -1,0 +1,859 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "126e6cbe-01e8-4162-8f28-3dd01769b26f",
+      "name": "bavette",
+      "pluralName": "bavettes",
+      "description": "Beef from the flank; full of flavor, best served medium-rare.",
+      "aliases": [
+        { "name": "flank steak" },
+        { "name": "flanksteak" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "626457dc-5899-48cf-b450-0f9c653ca1e8",
+      "name": "beefsteak",
+      "pluralName": "beefsteaks",
+      "description": "Beef; tender slice from the loin, quickly seared.",
+      "aliases": [],
+      "label": "Meat"
+    },
+    {
+      "id": "49e08631-722d-489b-92b5-8636715d4806",
+      "name": "brisket",
+      "pluralName": "briskets",
+      "description": "Beef breast; ideal for slow cooking or BBQ.",
+      "aliases": [
+        { "name": "runderborst" },
+        { "name": "poitrine de bœuf" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "39fbbe74-f2a5-4db7-aa9a-e708eaa7cf5b",
+      "name": "pork belly",
+      "pluralName": "pork bellies",
+      "description": "Pork from the belly; fatty and flavorful, slow-cooked.",
+      "aliases": [
+        { "name": "varkensbuik" },
+        { "name": "buikspek" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "1b01381a-fb0e-4ab8-ad3a-4687fd1931c0",
+      "name": "chuck eye",
+      "pluralName": "chuck eyes",
+      "description": "Beef from the shoulder; flavorful, comparable to ribeye.",
+      "aliases": [
+        { "name": "chuckeye" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "2fcff6cf-438a-4291-a965-61be2d42b5a9",
+      "name": "côte de bœuf",
+      "pluralName": "côtes de bœuf",
+      "description": "Beef; large bone-in ribeye, typically for 2 people.",
+      "aliases": [
+        { "name": "cote de boeuf" },
+        { "name": "bone-in ribeye" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "8641a577-e485-4755-b071-f81307fe3bb5",
+      "name": "teres major",
+      "pluralName": "teres majors",
+      "description": "Beef; tender shoulder cut near the tenderloin, quickly seared.",
+      "aliases": [
+        { "name": "diamanthaas" },
+        { "name": "shoulder tender" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "82643e3d-4dbd-4225-a102-8559883800bd",
+      "name": "entrecôte",
+      "pluralName": "entrecôtes",
+      "description": "Beef; marbled ribeye, juicy and flavorful.",
+      "aliases": [
+        { "name": "ribeye" },
+        { "name": "rib eye" },
+        { "name": "entrecote" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "c1b8e5af-034a-486a-b4bc-9343b1578ebe",
+      "name": "wild boar",
+      "pluralName": "wild boars",
+      "description": "Game meat; powerful flavor, braised or roasted.",
+      "aliases": [
+        { "name": "boar" },
+        { "name": "everzwijn" },
+        { "name": "sanglier" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "8231c07e-4fc5-4ed1-a8eb-b46af20e8582",
+      "name": "flat iron",
+      "pluralName": "flat irons",
+      "description": "Beef from the shoulder; tender and flavorful, quickly seared.",
+      "aliases": [
+        { "name": "flatiron" },
+        { "name": "flat iron steak" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "5c9d0460-fb1e-4413-91b0-948ada7d2a71",
+      "name": "fricandeau",
+      "pluralName": "fricandeaus",
+      "description": "Beef; lean roasting joint from the round, slow-roasted.",
+      "aliases": [],
+      "label": "Meat"
+    },
+    {
+      "id": "1a626aa4-3553-4e1a-ba6d-5f8ae1cc2f37",
+      "name": "ground meat",
+      "pluralName": "ground meat",
+      "description": "Minced meat; for meatballs, sauces, and burgers.",
+      "aliases": [
+        { "name": "minced meat" },
+        { "name": "gehakt" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "b73dab35-1dec-40bd-a007-5fc0796f017d",
+      "name": "wildebeest",
+      "pluralName": "wildebeests",
+      "description": "Antelope game meat; comparable to beef.",
+      "aliases": [
+        { "name": "gnu" },
+        { "name": "gnoe" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "8c1354f2-4954-4397-92ed-c4fc39d88401",
+      "name": "hare",
+      "pluralName": "hares",
+      "description": "Game meat; dark and robust, often braised.",
+      "aliases": [
+        { "name": "haas" },
+        { "name": "lièvre" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "2f116b15-0d49-4e90-8298-09dff770d5d3",
+      "name": "mixed ground meat",
+      "pluralName": "mixed ground meat",
+      "description": "Mix of ground beef and pork; highly versatile.",
+      "aliases": [
+        { "name": "half-om-half gehakt" },
+        { "name": "gemengd gehakt" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "4c02d0c2-ea3e-4667-bab3-e97e6255b705",
+      "name": "pork leg steak",
+      "pluralName": "pork leg steaks",
+      "description": "Pork; thin slice from the leg, quickly seared.",
+      "aliases": [
+        { "name": "hamlap" },
+        { "name": "hamlappen" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "bb8280be-dafc-461b-b7c9-6d4934cb3aba",
+      "name": "venison",
+      "pluralName": "venison",
+      "description": "Game meat; lean with a pronounced flavor.",
+      "aliases": [
+        { "name": "hert" },
+        { "name": "ree" },
+        { "name": "hertenvlees" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "12f80413-ddc9-4c4c-a2ca-324e3362828f",
+      "name": "inside skirt",
+      "pluralName": "inside skirts",
+      "description": "Beef from the diaphragm; intense flavor, quickly seared.",
+      "aliases": [
+        { "name": "onglet" },
+        { "name": "hanger steak" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "7d514a78-7c4b-4c32-907e-66b8ab43a010",
+      "name": "veal entrecôte",
+      "pluralName": "veal entrecôtes",
+      "description": "Veal; rib cut, tender and mild in flavor.",
+      "aliases": [
+        { "name": "veal ribeye" },
+        { "name": "kalfsentrecote" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "d5720a1f-0490-470f-b704-789d619ee17f",
+      "name": "veal escalope",
+      "pluralName": "veal escalopes",
+      "description": "Veal; thin slice, quickly seared.",
+      "aliases": [
+        { "name": "kalfslapje" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "836a8e5d-1aed-4e05-87a1-a77fc72159f2",
+      "name": "veal medallion",
+      "pluralName": "veal medallions",
+      "description": "Veal from the loin; premium cut, quickly seared.",
+      "aliases": [
+        { "name": "kalfsoester" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "f17f6f15-437d-44b3-afe7-c539c3da709d",
+      "name": "veal shank",
+      "pluralName": "veal shanks",
+      "description": "Veal from the shin; for ossobuco, slowly braised.",
+      "aliases": [
+        { "name": "ossobuco" },
+        { "name": "osso buco" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "fb62d512-b1fa-40d0-b09b-b44284e74cda",
+      "name": "veal schnitzel",
+      "pluralName": "veal schnitzels",
+      "description": "Veal; thin slice, breaded like Wiener schnitzel.",
+      "aliases": [
+        { "name": "wiener schnitzel" },
+        { "name": "wienerschnitzel" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "2d21b780-ffbe-4c2a-8fbf-220bf4a1775d",
+      "name": "veal",
+      "pluralName": "veal",
+      "description": "Meat from a calf; tender and light in color.",
+      "aliases": [
+        { "name": "kalfsvlees" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "a40345f1-7d51-4594-bcde-13811a55575d",
+      "name": "pork cutlet",
+      "pluralName": "pork cutlets",
+      "description": "Bone-in pork cutlet; grilled or seared.",
+      "aliases": [
+        { "name": "karbonade" },
+        { "name": "carbonade" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "7555d754-c954-450e-97f8-68695396b08e",
+      "name": "top sirloin steak",
+      "pluralName": "top sirloin steaks",
+      "description": "Beef from the round; lean and tender, quickly seared.",
+      "aliases": [
+        { "name": "kogelbiefstuk" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "c524af30-f93e-4ede-9ea6-bed8c5d33ea6",
+      "name": "rabbit",
+      "pluralName": "rabbits",
+      "description": "Wild or farmed meat; light and lean, braised or roasted.",
+      "aliases": [
+        { "name": "konijn" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "8231dc84-5f5a-4590-b57c-68232d96e4d5",
+      "name": "leg of lamb",
+      "pluralName": "legs of lamb",
+      "description": "Lamb; classic roasting joint, slow-cooked.",
+      "aliases": [
+        { "name": "lamsbout" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "639d7663-39ed-47c8-a7bd-1f06bb088177",
+      "name": "lamb fillet",
+      "pluralName": "lamb fillets",
+      "description": "Lamb; lean and tender, quickly seared.",
+      "aliases": [
+        { "name": "lamsfilet" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "1159f7fe-c8d5-4f13-970b-0291387708ac",
+      "name": "ground lamb",
+      "pluralName": "ground lamb",
+      "description": "Minced lamb meat; for kofta, burgers, and stews.",
+      "aliases": [
+        { "name": "minced lamb" },
+        { "name": "lamsgehakt" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "83c6181f-f68d-4490-bd1e-639832117d8e",
+      "name": "lamb chop",
+      "pluralName": "lamb chops",
+      "description": "Lamb; bone-in chop, quickly grilled.",
+      "aliases": [
+        { "name": "lamskotelet" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "a2b43612-4fd3-4232-9227-57c685834b39",
+      "name": "lamb liver",
+      "pluralName": "lamb livers",
+      "description": "Liver from a lamb; mild flavor, quickly seared.",
+      "aliases": [
+        { "name": "lamslever" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "9497e835-e1fb-4e5f-841a-9be89056abdd",
+      "name": "rack of lamb",
+      "pluralName": "racks of lamb",
+      "description": "Lamb; bone-in rib cut, an elegant dish.",
+      "aliases": [
+        { "name": "lamsrack" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "5fd7b2c6-e87f-40c8-945a-fcc8beb749e1",
+      "name": "lamb shoulder",
+      "pluralName": "lamb shoulders",
+      "description": "Lamb; ideal for braising or slow roasting.",
+      "aliases": [
+        { "name": "lamsschouder" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "1df018f5-c227-4770-bd5a-146ebb2d2fa2",
+      "name": "lamb",
+      "pluralName": "lamb",
+      "description": "Meat from a sheep; tender with a characteristic flavor.",
+      "aliases": [
+        { "name": "lamsvlees" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "713223b3-8d04-4d57-80ee-cc9baa1c446b",
+      "name": "liver",
+      "pluralName": "livers",
+      "description": "Offal; for pâté or pan-seared, rich in iron.",
+      "aliases": [],
+      "label": "Meat"
+    },
+    {
+      "id": "81de7660-3fe2-4d27-ab97-f1e47c98e3d9",
+      "name": "lean stewing beef",
+      "pluralName": "lean stewing beef",
+      "description": "Lean sliced beef; for soup or stews.",
+      "aliases": [
+        { "name": "magere lappen" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "799fb582-eb6f-4111-b6dc-cb67f3bc65f2",
+      "name": "medallion",
+      "pluralName": "medallions",
+      "description": "Round, thick slice of meat; from pork or beef tenderloin.",
+      "aliases": [],
+      "label": "Meat"
+    },
+    {
+      "id": "6253bd69-e9d9-45b0-bb8b-9463989fbdc6",
+      "name": "marrow bone",
+      "pluralName": "marrow bones",
+      "description": "Beef bone with marrow; roasted or used in soup.",
+      "aliases": [
+        { "name": "mergpijp" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "94be7c70-939c-4224-8ebe-58dbaaaefcfc",
+      "name": "beef tenderloin",
+      "pluralName": "beef tenderloins",
+      "description": "Beef; the most tender cut, quickly seared.",
+      "aliases": [
+        { "name": "ossenhaas" },
+        { "name": "filet pur" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "4d6d511f-0115-4ec9-84c5-71670d1c061d",
+      "name": "oxtail",
+      "pluralName": "oxtails",
+      "description": "Beef tail; rich in connective tissue, slowly braised.",
+      "aliases": [
+        { "name": "ossestaart" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "05c458db-4e3f-4245-ac4f-91b38d97d82f",
+      "name": "picanha",
+      "pluralName": "picanhas",
+      "description": "Beef; Brazilian cut with a fat cap, grilled.",
+      "aliases": [
+        { "name": "rump cap" },
+        { "name": "staartstuk" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "bd06b7fb-1fd0-4a3f-ad52-72013c1a2715",
+      "name": "pork collar",
+      "pluralName": "pork collars",
+      "description": "Pork from the neck; marbled, for slow cooking or BBQ.",
+      "aliases": [
+        { "name": "pork neck" },
+        { "name": "procureur" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "75dada7d-f133-4597-9e91-0e012e0b13dd",
+      "name": "rib fingers",
+      "pluralName": "rib fingers",
+      "description": "Pork meat from between the ribs; flavorful, for BBQ.",
+      "aliases": [],
+      "label": "Meat"
+    },
+    {
+      "id": "48611f56-f397-4a78-a5ec-8a9b1e507c40",
+      "name": "beef chuck roast",
+      "pluralName": "beef chuck roasts",
+      "description": "Beef; flavorful braising steak from the rib/shoulder.",
+      "aliases": [
+        { "name": "riblap" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "7b630aff-1db5-4783-8dcf-70d0bbf40bf2",
+      "name": "rump steak",
+      "pluralName": "rump steaks",
+      "description": "Beef from the rump; firm and flavorful.",
+      "aliases": [],
+      "label": "Meat"
+    },
+    {
+      "id": "bf08f0d9-0e36-4269-8fb3-052551537899",
+      "name": "beef carpaccio",
+      "pluralName": "beef carpaccio",
+      "description": "Thinly sliced raw beef; served as a starter.",
+      "aliases": [
+        { "name": "carpaccio" },
+        { "name": "rundercarpaccio" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "42e9cb22-3b4f-491e-95b7-920298f8be41",
+      "name": "ground beef",
+      "pluralName": "ground beef",
+      "description": "Minced beef; for bolognese and burgers.",
+      "aliases": [
+        { "name": "rundergehakt" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "7e6f4bd0-91d3-44c5-a3b3-f4731f6fee46",
+      "name": "braising steak",
+      "pluralName": "braising steaks",
+      "description": "Beef stewing meat; for dishes like hachee or carbonnade.",
+      "aliases": [
+        { "name": "runderlap" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "7fc72f0c-5939-4741-a162-c6e9ad3e6542",
+      "name": "chuck steak",
+      "pluralName": "chuck steaks",
+      "description": "Stewing meat from the rib; tender due to marbling.",
+      "aliases": [
+        { "name": "runderriblap" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "fc1b9b72-388a-42d7-bc7b-7b4000c83c55",
+      "name": "rolled beef roast",
+      "pluralName": "rolled beef roasts",
+      "description": "Rolled beef; stuffed or plain, slow-roasted.",
+      "aliases": [
+        { "name": "runderrollade" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "86079378-4902-4b61-b76f-b9b26b4eee1a",
+      "name": "beef shank",
+      "pluralName": "beef shanks",
+      "description": "Beef from the shank; for broth or slow braising.",
+      "aliases": [
+        { "name": "runderschenkel" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "50b204a6-749c-4edf-9761-213948ccc712",
+      "name": "beef cheek",
+      "pluralName": "beef cheeks",
+      "description": "Beef from the cheek; collagen-rich, ideal for slow braising.",
+      "aliases": [
+        { "name": "runderwang" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "b145f8ef-f608-4302-ac27-c6db851df6ff",
+      "name": "beef",
+      "pluralName": "beef",
+      "description": "Meat from cattle; for roasting, braising, or grilling.",
+      "aliases": [
+        { "name": "rundvlees" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "673ac2be-8a4d-4626-8f40-3648fa62abcd",
+      "name": "schnitzel",
+      "pluralName": "schnitzels",
+      "description": "Thin slice of meat; breaded and fried.",
+      "aliases": [],
+      "label": "Meat"
+    },
+    {
+      "id": "e539e333-a44c-4ffd-82e6-31c3b29a37c4",
+      "name": "pork shoulder chop",
+      "pluralName": "pork shoulder chops",
+      "description": "Pork; marbled chop, braised or grilled.",
+      "aliases": [
+        { "name": "schouderkarbonade" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "3838e468-46e2-40e5-a72d-30b57b0058c2",
+      "name": "secreto",
+      "pluralName": "secreto",
+      "description": "Pork; hidden cut near the belly, highly flavorful.",
+      "aliases": [
+        { "name": "secreto ibérico" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "347fc3e2-e72a-419a-8f38-b60dd7edd078",
+      "name": "shawarma strips",
+      "pluralName": "shawarma strips",
+      "description": "Spiced marinated meat in strips; for wraps.",
+      "aliases": [
+        { "name": "shoarma" },
+        { "name": "shoarmareepjes" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "6942db0e-4e71-4187-a44e-c3180c75ccd1",
+      "name": "short rib",
+      "pluralName": "short ribs",
+      "description": "Beef; short rib, ideal for slow cooking.",
+      "aliases": [],
+      "label": "Meat"
+    },
+    {
+      "id": "9b55a6ad-1005-4f67-8fd9-34bdae7ec183",
+      "name": "spare ribs",
+      "pluralName": "spare ribs",
+      "description": "Pork ribs; marinated, slow-cooked or grilled.",
+      "aliases": [
+        { "name": "spareribs" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "199d7929-7ea8-4f2a-ae5d-4614b3522327",
+      "name": "suckling pig",
+      "pluralName": "suckling pigs",
+      "description": "Young pig; tender meat, traditionally roasted.",
+      "aliases": [
+        { "name": "speenvarken" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "4d257e9a-f13e-404a-97c5-d8e05581350f",
+      "name": "bacon lardons",
+      "pluralName": "bacon lardons",
+      "description": "Diced bacon; for frying.",
+      "aliases": [
+        { "name": "spekblokjes" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "7ea46e2f-fbe0-42d6-8817-287144ab6102",
+      "name": "pork belly slice",
+      "pluralName": "pork belly slices",
+      "description": "Pork; marbled belly in slices, pan-fried.",
+      "aliases": [
+        { "name": "speklap" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "7e622199-7ba7-4e4b-86f9-caf18885caaf",
+      "name": "bacon strips",
+      "pluralName": "bacon strips",
+      "description": "Bacon cut into strips; for carbonara or salads.",
+      "aliases": [
+        { "name": "spekreepje" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "ec5d454c-d1ac-41dd-8e72-3bb5493ce30b",
+      "name": "stewing beef",
+      "pluralName": "stewing beef",
+      "description": "Beef pieces; for slow braising.",
+      "aliases": [
+        { "name": "stoofvlees" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "cb31eda1-eadc-4eaf-b568-79c6811e36dc",
+      "name": "blade steak",
+      "pluralName": "blade steaks",
+      "description": "Beef braising steak with connective tissue; for slow braising.",
+      "aliases": [
+        { "name": "sukadelap" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "05f55bfd-002d-484c-8069-0d61095877ed",
+      "name": "blade roast",
+      "pluralName": "blade roasts",
+      "description": "Beef from the shoulder; for simmering and stews.",
+      "aliases": [
+        { "name": "sukadevlees" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "dfa7eeb7-494b-4fe5-8660-88b54928736f",
+      "name": "t-bone",
+      "pluralName": "t-bones",
+      "description": "Beef; steak with a T-shaped bone, two cuts in one.",
+      "aliases": [
+        { "name": "t-bone steak" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "4298bf3a-8684-4470-bf81-f784ea683e12",
+      "name": "tartare",
+      "pluralName": "tartares",
+      "description": "Raw minced beef; seasoned as a main dish.",
+      "aliases": [
+        { "name": "steak tartare" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "5d30b8d1-13ec-44a8-b178-7346c195a224",
+      "name": "tomahawk",
+      "pluralName": "tomahawks",
+      "description": "Beef; ribeye with a long bone, a spectacular grilling cut.",
+      "aliases": [
+        { "name": "tomahawk steak" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "1c9c776c-5e42-40a9-909e-ecc01327c0c6",
+      "name": "tournedos",
+      "pluralName": "tournedos",
+      "description": "Beef; thick slice of tenderloin, a premium cut.",
+      "aliases": [],
+      "label": "Meat"
+    },
+    {
+      "id": "9b12e319-34fb-4955-baaf-c5b3b9d95f8f",
+      "name": "pork fillet",
+      "pluralName": "pork fillets",
+      "description": "Pork; lean cut, quick to prepare.",
+      "aliases": [
+        { "name": "varkensfilet" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "12326a48-cf48-4ad6-ac2e-beea285f1f86",
+      "name": "ground pork",
+      "pluralName": "ground pork",
+      "description": "Minced pork meat; for sausages and meatballs.",
+      "aliases": [
+        { "name": "varkensgehakt" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "7dd458e2-7067-4df9-9ab1-f4b57ad6a70d",
+      "name": "pork tenderloin",
+      "pluralName": "pork tenderloins",
+      "description": "Pork; lean tender loin, quickly seared.",
+      "aliases": [
+        { "name": "varkenshaas" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "f9bbd299-6df4-4e7a-9d8a-a5e9ae29f784",
+      "name": "pork chop",
+      "pluralName": "pork chops",
+      "description": "Bone-in pork chop; seared or grilled.",
+      "aliases": [
+        { "name": "varkenskarbonade" },
+        { "name": "kotelet" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "8ab48017-3aec-41bd-aa4f-409270fc8c64",
+      "name": "pork medallion",
+      "pluralName": "pork medallions",
+      "description": "Lean pork from the loin; ready quickly.",
+      "aliases": [
+        { "name": "varkensoester" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "30009586-b313-4605-8f4f-a1e35ee76f5e",
+      "name": "pork strips",
+      "pluralName": "pork strips",
+      "description": "Sliced pork; for stir-fries.",
+      "aliases": [
+        { "name": "varkensreepje" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "1dcbe11c-cb0e-4caf-9b70-e700705d032c",
+      "name": "rolled pork roast",
+      "pluralName": "rolled pork roasts",
+      "description": "Rolled pork; stuffed or plain, slow-roasted.",
+      "aliases": [
+        { "name": "varkensrollade" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "bf4e1e5f-aaa5-4d86-ae57-5be0bcd13695",
+      "name": "pork schnitzel",
+      "pluralName": "pork schnitzels",
+      "description": "Breaded pork; pan-fried.",
+      "aliases": [
+        { "name": "varkensschnitzel" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "9f294f0a-d02b-46c3-9db8-c2d965c5e7e9",
+      "name": "pork shoulder",
+      "pluralName": "pork shoulders",
+      "description": "Pork from the shoulder; for braising or roasting.",
+      "aliases": [
+        { "name": "varkensschouder" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "e5b4c400-6f5a-4041-94a8-4d68888f93ee",
+      "name": "pork",
+      "pluralName": "pork",
+      "description": "Meat from a pig; versatile for roasting, braising, or grilling.",
+      "aliases": [
+        { "name": "varkensvlees" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "fbe85b7f-0854-404e-b284-1b8a5ffde750",
+      "name": "pork cheek",
+      "pluralName": "pork cheeks",
+      "description": "Pork from the cheek; very tender after slow braising.",
+      "aliases": [
+        { "name": "varkenswang" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "0f72ea50-ba8f-4982-bdb0-585009e1dce9",
+      "name": "sausage",
+      "pluralName": "sausages",
+      "description": "Small sausage; grilled or pan-fried.",
+      "aliases": [
+        { "name": "worstje" }
+      ],
+      "label": "Meat"
+    },
+    {
+      "id": "8bb73f5b-b6a8-4a2f-a6ab-2dc7e3bef55c",
+      "name": "sweetbread",
+      "pluralName": "sweetbreads",
+      "description": "Offal (thymus gland); delicate, pan-fried as a starter.",
+      "aliases": [
+        { "name": "zwezerik" },
+        { "name": "animella" }
+      ],
+      "label": "Meat"
+    }
+  ]
+}

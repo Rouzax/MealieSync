@@ -1,0 +1,535 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "f3678e18-73b7-4ea4-9e67-5766d3ef9a00",
+      "name": "absinthe",
+      "pluralName": "absinthe",
+      "description": "Green anise liqueur with wormwood; strong spirit from Switzerland and France.",
+      "aliases": [
+        {
+          "name": "absinth"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "2b6112ca-6ac1-4bac-804e-c4c654a82799",
+      "name": "advocaat",
+      "pluralName": "advocaat",
+      "description": "Dutch egg liqueur; for desserts and cocktails.",
+      "aliases": [
+        {
+          "name": "advokaat"
+        },
+        {
+          "name": "egg liqueur"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "ea6ede35-d5ed-4312-a5e6-408029092eba",
+      "name": "amaretto",
+      "pluralName": "amaretto",
+      "description": "Italian almond liqueur; sweet, for cocktails and desserts.",
+      "aliases": [
+        {
+          "name": "almond liqueur"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "36e153e1-1518-4973-a6c5-b5ef3cfc194f",
+      "name": "amaro",
+      "pluralName": "amaro",
+      "description": "Italian herbal bitter liqueur; aperitif or digestif.",
+      "aliases": [
+        {
+          "name": "amari"
+        },
+        {
+          "name": "amaro liqueur"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "9e7ea09f-978e-45a6-8f80-e3271b872165",
+      "name": "anisette",
+      "pluralName": "anisette",
+      "description": "Sweet anise liqueur; digestif or in cocktails.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "0f4dd15d-f7fb-4682-8a98-61c07067151f",
+      "name": "aquavit",
+      "pluralName": "aquavit",
+      "description": "Scandinavian herbal spirit; neat or in cocktails.",
+      "aliases": [
+        {
+          "name": "akevitt"
+        },
+        {
+          "name": "akvavit"
+        },
+        {
+          "name": "aquavite"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "f9996bed-5b24-421a-83e2-cfc5f2690ebc",
+      "name": "arak",
+      "pluralName": "arak",
+      "description": "Middle Eastern anise drink; strong spirit with a dry taste.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "a5e5f647-0f75-460e-92ff-2db40c6b1382",
+      "name": "armagnac",
+      "pluralName": "armagnac",
+      "description": "French grape brandy; for sauces and desserts.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "08e23c6c-559f-4a3c-b5db-1a1bed7fe671",
+      "name": "blue curaçao",
+      "pluralName": "blue curaçao",
+      "description": "Bright blue orange liqueur; for cocktails.",
+      "aliases": [
+        {
+          "name": "blue curacao"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "f5f86977-0e5c-4b7c-a284-0cfeae27a6b2",
+      "name": "bourbon",
+      "pluralName": "bourbon",
+      "description": "American corn whiskey; for cocktails or baking.",
+      "aliases": [
+        {
+          "name": "bourbon whiskey"
+        },
+        {
+          "name": "bourbon whisky"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "11986e12-3861-42f1-a0a0-389a2e690575",
+      "name": "brandy",
+      "pluralName": "brandy",
+      "description": "Distilled wine; for cocktails and desserts.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "2449eabc-44d8-4e35-9dfa-8100f2f942b4",
+      "name": "dark rum",
+      "pluralName": "dark rum",
+      "description": "Dark aged rum; for cocktails and desserts.",
+      "aliases": [
+        {
+          "name": "brown rum"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "a7a2af01-9133-447e-9ee5-7b70f8648123",
+      "name": "cachaça",
+      "pluralName": "cachaça",
+      "description": "Brazilian sugarcane distillate; base for caipirinha.",
+      "aliases": [
+        {
+          "name": "cachaca"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "daa975f3-4e43-4f39-9be4-9cb8e2858246",
+      "name": "calvados",
+      "pluralName": "calvados",
+      "description": "French apple brandy from Normandy; for sauces and desserts.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "8c8fbf15-efc2-411d-8491-60b9b55f8162",
+      "name": "chocolate liqueur",
+      "pluralName": "chocolate liqueurs",
+      "description": "Cacao liqueur; for cocktails and desserts.",
+      "aliases": [
+        {
+          "name": "cacao liqueur"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "54a5785b-9900-455d-9e9e-55e19b30e584",
+      "name": "cocktail bitters",
+      "pluralName": "cocktail bitters",
+      "description": "Aromatic bitters; drops as flavoring in cocktails.",
+      "aliases": [
+        {
+          "name": "aromatic bitters"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "ea590152-14aa-4270-b36f-56dd48fbf383",
+      "name": "cognac",
+      "pluralName": "cognac",
+      "description": "French grape brandy; for sauces, desserts or as a digestif.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "bb034bcf-4f9e-4517-970a-552d48671bee",
+      "name": "crème de cassis",
+      "pluralName": "crème de cassis",
+      "description": "Blackcurrant liqueur; for cocktails like kir.",
+      "aliases": [
+        {
+          "name": "blackcurrant liqueur"
+        },
+        {
+          "name": "creme de cassis"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "92b7e5df-6506-4d72-9026-3917988cb0d8",
+      "name": "crème de menthe",
+      "pluralName": "crème de menthe",
+      "description": "Peppermint liqueur; green or white, for cocktails and desserts.",
+      "aliases": [
+        {
+          "name": "creme de menthe"
+        },
+        {
+          "name": "mint liqueur"
+        },
+        {
+          "name": "peppermint liqueur"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "b1810025-98ff-4800-943a-d20a8c714aef",
+      "name": "curaçao",
+      "pluralName": "curaçao",
+      "description": "Orange liqueur from curaçao peel; for cocktails.",
+      "aliases": [
+        {
+          "name": "curacao"
+        },
+        {
+          "name": "orange curacao"
+        },
+        {
+          "name": "orange curaçao"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "cd2e39a0-ad48-49f4-8e12-834defb30f0a",
+      "name": "falernum",
+      "pluralName": "falernum",
+      "description": "Caribbean liqueur with lime, almond and clove; for tiki cocktails.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "83b64e10-2730-44e0-802e-7ecf79e6f4b3",
+      "name": "raspberry liqueur",
+      "pluralName": "raspberry liqueurs",
+      "description": "Raspberry liqueur; for cocktails, desserts and sauces.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "a2c78012-5f8c-4870-ad62-95802c97332d",
+      "name": "spiced rum",
+      "pluralName": "spiced rum",
+      "description": "Rum with herbs and spices; for mixed drinks and baking.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "cbaea413-fc7f-43c5-8831-74f579152b2f",
+      "name": "gin",
+      "pluralName": "gin",
+      "description": "Distilled grain spirit with juniper; for cocktails.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "95ca943f-6444-42db-88d5-0f6844912ea7",
+      "name": "grappa",
+      "pluralName": "grappa",
+      "description": "Italian grape pomace brandy; digestif.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "32e5d772-721c-467a-ba78-0abc8d2356a7",
+      "name": "hazelnut liqueur",
+      "pluralName": "hazelnut liqueurs",
+      "description": "Sweet hazelnut liqueur; for coffee, desserts and cocktails.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "9f66fefa-60ef-4851-8087-d983ad383dad",
+      "name": "genever",
+      "pluralName": "genever",
+      "description": "Dutch grain distillate with juniper; neat or in cocktails.",
+      "aliases": [
+        {
+          "name": "jenever"
+        },
+        {
+          "name": "korenwijn"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "e627616e-74ac-40e9-80d4-637dc2308fe1",
+      "name": "kirsch",
+      "pluralName": "kirsch",
+      "description": "Cherry brandy; for fondue, cake and cocktails.",
+      "aliases": [
+        {
+          "name": "kirschwasser"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "0974b01a-a712-4970-97fe-7f0560506315",
+      "name": "coffee liqueur",
+      "pluralName": "coffee liqueurs",
+      "description": "Sweet coffee liqueur; for cocktails and desserts.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "b8adf207-0d40-4824-984d-faaa81912d5c",
+      "name": "coconut liqueur",
+      "pluralName": "coconut liqueurs",
+      "description": "Sweet coconut liqueur; for cocktails and desserts.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "6ba14b81-1250-4b04-a64a-7b11a05c0947",
+      "name": "herbal bitter",
+      "pluralName": "herbal bitters",
+      "description": "Bittersweet herbal liqueur; digestif.",
+      "aliases": [
+        {
+          "name": "herbal liqueur"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "6743087b-e5c7-4c6c-baba-418e2b87a212",
+      "name": "limoncello",
+      "pluralName": "limoncello",
+      "description": "Italian lemon liqueur; ice cold as a digestif.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "da63bbaf-6be9-4567-be9a-261c7c40ebcc",
+      "name": "maraschino",
+      "pluralName": "maraschino",
+      "description": "Italian cherry liqueur; for cocktails and pastries.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "15b14dee-0606-4212-9acf-e321787fe2ad",
+      "name": "mezcal",
+      "pluralName": "mezcal",
+      "description": "Smoky agave distillate; alternative to tequila in cocktails.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "46b6924f-3737-4874-8982-29ae359f4bf2",
+      "name": "ouzo",
+      "pluralName": "ouzo",
+      "description": "Greek anise drink; aperitif, becomes cloudy with water.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "9d3010bb-9f9f-4fd1-9d59-4ed1c564950c",
+      "name": "passion fruit liqueur",
+      "pluralName": "passion fruit liqueurs",
+      "description": "Sweet passion fruit liqueur; for cocktails.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "6bb7e126-d0e7-4225-aaf4-d10c0517e2dc",
+      "name": "pastis",
+      "pluralName": "pastis",
+      "description": "French anise drink; aperitif, diluted with water.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "3efd4493-b113-4b2b-b6f1-15e105a9224b",
+      "name": "peach liqueur",
+      "pluralName": "peach liqueurs",
+      "description": "Peach liqueur; for cocktails and desserts.",
+      "aliases": [
+        {
+          "name": "peach schnapps"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "56b5cd56-e425-418a-96c4-158f53bb9d90",
+      "name": "pisco",
+      "pluralName": "pisco",
+      "description": "Grape brandy from Peru and Chile; for pisco sour.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "049c626b-2984-442b-8cae-ad41f8b56e65",
+      "name": "cream liqueur",
+      "pluralName": "cream liqueurs",
+      "description": "Creamy liqueur with cream; for coffee, cocktails and desserts.",
+      "aliases": [
+        {
+          "name": "irish cream"
+        },
+        {
+          "name": "irish cream liqueur"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "756a285a-d22a-4df4-9a32-d6de2d6419dc",
+      "name": "rum",
+      "pluralName": "rum",
+      "description": "Distilled from sugarcane; for cocktails and pastries.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "4023b1a1-25ac-4acf-bbff-91c5711ba355",
+      "name": "sambuca",
+      "pluralName": "sambuca",
+      "description": "Italian anise liqueur; digestif or in coffee.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "ca225ffc-4e8b-4e14-8580-2b79d89dbb40",
+      "name": "sloe gin",
+      "pluralName": "sloe gin",
+      "description": "Sloe liqueur; often used in cocktails.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "f5ae936c-4b3f-48bf-8b57-4a534763c973",
+      "name": "tequila",
+      "pluralName": "tequila",
+      "description": "Mexican agave distillate; for cocktails or neat with salt and lime.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "b03cd636-4d62-41ac-85c0-353a87632d14",
+      "name": "triple sec",
+      "pluralName": "triple sec",
+      "description": "Orange liqueur; for cocktails.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "e45b61d1-a68d-4bb1-9f06-3fea11e59b94",
+      "name": "elderflower liqueur",
+      "pluralName": "elderflower liqueurs",
+      "description": "Aromatic floral liqueur; for spritz and cocktails.",
+      "aliases": [],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "c19ccf06-1738-453a-8d8b-aa188d54baf0",
+      "name": "vodka",
+      "pluralName": "vodka",
+      "description": "Neutral grain spirit; for cocktails.",
+      "aliases": [
+        {
+          "name": "wodka"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "6a2733f9-27e3-4702-9f70-30f268ccf654",
+      "name": "whisky",
+      "pluralName": "whisky",
+      "description": "Distilled grain spirit, aged in oak; neat or in cocktails.",
+      "aliases": [
+        {
+          "name": "whiskey"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "3604b120-4c41-4f81-867f-83b49313f8a6",
+      "name": "whisky liqueur",
+      "pluralName": "whisky liqueurs",
+      "description": "Sweet spiced liqueur based on whisky; digestif or in cocktails.",
+      "aliases": [
+        {
+          "name": "whiskey liqueur"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    },
+    {
+      "id": "fba12171-f964-4e05-b32d-85a80bbe50e3",
+      "name": "white rum",
+      "pluralName": "white rum",
+      "description": "Light rum; for mojito and daiquiri.",
+      "aliases": [
+        {
+          "name": "light rum"
+        }
+      ],
+      "label": "Spirits & Liqueurs"
+    }
+  ]
+}

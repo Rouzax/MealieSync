@@ -1,0 +1,745 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "ebe0cf4b-7a5b-4cd1-9cb7-5a6ce0da826d",
+      "name": "achiote paste",
+      "pluralName": "achiote pastes",
+      "description": "Annatto paste; spicy red paste for marinades.",
+      "aliases": [
+        { "name": "pasta de achiote" },
+        { "name": "achiotepasta" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "4042b14f-7853-4e01-9572-ca1790c9aecb",
+      "name": "adobo sauce",
+      "pluralName": "adobo sauces",
+      "description": "Mexican sauce with dried peppers and spices; used for marinades and stews.",
+      "aliases": [
+        { "name": "adobo saus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "bbe67e00-5004-4244-9065-5c5e05061a8e",
+      "name": "aioli",
+      "pluralName": "aioli",
+      "description": "Garlic mayonnaise; cold sauce from Mediterranean cuisine.",
+      "aliases": [
+        { "name": "allioli" },
+        { "name": "ajoaceite" },
+        { "name": "aïoli" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "adf1efb7-4742-4100-ac0a-5d694fc1343b",
+      "name": "ajvar",
+      "pluralName": "ajvar",
+      "description": "Serbian pepper and eggplant spread; spicy condiment or side dish.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "bd99f53c-9e99-479b-8d43-c55eb0a92f68",
+      "name": "atjar tjampoer",
+      "pluralName": "atjar tjampoer",
+      "description": "Indonesian pickled vegetables; sweet and sour.",
+      "aliases": [
+        { "name": "atjar" },
+        { "name": "achar" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "04ee30ff-25ed-4f12-9e69-d2722d86c4e3",
+      "name": "babi pangang sauce",
+      "pluralName": "babi pangang sauces",
+      "description": "Sweet and sour Chinese-Indonesian sauce; served with babi pangang.",
+      "aliases": [
+        { "name": "babi pangangsaus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "47a78321-046d-4636-87fe-2f035b16029d",
+      "name": "barbecue sauce",
+      "pluralName": "barbecue sauces",
+      "description": "Spicy-sweet sauce; marinade or glaze for meat.",
+      "aliases": [
+        { "name": "bbq sauce" },
+        { "name": "bbq-sauce" },
+        { "name": "bbq saus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "e17b7dc4-3453-4b50-b974-132f2c9d48bc",
+      "name": "bumbu",
+      "pluralName": "bumbu",
+      "description": "Indonesian spice paste; base for curries and stews.",
+      "aliases": [
+        { "name": "boemboe" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "b8593691-3dfb-443a-a7ff-672c03708c24",
+      "name": "bumbu bali",
+      "pluralName": "bumbu bali",
+      "description": "Indonesian spice paste (Bali); spicy bumbu for meat and fish.",
+      "aliases": [
+        { "name": "boemboe bali" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "57011bb6-fe15-4378-ab75-72c2747aec6f",
+      "name": "bumbu satay",
+      "pluralName": "bumbu satay",
+      "description": "Indonesian spice paste for satay sauce; mixed with peanut butter for satay.",
+      "aliases": [
+        { "name": "boemboe saté" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "b69cb240-6821-4b7f-86b3-370188077ed3",
+      "name": "bruschetta topping",
+      "pluralName": "bruschetta toppings",
+      "description": "Ready-to-use topping of tomato, garlic and herbs; for bruschetta or as a side dish.",
+      "aliases": [
+        { "name": "bruschetta mix" },
+        { "name": "bruschetta tomaatsalade" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "a7ac6e02-7a6f-4233-881e-fb60df8d93a2",
+      "name": "chermoula",
+      "pluralName": "chermoula",
+      "description": "Moroccan spice paste with parsley, coriander and lemon; for fish or meat.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "a2b453af-bf77-4ac9-bc42-56f8b409ad21",
+      "name": "chili sauce",
+      "pluralName": "chili sauces",
+      "description": "Sweet and spicy chili-based sauce; dipping sauce or wok sauce in Asian cuisine.",
+      "aliases": [
+        { "name": "chilisaus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "94c2a250-0e39-4045-a2ae-656123848b53",
+      "name": "chimichurri",
+      "pluralName": "chimichurri",
+      "description": "Argentinian herb sauce; with grilled meat.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "c4eef7db-a954-41b8-ab99-3599df8b6c1b",
+      "name": "chipotle in adobo",
+      "pluralName": "chipotle in adobo",
+      "description": "Smoked jalapeño peppers in adobo sauce; spicy condiment from Mexican cuisine.",
+      "aliases": [
+        { "name": "chipotle peppers in adobo sauce" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "069d7d6e-c61b-4bf7-86f6-e956214dbbaa",
+      "name": "cocktail sauce",
+      "pluralName": "cocktail sauces",
+      "description": "Pink dressing made of mayonnaise and ketchup; for shrimp and salads.",
+      "aliases": [
+        { "name": "cocktailsaus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "486123de-4565-4d5e-b53f-46945632bc73",
+      "name": "dijon mustard",
+      "pluralName": "dijon mustard",
+      "description": "Dijon-style mustard; for dressings, sauces and marinades.",
+      "aliases": [
+        { "name": "dijonmosterd" },
+        { "name": "moutarde de dijon" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "bfdcb95e-32d1-4031-ba35-eb883c1c4048",
+      "name": "dark soy sauce",
+      "pluralName": "dark soy sauce",
+      "description": "Syrupy sweet soy sauce; used in stews.",
+      "aliases": [
+        { "name": "donkere sojasaus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "0bc957fd-c8d8-4fd2-8380-e8f11cea4bca",
+      "name": "tomato frito",
+      "pluralName": "tomato frito",
+      "description": "Spanish base for dishes; fried tomato sauce.",
+      "aliases": [
+        { "name": "gebakken tomatensaus" },
+        { "name": "fried tomato sauce" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "921365e2-93d7-4f0b-94bb-c5451ab3b403",
+      "name": "crispy fried onions",
+      "pluralName": "crispy fried onions",
+      "description": "Crispy deep-fried onions; topping for Asian dishes.",
+      "aliases": [
+        { "name": "gebakken uitjes" },
+        { "name": "fried onions" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "5bc4df8b-3c72-4bac-81b8-acd98aaac853",
+      "name": "yellow mustard",
+      "pluralName": "yellow mustard",
+      "description": "American yellow mustard; mild.",
+      "aliases": [
+        { "name": "gele mosterd" },
+        { "name": "american mustard" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "ce3cfd3f-80fc-4340-8bfa-366aa6f658f9",
+      "name": "ginger paste",
+      "pluralName": "ginger pastes",
+      "description": "Paste of ground ginger; flavoring in curries, woks and marinades.",
+      "aliases": [
+        { "name": "gemberpasta" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "43e127b1-ffb2-4fe2-9561-739aca9cd965",
+      "name": "ginger syrup",
+      "pluralName": "ginger syrups",
+      "description": "Sweet syrup infused with ginger; flavoring in drinks and desserts.",
+      "aliases": [
+        { "name": "gembersiroop" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "2b9d982a-f138-4216-9ddc-540e757fdfdd",
+      "name": "gochujang",
+      "pluralName": "gochujang",
+      "description": "Korean fermented chili paste; sweet, spicy and umami.",
+      "aliases": [
+        { "name": "korean chili paste" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "77833f1c-11e7-4319-9abe-52ee21f451bb",
+      "name": "green curry paste",
+      "pluralName": "green curry pastes",
+      "description": "Thai herb paste with green peppers; spicy and fresh.",
+      "aliases": [
+        { "name": "groene currypasta" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "de9ce81e-a6e0-4932-a22b-dbd35e3286d0",
+      "name": "harissa",
+      "pluralName": "harissa",
+      "description": "North African chili paste; spicy.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "8cd562a2-726e-4852-be42-0098c44fa397",
+      "name": "hoisin sauce",
+      "pluralName": "hoisin sauces",
+      "description": "Chinese sweet soy-garlic sauce; marinade or dipping sauce for Peking duck.",
+      "aliases": [
+        { "name": "hoisinsaus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "4731010d-b633-4740-8ca0-1866fb950c2e",
+      "name": "honey mustard",
+      "pluralName": "honey mustard",
+      "description": "Sauce made of mustard and honey; sweet and spicy, with cheese or salads.",
+      "aliases": [
+        { "name": "honingmosterd" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "2aa0b8bb-5ed8-40d8-aec1-62d9a98a2bf1",
+      "name": "hot sauce",
+      "pluralName": "hot sauces",
+      "description": "Sharp red chili sauce; used drop by drop as a condiment.",
+      "aliases": [
+        { "name": "hotsauce" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "fbada578-5e98-4269-9ea3-ef036814747a",
+      "name": "hummus",
+      "pluralName": "hummus",
+      "description": "Middle Eastern chickpea dip; creamy with tahini, lemon and garlic.",
+      "aliases": [
+        { "name": "houmous" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "807ccbd6-2bf0-4901-b873-5bcc828c5cee",
+      "name": "capers",
+      "pluralName": "capers",
+      "description": "Pickled flower buds; salty-sour accent in sauces and salads.",
+      "aliases": [
+        { "name": "kappertjes" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "3b898e17-0e32-464a-bcb8-531e0383d2b3",
+      "name": "ketchup",
+      "pluralName": "ketchup",
+      "description": "Sweet tomato sauce; on fries and burgers.",
+      "aliases": [
+        { "name": "tomato ketchup" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "94d31794-841a-4517-9ea7-75d63b37a352",
+      "name": "garlic sauce",
+      "pluralName": "garlic sauces",
+      "description": "Creamy garlic sauce; dipping sauce for shawarma, fries or vegetables.",
+      "aliases": [
+        { "name": "knoflooksaus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "1678aa73-3e2e-4472-bcd3-dd2a9320e1cf",
+      "name": "mango salad",
+      "pluralName": "mango salads",
+      "description": "Ready-made salad with mango, onion and herbs; fresh side dish or topping.",
+      "aliases": [
+        { "name": "mangosalade" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "ca3edcca-150e-4682-98ec-010b2908f9ea",
+      "name": "mayonnaise",
+      "pluralName": "mayonnaise",
+      "description": "Cold sauce of egg and oil; on fries and in salads.",
+      "aliases": [
+        { "name": "mayo" },
+        { "name": "mayonaise" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "295f7ff0-e8fa-47dd-9012-a2b76717a7d9",
+      "name": "miso",
+      "pluralName": "miso",
+      "description": "Japanese fermented soy paste; savory umami base for soup and marinades.",
+      "aliases": [
+        { "name": "miso paste" },
+        { "name": "misopasta" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "36a1cdb8-869b-481c-8c84-a3f9f1210bce",
+      "name": "mustard",
+      "pluralName": "mustard",
+      "description": "Spicy sauce of ground mustard seeds; condiment for meat and in dressing.",
+      "aliases": [
+        { "name": "mosterd" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "fbd5ee84-dfe1-4e3a-9f16-72efe788367c",
+      "name": "oyster sauce",
+      "pluralName": "oyster sauces",
+      "description": "Dark sauce of oyster extract; savory flavoring in Chinese cuisine.",
+      "aliases": [
+        { "name": "oestersaus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "14a4b96e-f91b-46c7-b520-9d4211059dee",
+      "name": "olive tapenade",
+      "pluralName": "olive tapenades",
+      "description": "Tapenade of olives with capers and anchovies; savory spreadable puree.",
+      "aliases": [
+        { "name": "tapenade" },
+        { "name": "olijfpasta" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "83f36a03-7d87-4a22-8ea0-291aa1fde69f",
+      "name": "sweet and sour pickles",
+      "pluralName": "sweet and sour pickles",
+      "description": "Mix of pickled vegetables; sweet and sour condiment.",
+      "aliases": [
+        { "name": "ontbijtzuur" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "7ef787b0-7e86-4ee3-b44f-300b3a03b78f",
+      "name": "paprika paste",
+      "pluralName": "paprika pastes",
+      "description": "Paste of paprika and chili; flavoring in Hungarian dishes.",
+      "aliases": [
+        { "name": "paprikapasta" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "c3766b92-a886-4c7b-acbd-c71f674f77f8",
+      "name": "passata",
+      "pluralName": "passata",
+      "description": "Strained tomatoes; base for sauces.",
+      "aliases": [
+        { "name": "tomato passata" },
+        { "name": "tomatenpassata" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "2df81322-50ae-4d6a-be2a-bfeb7723d73b",
+      "name": "pesto",
+      "pluralName": "pesto",
+      "description": "Basil sauce with pine nuts and cheese; through pasta or on bread.",
+      "aliases": [
+        { "name": "green pesto" },
+        { "name": "pesto genovese" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "bdeb6c30-1bc7-4446-91df-6404203b0f90",
+      "name": "piccalilli",
+      "pluralName": "piccalilli",
+      "description": "Mustard pickle with pieces of vegetables; with cold meat.",
+      "aliases": [
+        { "name": "piccalilly" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "e06d4bb8-ac79-4a46-a481-df5b73194ceb",
+      "name": "pickles sauce",
+      "pluralName": "pickles sauces",
+      "description": "Belgian smooth mustard-piccalilli sauce; bright yellow sweet and sour fry sauce.",
+      "aliases": [
+        { "name": "picklessaus" },
+        { "name": "belgian pickles" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "1e422da5-d453-4715-995d-87e99d174ffc",
+      "name": "ponzu",
+      "pluralName": "ponzu",
+      "description": "Japanese citrus-soy sauce; fresh dressing or dip.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "543135e8-e6ad-4ea2-b289-a6be919a6ec8",
+      "name": "remoulade sauce",
+      "pluralName": "remoulade sauces",
+      "description": "Cold sauce with mayo and herbs; with fish, fries and cold dishes.",
+      "aliases": [
+        { "name": "remoulade" },
+        { "name": "remouladesaus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "4282031d-5e20-4cc6-8955-8308c70b77c3",
+      "name": "red curry paste",
+      "pluralName": "red curry pastes",
+      "description": "Thai herb paste with red peppers; base for curry.",
+      "aliases": [
+        { "name": "rode currypasta" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "e3bec873-ef18-45d7-be10-0f1edb33e227",
+      "name": "red pesto",
+      "pluralName": "red pesto",
+      "description": "Sauce of sun-dried tomatoes and nuts; through pasta or on toast.",
+      "aliases": [
+        { "name": "pesto rosso" },
+        { "name": "rode pesto" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "93cd3360-dcdb-4e1c-9300-c1cbec2540ab",
+      "name": "salsa",
+      "pluralName": "salsa",
+      "description": "Tomato-chili sauce; dip or topping for tacos and nachos.",
+      "aliases": [
+        { "name": "tomato salsa" },
+        { "name": "tomatensalsa" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "e0c381c2-a8d1-45e6-9e91-030bc44a436e",
+      "name": "sambal",
+      "pluralName": "sambal",
+      "description": "Indonesian chili paste; spicy condiment.",
+      "aliases": [
+        { "name": "sambal oelek" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "aaa06fed-2abb-4981-9887-03cadcca1ae9",
+      "name": "sambal badjak",
+      "pluralName": "sambal badjak",
+      "description": "Fried sambal with onion and trassi; sweet-spicy.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "c9adab5a-bd71-4956-b723-16c926ce7079",
+      "name": "sandwich spread",
+      "pluralName": "sandwich spreads",
+      "description": "Creamy vegetable sauce; savory spread with fine vegetable pieces.",
+      "aliases": [
+        { "name": "sandwichspread" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "68c61448-7ee7-49f3-affb-8114c2df3d51",
+      "name": "peanut sauce",
+      "pluralName": "peanut sauces",
+      "description": "Spicy sauce of peanut butter and sweet soy sauce, served with satay.",
+      "aliases": [
+        { "name": "satay sauce" },
+        { "name": "satésaus" },
+        { "name": "pindasaus" },
+        { "name": "satesaus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "e86cd15b-0b65-4dd0-a0c1-f88852eda2d9",
+      "name": "shoyu",
+      "pluralName": "shoyu",
+      "description": "Japanese soy sauce; dark and fermented, for sauces and sushi.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "8be8526f-147e-4b9c-960e-f57c6f797940",
+      "name": "soy sauce",
+      "pluralName": "soy sauces",
+      "description": "Fermented salty sauce; base in Asian cuisine.",
+      "aliases": [
+        { "name": "sojasaus" },
+        { "name": "ketjap asin" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "a1eaabbd-6bb1-4535-94da-eecc9f7d2733",
+      "name": "spare rib marinade",
+      "pluralName": "spare rib marinades",
+      "description": "Ready-made marinade for spare ribs; sweet and spicy.",
+      "aliases": [
+        { "name": "spareribs marinade" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "6161e8cc-ae66-4b1c-bb23-763f4d85b918",
+      "name": "sriracha",
+      "pluralName": "sriracha",
+      "description": "Thai chili sauce; spicy with garlic.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "58f031ad-6f1c-45ec-ac09-c5fd6e42b356",
+      "name": "tahini",
+      "pluralName": "tahini",
+      "description": "Sesame paste; ground sesame seeds, used in hummus and sauces.",
+      "aliases": [
+        { "name": "tahin" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "29725b37-89d0-4992-8fec-914d7a56f4aa",
+      "name": "tamari",
+      "pluralName": "tamari",
+      "description": "Japanese gluten-free soy sauce; dark and less salty.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "4e8ca7f9-740b-4069-8460-52d59af72d36",
+      "name": "tamarind paste",
+      "pluralName": "tamarind pastes",
+      "description": "Thickened tamarind; sour flavor accent in Asian cuisine.",
+      "aliases": [
+        { "name": "tamarindepasta" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "19428ef7-8fb8-4f93-b06b-be43d64adf25",
+      "name": "tamarind water",
+      "pluralName": "tamarind water",
+      "description": "Diluted tamarind pulp; sour liquid ingredient.",
+      "aliases": [
+        { "name": "tamarindewater" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "062bc72c-3e13-4b60-815f-e04fb371f77d",
+      "name": "teriyaki sauce",
+      "pluralName": "teriyaki sauces",
+      "description": "Japanese sweet soy sauce marinade; glaze for grilled meat or wok sauce.",
+      "aliases": [
+        { "name": "teriyakisaus" },
+        { "name": "teriyaki marinade" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "6bd9f4ab-a70c-4780-a97d-22ec148447d1",
+      "name": "thousand island dressing",
+      "pluralName": "thousand island dressings",
+      "description": "American dressing with mayonnaise, ketchup and pickle; for salads.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "b84b2ba8-3135-4bb7-af7f-47f340031734",
+      "name": "tomato paste",
+      "pluralName": "tomato paste",
+      "description": "Concentrated tomato paste; flavor base in sauces.",
+      "aliases": [
+        { "name": "tomatenpuree" },
+        { "name": "concentré de tomate" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "e126f417-75bb-442e-aa68-c53113f0074c",
+      "name": "shrimp paste",
+      "pluralName": "shrimp paste",
+      "description": "Dried shrimp paste; strong flavoring in Indonesian dishes.",
+      "aliases": [
+        { "name": "trassi" },
+        { "name": "terasi" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "f2885509-03d5-4d5d-ab99-d34df94bbfe1",
+      "name": "truffle tapenade",
+      "pluralName": "truffle tapenades",
+      "description": "Paste of olives and truffle; luxury spread on toast or through pasta.",
+      "aliases": [
+        { "name": "truffeltapenade" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "e7d0a844-12f5-445f-ac58-f92487bd45f2",
+      "name": "tzatziki",
+      "pluralName": "tzatziki",
+      "description": "Greek yogurt cucumber dip; cold side dish with garlic and dill.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "5d49f63e-6915-495d-898e-4cf40af9b763",
+      "name": "fish sauce",
+      "pluralName": "fish sauces",
+      "description": "Fermented Asian fish sauce; salty umami liquid in curries and dressings.",
+      "aliases": [
+        { "name": "vissaus" },
+        { "name": "nam pla" },
+        { "name": "nuoc mam" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "d04f1910-9cab-4a10-83c9-881a7784aac4",
+      "name": "wasabi",
+      "pluralName": "wasabi",
+      "description": "Japanese horseradish; sharp and fresh.",
+      "aliases": [],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "4433e963-94b8-4c9d-b7c5-fc47607d4ee7",
+      "name": "worcestershire sauce",
+      "pluralName": "worcestershire sauces",
+      "description": "English fermented sauce; drop by drop as flavoring.",
+      "aliases": [
+        { "name": "worcestershiresaus" },
+        { "name": "worchester saus" },
+        { "name": "worcestersaus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "2ef89c64-1bfb-4477-a72d-ef14ad93627c",
+      "name": "sweet chili sauce",
+      "pluralName": "sweet chili sauces",
+      "description": "Sweet and spicy sauce; dipping sauce or marinade.",
+      "aliases": [
+        { "name": "zoete chilisaus" }
+      ],
+      "label": "Sauces & Condiments"
+    },
+    {
+      "id": "369f622b-6f20-4872-91f0-ade0d64a72ee",
+      "name": "sweet soy sauce",
+      "pluralName": "sweet soy sauces",
+      "description": "Indonesian syrupy sweet soy sauce; used in marinades.",
+      "aliases": [
+        { "name": "ketjap manis" },
+        { "name": "zoete sojasaus" }
+      ],
+      "label": "Sauces & Condiments"
+    }
+  ]
+}

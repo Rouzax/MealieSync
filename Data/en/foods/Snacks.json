@@ -1,0 +1,67 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Foods",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "6ee545a9-3940-49cd-9227-a558cd5970a6",
+      "name": "potato chips",
+      "pluralName": "potato chips",
+      "description": "Fried potato slices; crispy snack or topping.",
+      "aliases": [
+        {
+          "name": "chips"
+        },
+        {
+          "name": "crisps"
+        }
+      ],
+      "label": "Snacks"
+    },
+    {
+      "id": "aeff7bfe-75ce-4fcf-a9e7-3d0c6bf4a29a",
+      "name": "prawn crackers",
+      "pluralName": "prawn crackers",
+      "description": "Fried cassava or shrimp cracker; crispy side dish with Indonesian dishes.",
+      "aliases": [
+        {
+          "name": "shrimp crackers"
+        },
+        {
+          "name": "kroepoek"
+        },
+        {
+          "name": "krupuk"
+        }
+      ],
+      "label": "Snacks"
+    },
+    {
+      "id": "8a81f3a7-e128-4131-adbc-822a66662491",
+      "name": "popcorn",
+      "pluralName": "popcorn",
+      "description": "Popped corn; light snack, sweet or salted.",
+      "aliases": [
+        {
+          "name": "popped corn"
+        }
+      ],
+      "label": "Snacks"
+    },
+    {
+      "id": "934d8ab6-88d4-4108-a50a-bf1cd063febb",
+      "name": "tortilla chips",
+      "pluralName": "tortilla chips",
+      "description": "Fried corn chips; for nachos and with dips.",
+      "aliases": [
+        {
+          "name": "corn chips"
+        },
+        {
+          "name": "nacho chips"
+        }
+      ],
+      "label": "Snacks"
+    }
+  ]
+}

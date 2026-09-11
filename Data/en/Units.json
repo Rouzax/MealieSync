@@ -1,0 +1,795 @@
+{
+  "$schema": "mealie-sync",
+  "$type": "Units",
+  "$version": "1.0",
+  "items": [
+    {
+      "id": "cf7cb23f-52ad-4ffd-9848-d5d8d3888deb",
+      "name": "tub",
+      "pluralName": "tubs",
+      "description": "Tub, punnet, or small tray (e.g., berries, dips, spreads)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "punnet"
+        },
+        {
+          "name": "tray"
+        },
+        {
+          "name": "container"
+        }
+      ]
+    },
+    {
+      "id": "a30a6ca9-f121-4c6e-b19e-b7682bc083de",
+      "name": "leaf",
+      "pluralName": "leaves",
+      "description": "Leaf (e.g., herbs, greens, gelatin leaves)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "leaves"
+        }
+      ]
+    },
+    {
+      "id": "b012050d-6eea-4e0a-9a61-fe3b89b006f3",
+      "name": "can",
+      "pluralName": "cans",
+      "description": "Can or tin (contents vary per product)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "tin"
+        },
+        {
+          "name": "small can"
+        }
+      ]
+    },
+    {
+      "id": "e6e54a9f-e88f-4cd4-8abc-d8c302c62614",
+      "name": "block",
+      "pluralName": "blocks",
+      "description": "Block (e.g., butter, cheese, tofu)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": []
+    },
+    {
+      "id": "a39ec7cf-1a83-4e8d-a9d7-39ff3fb4f3e6",
+      "name": "cube",
+      "pluralName": "cubes",
+      "description": "Cube (e.g., bouillon/stock cube)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "bouillon cube"
+        },
+        {
+          "name": "stock cube"
+        }
+      ]
+    },
+    {
+      "id": "4d2d5a7b-ce52-48fc-9c94-83975e2f8e58",
+      "name": "ball",
+      "pluralName": "balls",
+      "description": "Ball (e.g., mozzarella)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": []
+    },
+    {
+      "id": "736c1414-f111-403c-a7bc-23fc67ebee35",
+      "name": "bunch",
+      "pluralName": "bunches",
+      "description": "Bunch (herbs/vegetables)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "small bunch"
+        }
+      ]
+    },
+    {
+      "id": "502721a9-7222-46c5-9083-f5c303ce1ae7",
+      "name": "bundle",
+      "pluralName": "bundles",
+      "description": "Bundle (e.g., asparagus)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": []
+    },
+    {
+      "id": "c9b2b7a3-5437-4247-a060-27c6a5663bbb",
+      "name": "centiliter",
+      "pluralName": "centiliters",
+      "description": "Centiliter = 10 mL",
+      "abbreviation": "cl",
+      "pluralAbbreviation": "cl",
+      "useAbbreviation": true,
+      "fraction": false,
+      "aliases": [
+        {
+          "name": "centilitre"
+        }
+      ]
+    },
+    {
+      "id": "f648b4b0-6dc1-4208-bdd9-99c065b47275",
+      "name": "cup",
+      "pluralName": "cups",
+      "description": "US Cup = ~237 mL; US legal cup = 240 mL",
+      "abbreviation": "c",
+      "pluralAbbreviation": "c",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "c"
+        }
+      ]
+    },
+    {
+      "id": "7276d826-c265-4869-ba03-a8c53bad34b6",
+      "name": "deciliter",
+      "pluralName": "deciliters",
+      "description": "Deciliter = 100 mL",
+      "abbreviation": "dl",
+      "pluralAbbreviation": "dl",
+      "useAbbreviation": true,
+      "fraction": false,
+      "aliases": [
+        {
+          "name": "decilitre"
+        }
+      ]
+    },
+    {
+      "id": "04f2eff5-e9f1-4bdc-b8ce-8267409e5a48",
+      "name": "drop",
+      "pluralName": "drops",
+      "description": "Drop(s)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": false,
+      "aliases": [
+        {
+          "name": "droplet"
+        }
+      ]
+    },
+    {
+      "id": "02fd19fa-0f8f-4855-8133-cb19a3f250a1",
+      "name": "tablespoon",
+      "pluralName": "tablespoons",
+      "description": "15 mL (1 tablespoon)",
+      "abbreviation": "tbsp",
+      "pluralAbbreviation": "tbsp",
+      "useAbbreviation": true,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "tbs"
+        },
+        {
+          "name": "tb"
+        }
+      ]
+    },
+    {
+      "id": "a436f1fe-b265-4a68-8ff3-753625ed9c50",
+      "name": "bottle",
+      "pluralName": "bottles",
+      "description": "Bottle(s) (contents vary)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "small bottle"
+        }
+      ]
+    },
+    {
+      "id": "bb1c793d-4758-46e0-b1a2-7688da18ec56",
+      "name": "fluid ounce",
+      "pluralName": "fluid ounces",
+      "description": "US fl oz = 29.57353 mL; Imperial fl oz ≈ 28.412 mL",
+      "abbreviation": "fl oz",
+      "pluralAbbreviation": "fl oz",
+      "useAbbreviation": true,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "fl.oz"
+        },
+        {
+          "name": "fl. oz"
+        },
+        {
+          "name": "floz"
+        },
+        {
+          "name": "fluid oz"
+        }
+      ]
+    },
+    {
+      "id": "69178d9f-51a5-4262-a705-8faa8fc0c142",
+      "name": "gallon",
+      "pluralName": "gallons",
+      "description": "US gallon = 3.785411784 L; Imperial gallon ≈ 4.546 L",
+      "abbreviation": "gal",
+      "pluralAbbreviation": "gal",
+      "useAbbreviation": true,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "gal."
+        },
+        {
+          "name": "US gallon"
+        },
+        {
+          "name": "imperial gallon"
+        }
+      ]
+    },
+    {
+      "id": "da81e387-9bef-44cb-b53a-7ab455cdec6d",
+      "name": "gram",
+      "pluralName": "grams",
+      "description": "Gram (mass)",
+      "abbreviation": "g",
+      "pluralAbbreviation": "g",
+      "useAbbreviation": true,
+      "fraction": false,
+      "aliases": [
+        {
+          "name": "gr"
+        },
+        {
+          "name": "g."
+        }
+      ]
+    },
+    {
+      "id": "f2f80e0b-d741-46fc-a19f-7da3f71d9e68",
+      "name": "handful",
+      "pluralName": "handfuls",
+      "description": "Handful (quantity varies)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "hand"
+        }
+      ]
+    },
+    {
+      "id": "75657a5b-a9dd-4551-b3dc-82f74a75f73e",
+      "name": "hectogram",
+      "pluralName": "hectograms",
+      "description": "Hectogram = 100 g (often abbreviated 'hg' in Dutch/European recipes)",
+      "abbreviation": "hg",
+      "pluralAbbreviation": "hg",
+      "useAbbreviation": true,
+      "fraction": false,
+      "aliases": [
+        {
+          "name": "hectogramme"
+        }
+      ]
+    },
+    {
+      "id": "fdaaa09d-1e43-43e0-87c3-4a51f200ad1b",
+      "name": "head",
+      "pluralName": "heads",
+      "description": "Head (e.g., cabbage, lettuce, garlic)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": []
+    },
+    {
+      "id": "597ce9d8-d216-4dd9-a734-d39510b508dc",
+      "name": "kilogram",
+      "pluralName": "kilograms",
+      "description": "Kilogram = 1000 g",
+      "abbreviation": "kg",
+      "pluralAbbreviation": "kg",
+      "useAbbreviation": true,
+      "fraction": false,
+      "aliases": [
+        {
+          "name": "kilo"
+        },
+        {
+          "name": "kilogramme"
+        }
+      ]
+    },
+    {
+      "id": "bfca0cfd-67d9-4643-82b4-2c3e702a4447",
+      "name": "liter",
+      "pluralName": "liters",
+      "description": "Liter = 1000 mL",
+      "abbreviation": "l",
+      "pluralAbbreviation": "l",
+      "useAbbreviation": true,
+      "fraction": false,
+      "aliases": [
+        {
+          "name": "L"
+        },
+        {
+          "name": "litre"
+        }
+      ]
+    },
+    {
+      "id": "b536e9e4-3033-4137-90c0-a76670f0f760",
+      "name": "milligram",
+      "pluralName": "milligrams",
+      "description": "Milligram = 0.001 g",
+      "abbreviation": "mg",
+      "pluralAbbreviation": "mg",
+      "useAbbreviation": true,
+      "fraction": false,
+      "aliases": [
+        {
+          "name": "milligramme"
+        }
+      ]
+    },
+    {
+      "id": "45447492-cce3-4434-bd1a-08504245e819",
+      "name": "milliliter",
+      "pluralName": "milliliters",
+      "description": "Milliliter = 0.001 L",
+      "abbreviation": "ml",
+      "pluralAbbreviation": "ml",
+      "useAbbreviation": true,
+      "fraction": false,
+      "aliases": [
+        {
+          "name": "mL"
+        },
+        {
+          "name": "millilitre"
+        }
+      ]
+    },
+    {
+      "id": "f4f9a177-e1a6-4b31-834b-3f71d99c6110",
+      "name": "Dutch ounce",
+      "pluralName": "Dutch ounces",
+      "description": "Traditional Dutch unit (ons) = 100 g (distinct from Imperial ounce)",
+      "abbreviation": "ons",
+      "pluralAbbreviation": "ons",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "ons"
+        },
+        {
+          "name": "100g"
+        }
+      ]
+    },
+    {
+      "id": "00f0e5ce-209a-4139-a49f-affd950075c0",
+      "name": "ounce",
+      "pluralName": "ounces",
+      "description": "1 avoirdupois ounce (oz) = 28.349523125 g",
+      "abbreviation": "oz",
+      "pluralAbbreviation": "oz",
+      "useAbbreviation": true,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "oz."
+        }
+      ]
+    },
+    {
+      "id": "40c7d492-d12d-49d2-9496-dad5fdb5eace",
+      "name": "pack",
+      "pluralName": "packs",
+      "description": "Pack/package (packaging)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "packet"
+        },
+        {
+          "name": "package"
+        }
+      ]
+    },
+    {
+      "id": "118aada2-9762-49c1-88c0-bb478817042a",
+      "name": "pint",
+      "pluralName": "pints",
+      "description": "US liquid pint ≈ 473.1765 mL; Imperial pint ≈ 568.24 mL",
+      "abbreviation": "pt",
+      "pluralAbbreviation": "pt",
+      "useAbbreviation": true,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "pt."
+        },
+        {
+          "name": "imperial pint"
+        },
+        {
+          "name": "US pint"
+        },
+        {
+          "name": "liquid pint"
+        }
+      ]
+    },
+    {
+      "id": "9d8e774d-0a4d-4b93-8d4f-c01ad10ca4f1",
+      "name": "slice",
+      "pluralName": "slices",
+      "description": "Slice(s) (e.g., cheese/ham)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "slab"
+        }
+      ]
+    },
+    {
+      "id": "3c736d29-1f44-4e6f-8bbd-0da04b921959",
+      "name": "Dutch pound",
+      "pluralName": "Dutch pounds",
+      "description": "Traditional Dutch unit (pond) = 500 g (distinct from Imperial pound = 453.59 g)",
+      "abbreviation": "pond",
+      "pluralAbbreviation": "pond",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "pond"
+        },
+        {
+          "name": "metric pound"
+        }
+      ]
+    },
+    {
+      "id": "8b030940-3291-44cd-8ca0-35bf7d23ad71",
+      "name": "portion",
+      "pluralName": "portions",
+      "description": "Portion(s) or serving(s)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "serving"
+        },
+        {
+          "name": "servings"
+        }
+      ]
+    },
+    {
+      "id": "4078f158-1907-43b2-aca5-8830477ddf57",
+      "name": "jar",
+      "pluralName": "jars",
+      "description": "Jar(s) or pot(s) (contents vary)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "pot"
+        },
+        {
+          "name": "small jar"
+        }
+      ]
+    },
+    {
+      "id": "6b15ffd6-7ca7-48f9-a185-1c95c6ec976c",
+      "name": "pound",
+      "pluralName": "pounds",
+      "description": "1 avoirdupois pound (lb) = 453.59237 g (exact)",
+      "abbreviation": "lb",
+      "pluralAbbreviation": "lb",
+      "useAbbreviation": true,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "lbs"
+        },
+        {
+          "name": "lb."
+        }
+      ]
+    },
+    {
+      "id": "eea99000-e26d-46d9-92e4-9152e090754a",
+      "name": "quart",
+      "pluralName": "quarts",
+      "description": "US liquid quart ≈ 946.3529 mL; Imperial quart ≈ 1.1365 L",
+      "abbreviation": "qt",
+      "pluralAbbreviation": "qt",
+      "useAbbreviation": true,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "qt."
+        },
+        {
+          "name": "imperial quart"
+        },
+        {
+          "name": "US quart"
+        },
+        {
+          "name": "liquid quart"
+        }
+      ]
+    },
+    {
+      "id": "93864d97-6e07-45e9-9901-ed2cc21b7a8b",
+      "name": "bar",
+      "pluralName": "bars",
+      "description": "Bar(s) (e.g., chocolate bar)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "strip"
+        }
+      ]
+    },
+    {
+      "id": "18231b4d-3f85-4041-8e7d-02ed2410759b",
+      "name": "ring",
+      "pluralName": "rings",
+      "description": "Ring(s) (e.g., onion rings)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": []
+    },
+    {
+      "id": "41961a66-f9db-4d6b-8e9e-06b94433ff4f",
+      "name": "scoop",
+      "pluralName": "scoops",
+      "description": "Scoop(s) (e.g., ice cream, protein powder)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "dollop"
+        }
+      ]
+    },
+    {
+      "id": "4ea1ad4d-13a2-4cc5-8749-fc9a42fc8c2f",
+      "name": "dash",
+      "pluralName": "dashes",
+      "description": "Dash or splash: small unmeasured amount of liquid",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": false,
+      "aliases": [
+        {
+          "name": "splash"
+        },
+        {
+          "name": "drizzle"
+        }
+      ]
+    },
+    {
+      "id": "77280f6e-ee8a-4446-836c-5104de1176e8",
+      "name": "round",
+      "pluralName": "rounds",
+      "description": "Round or wheel slice (e.g., lemon, cucumber)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "wheel"
+        }
+      ]
+    },
+    {
+      "id": "74ce6fc9-8749-44fb-b7d4-15f17e6dcdc3",
+      "name": "pinch",
+      "pluralName": "pinches",
+      "description": "Pinch: small amount (pinch or tip of a knife)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": false,
+      "aliases": [
+        {
+          "name": "dash of spice"
+        },
+        {
+          "name": "tip of a knife"
+        }
+      ]
+    },
+    {
+      "id": "2c26df24-9183-4369-95ef-dafea95d52dc",
+      "name": "stalk",
+      "pluralName": "stalks",
+      "description": "Stalk(s) (e.g., celery)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "stem"
+        }
+      ]
+    },
+    {
+      "id": "765628b0-859e-488c-b6fe-585bbbe6f7ca",
+      "name": "stick",
+      "pluralName": "sticks",
+      "description": "Stick(s) (e.g., cinnamon stick)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": []
+    },
+    {
+      "id": "85e8ca29-ae59-413f-8457-1c33b6a273a3",
+      "name": "piece",
+      "pluralName": "pieces",
+      "description": "Piece(s) / per item",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "pc"
+        },
+        {
+          "name": "pcs"
+        },
+        {
+          "name": "item"
+        },
+        {
+          "name": "items"
+        }
+      ]
+    },
+    {
+      "id": "66a135c3-60de-4f00-a63f-9a997f4251a2",
+      "name": "sprig",
+      "pluralName": "sprigs",
+      "description": "Sprig(s) (for herbs)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "twig"
+        }
+      ]
+    },
+    {
+      "id": "c5f139cb-6a86-4932-9a91-f38087ad95cb",
+      "name": "clove",
+      "pluralName": "cloves",
+      "description": "Clove(s) (for garlic)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": []
+    },
+    {
+      "id": "44e01a84-1cd5-4761-a343-c28fc7826a6c",
+      "name": "teaspoon",
+      "pluralName": "teaspoons",
+      "description": "5 mL (1 teaspoon)",
+      "abbreviation": "tsp",
+      "pluralAbbreviation": "tsp",
+      "useAbbreviation": true,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "tsp."
+        }
+      ]
+    },
+    {
+      "id": "dc072696-d2d5-4a4e-8bb9-e1abbe590e2f",
+      "name": "truss",
+      "pluralName": "trusses",
+      "description": "Truss or cluster (e.g., vine tomatoes, grapes)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "cluster"
+        }
+      ]
+    },
+    {
+      "id": "259bce54-4d3b-4a5c-80fd-70c9d79ea1d8",
+      "name": "pouch",
+      "pluralName": "pouches",
+      "description": "Pouch, sachet, or small bag (contents vary)",
+      "abbreviation": "",
+      "pluralAbbreviation": "",
+      "useAbbreviation": false,
+      "fraction": true,
+      "aliases": [
+        {
+          "name": "sachet"
+        },
+        {
+          "name": "bag"
+        }
+      ]
+    }
+  ]
+}
