@@ -824,6 +824,18 @@
       "label": "Herbes et épices"
     },
     {
+      "id": "79dcfd16-affd-4d9a-b42a-e1c9757ea5aa",
+      "name": "graines de moutarde",
+      "pluralName": "graines de moutarde",
+      "description": "Graines de la moutarde; éclatent dans l'huile chaude au début des currys.",
+      "aliases": [
+        {
+          "name": "mustard seeds"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
       "id": "cf55f9a3-3533-40fb-a078-1216c3ae8805",
       "name": "graines de moutarde brune",
       "pluralName": "graines de moutarde brune",

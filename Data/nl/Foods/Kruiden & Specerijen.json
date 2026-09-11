@@ -1311,6 +1311,21 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "79dcfd16-affd-4d9a-b42a-e1c9757ea5aa",
+      "name": "mosterdzaad",
+      "pluralName": "mosterdzaad",
+      "description": "Zaad van de mosterdplant; knapt open in hete olie als basis voor curry.",
+      "aliases": [
+        {
+          "name": "mustard seeds"
+        },
+        {
+          "name": "mosterdzaadjes"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "2295b117-3dbd-4efe-94f6-a3684dbdc2fe",
       "name": "munt [gedroogd]",
       "pluralName": "munt [gedroogd]",

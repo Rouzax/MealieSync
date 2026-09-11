@@ -736,6 +736,24 @@
       "label": "Groente"
     },
     {
+      "id": "01b6a949-592e-496c-9f51-cd0916234ac2",
+      "name": "mexicaanse groentemix",
+      "pluralName": "mexicaanse groentemix",
+      "description": "Groentemix met mais, kidneybonen en paprika; basis voor chili en eenpansgerechten.",
+      "aliases": [
+        {
+          "name": "mexicaanse groenten"
+        },
+        {
+          "name": "mexicaanse groentenmix"
+        },
+        {
+          "name": "mexican vegetable mix"
+        }
+      ],
+      "label": "Groente"
+    },
+    {
       "id": "f8d43679-fd21-4223-a9a0-daec096c3ee3",
       "name": "monniksbaard",
       "pluralName": "monniksbaard",

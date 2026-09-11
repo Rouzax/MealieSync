@@ -452,6 +452,18 @@
       "label": "Pommes de terre et tubercules"
     },
     {
+      "id": "3e3bfcda-5ad8-4aec-b1c2-03118172f40c",
+      "name": "rösti",
+      "pluralName": "rösti",
+      "description": "Galette de pommes de terre râpées suisse; prête à poêler.",
+      "aliases": [
+        {
+          "name": "rosti"
+        }
+      ],
+      "label": "Pommes de terre et tubercules"
+    },
+    {
       "id": "967b4bd6-63ee-494e-8b3a-e5d5375d2601",
       "name": "rutabaga",
       "pluralName": "rutabagas",

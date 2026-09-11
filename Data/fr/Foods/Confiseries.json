@@ -279,6 +279,18 @@
       "label": "Confiseries"
     },
     {
+      "id": "24f4ab75-1005-4428-907a-bc392fa4eded",
+      "name": "glace à la vanille",
+      "pluralName": "glace à la vanille",
+      "description": "Crème glacée à la vanille; avec les tartes, cobblers et fruits chauds.",
+      "aliases": [
+        {
+          "name": "vanilla ice cream"
+        }
+      ],
+      "label": "Confiseries"
+    },
+    {
       "id": "b2480091-33ff-4031-a3e5-086ce61bbc54",
       "name": "halva",
       "pluralName": "halva",

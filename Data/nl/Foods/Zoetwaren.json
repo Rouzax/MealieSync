@@ -649,6 +649,24 @@
       "label": "Zoetwaren"
     },
     {
+      "id": "24f4ab75-1005-4428-907a-bc392fa4eded",
+      "name": "vanille-ijs",
+      "pluralName": "vanille-ijs",
+      "description": "Roomijs met vanille; bij taart, cobbler en warm fruit.",
+      "aliases": [
+        {
+          "name": "vanilleijs"
+        },
+        {
+          "name": "vanille ijs"
+        },
+        {
+          "name": "vanilla ice cream"
+        }
+      ],
+      "label": "Zoetwaren"
+    },
+    {
       "id": "ad4dc6df-f80a-46f5-a076-a63b381e2c74",
       "name": "vruchtenhagel",
       "pluralName": "vruchtenhagel",

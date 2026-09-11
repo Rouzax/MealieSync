@@ -690,6 +690,18 @@
       "label": "Légumes"
     },
     {
+      "id": "01b6a949-592e-496c-9f51-cd0916234ac2",
+      "name": "mélange de légumes mexicain",
+      "pluralName": "mélange de légumes mexicain",
+      "description": "Mélange de maïs, haricots rouges et poivron; base des chilis et plats uniques.",
+      "aliases": [
+        {
+          "name": "mexicaanse groenten"
+        }
+      ],
+      "label": "Légumes"
+    },
+    {
       "id": "1ecb2290-904a-4180-af38-419d2c18b838",
       "name": "mélange de légumes pour wok",
       "pluralName": "mélanges de légumes pour wok",

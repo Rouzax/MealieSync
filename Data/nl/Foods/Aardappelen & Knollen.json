@@ -440,6 +440,24 @@
       "label": "Aardappelen & Knollen"
     },
     {
+      "id": "3e3bfcda-5ad8-4aec-b1c2-03118172f40c",
+      "name": "rösti",
+      "pluralName": "rösti",
+      "description": "Zwitserse aardappelkoek van geraspte aardappel; kant-en-klaar in de pan te bakken.",
+      "aliases": [
+        {
+          "name": "rosti"
+        },
+        {
+          "name": "roesti"
+        },
+        {
+          "name": "aardappelrosti"
+        }
+      ],
+      "label": "Aardappelen & Knollen"
+    },
+    {
       "id": "7f5a120c-b720-4a81-a49e-dca1341c8fd6",
       "name": "schorseneer",
       "pluralName": "schorseneren",
