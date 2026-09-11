@@ -43,6 +43,18 @@
       "label": "Viandes"
     },
     {
+      "id": "f223983e-7292-40e0-bb1c-3dd88f77f9db",
+      "name": "boulette de viande",
+      "pluralName": "boulettes de viande",
+      "description": "Boulette de viande hachée prête à l'emploi; en sauce, en soupe ou au four.",
+      "aliases": [
+        {
+          "name": "meatball"
+        }
+      ],
+      "label": "Viandes"
+    },
+    {
       "id": "b145f8ef-f608-4302-ac27-c6db851df6ff",
       "name": "bœuf",
       "pluralName": "bœuf",

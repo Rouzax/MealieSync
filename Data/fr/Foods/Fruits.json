@@ -258,6 +258,21 @@
       "label": "Fruits"
     },
     {
+      "id": "14ad6085-dafd-41c0-b6d0-d9aa0198455b",
+      "name": "citron [mariné]",
+      "pluralName": "citrons [marinés]",
+      "description": "Citron confit au sel de la cuisine nord-africaine; salé et acidulé en tajine.",
+      "aliases": [
+        {
+          "name": "preserved lemon"
+        },
+        {
+          "name": "citron confit"
+        }
+      ],
+      "label": "Fruits"
+    },
+    {
       "id": "6c8607c2-d06b-4176-8466-7c9c47981ca0",
       "name": "citron [zeste]",
       "pluralName": "citron [zeste]",

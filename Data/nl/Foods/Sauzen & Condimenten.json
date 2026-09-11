@@ -560,6 +560,24 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "21b44f1e-d80d-4dec-b338-0c14f794785a",
+      "name": "olijf-harissasaus",
+      "pluralName": "olijf-harissasaus",
+      "description": "Tomatensaus met kalamata-olijven en harissa; zilt en pittig, voor pasta of shakshuka.",
+      "aliases": [
+        {
+          "name": "kalamata-olijf- en harissasaus"
+        },
+        {
+          "name": "kalamata olive and harissa sauce"
+        },
+        {
+          "name": "olijf- en harissasaus"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "14a4b96e-f91b-46c7-b520-9d4211059dee",
       "name": "olijfpasta",
       "pluralName": "olijfpasta",

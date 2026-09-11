@@ -205,6 +205,27 @@
       "label": "Fruit"
     },
     {
+      "id": "14ad6085-dafd-41c0-b6d0-d9aa0198455b",
+      "name": "citroen [ingelegd]",
+      "pluralName": "citroenen [ingelegd]",
+      "description": "In zout gerijpte citroen uit de Noord-Afrikaanse keuken; zilt-zuur in tajine en marinade.",
+      "aliases": [
+        {
+          "name": "ingelegde citroen"
+        },
+        {
+          "name": "ingelegde citroenen"
+        },
+        {
+          "name": "preserved lemon"
+        },
+        {
+          "name": "gepekelde citroen"
+        }
+      ],
+      "label": "Fruit"
+    },
+    {
       "id": "6c8607c2-d06b-4176-8466-7c9c47981ca0",
       "name": "citroen [rasp]",
       "pluralName": "citroen [rasp]",

@@ -615,6 +615,18 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "21b44f1e-d80d-4dec-b338-0c14f794785a",
+      "name": "sauce aux olives et harissa",
+      "pluralName": "sauces aux olives et harissa",
+      "description": "Sauce tomate aux olives kalamata et harissa; salée et relevée, pour les pâtes.",
+      "aliases": [
+        {
+          "name": "kalamata olive and harissa sauce"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "04ee30ff-25ed-4f12-9e69-d2722d86c4e3",
       "name": "sauce babi pangang",
       "pluralName": "sauce babi pangang",

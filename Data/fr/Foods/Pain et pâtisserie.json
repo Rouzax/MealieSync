@@ -376,6 +376,18 @@
       "label": "Pain et pâtisserie"
     },
     {
+      "id": "c88ca3cd-cbcb-4f59-bdef-3f3a6c6b9d7c",
+      "name": "panettone",
+      "pluralName": "panettones",
+      "description": "Brioche de Noël italienne aux fruits secs; en gâteau ou en pudding.",
+      "aliases": [
+        {
+          "name": "panettoni"
+        }
+      ],
+      "label": "Pain et pâtisserie"
+    },
+    {
       "id": "e557ac6f-fcf2-4a70-84f2-e3b51d522155",
       "name": "panko",
       "pluralName": "panko",

@@ -160,6 +160,21 @@
       "label": "Vlees"
     },
     {
+      "id": "f223983e-7292-40e0-bb1c-3dd88f77f9db",
+      "name": "gehaktbal",
+      "pluralName": "gehaktballen",
+      "description": "Kant-en-klare bal van gekruid gehakt; voor in saus, soep of ovenschotel.",
+      "aliases": [
+        {
+          "name": "meatball"
+        },
+        {
+          "name": "meatballs"
+        }
+      ],
+      "label": "Vlees"
+    },
+    {
       "id": "b73dab35-1dec-40bd-a007-5fc0796f017d",
       "name": "gnoe",
       "pluralName": "gnoe",

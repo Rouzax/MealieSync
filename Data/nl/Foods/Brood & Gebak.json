@@ -373,6 +373,18 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "c88ca3cd-cbcb-4f59-bdef-3f3a6c6b9d7c",
+      "name": "panettone",
+      "pluralName": "panettones",
+      "description": "Italiaans luchtig kerstbrood met gedroogd fruit; als gebak of basis voor pudding.",
+      "aliases": [
+        {
+          "name": "panettoni"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
       "id": "e557ac6f-fcf2-4a70-84f2-e3b51d522155",
       "name": "panko",
       "pluralName": "panko",
