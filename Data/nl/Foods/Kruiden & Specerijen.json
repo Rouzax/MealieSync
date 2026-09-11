@@ -1598,6 +1598,24 @@
       "label": "Kruiden & Specerijen"
     },
     {
+      "id": "a13c623a-3d36-49e1-810a-df3c1f56b520",
+      "name": "roti masala",
+      "pluralName": "roti masala",
+      "description": "Surinaamse kerriemix voor roti; met komijn, kurkuma en fenegriek.",
+      "aliases": [
+        {
+          "name": "rotikruiden"
+        },
+        {
+          "name": "roti kruiden"
+        },
+        {
+          "name": "masala roti"
+        }
+      ],
+      "label": "Kruiden & Specerijen"
+    },
+    {
       "id": "dc172b04-8cb3-47f8-afaf-4fd124a5b7bc",
       "name": "roze peper",
       "pluralName": "roze peper",

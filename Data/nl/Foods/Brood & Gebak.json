@@ -436,6 +436,24 @@
       "label": "Brood & Gebak"
     },
     {
+      "id": "4eba48e2-43cb-4140-bd40-2efaf68517dc",
+      "name": "rotivel",
+      "pluralName": "rotivellen",
+      "description": "Surinaams dun platbrood van bloem; om curry en aardappel in te rollen.",
+      "aliases": [
+        {
+          "name": "roti"
+        },
+        {
+          "name": "roti vel"
+        },
+        {
+          "name": "roti vellen"
+        }
+      ],
+      "label": "Brood & Gebak"
+    },
+    {
       "id": "17a0ca5a-260e-4911-8a0a-438654f10243",
       "name": "stokbrood",
       "pluralName": "stokbroden",
@@ -470,6 +488,9 @@
         },
         {
           "name": "tortilla wrap"
+        },
+        {
+          "name": "wrap"
         }
       ],
       "label": "Brood & Gebak"

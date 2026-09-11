@@ -1075,6 +1075,18 @@
       "label": "Herbes et épices"
     },
     {
+      "id": "a13c623a-3d36-49e1-810a-df3c1f56b520",
+      "name": "masala roti",
+      "pluralName": "masala roti",
+      "description": "Mélange surinamien pour le roti; cumin, curcuma et fenugrec.",
+      "aliases": [
+        {
+          "name": "roti masala"
+        }
+      ],
+      "label": "Herbes et épices"
+    },
+    {
       "id": "d887602e-e4c4-4aef-951c-3121bc1709d1",
       "name": "mélange d'épices aux agrumes",
       "pluralName": "mélanges d'épices aux agrumes",

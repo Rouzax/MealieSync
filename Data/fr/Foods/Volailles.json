@@ -638,6 +638,18 @@
       "label": "Volailles"
     },
     {
+      "id": "d37384d0-0733-4f3e-ac28-4b750271bbd2",
+      "name": "poulet teriyaki",
+      "pluralName": "poulet teriyaki",
+      "description": "Poulet mariné à la sauce teriyaki; prêt à cuire au four ou à la poêle.",
+      "aliases": [
+        {
+          "name": "teriyaki chicken"
+        }
+      ],
+      "label": "Volailles"
+    },
+    {
       "id": "1af95e0a-3536-481d-b605-4f27ab2bedfe",
       "name": "poussin",
       "pluralName": "poussins",

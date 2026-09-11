@@ -317,6 +317,18 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "3f4f8fe9-c971-4353-bff9-808b58df0db7",
+      "name": "pâte boemboe rendang",
+      "pluralName": "pâte boemboe rendang",
+      "description": "Pâte d'épices indonésienne pour le rendang; galanga, curcuma et piment.",
+      "aliases": [
+        {
+          "name": "rendang boemboe"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "3a6ff084-744c-45ce-b617-236ea5c0ec43",
       "name": "pâte d'ail",
       "pluralName": "pâte d'ail",
@@ -890,6 +902,18 @@
         },
         {
           "name": "worcestersaus"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
+      "id": "08a504be-38a3-4d5b-8fe4-b8bfa6c18512",
+      "name": "seroendeng",
+      "pluralName": "seroendeng",
+      "description": "Condiment indonésien de coco râpée grillée et cacahuètes; croquant sur le riz.",
+      "aliases": [
+        {
+          "name": "serundeng"
         }
       ],
       "label": "Sauces et condiments"

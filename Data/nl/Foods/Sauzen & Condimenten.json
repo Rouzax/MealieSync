@@ -129,6 +129,24 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "3f4f8fe9-c971-4353-bff9-808b58df0db7",
+      "name": "boemboe rendang",
+      "pluralName": "boemboe rendang",
+      "description": "Indonesische kruidenpasta voor rendang; met galanga, kurkuma en chili voor stoofvlees.",
+      "aliases": [
+        {
+          "name": "rendang boemboe"
+        },
+        {
+          "name": "rendangpasta"
+        },
+        {
+          "name": "rendang kruidenpasta"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "57011bb6-fe15-4378-ab75-72c2747aec6f",
       "name": "boemboe saté",
       "pluralName": "boemboe saté",
@@ -788,6 +806,21 @@
         },
         {
           "name": "satesaus"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
+      "id": "08a504be-38a3-4d5b-8fe4-b8bfa6c18512",
+      "name": "seroendeng",
+      "pluralName": "seroendeng",
+      "description": "Indonesisch strooisel van geroosterde kokos en pinda; knapperig over rijst en saté.",
+      "aliases": [
+        {
+          "name": "serundeng"
+        },
+        {
+          "name": "seroendeng kokos"
         }
       ],
       "label": "Sauzen & Condimenten"

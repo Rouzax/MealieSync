@@ -155,6 +155,18 @@
       "label": "Pain et pâtisserie"
     },
     {
+      "id": "4eba48e2-43cb-4140-bd40-2efaf68517dc",
+      "name": "galette roti",
+      "pluralName": "galettes roti",
+      "description": "Pain plat surinamien à la farine; pour rouler curry et pommes de terre.",
+      "aliases": [
+        {
+          "name": "roti"
+        }
+      ],
+      "label": "Pain et pâtisserie"
+    },
+    {
       "id": "04f0643a-244f-4e4e-a89c-586d11624bae",
       "name": "gâteau aux œufs",
       "pluralName": "gâteaux aux œufs",

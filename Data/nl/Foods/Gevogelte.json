@@ -673,6 +673,24 @@
         }
       ],
       "label": "Gevogelte"
+    },
+    {
+      "id": "d37384d0-0733-4f3e-ac28-4b750271bbd2",
+      "name": "teriyakikip",
+      "pluralName": "teriyakikip",
+      "description": "Kip voorgemarineerd in teriyakisaus; kant-en-klaar voor oven, pan of wrap.",
+      "aliases": [
+        {
+          "name": "teriyaki kip"
+        },
+        {
+          "name": "teriyaki-kip"
+        },
+        {
+          "name": "kip teriyaki"
+        }
+      ],
+      "label": "Gevogelte"
     }
   ]
 }
