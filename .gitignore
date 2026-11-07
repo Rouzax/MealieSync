@@ -1,5 +1,6 @@
-# Configuration with secrets
-mealie-config.json
+# Configuration with secrets: every mealie-config*.json holds a token, except the sample
+mealie-config*.json
+!mealie-config-sample.json
 
 # Exports folder (backups, personal data)
 Exports/
