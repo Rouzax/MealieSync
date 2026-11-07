@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- A food import into a second group on the same Mealie instance failed with `API Error (409): This item already exists` for every food whose id the other group already held. Current Mealie answers 409 where older versions answered 400, and the automatic switch to importing without ids only recognised 400. It now recognises both, as described in [Troubleshooting](docs/troubleshooting.md).
+
 ### Added
 
 - Ko-fi support link on the README, the documentation site footer, and the GitHub repository page. Nothing about using MealieSync changes.

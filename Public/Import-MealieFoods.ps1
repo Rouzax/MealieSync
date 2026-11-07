@@ -546,7 +546,9 @@ function Import-MealieFoods {
                         New-MealieFood @params | Out-Null
                     }
                     catch {
-                        if ($hasId -and $_ -match '400') {
+                        # Food ids are unique across the instance, so an id another group holds is
+                        # refused: 400 on older Mealie, 409 on current Mealie.
+                        if ($hasId -and "$_" -match 'API Error \((400|409)\)') {
                             $params.Remove('Id')
                             New-MealieFood @params | Out-Null
                             $skipIds = $true
