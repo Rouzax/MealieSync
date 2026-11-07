@@ -965,6 +965,24 @@
       "label": "Sauzen & Condimenten"
     },
     {
+      "id": "3df97b13-110a-409f-9d8f-5aaa5a72f185",
+      "name": "truffelmayonaise",
+      "pluralName": "truffelmayonaise",
+      "description": "Mayonaise met truffel; op hapjes, carpaccio en friet.",
+      "aliases": [
+        {
+          "name": "truffel mayonaise"
+        },
+        {
+          "name": "truffelmayo"
+        },
+        {
+          "name": "truffle mayonnaise"
+        }
+      ],
+      "label": "Sauzen & Condimenten"
+    },
+    {
       "id": "f2885509-03d5-4d5d-ab99-d34df94bbfe1",
       "name": "truffeltapenade",
       "pluralName": "truffeltapenade",

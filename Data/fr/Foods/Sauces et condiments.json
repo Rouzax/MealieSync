@@ -207,6 +207,21 @@
       "label": "Sauces et condiments"
     },
     {
+      "id": "3df97b13-110a-409f-9d8f-5aaa5a72f185",
+      "name": "mayonnaise à la truffe",
+      "pluralName": "mayonnaise à la truffe",
+      "description": "Mayonnaise parfumée à la truffe; sur amuse-bouches, carpaccio et frites.",
+      "aliases": [
+        {
+          "name": "mayonnaise truffe"
+        },
+        {
+          "name": "mayo à la truffe"
+        }
+      ],
+      "label": "Sauces et condiments"
+    },
+    {
       "id": "295f7ff0-e8fa-47dd-9012-a2b76717a7d9",
       "name": "miso",
       "pluralName": "miso",
